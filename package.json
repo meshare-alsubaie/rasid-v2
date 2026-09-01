@@ -32,6 +32,8 @@
     "test:gates": "tsx scripts/test-gates.ts",
     "test:costfilter": "tsx scripts/test-costfilter.ts",
     "test:triage": "tsx scripts/test-triage.ts",
+    "test:schedule": "tsx scripts/test-schedule.ts",
+    "watch": "tsx scripts/watch.ts",
     "build:benchmark": "tsx scripts/build-benchmark.ts",
     "audit:contrast": "tsx scripts/audit-contrast.ts",
     "audit:privacy": "tsx scripts/audit-privacy.ts",

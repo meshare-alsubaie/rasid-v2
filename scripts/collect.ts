@@ -57,6 +57,29 @@ const onlyArg = args.indexOf("--only");
 /** Debug one source without hitting every host again. */
 const ONLY = onlyArg >= 0 ? args[onlyArg + 1] : null;
 
+/**
+ * Read only the sources named in a file, one url per line.
+ *
+ * This is how the resident watcher drives a round. It decides which sources are
+ * due on their own intervals and hands the list over, rather than this script
+ * sweeping everything four times a day.
+ *
+ * A round over a subset must not prune: `wholeRun` below is already false
+ * whenever a filter is in play, so health and snapshot records for sources that
+ * were simply not due this cycle are carried forward untouched. Getting that
+ * wrong would delete most of the dataset every fifteen minutes.
+ */
+const urlsArg = args.indexOf("--urls");
+const URL_LIST: Set<string> | null =
+  urlsArg >= 0
+    ? new Set(
+        readFileSync(args[urlsArg + 1]!, "utf8")
+          .split(/\r?\n/)
+          .map((l) => l.trim())
+          .filter(Boolean),
+      )
+    : null;
+
 // A BOM is stripped because Windows editors and PowerShell add one silently,
 // and JSON.parse rejects it with an error that points at nothing useful.
 const read = <T>(p: string): T[] =>
@@ -115,6 +138,7 @@ const targets: Target[] = [
   ),
 ]
   .filter((t) => ONLY === null || t.ownerId === ONLY)
+  .filter((t) => URL_LIST === null || URL_LIST.has(t.url))
   .slice(0, LIMIT);
 
 const staticTargets = targets.filter((t) => t.renderMode === "static");
@@ -156,7 +180,7 @@ const now = new Date().toISOString();
  * Only run when the whole set is being collected: with --org or --limit the
  * targets are a slice, and pruning against a slice would delete the rest.
  */
-const wholeRun = ONLY === null && !Number.isFinite(LIMIT);
+const wholeRun = ONLY === null && URL_LIST === null && !Number.isFinite(LIMIT);
 const live = new Set(targets.map((t) => t.url));
 const keep = <T extends { sourceUrl: string }>(rows: T[]): T[] =>
   wholeRun ? rows.filter((r) => live.has(r.sourceUrl)) : rows;

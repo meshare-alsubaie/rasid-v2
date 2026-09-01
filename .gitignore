@@ -21,3 +21,8 @@ data/*.json.tmp
 .DS_Store
 Thumbs.db
 scheduled-run.log
+
+# Per-machine watcher state: which source is due when, and the list handed to
+# the current cycle. Rebuilt on first run; committing it would push one
+# machine's timing into everyone else's clone.
+.rasid/
