@@ -1,0 +1,334 @@
+{
+  "vantage": "laptop-riyadh",
+  "ranAtISO": "2026-09-01T06:23:08.860Z",
+  "egress": {
+    "ip": "2001:16a2:…",
+    "country": "SA",
+    "edge": "MXP"
+  },
+  "userAgent": "RASID-CoopTracker/1.0 (personal student project; contact: <set>)",
+  "summary": {
+    "total": 10,
+    "served": 9,
+    "blocked": 1,
+    "robotsUnreachable": 0,
+    "other": 0
+  },
+  "results": [
+    {
+      "orgId": "nca",
+      "orgAr": "الهيئة الوطنية للأمن السيبراني",
+      "tier": "S",
+      "host": "nca.gov.sa",
+      "url": "https://nca.gov.sa/ar/cyber-training-and-qualifications/",
+      "type": "careers_page",
+      "renderMode": "static",
+      "ip": "2a13:2400::10",
+      "robots": {
+        "reachable": true,
+        "status": 200,
+        "allowed": true,
+        "crawlDelayMs": 1500,
+        "note": "Allow: /",
+        "ms": 356
+      },
+      "http": {
+        "status": 200,
+        "finalUrl": "https://nca.gov.sa/ar/cyber-training-and-qualifications/",
+        "redirected": false,
+        "bytes": 578391,
+        "contentType": "text/html; charset=utf-8",
+        "title": "تأهيل وتدريب الكوادر السيبرانية | NCA",
+        "ms": 513,
+        "server": null,
+        "edges": [],
+        "challenges": []
+      },
+      "verdict": "SERVED"
+    },
+    {
+      "orgId": "sama",
+      "orgAr": "البنك المركزي السعودي",
+      "tier": "S",
+      "host": "careers.sama.gov.sa",
+      "url": "https://careers.sama.gov.sa/",
+      "type": "site_root",
+      "renderMode": "static",
+      "ip": "34.166.153.97",
+      "robots": {
+        "reachable": true,
+        "status": 200,
+        "allowed": true,
+        "crawlDelayMs": 1500,
+        "note": "no matching rule",
+        "ms": 106
+      },
+      "http": {
+        "status": 200,
+        "finalUrl": "https://careers.sama.gov.sa/",
+        "redirected": false,
+        "bytes": 54707,
+        "contentType": "text/html;charset=UTF-8",
+        "title": "SAMA Careers",
+        "ms": 128,
+        "server": "Apache",
+        "edges": [],
+        "challenges": []
+      },
+      "verdict": "SERVED"
+    },
+    {
+      "orgId": "pif",
+      "orgAr": "صندوق الاستثمارات العامة",
+      "tier": "S",
+      "host": "www.pif.gov.sa",
+      "url": "https://www.pif.gov.sa/",
+      "type": "site_root",
+      "renderMode": "browser",
+      "ip": "2606:4700:7::d0",
+      "robots": {
+        "reachable": true,
+        "status": 403,
+        "allowed": true,
+        "note": "no robots.txt (4xx)",
+        "ms": 265
+      },
+      "http": {
+        "status": 403,
+        "finalUrl": "https://www.pif.gov.sa/",
+        "redirected": false,
+        "bytes": 5862,
+        "contentType": "text/html; charset=UTF-8",
+        "title": "Attention Required! | Cloudflare",
+        "ms": 102,
+        "server": "cloudflare",
+        "edges": [
+          "cloudflare"
+        ],
+        "challenges": [
+          "bot-interstitial",
+          "captcha"
+        ]
+      },
+      "verdict": "CHALLENGED"
+    },
+    {
+      "orgId": "sdaia",
+      "orgAr": "الهيئة السعودية للبيانات والذكاء الاصطناعي",
+      "tier": "S",
+      "host": "careers.sdaia.gov.sa",
+      "url": "https://careers.sdaia.gov.sa/training",
+      "type": "careers_page",
+      "renderMode": "browser",
+      "ip": "66.9.126.2",
+      "robots": {
+        "reachable": true,
+        "status": 200,
+        "allowed": true,
+        "note": "no group",
+        "ms": 121
+      },
+      "http": {
+        "status": 200,
+        "finalUrl": "https://careers.sdaia.gov.sa/training",
+        "redirected": false,
+        "bytes": 894,
+        "contentType": "text/html",
+        "title": "Careers",
+        "ms": 144,
+        "server": null,
+        "edges": [],
+        "challenges": []
+      },
+      "verdict": "SERVED"
+    },
+    {
+      "orgId": "zatca",
+      "orgAr": "هيئة الزكاة والضريبة والجمارك",
+      "tier": "A",
+      "host": "zatca.gov.sa",
+      "url": "https://zatca.gov.sa/ar",
+      "type": "site_root",
+      "renderMode": "static",
+      "ip": "2a06:8480::1e",
+      "robots": {
+        "reachable": true,
+        "status": 200,
+        "allowed": true,
+        "crawlDelayMs": 1500,
+        "note": "no matching rule",
+        "ms": 416
+      },
+      "http": {
+        "status": 200,
+        "finalUrl": "https://zatca.gov.sa/ar/Pages/default.aspx",
+        "redirected": true,
+        "bytes": 191539,
+        "contentType": "text/html; charset=utf-8",
+        "title": "هيئة الزكاة والضريبة والجمارك",
+        "ms": 1006,
+        "server": null,
+        "edges": [],
+        "challenges": []
+      },
+      "verdict": "SERVED"
+    },
+    {
+      "orgId": "gastat",
+      "orgAr": "الهيئة العامة للإحصاء",
+      "tier": "A",
+      "host": "www.stats.gov.sa",
+      "url": "https://www.stats.gov.sa/en/cooperative-training",
+      "type": "careers_page",
+      "renderMode": "static",
+      "ip": "66.9.137.52",
+      "robots": {
+        "reachable": true,
+        "status": 200,
+        "allowed": true,
+        "crawlDelayMs": 1500,
+        "note": "no matching rule",
+        "ms": 173
+      },
+      "http": {
+        "status": 200,
+        "finalUrl": "https://www.stats.gov.sa/en/cooperative-training",
+        "redirected": false,
+        "bytes": 189823,
+        "contentType": "text/html;charset=UTF-8",
+        "title": "Cooperative Training - General Authority for Statistics",
+        "ms": 917,
+        "server": null,
+        "edges": [],
+        "challenges": []
+      },
+      "verdict": "SERVED"
+    },
+    {
+      "orgId": "sfda",
+      "orgAr": "الهيئة العامة للغذاء والدواء",
+      "tier": "A",
+      "host": "www.sfda.gov.sa",
+      "url": "https://www.sfda.gov.sa/ar",
+      "type": "site_root",
+      "renderMode": "static",
+      "ip": "195.189.212.79",
+      "robots": {
+        "reachable": true,
+        "status": 200,
+        "allowed": true,
+        "crawlDelayMs": 1500,
+        "note": "no matching rule",
+        "ms": 1133
+      },
+      "http": {
+        "status": 200,
+        "finalUrl": "https://www.sfda.gov.sa/ar",
+        "redirected": false,
+        "bytes": 124294,
+        "contentType": "text/html; charset=utf-8",
+        "title": "الهيئة العامة للغذاء والدواء",
+        "ms": 78,
+        "server": null,
+        "edges": [],
+        "challenges": []
+      },
+      "verdict": "SERVED"
+    },
+    {
+      "orgId": "ndf",
+      "orgAr": "صندوق التنمية الوطني",
+      "tier": "A",
+      "host": "ndf.gov.sa",
+      "url": "https://ndf.gov.sa/",
+      "type": "site_root",
+      "renderMode": "static",
+      "ip": "2600:1900:5400:5e3:8000:0:a3c:1512",
+      "robots": {
+        "reachable": true,
+        "status": 200,
+        "allowed": true,
+        "crawlDelayMs": 1500,
+        "note": "Allow: /",
+        "ms": 380
+      },
+      "http": {
+        "status": 200,
+        "finalUrl": "https://ndf.gov.sa/",
+        "redirected": false,
+        "bytes": 130392,
+        "contentType": "text/html; charset=utf-8",
+        "title": "صندوق التنمية الوطني",
+        "ms": 109,
+        "server": null,
+        "edges": [],
+        "challenges": []
+      },
+      "verdict": "SERVED"
+    },
+    {
+      "orgId": "hrsd",
+      "orgAr": "وزارة الموارد البشرية والتنمية الاجتماعية",
+      "tier": "C",
+      "host": "www.hrsd.gov.sa",
+      "url": "https://www.hrsd.gov.sa/care-about-you/skillsandtrain",
+      "type": "careers_page",
+      "renderMode": "static",
+      "ip": "2606:4700:3031::6815:1632",
+      "robots": {
+        "reachable": true,
+        "status": 200,
+        "allowed": true,
+        "crawlDelayMs": 1500,
+        "note": "Allow: /",
+        "ms": 261
+      },
+      "http": {
+        "status": 200,
+        "finalUrl": "https://www.hrsd.gov.sa/care-about-you/skillsandtrain",
+        "redirected": false,
+        "bytes": 638387,
+        "contentType": "text/html; charset=utf-8",
+        "title": "المهارات و التدريب | وزارة الموارد البشرية والتنمية الاجتماعية",
+        "ms": 135,
+        "server": "cloudflare",
+        "edges": [
+          "cloudflare"
+        ],
+        "challenges": []
+      },
+      "verdict": "SERVED"
+    },
+    {
+      "orgId": "moh",
+      "orgAr": "وزارة الصحة",
+      "tier": "C",
+      "host": "www.moh.gov.sa",
+      "url": "https://www.moh.gov.sa/Pages/Default.aspx",
+      "type": "site_root",
+      "renderMode": "static",
+      "ip": "2a02:df1:14:4:1::1",
+      "robots": {
+        "reachable": true,
+        "status": 200,
+        "allowed": true,
+        "crawlDelayMs": 1500,
+        "note": "no matching rule",
+        "ms": 380
+      },
+      "http": {
+        "status": 200,
+        "finalUrl": "https://www.moh.gov.sa/Pages/Default.aspx",
+        "redirected": false,
+        "bytes": 76827,
+        "contentType": "text/html; charset=utf-8",
+        "title": "المملكة العربية السعودية - البوابة الإلكترونية لوزارة الصحة",
+        "ms": 136,
+        "server": null,
+        "edges": [],
+        "challenges": []
+      },
+      "verdict": "SERVED"
+    }
+  ]
+}

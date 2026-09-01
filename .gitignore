@@ -1,0 +1,20 @@
+node_modules/
+dist/
+.cache/
+.env
+.env.*
+
+# The student profile. The only file here that describes a person, and the
+# repository is public. See .profile.example.
+.profile.local
+
+# The contact address put in the User-Agent, so site owners can reach a human.
+# A personal email, and this repository is public.
+.contact.local
+*.log
+# A data file mid-write. Present only while a round is writing, and never
+# committed: a half-written dataset is the one thing worse than a late one.
+data/*.json.tmp
+.DS_Store
+Thumbs.db
+scheduled-run.log

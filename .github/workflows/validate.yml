@@ -1,0 +1,76 @@
+name: validate
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          # undici 8 needs Node 22. See collect.yml for the failure it causes.
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      # Types and schemas must agree before the data is judged.
+      - run: npm run typecheck
+
+      # Fails on any honesty violation: a value without provenance, a published
+      # rule without its wording, a graduate-development record shown as open.
+      - run: npm run validate
+
+      # The rules that guard the two things a null must never become: a zero,
+      # and a notification.
+      - run: npm run test:classifier
+      - run: npm run test:notify
+      # The two silent failures an adversarial audit proved: a window that never
+      # opens because its status was cached, and a record deleted for the crime
+      # of its page going quiet.
+      - run: npm run test:lifecycle
+      # The one judgement the sitemap reader makes alone: is this url worth
+      # opening. It has been wrong before, on "cooperation" versus "co-op".
+      - run: npm run test:sitemap
+      # Dates are the one field where a careful guess is worse than none, so
+      # they are a table lookup with a test table, not a prompt.
+      - run: npm run test:hijri
+      # Every case here is a page that actually broke extraction once.
+      - run: npm run test:extract
+      # Twenty real announcements against the specification's score bands. It
+      # replays answers recorded once, so it costs nothing here; re-record with
+      # "npm run build:benchmark" whenever the system prompt changes.
+      - run: npm run test:benchmark
+      # Twelve faults, each served by a local server, and the four slow failures
+      # that only show up months in. Neither costs anything to run.
+      - run: npm run test:faults
+      - run: npm run test:longrun
+      # The collector's own entry point. Two dashes in a comment once stopped it
+      # parsing, and the round failed before it could write to its log.
+      - run: npm run test:scripts
+      # The checkers, checked. Twice a gate has passed while looking at nothing;
+      # this plants a fault each one must catch and fails if it does not.
+      - run: npm run test:gates
+      # The filter that decides which pages are worth paying to judge. A false
+      # negative here is an announcement nobody ever looks at.
+      - run: npm run test:costfilter
+      # test:triage is deliberately not here: it makes real API calls, and CI
+      # must not spend. Run it by hand after changing the triage prompt.
+
+      # The repository is public. The README called this a gate before it was
+      # one: it was a habit someone had to remember, run by hand, with nothing
+      # stopping a commit that carried a key or a person's details.
+      - run: npm run audit:privacy
+
+      # Acceptance criteria 8.7 are measured, not asserted: contrast on every
+      # theme, and the Lighthouse bars the spec names. Both need a browser and a
+      # real build, so they run last.
+      - run: npx playwright install --with-deps chromium
+      - run: npm run build
+      - run: npm run audit:contrast
+      - run: npm run audit:lighthouse
