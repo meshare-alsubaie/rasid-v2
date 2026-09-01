@@ -46,6 +46,12 @@ import type {
   SourceHealth,
   SourceSnapshot,
 } from "../src/types";
+import { loadEnvFile } from "../src/pipeline/env";
+
+/* Secrets live in a gitignored .env on this machine. Read before anything
+ * asks process.env for one: a scheduled task starts with a bare environment,
+ * and a missing subscription makes the notifier skip silently. */
+loadEnvFile();
 
 const args = process.argv.slice(2);
 const has = (flag: string): boolean => args.includes(flag);

@@ -25,6 +25,12 @@ import {
   type NoticeLogEntry,
 } from "../src/pipeline/notify";
 import type { Opportunity, Organisation, SourceHealth } from "../src/types";
+import { loadEnvFile } from "../src/pipeline/env";
+
+/* Secrets live in a gitignored .env on this machine. Read before anything
+ * asks process.env for one: a scheduled task starts with a bare environment,
+ * and a missing subscription makes the notifier skip silently. */
+loadEnvFile();
 
 const DRY = process.argv.includes("--dry-run");
 /** Prove the whole chain works, without waiting for a real announcement. */
