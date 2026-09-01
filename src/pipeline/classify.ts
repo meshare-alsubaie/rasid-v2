@@ -84,8 +84,6 @@ export interface Classification {
   cities: string[];
   statesZeroCoursesRule: boolean;
   zeroCoursesQuote: string | null;
-  relevanceScore: number;
-  relevanceReason: string;
   applyUrl: string | null;
 }
 
@@ -220,8 +218,6 @@ Return ONLY valid JSON, no markdown fences, matching this schema:
   "cities": string[],
   "statesZeroCoursesRule": boolean,
   "zeroCoursesQuote": string | null,
-  "relevanceScore": number,
-  "relevanceReason": string,
   "applyUrl": string | null
 }
 
@@ -232,11 +228,11 @@ RULES
   courses or demands full-time availability as a condition. Copy the exact
   wording into zeroCoursesQuote. Absence of such a rule is NOT evidence of
   flexibility — it is simply absence.
-- relevanceScore: 0 if product is "graduate_dev" (he cannot apply).
-  90–100 if the role names cybersecurity, SOC, information security, or
-  security analysis. 60–85 for networks, systems, IT, software, data.
-  20–50 for general technical. 0–15 for unrelated fields.
-- relevanceReason: one short Arabic sentence explaining the score.
+- majors: copy the fields of study the page names, verbatim. Do not translate
+  them, rank them, or decide whether they suit anyone. Whether this fits the
+  reader is worked out afterwards, in code, from these words: it is a
+  comparison against his profile and it has one right answer, so it is not
+  yours to estimate.
 - opensISO / closesISO: a Gregorian ISO date (YYYY-MM-DD) ONLY if the page
   itself gives one. Otherwise null. Do not convert a Hijri date yourself.
 - opensRaw / closesRaw: the date exactly as the page writes it, copied
@@ -280,8 +276,6 @@ const schema = {
     "cities",
     "statesZeroCoursesRule",
     "zeroCoursesQuote",
-    "relevanceScore",
-    "relevanceReason",
     "applyUrl",
   ],
   properties: {
@@ -303,8 +297,6 @@ const schema = {
     cities: { type: "array", items: { type: "string" } },
     statesZeroCoursesRule: { type: "boolean" },
     zeroCoursesQuote: { type: ["string", "null"] },
-    relevanceScore: { type: "number", minimum: 0, maximum: 100 },
-    relevanceReason: { type: "string", minLength: 1 },
     applyUrl: { type: ["string", "null"] },
   },
 } as const;

@@ -15,6 +15,7 @@
 import { execFileSync } from "node:child_process";
 import { readFileSync, writeFileSync } from "node:fs";
 import webpush from "web-push";
+import { showToast } from "../src/pipeline/toast";
 import {
   decide,
   inQuietHours,
@@ -222,10 +223,39 @@ async function sendDigest(items: Notice[]): Promise<boolean> {
   return true;
 }
 
+/* ---------- Windows toast ---------- */
+
+/**
+ * The same notices, on the machine he is sitting at.
+ *
+ * Web push needs a browser process alive to receive it and he is usually in a
+ * full-screen game with none open, so the phone alone leaves a hole exactly
+ * where he spends most of the day. This closes it, and the two channels fail
+ * for entirely unrelated reasons, which is the reason to have both.
+ *
+ * Deliberately outside the sent-log. The log exists so a failed send is retried
+ * and a successful one is never repeated, and the thing that must not be lost
+ * is the phone: it is what reaches him away from the desk. A toast that
+ * appeared must not be able to mark a notice delivered and stop the push being
+ * tried again. Repeating a toast for a notice still waiting on push is the
+ * lesser fault, and it errs towards telling him.
+ */
+async function showToasts(items: Notice[]): Promise<number> {
+  if (items.length === 0 || DRY) return 0;
+  let shown = 0;
+  for (const n of items) {
+    const r = await showToast(n.title, n.body);
+    if (r.ok) shown++;
+    else console.log(`toast: ${n.key} not shown (${r.reason})`);
+  }
+  return shown;
+}
+
 const pushedKeys = await sendPush(push);
+const toasted = await showToasts(push);
 const digested = await sendDigest(digestOnly);
 console.log(
-  `sent: ${pushedKeys.length} push, ${digested ? "1" : "0"} digest${DRY ? " (dry run)" : ""}`,
+  `sent: ${pushedKeys.length} push, ${toasted} toast, ${digested ? "1" : "0"} digest${DRY ? " (dry run)" : ""}`,
 );
 
 /* Only what actually went out is logged, so a failed send is retried next run. */

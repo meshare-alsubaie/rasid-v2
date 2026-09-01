@@ -9,6 +9,8 @@
  */
 import { createHash } from "node:crypto";
 import type { Classification } from "./classify";
+import { studentProfile } from "./classify";
+import { readProfile, relevanceOf } from "./relevance";
 import { parseArabicDate } from "../hijri";
 import { endOfDeadline, hijriOf, startOfDay } from "../types";
 import type { Opportunity, OpportunityFlag, OpportunityStatus } from "../types";
@@ -46,10 +48,16 @@ export function statusOf(c: Classification, nowISO: string): OpportunityStatus {
   return "unknown";
 }
 
-function flagsFor(c: Classification, status: OpportunityStatus, firstTime: boolean): OpportunityFlag[] {
+function flagsFor(
+  c: Classification,
+  score: number | null,
+  status: OpportunityStatus,
+  firstTime: boolean,
+): OpportunityFlag[] {
   const flags: OpportunityFlag[] = [];
   if (c.product === "graduate_dev") flags.push("wrong_product");
-  if (c.relevanceScore >= 90) flags.push("exact_major_match");
+  // Null is "not scored", never "scored low", so it earns no flag either way.
+  if (score !== null && score >= 90) flags.push("exact_major_match");
   if (c.seats !== null && c.seats <= 5) flags.push("few_seats");
   if (c.stipendSAR !== null && c.stipendSAR > 0) flags.push("has_stipend");
   if (status === "closing_soon") flags.push("closing_in_48h");
@@ -133,6 +141,18 @@ export function fromClassification(args: Common & { c: Classification }): Opport
   // record is built this is a real string.
   const titleAr = c.titleAr ?? "";
 
+  /*
+   * The fit is computed here, from the facts the model copied off the page.
+   *
+   * A profile this cannot read yields null rather than a number, and null is
+   * the value that means "not judged" throughout this project: the app shows it
+   * as needing review, and the validator requires that flag beside it. It never
+   * means "not for him". A zero would mean that, and a zero we did not earn is
+   * how an opportunity disappears quietly.
+   */
+  const reader = readProfile(studentProfile() ?? "");
+  const fit = reader === null ? null : relevanceOf(c, reader);
+
   return {
     id: idFor(orgId, titleAr, firstSeenISO),
     orgId,
@@ -150,11 +170,16 @@ export function fromClassification(args: Common & { c: Classification }): Opport
     stipendSAR: c.stipendSAR,
     durationWeeks: c.durationWeeks,
     cities: c.cities,
-    relevanceScore: c.relevanceScore,
-    relevanceReason: c.relevanceReason,
+    relevanceScore: fit?.score ?? null,
+    relevanceReason:
+      fit?.reason ??
+      "لم تُحسب الملاءمة: ملفّك الشخصي لا يذكر تخصّصاً معروفاً، فلم يُحكم على قربها منك.",
     statesZeroCoursesRule: c.statesZeroCoursesRule,
     zeroCoursesQuote: c.zeroCoursesQuote,
-    flags: flagsFor(c, status, firstTime),
+    flags: [
+      ...flagsFor(c, fit?.score ?? null, status, firstTime),
+      ...(fit === null ? (["needs_manual_review"] as const) : []),
+    ],
     sourceUrl,
     applyUrl: absoluteApplyUrl(c.applyUrl, sourceUrl),
     rawExcerpt: text.slice(0, 400),

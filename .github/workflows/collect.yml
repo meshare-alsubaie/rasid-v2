@@ -1,173 +1,67 @@
-name: collect and deploy
+name: build and deploy
+
+# Collection no longer happens here, and this file is mostly the record of why.
+#
+# GitHub's runners are in the United States and a large share of Saudi
+# government sites refuse them: nine of the eleven failures in the first cloud
+# run were .gov.sa hosts that answer the owner's machine without complaint. A
+# later measurement put it at 7 of 10 test sources from a data centre against
+# 9 of 10 from Riyadh. So the machine in Riyadh was already the only real
+# collector, and this workflow was collecting a worse copy of the same data
+# four times a day and committing it.
+#
+# Two things then made that actively harmful rather than merely wasteful:
+#
+#   - The classifier is now a model running on the owner's own CPU. There is no
+#     model on a runner, so a run here would fetch every page, judge none, and
+#     commit a dataset in which every source is degraded and every record needs
+#     manual review. It would look like a successful run.
+#
+#   - Two collectors writing to one branch already cost a round with a
+#     cybersecurity announcement scored 95 in it.
+#
+# What a runner is still good at is building and publishing, which needs no
+# Saudi address and no model. That is all it does now. The watcher on the
+# owner's machine collects, judges, notifies, and pushes; this answers the push.
 
 on:
-  schedule:
-    # Every six hours. A co-op window can be seven days long, so a quarter-day
-    # miss is the most this is allowed to cost.
-    - cron: "0 */6 * * *"
   push:
     branches: [master, main]
   workflow_dispatch:
-    inputs:
-      test_notification:
-        description: "Send one test notification instead of real ones"
-        type: boolean
-        default: false
 
 permissions:
-  contents: write
+  contents: read
   pages: write
   id-token: write
 
-# One run at a time. Two collectors committing to data/ would race, and a
-# half-written dataset is worse than a late one.
+# One deploy at a time. Two publishes racing would serve a half-updated site.
 concurrency:
-  group: rasid-collect
-  cancel-in-progress: false
+  group: rasid-v2-pages
+  cancel-in-progress: true
 
 jobs:
-  run:
+  deploy:
     runs-on: ubuntu-latest
-    # A stuck run holds the concurrency group, which holds every deploy behind
-    # it. Six hours of that is worse than a missed collection.
-    timeout-minutes: 45
+    timeout-minutes: 10
     environment:
       name: github-pages
       url: ${{ steps.deploy.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
-        with:
-          # Two commits, so a push-triggered run can see the state before the
-          # push. With the default depth of one there is no "before" to compare
-          # against and every announcement looks like old news.
-          fetch-depth: 2
-          # The default token cannot rebase onto a branch it has not fetched.
-          persist-credentials: true
 
       - uses: actions/setup-node@v4
         with:
-          # undici 8 needs Node 22: on 20 it fails at import with
-          # "webidl.util.markAsUncloneable is not a function".
           node-version: 22
           cache: npm
 
       - run: npm ci
 
-      # Before the collection, not after: broken code should fail in seconds
-      # rather than after a quarter-hour of fetching and paid classification.
+      # Before the build, so broken code fails in seconds rather than shipping.
       - run: npm run typecheck
 
-      # Only a couple of sources need a real browser. If the download fails the
-      # run must carry on: the static half of the collection is most of it, and
-      # those sources simply stay degraded, which is visible in the app.
-      - name: Install Chromium for rendered sources
-        id: chromium
-        continue-on-error: true
-        run: npx playwright install --with-deps chromium
-
-      # Pages nobody added by hand, before reading the ones we have.
-      #
-      # The collector can only ever fetch urls already in the dataset, and these
-      # bodies announce at fresh addresses rather than by editing a standing
-      # page — so without this, an announcement can be published, run its whole
-      # window and close, entirely unseen. One request per organisation returns
-      # every url the site declares; only the new ones whose path is about
-      # training are proposed, and each still has to be opened and judged.
-      #
-      # Once a day, at the 00:00 UTC round: a sitemap that moved this morning
-      # will still have moved tomorrow, and four passes a day over a hundred
-      # sites is noise on their logs for nothing.
-      - name: Look for newly published pages
-        if: github.event_name == 'schedule' && startsWith(github.event.schedule, '0 0')
-        continue-on-error: true
-        timeout-minutes: 12
-        env:
-          RASID_CONTACT: ${{ secrets.RASID_CONTACT }}
-        run: |
-          npm run sitemaps
-          npm run verify-leads
-
-      - name: Collect
-        # Skipped on an ordinary code push: a deploy should not spend API
-        # credits or hammer the sources just because a stylesheet changed.
-        # Skipped for a notification test too: that test is about the push
-        # chain, and making someone wait twenty minutes to learn whether their
-        # phone rings is its own kind of broken.
-        if: github.event_name != 'push' && !inputs.test_notification
-        # Bounded, and allowed to fail. Most of the hosts this runner cannot
-        # reach fail by timing out rather than refusing, so a full pass from a
-        # United States address is slow in a way the machine in Riyadh is not.
-        # If it overruns, nothing has been written yet — the run carries on with
-        # the dataset it already had, and still notifies and deploys. A late
-        # collection must never cost the deploy.
-        timeout-minutes: 25
-        continue-on-error: true
-        env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          # Without this the classifier refuses to run, which is the designed
-          # behaviour and exactly what the first live run did.
-          RASID_STUDENT_PROFILE: ${{ secrets.RASID_STUDENT_PROFILE }}
-          RASID_CONTACT: ${{ secrets.RASID_CONTACT }}
-        run: npm run collect
-
-      # Before the commit, because "what is newly true" is measured against the
-      # previous commit. Every channel is optional; a missing secret turns that
-      # channel off and says so in the log.
-      # Runs on a push as well, because the scheduled task on the owner's
-      # machine collects from a Saudi address and pushes the result. Many
-      # .gov.sa sites refuse a US runner, so that machine sees pages this one
-      # cannot, and its push is what should raise the alert.
-      - name: Notify
-        env:
-          VAPID_PUBLIC_KEY: ${{ secrets.VAPID_PUBLIC_KEY }}
-          VAPID_PRIVATE_KEY: ${{ secrets.VAPID_PRIVATE_KEY }}
-          RASID_PUSH_SUBSCRIPTION: ${{ secrets.RASID_PUSH_SUBSCRIPTION }}
-          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
-          NOTIFY_EMAIL: ${{ secrets.NOTIFY_EMAIL }}
-          RASID_CONTACT: ${{ secrets.RASID_CONTACT }}
-          # On a push the new data is already in HEAD, so "before" has to be the
-          # commit the push started from. On any other trigger the collection
-          # above is still uncommitted and HEAD is already the previous state.
-          RASID_BEFORE_REF: ${{ github.event_name == 'push' && github.event.before || 'HEAD' }}
-        run: npm run notify ${{ inputs.test_notification && '-- --test' || '' }}
-
-      # The schema and the honesty rules. Deliberately after Notify: an alert is
-      # about a change already observed, and a flaw in one record should not
-      # swallow a deadline the user is waiting for. It still gates the commit
-      # and the deploy, so a dataset that fails this is never published.
+      # The honesty rules. A dataset that fails these is never published, which
+      # is the whole point of running it between the push and the deploy.
       - run: npm run validate
-
-      - name: Commit the dataset if it moved
-        if: github.event_name != 'push'
-        run: |
-          git config user.name "rasid-collector"
-          git config user.email "actions@github.com"
-          if git diff --quiet -- data; then
-            echo "nothing changed"
-            exit 0
-          fi
-          git add data
-          git commit -m "data: collection run $(date -u +%Y-%m-%dT%H:%MZ)"
-          # Two collectors write to this branch — this one and the scheduled
-          # task on the owner's machine — and neither knows about the other. A
-          # bare push therefore loses whole rounds to "fetch first", and one of
-          # them had a cybersecurity announcement in it scored 95, sent as a
-          # notification and then thrown away with the ephemeral runner. Rebase
-          # onto whatever landed while this run was collecting, and try again.
-          for attempt in 1 2 3; do
-            if git push; then
-              echo "pushed on attempt $attempt"
-              exit 0
-            fi
-            echo "push rejected, rebasing onto origin/master (attempt $attempt)"
-            git fetch origin master
-            git rebase origin/master || { git rebase --abort; break; }
-          done
-          # Nothing collected is lost from the user's point of view — the
-          # notifications for this round have already gone out — but the data is
-          # gone with the runner, so this has to be loud rather than green.
-          echo "::error::could not push the collected dataset after three attempts"
-          exit 1
 
       - env:
           VITE_VAPID_PUBLIC_KEY: ${{ secrets.VAPID_PUBLIC_KEY }}

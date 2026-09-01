@@ -151,8 +151,11 @@ const good: Asker = async () => ({
     cities: ["الرياض"],
     statesZeroCoursesRule: false,
     zeroCoursesQuote: null,
-    relevanceScore: 95,
-    relevanceReason: "الإعلان يسمّي الأمن السيبراني صراحةً.",
+    // No score and no reasoning: the schema sets additionalProperties: false,
+    // so a reply still carrying them is now rejected rather than tolerated.
+    // That is the guard working - the model is not asked about the reader any
+    // more, and a reply that volunteers an opinion about him is not a reply we
+    // recognise.
     applyUrl: null,
   }),
   usage: noUsage,
@@ -169,7 +172,22 @@ if (ok.ok) {
     firstTime: true,
     c: ok.value,
   });
-  check("score passes through", rec.relevanceScore === 95, String(rec.relevanceScore));
+  /*
+   * Nothing passes through any more, and that is the change worth asserting.
+   *
+   * This used to check that the score the model returned reached the record
+   * unaltered. The model is no longer asked: the reply carries the majors the
+   * page printed, and the score is computed from them against the profile. So
+   * the check is that the record earned its number, and that it can be
+   * explained - the empty explanation is what broke eight of twenty live
+   * judgements before this moved into code.
+   */
+  check(
+    "the record is scored from the page's own words",
+    rec.relevanceScore !== null && rec.relevanceScore >= 90,
+    String(rec.relevanceScore),
+  );
+  check("and carries a reason that is not empty", rec.relevanceReason.trim().length > 0, rec.relevanceReason);
   check("no manual-review flag", !rec.flags.includes("needs_manual_review"));
   check("few_seats flagged at 3 seats", rec.flags.includes("few_seats"));
   check("no dates means status unknown, not open", rec.status === "unknown", rec.status);
@@ -333,14 +351,33 @@ if (process.argv.includes("--live")) {
     check("classified", r.ok, r.ok ? "" : `${r.stage}: ${r.reason}`);
     if (!r.ok) continue;
 
-    console.log(`    product=${r.value.product} score=${r.value.relevanceScore}`);
-    console.log(`    reason: ${r.value.relevanceReason}`);
+    /*
+     * The score is no longer the model's to give, so it is read off the record
+     * the pipeline builds rather than off the reply. That is the thing worth
+     * testing anyway: the model's job here is to copy the majors and the
+     * product off the page, and the score is arithmetic on top of them.
+     */
+    const record = fromClassification({
+      orgId: "test",
+      sourceUrl: "https://example.gov.sa/coop",
+      text,
+      nowISO: NOW,
+      prior: undefined,
+      firstTime: true,
+      c: r.value,
+    });
+    console.log(`    product=${r.value.product} majors=[${r.value.majors.join(", ")}]`);
+    console.log(`    score=${record.relevanceScore}  ${record.relevanceReason}`);
     if (expect === "zero") {
       check("product is graduate_dev", r.value.product === "graduate_dev", r.value.product);
-      check("score is exactly 0", r.value.relevanceScore === 0, String(r.value.relevanceScore));
+      check("score is exactly 0", record.relevanceScore === 0, String(record.relevanceScore));
     } else {
       check("product is coop", r.value.product === "coop", r.value.product);
-      check("score above 90", r.value.relevanceScore > 90, String(r.value.relevanceScore));
+      check(
+        "the page's own words put it in the cybersecurity band",
+        record.relevanceScore !== null && record.relevanceScore >= 90,
+        String(record.relevanceScore),
+      );
     }
   }
   console.log(
