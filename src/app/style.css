@@ -226,17 +226,41 @@ a {
   border-radius: 3px;
 }
 
+/*
+ * Hidden by clipping it to a single pixel, not by parking it off the page.
+ *
+ * `inset-inline-start: -9999px` is the classic trick and it is a
+ * left-to-right trick. In an RTL document the inline start is the right edge,
+ * so this pushed a 126px link ten thousand pixels past it, and the browser
+ * duly reported a document 84px wider than the viewport. Everything then sat
+ * 72px off the right edge with no scrollbar to reach it - the masthead, the
+ * headline, the first words of every sentence.
+ *
+ * The clip-path form takes no space in either direction, so it is direction-
+ * agnostic and cannot do this. On focus it becomes a real fixed banner, which
+ * is what a skip link is for.
+ */
 .skip-link {
   position: absolute;
-  inset-inline-start: -9999px;
-  top: 0;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
   background: var(--ink);
   color: var(--paper);
-  padding: var(--s2) var(--s4);
   z-index: 10;
 }
 .skip-link:focus {
+  position: fixed;
   inset-inline-start: 0;
+  top: 0;
+  width: auto;
+  height: auto;
+  padding: var(--s2) var(--s4);
+  overflow: visible;
+  clip-path: none;
 }
 .boot {
   padding: var(--s6);
@@ -592,12 +616,33 @@ a {
   font-size: var(--t-15);
 }
 
+/*
+ * One column that can actually be narrower than its contents.
+ *
+ * This was a bare `display: grid`, which gives one implicit `auto` track, and
+ * an `auto` track is at least as wide as its widest item's min-content. A grid
+ * item also gets `min-width: auto`, so it refuses to shrink below its own
+ * contents. Together those two defaults meant the card measured 464px inside a
+ * 351px viewport on a phone.
+ *
+ * And it did not produce a scrollbar. Measured on a 375px viewport, the page
+ * cannot be scrolled sideways at all - `scrollX` will not move - so the extra
+ * 113 pixels were simply cut off the right edge and unreachable. Every card's
+ * first words, the headline "مفتوح اليوم", and the start of every sentence in
+ * the honesty panel were off-screen with no way to reach them. That is the
+ * owner's complaint that the app "يلفّ على اليمين", and it is worse than a
+ * sideways scroll rather than the absence of one.
+ */
 .cards {
   display: grid;
+  grid-template-columns: minmax(0, 1fr);
   gap: var(--s3);
   margin: var(--s3) 0 0;
   padding: 0;
   list-style: none;
+}
+.cards > li {
+  min-width: 0;
 }
 
 /* ---------- opportunity card ---------- */
@@ -609,7 +654,38 @@ a {
   border-radius: var(--radius);
   padding: var(--s4);
   display: grid;
+  /*
+   * The same trap one level down: a bare `display: grid` gives an implicit
+   * `auto` track, and `auto` is never narrower than its widest child's
+   * min-content. Fixing the list without fixing the card left every card 60-70
+   * pixels wider than the phone, and it was worst on the review cards, whose
+   * text was a long unbreakable English error string.
+   *
+   * `minmax(0, 1fr)` lets the track be as narrow as the card, and `min-width:
+   * 0` on the children lets them stop refusing to shrink. Both are needed;
+   * either alone leaves the overflow.
+   */
+  grid-template-columns: minmax(0, 1fr);
   gap: var(--s3);
+}
+.card > * {
+  min-width: 0;
+}
+/*
+ * Text in a card comes off someone else's web page, so it can contain a token
+ * with no break in it: a url, an id, or - as it did here - a JSON error string
+ * a hundred characters long. An unbreakable word sets the min-content width of
+ * everything above it, which is how a single English diagnostic pushed a whole
+ * column of Arabic cards off the right edge of the phone.
+ *
+ * `anywhere` rather than `break-word` because only `anywhere` also shrinks the
+ * min-content contribution, which is the number that was doing the damage.
+ */
+.card,
+.card p,
+.card dd,
+.card h3 {
+  overflow-wrap: anywhere;
 }
 /* Weight follows relevance, so the eye lands on what matters to him first. */
 .card::before {
@@ -675,9 +751,17 @@ a {
   text-align: center;
 }
 
+/*
+ * `minmax(8rem, ...)` is a hard floor, and a hard floor inside a narrow card is
+ * how the card got wide. Three eight-rem columns demand 398px however little
+ * room there is, so the card grew to fit them instead of the columns reflowing.
+ * `min(8rem, 100%)` keeps the eight-rem preference and lets it collapse when
+ * the container is smaller, which is the whole difference between a layout that
+ * reflows and one that overflows.
+ */
 .card .meta {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(8rem, 100%), 1fr));
   gap: var(--s2) var(--s4);
   padding: var(--s3) 0;
   border-block: 1px solid var(--hairline);

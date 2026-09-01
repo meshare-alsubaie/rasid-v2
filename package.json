@@ -44,7 +44,9 @@
     "typecheck": "tsc --noEmit && tsc --noEmit -p tsconfig.app.json",
     "check": "npm run typecheck && npm run validate",
     "test:relevance": "tsx scripts/test-relevance.ts",
-    "test:toast": "tsx scripts/test-toast.ts"
+    "test:toast": "tsx scripts/test-toast.ts",
+    "requeue": "tsx scripts/requeue.ts",
+    "test:mobile": "tsx scripts/test-mobile.ts"
   },
   "devDependencies": {
     "@types/node": "^22.10.2",

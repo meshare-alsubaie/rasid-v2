@@ -208,11 +208,22 @@ export function fromClassification(args: Common & { c: Classification }): Opport
  */
 export function humanReason(reason: string): string {
   const r = reason.toLowerCase();
+  /*
+   * These two used to tell the reader to top up a balance and to check an API
+   * key. Both were true and both are now lies: the classifier is a model on
+   * this machine and there is no bill and no key. A sentence that survives the
+   * system it described is worse than a technical one - it sends him to fix
+   * something that cannot be broken.
+   *
+   * The old wording is still matched, because it is what the stored records
+   * from the paid era actually say, and they have to be translatable without
+   * re-reading every page.
+   */
   if (r.includes("credit balance") || r.includes("insufficient")) {
-    return "نفد رصيد التصنيف. الصفحة محفوظة وستُقرأ في أول جولة بعد الشحن.";
+    return "لم يُحكم على هذه الصفحة أيام كان التصنيف مدفوعاً. هي محفوظة، وستُقرأ في جولة قادمة بلا كلفة.";
   }
-  if (r.includes("no_credentials") || r.includes("api_key")) {
-    return "مفتاح التصنيف غير مضبوط على جهاز الجمع. الصفحة محفوظة وستُقرأ لاحقاً.";
+  if (r.includes("no_credentials") || r.includes("api_key") || r.includes("ollama") || r.includes("local model")) {
+    return "المصنّف المحلّي لم يكن يعمل وقت القراءة. الصفحة محفوظة وستُقرأ في جولة قادمة.";
   }
   if (r.includes("no_profile")) {
     return "ملفّ الطالب غير مضبوط، فلا يمكن قياس الملاءمة. الصفحة محفوظة.";

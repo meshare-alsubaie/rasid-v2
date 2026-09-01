@@ -136,12 +136,37 @@ function currentTargets(nowMs: number): { sourceUrl: string; orgId: string; tier
   return out;
 }
 
+/**
+ * How long one child may run before it is killed.
+ *
+ * A cycle that never returns is worse than a cycle that fails, because the
+ * watcher is the thing that has to still be running tomorrow: it would sit
+ * there looking alive, reading nothing, while the application went on showing
+ * a calm "checked N minutes ago". That is precisely the stale green light this
+ * project exists to refuse.
+ *
+ * The first version of this file had no timeout at all, and it did not take
+ * long to matter: a robots.txt pass over forty hosts, where an unreachable one
+ * costs three attempts at twenty seconds plus a headless-browser fallback, ran
+ * past a quarter of an hour on its first real cycle.
+ *
+ * Killing it loses nothing. The pages that were read have already been written,
+ * the schedule advances anyway, and whatever was still owed a verdict keeps its
+ * pendingClassification and is picked up next time.
+ */
+const CHILD_TIMEOUT_MS = Number(process.env.RASID_CYCLE_TIMEOUT_MS ?? 12 * 60_000);
+
 function runNode(script: string, extra: string[]): number {
-  const res = spawnSync(process.execPath, [
-    "--import", "tsx",
-    script,
-    ...extra,
-  ], { stdio: "inherit", env: process.env });
+  const res = spawnSync(process.execPath, ["--import", "tsx", script, ...extra], {
+    stdio: "inherit",
+    env: process.env,
+    timeout: CHILD_TIMEOUT_MS,
+    killSignal: "SIGKILL",
+  });
+  if (res.error && "code" in res.error && res.error.code === "ETIMEDOUT") {
+    say(`${script} exceeded ${CHILD_TIMEOUT_MS / 60_000} minutes and was stopped`);
+    return 124; // the shell convention for "timed out", so the log is greppable
+  }
   return res.status ?? 1;
 }
 

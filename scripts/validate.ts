@@ -426,6 +426,37 @@ if (opportunities) {
     if (p.relevanceScore === null && !p.flags.includes("needs_manual_review")) {
       err("missing_flag", at, "an unscored record must carry needs_manual_review, never be dropped");
     }
+    /*
+     * The sentence on the card is Arabic, or the card does not ship.
+     *
+     * Spec: what the reader sees is one Arabic sentence saying what happened
+     * and what happens next; the diagnostic belongs in the run log alone. When
+     * the API credit ran out, 74 cards instead carried
+     *
+     *     تعذّر التصنيف: api — BadRequestError 400: {"type":"error"...
+     *
+     * on a phone, and the owner opened the app and concluded the whole system
+     * had collapsed. It had not: it had refused to invent verdicts it did not
+     * have, which is exactly right, and then described that refusal in the
+     * worst words available.
+     *
+     * `humanReason` was written to fix it and it did, for new failures. Nothing
+     * checked the stored file, so 89 records went on carrying the old text, 72
+     * of them permanently: their pages had stopped changing, so nothing would
+     * ever re-judge them. This is the check that would have caught that on the
+     * next run instead of months later.
+     *
+     * Six letters, so a real Arabic sentence naming SOC, IT or a URL is not
+     * flagged; the diagnostics that matter say BadRequestError,
+     * invalid_request_error, ETIMEDOUT.
+     */
+    if (/[A-Za-z]{6,}/.test(p.relevanceReason ?? "")) {
+      err(
+        "diagnostic_on_card",
+        at,
+        `the reason shown to the reader carries technical English: "${(p.relevanceReason ?? "").slice(0, 70)}". Run "npm run requeue" to re-open these for judging.`,
+      );
+    }
     if (p.opensISO && p.closesISO && p.closesISO < p.opensISO) {
       err("window_order", at, "window closes before it opens");
     }
