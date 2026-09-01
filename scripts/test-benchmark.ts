@@ -21,6 +21,26 @@ import { SYSTEM_PROMPT_SHAPE, type Classification } from "../src/pipeline/classi
 import { fromClassification } from "../src/pipeline/opportunity";
 import { CASES } from "./benchmark-cases";
 
+/*
+ * A fixed reader, not the owner's.
+ *
+ * The score used to come from the model and now comes from `relevanceOf`,
+ * which reads the profile. That quietly made this benchmark depend on a
+ * gitignored file: it passed on the owner's machine, where the profile is set,
+ * and failed on CI, where there is nothing to read and every score came back
+ * null. Worse, the bands it asserts would have moved the day he edited his own
+ * profile, and a benchmark that changes when the thing it measures did not is
+ * not a benchmark.
+ *
+ * So the reader is written here, in the open. The specification's bands are
+ * defined for a cybersecurity student, so that is what this states, in a
+ * sentence that describes nobody in particular.
+ */
+process.env.RASID_STUDENT_PROFILE =
+  "- طالب سنة أخيرة في الأمن السيبراني\n" +
+  "- NOT yet graduated, so he is ineligible for تطوير الخريجين\n" +
+  "- يحتاج التدريب التعاوني تحديداً";
+
 const FIXTURE = "data/benchmark.json";
 if (!existsSync(FIXTURE)) {
   console.log(`no benchmark fixture at ${FIXTURE}. Run "npm run build:benchmark" once to create it.`);
