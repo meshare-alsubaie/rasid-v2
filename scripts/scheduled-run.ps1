@@ -40,16 +40,26 @@ if ((Test-Path $profileFile) -and -not $env:RASID_STUDENT_PROFILE) {
     $env:RASID_STUDENT_PROFILE = (Get-Content $profileFile -Raw -Encoding utf8)
 }
 
-# A scheduled task inherits user-scope variables, but "usually" is not a thing
-# to rely on for the one credential that decides whether anything gets
-# classified at all. Read it explicitly, and say so loudly if it is missing:
-# without it every changed page silently goes to manual review instead of
-# being judged, and the run still looks like it worked.
-if (-not $env:ANTHROPIC_API_KEY) {
-    $env:ANTHROPIC_API_KEY = [Environment]::GetEnvironmentVariable("ANTHROPIC_API_KEY", "User")
-}
-if (-not $env:ANTHROPIC_API_KEY) {
-    Say "WARNING: ANTHROPIC_API_KEY is not set. Pages will be fetched but nothing classified."
+# There is no API key any more. The classifier is a model on this machine, so
+# the thing that can be missing is Ollama, and the check is a plain HTTP call.
+#
+# It does not stop the run. Fetching is still worth doing with no model: the
+# page hashes are stored, so when the model comes back only what actually moved
+# is judged. What must never happen is a run that looks healthy while nothing is
+# being judged, so this is loud, and collect prints the same fact again.
+$ollama = $env:OLLAMA_HOST
+if (-not $ollama) { $ollama = "http://127.0.0.1:11434" }
+if ($ollama -notmatch '^https?://') { $ollama = "http://$ollama" }
+$ollama = $ollama -replace '//0\.0\.0\.0', '//127.0.0.1'
+try {
+    $tags = Invoke-RestMethod -Uri "$ollama/api/tags" -TimeoutSec 5 -ErrorAction Stop
+    $wanted = $env:RASID_LOCAL_MODEL
+    if (-not $wanted) { $wanted = "llama3.1:8b" }
+    if (($tags.models | ForEach-Object { $_.name }) -notcontains $wanted) {
+        Say "WARNING: model $wanted is not installed. Pages will be fetched but nothing judged."
+    }
+} catch {
+    Say "WARNING: Ollama is not reachable at $ollama. Pages will be fetched but nothing judged."
 }
 if (-not $env:RASID_STUDENT_PROFILE) {
     Say "WARNING: no student profile. The classifier refuses to guess one, so nothing will be scored."

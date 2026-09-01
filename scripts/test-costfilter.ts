@@ -104,10 +104,30 @@ check(
   "and every verdict answered from memory",
   /fromMemory\+\+/.test(source) && /answered from memory/.test(source),
 );
+/*
+ * The guarantee moved from classify.ts into model.ts when the model moved onto
+ * this machine, and this check moved with it rather than being relaxed.
+ *
+ * It is also no longer a grep for one line. Reading the source for a string is
+ * how a gate ends up passing while looking at nothing: the string can be in a
+ * comment, in dead code, or in a branch that never runs. So the behaviour is
+ * exercised for real, against a closed port, which is the failure that actually
+ * happens when Ollama is not running.
+ */
+const deadPortTriage = await (async () => {
+  const saved = process.env.OLLAMA_HOST;
+  process.env.OLLAMA_HOST = "http://127.0.0.1:1";
+  const { localTriage } = await import("../src/pipeline/model.js");
+  const out = await localTriage("نصّ لا يهمّ محتواه، المهمّ أن النموذج غير موجود");
+  if (saved === undefined) delete process.env.OLLAMA_HOST;
+  else process.env.OLLAMA_HOST = saved;
+  return out;
+})();
+
 check(
   "a failed one-word question never hides a page",
-  /looksLikeAnnouncement: true/.test(readFileSync("src/pipeline/classify.ts", "utf8")),
-  "triage returns yes on any error, so it can only ever save money",
+  deadPortTriage.looksLikeAnnouncement === true && deadPortTriage.error !== null,
+  "the model was unreachable and the page was passed on anyway",
 );
 check(
   "a skipped page is not left owing a verdict for ever",

@@ -13,7 +13,6 @@
  */
 import { writeFileSync, mkdirSync } from "node:fs";
 import { join } from "node:path";
-import { PER_HOST_GAP_MS } from "../../src/pipeline/agent.js";
 import { fetchPage } from "../../src/pipeline/fetch.js";
 import { extract } from "../../src/pipeline/extract.js";
 import { checkRobots } from "../../src/pipeline/robots.js";

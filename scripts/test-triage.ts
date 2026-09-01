@@ -7,23 +7,22 @@
  * must survive it**, and a page that is genuinely about something else may or
  * may not — either answer there costs at most a cent.
  *
- * It makes real API calls, about ten of them, at roughly a tenth of a cent
- * each. That is the point: a triage tested only against fixtures proves nothing
- * about the thing that will actually run.
+ * It runs the model for real, about ten times. That is the point: a triage
+ * tested only against fixtures proves nothing about the thing that will
+ * actually run. It used to cost a cent; now it costs about thirty seconds of
+ * this machine's CPU and nothing else.
  *
  *   npm run test:triage
  */
-import { costOf, triage, type Usage } from "../src/pipeline/classify";
+import { triage } from "../src/pipeline/classify";
+import { LOCAL_MODEL, localModelReady } from "../src/pipeline/model";
 
 let failures = 0;
-const spend: Usage = { inputTokens: 0, outputTokens: 0 };
-
 let noiseSkipped = 0;
+const startedAt = Date.now();
 
 async function ask(label: string, text: string, mustSurvive: boolean): Promise<void> {
   const r = await triage(text);
-  spend.inputTokens += r.usage.inputTokens;
-  spend.outputTokens += r.usage.outputTokens;
   const ok = mustSurvive ? r.looksLikeAnnouncement : true;
   if (!ok) failures++;
   if (!mustSurvive && !r.looksLikeAnnouncement) noiseSkipped++;
@@ -32,10 +31,21 @@ async function ask(label: string, text: string, mustSurvive: boolean): Promise<v
   );
 }
 
-if (!process.env.ANTHROPIC_API_KEY?.trim()) {
-  console.log("ANTHROPIC_API_KEY is not set, so there is nothing to test against.");
+/*
+ * A missing model fails this gate rather than skipping it.
+ *
+ * The pipeline is right to pass every page on when the model is unreachable -
+ * that is the contract. But a *test* that treats an unreachable model as
+ * success would report "no announcement was ruled out" about a run in which
+ * nothing was asked, which is the same green light on an unlooked-at page that
+ * this whole project exists to refuse.
+ */
+const ready = await localModelReady();
+if (!ready.ok) {
+  console.log(`the local model is not available, so nothing was tested: ${ready.reason}`);
   process.exit(1);
 }
+console.log(`model: ${ready.reason}\n`);
 
 console.log("real announcements — every one must reach the full classifier\n");
 
@@ -129,7 +139,7 @@ await ask(
 );
 
 console.log(
-  `\nspend: ${spend.inputTokens} in / ${spend.outputTokens} out = $${costOf(spend).toFixed(4)}`,
+  `\n${LOCAL_MODEL} on this machine's CPU: ${((Date.now() - startedAt) / 1000).toFixed(0)}s, $0.00`,
 );
 console.log(
   failures === 0

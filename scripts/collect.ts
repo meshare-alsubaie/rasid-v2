@@ -28,10 +28,10 @@ import {
   classify,
   costOf,
   triage,
-  uncachedCostOf,
   type Classification,
   type Usage,
 } from "../src/pipeline/classify";
+import { localModelReady } from "../src/pipeline/model";
 import { asManualReview, fromClassification, humanReason } from "../src/pipeline/opportunity";
 import { extract, isSoft404, sha256 } from "../src/pipeline/extract";
 import { fetchPage, paced } from "../src/pipeline/fetch";
@@ -351,6 +351,18 @@ if (!HAS_CONTACT) {
 }
 
 /*
+ * Asked once, at the top, so a missing model is one line rather than a hundred
+ * identical failures buried in the classification pass.
+ *
+ * It does not stop the run. Fetching is still worth doing with no model at all:
+ * the hashes are stored, so when the model comes back only what actually
+ * changed is judged. What must not happen is the run looking healthy while
+ * nothing is being judged, which is why this prints either way.
+ */
+const modelReady = await localModelReady();
+console.log(modelReady.ok ? `model: ${modelReady.reason}\n` : `MODEL UNAVAILABLE: ${modelReady.reason}\nPages will be fetched and hashed; nothing will be judged.\n`);
+
+/*
  * robots.txt first, one fetch per origin — but not one at a time.
  *
  * This was a plain sequential loop, written when there were eighteen sources on
@@ -580,12 +592,29 @@ if (DRY_RUN && owed.length > 0) {
  * "still owed a verdict", so the next run picks them up first. Override with
  * RASID_RUN_BUDGET_USD when a deliberate catch-up is wanted.
  */
-const RUN_BUDGET_USD = Number(process.env.RASID_RUN_BUDGET_USD ?? 0.5);
+/*
+ * The ceiling is minutes now, not dollars.
+ *
+ * It used to be $0.50 of API spend. The model moved onto this machine and the
+ * price went to zero, which silently disabled the guard: `costOf(spend) >= 0.5`
+ * can never be true when every call costs nothing, so a round with two hundred
+ * changed pages would have ground away for hours with nothing to stop it. A
+ * budget that cannot be exceeded is not a budget, and removing the line
+ * altogether would have been worse - it would have looked deliberate.
+ *
+ * So the scarce resource is named correctly. It is the owner's processor, and
+ * the unit is seconds. Nothing is lost when the ceiling is hit: the pages that
+ * did not fit keep `pendingClassification` and are picked up first next round,
+ * exactly as before.
+ */
+const RUN_BUDGET_SECONDS = Number(process.env.RASID_RUN_BUDGET_SECONDS ?? 900);
 let budgetStopped = 0;
+const classifyStartedAt = Date.now();
+const secondsSpentClassifying = (): number => (Date.now() - classifyStartedAt) / 1000;
 
 if (!NO_CLASSIFY && !DRY_RUN) {
   for (const snap of owed) {
-    if (costOf(spend) >= RUN_BUDGET_USD) {
+    if (secondsSpentClassifying() >= RUN_BUDGET_SECONDS) {
       budgetStopped++;
       continue;
     }
@@ -936,27 +965,22 @@ if (vanished.length > 0) {
   console.log("\nno longer visible on the page that announced them:");
   console.log(vanished.join("\n"));
 }
+/*
+ * Tokens still, because a stage that stops producing them has stopped running
+ * and that must be visible. The price beside them is a real measurement and not
+ * a decoration: it is zero because the model is on this machine, and printing
+ * it keeps the claim falsifiable. If it is ever not zero, something has been
+ * quietly wired back to a paid API.
+ */
 console.log(
   `  tokens                 ${spend.inputTokens} in / ${spend.outputTokens} out = $${costOf(spend).toFixed(4)}`,
 );
-/*
- * Stated as a saving against what the same round would have cost sending the
- * instructions in full every time, rather than as a smaller number with no
- * explanation. A cost line that quietly drops the cached tokens would show the
- * round getting dramatically cheaper while the bill did not move at all.
- */
-const cached = (spend.cacheWriteTokens ?? 0) + (spend.cacheReadTokens ?? 0);
-if (cached > 0) {
-  const full = uncachedCostOf(spend);
-  const saved = full - costOf(spend);
-  console.log(
-    `  instructions cached    ${spend.cacheWriteTokens} stored / ${spend.cacheReadTokens} reread` +
-      ` — saved $${saved.toFixed(4)} of $${full.toFixed(4)} (${Math.round((100 * saved) / full)}%)`,
-  );
-}
+console.log(
+  `  local inference        ${secondsSpentClassifying().toFixed(0)}s of ${RUN_BUDGET_SECONDS}s budget`,
+);
 if (budgetStopped > 0) {
   console.log(
-    `  budget                 stopped at $${RUN_BUDGET_USD}; ${budgetStopped} page(s) still owed a verdict and will be judged next run`,
+    `  budget                 stopped at ${RUN_BUDGET_SECONDS}s; ${budgetStopped} page(s) still owed a verdict and will be judged next run`,
   );
 }
 

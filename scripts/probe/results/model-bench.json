@@ -1,5 +1,5 @@
 {
-  "ranAtISO": "2026-09-01T07:58:17.485Z",
+  "ranAtISO": "2026-09-01T08:02:36.863Z",
   "samples": {
     "pos": 20,
     "neg": 8
@@ -19,8 +19,8 @@
         "neg_nca_home",
         "neg_mewa_home"
       ],
-      "medianMs": 2605,
-      "slowestMs": 27327,
+      "medianMs": 2464,
+      "slowestMs": 3614,
       "errors": 0,
       "outcomes": [
         {
@@ -29,7 +29,7 @@
           "passedOn": true,
           "raw": "{\"candidate\": true}",
           "errored": false,
-          "ms": 12478
+          "ms": 594
         },
         {
           "id": "cyber_2",
@@ -37,7 +37,7 @@
           "passedOn": true,
           "raw": "{\"candidate\": true}",
           "errored": false,
-          "ms": 2724
+          "ms": 2687
         },
         {
           "id": "cyber_3",
@@ -45,7 +45,7 @@
           "passedOn": true,
           "raw": "{\"candidate\": true}",
           "errored": false,
-          "ms": 2699
+          "ms": 2643
         },
         {
           "id": "cyber_4",
@@ -53,7 +53,7 @@
           "passedOn": true,
           "raw": "{\"candidate\": true}",
           "errored": false,
-          "ms": 2598
+          "ms": 2637
         },
         {
           "id": "cyber_5",
@@ -61,7 +61,7 @@
           "passedOn": true,
           "raw": "{\"candidate\": true}",
           "errored": false,
-          "ms": 2605
+          "ms": 2687
         },
         {
           "id": "it_1",
@@ -69,7 +69,7 @@
           "passedOn": true,
           "raw": "{\"candidate\": true}",
           "errored": false,
-          "ms": 2764
+          "ms": 2557
         },
         {
           "id": "it_2",
@@ -77,7 +77,7 @@
           "passedOn": true,
           "raw": "{\"candidate\": true}",
           "errored": false,
-          "ms": 2482
+          "ms": 2335
         },
         {
           "id": "it_3",
@@ -85,7 +85,7 @@
           "passedOn": true,
           "raw": "{\"candidate\": true}",
           "errored": false,
-          "ms": 2404
+          "ms": 2290
         },
         {
           "id": "it_4",
@@ -93,7 +93,7 @@
           "passedOn": true,
           "raw": "{\"candidate\": true}",
           "errored": false,
-          "ms": 2565
+          "ms": 2506
         },
         {
           "id": "general_1",
@@ -101,7 +101,7 @@
           "passedOn": true,
           "raw": "{\"candidate\": true}",
           "errored": false,
-          "ms": 2440
+          "ms": 2464
         },
         {
           "id": "unrelated_1",
@@ -109,7 +109,7 @@
           "passedOn": true,
           "raw": "{\"candidate\": true}",
           "errored": false,
-          "ms": 2566
+          "ms": 2742
         },
         {
           "id": "unrelated_2",
@@ -117,7 +117,7 @@
           "passedOn": true,
           "raw": "{\"candidate\": true}",
           "errored": false,
-          "ms": 2431
+          "ms": 2649
         },
         {
           "id": "unrelated_3",
@@ -125,7 +125,7 @@
           "passedOn": true,
           "raw": "{\"candidate\": true}",
           "errored": false,
-          "ms": 2324
+          "ms": 2532
         },
         {
           "id": "unrelated_4",
@@ -133,7 +133,7 @@
           "passedOn": true,
           "raw": "{\"candidate\": true}",
           "errored": false,
-          "ms": 2313
+          "ms": 2440
         },
         {
           "id": "unrelated_5",
@@ -141,7 +141,7 @@
           "passedOn": true,
           "raw": "{\"candidate\": true}",
           "errored": false,
-          "ms": 2235
+          "ms": 2211
         },
         {
           "id": "graddev_1",
@@ -149,7 +149,7 @@
           "passedOn": true,
           "raw": "{\"candidate\": true}",
           "errored": false,
-          "ms": 2809
+          "ms": 2773
         },
         {
           "id": "graddev_2",
@@ -157,7 +157,7 @@
           "passedOn": true,
           "raw": "{\"candidate\": true}",
           "errored": false,
-          "ms": 2566
+          "ms": 2504
         },
         {
           "id": "graddev_3",
@@ -165,7 +165,7 @@
           "passedOn": true,
           "raw": "{\"candidate\": true}",
           "errored": false,
-          "ms": 2455
+          "ms": 2410
         },
         {
           "id": "graddev_4",
@@ -173,7 +173,7 @@
           "passedOn": true,
           "raw": "{\"candidate\": true}",
           "errored": false,
-          "ms": 2581
+          "ms": 2437
         },
         {
           "id": "graddev_5",
@@ -181,7 +181,7 @@
           "passedOn": true,
           "raw": "{\"candidate\": true}",
           "errored": false,
-          "ms": 2476
+          "ms": 2420
         },
         {
           "id": "neg_moh_home",
@@ -189,7 +189,7 @@
           "passedOn": true,
           "raw": "{\"candidate\": true}",
           "errored": false,
-          "ms": 3585
+          "ms": 3614
         },
         {
           "id": "neg_zatca_home",
@@ -197,7 +197,7 @@
           "passedOn": true,
           "raw": "{\"candidate\": true}",
           "errored": false,
-          "ms": 4382
+          "ms": 592
         },
         {
           "id": "neg_sfda_home",
@@ -205,7 +205,7 @@
           "passedOn": true,
           "raw": "{\"candidate\": true}",
           "errored": false,
-          "ms": 27327
+          "ms": 738
         },
         {
           "id": "neg_stats_home",
@@ -213,7 +213,7 @@
           "passedOn": true,
           "raw": "{\"candidate\": true}",
           "errored": false,
-          "ms": 19318
+          "ms": 813
         },
         {
           "id": "neg_mof_home",
@@ -221,7 +221,7 @@
           "passedOn": false,
           "raw": "{\"candidate\": false}",
           "errored": false,
-          "ms": 3906
+          "ms": 3431
         },
         {
           "id": "neg_moe_home",
@@ -229,7 +229,7 @@
           "passedOn": true,
           "raw": "{\"candidate\": true}",
           "errored": false,
-          "ms": 19908
+          "ms": 642
         },
         {
           "id": "neg_nca_home",
@@ -237,7 +237,7 @@
           "passedOn": true,
           "raw": "{\"candidate\": true}",
           "errored": false,
-          "ms": 10309
+          "ms": 732
         },
         {
           "id": "neg_mewa_home",
@@ -245,7 +245,731 @@
           "passedOn": true,
           "raw": "{\"candidate\": true}",
           "errored": false,
-          "ms": 7219
+          "ms": 729
+        }
+      ]
+    },
+    "qwen3:8b": {
+      "verdict": "ELIGIBLE",
+      "recall": "20/20",
+      "missed": [],
+      "specificity": "3/8",
+      "falseAlarms": [
+        "neg_moh_home",
+        "neg_sfda_home",
+        "neg_stats_home",
+        "neg_moe_home",
+        "neg_nca_home"
+      ],
+      "medianMs": 2972,
+      "slowestMs": 57687,
+      "errors": 0,
+      "outcomes": [
+        {
+          "id": "cyber_1",
+          "expected": true,
+          "passedOn": true,
+          "raw": "{\"candidate\": true}",
+          "errored": false,
+          "ms": 15451
+        },
+        {
+          "id": "cyber_2",
+          "expected": true,
+          "passedOn": true,
+          "raw": "{\"candidate\": true}",
+          "errored": false,
+          "ms": 3171
+        },
+        {
+          "id": "cyber_3",
+          "expected": true,
+          "passedOn": true,
+          "raw": "{\"candidate\": true}",
+          "errored": false,
+          "ms": 3099
+        },
+        {
+          "id": "cyber_4",
+          "expected": true,
+          "passedOn": true,
+          "raw": "{\"candidate\": true}",
+          "errored": false,
+          "ms": 2672
+        },
+        {
+          "id": "cyber_5",
+          "expected": true,
+          "passedOn": true,
+          "raw": "{\"candidate\": true}",
+          "errored": false,
+          "ms": 3194
+        },
+        {
+          "id": "it_1",
+          "expected": true,
+          "passedOn": true,
+          "raw": "{\"candidate\": true}",
+          "errored": false,
+          "ms": 2688
+        },
+        {
+          "id": "it_2",
+          "expected": true,
+          "passedOn": true,
+          "raw": "{\"candidate\": true}",
+          "errored": false,
+          "ms": 2301
+        },
+        {
+          "id": "it_3",
+          "expected": true,
+          "passedOn": true,
+          "raw": "{\"candidate\": true}",
+          "errored": false,
+          "ms": 2124
+        },
+        {
+          "id": "it_4",
+          "expected": true,
+          "passedOn": true,
+          "raw": "{\"candidate\": true}",
+          "errored": false,
+          "ms": 2516
+        },
+        {
+          "id": "general_1",
+          "expected": true,
+          "passedOn": true,
+          "raw": "{\"candidate\": true}",
+          "errored": false,
+          "ms": 2156
+        },
+        {
+          "id": "unrelated_1",
+          "expected": true,
+          "passedOn": true,
+          "raw": "{\"candidate\": true}",
+          "errored": false,
+          "ms": 2544
+        },
+        {
+          "id": "unrelated_2",
+          "expected": true,
+          "passedOn": true,
+          "raw": "{\"candidate\": true}",
+          "errored": false,
+          "ms": 2472
+        },
+        {
+          "id": "unrelated_3",
+          "expected": true,
+          "passedOn": true,
+          "raw": "{\"candidate\": true}",
+          "errored": false,
+          "ms": 2163
+        },
+        {
+          "id": "unrelated_4",
+          "expected": true,
+          "passedOn": true,
+          "raw": "{\"candidate\": true}",
+          "errored": false,
+          "ms": 2475
+        },
+        {
+          "id": "unrelated_5",
+          "expected": true,
+          "passedOn": true,
+          "raw": "{\"candidate\": true}",
+          "errored": false,
+          "ms": 2279
+        },
+        {
+          "id": "graddev_1",
+          "expected": true,
+          "passedOn": true,
+          "raw": "{\"candidate\": true}",
+          "errored": false,
+          "ms": 4020
+        },
+        {
+          "id": "graddev_2",
+          "expected": true,
+          "passedOn": true,
+          "raw": "{\"candidate\": true}",
+          "errored": false,
+          "ms": 2920
+        },
+        {
+          "id": "graddev_3",
+          "expected": true,
+          "passedOn": true,
+          "raw": "{\"candidate\": true}",
+          "errored": false,
+          "ms": 2486
+        },
+        {
+          "id": "graddev_4",
+          "expected": true,
+          "passedOn": true,
+          "raw": "{\"candidate\": true}",
+          "errored": false,
+          "ms": 2972
+        },
+        {
+          "id": "graddev_5",
+          "expected": true,
+          "passedOn": true,
+          "raw": "{\"candidate\": true}",
+          "errored": false,
+          "ms": 2503
+        },
+        {
+          "id": "neg_moh_home",
+          "expected": false,
+          "passedOn": true,
+          "raw": "{\"candidate\": true}",
+          "errored": false,
+          "ms": 5865
+        },
+        {
+          "id": "neg_zatca_home",
+          "expected": false,
+          "passedOn": false,
+          "raw": "{\"candidate\": false}",
+          "errored": false,
+          "ms": 6599
+        },
+        {
+          "id": "neg_sfda_home",
+          "expected": false,
+          "passedOn": true,
+          "raw": "{\"candidate\": true}",
+          "errored": false,
+          "ms": 57687
+        },
+        {
+          "id": "neg_stats_home",
+          "expected": false,
+          "passedOn": true,
+          "raw": "{\"candidate\": true}",
+          "errored": false,
+          "ms": 41246
+        },
+        {
+          "id": "neg_mof_home",
+          "expected": false,
+          "passedOn": false,
+          "raw": "{\"candidate\": false}",
+          "errored": false,
+          "ms": 4965
+        },
+        {
+          "id": "neg_moe_home",
+          "expected": false,
+          "passedOn": true,
+          "raw": "{\"candidate\": true}",
+          "errored": false,
+          "ms": 43710
+        },
+        {
+          "id": "neg_nca_home",
+          "expected": false,
+          "passedOn": true,
+          "raw": "{\"candidate\": true}",
+          "errored": false,
+          "ms": 20575
+        },
+        {
+          "id": "neg_mewa_home",
+          "expected": false,
+          "passedOn": false,
+          "raw": "{\"candidate\": false}",
+          "errored": false,
+          "ms": 12935
+        }
+      ]
+    },
+    "llama3.1:8b": {
+      "verdict": "ELIGIBLE",
+      "recall": "20/20",
+      "missed": [],
+      "specificity": "6/8",
+      "falseAlarms": [
+        "neg_stats_home",
+        "neg_mewa_home"
+      ],
+      "medianMs": 2672,
+      "slowestMs": 54011,
+      "errors": 0,
+      "outcomes": [
+        {
+          "id": "cyber_1",
+          "expected": true,
+          "passedOn": true,
+          "raw": "{\"candidate\": true}",
+          "errored": false,
+          "ms": 15777
+        },
+        {
+          "id": "cyber_2",
+          "expected": true,
+          "passedOn": true,
+          "raw": "{\"candidate\": true}",
+          "errored": false,
+          "ms": 3014
+        },
+        {
+          "id": "cyber_3",
+          "expected": true,
+          "passedOn": true,
+          "raw": "{\"candidate\": true}",
+          "errored": false,
+          "ms": 2885
+        },
+        {
+          "id": "cyber_4",
+          "expected": true,
+          "passedOn": true,
+          "raw": "{\"candidate\": true}",
+          "errored": false,
+          "ms": 2518
+        },
+        {
+          "id": "cyber_5",
+          "expected": true,
+          "passedOn": true,
+          "raw": "{\"candidate\": true}",
+          "errored": false,
+          "ms": 2672
+        },
+        {
+          "id": "it_1",
+          "expected": true,
+          "passedOn": true,
+          "raw": "{\"candidate\": true}",
+          "errored": false,
+          "ms": 2516
+        },
+        {
+          "id": "it_2",
+          "expected": true,
+          "passedOn": true,
+          "raw": "{\"candidate\": true}",
+          "errored": false,
+          "ms": 2161
+        },
+        {
+          "id": "it_3",
+          "expected": true,
+          "passedOn": true,
+          "raw": "{\"candidate\": true}",
+          "errored": false,
+          "ms": 1952
+        },
+        {
+          "id": "it_4",
+          "expected": true,
+          "passedOn": true,
+          "raw": "{\"candidate\": true}",
+          "errored": false,
+          "ms": 2397
+        },
+        {
+          "id": "general_1",
+          "expected": true,
+          "passedOn": true,
+          "raw": "{\"candidate\": true}",
+          "errored": false,
+          "ms": 1983
+        },
+        {
+          "id": "unrelated_1",
+          "expected": true,
+          "passedOn": true,
+          "raw": "{\"candidate\": true}",
+          "errored": false,
+          "ms": 2482
+        },
+        {
+          "id": "unrelated_2",
+          "expected": true,
+          "passedOn": true,
+          "raw": "{\"candidate\": true}",
+          "errored": false,
+          "ms": 2444
+        },
+        {
+          "id": "unrelated_3",
+          "expected": true,
+          "passedOn": true,
+          "raw": "{\"candidate\": true}",
+          "errored": false,
+          "ms": 2032
+        },
+        {
+          "id": "unrelated_4",
+          "expected": true,
+          "passedOn": true,
+          "raw": "{\"candidate\": true}",
+          "errored": false,
+          "ms": 2092
+        },
+        {
+          "id": "unrelated_5",
+          "expected": true,
+          "passedOn": true,
+          "raw": "{\"candidate\": true}",
+          "errored": false,
+          "ms": 1939
+        },
+        {
+          "id": "graddev_1",
+          "expected": true,
+          "passedOn": true,
+          "raw": "{\"candidate\": true}",
+          "errored": false,
+          "ms": 3314
+        },
+        {
+          "id": "graddev_2",
+          "expected": true,
+          "passedOn": true,
+          "raw": "{\"candidate\": true}",
+          "errored": false,
+          "ms": 2691
+        },
+        {
+          "id": "graddev_3",
+          "expected": true,
+          "passedOn": true,
+          "raw": "{\"candidate\": true}",
+          "errored": false,
+          "ms": 2413
+        },
+        {
+          "id": "graddev_4",
+          "expected": true,
+          "passedOn": true,
+          "raw": "{\"candidate\": true}",
+          "errored": false,
+          "ms": 2662
+        },
+        {
+          "id": "graddev_5",
+          "expected": true,
+          "passedOn": true,
+          "raw": "{\"candidate\": true}",
+          "errored": false,
+          "ms": 2461
+        },
+        {
+          "id": "neg_moh_home",
+          "expected": false,
+          "passedOn": false,
+          "raw": "{\"candidate\": false}",
+          "errored": false,
+          "ms": 5318
+        },
+        {
+          "id": "neg_zatca_home",
+          "expected": false,
+          "passedOn": false,
+          "raw": "{\"candidate\": false}",
+          "errored": false,
+          "ms": 6182
+        },
+        {
+          "id": "neg_sfda_home",
+          "expected": false,
+          "passedOn": false,
+          "raw": "{\"candidate\": false}",
+          "errored": false,
+          "ms": 54011
+        },
+        {
+          "id": "neg_stats_home",
+          "expected": false,
+          "passedOn": true,
+          "raw": "{\"candidate\": true}",
+          "errored": false,
+          "ms": 37383
+        },
+        {
+          "id": "neg_mof_home",
+          "expected": false,
+          "passedOn": false,
+          "raw": "{\"candidate\": false}",
+          "errored": false,
+          "ms": 4468
+        },
+        {
+          "id": "neg_moe_home",
+          "expected": false,
+          "passedOn": false,
+          "raw": "{\"candidate\": false}",
+          "errored": false,
+          "ms": 43591
+        },
+        {
+          "id": "neg_nca_home",
+          "expected": false,
+          "passedOn": false,
+          "raw": "{\"candidate\": false}",
+          "errored": false,
+          "ms": 21061
+        },
+        {
+          "id": "neg_mewa_home",
+          "expected": false,
+          "passedOn": true,
+          "raw": "{\"candidate\": true}",
+          "errored": false,
+          "ms": 12930
+        }
+      ]
+    },
+    "gemma3:12b": {
+      "verdict": "ELIGIBLE",
+      "recall": "20/20",
+      "missed": [],
+      "specificity": "2/8",
+      "falseAlarms": [
+        "neg_moh_home",
+        "neg_sfda_home",
+        "neg_stats_home",
+        "neg_moe_home",
+        "neg_nca_home",
+        "neg_mewa_home"
+      ],
+      "medianMs": 8603,
+      "slowestMs": 82595,
+      "errors": 0,
+      "outcomes": [
+        {
+          "id": "cyber_1",
+          "expected": true,
+          "passedOn": true,
+          "raw": "{\"candidate\": true}",
+          "errored": false,
+          "ms": 27392
+        },
+        {
+          "id": "cyber_2",
+          "expected": true,
+          "passedOn": true,
+          "raw": "{\"candidate\": true}",
+          "errored": false,
+          "ms": 9011
+        },
+        {
+          "id": "cyber_3",
+          "expected": true,
+          "passedOn": true,
+          "raw": "{\"candidate\": true}",
+          "errored": false,
+          "ms": 11692
+        },
+        {
+          "id": "cyber_4",
+          "expected": true,
+          "passedOn": true,
+          "raw": "{\"candidate\": true}",
+          "errored": false,
+          "ms": 7878
+        },
+        {
+          "id": "cyber_5",
+          "expected": true,
+          "passedOn": true,
+          "raw": "{\"candidate\": true}",
+          "errored": false,
+          "ms": 8042
+        },
+        {
+          "id": "it_1",
+          "expected": true,
+          "passedOn": true,
+          "raw": "{\"candidate\": true}",
+          "errored": false,
+          "ms": 8603
+        },
+        {
+          "id": "it_2",
+          "expected": true,
+          "passedOn": true,
+          "raw": "{\"candidate\": true}",
+          "errored": false,
+          "ms": 7862
+        },
+        {
+          "id": "it_3",
+          "expected": true,
+          "passedOn": true,
+          "raw": "{\"candidate\": true}",
+          "errored": false,
+          "ms": 7259
+        },
+        {
+          "id": "it_4",
+          "expected": true,
+          "passedOn": true,
+          "raw": "{\"candidate\": true}",
+          "errored": false,
+          "ms": 7680
+        },
+        {
+          "id": "general_1",
+          "expected": true,
+          "passedOn": true,
+          "raw": "{\"candidate\": true}",
+          "errored": false,
+          "ms": 7259
+        },
+        {
+          "id": "unrelated_1",
+          "expected": true,
+          "passedOn": true,
+          "raw": "{\"candidate\": true}",
+          "errored": false,
+          "ms": 8303
+        },
+        {
+          "id": "unrelated_2",
+          "expected": true,
+          "passedOn": true,
+          "raw": "{\"candidate\": true}",
+          "errored": false,
+          "ms": 8531
+        },
+        {
+          "id": "unrelated_3",
+          "expected": true,
+          "passedOn": true,
+          "raw": "{\"candidate\": true}",
+          "errored": false,
+          "ms": 7634
+        },
+        {
+          "id": "unrelated_4",
+          "expected": true,
+          "passedOn": true,
+          "raw": "{\"candidate\": true}",
+          "errored": false,
+          "ms": 7407
+        },
+        {
+          "id": "unrelated_5",
+          "expected": true,
+          "passedOn": true,
+          "raw": "{\"candidate\": true}",
+          "errored": false,
+          "ms": 7291
+        },
+        {
+          "id": "graddev_1",
+          "expected": true,
+          "passedOn": true,
+          "raw": "{\"candidate\": true}",
+          "errored": false,
+          "ms": 9004
+        },
+        {
+          "id": "graddev_2",
+          "expected": true,
+          "passedOn": true,
+          "raw": "{\"candidate\": true}",
+          "errored": false,
+          "ms": 8669
+        },
+        {
+          "id": "graddev_3",
+          "expected": true,
+          "passedOn": true,
+          "raw": "{\"candidate\": true}",
+          "errored": false,
+          "ms": 8271
+        },
+        {
+          "id": "graddev_4",
+          "expected": true,
+          "passedOn": true,
+          "raw": "{\"candidate\": true}",
+          "errored": false,
+          "ms": 8148
+        },
+        {
+          "id": "graddev_5",
+          "expected": true,
+          "passedOn": true,
+          "raw": "{\"candidate\": true}",
+          "errored": false,
+          "ms": 7805
+        },
+        {
+          "id": "neg_moh_home",
+          "expected": false,
+          "passedOn": true,
+          "raw": "{\"candidate\": true}",
+          "errored": false,
+          "ms": 11464
+        },
+        {
+          "id": "neg_zatca_home",
+          "expected": false,
+          "passedOn": false,
+          "raw": "{\"candidate\": false}",
+          "errored": false,
+          "ms": 14295
+        },
+        {
+          "id": "neg_sfda_home",
+          "expected": false,
+          "passedOn": true,
+          "raw": "{\"candidate\": true}",
+          "errored": false,
+          "ms": 82595
+        },
+        {
+          "id": "neg_stats_home",
+          "expected": false,
+          "passedOn": true,
+          "raw": "{\"candidate\": true}",
+          "errored": false,
+          "ms": 75844
+        },
+        {
+          "id": "neg_mof_home",
+          "expected": false,
+          "passedOn": false,
+          "raw": "{\"candidate\": false}",
+          "errored": false,
+          "ms": 11099
+        },
+        {
+          "id": "neg_moe_home",
+          "expected": false,
+          "passedOn": true,
+          "raw": "{\"candidate\": true}",
+          "errored": false,
+          "ms": 62651
+        },
+        {
+          "id": "neg_nca_home",
+          "expected": false,
+          "passedOn": true,
+          "raw": "{\"candidate\": true}",
+          "errored": false,
+          "ms": 33636
+        },
+        {
+          "id": "neg_mewa_home",
+          "expected": false,
+          "passedOn": true,
+          "raw": "{\"candidate\": true}",
+          "errored": false,
+          "ms": 22813
         }
       ]
     }

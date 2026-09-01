@@ -100,10 +100,20 @@ const stripThinking = (s: string): string => s.replace(/<think>[\s\S]*?<\/think>
 function readCandidate(body: string): boolean | null {
   const text = stripThinking(body);
   const match = /\{[\s\S]*?"candidate"\s*:\s*(true|false)[\s\S]*?\}/i.exec(text);
-  if (match) return match[1].toLowerCase() === "true";
-  // Some models answer the question in prose despite the instruction.
-  if (/^\s*(true|نعم)\b/i.test(text)) return true;
-  if (/^\s*(false|لا)\b/i.test(text)) return false;
+  if (match) return match[1]!.toLowerCase() === "true";
+  /*
+   * Some models answer in prose despite the instruction.
+   *
+   * The word boundary sits on the Latin branch only. `\b` is defined against
+   * [A-Za-z0-9_], so the position after لا or نعم is a boundary only when a
+   * Latin character follows - which means `/^\s*(false|لا)\b/` never matches a
+   * bare Arabic no. That exact mistake ran in the paid triage for weeks: every
+   * Arabic "لا" was read as a yes, the filter saved nothing, and it looked like
+   * it was working. Writing it a second time in the tool built to measure the
+   * replacement would have been a fitting way to repeat it.
+   */
+  if (/^\s*(نعم|true\b)/i.test(text)) return true;
+  if (/^\s*(لا|false\b)/i.test(text)) return false;
   return null;
 }
 

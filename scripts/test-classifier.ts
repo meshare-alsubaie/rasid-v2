@@ -79,12 +79,26 @@ async function stageTest(stage: string, asker: Asker | null): Promise<void> {
 
   let result;
   if (asker === null) {
-    // no_credentials: hide the key for this one call, then put it back.
-    // The value is never read, printed, or logged - only its absence is set up.
-    const saved = process.env.ANTHROPIC_API_KEY;
-    delete process.env.ANTHROPIC_API_KEY;
+    /*
+     * The stage is still called no_credentials, but the thing that can now be
+     * missing is the model, not a key.
+     *
+     * The classifier moved onto this machine, so there is no secret left to
+     * hide for one call. What there is instead is an Ollama server that may not
+     * be running, and the failure has to stay exactly as loud: nothing judged,
+     * the hash kept, the page still queued, and a record on screen saying it
+     * was not judged. Pointing the client at a closed port for one call proves
+     * that, and proves it without a network and without spending anything.
+     *
+     * The stored stage name is deliberately not renamed: health.json, the app
+     * and these tests all read it, and quietly changing what a persisted value
+     * means is how a dataset stops saying what it says.
+     */
+    const saved = process.env.OLLAMA_HOST;
+    process.env.OLLAMA_HOST = "http://127.0.0.1:1";
     result = await classify(TEXT);
-    if (saved !== undefined) process.env.ANTHROPIC_API_KEY = saved;
+    if (saved === undefined) delete process.env.OLLAMA_HOST;
+    else process.env.OLLAMA_HOST = saved;
   } else {
     result = await classify(TEXT, asker);
   }

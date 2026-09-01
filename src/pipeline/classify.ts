@@ -15,15 +15,23 @@
  * the record with `relevanceScore: null` and a `needs_manual_review` flag.
  */
 import { readFileSync } from "node:fs";
-import Anthropic from "@anthropic-ai/sdk";
 import { Ajv } from "ajv";
+import { LOCAL_MODEL, askLocal, localModelReady, localTriage } from "./model.js";
 
 /**
- * The spec named claude-sonnet-4-6; the owner moved it to claude-sonnet-5,
- * which is the newer model in the same tier and cheaper per token. Nothing
- * else in this file depends on which one runs.
+ * The model moved onto the owner's own machine, and the bill went to zero.
+ *
+ * The spec named claude-sonnet-4-6, then claude-sonnet-5. Both were good and
+ * both cost about twelve dollars a month, which is money a final-year student
+ * does not have for six months. Everything below this line - the schema, the
+ * cross-field checks, the retry, the refusal to invent a verdict - is unchanged
+ * and was worth keeping. Only the thing that answers is different, and it now
+ * runs on a CPU in Riyadh for nothing.
+ *
+ * The name is still reported in the run log, because a reader must be able to
+ * tell which model produced a verdict.
  */
-export const CLASSIFIER_MODEL = "claude-sonnet-5";
+export const CLASSIFIER_MODEL = LOCAL_MODEL;
 
 /** Spec section 5.3: send only the changed text block, at most 6000 chars. */
 export const MAX_EXCERPT_CHARS = 6000;
@@ -82,12 +90,18 @@ export interface Classification {
 }
 
 /**
- * Prices verified against platform.claude.com/docs/en/about-claude/pricing on
- * 2026-08-29, not from memory. The page also states that the $2/$10 launch
- * pricing for Sonnet 5 is now the standard price and the increase to $3/$15
- * that had been scheduled for 2026-09-01 will not happen.
+ * Zero, because the model runs on the owner's own processor.
+ *
+ * This was $2/$10 per million tokens against Sonnet 5, verified on 2026-08-29.
+ * It is now nothing, and the honest thing is to say so rather than delete the
+ * cost line: a number that improves because we stopped measuring it is the
+ * worst kind of failure, and this project has already been bitten by one.
+ *
+ * So money stays measured, at its true value of zero, and the run report gains
+ * a metric that can still get worse - seconds of local inference. That is what
+ * a runaway round now spends, and it is what the budget guard now bounds.
  */
-export const PRICE_PER_MTOK = { input: 2, output: 10 } as const;
+export const PRICE_PER_MTOK = { input: 0, output: 0 } as const;
 
 /**
  * What caching costs, as multiples of the ordinary input price.
@@ -297,9 +311,6 @@ const schema = {
 
 const validate = new Ajv({ allErrors: true }).compile(schema);
 
-let client: Anthropic | null = null;
-const getClient = (): Anthropic => (client ??= new Anthropic());
-
 /** Models are told not to fence. Stripping one is formatting, not invention. */
 function unfence(raw: string): string {
   const fenced = raw.trim().match(/^```(?:json)?\s*([\s\S]*?)\s*```$/);
@@ -311,51 +322,39 @@ export const liveAsk: Asker = async (excerpt, insist) => {
   if (profile === null) throw new Error("RASID_STUDENT_PROFILE is not set");
 
   /*
-   * The instructions are cached, because they are the bill.
+   * The profile goes into the prompt, and the prompt does not leave the house.
    *
-   * A round classifies twenty-odd pages, and each call carried the same nine
-   * hundred tokens of schema, rules and profile: measured, that repetition was
-   * about sixty per cent of everything the round spent on input, and none of it
-   * was ever about the page being read.
+   * When this called a remote API, the student's university, GPA and class
+   * hours travelled to a third party on every classification. Running the model
+   * locally removes that entirely: the request goes to 127.0.0.1 and nothing
+   * about him crosses the network. It is the same prompt, verbatim per spec
+   * 5.3, read by a model on his own CPU.
    *
-   * Marking the system block cached means the first call of a round pays a
-   * small premium to store it and every call after reads it at a tenth of the
-   * price. The calls in a round happen back to back once fetching is done, well
-   * inside the cache's lifetime; if it has expired, the request is served
-   * normally and costs what it used to. Nothing about the answer changes —
-   * the model sees the identical prompt either way — so this cannot affect what
-   * gets classified, only what it costs.
+   * Prompt caching is gone with the bill it existed to reduce. Ollama keeps the
+   * model resident between calls, which is the local equivalent and costs
+   * nothing to arrange.
    */
-  const response = await getClient().messages.create({
-    model: CLASSIFIER_MODEL,
-    max_tokens: 2048,
-    system: [
-      {
-        type: "text",
-        text: buildSystemPrompt(profile),
-        cache_control: { type: "ephemeral" },
-      },
-    ],
-    messages: [
-      {
-        role: "user",
-        content: insist ? `${excerpt}\n\nReturn valid JSON only.` : excerpt,
-      },
-    ],
+  const call = await askLocal({
+    system: buildSystemPrompt(profile),
+    prompt: insist ? `${excerpt}\n\nReturn valid JSON only.` : excerpt,
+    json: true,
+    maxTokens: 900,
   });
 
-  return {
-    text: response.content
-      .filter((b): b is Anthropic.TextBlock => b.type === "text")
-      .map((b) => b.text)
-      .join(""),
-    usage: {
-      inputTokens: response.usage.input_tokens,
-      outputTokens: response.usage.output_tokens,
-      cacheWriteTokens: response.usage.cache_creation_input_tokens ?? 0,
-      cacheReadTokens: response.usage.cache_read_input_tokens ?? 0,
-    },
-  };
+  /*
+   * Unreachable is reported as an answer that will not parse, never thrown.
+   *
+   * `classify` turns an unparseable reply into a `parse` failure, and a parse
+   * failure is exactly the right outcome here: the page keeps
+   * `pendingClassification`, it is retried next round, and a
+   * needs_manual_review record says on screen that it was not judged. Throwing
+   * would take the whole round down instead, and a round that dies is a day of
+   * blindness.
+   */
+  if (call.error !== null) {
+    return { text: `local model unavailable: ${call.error}`, usage: call.usage };
+  }
+  return { text: call.text, usage: call.usage };
 };
 
 /**
@@ -417,60 +416,45 @@ export function triageExcerpt(text: string): string {
 }
 
 export async function triage(text: string): Promise<TriageResult> {
-  const usage: Usage = { inputTokens: 0, outputTokens: 0 };
-  if (!process.env.ANTHROPIC_API_KEY?.trim()) return { looksLikeAnnouncement: true, usage };
-
-  try {
-    const response = await getClient().messages.create({
-      model: CLASSIFIER_MODEL,
-      max_tokens: 8,
-      system: TRIAGE_PROMPT,
-      messages: [{ role: "user", content: triageExcerpt(text) }],
-    });
-    usage.inputTokens = response.usage.input_tokens;
-    usage.outputTokens = response.usage.output_tokens;
-
-    const answer = response.content
-      .filter((b): b is Anthropic.TextBlock => b.type === "text")
-      .map((b) => b.text)
-      .join("")
-      .trim();
-
-    /*
-     * Only an unambiguous no is a no. Anything else goes on to be judged.
-     *
-     * No `\b` after the Arabic: a word boundary in JavaScript is defined
-     * against [A-Za-z0-9_], so the position after لا is only a boundary when a
-     * Latin letter follows it. "لا" on its own, or "لا." — the two things the
-     * model actually replies — did not match, and every Arabic no was read as a
-     * yes. The filter saved nothing and nobody would have noticed except by the
-     * bill.
-     */
-    return { looksLikeAnnouncement: !/^\s*(لا|no\b)/i.test(answer), usage };
-  } catch {
-    // A failed triage must not be able to hide a page. It costs a cent to be
-    // wrong in this direction and a semester to be wrong in the other.
-    return { looksLikeAnnouncement: true, usage };
-  }
+  /*
+   * The saving this stage buys is no longer money; it is the owner's CPU and
+   * his patience with notifications. The bias is unchanged and is the whole
+   * point: an unclear answer, an unreachable model, a timeout, a reply in prose
+   * - every one of them passes the page on to be judged properly.
+   *
+   * `localTriage` enforces that, and `readsAsNo` there carries the corrected
+   * Arabic word-boundary test that this function got wrong for weeks.
+   */
+  const result = await localTriage(triageExcerpt(text));
+  return { looksLikeAnnouncement: result.looksLikeAnnouncement, usage: result.usage };
 }
 
 export async function classify(text: string, ask: Asker = liveAsk): Promise<ClassifyResult> {
   const usage: Usage = { inputTokens: 0, outputTokens: 0 };
 
   /*
-   * Falsy, not `undefined`. GitHub Actions substitutes an unconfigured secret
-   * with the empty string, so the loud, designed `no_credentials` failure never
-   * fired in CI — it went to the API with an empty key and came back as an
-   * opaque transport error instead of saying plainly that the key was missing.
+   * There is no credential to be missing any more, but there is still a model
+   * that can be absent, and the failure has to stay just as loud.
+   *
+   * The stage name is kept as `no_credentials` because health.json, the app and
+   * three tests already read it, and renaming a stored value to describe a new
+   * cause is how a dataset stops meaning what it says. The reason string is
+   * what a human reads, and it now names the real problem.
+   *
+   * The check is `ask === liveAsk` so injected test askers are never gated on a
+   * model the test does not use.
    */
-  if (ask === liveAsk && !process.env.ANTHROPIC_API_KEY?.trim()) {
-    return {
-      ok: false,
-      stage: "no_credentials",
-      reason: "ANTHROPIC_API_KEY is not set, so nothing was classified",
-      attempts: 0,
-      usage,
-    };
+  if (ask === liveAsk) {
+    const ready = await localModelReady();
+    if (!ready.ok) {
+      return {
+        ok: false,
+        stage: "no_credentials",
+        reason: `the local model is not available, so nothing was classified: ${ready.reason}`,
+        attempts: 0,
+        usage,
+      };
+    }
   }
   if (ask === liveAsk && studentProfile() === null) {
     return {
@@ -497,15 +481,14 @@ export async function classify(text: string, ask: Asker = liveAsk): Promise<Clas
       raw = reply.text;
       addUsage(usage, reply.usage);
     } catch (err) {
-      // The SDK already retried 429s and 5xx. Reaching here means the call
-      // genuinely failed, and a failed call is not an absence of news.
-      const reason =
-        err instanceof Anthropic.APIError
-          ? `${err.constructor.name} ${err.status ?? ""}: ${err.message}`.trim()
-          : err instanceof Error
-            ? err.message
-            : String(err);
-      last = { stage: "api", reason };
+      /*
+       * `liveAsk` no longer throws - an unreachable model comes back as text
+       * that will not parse, which keeps the page queued and visible. This
+       * branch remains for injected askers, which tests use to drive exactly
+       * this failure, and for anything genuinely unexpected. A failed call is
+       * still not an absence of news.
+       */
+      last = { stage: "api", reason: err instanceof Error ? err.message : String(err) };
       continue;
     }
 
