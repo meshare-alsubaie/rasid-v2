@@ -7,6 +7,7 @@
  *
  *   npm run test:notify
  */
+import { VAPID_PUBLIC_KEY } from "../src/app/vapid";
 import {
   decide,
   inQuietHours,
@@ -440,6 +441,36 @@ check(
   inQuietHours(riyadh("20:00"), 23, 7) && !inQuietHours(riyadh("20:00"), 23, 7, "UTC"),
   "20:00Z is 23:00 in Riyadh but 20:00 in UTC",
 );
+
+/*
+ * The key the phone needs, which was missing for a whole deployment.
+ *
+ * The site went live with VITE_VAPID_PUBLIC_KEY unset. The build succeeded,
+ * the page rendered, and the only trace was one line inside a diagnostics
+ * panel. Push notifications were off - the single thing this application
+ * exists to deliver - and nothing would have said so until someone opened that
+ * panel and read it.
+ *
+ * The key is now committed rather than kept in a secret, because it is public
+ * by construction and a secret can be silently absent. This is the check that
+ * a future refactor cannot quietly undo: no valid key, no green run.
+ */
+console.log("\nthe notification key the browser needs");
+{
+  const key = VAPID_PUBLIC_KEY;
+  check("a public key is compiled into the app", Boolean(key), key ? "" : "empty");
+  // A P-256 point, base64url-encoded: 65 bytes becomes 87 or 88 characters.
+  check(
+    "and it is the right shape for one",
+    /^[A-Za-z0-9_-]{86,88}$/.test(key),
+    `${key.length} chars`,
+  );
+  check(
+    "it is the public half, not the private one",
+    key.startsWith("B"),
+    "an uncompressed P-256 public point begins with 0x04, which encodes as B",
+  );
+}
 
 console.log(`\n${failures === 0 ? "all checks passed" : `${failures} CHECK(S) FAILED`}`);
 process.exit(failures === 0 ? 0 : 1);

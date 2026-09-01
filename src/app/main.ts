@@ -9,6 +9,7 @@
  * shown as unknown, never as a default that happens to look reassuring.
  */
 import "./style.css";
+import { VAPID_PUBLIC_KEY } from "./vapid";
 import { loadDataset, formatDate, timeAgo, daysUntil, type Dataset } from "./data";
 import { renderSeasonBar, type LaneInput } from "./season-bar";
 import { hijriOf, unattested } from "../types";
@@ -585,7 +586,7 @@ async function readPushDiag(): Promise<void> {
   const supported = "serviceWorker" in navigator && "PushManager" in window;
   const diag: PushDiag = {
     supported,
-    keyPresent: Boolean(import.meta.env.VITE_VAPID_PUBLIC_KEY),
+    keyPresent: Boolean(VAPID_PUBLIC_KEY),
     permission: "Notification" in window ? Notification.permission : "unavailable",
     workerReady: false,
     subscribed: false,
@@ -1156,7 +1157,7 @@ const b64ToBytes = (b64: string): ArrayBuffer => {
  */
 async function subscribeToPush(): Promise<void> {
   const out = document.getElementById("sub-out")!;
-  const key = import.meta.env.VITE_VAPID_PUBLIC_KEY as string | undefined;
+  const key = VAPID_PUBLIC_KEY;
   const say = (msg: string): void => {
     out.textContent = msg;
   };

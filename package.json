@@ -46,7 +46,8 @@
     "test:relevance": "tsx scripts/test-relevance.ts",
     "test:toast": "tsx scripts/test-toast.ts",
     "requeue": "tsx scripts/requeue.ts",
-    "test:mobile": "tsx scripts/test-mobile.ts"
+    "test:mobile": "tsx scripts/test-mobile.ts",
+    "vapid:new": "tsx scripts/vapid-new.ts"
   },
   "devDependencies": {
     "@types/node": "^22.10.2",

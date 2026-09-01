@@ -95,4 +95,7 @@ jobs:
       - run: npx playwright install --with-deps chromium
       - run: npm run build
       - run: npm run audit:contrast
+      # Nothing cut off the right edge of a phone, at three widths, against the
+      # built site. It serves dist itself, so it needs no separate server.
+      - run: npm run test:mobile
       - run: npm run audit:lighthouse
