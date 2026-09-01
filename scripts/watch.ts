@@ -58,7 +58,20 @@ const IDLE_MS = 60_000;
 
 const read = <T>(p: string): T[] => JSON.parse(readFileSync(p, "utf8").replace(/^﻿/, "")) as T[];
 
-const stamp = (): string => new Date().toISOString().slice(0, 16).replace("T", " ");
+/**
+ * Local time, because this line is read by a person in Riyadh.
+ *
+ * It was `toISOString()`, which is UTC, and the wrapper that starts this
+ * writes its own lines in local time - so watch.log carried two clocks three
+ * hours apart in consecutive lines. Every ISO date the pipeline *stores* stays
+ * UTC and should; this is the one place where the reader is a human looking at
+ * a log to see whether the thing ran.
+ */
+const stamp = (): string => {
+  const d = new Date();
+  const p = (n: number): string => String(n).padStart(2, "0");
+  return `${d.getFullYear()}-${p(d.getMonth() + 1)}-${p(d.getDate())} ${p(d.getHours())}:${p(d.getMinutes())}`;
+};
 const say = (msg: string): void => console.log(`[${stamp()}] ${msg}`);
 
 /**
