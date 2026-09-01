@@ -28,8 +28,21 @@ jobs:
 
       # The rules that guard the two things a null must never become: a zero,
       # and a notification.
-      - run: npm run test:classifier
+      #
+      # test:classifier is deliberately not here any more. The classifier is a
+      # model on the owner's own machine, and there is none on a runner - the
+      # test correctly refuses to report success about questions it never
+      # asked, so on CI it fails for the right reason and tells us nothing.
+      # Its subject is covered here by test:relevance, which is a pure function
+      # and runs anywhere. Run test:classifier on the machine that has the
+      # model, where it means something.
       - run: npm run test:notify
+      # The score itself: bands, the refusal to say zero without a reason to,
+      # and the twenty benchmark announcements. No model, no network.
+      - run: npm run test:relevance
+      # The watcher's schedule, simulated over a day against the real dataset:
+      # no host read twice inside its budget, and nothing starved.
+      - run: npm run test:schedule
       # The two silent failures an adversarial audit proved: a window that never
       # opens because its status was cached, and a record deleted for the crime
       # of its page going quiet.
@@ -56,11 +69,20 @@ jobs:
       # The checkers, checked. Twice a gate has passed while looking at nothing;
       # this plants a fault each one must catch and fails if it does not.
       - run: npm run test:gates
-      # The filter that decides which pages are worth paying to judge. A false
+      # The filter that decides which pages are worth a closer look. A false
       # negative here is an announcement nobody ever looks at.
       - run: npm run test:costfilter
-      # test:triage is deliberately not here: it makes real API calls, and CI
-      # must not spend. Run it by hand after changing the triage prompt.
+      #
+      # Three gates run only on the owner's machine, and each for a reason a
+      # runner cannot fix:
+      #   test:triage   needs the local model, and an unreachable model makes
+      #                 every page pass, which would report a perfect score for
+      #                 a question never asked
+      #   test:toast    needs Windows, since that is where the notification has
+      #                 to appear
+      #   test:classifier  same as triage
+      # They are run by hand, or by the watcher's own machine, where they mean
+      # something.
 
       # The repository is public. The README called this a gate before it was
       # one: it was a habit someone had to remember, run by hand, with nothing
