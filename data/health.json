@@ -74,8 +74,8 @@
   {
     "sourceUrl": "https://adf.gov.sa/ar/Pages/employment.aspx",
     "orgId": "adf",
-    "lastAttemptISO": "2026-09-01T08:30:59.864Z",
-    "lastSuccessISO": "2026-09-01T08:30:59.864Z",
+    "lastAttemptISO": "2026-09-02T00:26:11.365Z",
+    "lastSuccessISO": "2026-09-02T00:26:11.365Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -92,8 +92,8 @@
   {
     "sourceUrl": "https://adf.gov.sa/ar/Pages/training.aspx",
     "orgId": "adf",
-    "lastAttemptISO": "2026-09-01T08:30:59.864Z",
-    "lastSuccessISO": "2026-09-01T08:30:59.864Z",
+    "lastAttemptISO": "2026-09-02T00:12:15.150Z",
+    "lastSuccessISO": "2026-09-02T00:12:15.150Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -164,8 +164,8 @@
   {
     "sourceUrl": "https://alinma.com/About-the-Bank/The-Bank/News/2011/10/alinma-bank-hosts-training-course-on-corporate-business-services-and-e-banking-2011",
     "orgId": "alinma",
-    "lastAttemptISO": "2026-09-01T08:30:59.864Z",
-    "lastSuccessISO": "2026-09-01T08:30:59.864Z",
+    "lastAttemptISO": "2026-09-02T00:32:50.361Z",
+    "lastSuccessISO": "2026-09-02T00:32:50.361Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -200,8 +200,8 @@
   {
     "sourceUrl": "https://alinma.com/About-the-Bank/The-Bank/News/2014/04/alinma-bank-participates-in-career-day-at-al-imam-university",
     "orgId": "alinma",
-    "lastAttemptISO": "2026-09-01T08:30:59.864Z",
-    "lastSuccessISO": "2026-09-01T08:30:59.864Z",
+    "lastAttemptISO": "2026-09-02T00:08:03.721Z",
+    "lastSuccessISO": "2026-09-02T00:08:03.721Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -254,8 +254,8 @@
   {
     "sourceUrl": "https://alinma.com/en/About-the-Bank/The-Bank/News/2011/05/alinma-bank-participates-at-university-career-fairs",
     "orgId": "alinma",
-    "lastAttemptISO": "2026-09-01T08:30:59.864Z",
-    "lastSuccessISO": "2026-09-01T08:30:59.864Z",
+    "lastAttemptISO": "2026-09-01T23:55:35.655Z",
+    "lastSuccessISO": "2026-09-01T23:55:35.655Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -290,8 +290,8 @@
   {
     "sourceUrl": "https://alinma.com/en/About-the-Bank/The-Bank/News/2011/12/alinmabankhoststrainingcourseoncorporatebusinessservicesandebanking",
     "orgId": "alinma",
-    "lastAttemptISO": "2026-09-01T08:30:59.864Z",
-    "lastSuccessISO": "2026-09-01T08:30:59.864Z",
+    "lastAttemptISO": "2026-09-02T00:20:27.229Z",
+    "lastSuccessISO": "2026-09-02T00:20:27.229Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -317,8 +317,8 @@
   {
     "sourceUrl": "https://anb.com.sa/web/anb",
     "orgId": "anb",
-    "lastAttemptISO": "2026-09-01T08:30:59.864Z",
-    "lastSuccessISO": "2026-09-01T08:30:59.864Z",
+    "lastAttemptISO": "2026-09-02T00:12:15.150Z",
+    "lastSuccessISO": "2026-09-02T00:12:15.150Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -326,11 +326,11 @@
   {
     "sourceUrl": "https://athkax.sdaia.gov.sa/coop",
     "orgId": "sdaia",
-    "lastAttemptISO": "2026-09-01T23:36:42.906Z",
+    "lastAttemptISO": "2026-09-02T00:22:34.692Z",
     "lastSuccessISO": "2026-09-01T23:36:42.906Z",
-    "consecutiveFailures": 0,
-    "lastError": null,
-    "state": "healthy"
+    "consecutiveFailures": 1,
+    "lastError": "headless chromium unavailable (browserType.launch: Executable doesn't exist at C:\\Users\\GIGABITE\\AppData\\Local\\ms-playwright\\chromium_headless_shell-1234\\chrome-headless-shell-win64\\chrome-headless-shell.exe\n╔════════════════════════════════════════════════════════════╗\n║ Looks like Playwright was just installed or updated.       ║\n║ Please run the following command to download new browsers: ║\n║                                                            ║\n║     npx playwright install                                 ║\n║                                                            ║\n║ <3 Playwright Team                                         ║\n╚════════════════════════════════════════════════════════════╝); run \"npx playwright install chromium\"",
+    "state": "degraded"
   },
   {
     "sourceUrl": "https://awqaf.gov.sa/ar/ar/hiring/",
@@ -344,8 +344,8 @@
   {
     "sourceUrl": "https://awqaf.gov.sa/ar/hiring",
     "orgId": "awqaf",
-    "lastAttemptISO": "2026-09-01T08:30:59.864Z",
-    "lastSuccessISO": "2026-09-01T08:30:59.864Z",
+    "lastAttemptISO": "2026-09-02T00:12:15.150Z",
+    "lastSuccessISO": "2026-09-02T00:12:15.150Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -353,8 +353,8 @@
   {
     "sourceUrl": "https://awqaf.gov.sa/ar/media-center/achievements-awards",
     "orgId": "awqaf",
-    "lastAttemptISO": "2026-09-01T08:30:59.864Z",
-    "lastSuccessISO": "2026-09-01T08:30:59.864Z",
+    "lastAttemptISO": "2026-09-02T00:26:11.365Z",
+    "lastSuccessISO": "2026-09-02T00:26:11.365Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -371,11 +371,11 @@
   {
     "sourceUrl": "https://bankalbilad.com/ar/about/Pages/Training.aspx",
     "orgId": "albilad",
-    "lastAttemptISO": "2026-09-01T23:36:42.906Z",
+    "lastAttemptISO": "2026-09-02T00:22:34.692Z",
     "lastSuccessISO": "2026-09-01T23:36:42.906Z",
-    "consecutiveFailures": 0,
-    "lastError": null,
-    "state": "healthy"
+    "consecutiveFailures": 1,
+    "lastError": "headless chromium unavailable (browserType.launch: Executable doesn't exist at C:\\Users\\GIGABITE\\AppData\\Local\\ms-playwright\\chromium_headless_shell-1234\\chrome-headless-shell-win64\\chrome-headless-shell.exe\n╔════════════════════════════════════════════════════════════╗\n║ Looks like Playwright was just installed or updated.       ║\n║ Please run the following command to download new browsers: ║\n║                                                            ║\n║     npx playwright install                                 ║\n║                                                            ║\n║ <3 Playwright Team                                         ║\n╚════════════════════════════════════════════════════════════╝); run \"npx playwright install chromium\"",
+    "state": "degraded"
   },
   {
     "sourceUrl": "https://career.alinma.com/",
@@ -407,8 +407,8 @@
   {
     "sourceUrl": "https://career.dga.gov.sa/ar/page/coop-program/",
     "orgId": "dga",
-    "lastAttemptISO": "2026-09-01T23:36:42.906Z",
-    "lastSuccessISO": "2026-09-01T23:36:42.906Z",
+    "lastAttemptISO": "2026-09-02T00:22:34.692Z",
+    "lastSuccessISO": "2026-09-02T00:22:34.692Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -416,8 +416,8 @@
   {
     "sourceUrl": "https://career.elm.sa/elm/go/coop-trainee-and-training-program/8486100/",
     "orgId": "elm",
-    "lastAttemptISO": "2026-09-01T23:32:00.524Z",
-    "lastSuccessISO": "2026-09-01T23:32:00.524Z",
+    "lastAttemptISO": "2026-09-02T00:18:20.902Z",
+    "lastSuccessISO": "2026-09-02T00:18:20.902Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -425,8 +425,8 @@
   {
     "sourceUrl": "https://career.elm.sa/elm/go/coop-trainee-and-training-program/8486100/elm.sa",
     "orgId": "elm",
-    "lastAttemptISO": "2026-09-01T23:48:08.425Z",
-    "lastSuccessISO": "2026-09-01T23:48:08.425Z",
+    "lastAttemptISO": "2026-09-02T00:33:57.979Z",
+    "lastSuccessISO": "2026-09-02T00:33:57.979Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -434,8 +434,8 @@
   {
     "sourceUrl": "https://careers.alrajhibank.com.sa/",
     "orgId": "alrajhi",
-    "lastAttemptISO": "2026-09-01T23:13:55.143Z",
-    "lastSuccessISO": "2026-09-01T23:13:55.143Z",
+    "lastAttemptISO": "2026-09-02T00:08:03.721Z",
+    "lastSuccessISO": "2026-09-02T00:08:03.721Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -443,8 +443,8 @@
   {
     "sourceUrl": "https://careers.alrajhibank.com.sa/ar/page/coop-program/",
     "orgId": "alrajhi",
-    "lastAttemptISO": "2026-09-01T23:28:22.482Z",
-    "lastSuccessISO": "2026-09-01T23:28:22.482Z",
+    "lastAttemptISO": "2026-09-02T00:20:27.229Z",
+    "lastSuccessISO": "2026-09-02T00:20:27.229Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -452,8 +452,8 @@
   {
     "sourceUrl": "https://careers.alrajhibank.com.sa/ar/saudi-arabia/jobs/coop-training-%D8%A7%D9%84%D8%AA%D8%AF%D8%B1%D9%8A%D8%A8-%D8%A7%D9%84%D8%AA%D8%B9%D8%A7%D9%88%D9%86%D9%8A-1100037814/",
     "orgId": "alrajhi",
-    "lastAttemptISO": "2026-09-01T23:42:17.631Z",
-    "lastSuccessISO": "2026-09-01T23:42:17.631Z",
+    "lastAttemptISO": "2026-09-02T00:32:50.361Z",
+    "lastSuccessISO": "2026-09-02T00:32:50.361Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -461,8 +461,8 @@
   {
     "sourceUrl": "https://careers.alrajhibank.com.sa/en/page/coop-program/",
     "orgId": "alrajhi",
-    "lastAttemptISO": "2026-09-01T22:59:07.565Z",
-    "lastSuccessISO": "2026-09-01T22:59:07.565Z",
+    "lastAttemptISO": "2026-09-01T23:55:35.655Z",
+    "lastSuccessISO": "2026-09-01T23:55:35.655Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -488,8 +488,8 @@
   {
     "sourceUrl": "https://careers.awqaf.gov.sa/viewalljobs/",
     "orgId": "awqaf",
-    "lastAttemptISO": "2026-09-01T08:30:59.864Z",
-    "lastSuccessISO": "2026-09-01T08:30:59.864Z",
+    "lastAttemptISO": "2026-09-02T00:12:15.150Z",
+    "lastSuccessISO": "2026-09-02T00:12:15.150Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -515,8 +515,8 @@
   {
     "sourceUrl": "https://careers.cma.gov.sa/ar/page/coop-program/",
     "orgId": "cma",
-    "lastAttemptISO": "2026-09-01T23:35:16.137Z",
-    "lastSuccessISO": "2026-09-01T23:35:16.137Z",
+    "lastAttemptISO": "2026-09-02T00:24:44.922Z",
+    "lastSuccessISO": "2026-09-02T00:24:44.922Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -524,8 +524,8 @@
   {
     "sourceUrl": "https://careers.cma.gov.sa/ar/saudi-arabia/jobs/%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D8%AC-%D8%A7%D9%84%D8%AA%D8%AF%D8%B1%D9%8A%D8%A8-%D8%A7%D9%84%D8%AA%D8%B9%D8%A7%D9%88%D9%86%D9%8A-%D9%84%D9%84%D9%81%D8%B5%D9%84-%D8%A7%D9%84%D8%AF%D8%B1%D8%A7%D8%B3%D9%8A-%D8%A7%D9%84%D8%B5%D9%8A%D9%81%D9%8A-2025%D9%85-1100087033/",
     "orgId": "cma",
-    "lastAttemptISO": "2026-09-01T23:13:55.143Z",
-    "lastSuccessISO": "2026-09-01T23:13:55.143Z",
+    "lastAttemptISO": "2026-09-02T00:04:59.081Z",
+    "lastSuccessISO": "2026-09-02T00:04:59.081Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -560,8 +560,8 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en",
     "orgId": "maaden",
-    "lastAttemptISO": "2026-09-01T23:48:08.425Z",
-    "lastSuccessISO": "2026-09-01T23:48:08.425Z",
+    "lastAttemptISO": "2026-09-02T00:33:57.979Z",
+    "lastSuccessISO": "2026-09-02T00:33:57.979Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -569,26 +569,26 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/cookiesettings",
     "orgId": "maaden",
-    "lastAttemptISO": "2026-09-01T23:32:00.524Z",
+    "lastAttemptISO": "2026-09-02T00:18:20.902Z",
     "lastSuccessISO": "2026-09-01T23:32:00.524Z",
-    "consecutiveFailures": 0,
-    "lastError": null,
-    "state": "healthy"
+    "consecutiveFailures": 1,
+    "lastError": "headless chromium unavailable (browserType.launch: Executable doesn't exist at C:\\Users\\GIGABITE\\AppData\\Local\\ms-playwright\\chromium_headless_shell-1234\\chrome-headless-shell-win64\\chrome-headless-shell.exe\n╔════════════════════════════════════════════════════════════╗\n║ Looks like Playwright was just installed or updated.       ║\n║ Please run the following command to download new browsers: ║\n║                                                            ║\n║     npx playwright install                                 ║\n║                                                            ║\n║ <3 Playwright Team                                         ║\n╚════════════════════════════════════════════════════════════╝); run \"npx playwright install chromium\"",
+    "state": "degraded"
   },
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/search-results",
     "orgId": "maaden",
-    "lastAttemptISO": "2026-09-01T23:13:55.143Z",
+    "lastAttemptISO": "2026-09-02T00:01:46.986Z",
     "lastSuccessISO": "2026-09-01T23:13:55.143Z",
-    "consecutiveFailures": 0,
-    "lastError": null,
-    "state": "healthy"
+    "consecutiveFailures": 1,
+    "lastError": "headless chromium unavailable (browserType.launch: Executable doesn't exist at C:\\Users\\GIGABITE\\AppData\\Local\\ms-playwright\\chromium_headless_shell-1234\\chrome-headless-shell-win64\\chrome-headless-shell.exe\n╔════════════════════════════════════════════════════════════╗\n║ Looks like Playwright was just installed or updated.       ║\n║ Please run the following command to download new browsers: ║\n║                                                            ║\n║     npx playwright install                                 ║\n║                                                            ║\n║ <3 Playwright Team                                         ║\n╚════════════════════════════════════════════════════════════╝); run \"npx playwright install chromium\"",
+    "state": "degraded"
   },
   {
     "sourceUrl": "https://careers.mcit.gov.sa/",
     "orgId": "mcit",
-    "lastAttemptISO": "2026-09-01T23:36:42.906Z",
-    "lastSuccessISO": "2026-09-01T23:36:42.906Z",
+    "lastAttemptISO": "2026-09-02T00:22:34.692Z",
+    "lastSuccessISO": "2026-09-02T00:22:34.692Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -596,10 +596,10 @@
   {
     "sourceUrl": "https://careers.mobily.com.sa/ar/sites/opportunities/pages/Coop",
     "orgId": "mobily",
-    "lastAttemptISO": "2026-09-01T23:36:42.906Z",
+    "lastAttemptISO": "2026-09-02T00:22:34.692Z",
     "lastSuccessISO": "2026-08-30T00:02:43.835Z",
-    "consecutiveFailures": 12,
-    "lastError": "page.evaluate: Target crashed ",
+    "consecutiveFailures": 13,
+    "lastError": "headless chromium unavailable (browserType.launch: Executable doesn't exist at C:\\Users\\GIGABITE\\AppData\\Local\\ms-playwright\\chromium_headless_shell-1234\\chrome-headless-shell-win64\\chrome-headless-shell.exe\n╔════════════════════════════════════════════════════════════╗\n║ Looks like Playwright was just installed or updated.       ║\n║ Please run the following command to download new browsers: ║\n║                                                            ║\n║     npx playwright install                                 ║\n║                                                            ║\n║ <3 Playwright Team                                         ║\n╚════════════════════════════════════════════════════════════╝); run \"npx playwright install chromium\"",
     "state": "broken"
   },
   {
@@ -614,8 +614,8 @@
   {
     "sourceUrl": "https://careers.modon.gov.sa/ar/job-search-results/",
     "orgId": "modon",
-    "lastAttemptISO": "2026-09-01T08:30:59.864Z",
-    "lastSuccessISO": "2026-09-01T08:30:59.864Z",
+    "lastAttemptISO": "2026-09-02T00:12:15.150Z",
+    "lastSuccessISO": "2026-09-02T00:12:15.150Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -632,8 +632,8 @@
   {
     "sourceUrl": "https://careers.rcjy.gov.sa/ar/job-search-results/",
     "orgId": "rcjy",
-    "lastAttemptISO": "2026-09-01T08:30:59.864Z",
-    "lastSuccessISO": "2026-09-01T08:30:59.864Z",
+    "lastAttemptISO": "2026-09-02T00:14:23.078Z",
+    "lastSuccessISO": "2026-09-02T00:14:23.078Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -659,8 +659,8 @@
   {
     "sourceUrl": "https://careers.saib.com.sa/ar/page/bag-program/",
     "orgId": "saib",
-    "lastAttemptISO": "2026-09-01T23:42:17.631Z",
-    "lastSuccessISO": "2026-09-01T23:42:17.631Z",
+    "lastAttemptISO": "2026-09-02T00:32:50.361Z",
+    "lastSuccessISO": "2026-09-02T00:32:50.361Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -668,8 +668,8 @@
   {
     "sourceUrl": "https://careers.saib.com.sa/ar/page/coop-program/",
     "orgId": "saib",
-    "lastAttemptISO": "2026-09-01T22:59:07.565Z",
-    "lastSuccessISO": "2026-09-01T22:59:07.565Z",
+    "lastAttemptISO": "2026-09-01T23:55:35.655Z",
+    "lastSuccessISO": "2026-09-01T23:55:35.655Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -677,8 +677,8 @@
   {
     "sourceUrl": "https://careers.saib.com.sa/ar/page/it-program/",
     "orgId": "saib",
-    "lastAttemptISO": "2026-09-01T23:13:55.143Z",
-    "lastSuccessISO": "2026-09-01T23:13:55.143Z",
+    "lastAttemptISO": "2026-09-02T00:08:03.721Z",
+    "lastSuccessISO": "2026-09-02T00:08:03.721Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -686,8 +686,8 @@
   {
     "sourceUrl": "https://careers.saib.com.sa/en/page/coop-program/",
     "orgId": "saib",
-    "lastAttemptISO": "2026-09-01T23:28:22.482Z",
-    "lastSuccessISO": "2026-09-01T23:28:22.482Z",
+    "lastAttemptISO": "2026-09-02T00:20:27.229Z",
+    "lastSuccessISO": "2026-09-02T00:20:27.229Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -704,8 +704,8 @@
   {
     "sourceUrl": "https://careers.sama.gov.sa/content/Recruiting-process/?locale=en_GB",
     "orgId": "sama",
-    "lastAttemptISO": "2026-09-01T23:13:55.143Z",
-    "lastSuccessISO": "2026-09-01T23:13:55.143Z",
+    "lastAttemptISO": "2026-09-02T00:04:59.081Z",
+    "lastSuccessISO": "2026-09-02T00:04:59.081Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -722,8 +722,8 @@
   {
     "sourceUrl": "https://careers.sama.gov.sa/search/",
     "orgId": "sama",
-    "lastAttemptISO": "2026-09-01T23:35:16.137Z",
-    "lastSuccessISO": "2026-09-01T23:35:16.137Z",
+    "lastAttemptISO": "2026-09-02T00:24:44.922Z",
+    "lastSuccessISO": "2026-09-02T00:24:44.922Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -731,8 +731,8 @@
   {
     "sourceUrl": "https://careers.scfhs.org.sa/ar/page/build-you-future/",
     "orgId": "scfhs",
-    "lastAttemptISO": "2026-09-01T23:03:50.377Z",
-    "lastSuccessISO": "2026-09-01T23:03:50.377Z",
+    "lastAttemptISO": "2026-09-01T23:52:25.660Z",
+    "lastSuccessISO": "2026-09-01T23:52:25.660Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -749,8 +749,8 @@
   {
     "sourceUrl": "https://careers.scfhs.org.sa/ar/register-j/",
     "orgId": "scfhs",
-    "lastAttemptISO": "2026-09-01T08:30:59.864Z",
-    "lastSuccessISO": "2026-09-01T08:30:59.864Z",
+    "lastAttemptISO": "2026-09-02T00:28:14.147Z",
+    "lastSuccessISO": "2026-09-02T00:28:14.147Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -758,8 +758,8 @@
   {
     "sourceUrl": "https://careers.scfhs.org.sa/ar/saudi-arabia/jobs/",
     "orgId": "scfhs",
-    "lastAttemptISO": "2026-09-01T08:30:59.864Z",
-    "lastSuccessISO": "2026-09-01T08:30:59.864Z",
+    "lastAttemptISO": "2026-09-02T00:14:23.078Z",
+    "lastSuccessISO": "2026-09-02T00:14:23.078Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -767,20 +767,20 @@
   {
     "sourceUrl": "https://careers.sdaia.gov.sa/jobs",
     "orgId": "sdaia",
-    "lastAttemptISO": "2026-09-01T23:48:08.425Z",
+    "lastAttemptISO": "2026-09-02T00:33:57.979Z",
     "lastSuccessISO": "2026-09-01T23:48:08.425Z",
-    "consecutiveFailures": 0,
-    "lastError": null,
-    "state": "healthy"
+    "consecutiveFailures": 1,
+    "lastError": "headless chromium unavailable (browserType.launch: Executable doesn't exist at C:\\Users\\GIGABITE\\AppData\\Local\\ms-playwright\\chromium_headless_shell-1234\\chrome-headless-shell-win64\\chrome-headless-shell.exe\n╔════════════════════════════════════════════════════════════╗\n║ Looks like Playwright was just installed or updated.       ║\n║ Please run the following command to download new browsers: ║\n║                                                            ║\n║     npx playwright install                                 ║\n║                                                            ║\n║ <3 Playwright Team                                         ║\n╚════════════════════════════════════════════════════════════╝); run \"npx playwright install chromium\"",
+    "state": "degraded"
   },
   {
     "sourceUrl": "https://careers.sdaia.gov.sa/training",
     "orgId": "sdaia",
-    "lastAttemptISO": "2026-09-01T23:32:00.524Z",
+    "lastAttemptISO": "2026-09-02T00:18:20.902Z",
     "lastSuccessISO": "2026-09-01T23:32:00.524Z",
-    "consecutiveFailures": 0,
-    "lastError": null,
-    "state": "healthy"
+    "consecutiveFailures": 1,
+    "lastError": "headless chromium unavailable (browserType.launch: Executable doesn't exist at C:\\Users\\GIGABITE\\AppData\\Local\\ms-playwright\\chromium_headless_shell-1234\\chrome-headless-shell-win64\\chrome-headless-shell.exe\n╔════════════════════════════════════════════════════════════╗\n║ Looks like Playwright was just installed or updated.       ║\n║ Please run the following command to download new browsers: ║\n║                                                            ║\n║     npx playwright install                                 ║\n║                                                            ║\n║ <3 Playwright Team                                         ║\n╚════════════════════════════════════════════════════════════╝); run \"npx playwright install chromium\"",
+    "state": "degraded"
   },
   {
     "sourceUrl": "https://careers.stats.gov.sa/",
@@ -803,8 +803,8 @@
   {
     "sourceUrl": "https://careers.stc.com.sa/content/COOP/?locale=ar_SA",
     "orgId": "stc",
-    "lastAttemptISO": "2026-09-01T23:13:55.143Z",
-    "lastSuccessISO": "2026-09-01T23:13:55.143Z",
+    "lastAttemptISO": "2026-09-02T00:17:07.210Z",
+    "lastSuccessISO": "2026-09-02T00:17:07.210Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -812,8 +812,8 @@
   {
     "sourceUrl": "https://careers.stc.com.sa/content/COOP/?locale=en_US",
     "orgId": "stc",
-    "lastAttemptISO": "2026-09-01T22:59:07.565Z",
-    "lastSuccessISO": "2026-09-01T22:59:07.565Z",
+    "lastAttemptISO": "2026-09-02T00:01:46.986Z",
+    "lastSuccessISO": "2026-09-02T00:01:46.986Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -830,8 +830,8 @@
   {
     "sourceUrl": "https://careers.stc.com.sa/go/Cooperative-Training/7736023/",
     "orgId": "stc",
-    "lastAttemptISO": "2026-09-01T23:28:22.482Z",
-    "lastSuccessISO": "2026-09-01T23:28:22.482Z",
+    "lastAttemptISO": "2026-09-02T00:30:31.451Z",
+    "lastSuccessISO": "2026-09-02T00:30:31.451Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -839,8 +839,8 @@
   {
     "sourceUrl": "https://careers.zatca.gov.sa/content/Coop-and-Training-Programs-Arabic/?locale=ar_SA",
     "orgId": "zatca",
-    "lastAttemptISO": "2026-09-01T23:48:08.425Z",
-    "lastSuccessISO": "2026-09-01T23:48:08.425Z",
+    "lastAttemptISO": "2026-09-02T00:33:57.979Z",
+    "lastSuccessISO": "2026-09-02T00:33:57.979Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -848,8 +848,8 @@
   {
     "sourceUrl": "https://careers.zatca.gov.sa/search/?createNewAlert=false&q=&locationsearch=",
     "orgId": "zatca",
-    "lastAttemptISO": "2026-09-01T23:32:00.524Z",
-    "lastSuccessISO": "2026-09-01T23:32:00.524Z",
+    "lastAttemptISO": "2026-09-02T00:18:20.902Z",
+    "lastSuccessISO": "2026-09-02T00:18:20.902Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -866,8 +866,8 @@
   {
     "sourceUrl": "https://e-services.hrc.gov.sa/ar/service/details/12",
     "orgId": "hrc",
-    "lastAttemptISO": "2026-09-01T08:30:59.864Z",
-    "lastSuccessISO": "2026-09-01T08:30:59.864Z",
+    "lastAttemptISO": "2026-09-02T00:12:15.150Z",
+    "lastSuccessISO": "2026-09-02T00:12:15.150Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -875,8 +875,8 @@
   {
     "sourceUrl": "https://futureskills.mcit.gov.sa/ar/catalogue/all",
     "orgId": "mcit",
-    "lastAttemptISO": "2026-09-01T23:48:08.425Z",
-    "lastSuccessISO": "2026-09-01T23:48:08.425Z",
+    "lastAttemptISO": "2026-09-02T00:33:57.979Z",
+    "lastSuccessISO": "2026-09-02T00:33:57.979Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -884,8 +884,8 @@
   {
     "sourceUrl": "https://futureskills.mcit.gov.sa/ar/coop-training",
     "orgId": "mcit",
-    "lastAttemptISO": "2026-09-01T23:32:00.524Z",
-    "lastSuccessISO": "2026-09-01T23:32:00.524Z",
+    "lastAttemptISO": "2026-09-02T00:18:20.902Z",
+    "lastSuccessISO": "2026-09-02T00:18:20.902Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -893,8 +893,8 @@
   {
     "sourceUrl": "https://futureskills.mcit.gov.sa/en/coop-training",
     "orgId": "mcit",
-    "lastAttemptISO": "2026-09-01T23:13:55.143Z",
-    "lastSuccessISO": "2026-09-01T23:13:55.143Z",
+    "lastAttemptISO": "2026-09-02T00:01:46.986Z",
+    "lastSuccessISO": "2026-09-02T00:01:46.986Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -938,20 +938,20 @@
   {
     "sourceUrl": "https://gaca.gov.sa/news",
     "orgId": "gaca",
-    "lastAttemptISO": "2026-09-01T08:30:59.864Z",
+    "lastAttemptISO": "2026-09-02T00:26:11.365Z",
     "lastSuccessISO": "2026-09-01T08:30:59.864Z",
-    "consecutiveFailures": 0,
-    "lastError": null,
-    "state": "healthy"
+    "consecutiveFailures": 1,
+    "lastError": "headless chromium unavailable (browserType.launch: Executable doesn't exist at C:\\Users\\GIGABITE\\AppData\\Local\\ms-playwright\\chromium_headless_shell-1234\\chrome-headless-shell-win64\\chrome-headless-shell.exe\n╔════════════════════════════════════════════════════════════╗\n║ Looks like Playwright was just installed or updated.       ║\n║ Please run the following command to download new browsers: ║\n║                                                            ║\n║     npx playwright install                                 ║\n║                                                            ║\n║ <3 Playwright Team                                         ║\n╚════════════════════════════════════════════════════════════╝); run \"npx playwright install chromium\"",
+    "state": "degraded"
   },
   {
     "sourceUrl": "https://gaca.gov.sa/web/ar-sa/page/home",
     "orgId": "gaca",
-    "lastAttemptISO": "2026-09-01T08:30:59.864Z",
+    "lastAttemptISO": "2026-09-02T00:12:15.150Z",
     "lastSuccessISO": "2026-09-01T08:30:59.864Z",
-    "consecutiveFailures": 0,
-    "lastError": null,
-    "state": "healthy"
+    "consecutiveFailures": 1,
+    "lastError": "headless chromium unavailable (browserType.launch: Executable doesn't exist at C:\\Users\\GIGABITE\\AppData\\Local\\ms-playwright\\chromium_headless_shell-1234\\chrome-headless-shell-win64\\chrome-headless-shell.exe\n╔════════════════════════════════════════════════════════════╗\n║ Looks like Playwright was just installed or updated.       ║\n║ Please run the following command to download new browsers: ║\n║                                                            ║\n║     npx playwright install                                 ║\n║                                                            ║\n║ <3 Playwright Team                                         ║\n╚════════════════════════════════════════════════════════════╝); run \"npx playwright install chromium\"",
+    "state": "degraded"
   },
   {
     "sourceUrl": "https://gmedia.gov.sa/",
@@ -965,8 +965,8 @@
   {
     "sourceUrl": "https://gmedia.gov.sa/ar/hiring",
     "orgId": "gcam",
-    "lastAttemptISO": "2026-09-01T08:30:59.864Z",
-    "lastSuccessISO": "2026-09-01T08:30:59.864Z",
+    "lastAttemptISO": "2026-09-02T00:12:15.150Z",
+    "lastSuccessISO": "2026-09-02T00:12:15.150Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -983,8 +983,8 @@
   {
     "sourceUrl": "https://gmedia.gov.sa/ar/news/news-0020",
     "orgId": "gcam",
-    "lastAttemptISO": "2026-09-01T08:30:59.864Z",
-    "lastSuccessISO": "2026-09-01T08:30:59.864Z",
+    "lastAttemptISO": "2026-09-02T00:26:11.365Z",
+    "lastSuccessISO": "2026-09-02T00:26:11.365Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -1028,8 +1028,8 @@
   {
     "sourceUrl": "https://jobs.misa.gov.sa/viewalljobs/",
     "orgId": "misa",
-    "lastAttemptISO": "2026-09-01T08:30:59.864Z",
-    "lastSuccessISO": "2026-09-01T08:30:59.864Z",
+    "lastAttemptISO": "2026-09-02T00:12:15.150Z",
+    "lastSuccessISO": "2026-09-02T00:12:15.150Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -1046,8 +1046,8 @@
   {
     "sourceUrl": "https://khabeer.bog.gov.sa/cotraining/index",
     "orgId": "bog",
-    "lastAttemptISO": "2026-09-01T23:36:42.906Z",
-    "lastSuccessISO": "2026-09-01T23:36:42.906Z",
+    "lastAttemptISO": "2026-09-02T00:22:34.692Z",
+    "lastSuccessISO": "2026-09-02T00:22:34.692Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -1073,8 +1073,8 @@
   {
     "sourceUrl": "https://master-works.sa/ar/Careers",
     "orgId": "masterworks",
-    "lastAttemptISO": "2026-09-01T21:11:32.997Z",
-    "lastSuccessISO": "2026-09-01T21:11:32.997Z",
+    "lastAttemptISO": "2026-09-02T00:17:07.210Z",
+    "lastSuccessISO": "2026-09-02T00:17:07.210Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -1118,11 +1118,11 @@
   {
     "sourceUrl": "https://mc.gov.sa/ar/mediacenter/News/pages/default.aspx",
     "orgId": "mc",
-    "lastAttemptISO": "2026-09-01T08:30:59.864Z",
+    "lastAttemptISO": "2026-09-02T00:12:15.150Z",
     "lastSuccessISO": "2026-09-01T08:30:59.864Z",
-    "consecutiveFailures": 0,
-    "lastError": null,
-    "state": "healthy"
+    "consecutiveFailures": 1,
+    "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
+    "state": "degraded"
   },
   {
     "sourceUrl": "https://mc.gov.sa/ar/pages/default.aspx",
@@ -1163,8 +1163,8 @@
   {
     "sourceUrl": "https://misa.gov.sa/ar/media-center/",
     "orgId": "misa",
-    "lastAttemptISO": "2026-09-01T08:30:59.864Z",
-    "lastSuccessISO": "2026-09-01T08:30:59.864Z",
+    "lastAttemptISO": "2026-09-02T00:12:15.150Z",
+    "lastSuccessISO": "2026-09-02T00:12:15.150Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -1172,11 +1172,11 @@
   {
     "sourceUrl": "https://misa.gov.sa/ar/media-center/announcements/",
     "orgId": "misa",
-    "lastAttemptISO": "2026-09-01T08:30:59.864Z",
+    "lastAttemptISO": "2026-09-02T00:26:11.365Z",
     "lastSuccessISO": "2026-09-01T08:30:59.864Z",
-    "consecutiveFailures": 0,
-    "lastError": null,
-    "state": "healthy"
+    "consecutiveFailures": 1,
+    "lastError": "headless chromium unavailable (browserType.launch: Executable doesn't exist at C:\\Users\\GIGABITE\\AppData\\Local\\ms-playwright\\chromium_headless_shell-1234\\chrome-headless-shell-win64\\chrome-headless-shell.exe\n╔════════════════════════════════════════════════════════════╗\n║ Looks like Playwright was just installed or updated.       ║\n║ Please run the following command to download new browsers: ║\n║                                                            ║\n║     npx playwright install                                 ║\n║                                                            ║\n║ <3 Playwright Team                                         ║\n╚════════════════════════════════════════════════════════════╝); run \"npx playwright install chromium\"",
+    "state": "degraded"
   },
   {
     "sourceUrl": "https://misa.gov.sa/ar/media-center/latest-news/",
@@ -1208,20 +1208,20 @@
   {
     "sourceUrl": "https://modon.gov.sa/ar/MediaCenter/modon-news/News/Pages/default.aspx",
     "orgId": "modon",
-    "lastAttemptISO": "2026-09-01T08:30:59.864Z",
+    "lastAttemptISO": "2026-09-02T00:26:11.365Z",
     "lastSuccessISO": "2026-09-01T08:30:59.864Z",
-    "consecutiveFailures": 0,
-    "lastError": null,
-    "state": "healthy"
+    "consecutiveFailures": 1,
+    "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
+    "state": "degraded"
   },
   {
     "sourceUrl": "https://modon.gov.sa/ar/MediaCenter/Pages/default.aspx",
     "orgId": "modon",
-    "lastAttemptISO": "2026-09-01T08:30:59.864Z",
+    "lastAttemptISO": "2026-09-02T00:12:15.150Z",
     "lastSuccessISO": "2026-09-01T08:30:59.864Z",
-    "consecutiveFailures": 0,
-    "lastError": null,
-    "state": "healthy"
+    "consecutiveFailures": 1,
+    "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
+    "state": "degraded"
   },
   {
     "sourceUrl": "https://momah.gov.sa/ar",
@@ -1244,8 +1244,8 @@
   {
     "sourceUrl": "https://momah.gov.sa/ar/form/partnerships-and-cooperation",
     "orgId": "housing",
-    "lastAttemptISO": "2026-09-01T08:30:59.864Z",
-    "lastSuccessISO": "2026-09-01T08:30:59.864Z",
+    "lastAttemptISO": "2026-09-02T00:12:15.150Z",
+    "lastSuccessISO": "2026-09-02T00:12:15.150Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -1271,8 +1271,8 @@
   {
     "sourceUrl": "https://momah.gov.sa/ar/node/14717",
     "orgId": "housing",
-    "lastAttemptISO": "2026-09-01T08:30:59.864Z",
-    "lastSuccessISO": "2026-09-01T08:30:59.864Z",
+    "lastAttemptISO": "2026-09-02T00:26:11.365Z",
+    "lastSuccessISO": "2026-09-02T00:26:11.365Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -1280,8 +1280,8 @@
   {
     "sourceUrl": "https://mot.gov.sa/ar/employment1",
     "orgId": "mot",
-    "lastAttemptISO": "2026-09-01T08:30:59.864Z",
-    "lastSuccessISO": "2026-09-01T08:30:59.864Z",
+    "lastAttemptISO": "2026-09-02T00:12:15.150Z",
+    "lastSuccessISO": "2026-09-02T00:12:15.150Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -1289,8 +1289,8 @@
   {
     "sourceUrl": "https://mot.gov.sa/ar/news",
     "orgId": "mot",
-    "lastAttemptISO": "2026-09-01T08:30:59.864Z",
-    "lastSuccessISO": "2026-09-01T08:30:59.864Z",
+    "lastAttemptISO": "2026-09-02T00:26:11.365Z",
+    "lastSuccessISO": "2026-09-02T00:26:11.365Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -1298,8 +1298,8 @@
   {
     "sourceUrl": "https://nca.gov.sa/ar/careers/",
     "orgId": "nca",
-    "lastAttemptISO": "2026-09-01T22:59:07.565Z",
-    "lastSuccessISO": "2026-09-01T22:59:07.565Z",
+    "lastAttemptISO": "2026-09-02T00:26:11.365Z",
+    "lastSuccessISO": "2026-09-02T00:26:11.365Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -1324,9 +1324,9 @@
   },
   {
     "sourceUrl": "https://nca.gov.sa/ar/news/",
-    "orgId": "ncac",
-    "lastAttemptISO": "2026-09-01T08:30:59.864Z",
-    "lastSuccessISO": "2026-09-01T08:30:59.864Z",
+    "orgId": "nca",
+    "lastAttemptISO": "2026-09-02T00:12:15.150Z",
+    "lastSuccessISO": "2026-09-02T00:12:15.150Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -1334,8 +1334,8 @@
   {
     "sourceUrl": "https://nca.gov.sa/en/careers/",
     "orgId": "nca",
-    "lastAttemptISO": "2026-09-01T22:40:05.050Z",
-    "lastSuccessISO": "2026-09-01T22:40:05.050Z",
+    "lastAttemptISO": "2026-09-01T23:58:43.083Z",
+    "lastSuccessISO": "2026-09-01T23:58:43.083Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -1379,8 +1379,8 @@
   {
     "sourceUrl": "https://ndf.gov.sa/media-center",
     "orgId": "ndf",
-    "lastAttemptISO": "2026-09-01T08:30:59.864Z",
-    "lastSuccessISO": "2026-09-01T08:30:59.864Z",
+    "lastAttemptISO": "2026-09-02T00:12:15.150Z",
+    "lastSuccessISO": "2026-09-02T00:12:15.150Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -1406,8 +1406,8 @@
   {
     "sourceUrl": "https://ndf.gov.sa/media-center/articles/article-human-resource-development",
     "orgId": "ndf",
-    "lastAttemptISO": "2026-09-01T22:50:21.605Z",
-    "lastSuccessISO": "2026-09-01T22:50:21.605Z",
+    "lastAttemptISO": "2026-09-02T00:26:11.365Z",
+    "lastSuccessISO": "2026-09-02T00:26:11.365Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -1451,8 +1451,8 @@
   {
     "sourceUrl": "https://nour.net.sa/ar/news/",
     "orgId": "nournet",
-    "lastAttemptISO": "2026-09-01T21:11:32.997Z",
-    "lastSuccessISO": "2026-09-01T21:11:32.997Z",
+    "lastAttemptISO": "2026-09-02T00:17:07.210Z",
+    "lastSuccessISO": "2026-09-02T00:17:07.210Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -1496,8 +1496,8 @@
   {
     "sourceUrl": "https://rega.gov.sa/media-center/",
     "orgId": "rega",
-    "lastAttemptISO": "2026-09-01T08:30:59.864Z",
-    "lastSuccessISO": "2026-09-01T08:30:59.864Z",
+    "lastAttemptISO": "2026-09-02T00:14:23.078Z",
+    "lastSuccessISO": "2026-09-02T00:14:23.078Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -1505,8 +1505,8 @@
   {
     "sourceUrl": "https://rega.gov.sa/media-center/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%88%D8%A7%D9%84%D8%A5%D8%B9%D9%84%D8%A7%D9%86%D8%A7%D8%AA/",
     "orgId": "rega",
-    "lastAttemptISO": "2026-09-01T08:30:59.864Z",
-    "lastSuccessISO": "2026-09-01T08:30:59.864Z",
+    "lastAttemptISO": "2026-09-02T00:28:14.147Z",
+    "lastSuccessISO": "2026-09-02T00:28:14.147Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -1532,8 +1532,8 @@
   {
     "sourceUrl": "https://sdaia.gov.sa/ar/Sectors/BuildingCapacity/Pages/CooperativeTraining.aspx",
     "orgId": "sdaia",
-    "lastAttemptISO": "2026-09-01T23:36:42.906Z",
-    "lastSuccessISO": "2026-09-01T23:36:42.906Z",
+    "lastAttemptISO": "2026-09-02T00:26:11.365Z",
+    "lastSuccessISO": "2026-09-02T00:26:11.365Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -1541,8 +1541,8 @@
   {
     "sourceUrl": "https://sdaia.gov.sa/ncai/",
     "orgId": "ncai",
-    "lastAttemptISO": "2026-09-01T08:30:59.864Z",
-    "lastSuccessISO": "2026-09-01T08:30:59.864Z",
+    "lastAttemptISO": "2026-09-02T00:12:15.150Z",
+    "lastSuccessISO": "2026-09-02T00:12:15.150Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -1568,8 +1568,8 @@
   {
     "sourceUrl": "https://slccareers.kpmg.com/job/Beirut-Experienced-External-Auditor/857312523/",
     "orgId": "kpmg_sa",
-    "lastAttemptISO": "2026-09-01T22:40:05.050Z",
-    "lastSuccessISO": "2026-09-01T22:40:05.050Z",
+    "lastAttemptISO": "2026-09-01T23:55:35.655Z",
+    "lastSuccessISO": "2026-09-01T23:55:35.655Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -1577,8 +1577,8 @@
   {
     "sourceUrl": "https://slccareers.kpmg.com/job/Medina-KPMG-Audit-Internship-Program-Accounting-Graduates/1368374723/",
     "orgId": "kpmg_sa",
-    "lastAttemptISO": "2026-09-01T22:59:07.565Z",
-    "lastSuccessISO": "2026-09-01T22:59:07.565Z",
+    "lastAttemptISO": "2026-09-02T00:08:03.721Z",
+    "lastSuccessISO": "2026-09-02T00:08:03.721Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -1586,8 +1586,8 @@
   {
     "sourceUrl": "https://slccareers.kpmg.com/job/Riyadh-KPMG-Audit-COOP-Program-(Riyadh,-Jeddah,-and-Khobar)/857222523/",
     "orgId": "kpmg_sa",
-    "lastAttemptISO": "2026-09-01T23:28:22.482Z",
-    "lastSuccessISO": "2026-09-01T23:28:22.482Z",
+    "lastAttemptISO": "2026-09-02T00:32:50.361Z",
+    "lastSuccessISO": "2026-09-02T00:32:50.361Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -1595,8 +1595,8 @@
   {
     "sourceUrl": "https://slccareers.kpmg.com/job/Riyadh-Supervisor-External-Auditor/857251123/",
     "orgId": "kpmg_sa",
-    "lastAttemptISO": "2026-09-01T23:13:55.143Z",
-    "lastSuccessISO": "2026-09-01T23:13:55.143Z",
+    "lastAttemptISO": "2026-09-02T00:20:27.229Z",
+    "lastSuccessISO": "2026-09-02T00:20:27.229Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -1622,8 +1622,8 @@
   {
     "sourceUrl": "https://takamolholding.com/ar/join-us",
     "orgId": "takamol",
-    "lastAttemptISO": "2026-09-01T08:30:59.864Z",
-    "lastSuccessISO": "2026-09-01T08:30:59.864Z",
+    "lastAttemptISO": "2026-09-02T00:12:15.150Z",
+    "lastSuccessISO": "2026-09-02T00:12:15.150Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -1649,8 +1649,8 @@
   {
     "sourceUrl": "https://tetco.sa/ar/careers",
     "orgId": "tetco",
-    "lastAttemptISO": "2026-09-01T23:35:16.137Z",
-    "lastSuccessISO": "2026-09-01T23:35:16.137Z",
+    "lastAttemptISO": "2026-09-02T00:26:11.365Z",
+    "lastSuccessISO": "2026-09-02T00:26:11.365Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -1667,8 +1667,8 @@
   {
     "sourceUrl": "https://tetco.sa/ar/latest-news",
     "orgId": "tetco",
-    "lastAttemptISO": "2026-09-01T08:30:59.864Z",
-    "lastSuccessISO": "2026-09-01T08:30:59.864Z",
+    "lastAttemptISO": "2026-09-02T00:12:15.150Z",
+    "lastSuccessISO": "2026-09-02T00:12:15.150Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -1685,11 +1685,11 @@
   {
     "sourceUrl": "https://training.moj.gov.sa/",
     "orgId": "moj",
-    "lastAttemptISO": "2026-09-01T23:36:42.906Z",
+    "lastAttemptISO": "2026-09-02T00:22:34.692Z",
     "lastSuccessISO": "2026-09-01T23:36:42.906Z",
-    "consecutiveFailures": 0,
-    "lastError": null,
-    "state": "healthy"
+    "consecutiveFailures": 1,
+    "lastError": "headless chromium unavailable (browserType.launch: Executable doesn't exist at C:\\Users\\GIGABITE\\AppData\\Local\\ms-playwright\\chromium_headless_shell-1234\\chrome-headless-shell-win64\\chrome-headless-shell.exe\n╔════════════════════════════════════════════════════════════╗\n║ Looks like Playwright was just installed or updated.       ║\n║ Please run the following command to download new browsers: ║\n║                                                            ║\n║     npx playwright install                                 ║\n║                                                            ║\n║ <3 Playwright Team                                         ║\n╚════════════════════════════════════════════════════════════╝); run \"npx playwright install chromium\"",
+    "state": "degraded"
   },
   {
     "sourceUrl": "https://tvtc.gov.sa/",
@@ -1730,8 +1730,8 @@
   {
     "sourceUrl": "https://wadimakkah.sa/en/media-center/",
     "orgId": "wadi_makkah",
-    "lastAttemptISO": "2026-09-01T21:11:32.997Z",
-    "lastSuccessISO": "2026-09-01T21:11:32.997Z",
+    "lastAttemptISO": "2026-09-02T00:17:07.210Z",
+    "lastSuccessISO": "2026-09-02T00:17:07.210Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -1757,8 +1757,8 @@
   {
     "sourceUrl": "https://wasatah.com.sa/ar/%d9%81%d8%b1%d8%b5-%d8%a7%d9%84%d8%b9%d9%85%d9%84/",
     "orgId": "wasatah",
-    "lastAttemptISO": "2026-09-01T08:30:59.864Z",
-    "lastSuccessISO": "2026-09-01T08:30:59.864Z",
+    "lastAttemptISO": "2026-09-02T00:14:23.078Z",
+    "lastSuccessISO": "2026-09-02T00:14:23.078Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -1775,8 +1775,8 @@
   {
     "sourceUrl": "https://wasatah.com.sa/media-center/",
     "orgId": "wasatah",
-    "lastAttemptISO": "2026-09-01T23:36:42.906Z",
-    "lastSuccessISO": "2026-09-01T23:36:42.906Z",
+    "lastAttemptISO": "2026-09-02T00:28:14.147Z",
+    "lastSuccessISO": "2026-09-02T00:28:14.147Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -1793,8 +1793,8 @@
   {
     "sourceUrl": "https://www.aecl.com/ar/news/",
     "orgId": "aec",
-    "lastAttemptISO": "2026-09-01T21:11:32.997Z",
-    "lastSuccessISO": "2026-09-01T21:11:32.997Z",
+    "lastAttemptISO": "2026-09-02T00:17:07.210Z",
+    "lastSuccessISO": "2026-09-02T00:17:07.210Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -1820,8 +1820,8 @@
   {
     "sourceUrl": "https://www.alahli.com/ar/pages/about-us/careers/culture",
     "orgId": "snb",
-    "lastAttemptISO": "2026-09-01T23:13:55.143Z",
-    "lastSuccessISO": "2026-09-01T23:13:55.143Z",
+    "lastAttemptISO": "2026-09-02T00:28:14.147Z",
+    "lastSuccessISO": "2026-09-02T00:28:14.147Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -1829,8 +1829,8 @@
   {
     "sourceUrl": "https://www.alahli.com/ar/pages/about-us/careers/snb-cooperative-training-program",
     "orgId": "snb",
-    "lastAttemptISO": "2026-09-01T22:59:07.565Z",
-    "lastSuccessISO": "2026-09-01T22:59:07.565Z",
+    "lastAttemptISO": "2026-09-02T00:01:46.986Z",
+    "lastSuccessISO": "2026-09-02T00:01:46.986Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -1847,8 +1847,8 @@
   {
     "sourceUrl": "https://www.alahli.com/en/pages/personal-banking",
     "orgId": "snb",
-    "lastAttemptISO": "2026-09-01T08:30:59.864Z",
-    "lastSuccessISO": "2026-09-01T08:30:59.864Z",
+    "lastAttemptISO": "2026-09-02T00:14:23.078Z",
+    "lastSuccessISO": "2026-09-02T00:14:23.078Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -1883,8 +1883,8 @@
   {
     "sourceUrl": "https://www.aramco.com/en/careers/for-saudi-applicants/student-opportunities",
     "orgId": "aramco",
-    "lastAttemptISO": "2026-09-01T21:11:32.997Z",
-    "lastSuccessISO": "2026-09-01T21:11:32.997Z",
+    "lastAttemptISO": "2026-09-02T00:08:03.721Z",
+    "lastSuccessISO": "2026-09-02T00:08:03.721Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -1892,8 +1892,8 @@
   {
     "sourceUrl": "https://www.aramco.com/en/careers/for-saudi-applicants/student-opportunities/apprenticeship-program",
     "orgId": "aramco",
-    "lastAttemptISO": "2026-09-01T22:59:07.565Z",
-    "lastSuccessISO": "2026-09-01T22:59:07.565Z",
+    "lastAttemptISO": "2026-09-02T00:32:50.361Z",
+    "lastSuccessISO": "2026-09-02T00:32:50.361Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -1928,8 +1928,8 @@
   {
     "sourceUrl": "https://www.aramco.com/en/careers/for-saudi-applicants/student-opportunities/university-and-vocational-college-internship-programs/university-internship-program",
     "orgId": "aramco",
-    "lastAttemptISO": "2026-09-01T22:40:05.050Z",
-    "lastSuccessISO": "2026-09-01T22:40:05.050Z",
+    "lastAttemptISO": "2026-09-02T00:20:27.229Z",
+    "lastSuccessISO": "2026-09-02T00:20:27.229Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -1937,8 +1937,8 @@
   {
     "sourceUrl": "https://www.aramco.com/en/careers/for-saudi-applicants/student-opportunities/university-and-vocational-college-internship-programs/vocational-college-internship-program",
     "orgId": "aramco",
-    "lastAttemptISO": "2026-09-01T08:30:59.864Z",
-    "lastSuccessISO": "2026-09-01T08:30:59.864Z",
+    "lastAttemptISO": "2026-09-01T23:55:35.655Z",
+    "lastSuccessISO": "2026-09-01T23:55:35.655Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -1955,9 +1955,9 @@
   {
     "sourceUrl": "https://www.bankalbilad.com.sa/en/about/pages/training.aspx",
     "orgId": "albilad",
-    "lastAttemptISO": "2026-09-01T23:36:42.906Z",
+    "lastAttemptISO": "2026-09-02T00:22:34.692Z",
     "lastSuccessISO": "2026-08-31T00:02:49.563Z",
-    "consecutiveFailures": 11,
+    "consecutiveFailures": 12,
     "lastError": "الصفحة تردّ 200 لكن عنوانها \"Error\" — صفحة غير موجودة",
     "state": "broken"
   },
@@ -1973,8 +1973,8 @@
   {
     "sourceUrl": "https://www.bog.gov.sa/en/EServices/judiciaryHiring/Pages/default.aspx",
     "orgId": "bog",
-    "lastAttemptISO": "2026-09-01T23:13:55.143Z",
-    "lastSuccessISO": "2026-09-01T23:13:55.143Z",
+    "lastAttemptISO": "2026-09-02T00:01:46.986Z",
+    "lastSuccessISO": "2026-09-02T00:01:46.986Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -1982,8 +1982,8 @@
   {
     "sourceUrl": "https://www.bog.gov.sa/en/EServices/judiciaryHiring/Pages/Hiring.aspx",
     "orgId": "bog",
-    "lastAttemptISO": "2026-09-01T23:48:08.425Z",
-    "lastSuccessISO": "2026-09-01T23:48:08.425Z",
+    "lastAttemptISO": "2026-09-02T00:33:57.979Z",
+    "lastSuccessISO": "2026-09-02T00:33:57.979Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -1991,8 +1991,8 @@
   {
     "sourceUrl": "https://www.bog.gov.sa/en/EServices/Pages/khabeer.aspx",
     "orgId": "bog",
-    "lastAttemptISO": "2026-09-01T23:32:00.524Z",
-    "lastSuccessISO": "2026-09-01T23:32:00.524Z",
+    "lastAttemptISO": "2026-09-02T00:18:20.902Z",
+    "lastSuccessISO": "2026-09-02T00:18:20.902Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -2018,8 +2018,8 @@
   {
     "sourceUrl": "https://www.cst.gov.sa/en/media-center",
     "orgId": "citc",
-    "lastAttemptISO": "2026-09-01T08:30:59.864Z",
-    "lastSuccessISO": "2026-09-01T08:30:59.864Z",
+    "lastAttemptISO": "2026-09-02T00:26:11.365Z",
+    "lastSuccessISO": "2026-09-02T00:26:11.365Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -2027,8 +2027,8 @@
   {
     "sourceUrl": "https://www.cst.gov.sa/media-center",
     "orgId": "citc",
-    "lastAttemptISO": "2026-09-01T08:30:59.864Z",
-    "lastSuccessISO": "2026-09-01T08:30:59.864Z",
+    "lastAttemptISO": "2026-09-02T00:12:15.150Z",
+    "lastSuccessISO": "2026-09-02T00:12:15.150Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -2054,17 +2054,17 @@
   {
     "sourceUrl": "https://www.ecza.gov.sa/ar/media-center/news-press",
     "orgId": "ecza",
-    "lastAttemptISO": "2026-09-01T08:30:59.864Z",
+    "lastAttemptISO": "2026-09-02T00:26:11.365Z",
     "lastSuccessISO": "2026-09-01T08:30:59.864Z",
-    "consecutiveFailures": 0,
-    "lastError": null,
-    "state": "healthy"
+    "consecutiveFailures": 1,
+    "lastError": "headless chromium unavailable (browserType.launch: Executable doesn't exist at C:\\Users\\GIGABITE\\AppData\\Local\\ms-playwright\\chromium_headless_shell-1234\\chrome-headless-shell-win64\\chrome-headless-shell.exe\n╔════════════════════════════════════════════════════════════╗\n║ Looks like Playwright was just installed or updated.       ║\n║ Please run the following command to download new browsers: ║\n║                                                            ║\n║     npx playwright install                                 ║\n║                                                            ║\n║ <3 Playwright Team                                         ║\n╚════════════════════════════════════════════════════════════╝); run \"npx playwright install chromium\"",
+    "state": "degraded"
   },
   {
     "sourceUrl": "https://www.ecza.gov.sa/ar/media-center/news-press/alhyyt-tnzm-dwrt-tdrybyt-bnwan-altwyt-bslamt-alghdha",
     "orgId": "ecza",
-    "lastAttemptISO": "2026-09-01T08:30:59.864Z",
-    "lastSuccessISO": "2026-09-01T08:30:59.864Z",
+    "lastAttemptISO": "2026-09-02T00:12:15.150Z",
+    "lastSuccessISO": "2026-09-02T00:12:15.150Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -2072,8 +2072,8 @@
   {
     "sourceUrl": "https://www.etec.gov.sa/ar/centers/nctea",
     "orgId": "etec",
-    "lastAttemptISO": "2026-09-01T08:30:59.864Z",
-    "lastSuccessISO": "2026-09-01T08:30:59.864Z",
+    "lastAttemptISO": "2026-09-02T00:12:15.150Z",
+    "lastSuccessISO": "2026-09-02T00:12:15.150Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -2090,8 +2090,8 @@
   {
     "sourceUrl": "https://www.etec.gov.sa/ar/institutions",
     "orgId": "etec",
-    "lastAttemptISO": "2026-09-01T08:30:59.864Z",
-    "lastSuccessISO": "2026-09-01T08:30:59.864Z",
+    "lastAttemptISO": "2026-09-02T00:26:11.365Z",
+    "lastSuccessISO": "2026-09-02T00:26:11.365Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -2126,8 +2126,8 @@
   {
     "sourceUrl": "https://www.ey.com/en_sa",
     "orgId": "ey_sa",
-    "lastAttemptISO": "2026-09-01T08:30:59.864Z",
-    "lastSuccessISO": "2026-09-01T08:30:59.864Z",
+    "lastAttemptISO": "2026-09-02T00:23:40.259Z",
+    "lastSuccessISO": "2026-09-02T00:23:40.259Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -2135,8 +2135,8 @@
   {
     "sourceUrl": "https://www.ey.com/en_sa/careers",
     "orgId": "ey_sa",
-    "lastAttemptISO": "2026-09-01T22:59:07.565Z",
-    "lastSuccessISO": "2026-09-01T22:59:07.565Z",
+    "lastAttemptISO": "2026-09-02T00:36:04.912Z",
+    "lastSuccessISO": "2026-09-02T00:36:04.912Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -2144,8 +2144,8 @@
   {
     "sourceUrl": "https://www.ey.com/en_sa/careers/assurance",
     "orgId": "ey_sa",
-    "lastAttemptISO": "2026-09-01T21:11:32.997Z",
-    "lastSuccessISO": "2026-09-01T21:11:32.997Z",
+    "lastAttemptISO": "2026-09-01T23:55:35.655Z",
+    "lastSuccessISO": "2026-09-01T23:55:35.655Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -2162,8 +2162,8 @@
   {
     "sourceUrl": "https://www.ey.com/en_sa/careers/parthenon",
     "orgId": "ey_sa",
-    "lastAttemptISO": "2026-09-01T22:40:05.050Z",
-    "lastSuccessISO": "2026-09-01T22:40:05.050Z",
+    "lastAttemptISO": "2026-09-02T00:11:10.311Z",
+    "lastSuccessISO": "2026-09-02T00:11:10.311Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -2261,8 +2261,8 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/careers?lang=ar",
     "orgId": "hrc",
-    "lastAttemptISO": "2026-09-01T08:30:59.864Z",
-    "lastSuccessISO": "2026-09-01T08:30:59.864Z",
+    "lastAttemptISO": "2026-09-02T00:26:11.365Z",
+    "lastSuccessISO": "2026-09-02T00:26:11.365Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -2279,8 +2279,8 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/cooperations?lang=ar",
     "orgId": "hrc",
-    "lastAttemptISO": "2026-09-01T08:30:59.864Z",
-    "lastSuccessISO": "2026-09-01T08:30:59.864Z",
+    "lastAttemptISO": "2026-09-02T00:12:15.150Z",
+    "lastSuccessISO": "2026-09-02T00:12:15.150Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -2297,8 +2297,8 @@
   {
     "sourceUrl": "https://www.hrsd.gov.sa/care-about-you/skillsandtrain",
     "orgId": "hrsd",
-    "lastAttemptISO": "2026-09-01T08:30:59.864Z",
-    "lastSuccessISO": "2026-09-01T08:30:59.864Z",
+    "lastAttemptISO": "2026-09-02T00:12:15.150Z",
+    "lastSuccessISO": "2026-09-02T00:12:15.150Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -2342,8 +2342,8 @@
   {
     "sourceUrl": "https://www.hrsd.gov.sa/ministry/about-ministry/jobs",
     "orgId": "hrsd",
-    "lastAttemptISO": "2026-09-01T08:30:59.864Z",
-    "lastSuccessISO": "2026-09-01T08:30:59.864Z",
+    "lastAttemptISO": "2026-09-02T00:26:11.365Z",
+    "lastSuccessISO": "2026-09-02T00:26:11.365Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -2351,8 +2351,8 @@
   {
     "sourceUrl": "https://www.jadwa.com/ar/internship",
     "orgId": "jadwa",
-    "lastAttemptISO": "2026-09-01T23:02:33.663Z",
-    "lastSuccessISO": "2026-09-01T23:02:33.663Z",
+    "lastAttemptISO": "2026-09-02T00:26:11.365Z",
+    "lastSuccessISO": "2026-09-02T00:26:11.365Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -2396,8 +2396,8 @@
   {
     "sourceUrl": "https://www.jadwa.com/en/internship",
     "orgId": "jadwa",
-    "lastAttemptISO": "2026-09-01T08:30:59.864Z",
-    "lastSuccessISO": "2026-09-01T08:30:59.864Z",
+    "lastAttemptISO": "2026-09-02T00:12:15.150Z",
+    "lastSuccessISO": "2026-09-02T00:12:15.150Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -2423,8 +2423,8 @@
   {
     "sourceUrl": "https://www.kapsarc.org/newsroom/news/",
     "orgId": "kapsarc",
-    "lastAttemptISO": "2026-09-01T08:30:59.864Z",
-    "lastSuccessISO": "2026-09-01T08:30:59.864Z",
+    "lastAttemptISO": "2026-09-02T00:26:11.365Z",
+    "lastSuccessISO": "2026-09-02T00:26:11.365Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -2459,8 +2459,8 @@
   {
     "sourceUrl": "https://www.kapsarc.org/work-with-us/job-opportunities/",
     "orgId": "kapsarc",
-    "lastAttemptISO": "2026-09-01T08:30:59.864Z",
-    "lastSuccessISO": "2026-09-01T08:30:59.864Z",
+    "lastAttemptISO": "2026-09-02T00:12:15.150Z",
+    "lastSuccessISO": "2026-09-02T00:12:15.150Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -2522,8 +2522,8 @@
   {
     "sourceUrl": "https://www.mewa.gov.sa/ar/MediaCenter/Events/Pages/MonthEvents.aspx",
     "orgId": "mewa",
-    "lastAttemptISO": "2026-09-01T08:30:59.864Z",
-    "lastSuccessISO": "2026-09-01T08:30:59.864Z",
+    "lastAttemptISO": "2026-09-02T00:26:11.365Z",
+    "lastSuccessISO": "2026-09-02T00:26:11.365Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -2540,8 +2540,8 @@
   {
     "sourceUrl": "https://www.mewa.gov.sa/ar/MediaCenter/News/Pages/Home.aspx",
     "orgId": "mewa",
-    "lastAttemptISO": "2026-09-01T08:30:59.864Z",
-    "lastSuccessISO": "2026-09-01T08:30:59.864Z",
+    "lastAttemptISO": "2026-09-02T00:12:15.150Z",
+    "lastSuccessISO": "2026-09-02T00:12:15.150Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -2585,8 +2585,8 @@
   {
     "sourceUrl": "https://www.mim.gov.sa/ar/empower-training/cooperative-training",
     "orgId": "mim",
-    "lastAttemptISO": "2026-09-01T23:36:42.906Z",
-    "lastSuccessISO": "2026-09-01T23:36:42.906Z",
+    "lastAttemptISO": "2026-09-02T00:26:11.365Z",
+    "lastSuccessISO": "2026-09-02T00:26:11.365Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -2594,8 +2594,8 @@
   {
     "sourceUrl": "https://www.mim.gov.sa/ar/media-center/news",
     "orgId": "mim",
-    "lastAttemptISO": "2026-09-01T08:30:59.864Z",
-    "lastSuccessISO": "2026-09-01T08:30:59.864Z",
+    "lastAttemptISO": "2026-09-02T00:12:15.150Z",
+    "lastSuccessISO": "2026-09-02T00:12:15.150Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -2612,8 +2612,8 @@
   {
     "sourceUrl": "https://www.moe.gov.sa/ar/aboutus/nationaltransformation/Pages/employmentstrategy.aspx",
     "orgId": "moe",
-    "lastAttemptISO": "2026-09-01T08:30:59.864Z",
-    "lastSuccessISO": "2026-09-01T08:30:59.864Z",
+    "lastAttemptISO": "2026-09-02T00:12:15.150Z",
+    "lastSuccessISO": "2026-09-02T00:12:15.150Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -2630,8 +2630,8 @@
   {
     "sourceUrl": "https://www.moe.gov.sa/ar/mediacenter/MOEnews/Pages/default.aspx",
     "orgId": "moe",
-    "lastAttemptISO": "2026-09-01T08:30:59.864Z",
-    "lastSuccessISO": "2026-09-01T08:30:59.864Z",
+    "lastAttemptISO": "2026-09-02T00:26:11.365Z",
+    "lastSuccessISO": "2026-09-02T00:26:11.365Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -2657,8 +2657,8 @@
   {
     "sourceUrl": "https://www.moenergy.gov.sa/ar/media-center",
     "orgId": "moenergy",
-    "lastAttemptISO": "2026-09-01T08:30:59.864Z",
-    "lastSuccessISO": "2026-09-01T08:30:59.864Z",
+    "lastAttemptISO": "2026-09-02T00:26:11.365Z",
+    "lastSuccessISO": "2026-09-02T00:26:11.365Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -2684,8 +2684,8 @@
   {
     "sourceUrl": "https://www.moenergy.gov.sa/ar/media-center/news/saudi-arabia-and-united-states-sign-agreement-on-cooperation-in-peaceful-uses-of-nuclear-energy",
     "orgId": "moenergy",
-    "lastAttemptISO": "2026-09-01T08:30:59.864Z",
-    "lastSuccessISO": "2026-09-01T08:30:59.864Z",
+    "lastAttemptISO": "2026-09-02T00:12:15.150Z",
+    "lastSuccessISO": "2026-09-02T00:12:15.150Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -2720,8 +2720,8 @@
   {
     "sourceUrl": "https://www.mof.gov.sa/mediacenter/circulars/Pages/default.aspx",
     "orgId": "mof",
-    "lastAttemptISO": "2026-09-01T08:30:59.864Z",
-    "lastSuccessISO": "2026-09-01T08:30:59.864Z",
+    "lastAttemptISO": "2026-09-02T00:12:15.150Z",
+    "lastSuccessISO": "2026-09-02T00:12:15.150Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -2729,8 +2729,8 @@
   {
     "sourceUrl": "https://www.mof.gov.sa/mediacenter/events/Pages/CalEvent.aspx",
     "orgId": "mof",
-    "lastAttemptISO": "2026-09-01T08:30:59.864Z",
-    "lastSuccessISO": "2026-09-01T08:30:59.864Z",
+    "lastAttemptISO": "2026-09-02T00:26:11.365Z",
+    "lastSuccessISO": "2026-09-02T00:26:11.365Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -2756,8 +2756,8 @@
   {
     "sourceUrl": "https://www.mofa.gov.sa/ar/ministry/news/Pages/%D8%A7%D8%AA%D9%81%D8%A7%D9%82%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D8%A5%D8%B9%D9%81%D8%A7%D8%A1-%D8%A7%D9%84%D9%85%D8%AA%D8%A8%D8%A7%D8%AF%D9%84.aspx",
     "orgId": "mofa",
-    "lastAttemptISO": "2026-09-01T08:30:59.864Z",
-    "lastSuccessISO": "2026-09-01T08:30:59.864Z",
+    "lastAttemptISO": "2026-09-02T00:26:11.365Z",
+    "lastSuccessISO": "2026-09-02T00:26:11.365Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -2765,8 +2765,8 @@
   {
     "sourceUrl": "https://www.mofa.gov.sa/ar/ministry/news/Pages/default.aspx",
     "orgId": "mofa",
-    "lastAttemptISO": "2026-09-01T08:30:59.864Z",
-    "lastSuccessISO": "2026-09-01T08:30:59.864Z",
+    "lastAttemptISO": "2026-09-02T00:12:15.150Z",
+    "lastSuccessISO": "2026-09-02T00:12:15.150Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -2792,8 +2792,8 @@
   {
     "sourceUrl": "https://www.moh.gov.sa/ministry/mediacenter/news/pages/default.aspx",
     "orgId": "moh",
-    "lastAttemptISO": "2026-09-01T08:30:59.864Z",
-    "lastSuccessISO": "2026-09-01T08:30:59.864Z",
+    "lastAttemptISO": "2026-09-02T00:12:15.150Z",
+    "lastSuccessISO": "2026-09-02T00:12:15.150Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -2801,8 +2801,8 @@
   {
     "sourceUrl": "https://www.moh.gov.sa/ministry/mediacenter/publications/pages/default.aspx",
     "orgId": "moh",
-    "lastAttemptISO": "2026-09-01T08:30:59.864Z",
-    "lastSuccessISO": "2026-09-01T08:30:59.864Z",
+    "lastAttemptISO": "2026-09-02T00:26:11.365Z",
+    "lastSuccessISO": "2026-09-02T00:26:11.365Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -2837,8 +2837,8 @@
   {
     "sourceUrl": "https://www.monshaat.gov.sa/ar/media-center",
     "orgId": "monshaat",
-    "lastAttemptISO": "2026-09-01T08:30:59.864Z",
-    "lastSuccessISO": "2026-09-01T08:30:59.864Z",
+    "lastAttemptISO": "2026-09-02T00:26:11.365Z",
+    "lastSuccessISO": "2026-09-02T00:26:11.365Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -2864,8 +2864,8 @@
   {
     "sourceUrl": "https://www.monshaat.gov.sa/ar/node/5257",
     "orgId": "monshaat",
-    "lastAttemptISO": "2026-09-01T08:30:59.864Z",
-    "lastSuccessISO": "2026-09-01T08:30:59.864Z",
+    "lastAttemptISO": "2026-09-02T00:12:15.150Z",
+    "lastSuccessISO": "2026-09-02T00:12:15.150Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -2891,8 +2891,8 @@
   {
     "sourceUrl": "https://www.nazaha.gov.sa/Jobs",
     "orgId": "nazaha",
-    "lastAttemptISO": "2026-09-01T22:50:21.605Z",
-    "lastSuccessISO": "2026-09-01T22:50:21.605Z",
+    "lastAttemptISO": "2026-09-02T00:26:11.365Z",
+    "lastSuccessISO": "2026-09-02T00:26:11.365Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -2900,8 +2900,8 @@
   {
     "sourceUrl": "https://www.nazaha.gov.sa/News",
     "orgId": "nazaha",
-    "lastAttemptISO": "2026-09-01T08:30:59.864Z",
-    "lastSuccessISO": "2026-09-01T08:30:59.864Z",
+    "lastAttemptISO": "2026-09-02T00:12:15.150Z",
+    "lastSuccessISO": "2026-09-02T00:12:15.150Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -2945,8 +2945,8 @@
   {
     "sourceUrl": "https://www.ncc.gov.sa/ar/MediaCenter/Events/Pages/default.aspx",
     "orgId": "ncc",
-    "lastAttemptISO": "2026-09-01T08:30:59.864Z",
-    "lastSuccessISO": "2026-09-01T08:30:59.864Z",
+    "lastAttemptISO": "2026-09-02T00:26:11.365Z",
+    "lastSuccessISO": "2026-09-02T00:26:11.365Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -2954,8 +2954,8 @@
   {
     "sourceUrl": "https://www.ncc.gov.sa/ar/MediaCenter/News/Pages/default.aspx",
     "orgId": "ncc",
-    "lastAttemptISO": "2026-09-01T08:30:59.864Z",
-    "lastSuccessISO": "2026-09-01T08:30:59.864Z",
+    "lastAttemptISO": "2026-09-02T00:12:15.150Z",
+    "lastSuccessISO": "2026-09-02T00:12:15.150Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -2999,9 +2999,9 @@
   {
     "sourceUrl": "https://www.pwc.com/m1/en/careers.html",
     "orgId": "pwc_sa",
-    "lastAttemptISO": "2026-09-01T22:59:07.565Z",
+    "lastAttemptISO": "2026-09-02T00:32:50.361Z",
     "lastSuccessISO": "2026-09-01T03:23:53.266Z",
-    "consecutiveFailures": 4,
+    "consecutiveFailures": 5,
     "lastError": "HTTP 403",
     "state": "degraded"
   },
@@ -3035,27 +3035,27 @@
   {
     "sourceUrl": "https://www.pwc.com/m1/en/careers/oman-nationals-careers.html",
     "orgId": "pwc_sa",
-    "lastAttemptISO": "2026-09-01T22:40:05.050Z",
+    "lastAttemptISO": "2026-09-02T00:20:27.229Z",
     "lastSuccessISO": "2026-09-01T03:23:53.266Z",
-    "consecutiveFailures": 4,
+    "consecutiveFailures": 5,
     "lastError": "HTTP 403",
     "state": "degraded"
   },
   {
     "sourceUrl": "https://www.pwc.com/m1/en/careers/student-jobs.html",
     "orgId": "pwc_sa",
-    "lastAttemptISO": "2026-09-01T08:30:59.864Z",
+    "lastAttemptISO": "2026-09-01T23:55:35.655Z",
     "lastSuccessISO": "2026-09-01T03:23:53.266Z",
-    "consecutiveFailures": 3,
+    "consecutiveFailures": 4,
     "lastError": "HTTP 403",
     "state": "degraded"
   },
   {
     "sourceUrl": "https://www.pwc.com/m1/en/careers/uae-nationals-careers.html",
     "orgId": "pwc_sa",
-    "lastAttemptISO": "2026-09-01T21:11:32.997Z",
+    "lastAttemptISO": "2026-09-02T00:08:03.721Z",
     "lastSuccessISO": "2026-09-01T03:23:53.266Z",
-    "consecutiveFailures": 4,
+    "consecutiveFailures": 5,
     "lastError": "HTTP 403",
     "state": "degraded"
   },
@@ -3071,8 +3071,8 @@
   {
     "sourceUrl": "https://www.rcjy.gov.sa/media-center",
     "orgId": "rcjy",
-    "lastAttemptISO": "2026-09-01T08:30:59.864Z",
-    "lastSuccessISO": "2026-09-01T08:30:59.864Z",
+    "lastAttemptISO": "2026-09-02T00:14:23.078Z",
+    "lastSuccessISO": "2026-09-02T00:14:23.078Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -3080,8 +3080,8 @@
   {
     "sourceUrl": "https://www.rcjy.gov.sa/news",
     "orgId": "rcjy",
-    "lastAttemptISO": "2026-09-01T08:30:59.864Z",
-    "lastSuccessISO": "2026-09-01T08:30:59.864Z",
+    "lastAttemptISO": "2026-09-02T00:28:14.147Z",
+    "lastSuccessISO": "2026-09-02T00:28:14.147Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -3107,8 +3107,8 @@
   {
     "sourceUrl": "https://www.rcrc.gov.sa/media-center/",
     "orgId": "rcrc",
-    "lastAttemptISO": "2026-09-01T08:30:59.864Z",
-    "lastSuccessISO": "2026-09-01T08:30:59.864Z",
+    "lastAttemptISO": "2026-09-02T00:14:23.078Z",
+    "lastSuccessISO": "2026-09-02T00:14:23.078Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -3116,8 +3116,8 @@
   {
     "sourceUrl": "https://www.rcrc.gov.sa/news-ar/",
     "orgId": "rcrc",
-    "lastAttemptISO": "2026-09-01T08:30:59.864Z",
-    "lastSuccessISO": "2026-09-01T08:30:59.864Z",
+    "lastAttemptISO": "2026-09-02T00:28:14.147Z",
+    "lastSuccessISO": "2026-09-02T00:28:14.147Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -3134,8 +3134,8 @@
   {
     "sourceUrl": "https://www.rcu.gov.sa/contact/careers",
     "orgId": "rcu",
-    "lastAttemptISO": "2026-09-01T08:30:59.864Z",
-    "lastSuccessISO": "2026-09-01T08:30:59.864Z",
+    "lastAttemptISO": "2026-09-02T00:14:23.078Z",
+    "lastSuccessISO": "2026-09-02T00:14:23.078Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -3152,8 +3152,8 @@
   {
     "sourceUrl": "https://www.rcu.gov.sa/media-resources/news-press",
     "orgId": "rcu",
-    "lastAttemptISO": "2026-09-01T08:30:59.864Z",
-    "lastSuccessISO": "2026-09-01T08:30:59.864Z",
+    "lastAttemptISO": "2026-09-02T00:28:14.147Z",
+    "lastSuccessISO": "2026-09-02T00:28:14.147Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -3170,8 +3170,8 @@
   {
     "sourceUrl": "https://www.riyadbank.com/ar/personal-banking",
     "orgId": "riyadbank",
-    "lastAttemptISO": "2026-09-01T08:30:59.864Z",
-    "lastSuccessISO": "2026-09-01T08:30:59.864Z",
+    "lastAttemptISO": "2026-09-02T00:12:15.150Z",
+    "lastSuccessISO": "2026-09-02T00:12:15.150Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -3179,8 +3179,8 @@
   {
     "sourceUrl": "https://www.sabic.com/ar/careers",
     "orgId": "sabic",
-    "lastAttemptISO": "2026-09-01T22:59:07.565Z",
-    "lastSuccessISO": "2026-09-01T22:59:07.565Z",
+    "lastAttemptISO": "2026-09-01T23:55:35.655Z",
+    "lastSuccessISO": "2026-09-01T23:55:35.655Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -3188,8 +3188,8 @@
   {
     "sourceUrl": "https://www.sabic.com/ar/careers/americas",
     "orgId": "sabic",
-    "lastAttemptISO": "2026-09-01T23:13:55.143Z",
-    "lastSuccessISO": "2026-09-01T23:13:55.143Z",
+    "lastAttemptISO": "2026-09-02T00:08:03.721Z",
+    "lastSuccessISO": "2026-09-02T00:08:03.721Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -3197,8 +3197,8 @@
   {
     "sourceUrl": "https://www.sabic.com/ar/careers/asia",
     "orgId": "sabic",
-    "lastAttemptISO": "2026-09-01T23:42:17.631Z",
-    "lastSuccessISO": "2026-09-01T23:42:17.631Z",
+    "lastAttemptISO": "2026-09-02T00:32:50.361Z",
+    "lastSuccessISO": "2026-09-02T00:32:50.361Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -3206,8 +3206,8 @@
   {
     "sourceUrl": "https://www.sabic.com/ar/careers/middle-east-africa/students-and-fresh-graduates",
     "orgId": "sabic",
-    "lastAttemptISO": "2026-09-01T23:28:22.482Z",
-    "lastSuccessISO": "2026-09-01T23:28:22.482Z",
+    "lastAttemptISO": "2026-09-02T00:20:27.229Z",
+    "lastSuccessISO": "2026-09-02T00:20:27.229Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -3233,8 +3233,8 @@
   {
     "sourceUrl": "https://www.saip.gov.sa/ar/contact-us/careers",
     "orgId": "saip",
-    "lastAttemptISO": "2026-09-01T08:30:59.864Z",
-    "lastSuccessISO": "2026-09-01T08:30:59.864Z",
+    "lastAttemptISO": "2026-09-02T00:14:23.078Z",
+    "lastSuccessISO": "2026-09-02T00:14:23.078Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -3251,8 +3251,8 @@
   {
     "sourceUrl": "https://www.saip.gov.sa/ar/media-center/media-library/media-center",
     "orgId": "saip",
-    "lastAttemptISO": "2026-09-01T08:30:59.864Z",
-    "lastSuccessISO": "2026-09-01T08:30:59.864Z",
+    "lastAttemptISO": "2026-09-02T00:28:14.147Z",
+    "lastSuccessISO": "2026-09-02T00:28:14.147Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -3287,8 +3287,8 @@
   {
     "sourceUrl": "https://www.saso.gov.sa/ar/mediacenter/news/Pages/default.aspx",
     "orgId": "saso",
-    "lastAttemptISO": "2026-09-01T08:30:59.864Z",
-    "lastSuccessISO": "2026-09-01T08:30:59.864Z",
+    "lastAttemptISO": "2026-09-02T00:14:23.078Z",
+    "lastSuccessISO": "2026-09-02T00:14:23.078Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -3305,8 +3305,8 @@
   {
     "sourceUrl": "https://www.saso.gov.sa/ar/QualitySign/info/Pages/default.aspx",
     "orgId": "saso",
-    "lastAttemptISO": "2026-09-01T23:48:08.425Z",
-    "lastSuccessISO": "2026-09-01T23:48:08.425Z",
+    "lastAttemptISO": "2026-09-02T00:33:57.979Z",
+    "lastSuccessISO": "2026-09-02T00:33:57.979Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -3314,11 +3314,11 @@
   {
     "sourceUrl": "https://www.saudiexchange.sa/wps/portal/saudiexchange/about-saudi-exchange/aboutus/careers?locale=ar",
     "orgId": "tadawul",
-    "lastAttemptISO": "2026-09-01T22:50:21.605Z",
+    "lastAttemptISO": "2026-09-02T00:03:55.657Z",
     "lastSuccessISO": "2026-09-01T03:23:53.266Z",
-    "consecutiveFailures": 5,
+    "consecutiveFailures": 6,
     "lastError": "HTTP 403",
-    "state": "degraded"
+    "state": "broken"
   },
   {
     "sourceUrl": "https://www.saudiexchange.sa/wps/portal/saudiexchange/newsandreports/issuer-financial-calendars?locale=ar",
@@ -3350,18 +3350,18 @@
   {
     "sourceUrl": "https://www.saudiexchange.sa/wps/portal/saudiexchange/newsandreports/issuer-news?locale=ar",
     "orgId": "tadawul",
-    "lastAttemptISO": "2026-09-01T08:30:59.864Z",
+    "lastAttemptISO": "2026-09-02T00:17:07.210Z",
     "lastSuccessISO": "2026-09-01T03:23:53.266Z",
-    "consecutiveFailures": 3,
+    "consecutiveFailures": 4,
     "lastError": "HTTP 403",
     "state": "degraded"
   },
   {
     "sourceUrl": "https://www.saudiexchange.sa/wps/portal/saudiexchange/newsandreports/issuer-news/issuer-announcements?locale=ar",
     "orgId": "tadawul",
-    "lastAttemptISO": "2026-09-01T08:30:59.864Z",
+    "lastAttemptISO": "2026-09-02T00:29:27.948Z",
     "lastSuccessISO": "2026-09-01T03:23:53.266Z",
-    "consecutiveFailures": 3,
+    "consecutiveFailures": 4,
     "lastError": "HTTP 403",
     "state": "degraded"
   },
@@ -3395,8 +3395,8 @@
   {
     "sourceUrl": "https://www.sfd.gov.sa/ar/50years-news",
     "orgId": "sfd",
-    "lastAttemptISO": "2026-09-01T08:30:59.864Z",
-    "lastSuccessISO": "2026-09-01T08:30:59.864Z",
+    "lastAttemptISO": "2026-09-02T00:28:14.147Z",
+    "lastSuccessISO": "2026-09-02T00:28:14.147Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -3413,8 +3413,8 @@
   {
     "sourceUrl": "https://www.sfd.gov.sa/ar/news",
     "orgId": "sfd",
-    "lastAttemptISO": "2026-09-01T08:30:59.864Z",
-    "lastSuccessISO": "2026-09-01T08:30:59.864Z",
+    "lastAttemptISO": "2026-09-02T00:14:23.078Z",
+    "lastSuccessISO": "2026-09-02T00:14:23.078Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -3440,8 +3440,8 @@
   {
     "sourceUrl": "https://www.sfda.gov.sa/ar/news",
     "orgId": "sfda",
-    "lastAttemptISO": "2026-09-01T08:30:59.864Z",
-    "lastSuccessISO": "2026-09-01T08:30:59.864Z",
+    "lastAttemptISO": "2026-09-02T00:14:23.078Z",
+    "lastSuccessISO": "2026-09-02T00:14:23.078Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -3449,8 +3449,8 @@
   {
     "sourceUrl": "https://www.sfda.gov.sa/en/career-vision-and-mission",
     "orgId": "sfda",
-    "lastAttemptISO": "2026-09-01T23:35:16.137Z",
-    "lastSuccessISO": "2026-09-01T23:35:16.137Z",
+    "lastAttemptISO": "2026-09-02T00:28:14.147Z",
+    "lastSuccessISO": "2026-09-02T00:28:14.147Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -3458,8 +3458,8 @@
   {
     "sourceUrl": "https://www.sidf.gov.sa/ar/News",
     "orgId": "sidf",
-    "lastAttemptISO": "2026-09-01T08:30:59.864Z",
-    "lastSuccessISO": "2026-09-01T08:30:59.864Z",
+    "lastAttemptISO": "2026-09-02T00:26:11.365Z",
+    "lastSuccessISO": "2026-09-02T00:26:11.365Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -3476,8 +3476,8 @@
   {
     "sourceUrl": "https://www.sidf.gov.sa/News",
     "orgId": "sidf",
-    "lastAttemptISO": "2026-09-01T08:30:59.864Z",
-    "lastSuccessISO": "2026-09-01T08:30:59.864Z",
+    "lastAttemptISO": "2026-09-02T00:12:15.150Z",
+    "lastSuccessISO": "2026-09-02T00:12:15.150Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -3485,10 +3485,10 @@
   {
     "sourceUrl": "https://www.simah.com/en/personal/pages/default.aspx",
     "orgId": "simah",
-    "lastAttemptISO": "2026-09-01T08:30:59.864Z",
+    "lastAttemptISO": "2026-09-02T00:12:15.150Z",
     "lastSuccessISO": "2026-08-30T00:02:43.835Z",
-    "consecutiveFailures": 9,
-    "lastError": "HTTP 403",
+    "consecutiveFailures": 10,
+    "lastError": "headless chromium unavailable (browserType.launch: Executable doesn't exist at C:\\Users\\GIGABITE\\AppData\\Local\\ms-playwright\\chromium_headless_shell-1234\\chrome-headless-shell-win64\\chrome-headless-shell.exe\n╔════════════════════════════════════════════════════════════╗\n║ Looks like Playwright was just installed or updated.       ║\n║ Please run the following command to download new browsers: ║\n║                                                            ║\n║     npx playwright install                                 ║\n║                                                            ║\n║ <3 Playwright Team                                         ║\n╚════════════════════════════════════════════════════════════╝); run \"npx playwright install chromium\"",
     "state": "broken"
   },
   {
@@ -3503,8 +3503,8 @@
   {
     "sourceUrl": "https://www.srca.org.sa/%d8%a7%d9%84%d8%aa%d9%88%d8%b8%d9%8a%d9%81/",
     "orgId": "srca",
-    "lastAttemptISO": "2026-09-01T08:30:59.864Z",
-    "lastSuccessISO": "2026-09-01T08:30:59.864Z",
+    "lastAttemptISO": "2026-09-02T00:14:23.078Z",
+    "lastSuccessISO": "2026-09-02T00:14:23.078Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -3512,8 +3512,8 @@
   {
     "sourceUrl": "https://www.srca.org.sa/news/",
     "orgId": "srca",
-    "lastAttemptISO": "2026-09-01T08:30:59.864Z",
-    "lastSuccessISO": "2026-09-01T08:30:59.864Z",
+    "lastAttemptISO": "2026-09-02T00:28:14.147Z",
+    "lastSuccessISO": "2026-09-02T00:28:14.147Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -3548,8 +3548,8 @@
   {
     "sourceUrl": "https://www.stats.gov.sa/en/cooperative-training",
     "orgId": "gastat",
-    "lastAttemptISO": "2026-09-01T23:35:16.137Z",
-    "lastSuccessISO": "2026-09-01T23:35:16.137Z",
+    "lastAttemptISO": "2026-09-02T00:24:44.922Z",
+    "lastSuccessISO": "2026-09-02T00:24:44.922Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -3557,8 +3557,8 @@
   {
     "sourceUrl": "https://www.stats.gov.sa/en/news",
     "orgId": "gastat",
-    "lastAttemptISO": "2026-09-01T23:13:55.143Z",
-    "lastSuccessISO": "2026-09-01T23:13:55.143Z",
+    "lastAttemptISO": "2026-09-02T00:04:59.081Z",
+    "lastSuccessISO": "2026-09-02T00:04:59.081Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -3566,10 +3566,10 @@
   {
     "sourceUrl": "https://www.swcc.gov.sa/Arabic/Pages/Home.aspx",
     "orgId": "swcc",
-    "lastAttemptISO": "2026-09-01T08:30:59.864Z",
+    "lastAttemptISO": "2026-09-02T00:14:23.078Z",
     "lastSuccessISO": null,
-    "consecutiveFailures": 13,
-    "lastError": "HTTP 403",
+    "consecutiveFailures": 14,
+    "lastError": "headless chromium unavailable (browserType.launch: Executable doesn't exist at C:\\Users\\GIGABITE\\AppData\\Local\\ms-playwright\\chromium_headless_shell-1234\\chrome-headless-shell-win64\\chrome-headless-shell.exe\n╔════════════════════════════════════════════════════════════╗\n║ Looks like Playwright was just installed or updated.       ║\n║ Please run the following command to download new browsers: ║\n║                                                            ║\n║     npx playwright install                                 ║\n║                                                            ║\n║ <3 Playwright Team                                         ║\n╚════════════════════════════════════════════════════════════╝); run \"npx playwright install chromium\"",
     "state": "broken"
   },
   {
@@ -3584,10 +3584,10 @@
   {
     "sourceUrl": "https://www.tawuniya.com/en/careers",
     "orgId": "tawuniya",
-    "lastAttemptISO": "2026-09-01T08:30:59.864Z",
+    "lastAttemptISO": "2026-09-02T00:14:23.078Z",
     "lastSuccessISO": null,
-    "consecutiveFailures": 9,
-    "lastError": "HTTP 403",
+    "consecutiveFailures": 10,
+    "lastError": "headless chromium unavailable (browserType.launch: Executable doesn't exist at C:\\Users\\GIGABITE\\AppData\\Local\\ms-playwright\\chromium_headless_shell-1234\\chrome-headless-shell-win64\\chrome-headless-shell.exe\n╔════════════════════════════════════════════════════════════╗\n║ Looks like Playwright was just installed or updated.       ║\n║ Please run the following command to download new browsers: ║\n║                                                            ║\n║     npx playwright install                                 ║\n║                                                            ║\n║ <3 Playwright Team                                         ║\n╚════════════════════════════════════════════════════════════╝); run \"npx playwright install chromium\"",
     "state": "broken"
   },
   {
@@ -3611,29 +3611,29 @@
   {
     "sourceUrl": "https://www.thiqah.sa/en/careers/",
     "orgId": "thiqah",
-    "lastAttemptISO": "2026-09-01T22:59:07.565Z",
+    "lastAttemptISO": "2026-09-02T00:01:46.986Z",
     "lastSuccessISO": "2026-09-01T21:11:32.997Z",
-    "consecutiveFailures": 1,
+    "consecutiveFailures": 2,
     "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
     "state": "degraded"
   },
   {
     "sourceUrl": "https://www.thiqah.sa/en/news-events/",
     "orgId": "thiqah",
-    "lastAttemptISO": "2026-09-01T08:30:59.864Z",
+    "lastAttemptISO": "2026-09-02T00:28:14.147Z",
     "lastSuccessISO": "2026-09-01T08:30:59.864Z",
-    "consecutiveFailures": 0,
-    "lastError": null,
-    "state": "healthy"
+    "consecutiveFailures": 1,
+    "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
+    "state": "degraded"
   },
   {
     "sourceUrl": "https://www.thiqah.sa/news-events/",
     "orgId": "thiqah",
-    "lastAttemptISO": "2026-09-01T08:30:59.864Z",
+    "lastAttemptISO": "2026-09-02T00:14:23.078Z",
     "lastSuccessISO": "2026-09-01T08:30:59.864Z",
-    "consecutiveFailures": 0,
-    "lastError": null,
-    "state": "healthy"
+    "consecutiveFailures": 1,
+    "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
+    "state": "degraded"
   },
   {
     "sourceUrl": "https://www.tu.edu.sa/",
@@ -3647,8 +3647,8 @@
   {
     "sourceUrl": "https://www.tu.edu.sa/Ar/%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D8%A5%D8%A8%D8%AA%D8%B9%D8%A7%D8%AB-%D9%88%D8%A7%D9%84%D8%AA%D8%AF%D8%B1%D9%8A%D8%A8/119/Pages/20905/%D8%B9%D9%86-%D8%A7%D9%84%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9",
     "orgId": "taif_uni_it",
-    "lastAttemptISO": "2026-09-01T21:11:32.997Z",
-    "lastSuccessISO": "2026-09-01T21:11:32.997Z",
+    "lastAttemptISO": "2026-09-02T00:17:07.210Z",
+    "lastSuccessISO": "2026-09-02T00:17:07.210Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -3719,9 +3719,9 @@
   {
     "sourceUrl": "https://www.unilever.com/news/news-search/",
     "orgId": "unilever_sa",
-    "lastAttemptISO": "2026-09-01T08:30:59.864Z",
+    "lastAttemptISO": "2026-09-02T00:28:14.147Z",
     "lastSuccessISO": "2026-09-01T03:23:53.266Z",
-    "consecutiveFailures": 3,
+    "consecutiveFailures": 4,
     "lastError": "HTTP 403",
     "state": "degraded"
   },
@@ -3737,9 +3737,9 @@
   {
     "sourceUrl": "https://www.unilever.com/working-at-unilever/careers/",
     "orgId": "unilever_sa",
-    "lastAttemptISO": "2026-09-01T08:30:59.864Z",
+    "lastAttemptISO": "2026-09-02T00:14:23.078Z",
     "lastSuccessISO": "2026-09-01T03:23:53.266Z",
-    "consecutiveFailures": 3,
+    "consecutiveFailures": 4,
     "lastError": "HTTP 403",
     "state": "degraded"
   },
@@ -3773,8 +3773,8 @@
   {
     "sourceUrl": "https://zatca.gov.sa/ar/MediaCenter/Elan/Pages/default.aspx",
     "orgId": "zatca",
-    "lastAttemptISO": "2026-09-01T08:30:59.864Z",
-    "lastSuccessISO": "2026-09-01T08:30:59.864Z",
+    "lastAttemptISO": "2026-09-02T00:12:15.150Z",
+    "lastSuccessISO": "2026-09-02T00:12:15.150Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -3791,8 +3791,8 @@
   {
     "sourceUrl": "https://zatca.gov.sa/ar/MediaCenter/Pages/default.aspx",
     "orgId": "zatca",
-    "lastAttemptISO": "2026-09-01T08:30:59.864Z",
-    "lastSuccessISO": "2026-09-01T08:30:59.864Z",
+    "lastAttemptISO": "2026-09-02T00:26:11.365Z",
+    "lastSuccessISO": "2026-09-02T00:26:11.365Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"

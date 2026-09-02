@@ -30,7 +30,7 @@ const MARKS_KEY = "rasid.marks.v1";
  */
 const LAST_PUSH_KEY = "rasid.lastPush.v1";
 const THRESHOLD_KEY = "rasid.threshold.v1";
-const THEME_KEY = "rasid.theme.v1";
+const THEME_KEY = "rasid.theme.v2";
 
 /**
  * Themes are token overrides in the stylesheet, so this list is only the
@@ -39,7 +39,8 @@ const THEME_KEY = "rasid.theme.v1";
  * a closing window is worse than no theme at all.
  */
 const THEMES: [string, string, string][] = [
-  ["instrument", "الأداة", "لوحة قياس باردة، الافتراضي"],
+  ["observatory", "المرصد", "داكن، ولا يضيء فيه إلا ما هو مفتوح. الافتراضي"],
+  ["instrument", "الأداة", "صفحة فاتحة حول لوحة داكنة"],
   ["night", "ليلي", "الصفحة كلها داكنة، للقراءة في الظلام"],
   ["warm", "دافئ", "ورقي هادئ، لقراءة طويلة"],
   ["sharp", "تقني", "تباين عالٍ وحواف حادّة"],
@@ -70,10 +71,24 @@ const writeJSON = (key: string, value: unknown): void => {
 
 let marks = readJSON<Record<string, { mark: Mark; atISO: string }>>(MARKS_KEY, {});
 let threshold = readJSON<number>(THRESHOLD_KEY, 0);
-let theme = readJSON<string>(THEME_KEY, "instrument");
+/*
+ * The key is versioned, and this is the version that changed the default.
+ *
+ * A stored preference has to keep winning - it is the reader's choice and not
+ * ours - but "instrument" was written into storage by the old code merely for
+ * being the default nobody had changed. Reading that back would have shown a
+ * returning reader the previous theme for ever while a first-time visitor got
+ * the new one, and the difference would have looked like a bug in whichever
+ * one they were not seeing.
+ *
+ * A new key retires those unchosen values. Anyone who actually picked a theme
+ * has picked it again in two taps; nobody is stuck with a default they never
+ * asked for.
+ */
+let theme = readJSON<string>(THEME_KEY, "observatory");
 
 const applyTheme = (): void => {
-  if (theme === "instrument") document.documentElement.removeAttribute("data-theme");
+  if (theme === "observatory") document.documentElement.removeAttribute("data-theme");
   else document.documentElement.setAttribute("data-theme", theme);
 };
 applyTheme();
@@ -86,6 +101,26 @@ let onlyNoZeroCourses = false;
 let onlyStipend = false;
 let onlyMyMajor = false;
 let bannerDismissed = false;
+
+/**
+ * Whether the Season Bar draws every organisation or only the ones with
+ * something to say.
+ *
+ * A hundred and eleven lanes is 600px of chart, and a phone is 351px wide. It
+ * scrolls inside its own box so it does not break the page, but a chart that
+ * has to be dragged sideways to be read is a chart nobody reads: the whole
+ * value of this thing is seeing the season at a glance.
+ *
+ * The default view keeps two kinds of lane, and the second is the one worth
+ * being careful about. Organisations with an announcement, obviously - and
+ * organisations whose sources are broken or were never read at all, because
+ * those are the ones the application cannot see, and hiding them would turn a
+ * blind spot into a clean-looking chart. That is the failure this project
+ * exists to refuse, and it would be an easy one to ship here.
+ *
+ * Everything else is quiet and correct, and one tap away.
+ */
+let seasonAll = false;
 let data: Dataset;
 
 /* ---------- shared pieces ---------- */
@@ -96,6 +131,16 @@ const band = (o: Opportunity): string =>
   : o.relevanceScore >= 85 ? "band-high"
   : o.relevanceScore >= 60 ? "band-mid"
   : "band-low";
+
+/**
+ * The one state the interface is allowed to animate.
+ *
+ * A window closing inside forty-eight hours is the only thing here whose cost
+ * is measured in a lost semester rather than a lost glance, so it is the only
+ * thing that moves. Kept as a separate class from the relevance band because
+ * the two are different facts: how well it fits him, and how long he has.
+ */
+const urgency = (o: Opportunity): string => (o.status === "closing_soon" ? " closing-soon" : "");
 
 const scoreLabel = (o: Opportunity): string =>
   o.relevanceScore === null
@@ -180,7 +225,7 @@ function opportunityCard(o: Opportunity): string {
   const review = o.flags.includes("needs_manual_review");
   const mark = marks[o.id]?.mark;
 
-  return `<li class="card ${band(o)}">
+  return `<li class="card ${band(o)}${urgency(o)}">
     <div class="row">
       <div>
         <h3>${esc(o.titleAr)}</h3>
@@ -452,9 +497,37 @@ function seasonScreen(): string {
   const judged = data.opportunities.filter((o) => o.relevanceScore !== null).length;
   const awaiting = data.opportunities.length - judged;
 
+  /*
+   * A lane earns its place by having something to put on the axis.
+   *
+   * The first attempt also kept every organisation whose sources are broken or
+   * unread, on the reasoning that hiding a blind spot is worse than a long
+   * chart. Measured, that kept 98 of 111 lanes and changed nothing: most
+   * organisations have at least one source that has not been read, so "cannot
+   * see this one" is the normal state and not the exception.
+   *
+   * The blind spots are not being hidden; they are being said properly. The
+   * honesty panel directly above this chart already prints them as counts -
+   * four with no readable source at all, fifty-two needing a look by hand -
+   * and a number in a sentence tells the reader more than ninety empty lanes
+   * marked "؟". The button below names what was left out, so the chart never
+   * pretends to be the whole picture.
+   */
+  const hasDate = (l: LaneInput): boolean =>
+    l.rolling || Boolean(l.opportunity?.opensISO) || Boolean(l.opportunity?.closesISO);
+  const shownLanes = seasonAll ? lanes : lanes.filter(hasDate);
+  const hiddenLanes = lanes.length - shownLanes.length;
+  const hiddenUnreadable = lanes.filter(
+    (l) => !hasDate(l) && (l.health === "broken" || l.health === "unwatched"),
+  ).length;
+
   return `<div class="season-head">
       <h2>الموسم</h2>
-      <p class="season-note">سبتمبر إلى فبراير · ${lanes.length} جهة مراقَبة</p>
+      <p class="season-note">سبتمبر إلى فبراير · ${
+        seasonAll || hiddenLanes === 0
+          ? `${lanes.length} جهة مراقَبة`
+          : `${shownLanes.length} من ${lanes.length} جهة نشرت تواريخ`
+      }</p>
     </div>
     <p class="reason season-note">
       المسارات أدناه كل الجهات المراقَبة. أما المجموعات تحتها فتعرض <strong>الإعلانات</strong> لا الجهات:
@@ -465,7 +538,20 @@ function seasonScreen(): string {
       }.
       لا تُعطى الجهة درجة صلة، لأن الدرجة تُقاس على إعلان بعينه — وجهة صامتة لا إعلان لها تُقاس.
     </p>
-    ${renderSeasonBar(lanes)}
+    ${
+      shownLanes.length === 0
+        ? `<p class="empty">لم تنشر أي جهة تواريخ بعد، فلا شيء يُرسم على المحور. الشريط يظهر هنا أول ما يُعلَن تاريخ.</p>`
+        : renderSeasonBar(shownLanes)
+    }
+    ${
+      hiddenLanes === 0
+        ? ""
+        : `<button class="secondary season-toggle" id="season-all">${
+            seasonAll
+              ? "اقتصر على ما له تواريخ"
+              : `اعرض كل الجهات (${hiddenLanes} بلا تواريخ منشورة، منها ${hiddenUnreadable} تعذّرت قراءتها)`
+          }</button>`
+    }
     ${group("مفتوح الآن", by("open"), nextHint, true)}
     ${group("يغلق قريباً", by("closing_soon"), "لا شيء يغلق خلال ٤٨ ساعة.", true)}
     ${group("أُعلن ولم يفتح", by("announced_not_open"), "لا إعلان بتاريخ فتح مستقبلي.", true)}
@@ -1221,6 +1307,11 @@ app.addEventListener("click", (e) => {
   }
   if (hit("#dismiss")) {
     bannerDismissed = true;
+    render();
+    return;
+  }
+  if (hit("#season-all")) {
+    seasonAll = !seasonAll;
     render();
     return;
   }

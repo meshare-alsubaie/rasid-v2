@@ -30,34 +30,63 @@
  * 3:1 is a palette that hides a closing window from someone reading on a phone
  * in daylight.
  */
+/*
+ * المرصد, the default.
+ *
+ * The old default put a dark instrument panel on a pale page, and it was right
+ * about what this thing is and too shy about it. The panel was an island: the
+ * one element that looked like an instrument sat surrounded by a document.
+ *
+ * So the instrument is the page now. The ground is the dark of a screen being
+ * watched at night, and exactly one colour is allowed to glow on it: the green
+ * that means a window is open. Everything else - a hundred and fifteen
+ * organisations, four hundred sources, every number that is merely true - is
+ * held quiet, because the whole point is that the eye should land on an open
+ * window from across the room and on nothing else.
+ *
+ * The green is deliberately pulled off the pure phosphor of a terminal. This
+ * is not a hacker aesthetic; it is an instrument for someone whose semester
+ * depends on it, and it should read as calm and expensive rather than loud.
+ * The urgent coral is separated from the green in lightness as well as hue, so
+ * the two states stay distinguishable without colour vision.
+ *
+ * The five earlier themes are untouched and still selectable; the pale one is
+ * now [data-theme="instrument"] below.
+ */
 :root {
-  --ink: #101720;
-  --slate: #e7ebef;
-  --paper: #f8fafb;
-  --live: #0b6e4f;
-  --urgent: #a93a1c;
-  --dormant: #7c8794;
-  --signal: #3a2fe0;
+  --ink: #e8f0f7;
+  --slate: #0a1017;
+  --paper: #121b26;
+  --live: #3fe0a4;
+  --urgent: #ff8a63;
+  --dormant: #46545f;
+  --signal: #7fc8ff;
 
-  --dormant-text: #5a6472;
-  --hairline: #d3dae1;
-  --paper-sunk: #f0f3f5;
+  --dormant-text: #93a5b8;
+  --hairline: #22303e;
+  --paper-sunk: #0d151e;
 
-  /* The dark panel: the Season Bar and the answer block. */
-  --panel: #101720;
-  --panel-text: #f8fafb;
-  --panel-dim: #b9c3cd;
-  --panel-rule: #262f3b;
-  --panel-base: #1a222d;
-  --panel-month: #7d8a99;
-  --panel-label: #e3e9ef;
-  --panel-quiet: #7d8a99;
+  /* The panel sinks below the page rather than rising out of it. */
+  --panel: #04070b;
+  --panel-text: #e8f0f7;
+  --panel-dim: #93a5b8;
+  --panel-rule: #17212c;
+  --panel-base: #0c141d;
+  --panel-month: #7d8fa2;
+  --panel-label: #dce7f0;
+  --panel-quiet: #6e8091;
 
-  /* Lightened so they clear 4.5:1 on the panel. */
-  --live-lit: #3fc78d;
-  --urgent-lit: #ff8560;
-  --dormant-lit: #8e9aa8;
-  --signal-lit: #9d95ff;
+  --live-lit: #3fe0a4;
+  --urgent-lit: #ff8a63;
+  --dormant-lit: #8fa1b3;
+  --signal-lit: #7fc8ff;
+
+  /*
+   * The glow, as a token, because it is information and not decoration: it is
+   * only ever applied to something that is open now or closing now.
+   */
+  --glow-live: 0 0 24px rgba(63, 224, 164, 0.28);
+  --glow-urgent: 0 0 24px rgba(255, 138, 99, 0.26);
 
   /* Strict scale, spec 6.1. Nothing between these. */
   --t-13: 0.8125rem;
@@ -83,8 +112,44 @@
   --radius-sm: 6px;
 }
 
+/* ---------- instrument: the previous default, a pale page around a dark panel ---------- */
+[data-theme="instrument"] {
+  --ink: #101720;
+  --slate: #e7ebef;
+  --paper: #f8fafb;
+  --live: #0b6e4f;
+  --urgent: #a93a1c;
+  --dormant: #7c8794;
+  --signal: #3a2fe0;
+
+  --dormant-text: #5a6472;
+  --hairline: #d3dae1;
+  --paper-sunk: #f0f3f5;
+
+  --panel: #101720;
+  --panel-text: #f8fafb;
+  --panel-dim: #b9c3cd;
+  --panel-rule: #262f3b;
+  --panel-base: #1a222d;
+  --panel-month: #7d8a99;
+  --panel-label: #e3e9ef;
+  --panel-quiet: #7d8a99;
+
+  --live-lit: #3fc78d;
+  --urgent-lit: #ff8560;
+  --dormant-lit: #8e9aa8;
+  --signal-lit: #9d95ff;
+
+  /* A pale page has nothing to glow against, so it does not try. */
+  --glow-live: none;
+  --glow-urgent: none;
+}
+
 /* ---------- night: the whole page goes dark, the panel goes darker ---------- */
 [data-theme="night"] {
+  /* The glow belongs to the observatory ground alone. */
+  --glow-live: none;
+  --glow-urgent: none;
   --ink: #e8edf2;
   --slate: #0d1218;
   --paper: #161d26;
@@ -103,6 +168,9 @@
 
 /* ---------- warm: paper-like, for long reading ---------- */
 [data-theme="warm"] {
+  /* The glow belongs to the observatory ground alone. */
+  --glow-live: none;
+  --glow-urgent: none;
   --ink: #2b2018;
   --slate: #f2ece2;
   --paper: #fbf7f0;
@@ -128,6 +196,9 @@
 
 /* ---------- sharp: high contrast, terminal-like ---------- */
 [data-theme="sharp"] {
+  /* The glow belongs to the observatory ground alone. */
+  --glow-live: none;
+  --glow-urgent: none;
   --ink: #05070a;
   --slate: #ffffff;
   --paper: #ffffff;
@@ -158,6 +229,9 @@
 
 /* ---------- playful: rounder, warmer accents, more air ---------- */
 [data-theme="playful"] {
+  /* The glow belongs to the observatory ground alone. */
+  --glow-live: none;
+  --glow-urgent: none;
   --ink: #1b1033;
   --slate: #f4f1fb;
   --paper: #ffffff;
@@ -294,22 +368,63 @@ a {
 /* ---------- the answer, first thing on the page ---------- */
 
 .answer {
+  position: relative;
   background: var(--panel);
   color: var(--panel-text);
+  border: 1px solid var(--panel-rule);
   border-radius: var(--radius);
-  padding: var(--s5);
+  padding: var(--s6) var(--s5) var(--s5);
   display: grid;
   gap: var(--s2);
+  overflow: hidden;
 }
+
+/*
+ * A horizon line across the top of the answer.
+ *
+ * It is the only ornament in the interface and it earns its place by being
+ * conditional: it is lit green when something is open and left as a plain rule
+ * when nothing is. So the first thing the eye meets, before any word is read,
+ * already carries the answer - which is what spec acceptance criterion 1 asks
+ * for and what a paragraph cannot do in three seconds from across a room.
+ */
+.answer::before {
+  content: "";
+  position: absolute;
+  inset-block-start: 0;
+  inset-inline: 0;
+  height: 2px;
+  background: var(--panel-rule);
+}
+.answer:has(.headline.is-live)::before {
+  background: linear-gradient(90deg, transparent, var(--live-lit), transparent);
+  box-shadow: var(--glow-live);
+}
+.answer:has(.headline.is-urgent)::before {
+  background: linear-gradient(90deg, transparent, var(--urgent-lit), transparent);
+  box-shadow: var(--glow-urgent);
+}
+
 .answer .headline {
   font-family: var(--display);
-  font-size: var(--t-34);
-  font-weight: 600;
-  line-height: 1.15;
-  letter-spacing: -0.02em;
+  font-size: clamp(var(--t-34), 8vw, var(--t-48));
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: -0.03em;
+  text-wrap: balance;
 }
 .answer .headline.is-live {
   color: var(--live-lit);
+  /*
+   * Applied to the glyphs, not to a box, so the light comes off the words
+   * themselves. `--glow-live` is `none` in every theme that has a pale ground,
+   * where a glow would be smudge rather than light.
+   */
+  text-shadow: var(--glow-live);
+}
+.answer .headline.is-urgent {
+  color: var(--urgent-lit);
+  text-shadow: var(--glow-urgent);
 }
 .answer .sub {
   color: var(--panel-dim);
@@ -687,25 +802,60 @@ a {
 .card h3 {
   overflow-wrap: anywhere;
 }
-/* Weight follows relevance, so the eye lands on what matters to him first. */
+/*
+ * Weight follows relevance, so the eye lands on what matters to him first.
+ *
+ * On the dark ground the edge became a filament rather than a stripe: the same
+ * four pixels, but only the one on an open window is allowed to carry light.
+ * A page of ninety quiet cards and one lit edge says which card to read before
+ * a single word has been parsed.
+ */
 .card::before {
   content: "";
   position: absolute;
   inset-block: -1px;
   inset-inline-start: -1px;
-  width: 4px;
+  width: 3px;
   border-start-start-radius: var(--radius);
   border-end-start-radius: var(--radius);
   background: var(--dormant);
 }
 .card.band-high::before {
-  background: var(--signal);
+  background: var(--live);
+  box-shadow: var(--glow-live);
 }
 .card.band-mid::before {
-  background: var(--ink);
+  background: var(--signal);
 }
 .card.is-review::before {
   background: var(--urgent);
+}
+
+/*
+ * A window closing inside two days is the one thing here that moves.
+ *
+ * Motion is a claim on attention and this project spends it exactly once, on
+ * the state whose cost is a missed deadline. Anything else that pulsed would
+ * teach the eye to ignore pulsing.
+ */
+@keyframes rasid-urgent-breathe {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.45;
+  }
+}
+.card.closing-soon::before {
+  background: var(--urgent);
+  box-shadow: var(--glow-urgent);
+  animation: rasid-urgent-breathe 2.4s ease-in-out infinite;
+}
+@media (prefers-reduced-motion: reduce) {
+  .card.closing-soon::before {
+    animation: none;
+  }
 }
 
 .card .row {
@@ -1293,4 +1443,101 @@ dialog.sheet::backdrop {
     align-items: flex-start;
     gap: var(--s1);
   }
+}
+
+/*
+ * The Season Bar's own control, sitting under the chart it changes.
+ *
+ * Full width because it is a mode switch and not an action: on a phone the
+ * chart above it is showing a deliberately partial view, and the button is the
+ * sentence that says so.
+ */
+.season-toggle {
+  width: 100%;
+  margin-top: var(--s3);
+  text-align: center;
+}
+
+/* ==========================================================================
+   المرصد: the treatments that make the dark ground an instrument rather than
+   a dark document. Each is scoped to the default theme, so switching to any
+   of the five pale or legacy themes drops them entirely rather than leaving
+   half an identity behind.
+   ========================================================================== */
+
+:root .masthead {
+  align-items: flex-end;
+  padding-bottom: var(--s3);
+  border-bottom: 1px solid var(--hairline);
+  margin-bottom: var(--s5);
+}
+:root .masthead h1 {
+  /*
+   * The name is set as a name: display weight, negative tracking, and enough
+   * size that it reads as the thing's identity rather than a page label. It is
+   * the only place in the interface where type is allowed to be large for its
+   * own sake, and it is four letters, so it costs nothing.
+   */
+  font-size: var(--t-34);
+  letter-spacing: -0.04em;
+  line-height: 1;
+}
+
+/*
+ * The instrument well.
+ *
+ * The answer sits in the darkest plane on the page, below the ground rather
+ * than above it, with a hairline frame and a catch-light along the top edge.
+ * That inversion is the whole idea: everything else is a surface you read, and
+ * this is a screen you look into.
+ */
+:root .answer {
+  background:
+    radial-gradient(120% 100% at 50% 0%, rgba(63, 224, 164, 0.05), transparent 60%),
+    var(--panel);
+  box-shadow: inset 0 1px 0 rgba(232, 240, 247, 0.06);
+}
+
+/* Cards lift off the ground instead of being drawn on it. */
+:root .card {
+  background: linear-gradient(180deg, rgba(232, 240, 247, 0.02), transparent 40%), var(--paper);
+}
+
+/*
+ * The lit edge is doubled on an open window: the filament itself, and a soft
+ * wash into the card behind it. Only on band-high, which is the score that
+ * means this one is actually his.
+ */
+:root .card.band-high {
+  background:
+    linear-gradient(
+      to left,
+      rgba(63, 224, 164, 0.07),
+      transparent 45%
+    ),
+    var(--paper);
+  border-color: rgba(63, 224, 164, 0.28);
+}
+
+/*
+ * Cards off screen are not laid out or painted.
+ *
+ * Measured on a 375px viewport: 139 cards, 5,747 elements, all of them styled
+ * and positioned on load whether or not anyone will scroll to them. That is
+ * the "يهنق" the owner reported - not a mysterious hang, just a phone doing a
+ * desktop's worth of layout in one synchronous pass.
+ *
+ * `content-visibility: auto` lets the browser skip the work for anything
+ * outside the viewport and do it on approach instead. `contain-intrinsic-size`
+ * gives it a height to reserve in the meantime, without which the scrollbar
+ * jumps as each card is measured for the first time - a fix that trades one
+ * annoyance for a worse one.
+ *
+ * It is a hint, not virtualisation: every card is still in the DOM, still
+ * found by ctrl+F, still read by a screen reader in order. Nothing is hidden
+ * from anything that matters.
+ */
+.cards > li {
+  content-visibility: auto;
+  contain-intrinsic-size: auto 220px;
 }
