@@ -326,11 +326,11 @@
   {
     "sourceUrl": "https://athkax.sdaia.gov.sa/coop",
     "orgId": "sdaia",
-    "lastAttemptISO": "2026-09-03T03:44:25.031Z",
-    "lastSuccessISO": "2026-09-02T23:42:46.216Z",
-    "consecutiveFailures": 4,
-    "lastError": "headless chromium unavailable (browserType.launch: Executable doesn't exist at [مسار محلي]/chrome-headless-shell.exe\n╔════════════════════════════════════════════════════════════╗\n║ Looks like Playwright was just installed or updated.       ║\n║ Please run the following command to download new browsers: ║\n║                                                            ║\n║     npx playwright install                                 ║\n║                                                            ║\n║ <3 Playwright Team                                         ║\n╚════════════════════════════════════════════════════════════╝); run \"npx playwright install chromium\"",
-    "state": "degraded"
+    "lastAttemptISO": "2026-09-03T03:59:19.426Z",
+    "lastSuccessISO": "2026-09-03T03:59:19.426Z",
+    "consecutiveFailures": 0,
+    "lastError": null,
+    "state": "healthy"
   },
   {
     "sourceUrl": "https://awqaf.gov.sa/ar/ar/hiring/",

@@ -46,6 +46,30 @@ if (-not $nodeDir) {
 if (-not $nodeDir) { $nodeDir = "D:\tools\node" }
 $env:Path = "$nodeDir;C:\Program Files\GitHub CLI;C:\Program Files\Git\cmd;$env:Path"
 
+# Where the headless browser lives, said out loud rather than inferred.
+#
+# Playwright finds its browsers under LOCALAPPDATA. A task started by the
+# scheduler does not always inherit the same LOCALAPPDATA as a shell, and when
+# it does not, every browser-rendered source in the round fails with
+# "Executable doesn't exist" -- 41 of them at once, including SDAIA's own co-op
+# page, while the identical command from a terminal worked perfectly. The cause
+# is invisible from the error, which blames a missing install.
+#
+# Reproduced deliberately: overriding LOCALAPPDATA produces exactly that error
+# and nothing else changes. So the location is pinned here, and the watcher no
+# longer depends on which environment the scheduler happened to hand it.
+if (-not $env:PLAYWRIGHT_BROWSERS_PATH) {
+    $browsers = Join-Path $env:LOCALAPPDATA "ms-playwright"
+    if (-not (Test-Path $browsers)) {
+        $browsers = Join-Path "C:\Users\$env:USERNAME\AppData\Local" "ms-playwright"
+    }
+    if (Test-Path $browsers) {
+        $env:PLAYWRIGHT_BROWSERS_PATH = $browsers
+    } else {
+        Say "WARNING: no Playwright browsers found. Pages needing a real browser will not be read."
+    }
+}
+
 # Spec 5.1 asks the User-Agent to carry a contact address, so a site owner who
 # sees this traffic can reach a person. The value is a personal email, so it is
 # read from a gitignored file and never committed.
