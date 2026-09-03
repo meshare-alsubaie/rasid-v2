@@ -341,9 +341,6 @@ function answerBlock(): string {
    * whole. The denominator is now what he is relying on, and the gap is stated
    * rather than hidden by leaving it out of the sum.
    */
-  const configured = coverage();
-  const watched = configured.read;
-  const unread = data.health.filter((h) => h.state !== "healthy").length;
   const tracked = data.opportunities.length;
 
   const headline =
@@ -356,7 +353,7 @@ function answerBlock(): string {
     open.length > 0
       ? soonest.closesISO !== null
         ? `أقربها إغلاقاً: ${esc(soonest.titleAr)}.`
-        : `منها: ${esc(soonest.titleAr)} — ولم تُعلن أي منها تاريخ إغلاق.`
+        : `منها: ${esc(soonest.titleAr)}، ولم تُعلن أي منها تاريخ إغلاق.`
       : `لم تنشر أي جهة محقّقة تاريخ فتح بعد. ${tracked} برنامجاً قائماً تحت المراقبة، وسيظهر هنا أول ما يُعلَن.`;
 
   /*
@@ -457,17 +454,21 @@ function answerBlock(): string {
     ${pushSilent}
     ${headline}
     <p class="sub">${sub}</p>
-    ${/* Spec E4: three numbers he must never have to tap for. How much was
-          actually read, how many organisations he is blind to, and when the
-          last round finished. Bad news among them is shown as bad news rather
-          than omitted — a count that only appears when it is comfortable is a
-          count that cannot be trusted when it is not. */ ""}
+    ${/*
+        One line, not five.
+
+        This printed the read count, the blind-organisation count, the time of
+        the last round and the unreadable count — and the health bar directly
+        below it printed the same four again, in the same order. Two thirds of
+        the first screen went to the same numbers twice, above a single card.
+
+        The number kept here is the one this block is for: how many programmes
+        the app knows about. Everything about the app's own health belongs in
+        the health bar, which is where a reader goes to ask that question.
+      */ ""}
     <div class="tally">
-      <span><b>${watched}</b> من ${configured.total} مصدراً قُرئ فعلاً</span>
-      <span class="${configured.orgsUnread > 0 ? "warn" : ""}"><b>${configured.orgsUnread}</b> جهة بلا مصدر مقروء</span>
-      <span>آخر جولة ناجحة ${timeAgo(data.lastCheckISO)}</span>
       <span><b>${tracked}</b> برنامجاً معروفاً</span>
-      ${unread > 0 ? `<span class="warn"><b>${unread}</b> مصدراً لا يُقرأ</span>` : ""}
+      <span>آخر جولة ناجحة ${timeAgo(data.lastCheckISO)}</span>
     </div>
   </section>`;
 }

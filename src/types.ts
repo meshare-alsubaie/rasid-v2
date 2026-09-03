@@ -571,9 +571,37 @@ export function statusFor(
   if (closes !== null && closes < now) return "closed";
   if (opens !== null && opens > now) return "announced_not_open";
   if (closes !== null && closes - now <= 48 * 60 * 60 * 1000) return "closing_soon";
+
+  /*
+   * An opening date with no closing date does not stay open for ever.
+   *
+   * The home screen said "1 نافذة مفتوحة الآن" over a card reading
+   * "يفتح 9 سبتمبر 2024" — a date two years past, presented as a window the
+   * reader could still apply through. Nothing here expired it: with no closing
+   * date the only test was "has it opened", which anything old passes.
+   *
+   * A co-op window is a semester's admissions and runs for weeks, not years. So
+   * a page whose only date is an opening one is treated as open for as long as
+   * that is plausible, and after that as `unknown` — which is the honest answer,
+   * and the one the interface already renders as "قائم بلا تواريخ معلنة". The
+   * record is not touched and the reader can still open the page himself; what
+   * stops is this app telling him a two-year-old date is today's opportunity.
+   */
+  if (closes === null && opens !== null) {
+    return now - opens <= OPEN_WITHOUT_DEADLINE_MS ? "open" : "unknown";
+  }
+
   if (opens !== null || closes !== null) return "open";
   return "unknown";
 }
+
+/**
+ * How long an opening with no published deadline is still called open.
+ *
+ * Ninety days is a semester's application season with room to spare, and it is
+ * far short of the two years the old rule allowed.
+ */
+export const OPEN_WITHOUT_DEADLINE_MS = 90 * 24 * 60 * 60 * 1000;
 
 /**
  * A value that cannot be displayed without saying where it came from.
