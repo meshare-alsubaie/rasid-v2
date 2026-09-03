@@ -631,10 +631,22 @@ function seasonScreen(): string {
       }.
       لا تُعطى الجهة درجة صلة، لأن الدرجة تُقاس على إعلان بعينه، وجهة صامتة لا إعلان لها تُقاس.
     </p>
+    ${/*
+        A timeline with one line on it is not a timeline.
+
+        The filter keeps the lanes that published a date, which is right in a
+        busy season and reads as a broken chart out of one: a full-width axis
+        with a single organisation on it, above a button offering the 121 that
+        were left out. The chart is a comparison, and there is nothing to
+        compare. Below three lanes it is replaced by the sentence it was drawing,
+        and the button underneath still offers the rest.
+      */ ""}
     ${
       shownLanes.length === 0
         ? `<p class="empty">لم تنشر أي جهة تواريخ بعد، فلا شيء يُرسم على المحور. الشريط يظهر هنا أول ما يُعلَن تاريخ.</p>`
-        : renderSeasonBar(shownLanes)
+        : shownLanes.length < 3 && !seasonAll
+          ? `<p class="empty">${shownLanes.length === 1 ? "جهة واحدة فقط نشرت تواريخ" : `${shownLanes.length} جهات فقط نشرت تواريخ`} حتى الآن، والمحور لا يقارن شيئاً بشيء. اعرض كل الجهات من الزرّ أدناه لترى الصورة كاملة.</p>`
+          : renderSeasonBar(shownLanes)
     }
     ${
       hiddenLanes === 0
