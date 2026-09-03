@@ -226,7 +226,7 @@
     "contentHash": "3f079f6ce32a0ead8efcda45031487a603820dde721a75786471210af4b9e0cd",
     "blockHashes": [
       "1ce798e0ca5f6070",
-      "74e4c1d2a646a96e",
+      "9e8708f46644e878",
       "a31045957060e128",
       "110aa2329916020a",
       "6bbc09a5eb8f2027",
@@ -241,7 +241,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-02T23:42:46.216Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://alinma.com/",
@@ -3896,13 +3896,25 @@
     "sourceUrl": "https://sdaia.gov.sa/ar/Sectors/Ncai/Pages/default.aspx",
     "orgId": "ncai",
     "contentHash": "fce17e0e088b857e090e56690c311cabd2b865deae21aa46fa595552811bb04f",
-    "blockHashes": [],
+    "blockHashes": [
+      "afe62b9084c03940",
+      "e6921925947785ca",
+      "9d67dc38995ad10d",
+      "cae932f9cc671838",
+      "f217d44dcf931478",
+      "e33cd341e1f6c900",
+      "9cb3a8c92d77d82f",
+      "c260d87ce517c1cb",
+      "a534f133e2b4d291",
+      "b26dfe0bcdbbc45c",
+      "81a7c66a7c4ef63e"
+    ],
     "extractedChars": 1489,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-02T23:42:46.216Z",
     "lastChangedISO": "2026-09-02T23:42:46.216Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://sdaia.gov.sa/ncai/",
@@ -6962,13 +6974,17 @@
     "sourceUrl": "https://www.maaden.com/ar",
     "orgId": "maaden",
     "contentHash": "c44c9ef6d809dbe450b615651f0a3fedf59408b08e221082cf15dc4e75c882ad",
-    "blockHashes": [],
+    "blockHashes": [
+      "b56117c52415d4ce",
+      "dcc277c756b9a721",
+      "3adef1cca62ca4da"
+    ],
     "extractedChars": 715,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-09-02T23:42:46.216Z",
     "lastChangedISO": "2026-09-02T23:42:46.216Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.mckinsey.com/careers/assessment-integrity-expectations",
@@ -7635,8 +7651,7 @@
     "blockHashes": [
       "7f625851cbbadbc6",
       "f7711325e2c4b301",
-      "bd053bccdabf96fe",
-      "0602e2e5bda8aac6",
+      "c647333b530f233e",
       "8f20eb8846ead05b",
       "f4809815161554d5",
       "16ff3360390869f3",
@@ -7652,7 +7667,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-02T23:42:46.216Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.mof.gov.sa/mediacenter/events/Pages/CalEvent.aspx",
