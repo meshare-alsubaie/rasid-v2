@@ -2160,7 +2160,7 @@
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T02:22:33.828Z",
     "lastChangedISO": "2026-08-29T02:36:21.032Z",
-    "thinRuns": 47,
+    "thinRuns": 48,
     "pendingClassification": false
   },
   {
@@ -3651,14 +3651,14 @@
     "orgId": "ndf",
     "contentHash": "8d14653a6c52c9f2d6ad8d120ae8ecce75efeac49d4a00bebdc424dfbbbd9f61",
     "blockHashes": [
-      "df9ac32a2de392b6"
+      "8d14653a6c52c9f2"
     ],
     "extractedChars": 1211,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-02T23:42:46.216Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://ndf.gov.sa/media-center/press-news",
@@ -6356,10 +6356,10 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/careers?lang=ar",
     "orgId": "hrc",
-    "contentHash": "9644224d418cd1146d17b92521ddcf20c267bd5649d9253f62bfd3bdb63b81d9",
+    "contentHash": "bc372af2657b573d6430b3576950eea206d8c29b1620264105bbd1b53b06ff11",
     "blockHashes": [
       "12e41a244a8a2984",
-      "356c19f91d70ad0c",
+      "85c3856a67686c7b",
       "9bd6314e9bbc7375",
       "474d2dbb69aae30b",
       "84b2fc11813dc7e8",
@@ -6383,9 +6383,9 @@
     "extractedChars": 3794,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-02T23:42:46.216Z",
+    "lastChangedISO": "2026-09-03T01:49:30.529Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/careers/graduate-development-program",
@@ -9677,14 +9677,14 @@
       "90db696808e0d587",
       "101c785137fbedb5",
       "41417406dcd9184f",
-      "02c907608b8f6325"
+      "b9b3ba67d1cf3f4a"
     ],
     "extractedChars": 3495,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
     "lastChangedISO": "2026-09-02T23:42:46.216Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.saip.gov.sa/ar/contact-us/careers",
