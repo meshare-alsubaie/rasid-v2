@@ -245,6 +245,40 @@ const quiet = split(many, [], now, true);
 check("quiet hours push nothing", quiet.push.length === 0);
 check("quiet hours still digest everything", quiet.digestOnly.length === 9);
 
+/*
+ * The night exemption is from the silence, not from the budget.
+ *
+ * A closing window is allowed through quiet hours because a deadline that
+ * passes at dawn cannot wait until seven. But the branch returned every urgent
+ * notice with no ceiling, so a night on which twenty windows entered their last
+ * forty-eight hours would have woken him twenty times.
+ */
+{
+  const closing: Notice[] = Array.from({ length: 20 }, (_, i) => ({
+    key: `closing:${i}`,
+    kind: "closing_soon",
+    title: `⏳ يغلق قريباً · جهة ${i}`,
+    body: `برنامج ${i}`,
+    weight: BAND.closingSoon + i,
+  }));
+  const night = split(closing, [], now, true);
+  check(
+    "a night of twenty closing windows still respects the daily cap",
+    night.push.length === DAILY_PUSH_CAP,
+    `${night.push.length} pushed`,
+  );
+  check(
+    "and the rest are held rather than dropped",
+    night.push.length + night.digestOnly.length === closing.length,
+    `${night.push.length} + ${night.digestOnly.length}`,
+  );
+  check(
+    "the ones that go are the most urgent",
+    night.push[0]!.weight === BAND.closingSoon + 19,
+    String(night.push[0]!.weight),
+  );
+}
+
 const repeat = split(many, many.map((n) => ({ key: n.key, sentISO: now.toISOString() })), now, false);
 check("nothing already sent is sent twice", repeat.push.length === 0 && repeat.digestOnly.length === 0);
 

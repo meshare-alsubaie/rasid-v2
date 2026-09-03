@@ -95,10 +95,48 @@ function entriesFrom(xml: string): { urls: SitemapEntry[]; indexes: string[] } {
  * index can point at a path on the same host that the site would rather we left
  * alone, and permission for one path is not permission for another.
  */
+/**
+ * Why nothing came back, when nothing comes back.
+ *
+ * Every failure here returned an empty list, and the caller wrote the same
+ * sentence over all of them: "this site publishes no readable sitemap". That is
+ * a claim about the site, and four of the five ways to get an empty list are
+ * claims about us — robots would not answer, the fetch failed, the xml was
+ * malformed, the path was not a url. Only "the body is not a sitemap" is really
+ * about the site. Recording which is the difference between a gap we know about
+ * and a gap we have mislabelled as a fact.
+ */
+export type SitemapOutcome =
+  | "read"
+  | "no_sitemap_published"
+  | "robots_blocked"
+  | "unreachable"
+  | "malformed";
+
+export interface SitemapReading {
+  entries: SitemapEntry[];
+  outcome: SitemapOutcome;
+}
+
+/** The reasons seen while trying, worst-explaining-first when nothing was read. */
+function summarise(reasons: Set<SitemapOutcome>): SitemapOutcome {
+  for (const r of ["robots_blocked", "unreachable", "malformed"] as const) {
+    if (reasons.has(r)) return r;
+  }
+  return "no_sitemap_published";
+}
+
+export async function readSitemapWithOutcome(origin: string): Promise<SitemapReading> {
+  const reasons = new Set<SitemapOutcome>();
+  const entries = await readSitemap(origin, 0, new Set(), reasons);
+  return { entries, outcome: entries.length > 0 ? "read" : summarise(reasons) };
+}
+
 export async function readSitemap(
   origin: string,
   depth = 0,
   seen = new Set<string>(),
+  reasons?: Set<SitemapOutcome>,
 ): Promise<SitemapEntry[]> {
   if (depth > MAX_INDEX_DEPTH) return [];
   if (typeof origin !== "string" || !/^https?:\/\//i.test(origin)) return [];
@@ -114,25 +152,26 @@ export async function readSitemap(
     seen.add(candidate);
 
     const verdict = await checkRobots(candidate);
-    if (!verdict.allowed) continue;
+    if (!verdict.allowed) { reasons?.add("robots_blocked"); continue; }
 
     const res = await fetchPage(candidate, verdict.crawlDelayMs);
-    if (!res.ok) continue;
+    if (!res.ok) { reasons?.add("unreachable"); continue; }
     // A site with no sitemap usually answers the conventional path with its
     // homepage rather than a 404, so the body decides, not the status code.
-    if (!/<(urlset|sitemapindex)/i.test(res.html)) continue;
+    if (!/<(urlset|sitemapindex)/i.test(res.html)) { reasons?.add("no_sitemap_published"); continue; }
 
     let parsed: ReturnType<typeof entriesFrom>;
     try {
       parsed = entriesFrom(res.html);
     } catch {
+      reasons?.add("malformed");
       continue; // malformed xml is not a reason to fail a run
     }
 
     out.push(...parsed.urls);
     for (const index of parsed.indexes) {
       if (out.length >= MAX_URLS_PER_SITEMAP) break;
-      out.push(...(await readSitemap(index, depth + 1, seen)));
+      out.push(...(await readSitemap(index, depth + 1, seen, reasons)));
     }
     if (out.length >= MAX_URLS_PER_SITEMAP) break;
   }

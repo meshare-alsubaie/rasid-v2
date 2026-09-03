@@ -28,7 +28,7 @@ import { parseHTML } from "linkedom";
 import { closeBrowser } from "../src/pipeline/browser";
 import { fetchPage } from "../src/pipeline/fetch";
 import { checkRobots } from "../src/pipeline/robots";
-import { looksLikeTraining, readSitemap } from "../src/pipeline/sitemap";
+import { looksLikeTraining, readSitemapWithOutcome } from "../src/pipeline/sitemap";
 import type { Organisation } from "../src/types";
 
 const args = process.argv.slice(2);
@@ -157,7 +157,7 @@ for (const org of targets) {
     const key = `${org.id}|${origin}`;
     const prior = byOrg.get(key);
 
-    const entries = await readSitemap(origin);
+    const { entries, outcome } = await readSitemapWithOutcome(origin);
     if (entries.length === 0) {
       byOrg.set(key, {
         orgId: org.id,
@@ -166,7 +166,16 @@ for (const org of targets) {
         urlCount: 0,
         seenTraining: prior?.seenTraining ?? [],
         feedUrl: prior?.feedUrl,
-        note: "لا يعلن هذا الموقع خريطة روابط تُقرأ",
+        // Which of the five ways this came back empty, rather than the one
+        // sentence that used to cover all of them and blamed the site for four
+        // failures that were ours.
+        note: {
+          no_sitemap_published: "لا يعلن هذا الموقع خريطة روابط تُقرأ",
+          robots_blocked: "ملفّ الصلاحيات يمنع قراءة خريطة الروابط، ونحن نحترمه",
+          unreachable: "تعذّر الوصول إلى خريطة الروابط، والغالب أنها مشكلة اتّصال من عندنا",
+          malformed: "خريطة الروابط موجودة لكنها غير صالحة، فلم تُقرأ",
+          read: "",
+        }[outcome],
       });
       // No sitemap is exactly when a feed is worth having.
       if (prior?.feedUrl === undefined) {

@@ -396,17 +396,35 @@ export function split(
     !digestedKeys.has(n.key) && !pushedKeys.has(n.key);
 
   const fresh = notices.filter(stillNeedsPush);
-  if (quiet) {
-    const urgent = fresh.filter((n) => URGENT.has(n.kind));
-    return {
-      push: urgent,
-      digestOnly: fresh.filter((n) => !URGENT.has(n.kind)).filter(stillNeedsDigest),
-    };
-  }
-
   const sentToday = log.filter(
     (e) => dayOf(e.sentISO) === dayOf(now.toISOString()) && (e.via ?? "push") === "push",
   ).length;
+
+  if (quiet) {
+    /*
+     * The cap applies at night too, and did not.
+     *
+     * Quiet hours let a closing window through, which is right: a deadline that
+     * passes at dawn cannot wait until seven. But the branch returned every
+     * urgent notice with no ceiling at all, so a night on which twenty windows
+     * entered their final forty-eight hours would have woken him twenty times
+     * between eleven and seven. The exemption is from the silence, not from the
+     * budget.
+     *
+     * Ordered by urgency so that if the budget does bite, what gets through is
+     * the window closing soonest.
+     */
+    const urgent = fresh
+      .filter((n) => URGENT.has(n.kind))
+      .sort((a, b) => effectiveWeight(b, now) - effectiveWeight(a, now));
+    const roomTonight = Math.max(0, DAILY_PUSH_CAP - sentToday);
+    return {
+      push: urgent.slice(0, roomTonight),
+      digestOnly: [...fresh.filter((n) => !URGENT.has(n.kind)), ...urgent.slice(roomTonight)].filter(
+        stillNeedsDigest,
+      ),
+    };
+  }
   const room = Math.max(0, DAILY_PUSH_CAP - sentToday);
   const ranked = [...fresh].sort((a, b) => effectiveWeight(b, now) - effectiveWeight(a, now));
 

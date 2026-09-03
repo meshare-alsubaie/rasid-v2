@@ -62,6 +62,24 @@ async function load(origin: string): Promise<Entry> {
         lastError = `robots.txt returned ${res.status}; RFC 9309 treats a server error as disallow`;
         continue; // a 5xx is worth another try before muting the host
       }
+      /*
+       * A 200 that returns a web page is not a robots file.
+       *
+       * Plenty of sites answer every unknown path with their homepage, so
+       * `/robots.txt` comes back as HTML with status 200. Handing that to the
+       * parser yields a rule set with no rules, which reads as "crawl anything"
+       * — the site was never asked and we concluded it had said yes. The
+       * conservative reading of an unreadable robots file is the one RFC 9309
+       * takes for a server error, and it is the one this project already takes
+       * everywhere else: we do not crawl what we could not ask about.
+       */
+      const looksLikeMarkup = /^\s*(?:<!doctype|<html|<\?xml)/i.test(body);
+      const contentType = res.headers.get("content-type") ?? "";
+      if (looksLikeMarkup || /text\/html/i.test(contentType)) {
+        lastError =
+          "robots.txt answered 200 with a web page rather than a rules file, so the site was never actually asked";
+        continue;
+      }
       return { kind: "rules", robots: robotsParser(url, body) };
     } catch (err) {
       lastError = `could not reach robots.txt after ${attempt + 1} attempt(s) (${

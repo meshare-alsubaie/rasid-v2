@@ -97,7 +97,21 @@ const server: Server = createServer((req, res) => {
   res.end("<!doctype html><html><head><title>404</title></head><body>not found</body></html>");
 });
 
+/*
+ * A second origin whose /robots.txt answers 200 with a web page, which is what
+ * a great many sites do for any path they do not recognise. It has to be its
+ * own origin: robots is always fetched from the root, so one server cannot
+ * serve both a real rules file and a fake one.
+ */
+const HTML_ROBOTS_PORT = 4198;
+const htmlRobotsBase = `http://127.0.0.1:${HTML_ROBOTS_PORT}`;
+const htmlRobotsServer: Server = createServer((_req, res) => {
+  res.writeHead(200, { "content-type": "text/html; charset=utf-8" });
+  res.end(PAGE);
+});
+
 await new Promise<void>((r) => server.listen(PORT, r));
+await new Promise<void>((r) => htmlRobotsServer.listen(HTML_ROBOTS_PORT, r));
 resetRobotsCache();
 
 const verdict = await checkRobots(`${base}/ok`);
@@ -252,10 +266,26 @@ console.log("\nfaults 10-12: redirects, robots reachability, and pacing");
     Date.now() - started >= 1400,
     `${Date.now() - started}ms apart`,
   );
+
+  /*
+   * 13. A great many sites answer every unknown path with their homepage, so
+   * `/robots.txt` comes back as HTML with status 200. Handed to the parser that
+   * yields a rule set with no rules, which reads as "crawl anything" — the site
+   * was never asked and we concluded it had said yes. That is the same silent
+   * yes this file exists to refuse everywhere else.
+   */
+  resetRobotsCache();
+  const htmlRobots = await checkRobots(`${htmlRobotsBase}/careers`);
+  check(
+    "13. a robots.txt that answers 200 with a web page is not treated as permission",
+    !htmlRobots.allowed,
+    (htmlRobots.reason ?? "").slice(0, 60),
+  );
 }
 
 await closeBrowser();
 server.close();
+htmlRobotsServer.close();
 
 console.log(
   `\n${failures === 0 ? "every fault produces a state the user can see" : `${failures} CHECK(S) FAILED`}`,
