@@ -12,6 +12,7 @@
 import { createServer, type Server } from "node:http";
 import { closeBrowser } from "../src/pipeline/browser";
 import { extract, isSoft404 } from "../src/pipeline/extract";
+import { fromClassification, markVanished } from "../src/pipeline/opportunity";
 import { fetchPage } from "../src/pipeline/fetch";
 import { checkRobots, resetRobotsCache } from "../src/pipeline/robots";
 import { MAX_BYTES } from "../src/pipeline/fetch";
@@ -134,10 +135,71 @@ console.log("\nfaults 5-6: the page lies about itself");
     e !== null && e.chars > 200 && !e.text.includes("التدريب التعاوني"),
     e ? `${e.chars} chars` : "unreachable",
   );
+  /*
+   * This check used to pass the literal `true`, with the detail "proven
+   * separately in test:lifecycle". It was not: that test set the flag on an
+   * object by hand and then asserted properties of the object it had just built,
+   * so the collector's own branch — the one that decides whether a record
+   * survives a page going quiet — was executed by nothing at all.
+   *
+   * It runs here now, on the real function, against a record built by the real
+   * constructor.
+   */
+  const record = fromClassification({
+    orgId: "acme",
+    sourceUrl: `${base}/swap`,
+    text: "نص",
+    nowISO: "2026-09-01T00:00:00.000Z",
+    prior: undefined,
+    firstTime: true,
+    c: {
+      isTrainingAnnouncement: true,
+      product: "coop",
+      titleAr: "برنامج التدريب التعاوني",
+      opensISO: null,
+      closesISO: "2026-09-30",
+      opensRaw: null,
+      closesRaw: "2026-09-30",
+      moreOnPage: false,
+      majors: ["الأمن السيبراني"],
+      seats: null,
+      stipendSAR: null,
+      durationWeeks: null,
+      cities: [],
+      statesZeroCoursesRule: false,
+      zeroCoursesQuote: null,
+      applyUrl: null,
+    },
+  });
+  const scoreBefore = record.relevanceScore;
+  const closesBefore = record.closesISO;
+  const confirmedBefore = record.lastConfirmedISO;
+
+  const first = markVanished([record], `${base}/swap`);
   check(
-    "   and a record built from it is kept, not deleted (collect.ts flags vanished_from_source)",
-    true,
-    "proven separately in test:lifecycle",
+    "   a record built from it is kept, not deleted, when the page goes quiet",
+    first.flagged.length === 1 && record.flags.includes("vanished_from_source"),
+    record.flags.join(","),
+  );
+  check(
+    "   and it keeps the closing date and the score the page gave it",
+    record.closesISO === closesBefore && record.relevanceScore === scoreBefore,
+    `${String(record.closesISO)} / ${String(record.relevanceScore)}`,
+  );
+  check(
+    "   and lastConfirmedISO does not move, because it was not confirmed",
+    record.lastConfirmedISO === confirmedBefore,
+  );
+  const second = markVanished([record], `${base}/swap`);
+  check(
+    "   and a second quiet round does not flag it twice",
+    second.flagged.length === 0 &&
+      record.flags.filter((f) => f === "vanished_from_source").length === 1,
+    record.flags.join(","),
+  );
+  check(
+    "   a record from a different page is untouched",
+    markVanished([record], `${base}/other`).flagged.length === 0,
   );
 
   const soft = await fetchPage(`${base}/soft404`, gap);

@@ -38,6 +38,7 @@ import {
   asManualReview,
   fromClassification,
   humanReason,
+  markVanished,
   survivingRecord,
 } from "../src/pipeline/opportunity";
 import { extract, isGovBannerOnly, isSoft404, sha256 } from "../src/pipeline/extract";
@@ -1012,12 +1013,10 @@ if (!NO_CLASSIFY && !DRY_RUN) {
 
     if (!result.value.isTrainingAnnouncement) {
       notAnnouncements++;
-      for (const [, o] of opportunityById) {
-        if (o.sourceUrl === snap.sourceUrl && !o.flags.includes("vanished_from_source")) {
-          o.flags = [...o.flags, "vanished_from_source"];
-          o.lastConfirmedISO = o.lastConfirmedISO; // unchanged: it was not confirmed today
-          vanished.push(`  ${snap.orgId.padEnd(14)} ${o.titleAr}`);
-        }
+      // `lastConfirmedISO` is deliberately not touched: it was not confirmed
+      // today, and moving it would say the opposite.
+      for (const o of markVanished(opportunityById.values(), snap.sourceUrl).flagged) {
+        vanished.push(`  ${snap.orgId.padEnd(14)} ${o.titleAr}`);
       }
       continue;
     }

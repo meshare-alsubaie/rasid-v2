@@ -434,8 +434,18 @@ if (attempts) {
 if (opportunities) {
   for (const p of opportunities) {
     const at = `opportunity:${p.id}`;
-    if (orgs && !orgIds.has(p.orgId)) {
-      err("unknown_org", at, `orgId "${p.orgId}" is not in organisations.json`);
+    /*
+     * Aggregators count, and the snapshot check above already knew that.
+     *
+     * An aggregator is a watched source like any other: the collector fetches
+     * it, the classifier reads it, and a record comes out carrying the
+     * aggregator's id. This check looked only at organisations, so the moment
+     * one of them was verified and read, the record it produced failed the
+     * validator and took the whole deploy with it — a source working correctly
+     * for the first time stopping the site from publishing.
+     */
+    if (orgs && !orgIds.has(p.orgId) && !aggregatorIds.has(p.orgId)) {
+      err("unknown_org", at, `orgId "${p.orgId}" is in neither organisations nor aggregators`);
     }
     if (p.product === "graduate_dev") {
       if (p.status === "open" || p.status === "closing_soon") {

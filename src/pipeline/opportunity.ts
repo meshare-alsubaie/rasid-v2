@@ -319,6 +319,37 @@ export const UNJUDGED_TITLE = "لم يُصنَّف بعد";
  * it. Only when nothing but a placeholder exists may the placeholder be
  * replaced.
  */
+/**
+ * A page that stopped carrying its announcement, marked rather than forgotten.
+ *
+ * When the classifier reads a page and concludes it holds no announcement, the
+ * record built from it earlier is *not* deleted. A closing date the page has
+ * since taken down is still the closing date; a careers portal that rotates its
+ * listing has not withdrawn the programme, it has moved it down the page. So
+ * the record keeps its dates and its score, gains a flag saying the source no
+ * longer confirms it, and `lastConfirmedISO` deliberately does not move —
+ * because it was not confirmed today.
+ *
+ * Lives here, out of the collector's main loop, so a gate can drive it directly.
+ * The gate that claimed to cover this asserted properties of an object it had
+ * flagged itself, which tests the test.
+ *
+ * Returns how many records were newly flagged.
+ */
+export function markVanished(
+  records: Iterable<Opportunity>,
+  sourceUrl: string,
+): { flagged: Opportunity[] } {
+  const flagged: Opportunity[] = [];
+  for (const o of records) {
+    if (o.sourceUrl !== sourceUrl) continue;
+    if (o.flags.includes("vanished_from_source")) continue;
+    o.flags = [...o.flags, "vanished_from_source"];
+    flagged.push(o);
+  }
+  return { flagged };
+}
+
 export function survivingRecord<T extends { sourceUrl: string; titleAr: string }>(
   records: Iterable<T>,
   sourceUrl: string,
