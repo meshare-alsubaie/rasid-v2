@@ -1649,9 +1649,9 @@
   {
     "sourceUrl": "https://site.sa/",
     "orgId": "site",
-    "lastAttemptISO": "2026-09-03T00:53:12.625Z",
+    "lastAttemptISO": "2026-09-03T03:30:19.688Z",
     "lastSuccessISO": "2026-09-02T23:42:46.216Z",
-    "consecutiveFailures": 1,
+    "consecutiveFailures": 2,
     "lastError": "headless chromium unavailable (browserType.launch: Executable doesn't exist at [مسار محلي]/chrome-headless-shell.exe\n╔════════════════════════════════════════════════════════════╗\n║ Looks like Playwright was just installed or updated.       ║\n║ Please run the following command to download new browsers: ║\n║                                                            ║\n║     npx playwright install                                 ║\n║                                                            ║\n║ <3 Playwright Team                                         ║\n╚════════════════════════════════════════════════════════════╝); run \"npx playwright install chromium\"",
     "state": "degraded"
   },
@@ -2720,8 +2720,8 @@
   {
     "sourceUrl": "https://www.mim.gov.sa/ar",
     "orgId": "mim",
-    "lastAttemptISO": "2026-09-03T00:53:12.625Z",
-    "lastSuccessISO": "2026-09-03T00:53:12.625Z",
+    "lastAttemptISO": "2026-09-03T03:30:19.688Z",
+    "lastSuccessISO": "2026-09-03T03:30:19.688Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -3062,8 +3062,8 @@
   {
     "sourceUrl": "https://www.nazaha.gov.sa/News/Details?q=+ZUW2RPX/9RAyHyLvILpaw==",
     "orgId": "nazaha",
-    "lastAttemptISO": "2026-09-03T01:06:32.499Z",
-    "lastSuccessISO": "2026-09-03T01:06:32.499Z",
+    "lastAttemptISO": "2026-09-03T03:30:19.688Z",
+    "lastSuccessISO": "2026-09-03T03:30:19.688Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -3116,8 +3116,8 @@
   {
     "sourceUrl": "https://www.ncc.gov.sa/ar/MediaCenter/News/Pages/News_065.aspx",
     "orgId": "ncc",
-    "lastAttemptISO": "2026-09-03T00:53:12.625Z",
-    "lastSuccessISO": "2026-09-03T00:53:12.625Z",
+    "lastAttemptISO": "2026-09-03T03:30:19.688Z",
+    "lastSuccessISO": "2026-09-03T03:30:19.688Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -3143,9 +3143,9 @@
   {
     "sourceUrl": "https://www.pif.gov.sa/",
     "orgId": "pif",
-    "lastAttemptISO": "2026-09-03T00:53:12.625Z",
+    "lastAttemptISO": "2026-09-03T03:30:19.688Z",
     "lastSuccessISO": "2026-08-30T00:02:43.835Z",
-    "consecutiveFailures": 13,
+    "consecutiveFailures": 14,
     "lastError": "headless chromium unavailable (browserType.launch: Executable doesn't exist at [مسار محلي]/chrome-headless-shell.exe\n╔════════════════════════════════════════════════════════════╗\n║ Looks like Playwright was just installed or updated.       ║\n║ Please run the following command to download new browsers: ║\n║                                                            ║\n║     npx playwright install                                 ║\n║                                                            ║\n║ <3 Playwright Team                                         ║\n╚════════════════════════════════════════════════════════════╝); run \"npx playwright install chromium\"",
     "state": "broken"
   },
@@ -3206,9 +3206,9 @@
   {
     "sourceUrl": "https://www.pwc.com/m1/en/careers/uae-nationals-careers.html",
     "orgId": "pwc_sa",
-    "lastAttemptISO": "2026-09-03T00:53:12.625Z",
+    "lastAttemptISO": "2026-09-03T03:30:19.688Z",
     "lastSuccessISO": "2026-09-02T23:42:46.216Z",
-    "consecutiveFailures": 1,
+    "consecutiveFailures": 2,
     "lastError": "HTTP 403",
     "state": "degraded"
   },
@@ -3224,8 +3224,8 @@
   {
     "sourceUrl": "https://www.rcjy.gov.sa/media-center",
     "orgId": "rcjy",
-    "lastAttemptISO": "2026-09-03T00:53:12.625Z",
-    "lastSuccessISO": "2026-09-03T00:53:12.625Z",
+    "lastAttemptISO": "2026-09-03T03:30:19.688Z",
+    "lastSuccessISO": "2026-09-03T03:30:19.688Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -3773,8 +3773,8 @@
   {
     "sourceUrl": "https://www.tadawulgroup.sa/wps/portal/tadawulgroup/joinus",
     "orgId": "tadawul",
-    "lastAttemptISO": "2026-09-03T02:25:53.847Z",
-    "lastSuccessISO": "2026-09-03T02:25:53.847Z",
+    "lastAttemptISO": "2026-09-03T03:30:19.688Z",
+    "lastSuccessISO": "2026-09-03T03:30:19.688Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
