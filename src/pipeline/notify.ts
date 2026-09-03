@@ -210,7 +210,7 @@ export function decide(input: DecideInput): Notice[] {
       out.push({
         key: `new:${o.id}`,
         kind: "new_relevant",
-        title: `🟢 إعلان جديد — ${org}`,
+        title: `🟢 إعلان جديد · ${org}`,
         body: details(o),
         weight: BAND.newRelevant + score,
       });
@@ -220,7 +220,7 @@ export function decide(input: DecideInput): Notice[] {
       out.push({
         key: `opened:${o.id}`,
         kind: "opened",
-        title: `🟢 فتح التقديم — ${org}`,
+        title: `🟢 فتح التقديم · ${org}`,
         body: details(o),
         weight: BAND.opened + score,
       });
@@ -230,7 +230,7 @@ export function decide(input: DecideInput): Notice[] {
       out.push({
         key: `closing:${o.id}:${dayOf(o.closesISO)}`,
         kind: "closing_soon",
-        title: `⏳ يغلق قريباً — ${org}`,
+        title: `⏳ يغلق قريباً · ${org}`,
         body: `${o.titleAr} · تبقّى ${Math.ceil(hoursUntil(o.closesISO))} ساعة${o.cities.length > 0 ? ` · ${o.cities.join("، ")}` : ""}${o.seats !== null ? ` · ${o.seats} مقعداً` : ""}`,
         weight: BAND.closingSoon + score,
       });
@@ -240,7 +240,7 @@ export function decide(input: DecideInput): Notice[] {
       out.push({
         key: `seats:${o.id}:${o.seats}`,
         kind: "few_seats",
-        title: `⚠ مقاعد قليلة — ${org}`,
+        title: `⚠ مقاعد قليلة · ${org}`,
         body: `${o.titleAr} · ${o.seats} مقاعد`,
         weight: BAND.fewSeats + score,
       });
@@ -255,7 +255,7 @@ export function decide(input: DecideInput): Notice[] {
       out.push({
         key: `broken:${h.sourceUrl}`,
         kind: "source_broken",
-        title: `🔴 مصدر توقّف — ${nameOf(h.orgId)}`,
+        title: `🔴 مصدر توقّف · ${nameOf(h.orgId)}`,
         body: "لم يعد يُقرأ آلياً. افحص الصفحة بنفسك.",
         weight: BAND.sourceBroken,
       });
@@ -278,7 +278,7 @@ export function decide(input: DecideInput): Notice[] {
       key: `classifier:${day}`,
       kind: "classifier_down",
       title: "🟠 التصنيف متوقّف",
-      body: `قُرئت الصفحات لكن تعذّر الحكم على ${unjudged.length} منها. لن تصل تنبيهات عن فرص جديدة حتى يعود التصنيف — افحص الجهات المهمة بنفسك.`,
+      body: `قُرئت الصفحات لكن تعذّر الحكم على ${unjudged.length} منها. لن تصل تنبيهات عن فرص جديدة حتى يعود التصنيف، افحص الجهات المهمة بنفسك.`,
       weight: BAND.classifierDown,
     });
   }
