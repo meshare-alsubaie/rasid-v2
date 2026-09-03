@@ -191,8 +191,8 @@
   {
     "sourceUrl": "https://alinma.com/About-the-Bank/The-Bank/News/2013/05/alinmajobandcareerdayattractsgraduatesoftheinstituteofpublicadministration",
     "orgId": "alinma",
-    "lastAttemptISO": "2026-09-03T00:42:46.754Z",
-    "lastSuccessISO": "2026-09-03T00:42:46.754Z",
+    "lastAttemptISO": "2026-09-03T03:20:06.320Z",
+    "lastSuccessISO": "2026-09-03T03:20:06.320Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -542,8 +542,8 @@
   {
     "sourceUrl": "https://careers.ejada.com/",
     "orgId": "ejada",
-    "lastAttemptISO": "2026-09-02T23:42:46.216Z",
-    "lastSuccessISO": "2026-09-02T23:42:46.216Z",
+    "lastAttemptISO": "2026-09-03T03:20:06.320Z",
+    "lastSuccessISO": "2026-09-03T03:20:06.320Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -605,8 +605,8 @@
   {
     "sourceUrl": "https://careers.mcit.gov.sa/",
     "orgId": "mcit",
-    "lastAttemptISO": "2026-09-03T02:20:31.908Z",
-    "lastSuccessISO": "2026-09-03T02:20:31.908Z",
+    "lastAttemptISO": "2026-09-03T03:20:06.320Z",
+    "lastSuccessISO": "2026-09-03T03:20:06.320Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -1199,8 +1199,8 @@
   {
     "sourceUrl": "https://misa.gov.sa/ar/",
     "orgId": "misa",
-    "lastAttemptISO": "2026-09-02T23:42:46.216Z",
-    "lastSuccessISO": "2026-09-02T23:42:46.216Z",
+    "lastAttemptISO": "2026-09-03T03:20:06.320Z",
+    "lastSuccessISO": "2026-09-03T03:20:06.320Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -1559,9 +1559,9 @@
   {
     "sourceUrl": "https://redf.gov.sa/ar/careers",
     "orgId": "redf",
-    "lastAttemptISO": "2026-09-03T00:42:46.754Z",
+    "lastAttemptISO": "2026-09-03T03:20:06.320Z",
     "lastSuccessISO": "2026-09-02T23:42:46.216Z",
-    "consecutiveFailures": 1,
+    "consecutiveFailures": 2,
     "lastError": "headless chromium unavailable (browserType.launch: Executable doesn't exist at [مسار محلي]/chrome-headless-shell.exe\n╔════════════════════════════════════════════════════════════╗\n║ Looks like Playwright was just installed or updated.       ║\n║ Please run the following command to download new browsers: ║\n║                                                            ║\n║     npx playwright install                                 ║\n║                                                            ║\n║ <3 Playwright Team                                         ║\n╚════════════════════════════════════════════════════════════╝); run \"npx playwright install chromium\"",
     "state": "degraded"
   },
@@ -1577,8 +1577,8 @@
   {
     "sourceUrl": "https://rega.gov.sa/media-center/",
     "orgId": "rega",
-    "lastAttemptISO": "2026-09-03T00:42:46.754Z",
-    "lastSuccessISO": "2026-09-03T00:42:46.754Z",
+    "lastAttemptISO": "2026-09-03T03:20:06.320Z",
+    "lastSuccessISO": "2026-09-03T03:20:06.320Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -1811,11 +1811,11 @@
   {
     "sourceUrl": "https://tvtc.gov.sa/",
     "orgId": "tvtc",
-    "lastAttemptISO": "2026-09-02T23:42:46.216Z",
+    "lastAttemptISO": "2026-09-03T03:20:06.320Z",
     "lastSuccessISO": "2026-09-02T23:42:46.216Z",
-    "consecutiveFailures": 0,
-    "lastError": null,
-    "state": "healthy"
+    "consecutiveFailures": 1,
+    "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
+    "state": "degraded"
   },
   {
     "sourceUrl": "https://wadimakkah.sa/",
@@ -2756,8 +2756,8 @@
   {
     "sourceUrl": "https://www.moe.gov.sa/ar/aboutus/nationaltransformation/Pages/employmentstrategy.aspx",
     "orgId": "moe",
-    "lastAttemptISO": "2026-09-03T00:42:46.754Z",
-    "lastSuccessISO": "2026-09-03T00:42:46.754Z",
+    "lastAttemptISO": "2026-09-03T03:20:06.320Z",
+    "lastSuccessISO": "2026-09-03T03:20:06.320Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
