@@ -266,9 +266,9 @@
     "firstSeenISO": "2026-09-03T04:02:53.097Z",
     "lastConfirmedISO": "2026-09-03T04:02:53.097Z",
     "status": "unknown",
-    "opensISO": "2025-10-31",
-    "closesISO": "2025-07-13",
-    "closesHijri": "١٨ محرم ١٤٤٧ هـ",
+    "opensISO": null,
+    "closesISO": null,
+    "closesHijri": null,
     "product": "graduate_dev",
     "majors": [
       "معمارية الأمن السيبراني والبحث والتطوير",
@@ -286,13 +286,14 @@
       "جدة",
       "الخُبر"
     ],
-    "relevanceScore": 0,
-    "relevanceReason": "برنامج تطوير خريجين، ويشترط وثيقة التخرّج، فلا ينطبق عليك بعد.",
+    "relevanceScore": null,
+    "relevanceReason": "تعارضت تواريخ الصفحة: موعد الإغلاق قبل موعد الفتح، فلم يُحفظ أيٌّ منهما. افتح الصفحة بنفسك.",
     "statesZeroCoursesRule": false,
     "zeroCoursesQuote": null,
     "flags": [
       "wrong_product",
-      "no_course_condition"
+      "no_course_condition",
+      "needs_manual_review"
     ],
     "sourceUrl": "https://nca.gov.sa/ar/cyber-training-and-qualifications/cybersecurity-program-3/",
     "applyUrl": "https://www.nca.gov.sa/",
