@@ -108,7 +108,23 @@ export const BAND = {
   sourceBroken: 150,
 } as const;
 
-const dayOf = (iso: string): string => iso.slice(0, 10);
+/**
+ * Which day this happened on, in Riyadh.
+ *
+ * Slicing the ISO string gives the UTC day, and the rest of this file runs on
+ * Riyadh time: quiet hours are Riyadh, deadlines end at the close of the Riyadh
+ * day. So the daily push budget was resetting at three in the morning local
+ * time — in the middle of the quiet window — and the six notices "sent today"
+ * were counted against a day that started while he was asleep and ended at
+ * three the following morning. Two different days, one file.
+ */
+const dayOf = (iso: string): string => {
+  const t = Date.parse(iso);
+  if (Number.isNaN(t)) return iso.slice(0, 10);
+  // en-CA renders as YYYY-MM-DD, which sorts and compares like the ISO prefix
+  // this replaces.
+  return new Intl.DateTimeFormat("en-CA", { timeZone: QUIET_HOURS_ZONE }).format(new Date(t));
+};
 
 /**
  * The body of a notice, as spec 5.4 asks: role, city, seats, days remaining and
@@ -338,6 +354,36 @@ export function split(
     (e) => dayOf(e.sentISO) === dayOf(now.toISOString()) && (e.via ?? "push") === "push",
   ).length;
   const room = Math.max(0, DAILY_PUSH_CAP - sentToday);
-  const ranked = [...fresh].sort((a, b) => b.weight - a.weight);
+  const ranked = [...fresh].sort((a, b) => effectiveWeight(b, now) - effectiveWeight(a, now));
   return { push: ranked.slice(0, room), digestOnly: ranked.slice(room) };
+}
+
+/**
+ * Weight, plus what waiting has earned.
+ *
+ * Ranking on the stored weight alone let a real announcement starve. The daily
+ * cap is six; the queue routinely holds more than six; so a notice that ranks
+ * seventh today ranks seventh again tomorrow, and again the day after, until the
+ * seven-day expiry throws it away unsent. It is not a hypothetical: four
+ * announcements queued on 31 August were carrying weights of 65 and 70 while
+ * everything queued since scored above 260, and they would have expired on the
+ * 7th of September without one of them ever being sent.
+ *
+ * The stored weights are also not comparable across time. They were computed by
+ * whatever version of `decide` was running that day, and this project has
+ * changed those numbers more than once. Age is the correction that does not
+ * depend on which version produced the figure.
+ *
+ * A day of waiting is worth 40, which is deliberately large enough to matter and
+ * small enough that a genuinely urgent notice still goes first: a closing window
+ * outranks a three-day-old "new announcement" on the day it starts closing, and
+ * loses to it after four days of neither being sent. Nothing starves.
+ */
+const AGING_PER_DAY = 40;
+
+export function effectiveWeight(n: Notice, now: Date): number {
+  const queued = "queuedISO" in n && typeof n.queuedISO === "string" ? Date.parse(n.queuedISO) : NaN;
+  if (Number.isNaN(queued)) return n.weight;
+  const days = Math.max(0, (now.getTime() - queued) / 86_400_000);
+  return n.weight + days * AGING_PER_DAY;
 }

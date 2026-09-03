@@ -9,7 +9,7 @@
  *
  *   npm run test:extract
  */
-import { extract, isSoft404 } from "../src/pipeline/extract";
+import { extract, isGovBannerOnly, isSoft404 } from "../src/pipeline/extract";
 
 let failures = 0;
 const check = (label: string, ok: boolean, detail = ""): void => {
@@ -111,6 +111,49 @@ check(
 check("deeply nested markup survives", extract(page("t", "<div>".repeat(500) + "نص" + "</div>".repeat(500)), "https://x.sa/").text.includes("نص"));
 check("an empty document does not throw", extract("", "https://x.sa/").chars === 0);
 check("markup with no body does not throw", extract("<html><head></head></html>", "https://x.sa/").chars === 0);
+
+/*
+ * The doormat is not the house.
+ *
+ * Every .gov.sa site carries a banner explaining how to recognise an official
+ * government site. When the page behind it renders client-side, or is slow, or
+ * blocks us, that banner is the whole of what gets extracted — and it is real
+ * Arabic prose, so it is neither empty nor a soft 404 and passed every check
+ * this file had. Thirty stored records were built from it, six of them scored as
+ * genuine announcements, including a 90 on the national cybersecurity academy.
+ */
+console.log("\nthe government verification banner is not a page");
+{
+  const banner = `كيف تتحقق من أن الموقع حكومي رسمي؟
+جميع المواقع الحكومية الرسمية تنتهي بنطاق gov.sa.
+تأكد من أن الرابط آمن ويبدأ بـ https.
+كيف تتحقق من الرابط الآمن؟ انقر على القفل في شريط العنوان.`;
+
+  check("the banner alone is recognised", isGovBannerOnly(banner));
+  check(
+    "and the English wording too",
+    isGovBannerOnly("This is an official government website. All official government websites end with gov.sa"),
+  );
+
+  /*
+   * The direction that matters more. A real announcement sitting under the same
+   * banner must be read normally: refusing it would turn a privacy-shaped fix
+   * into a coverage hole, which is the trade this project keeps refusing.
+   */
+  const realPage = `${banner}\n\n${"تعلن الهيئة عن فتح باب التقديم في برنامج التدريب التعاوني لطلاب الجامعات، والتخصصات المطلوبة الأمن السيبراني وعلوم الحاسب. ".repeat(12)}`;
+  check(
+    "a real announcement under the same banner is still a page",
+    !isGovBannerOnly(realPage),
+    `${realPage.length} chars`,
+  );
+  check("ordinary prose is not a banner", !isGovBannerOnly("تعلن الجهة عن فتح باب التقديم."));
+  check("an empty string is not a banner", !isGovBannerOnly(""));
+  check(
+    "one phrase on its own is not enough",
+    !isGovBannerOnly("زر الموقع الرسمي للجهة"),
+    "two independent markers are required, so a passing mention cannot trip it",
+  );
+}
 
 console.log(`\n${failures === 0 ? "all checks passed" : `${failures} CHECK(S) FAILED`}`);
 process.exit(failures === 0 ? 0 : 1);

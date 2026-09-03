@@ -32,7 +32,19 @@ function Say($msg) {
 }
 
 # Task Scheduler starts with a bare environment, so the tools are named here.
-$env:Path = "D:\tools\node;C:\Program Files\GitHub CLI;C:\Program Files\Git\cmd;$env:Path"
+#
+# The node directory is a guess that happens to be right on this machine, and is
+# wrong on every other one. Anybody who clones this repository gets a watcher
+# that cannot find node and a task that fails at logon with nothing in the log.
+# So the guess is now the fallback, and an installed node on PATH wins; set
+# RASID_NODE_DIR to point somewhere else without editing this file.
+$nodeDir = $env:RASID_NODE_DIR
+if (-not $nodeDir) {
+    $onPath = Get-Command node.exe -ErrorAction SilentlyContinue
+    if ($onPath) { $nodeDir = Split-Path -Parent $onPath.Source }
+}
+if (-not $nodeDir) { $nodeDir = "D:\tools\node" }
+$env:Path = "$nodeDir;C:\Program Files\GitHub CLI;C:\Program Files\Git\cmd;$env:Path"
 
 # Spec 5.1 asks the User-Agent to carry a contact address, so a site owner who
 # sees this traffic can reach a person. The value is a personal email, so it is
@@ -63,7 +75,7 @@ $ollama = $ollama -replace '//0\.0\.0\.0', '//127.0.0.1'
 try {
     $tags = Invoke-RestMethod -Uri "$ollama/api/tags" -TimeoutSec 5 -ErrorAction Stop
     $wanted = $env:RASID_LOCAL_MODEL
-    if (-not $wanted) { $wanted = "llama3.1:8b" }
+    if (-not $wanted) { $wanted = "qwen3:8b" }
     if (($tags.models | ForEach-Object { $_.name }) -notcontains $wanted) {
         Say "WARNING: model $wanted is not installed. Pages will be fetched but nothing judged."
     }
@@ -76,14 +88,32 @@ Say "watcher starting"
 # Run in the foreground and let the task hold it. The watcher loops until it is
 # stopped; every cycle it runs is its own child process, so a wedged collection
 # cannot take the watcher with it.
+# One line on stderr must not end the watcher.
+#
+# Windows PowerShell 5.1 wraps every stderr line of a native program in an
+# ErrorRecord (NativeCommandError). With $ErrorActionPreference = "Stop" set at
+# the top of this file, that record is a *terminating* error, so the catch below
+# fired and the process exited -- on a single warning line from node, while the
+# collector itself was healthy. The one component whose entire job is to outlive
+# a bad round was being killed by a log line, and it has already happened once
+# in scheduled-run.log.
+#
+# Stop stays in force for everything above; it is lifted only around the child,
+# where stderr is output to be logged rather than a fault to abort on. The lines
+# still reach the log exactly as before.
+$outerPreference = $ErrorActionPreference
+$ErrorActionPreference = "Continue"
 try {
     & node.exe --import tsx (Join-Path $repo "scripts\watch.ts") 2>&1 | ForEach-Object {
         Write-Log ([string]$_)
         Write-Output $_
     }
-    Say ("watcher exited with code " + $LASTEXITCODE)
-    exit $LASTEXITCODE
+    $childExit = $LASTEXITCODE
+    Say ("watcher exited with code " + $childExit)
+    exit $childExit
 } catch {
     Say ("watcher crashed: " + $_.Exception.Message)
     exit 1
+} finally {
+    $ErrorActionPreference = $outerPreference
 }

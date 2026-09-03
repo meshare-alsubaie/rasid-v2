@@ -15,7 +15,7 @@
  *   npm run test:triage
  */
 import { triage } from "../src/pipeline/classify";
-import { LOCAL_MODEL, localModelReady } from "../src/pipeline/model";
+import { LOCAL_MODEL, localModelReady, readsAsNo } from "../src/pipeline/model";
 
 let failures = 0;
 let noiseSkipped = 0;
@@ -151,5 +151,76 @@ console.log(
     ? "and nothing at all was skipped — the stage is pure cost, check the matcher"
     : `${noiseSkipped} of 4 unrelated pages were ruled out cheaply`,
 );
+/*
+ * The reply parser, driven directly.
+ *
+ * `readsAsNo` decides, on its own, whether a page is dropped without ever being
+ * judged — and nothing imported it. Mistake seven on the project's own list was
+ * a `\b` after Arabic, which never matches, so every Arabic "no" was read as
+ * "yes"; it was fixed, and no test would have noticed if it came back. The fix
+ * then left the opposite hole: with the boundary gone, the *letters* lam-alif at
+ * the start of any sentence read as "no", and Arabic is full of words that begin
+ * that way.
+ *
+ * Both directions are asserted here, and the asymmetry is deliberate. Reading a
+ * "no" as "yes" costs one wasted classification. Reading a "yes" as "no" drops a
+ * real announcement, silently, forever.
+ */
+console.log("\nthe one-word answer is read correctly");
+{
+  const mustPass: [string, string][] = [
+    ["لا شك أنها إعلان تدريب تعاوني", "no doubt this is a coop announcement"],
+    ["لاحظ أن الصفحة تحتوي إعلان تدريب", "note that the page contains one"],
+    ["لا أستطيع الجزم، وربما نعم", "I cannot be sure, perhaps yes"],
+    ["لابد من مراجعة الصفحة", "the page must be reviewed"],
+    ["لا يخلو الأمر من إعلان", "there is an announcement here"],
+    ["نعم", "yes"],
+    ["", "an empty reply, which is a failure and must not deny"],
+    ['{"candidate": true}', "the json shape"],
+    ["local model unavailable: connect ECONNREFUSED", "the model is down, which must not deny"],
+  ];
+  for (const [reply, meaning] of mustPass) {
+    const dropped = readsAsNo(reply);
+    if (dropped) failures++;
+    console.log(`  ${dropped ? "FAIL" : "pass"}  passes through: ${meaning}`);
+  }
+
+  const mustDeny: [string, string][] = [
+    ["لا", "a bare no"],
+    ["لا.", "no, with a full stop"],
+    ["لا، ليست إعلان تدريب", "no, followed by the reason"],
+    ["  لا  ", "no, with whitespace around it"],
+    ["no", "the English no"],
+    ["No, this is not an announcement", "the English no with a reason"],
+    ['{"candidate": false}', "the json shape"],
+  ];
+  let missed = 0;
+  for (const [reply, meaning] of mustDeny) {
+    if (!readsAsNo(reply)) {
+      missed++;
+      console.log(`  FAIL  should have been read as no: ${meaning}`);
+    }
+  }
+  console.log(
+    missed === 0
+      ? `  pass  all ${mustDeny.length} genuine refusals are still read as refusals`
+      : `  ${missed} refusal(s) not recognised, so the cheap filter saves nothing`,
+  );
+  if (missed > 0) failures++;
+
+  /*
+   * The seeded faults, both of them, so neither can come back unnoticed: the
+   * original `\b` after Arabic, and the bare-prefix version that replaced it.
+   */
+  const withWordBoundary = /^\s*(لا|no\b|false)\b/i;
+  console.log(
+    `  ${withWordBoundary.test("لا") ? "FAIL" : "pass"}  the \\b-after-Arabic form is genuinely broken (seeded fault)`,
+  );
+  const barePrefix = /^\s*(لا|no\b|false)/i;
+  console.log(
+    `  ${barePrefix.test("لا شك أنها إعلان") ? "pass" : "FAIL"}  and so is the bare-prefix form (seeded fault)`,
+  );
+}
+
 // Safety is the hard requirement; saving nothing is a warning, not a failure.
 process.exit(failures === 0 ? 0 : 1);

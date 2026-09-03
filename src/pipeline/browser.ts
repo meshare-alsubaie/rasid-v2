@@ -152,9 +152,31 @@ export async function renderPage(url: string): Promise<FetchResult> {
   return once(b, url);
 }
 
+/**
+ * Shutting the browser down can fail, and that must never end the round.
+ *
+ * `close()` rejects when the process it is closing has already gone — a crashed
+ * renderer, a killed child, a machine that went to sleep mid-fetch. This is
+ * called from the top level of five scripts, so an unhandled rejection here
+ * terminated the process outright; and in the collector it is called at line 565
+ * while every file is written at the end, so the round lost everything it had
+ * read because of a failure in tidying up after itself.
+ *
+ * The handle is dropped either way, so a later call re-launches rather than
+ * reusing something dead.
+ */
 export async function closeBrowser(): Promise<void> {
-  await browser?.close();
+  const b = browser;
   browser = null;
+  try {
+    await b?.close();
+  } catch (err) {
+    console.log(
+      `  closing chromium failed, which changes nothing that was read: ${
+        err instanceof Error ? err.message : String(err)
+      }`,
+    );
+  }
 }
 
 /** True once a launch has been attempted and failed. */

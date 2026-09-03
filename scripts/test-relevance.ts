@@ -9,7 +9,14 @@
  *   npm run test:relevance
  */
 import { CASES } from "./benchmark-cases";
-import { fieldOf, readProfile, relevanceOf, type ReaderProfile } from "../src/pipeline/relevance";
+import {
+  fieldOf,
+  namesAField,
+  readProfile,
+  relevanceOf,
+  type ReaderProfile,
+  type Relevance,
+} from "../src/pipeline/relevance";
 import type { Classification } from "../src/pipeline/classify";
 
 let failures = 0;
@@ -23,6 +30,25 @@ const CYBER_READER: ReaderProfile = {
   cities: ["الرياض"],
   graduated: false,
   fieldLabel: "الأمن السيبراني",
+};
+
+/**
+ * `relevanceOf` where a score is the only acceptable answer.
+ *
+ * The function may now refuse to judge, and refusing is right when the page
+ * named no field at all. Every input below this line names one, so a refusal
+ * here is itself the defect. NaN is returned rather than a number so that every
+ * comparison against it is false and the check fails loudly, instead of a
+ * sentinel that happens to satisfy a "less than" assertion.
+ */
+const scored = (
+  c: Parameters<typeof relevanceOf>[0],
+  reader: ReaderProfile,
+): Relevance => {
+  const r = relevanceOf(c, reader);
+  if (r !== null) return r;
+  check("refused to judge an input that names a field", false, JSON.stringify(c).slice(0, 90));
+  return { score: NaN, reason: "" };
 };
 
 const facts = (over: Partial<Classification>): Pick<Classification, "product" | "majors" | "titleAr" | "cities"> => ({
@@ -68,13 +94,13 @@ console.log("the profile is read, or the scoring is refused");
 
 console.log("\nthe bands are the specification's");
 {
-  const cyber = relevanceOf(facts({ titleAr: "محلل أمن سيبراني", majors: ["الأمن السيبراني"] }), CYBER_READER);
+  const cyber = scored(facts({ titleAr: "محلل أمن سيبراني", majors: ["الأمن السيبراني"] }), CYBER_READER);
   check("cybersecurity scores 90 or more", cyber.score >= 90, String(cyber.score));
 
-  const it = relevanceOf(facts({ titleAr: "متدرب شبكات", majors: ["نظم المعلومات"] }), CYBER_READER);
+  const it = scored(facts({ titleAr: "متدرب شبكات", majors: ["نظم المعلومات"] }), CYBER_READER);
   check("networks and systems land in 60-85", it.score >= 60 && it.score <= 85, String(it.score));
 
-  const general = relevanceOf(
+  const general = scored(
     facts({ titleAr: "متدرب الدعم التقني", majors: ["تقنية المعلومات"] }),
     CYBER_READER,
   );
@@ -84,13 +110,13 @@ console.log("\nthe bands are the specification's");
     String(general.score),
   );
 
-  const unrelated = relevanceOf(facts({ titleAr: "تدريب في الموارد البشرية", majors: ["إدارة أعمال"] }), CYBER_READER);
+  const unrelated = scored(facts({ titleAr: "تدريب في الموارد البشرية", majors: ["إدارة أعمال"] }), CYBER_READER);
   check("an unrelated field lands in 0-15", unrelated.score <= 15, String(unrelated.score));
 
-  const civil = relevanceOf(facts({ titleAr: "تدريب الهندسة المدنية", majors: ["الهندسة المدنية"] }), CYBER_READER);
+  const civil = scored(facts({ titleAr: "تدريب الهندسة المدنية", majors: ["الهندسة المدنية"] }), CYBER_READER);
   check("and so does civil engineering, which 'هندسة' alone used to promote", civil.score <= 15, String(civil.score));
 
-  check("nothing ever exceeds 100", relevanceOf(facts({ titleAr: "أمن سيبراني", majors: ["الأمن السيبراني"], cities: ["الرياض"] }), CYBER_READER).score <= 100);
+  check("nothing ever exceeds 100", scored(facts({ titleAr: "أمن سيبراني", majors: ["الأمن السيبراني"], cities: ["الرياض"] }), CYBER_READER).score <= 100);
 }
 
 /*
@@ -100,12 +126,12 @@ console.log("\nthe bands are the specification's");
  */
 console.log("\nzero is only ever said on purpose");
 {
-  const gd = relevanceOf(facts({ product: "graduate_dev", titleAr: "تطوير الخريجين" }), CYBER_READER);
+  const gd = scored(facts({ product: "graduate_dev", titleAr: "تطوير الخريجين" }), CYBER_READER);
   check("a graduate programme scores 0 for a reader who has not graduated", gd.score === 0);
   check("and says why, in Arabic", gd.reason.includes("تخرّج") && gd.reason.length > 10, gd.reason);
 
   const unknownGrad: ReaderProfile = { ...CYBER_READER, graduated: null };
-  const gd2 = relevanceOf(
+  const gd2 = scored(
     facts({ product: "graduate_dev", titleAr: "برنامج تطوير الخريجين في الأمن السيبراني", majors: ["الأمن السيبراني"] }),
     unknownGrad,
   );
@@ -115,11 +141,60 @@ console.log("\nzero is only ever said on purpose");
     `${gd2.score} — ${gd2.reason}`,
   );
 
-  const nothingKnown = relevanceOf(facts({}), CYBER_READER);
+  /*
+   * This assertion used to read "no majors and no title is scored low, never
+   * zero", and it was wrong in the same way the code was: a page nothing could
+   * be read from is not a page that is a poor fit. A low score is a verdict, and
+   * there was no verdict. Thirty live records lifted from the gov.sa
+   * registration banner have exactly this shape and were all reported at 10
+   * under the sentence "the announcement names no field close to yours".
+   */
   check(
-    "an announcement with no majors and no title is scored low, never zero",
-    nothingKnown.score > 0 && nothingKnown.score <= 15,
-    String(nothingKnown.score),
+    "an announcement with nothing readable in it is refused, not scored low",
+    relevanceOf(facts({}), CYBER_READER) === null,
+  );
+  const otherField = scored(facts({ titleAr: "التدريب التعاوني — كلية الصيدلة" }), CYBER_READER);
+  check(
+    "but a page that names another field is judged, and judged low",
+    otherField.score > 0 && otherField.score <= 15,
+    String(otherField.score),
+  );
+}
+
+/*
+ * The wordings a real Saudi security placement uses. Every one of these scored
+ * 10 before, which is the band for "not your field": the list recognised the
+ * phrase الأمن السيبراني and almost nothing else.
+ */
+console.log("\nsecurity is recognised in the words employers actually use");
+{
+  const wordings = [
+    "التدريب التعاوني — أمن الأنظمة الصناعية",
+    "أمن التحكم الصناعي وأنظمة سكادا",
+    "التدريب التعاوني — فريق الاستجابة للحوادث",
+    "التدريب التعاوني في حوكمة المخاطر والامتثال",
+    "التدريب التعاوني في أمن الشبكات",
+    "التدريب التعاوني — حماية البيانات والخصوصية",
+    "التدريب التعاوني في الأدلة الرقمية الجنائية",
+    "التدريب التعاوني — الأمن الرقمي",
+  ];
+  const missed = wordings.filter((w) => fieldOf(w) !== "cyber");
+  check("all eight read as security", missed.length === 0, missed.join(" | "));
+}
+
+console.log("\nand it is not fooled by a word inside another word");
+{
+  check(
+    "data entry is not a computing placement",
+    scored(facts({ titleAr: "متدرب إدخال البيانات" }), CYBER_READER).score <= 15,
+  );
+  check("accounting is not the general technical band", fieldOf("التدريب التعاوني — المحاسبة") === "none");
+  check("the English pronoun is not the IT department", fieldOf("apply for it now") === "none");
+  check("but the department still is", fieldOf("IT department internship") === "it");
+  check("civil defence is not civil engineering", namesAField("المديرية العامة للدفاع المدني") === false);
+  check(
+    "and a petroleum university is not a petroleum placement",
+    namesAField("جامعة الملك فهد للبترول والمعادن") === false,
   );
 }
 
@@ -127,8 +202,26 @@ console.log("\nevery score comes with a sentence that explains it");
 {
   let empty = 0;
   let english = 0;
+  let refused = 0;
   for (const c of CASES) {
-    const r = relevanceOf(facts({ titleAr: c.text, majors: [] }), CYBER_READER);
+    const r = relevanceOf(
+      facts({
+        product: c.band === "graduate_dev" ? "graduate_dev" : "coop",
+        titleAr: c.text,
+        majors: [],
+      }),
+      CYBER_READER,
+    );
+    /*
+     * A refusal carries no score, so it owes no sentence: the caller stores it
+     * as a null score with `needs_manual_review`, and the card says that in
+     * words of its own. What must never happen is a score with nothing to
+     * explain it, which is the pairing checked below.
+     */
+    if (r === null) {
+      refused++;
+      continue;
+    }
     if (r.reason.trim().length === 0) empty++;
     // The card is Arabic. A stray English clause on it is the bug that put a
     // BadRequestError on seventy-four cards.
@@ -136,13 +229,18 @@ console.log("\nevery score comes with a sentence that explains it");
   }
   check("no reason is ever empty, which is what broke 8 of 20 live judgements", empty === 0, `${empty} empty`);
   check("and none of them is in English", english === 0, `${english} with English`);
+  check(
+    "most of the corpus is still judged, so the refusal is not swallowing everything",
+    refused <= CASES.length / 4,
+    `${refused} of ${CASES.length} refused on the title alone`,
+  );
 }
 
 console.log("\nthe twenty benchmark announcements land in their documented bands");
 {
   let wrong = 0;
   for (const c of CASES) {
-    const r = relevanceOf(
+    const r = scored(
       facts({ product: c.band === "graduate_dev" ? "graduate_dev" : "coop", titleAr: c.text }),
       CYBER_READER,
     );

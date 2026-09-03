@@ -36,6 +36,71 @@ export const CLASSIFIER_MODEL = LOCAL_MODEL;
 /** Spec section 5.3: send only the changed text block, at most 6000 chars. */
 export const MAX_EXCERPT_CHARS = 6000;
 
+/**
+ * Arabic reduced to the letters that carry meaning, for comparison only.
+ *
+ * A page and a model's copy of it differ in ways that are not disagreements:
+ * tashkeel a page prints and a model drops, a tatweel used to justify a line,
+ * alif written أ or ا or إ, ya written ي or ى, ta marbuta for ha, runs of
+ * whitespace where the page had a line break. Comparing raw strings would call
+ * all of those forgeries. This normalises both sides the same way, so what is
+ * left is the question that matters: are these the page's words?
+ */
+export function normaliseArabic(s: string): string {
+  return (
+    s
+      // tashkeel U+064B..U+0652, superscript alef U+0670, and tatweel U+0640
+      .replace(/[ً-ْٰـ]/g, "")
+      // alef in every written form
+      .replace(/[أإآٱ]/g, "ا")
+      // ya / alef maqsura, and ta marbuta / ha
+      .replace(/ى/g, "ي")
+      .replace(/ة/g, "ه")
+      // zero-width and direction marks, which gov.sa markup is full of
+      .replace(/[​-‏؜⁦-⁩﻿]/g, "")
+      .replace(/\s+/g, " ")
+      .trim()
+      .toLowerCase()
+  );
+}
+
+/**
+ * Which copied-from-the-page fields are not, in fact, on the page.
+ *
+ * Returns a list of human-readable offenders, empty when the reply is clean.
+ * Exported so a gate can drive it against the real benchmark fixtures.
+ */
+export function notCopiedFrom(excerpt: string, value: Classification): string[] {
+  const hay = normaliseArabic(excerpt);
+  const invented: string[] = [];
+
+  const copied = (label: string, v: string | null): void => {
+    const t = v?.trim();
+    if (!t) return;
+    if (!hay.includes(normaliseArabic(t))) {
+      invented.push(`${label}=${JSON.stringify(t.slice(0, 40))}`);
+    }
+  };
+
+  copied("titleAr", value.titleAr);
+  copied("zeroCoursesQuote", value.zeroCoursesQuote);
+  copied("opensRaw", value.opensRaw);
+  copied("closesRaw", value.closesRaw);
+  value.majors.forEach((m, i) => copied(`majors[${i}]`, m));
+  value.cities.forEach((c, i) => copied(`cities[${i}]`, c));
+
+  /*
+   * A published condition with nothing quoted is the same failure wearing a
+   * different hat: the chip it drives is rendered from the boolean, and the
+   * quote is the only thing that lets a reader check it.
+   */
+  if (value.statesZeroCoursesRule && !value.zeroCoursesQuote?.trim()) {
+    invented.push("statesZeroCoursesRule=true with nothing quoted");
+  }
+
+  return invented;
+}
+
 export interface Classification {
   isTrainingAnnouncement: boolean;
   product: "coop" | "graduate_dev" | "professional_experience" | "unknown";
@@ -507,6 +572,36 @@ export async function classify(text: string, ask: Asker = liveAsk): Promise<Clas
       last = {
         stage: "schema",
         reason: "reply claims an announcement but gives no titleAr",
+      };
+      continue;
+    }
+
+    /*
+     * Everything the model was told to copy must actually be on the page.
+     *
+     * The schema is structurally strict and semantically wide open: it will
+     * accept `titleAr: "البراغات الالميدية"`, `cities: ["أي مدينة"]`,
+     * `majors: ["undefined"]`, or a `statesZeroCoursesRule: true` with a quote
+     * of two words the page never printed. All of those are in the live data.
+     * One of them, an invented title on the national cybersecurity academy,
+     * scored 90 and sat at the top of the list; another was read as a graduate
+     * programme and scored 0, which is the one number here that means "you
+     * cannot apply".
+     *
+     * The check is possible because the prompt orders these fields *copied*
+     * verbatim, and the exact text the model was shown is `excerpt`, a few
+     * lines up. So a claimed copy that is not a substring of the excerpt was
+     * not copied. It costs one string search per field: no model, no network.
+     *
+     * Failing here is a schema failure, which is a path this module already
+     * has: the page is retried once, then goes to manual review with a null
+     * score and `needs_manual_review`. It is never scored on invented words.
+     */
+    const invented = notCopiedFrom(excerpt, value);
+    if (invented.length > 0) {
+      last = {
+        stage: "schema",
+        reason: `reply contains wording the page does not: ${invented.join("; ")}`,
       };
       continue;
     }

@@ -104,8 +104,11 @@ const MONTHS: [RegExp, number][] = [
   [/صفر/, 2],
   [/ربيع\s*(?:ال)?(?:آخر|أخر|اخر|ثاني(?:ة)?)/, 4],
   [/ربيع\s*(?:ال)?(?:أول|اول|أوّل)/, 3],
-  [/جمادى\s*(?:ال)?(?:آخرة|أخرة|اخرة|ثاني(?:ة)?)/, 6],
-  [/جمادى\s*(?:ال)?(?:أولى|اولى|أُولى)/, 5],
+  // The masculine spellings are here because pages use them: "جمادى الأول" and
+  // "جمادى الآخر" are at least as common as the feminine forms, and every one
+  // of them used to fall through the table and hand the date to the model.
+  [/جمادى\s*(?:ال)?(?:آخرة|أخرة|اخرة|آخر|أخر|اخر|ثاني(?:ة)?)/, 6],
+  [/جمادى\s*(?:ال)?(?:أولى|اولى|أُولى|أول|اول)/, 5],
   [/رجب/, 7],
   [/شعبان/, 8],
   [/رمضان/, 9],
@@ -113,6 +116,46 @@ const MONTHS: [RegExp, number][] = [
   [/(?:ذو|ذي|ذا)\s*ال?قعدة/, 11],
   [/(?:ذو|ذي|ذا)\s*ال?حجّ?ة/, 12],
 ];
+
+/**
+ * Gregorian months, written in Arabic and in English.
+ *
+ * "15 سبتمبر 2026" is the shape the classifier's own system prompt uses as its
+ * worked example, and this module could not read it: the reading failed, the
+ * failure was reported as unambiguous, and the deadline fell through to the
+ * model's own conversion — the one thing the whole file exists to avoid.
+ *
+ * The second-numbered alternatives come first where one name contains another,
+ * the same ordering the Hijri table uses.
+ */
+const GREGORIAN_MONTHS: [RegExp, number][] = [
+  [/يناير|january|jan\b/i, 1],
+  [/فبراير|february|feb\b/i, 2],
+  [/مارس|march|mar\b/i, 3],
+  [/أبريل|ابريل|april|apr\b/i, 4],
+  [/مايو|may\b/i, 5],
+  [/يونيو|يونية|june|jun\b/i, 6],
+  [/يوليو|يولية|july|jul\b/i, 7],
+  [/أغسطس|اغسطس|august|aug\b/i, 8],
+  [/سبتمبر|september|sep\b/i, 9],
+  [/أكتوبر|اكتوبر|october|oct\b/i, 10],
+  [/نوفمبر|november|nov\b/i, 11],
+  [/ديسمبر|december|dec\b/i, 12],
+];
+
+/**
+ * The day, immediately before a month name.
+ *
+ * The old pattern allowed whitespace and nothing else between the digits and
+ * the month, so a definite article or the word "شهر" left over on the left was
+ * enough to lose the date: "1 المحرم 1448" and "12 من شهر ربيع الأول 1448" both
+ * read as no date at all. That is the same leftover-letter problem the month
+ * patterns were already written to survive on the right.
+ */
+const DAY_BEFORE = /(\d{1,2})\s*(?:من\s+)?(?:شهر\s+)?(?:ال)?\s*$/;
+
+/** "غرة رمضان" is the first of the month, and this file documented it as read. */
+const FIRST_OF_MONTH = /(?:غرّة|غرة|أوّل|أول|اول)\s*(?:من\s+)?(?:شهر\s+)?(?:ال)?\s*$/;
 
 /** ٠١٢٣٤٥٦٧٨٩ and ۰۱۲۳۴۵۶۷۸۹ are digits too. */
 function westernDigits(s: string): string {
@@ -147,58 +190,161 @@ const NONE: ParsedDate = { iso: null, calendar: null, ambiguousYear: false, matc
  * no ISO date, and the deadline alarm stays quiet rather than firing on a guess.
  */
 export function parseArabicDate(input: string): ParsedDate {
-  if (typeof input !== "string" || input.trim() === "") return NONE;
-  const text = westernDigits(input).replace(/‏|‎/g, "");
+  return pickDate(input, "first");
+}
 
-  /* 1. A named month: "12 ربيع الأول 1448" or "غرة رمضان 1448". */
-  for (const [re, month] of MONTHS) {
-    const at = re.exec(text);
-    if (!at) continue;
-    const before = text.slice(Math.max(0, at.index - 12), at.index);
-    const after = text.slice(at.index + at[0].length, at.index + at[0].length + 14);
-    const day = /(\d{1,2})\s*$/.exec(before)?.[1];
-    // "هـ", "ه", "من عام", a comma — a few Arabic letters may stand between the
-    // month and its year without meaning the year is absent.
-    const year = /^[\s\p{L}ـ.،,]{0,10}?(\d{4})/u.exec(after)?.[1];
-    if (!day) continue;
+/**
+ * The same reading, when the string may hold a *range*.
+ *
+ * "من 1 رجب 1448 إلى 15 شعبان 1448" is how Saudi pages write an application
+ * window, and it is the single most likely thing for a model to copy into one
+ * field. Read as a single date it gave the wrong answer twice over: the old
+ * loop walked the month table in calendar order and returned whichever month
+ * came first in the *year*, not in the *text*, so a window that opened in Rajab
+ * and closed in Sha'ban reported the opening date as the deadline — forty-four
+ * days early, with `ambiguousYear` false, so nothing refused it. Written with
+ * plain ISO dates it was worse: "من 2026-09-01 إلى 2026-12-30" stored the first
+ * one, and the record was `closed` on the day it appeared.
+ *
+ * So the caller says which end of the range it is asking about. A field holding
+ * one date gets the same answer either way.
+ */
+export function parseArabicDateRange(input: string, end: "first" | "last"): ParsedDate {
+  return pickDate(input, end);
+}
 
-    // Hijri years are four digits starting 14; anything else beside an Arabic
-    // month name is a Gregorian year written in an Arabic sentence.
-    if (year && /^1[34]\d\d$/.test(year)) {
-      const iso = hijriToISO(Number(year), month, Number(day));
-      return { iso, calendar: "hijri", ambiguousYear: false, matched: `${day} ${at[0]} ${year}` };
+interface Sighting {
+  index: number;
+  parsed: ParsedDate;
+}
+
+/** Every date in the string, in the order the string writes them. */
+function allDates(text: string): Sighting[] {
+  const out: Sighting[] = [];
+
+  const named = (
+    table: [RegExp, number][],
+    calendar: "hijri" | "gregorian",
+  ): void => {
+    for (const [re, month] of table) {
+      const scan = new RegExp(re.source, re.flags.includes("g") ? re.flags : `${re.flags}g`);
+      let at: RegExpExecArray | null;
+      while ((at = scan.exec(text)) !== null) {
+        const before = text.slice(Math.max(0, at.index - 16), at.index);
+        const after = text.slice(at.index + at[0].length, at.index + at[0].length + 14);
+        const day = DAY_BEFORE.exec(before)?.[1] ?? (FIRST_OF_MONTH.test(before) ? "1" : undefined);
+        if (day === undefined) continue;
+        // "هـ", "ه", "من عام", a comma — a few Arabic letters may stand between
+        // the month and its year without meaning the year is absent.
+        const year = /^[\s\p{L}ـ.،,]{0,10}?(\d{4})/u.exec(after)?.[1];
+
+        if (calendar === "gregorian") {
+          if (year === undefined || !/^(19|20|21)\d\d$/.test(year)) {
+            out.push({
+              index: at.index,
+              parsed: { iso: null, calendar: "gregorian", ambiguousYear: true, matched: `${day} ${at[0]}` },
+            });
+            continue;
+          }
+          const iso = `${year}-${String(month).padStart(2, "0")}-${String(Number(day)).padStart(2, "0")}`;
+          const ok = !Number.isNaN(Date.parse(iso)) && new Date(iso).getUTCDate() === Number(day);
+          out.push({
+            index: at.index,
+            parsed: {
+              iso: ok ? iso : null,
+              calendar: "gregorian",
+              ambiguousYear: false,
+              matched: `${day} ${at[0]} ${year}`,
+            },
+          });
+          continue;
+        }
+
+        // Hijri years are four digits starting 14; anything else beside an
+        // Arabic month name is a Gregorian year written in an Arabic sentence.
+        if (year !== undefined && /^1[34]\d\d$/.test(year)) {
+          out.push({
+            index: at.index,
+            parsed: {
+              iso: hijriToISO(Number(year), month, Number(day)),
+              calendar: "hijri",
+              ambiguousYear: false,
+              matched: `${day} ${at[0]} ${year}`,
+            },
+          });
+        } else {
+          out.push({
+            index: at.index,
+            parsed: { iso: null, calendar: "hijri", ambiguousYear: true, matched: `${day} ${at[0]}` },
+          });
+        }
+      }
     }
-    return {
-      iso: null,
-      calendar: "hijri",
-      ambiguousYear: true,
-      matched: `${day} ${at[0]}`,
-    };
-  }
+  };
 
-  /* 2. Numeric, in either calendar: 1448/03/12, 1448-03-12, 12/03/1448. */
-  const numeric = /(\d{2,4})\s*[/\-.]\s*(\d{1,2})\s*[/\-.]\s*(\d{1,4})/.exec(text);
-  if (numeric) {
-    const [, a, b, c] = numeric as unknown as [string, string, string, string];
+  named(MONTHS, "hijri");
+  named(GREGORIAN_MONTHS, "gregorian");
+
+  /* Numeric, in either calendar: 1448/03/12, 1448-03-12, 12/03/1448. */
+  const numeric = /(\d{2,4})\s*[/\-.]\s*(\d{1,2})\s*[/\-.]\s*(\d{1,4})/g;
+  let n: RegExpExecArray | null;
+  while ((n = numeric.exec(text)) !== null) {
+    const [, a, b, c] = n as unknown as [string, string, string, string];
     const first = Number(a);
     const last = Number(c);
-
     // Year first when the first field is four digits, else year last.
-    const [y, m, d] =
-      a.length === 4 ? [first, Number(b), last] : [last, Number(b), first];
+    const [y, m, d] = a.length === 4 ? [first, Number(b), last] : [last, Number(b), first];
 
     if (y >= FIRST_YEAR && y <= LAST_YEAR) {
-      return { iso: hijriToISO(y, m, d), calendar: "hijri", ambiguousYear: false, matched: numeric[0] };
-    }
-    if (y >= 1900 && y <= 2200) {
+      out.push({
+        index: n.index,
+        parsed: { iso: hijriToISO(y, m, d), calendar: "hijri", ambiguousYear: false, matched: n[0] },
+      });
+    } else if (y >= 1900 && y <= 2200) {
       const iso = `${y}-${String(m).padStart(2, "0")}-${String(d).padStart(2, "0")}`;
       const ok = !Number.isNaN(Date.parse(iso)) && new Date(iso).getUTCDate() === d;
-      return { iso: ok ? iso : null, calendar: "gregorian", ambiguousYear: false, matched: numeric[0] };
+      out.push({
+        index: n.index,
+        parsed: { iso: ok ? iso : null, calendar: "gregorian", ambiguousYear: false, matched: n[0] },
+      });
+    } else {
+      out.push({ index: n.index, parsed: { ...NONE, matched: n[0] } });
     }
-    return { ...NONE, matched: numeric[0] };
   }
 
-  /* 3. A bare ISO date the classifier already resolved. */
+  /*
+   * Sorted by where the string writes them, which is the whole point. Ties go
+   * to the longer reading: a named month and a bare numeric run can start at
+   * the same offset, and the named one carries more of the page's own words.
+   */
+  return out.sort(
+    (x, y) => x.index - y.index || (y.parsed.matched?.length ?? 0) - (x.parsed.matched?.length ?? 0),
+  );
+}
+
+function pickDate(input: string, end: "first" | "last"): ParsedDate {
+  if (typeof input !== "string" || input.trim() === "") return NONE;
+  /*
+   * Direction and zero-width marks are stripped before anything is matched.
+   * gov.sa markup is full of them, and one sitting between a digit and a month
+   * name is enough to break the adjacency every rule here depends on. Only the
+   * two most common were removed before; U+061C and the isolate marks were not.
+   */
+  const text = westernDigits(input).replace(/[​-‏؜⁦-⁩﻿]/g, "");
+
+  const seen = allDates(text);
+  if (seen.length > 0) {
+    /*
+     * A reading with a real date beats one without: a range written as
+     * "من 12 ربيع الأول إلى 15 شعبان 1448" has a year only on the second date,
+     * and reporting the deadline as unreadable because the *opening* date was
+     * ambiguous would throw away the one date the page did state fully.
+     */
+    const ordered = end === "last" ? [...seen].reverse() : seen;
+    return (ordered.find((s) => s.parsed.iso !== null) ?? ordered[0]!).parsed;
+  }
+
+  /* A bare ISO date the classifier already resolved. */
   const iso = /(\d{4})-(\d{2})-(\d{2})/.exec(text);
   if (iso) {
     return { iso: iso[0], calendar: "gregorian", ambiguousYear: false, matched: iso[0] };

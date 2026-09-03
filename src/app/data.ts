@@ -14,6 +14,36 @@ import type {
   SourceHealth,
 } from "../types";
 
+/**
+ * Whether the phone is actually receiving, as of the last send.
+ *
+ * Written by the notifier. It exists because the failure it reports is
+ * completely invisible from here otherwise: a push subscription can be thrown
+ * away by the browser at any time, every later send then fails with HTTP 410,
+ * and the app has no way to know — it went on showing a calm home screen for
+ * forty-seven hours while nothing at all was reaching the phone.
+ */
+export interface NotifyHealth {
+  lastAttemptISO: string | null;
+  lastSuccessISO: string | null;
+  state: "healthy" | "down";
+  reason: string;
+  heldCount: number;
+}
+
+/**
+ * Whose fit the relevance scores describe.
+ *
+ * Every score in the dataset is computed against one stored profile, and the
+ * interface used to present them as if they were properties of the announcement.
+ * For the person who wrote the profile that is terse; for anyone he shares the
+ * link with it is simply wrong, and nothing on the screen said otherwise.
+ */
+export interface ScoreBasis {
+  fieldLabel: string | null;
+  computedISO: string | null;
+}
+
 export interface Dataset {
   orgs: Organisation[];
   aggregators: AggregatorSource[];
@@ -23,6 +53,10 @@ export interface Dataset {
   /** Worst health state across an organisation's sources. */
   healthOf: (orgId: string) => SourceHealth["state"] | "unwatched";
   lastCheckISO: string | null;
+  /** Null when the file is not there yet, which is not itself a problem. */
+  notifyHealth: NotifyHealth | null;
+  /** Null before the first round writes it. */
+  scoreBasis: ScoreBasis | null;
 }
 
 const base = import.meta.env.BASE_URL;
@@ -35,12 +69,32 @@ async function load<T>(name: string): Promise<T[]> {
 
 const WORST: Record<SourceHealth["state"], number> = { healthy: 0, degraded: 1, broken: 2 };
 
+/**
+ * A single object rather than a list, and its absence is not a failure.
+ *
+ * The file appears the first time the notifier runs. A deployment that predates
+ * it, or a fresh clone, simply has no opinion about the channel yet — which is
+ * different from the channel being down, and must not be rendered as though it
+ * were.
+ */
+async function loadOptional<T>(name: string): Promise<T | null> {
+  try {
+    const res = await fetch(`${base}data/${name}.json`, { cache: "no-cache" });
+    if (!res.ok) return null;
+    return (await res.json()) as T;
+  } catch {
+    return null;
+  }
+}
+
 export async function loadDataset(): Promise<Dataset> {
-  const [orgs, aggregators, opportunities, health] = await Promise.all([
+  const [orgs, aggregators, opportunities, health, notifyHealth, scoreBasis] = await Promise.all([
     load<Organisation>("organisations"),
     load<AggregatorSource>("aggregators"),
     load<Opportunity>("opportunities"),
     load<SourceHealth>("health"),
+    loadOptional<NotifyHealth>("notify-health"),
+    loadOptional<ScoreBasis>("score-basis"),
   ]);
 
   /*
@@ -111,6 +165,8 @@ export async function loadDataset(): Promise<Dataset> {
       return unread > 0 && worst === "healthy" ? "degraded" : worst;
     },
     lastCheckISO,
+    notifyHealth,
+    scoreBasis,
   };
 }
 

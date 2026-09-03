@@ -79,10 +79,20 @@ async function shellFirst(request) {
   return response;
 }
 
-/** Keeps the last ten arrivals, newest last, so the app can prove delivery. */
+/**
+ * Keeps the last ten arrivals, newest last, so the app can prove delivery.
+ *
+ * Returns the entry it wrote, because the caller needs the timestamp. It used
+ * to return nothing while the caller read a variable called `entry` that only
+ * existed in here — a ReferenceError on every single push, after the banner had
+ * been shown, so `lastServerPush` was never recorded, the app showed two
+ * contradictory lines about its own notifications, and the watchdog that is
+ * supposed to shout when the channel goes quiet could never fire at all. The
+ * channel then went quiet for forty-seven hours and nothing said so.
+ */
 async function recordArrival(payload, via) {
-  const cache = await caches.open(PUSH_LOG);
   const entry = { at: new Date().toISOString(), via, title: payload.title, body: payload.body };
+  const cache = await caches.open(PUSH_LOG);
   // Millisecond plus a random suffix: two pushes can land in the same
   // millisecond, and a bare timestamp would have one silently replace the other.
   const key = `${Date.now()}-${Math.random().toString(36).slice(2, 8)}`;
@@ -92,10 +102,19 @@ async function recordArrival(payload, via) {
   );
   const keys = await cache.keys();
   await Promise.all(keys.slice(0, Math.max(0, keys.length - 10)).map((k) => cache.delete(k)));
+  return entry;
 }
 
 async function announce(payload, via) {
-  await recordArrival(payload, via);
+  /*
+   * The banner first, and nothing may come before it.
+   *
+   * Recording the arrival used to run first and was awaited, so anything that
+   * made the cache write fail — storage pressure, a browser with site data
+   * turned off, a quota error — threw before `showNotification` was ever
+   * reached, and the proof-of-delivery log silently cancelled the delivery it
+   * exists to prove. The log is a diagnostic. The notification is the product.
+   */
   await self.registration.showNotification(payload.title || "راصد", {
     body: payload.body || "",
     icon: "./icon-192.png",
@@ -105,12 +124,27 @@ async function announce(payload, via) {
     // Collapse repeats of the same subject rather than stacking them.
     tag: payload.tag || "rasid",
   });
+  /*
+   * Everything below is bookkeeping, and bookkeeping may fail without taking
+   * the notification with it. The banner is already on the screen by this point.
+   */
+  let at = new Date().toISOString();
+  try {
+    at = (await recordArrival(payload, via)).at;
+  } catch (err) {
+    console.warn("rasid: could not write the push log", err);
+  }
+
   // Wake any open window so the settings screen can update itself, and hand it
   // the arrival time: the page cannot read this cache before it is opened, and
   // the home screen needs the timestamp to decide whether the silence is
   // suspicious.
-  for (const client of await self.clients.matchAll({ type: "window" })) {
-    client.postMessage({ type: "push-arrived", at: entry.at, via });
+  try {
+    for (const client of await self.clients.matchAll({ type: "window" })) {
+      client.postMessage({ type: "push-arrived", at, via });
+    }
+  } catch (err) {
+    console.warn("rasid: could not tell an open window about the push", err);
   }
 }
 

@@ -20,6 +20,7 @@
  */
 import { readFileSync, writeFileSync } from "node:fs";
 import { closeBrowser, renderPage } from "../src/pipeline/browser";
+import { redactPaths } from "../src/pipeline/redact";
 import { extract } from "../src/pipeline/extract";
 import { fetchPage, paced } from "../src/pipeline/fetch";
 import { checkFinalUrl, checkRobots } from "../src/pipeline/robots";
@@ -250,7 +251,7 @@ for (const org of targets) {
        * could only say "no link has been opened", which is true of every
        * unwatched organisation and therefore tells the reader nothing.
        */
-      source.verifiedNote = why;
+      source.verifiedNote = redactPaths(why);
       outcomes.push({ org: org.id, url: source.url, result: robotsOnly ? "robots" : "unreachable", note: why });
       continue;
     }
@@ -296,7 +297,7 @@ for (const org of targets) {
     if (marker === undefined) {
       if (text.length < THIN_TEXT) {
         const why = `الصفحة فُتحت لكنها لم تُخرج نصاً يُقرأ (${text.length} حرفاً)، فلا يمكن مراقبتها.`;
-        source.verifiedNote = why;
+        source.verifiedNote = redactPaths(why);
         outcomes.push({ org: org.id, url: source.url, result: "rejected", note: why });
         continue;
       }
@@ -306,7 +307,7 @@ for (const org of targets) {
       source.provenance = "official";
       source.coopConfirmed = false;
       source.verifiedAtISO = now;
-      source.verifiedNote = note;
+      source.verifiedNote = redactPaths(note);
       if (needsBrowser) source.renderMode = "browser";
       outcomes.push({ org: org.id, url, result: "watchable", note });
       continue;
@@ -320,7 +321,7 @@ for (const org of targets) {
     source.provenance = "official";
     source.coopConfirmed = true;
     source.verifiedAtISO = now;
-    source.verifiedNote = note;
+    source.verifiedNote = redactPaths(note);
     if (needsBrowser) source.renderMode = "browser";
     outcomes.push({ org: org.id, url, result: "verified", note });
     /*

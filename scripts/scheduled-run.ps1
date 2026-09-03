@@ -54,7 +54,7 @@ $ollama = $ollama -replace '//0\.0\.0\.0', '//127.0.0.1'
 try {
     $tags = Invoke-RestMethod -Uri "$ollama/api/tags" -TimeoutSec 5 -ErrorAction Stop
     $wanted = $env:RASID_LOCAL_MODEL
-    if (-not $wanted) { $wanted = "llama3.1:8b" }
+    if (-not $wanted) { $wanted = "qwen3:8b" }
     if (($tags.models | ForEach-Object { $_.name }) -notcontains $wanted) {
         Say "WARNING: model $wanted is not installed. Pages will be fetched but nothing judged."
     }

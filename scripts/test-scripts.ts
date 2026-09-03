@@ -105,5 +105,74 @@ console.log("\na failed rebase can never be collected through");
   );
 }
 
+/*
+ * One line on stderr must not end the watcher.
+ *
+ * Windows PowerShell 5.1 wraps each stderr line of a native program in a
+ * NativeCommandError record. Under `$ErrorActionPreference = "Stop"` that record
+ * terminates, so `watch-run.ps1` caught it and exited 1 while the collector was
+ * perfectly healthy. It has already happened once on this machine, and the cost
+ * is total: no watcher means no rounds at all, and the app goes on showing the
+ * last successful check as though nothing were wrong.
+ *
+ * Both halves are checked. The mechanism is run for real, so the gate rests on
+ * PowerShell's behaviour rather than on a belief about it; and the file is read,
+ * so the preference cannot quietly go back to Stop around the child.
+ */
+console.log("\none stderr line cannot kill the watcher");
+{
+  const src = readFileSync(join(dir, "watch-run.ps1"), "utf8");
+  const atChild = src.slice(src.indexOf("watch.ts"));
+  const beforeChild = src.slice(0, src.indexOf("watch.ts"));
+
+  check(
+    "the preference is lifted before the child is started",
+    /\$ErrorActionPreference\s*=\s*"Continue"/.test(beforeChild),
+  );
+  check(
+    "and restored afterwards, so Stop still governs the rest of the file",
+    /finally\s*\{[\s\S]{0,200}\$ErrorActionPreference\s*=/.test(atChild),
+  );
+  check(
+    "the child's exit code is still what the watcher reports",
+    /\$LASTEXITCODE/.test(atChild),
+  );
+
+  if (!isWindows) {
+    console.log("  skipped: the mechanism is PowerShell 5.1's, and this is not Windows");
+  } else {
+    /*
+     * The seeded fault and the fix, side by side, against a child that prints
+     * one line to stderr and exits 0 — exactly what node does on a warning.
+     */
+    const probe = (pref: string): string => {
+      const script = `
+        $ErrorActionPreference = "${pref}"
+        try {
+          & cmd.exe /c "echo out& echo err 1>&2& exit 0" 2>&1 | ForEach-Object { $null = [string]$_ }
+          "SURVIVED:" + $LASTEXITCODE
+        } catch { "KILLED" }`;
+      try {
+        return execFileSync(
+          "powershell.exe",
+          ["-NoProfile", "-NonInteractive", "-ExecutionPolicy", "Bypass", "-Command", script],
+          { encoding: "utf8", timeout: 60_000 },
+        ).trim();
+      } catch (err) {
+        return `could not run the probe: ${(err as Error).message}`;
+      }
+    };
+
+    check(
+      "the old setting is genuinely fatal (seeded fault)",
+      probe("Stop") === "KILLED",
+      `Stop gave ${probe("Stop")}`,
+    );
+    const fixed = probe("Continue");
+    check("the shipped setting survives it", fixed.startsWith("SURVIVED"), fixed);
+    check("and the child's exit code came through as 0", fixed === "SURVIVED:0", fixed);
+  }
+}
+
 console.log(`\n${failures === 0 ? "all checks passed" : `${failures} CHECK(S) FAILED`}`);
 process.exit(failures === 0 ? 0 : 1);

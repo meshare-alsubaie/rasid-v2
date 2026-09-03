@@ -106,9 +106,37 @@ const PENDING_FILE = "data/pending-notices.json";
 const PENDING_TTL_MS = 7 * 86_400_000;
 type Held = Notice & { queuedISO: string };
 
-const carried = read<Held>(PENDING_FILE).filter(
-  (n) => now.getTime() - Date.parse(n.queuedISO) < PENDING_TTL_MS,
+/**
+ * A notice about a window that is still open does not go stale.
+ *
+ * Age alone was the whole test, and it threw away things that were still true.
+ * The daily cap is six; the overflow is routed to the email digest; the digest
+ * is off because no key is set — so anything past the sixth notice went nowhere
+ * at all and was deleted seven days later, unsent and unmentioned. Four real
+ * announcements were four days from exactly that.
+ *
+ * So the question is no longer "how old is this" but "is it still true". A
+ * notice whose opportunity is still open survives; one whose window has closed,
+ * or whose record has gone, is genuinely stale and is dropped on the old timer.
+ */
+const stillOpen = new Set(
+  after
+    .filter((o) => o.status === "open" || o.status === "closing_soon" || o.status === "announced_not_open")
+    .map((o) => o.id),
 );
+const aboutALiveOpportunity = (key: string): boolean =>
+  [...stillOpen].some((id) => key.includes(id));
+
+const carriedRaw = read<Held>(PENDING_FILE);
+const carried = carriedRaw.filter((n) => {
+  const age = now.getTime() - Date.parse(n.queuedISO);
+  if (age < PENDING_TTL_MS) return true;
+  return aboutALiveOpportunity(n.key);
+});
+const expired = carriedRaw.length - carried.length;
+if (expired > 0) {
+  console.log(`${expired} held notice(s) dropped: past a week and no longer about an open window`);
+}
 const seen = new Set<string>();
 const notices: Held[] = [...carried, ...fresh.map((n) => ({ ...n, queuedISO: now.toISOString() }))]
   .filter((n) => !seen.has(n.key) && seen.add(n.key));
@@ -152,6 +180,46 @@ const subscriptionRaw = process.env.RASID_PUSH_SUBSCRIPTION;
 const contact = process.env.RASID_CONTACT;
 
 /**
+ * Why the channel is down, when it is down.
+ *
+ * The library throws a `WebPushError` carrying the status code the push service
+ * returned, and the code is the whole diagnosis: 404 and 410 mean the browser
+ * threw the subscription away and a new one must be registered on the phone;
+ * 403 means the VAPID key pair no longer matches the one the subscription was
+ * created with; 400 means the request itself was malformed. All four printed
+ * the same unhelpful sentence, and 282 of them went by without anyone being
+ * able to tell which had happened.
+ */
+function pushDiagnosis(err: unknown): { status: number | null; sentence: string } {
+  const status =
+    typeof err === "object" && err !== null && "statusCode" in err
+      ? Number((err as { statusCode: unknown }).statusCode)
+      : null;
+  const message = err instanceof Error ? err.message : String(err);
+  if (status === 404 || status === 410) {
+    return {
+      status,
+      sentence: `the phone's subscription is gone (HTTP ${status}). Open the app on the phone and enable notifications again; nothing will arrive until you do.`,
+    };
+  }
+  if (status === 403) {
+    return {
+      status,
+      sentence: "the VAPID key pair does not match the subscription (HTTP 403). The keys were regenerated after the phone subscribed, so the phone must subscribe again.",
+    };
+  }
+  if (status === 400) {
+    return { status, sentence: `the push service rejected the request (HTTP 400): ${message}` };
+  }
+  return { status, sentence: status === null ? message : `HTTP ${status}: ${message}` };
+}
+
+/** True when every push this run attempted failed. Read at the exit. */
+let pushChannelDown = false;
+/** The sentence to show the user in the app when it is. */
+let pushDownReason = "";
+
+/**
  * Returns the keys that actually went out, not how many.
  *
  * Counting was wrong in a way that lost mail in both directions: the caller
@@ -193,8 +261,39 @@ async function sendPush(items: Notice[]): Promise<string[]> {
     } catch (err) {
       // A dead subscription is worth saying out loud: it means his phone has
       // stopped receiving and he would otherwise never find out.
-      console.log(`push failed for ${n.key}: ${err instanceof Error ? err.message : String(err)}`);
+      const { status, sentence } = pushDiagnosis(err);
+      console.log(`push failed for ${n.key}: ${sentence}`);
+      pushDownReason =
+        status === 404 || status === 410
+          ? "اشتراك الجوّال انتهى، فالمتصفّح تخلّص منه. افتح التطبيق على جوّالك واضغط «فعّل التنبيهات» مرّة أخرى."
+          : status === 403
+            ? "مفاتيح الإشعارات تغيّرت بعد تسجيل الجوّال، فلم يعد الاشتراك صالحاً. أعد التفعيل من جوّالك."
+            : `خدمة الإشعارات ردّت بخطأ (${status ?? "بلا رمز"}). الإشعارات محفوظة وستُعاد المحاولة.`;
+      if (status === 404 || status === 410 || status === 403) {
+        // No point hammering a subscription the service has told us is gone.
+        console.log("push: the rest of this run's notices are held rather than retried");
+        break;
+      }
     }
+  }
+
+  /*
+   * A run that tried to push and got nothing through is a failed run, and the
+   * exit code has to say so.
+   *
+   * It did not. Every failure was caught, printed into a log file that is
+   * excluded from git, and the process exited 0 — so the watcher wrote
+   * `notify exit 0` a hundred and thirty-nine times while the channel had been
+   * dead for forty-seven hours and fifty-one notices sat unsent. Nothing
+   * anywhere distinguished a healthy round from total silence. That is the
+   * stale green light this project was built to refuse, sitting in the one
+   * component whose failure the whole thing is judged on.
+   */
+  if (sent.length === 0 && !DRY) {
+    pushChannelDown = true;
+    console.log(
+      `push: ${items.length} notice(s) were due and none reached the phone. Holding them for the next run.`,
+    );
   }
   return sent;
 }
@@ -296,4 +395,60 @@ if (!DRY && !TEST) {
   if (stillWaiting.length > 0) {
     console.log(`held for the next run: ${stillWaiting.length}`);
   }
+}
+
+/*
+ * The state of the notification channel, written where the app can read it.
+ *
+ * An exit code reaches the watcher's log, and the watcher's log is a file
+ * nobody opens while things look calm. That is exactly how the channel stayed
+ * dead for forty-seven hours: 282 failures, all of them printed somewhere that
+ * is excluded from git, under a home screen that went on saying everything was
+ * fine. The app has to be able to say "your phone is not receiving" without
+ * anyone going to look for it, so the fact is written into the dataset itself.
+ */
+if (!DRY) {
+  const priorState = (() => {
+    try {
+      return JSON.parse(readFileSync("data/notify-health.json", "utf8")) as {
+        lastSuccessISO?: string | null;
+      };
+    } catch {
+      return { lastSuccessISO: null };
+    }
+  })();
+
+  writeFileSync(
+    "data/notify-health.json",
+    JSON.stringify(
+      {
+        lastAttemptISO: now.toISOString(),
+        lastSuccessISO:
+          pushedKeys.length > 0 ? now.toISOString() : (priorState.lastSuccessISO ?? null),
+        state: pushChannelDown ? "down" : "healthy",
+        reason: pushChannelDown ? pushDownReason : "",
+        heldCount: notices.filter((n) => !pushedKeys.includes(n.key)).length,
+      },
+      null,
+      2,
+    ) + "\n",
+    "utf8",
+  );
+}
+
+/*
+ * The exit code carries the one fact the watcher can act on.
+ *
+ * Zero has to mean "the notices that were due went out". A round where the push
+ * channel is down is not that, and reporting it as success is how a dead
+ * channel stayed invisible for two days: the failure was printed into
+ * watch.log, which is gitignored and which nobody reads while things look fine.
+ * A non-zero exit puts `notify exit 1` in the watcher's own line, which is the
+ * line that is read.
+ */
+if (pushChannelDown) {
+  console.log(
+    "\nnotify is exiting non-zero because nothing reached the phone this run. The notices are held, not lost.",
+  );
+  process.exit(1);
 }

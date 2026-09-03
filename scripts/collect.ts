@@ -27,13 +27,21 @@ import {
   addUsage,
   classify,
   costOf,
+  studentProfile,
   triage,
   type Classification,
   type Usage,
 } from "../src/pipeline/classify";
 import { localModelReady } from "../src/pipeline/model";
-import { asManualReview, fromClassification, humanReason } from "../src/pipeline/opportunity";
-import { extract, isSoft404, sha256 } from "../src/pipeline/extract";
+import { readProfile } from "../src/pipeline/relevance";
+import {
+  asManualReview,
+  fromClassification,
+  humanReason,
+  survivingRecord,
+} from "../src/pipeline/opportunity";
+import { extract, isGovBannerOnly, isSoft404, sha256 } from "../src/pipeline/extract";
+import { redactPaths } from "../src/pipeline/redact";
 import { fetchPage, paced } from "../src/pipeline/fetch";
 import { checkFinalUrl, checkRobots } from "../src/pipeline/robots";
 import { MAX_BROWSER_SOURCES, SILENT_THIN_RUNS, THIN_CHARS, statusFor } from "../src/types";
@@ -58,10 +66,56 @@ const has = (flag: string): boolean => args.includes(flag);
 const DRY_RUN = has("--dry-run");
 const VERBOSE = has("--verbose");
 const limitArg = args.indexOf("--limit");
-const LIMIT = limitArg >= 0 ? Number(args[limitArg + 1]) : Infinity;
+/**
+ * `--limit` with a missing or malformed number used to erase the dataset.
+ *
+ * `Number(undefined)` is NaN. `slice(0, NaN)` returns an empty array, so no
+ * source was read; and `Number.isFinite(NaN)` is false, so `wholeRun` below
+ * came out *true* and the pruning branch deleted every health and snapshot row
+ * whose url was not in the (empty) set of sources read this round. One typo
+ * threw away 422 fingerprints and every `firstSeenISO` in the file.
+ *
+ * There is no safe default here. A limit the caller cannot state is a limit we
+ * must not guess, so this refuses to run rather than run over nothing.
+ */
+const LIMIT = ((): number => {
+  if (limitArg < 0) return Infinity;
+  const raw = args[limitArg + 1];
+  const n = Number(raw);
+  if (raw === undefined || raw.trim() === "" || !Number.isInteger(n) || n < 1) {
+    console.error(
+      `--limit needs a positive whole number, and got ${raw === undefined ? "nothing" : JSON.stringify(raw)}.`,
+    );
+    process.exit(2);
+  }
+  return n;
+})();
 const onlyArg = args.indexOf("--only");
 /** Debug one source without hitting every host again. */
 const ONLY = onlyArg >= 0 ? args[onlyArg + 1] : null;
+
+/**
+ * A wall-clock deadline for the whole round, so the round can always reach its
+ * own write.
+ *
+ * Every file this script produces is written at the very end, in one block. So
+ * a round that is killed part-way through has not saved half its work: it has
+ * saved none of it. That made the watcher's kill timer and this script's budget
+ * a single mechanism pretending to be two, and they disagreed — the watcher
+ * stopped the child after twelve minutes while this script's own ceiling was
+ * fifteen minutes *of inference alone*, before any fetching was counted. The
+ * child was therefore killed on any long round, every page it had read was
+ * discarded, and the watcher then marked all forty sources as checked.
+ *
+ * The deadline is set by whoever owns the kill timer and is passed in, rather
+ * than guessed here, because only the caller knows how long it is willing to
+ * wait. A run started by hand has no deadline at all: nothing is going to kill
+ * it, so stopping early would only lose work.
+ */
+const runStartedAt = Date.now();
+const RUN_DEADLINE_MS = Number(process.env.RASID_RUN_DEADLINE_MS ?? Infinity);
+let ranOutOfTime = 0;
+const outOfTime = (): boolean => Date.now() - runStartedAt >= RUN_DEADLINE_MS;
 
 /**
  * Read only the sources named in a file, one url per line.
@@ -186,16 +240,28 @@ const now = new Date().toISOString();
  * Only run when the whole set is being collected: with --org or --limit the
  * targets are a slice, and pruning against a slice would delete the rest.
  */
-const wholeRun = ONLY === null && URL_LIST === null && !Number.isFinite(LIMIT);
+/*
+ * An empty target list can never authorise forgetting anything.
+ *
+ * Pruning is meant to follow a deliberate edit to organisations.json. It must
+ * not follow a *failure to read* organisations.json, a filter that matched
+ * nothing, or any other path that leaves `targets` empty: there the set of
+ * "sources still in the dataset" is empty for the wrong reason, and every
+ * health and snapshot row in the file matches the delete condition at once.
+ */
+const wholeRun =
+  ONLY === null && URL_LIST === null && !Number.isFinite(LIMIT) && targets.length > 0;
 const live = new Set(targets.map((t) => t.url));
 const keep = <T extends { sourceUrl: string }>(rows: T[]): T[] =>
   wholeRun ? rows.filter((r) => live.has(r.sourceUrl)) : rows;
 
-const droppedRecords = wholeRun
-  ? priorSnapshots.length - keep(priorSnapshots).length + (priorHealth.length - keep(priorHealth).length)
-  : 0;
-if (droppedRecords > 0) {
-  console.log(`forgetting ${droppedRecords} record(s) for sources no longer in the dataset`);
+const forgotten = wholeRun
+  ? [...priorHealth, ...priorSnapshots].filter((r) => !live.has(r.sourceUrl)).map((r) => r.sourceUrl)
+  : [];
+if (forgotten.length > 0) {
+  console.log(`forgetting ${forgotten.length} record(s) for sources no longer in the dataset`);
+  // Named, not counted: a count cannot be checked against the edit that caused it.
+  for (const url of [...new Set(forgotten)].slice(0, 20)) console.log(`  ${url}`);
 }
 
 const healthByUrl = new Map(keep(priorHealth).map((h) => [h.sourceUrl, h]));
@@ -230,6 +296,15 @@ const failedUrls = new Set<string>();
 /** Extracted text of everything fetched successfully, for the classifier. */
 const textByUrl = new Map<string, string>();
 
+/**
+ * Block hashes as fetched this round, held until a verdict is reached.
+ *
+ * See the note where these are set: promoting them to the snapshot before
+ * anything judged the page is what let an announcement be diffed away unread.
+ */
+const freshBlockHashes = new Map<string, string[]>();
+
+
 function recordFailure(t: Target, error: string, outcome: Outcome): void {
   const prev = healthByUrl.get(t.url);
   const failures = (prev?.consecutiveFailures ?? 0) + 1;
@@ -239,7 +314,7 @@ function recordFailure(t: Target, error: string, outcome: Outcome): void {
     lastAttemptISO: now,
     lastSuccessISO: prev?.lastSuccessISO ?? null,
     consecutiveFailures: failures,
-    lastError: error,
+    lastError: redactPaths(error),
     state: stateFor(failures),
   });
   failedUrls.add(t.url);
@@ -249,6 +324,15 @@ function recordFailure(t: Target, error: string, outcome: Outcome): void {
 }
 
 async function collect(t: Target): Promise<void> {
+  /*
+   * Stopping here leaves the source exactly as it was: no health row is
+   * touched, so it stays due and is read first next cycle. That is the
+   * opposite of being killed, which discards the whole round's reading.
+   */
+  if (outOfTime()) {
+    ranOutOfTime++;
+    return;
+  }
   const verdict = await checkRobots(t.url);
   if (!verdict.allowed) {
     // A robots skip is not an error on our side, but it does mean this source
@@ -281,7 +365,24 @@ async function collect(t: Target): Promise<void> {
   // A page that answers 200 while saying it is missing is a failure, whatever
   // the transport thought. Recorded as one, so it cannot sit green for ever.
   if (isSoft404(extracted.title)) {
-    recordFailure(t, `الصفحة تردّ 200 لكن عنوانها "${extracted.title}" — صفحة غير موجودة`, "failed");
+    recordFailure(t, `الصفحة تردّ 200 وعنوانها «${extracted.title}»، أي أنها صفحة غير موجودة`, "failed");
+    return;
+  }
+
+  /*
+   * The verification banner is not the page, and must never be judged as one.
+   *
+   * It is real Arabic prose, so it is not empty and not a soft 404, and it sailed
+   * through every check here. Thirty records were built from it and six were
+   * scored as genuine announcements. Recorded as unreadable, which is what it is:
+   * the page exists, we were shown the doormat.
+   */
+  if (isGovBannerOnly(extracted.text)) {
+    recordFailure(
+      t,
+      "لم تُقرأ الصفحة نفسها، وإنما لافتة التحقّق الحكومية وحدها. تحتاج متصفّحاً كاملاً أو أنها تُحجب.",
+      "unreadable",
+    );
     return;
   }
   if (chars < MIN_USABLE_CHARS) {
@@ -342,11 +443,29 @@ async function collect(t: Target): Promise<void> {
   // second request. Only successful, usable extractions land here.
   textByUrl.set(t.url, payload);
 
+  /*
+   * The diff base is "the text as it stood when a verdict was last reached",
+   * not "the text as it stood when we last fetched". Those came apart in the
+   * rounds that fetch without judging — the ones that run while a game is on.
+   *
+   * There, the announcement's own block was fetched, hashed, and written into
+   * the base; nothing judged it. If the page then moved again before the next
+   * judging round, that block was no longer new, so it was cut out of the
+   * excerpt the model is shown, and the model was asked about the rotating
+   * banner instead. It answered, correctly, that a banner is not an
+   * announcement, and the round then cleared the debt. The announcement sat on
+   * the page, unread, and nothing anywhere recorded that it had been skipped.
+   *
+   * So the fresh hashes are held aside here and only become the base once this
+   * page actually reaches a verdict.
+   */
+  freshBlockHashes.set(t.url, blockHashes);
+
   snapshotByUrl.set(t.url, {
     sourceUrl: t.url,
     orgId: t.ownerId,
     contentHash: hash,
-    blockHashes,
+    blockHashes: prevSnapshot?.blockHashes ?? [],
     extractedChars: chars,
     extractionMethod: method,
     firstSeenISO: prevSnapshot?.firstSeenISO ?? now,
@@ -532,6 +651,15 @@ const verdicts = new Map<string, Classification | null>(
 );
 
 /**
+ * Pages the one-word triage ruled out during *this* run.
+ *
+ * Deliberately not persisted, and deliberately not part of `verdicts`. It exists
+ * only so two sources carrying byte-identical text are not asked twice in the
+ * same round.
+ */
+const triagedOutThisRun = new Set<string>();
+
+/**
  * Does this text say anything about training, in either language?
  *
  * Deliberately generous, and deliberately not clever. It is only ever used to
@@ -644,7 +772,10 @@ const secondsSpentClassifying = (): number => (Date.now() - classifyStartedAt) /
 
 if (!NO_CLASSIFY && !DRY_RUN) {
   for (const snap of owed) {
-    if (secondsSpentClassifying() >= RUN_BUDGET_SECONDS) {
+    // Either ceiling stops it: the processor budget, or the caller's deadline.
+    // Whichever is tighter wins, and the pages that did not fit keep
+    // `pendingClassification` and are judged first next round.
+    if (secondsSpentClassifying() >= RUN_BUDGET_SECONDS || outOfTime()) {
       budgetStopped++;
       continue;
     }
@@ -688,6 +819,30 @@ if (!NO_CLASSIFY && !DRY_RUN) {
      * an identical answer, and looking it up is free.
      */
     const fingerprint = sha256(text).slice(0, 32);
+
+    /*
+     * A one-word guess is not a judgement, and is never remembered past this run.
+     *
+     * The triage answer used to be written into the same durable memory as a
+     * full classification, as `null`. But the two are not the same kind of
+     * thing. A full classification has read seventeen fields and concluded that
+     * the page carries no announcement; the triage has answered one word, from a
+     * reply parser that reads *any* Arabic sentence opening with the letters lam
+     * and alif as "no" — including "لا شك أنها إعلان تدريب تعاوني". A page whose
+     * text does not change, which is most of them, was therefore silenced for
+     * ever by a single misread word, and nothing anywhere would have said so.
+     *
+     * Within one run the answer is still worth reusing, because two sources can
+     * carry byte-identical text. Across runs the page is asked again, at the
+     * cost of one local word.
+     */
+    if (!RECLASSIFY && triagedOutThisRun.has(fingerprint)) {
+      fromMemory++;
+      notAnnouncements++;
+      snap.pendingClassification = false;
+      continue;
+    }
+
     const remembered = verdicts.get(fingerprint);
     if (!RECLASSIFY && remembered !== undefined) {
       fromMemory++;
@@ -732,7 +887,9 @@ if (!NO_CLASSIFY && !DRY_RUN) {
         triagedOut++;
         notAnnouncements++;
         snap.pendingClassification = false;
-        verdicts.set(fingerprint, null);
+        // In-run only. See the note above the memory lookup: a triage "no" is a
+        // guess, and a guess must not be able to silence a page permanently.
+        triagedOutThisRun.add(fingerprint);
         continue;
       }
     }
@@ -772,11 +929,25 @@ if (!NO_CLASSIFY && !DRY_RUN) {
        * never been judged gets a bare placeholder. Either way exactly one
        * record exists per source.
        */
-      const existing = [...opportunityById.values()].find(
-        (o) => o.sourceUrl === snap.sourceUrl && !o.flags.includes("needs_manual_review"),
-      );
+      /*
+       * The test is "does a real reading of this page survive", not "is it
+       * unflagged". Those two came apart on the second consecutive failure:
+       * round one flagged the good record `needs_manual_review`, and round two
+       * then failed to find it precisely *because* of that flag, fell to the
+       * branch below, and deleted the judgement round one had just preserved.
+       * A source that stays unreachable for two rounds is the ordinary case,
+       * not the rare one, so this ran often.
+       */
+      const existing = survivingRecord(opportunityById.values(), snap.sourceUrl);
       if (existing) {
-        existing.flags = [...existing.flags, "needs_manual_review"];
+        /*
+         * Deduplicated, because this runs on every failed round in a row and a
+         * plain append gave a record two copies of the same flag. The schema
+         * forbids duplicates, so the validator failed the whole dataset and the
+         * deploy with it — a source that stayed unreadable for two rounds was
+         * enough to stop publishing everything else.
+         */
+        existing.flags = [...new Set([...existing.flags, "needs_manual_review" as const])];
         /*
          * The humanised sentence, not the diagnostic. This line is read on a
          * phone; `note` is written for whoever is reading the run log, and
@@ -895,6 +1066,33 @@ if (restated > 0) console.log(`\n${restated} record(s) moved to a new window sta
 if (VERBOSE) console.log(lines.sort().join("\n") + "\n");
 
 const health = [...healthByUrl.values()].sort((a, b) => a.sourceUrl.localeCompare(b.sourceUrl));
+
+/*
+ * The diff base moves only for pages that reached a verdict.
+ *
+ * `pendingClassification` is exactly that fact by the time we get here: every
+ * route that settles a page clears it, and every route that leaves a page owed
+ * one keeps it set — a round that fetched without judging, a classification
+ * that failed, a page the budget or the deadline did not reach. So a page still
+ * in debt keeps the base it had, and its unjudged blocks stay "new" until
+ * something actually reads them.
+ */
+let baseHeld = 0;
+for (const [url, snap] of snapshotByUrl) {
+  const fresh = freshBlockHashes.get(url);
+  if (fresh === undefined) continue; // not fetched this round; nothing to promote
+  if (snap.pendingClassification) {
+    baseHeld++;
+    continue;
+  }
+  snap.blockHashes = fresh;
+}
+if (baseHeld > 0) {
+  console.log(
+    `\n${baseHeld} page(s) still owe a verdict, so their text stays new until it is read`,
+  );
+}
+
 const snapshots = [...snapshotByUrl.values()].sort((a, b) =>
   a.sourceUrl.localeCompare(b.sourceUrl),
 );
@@ -925,6 +1123,33 @@ if (!DRY_RUN) {
   }
   const opportunities = [...opportunityById.values()].sort((a, b) => a.id.localeCompare(b.id));
   writeAtomic("data/opportunities.json", JSON.stringify(opportunities, null, 2) + "\n");
+
+  /*
+   * Whose fit the scores describe, so the app can say it out loud.
+   *
+   * Every relevance score in this dataset is computed against one stored
+   * profile, and the interface presented them as though they were properties of
+   * the announcement: a bare number labelled "صلة", and a chip reading
+   * "تخصصي مقبول" on all hundred and fifteen organisations. For the person who
+   * wrote the profile that is merely terse. For a friend he shares the link
+   * with, it is wrong — the number is about somebody else and nothing said so.
+   *
+   * Only the field label goes in, never the profile: it is one phrase, it is
+   * already visible in every relevanceReason, and it is what makes the number
+   * honest instead of anonymous.
+   */
+  const basisProfile = readProfile(studentProfile() ?? "");
+  writeAtomic(
+    "data/score-basis.json",
+    JSON.stringify(
+      {
+        fieldLabel: basisProfile?.fieldLabel ?? null,
+        computedISO: now,
+      },
+      null,
+      2,
+    ) + "\n",
+  );
 
   /*
    * The verdict memory, bounded. Newest kept; the oldest fall off, because a
@@ -1011,6 +1236,16 @@ console.log(
 if (budgetStopped > 0) {
   console.log(
     `  budget                 stopped at ${RUN_BUDGET_SECONDS}s; ${budgetStopped} page(s) still owed a verdict and will be judged next run`,
+  );
+}
+/*
+ * Said out loud, because a round that stopped early and a round that read
+ * everything otherwise look identical in this report, and the difference is the
+ * whole point of having a deadline.
+ */
+if (ranOutOfTime > 0) {
+  console.log(
+    `  deadline               reached after ${((Date.now() - runStartedAt) / 1000).toFixed(0)}s; ${ranOutOfTime} source(s) not opened and still due`,
   );
 }
 

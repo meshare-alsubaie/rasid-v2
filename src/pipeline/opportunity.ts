@@ -11,14 +11,36 @@ import { createHash } from "node:crypto";
 import type { Classification } from "./classify";
 import { studentProfile } from "./classify";
 import { readProfile, relevanceOf } from "./relevance";
-import { parseArabicDate } from "../hijri";
+import { parseArabicDateRange } from "../hijri";
 import { endOfDeadline, hijriOf, startOfDay } from "../types";
 import type { Opportunity, OpportunityFlag, OpportunityStatus } from "../types";
 
 const HOURS_48 = 48 * 60 * 60 * 1000;
 
-const idFor = (orgId: string, titleAr: string, firstSeenISO: string): string =>
-  createHash("sha256").update(`${orgId}|${titleAr}|${firstSeenISO}`).digest("hex").slice(0, 16);
+/**
+ * What makes one record the same record as another: where it came from.
+ *
+ * This used to hash `orgId|titleAr|firstSeenISO`, which was wrong twice over.
+ *
+ * It **collided**: `sourceUrl` was absent, while every other part of the
+ * pipeline treats the source url as the record's identity and deletes by it.
+ * `asManualReview` uses a constant title, so when the classifier was
+ * unavailable — an all-or-nothing condition, so it fails for every page of a
+ * round at once — all of one organisation's unjudged pages hashed to a single
+ * id, collapsed into one entry in a map keyed by id, and the rest were lost
+ * before they ever reached the review queue.
+ *
+ * And it was **unstable**: hashing the title meant a page whose wording shifted
+ * between runs minted a new id, so anything a reader had attached to a record
+ * (interested, applied, ignored) came unstuck on the next re-reading. A title
+ * is what a record says, not which record it is.
+ *
+ * Identity is therefore the organisation, the page, and the day the page was
+ * first seen. All three are facts about provenance, and none of them moves when
+ * the classifier reads the page again.
+ */
+const idFor = (orgId: string, sourceUrl: string, firstSeenISO: string): string =>
+  createHash("sha256").update(`${orgId}|${sourceUrl}|${firstSeenISO}`).digest("hex").slice(0, 16);
 
 /**
  * Only dates justify a window state. With neither an opening nor a closing
@@ -120,16 +142,34 @@ function absoluteApplyUrl(candidate: string | null, sourceUrl: string): string |
  * date with no year, both are refused: the day and month are known and the year
  * is not, and inventing it is how a deadline gets missed by a year.
  */
-function resolveDate(iso: string | null, raw: string | null): string | null {
-  if (raw) {
-    const read = parseArabicDate(raw);
+function resolveDate(
+  iso: string | null,
+  raw: string | null,
+  end: "first" | "last",
+): string | null {
+  if (raw !== null && raw.trim() !== "") {
+    const read = parseArabicDateRange(raw, end);
     if (read.iso !== null) return read.iso;
-    // A year the page never wrote is not supplied by us, and the model's
-    // guess at it is not better for having come from a model.
-    if (read.ambiguousYear) return null;
+    /*
+     * The page wrote something and we could not read it, so we do not have a
+     * date. The model's own conversion is not the answer here, and reaching for
+     * it was the failure this module was written to prevent.
+     *
+     * That fall-through used to happen far more often than it looks: any shape
+     * the month table missed came back with `ambiguousYear: false` — not
+     * "ambiguous", simply "not found" — so the guard below never fired and the
+     * model's Hijri conversion was stored as though the table had produced it.
+     * "غرة رمضان 1448", which this file's own documentation lists as supported,
+     * was one of them, and it stored the model's 2027-01-01 against a real date
+     * of 2027-02-08.
+     *
+     * No date is a state the record and the interface both handle. A wrong date
+     * is a missed semester.
+     */
+    return null;
   }
   if (iso === null) return null;
-  const fallback = parseArabicDate(iso);
+  const fallback = parseArabicDateRange(iso, end);
   return fallback.iso;
 }
 
@@ -154,16 +194,16 @@ export function fromClassification(args: Common & { c: Classification }): Opport
   const fit = reader === null ? null : relevanceOf(c, reader);
 
   return {
-    id: idFor(orgId, titleAr, firstSeenISO),
+    id: idFor(orgId, sourceUrl, firstSeenISO),
     orgId,
     titleAr,
     detectedISO: prior?.detectedISO ?? nowISO,
     firstSeenISO,
     lastConfirmedISO: nowISO,
     status,
-    opensISO: resolveDate(c.opensISO, c.opensRaw),
-    closesISO: resolveDate(c.closesISO, c.closesRaw),
-    closesHijri: hijriOf(resolveDate(c.closesISO, c.closesRaw)),
+    opensISO: resolveDate(c.opensISO, c.opensRaw, "first"),
+    closesISO: resolveDate(c.closesISO, c.closesRaw, "last"),
+    closesHijri: hijriOf(resolveDate(c.closesISO, c.closesRaw, "last")),
     product: c.product,
     majors: c.majors,
     seats: c.seats,
@@ -171,9 +211,18 @@ export function fromClassification(args: Common & { c: Classification }): Opport
     durationWeeks: c.durationWeeks,
     cities: c.cities,
     relevanceScore: fit?.score ?? null,
+    /*
+     * Two different absences, and the card has to say which one it is looking
+     * at. "Your profile names no field I recognise" is something the reader can
+     * fix in a minute; "this page named no field at all" is a fact about the
+     * page and a signal to open it himself. Printing the first sentence for
+     * both would send him to edit a profile that is perfectly fine.
+     */
     relevanceReason:
       fit?.reason ??
-      "لم تُحسب الملاءمة: ملفّك الشخصي لا يذكر تخصّصاً معروفاً، فلم يُحكم على قربها منك.",
+      (reader === null
+        ? "لم تُحسب الملاءمة: ملفّك الشخصي لا يذكر تخصّصاً معروفاً، فلم يُحكم على قربها منك."
+        : "لم تُحسب الملاءمة: لم يُذكر في الصفحة تخصّص ولا مجال، فلا يوجد ما يُقاس عليه. افتحها بنفسك."),
     statesZeroCoursesRule: c.statesZeroCoursesRule,
     zeroCoursesQuote: c.zeroCoursesQuote,
     flags: [
@@ -219,8 +268,18 @@ export function humanReason(reason: string): string {
    * from the paid era actually say, and they have to be translatable without
    * re-reading every page.
    */
+  /*
+   * Said without the project's own history in it.
+   *
+   * The sentence used to explain that this page went unjudged "back when
+   * classification was paid for". That is true, and it is the developer's story
+   * rather than the reader's: seventy-one cards were carrying a note about a
+   * billing arrangement that no longer exists, to somebody who never knew it
+   * did. What a reader needs from an unjudged card is what it means for him and
+   * what happens next, which is the same in every one of these cases.
+   */
   if (r.includes("credit balance") || r.includes("insufficient")) {
-    return "لم يُحكم على هذه الصفحة أيام كان التصنيف مدفوعاً. هي محفوظة، وستُقرأ في جولة قادمة بلا كلفة.";
+    return "لم يُحكم على هذه الصفحة بعد. هي محفوظة في الطابور وستُقرأ في جولة قادمة.";
   }
   if (r.includes("no_credentials") || r.includes("api_key") || r.includes("ollama") || r.includes("local model")) {
     return "المصنّف المحلّي لم يكن يعمل وقت القراءة. الصفحة محفوظة وستُقرأ في جولة قادمة.";
@@ -240,13 +299,43 @@ export function humanReason(reason: string): string {
   return "لم تُقرأ هذه الصفحة بعد. هي محفوظة في الطابور، ولم يُحكم عليها بشيء.";
 }
 
+/**
+ * The title a record carries when nothing has been read from its page yet.
+ *
+ * Exported because the collector has to be able to tell a bare placeholder from
+ * a record that holds a real reading of the page. It used to make that call by
+ * asking whether the record carried `needs_manual_review`, which is a flag the
+ * *previous* failed round adds to a perfectly good record, so the second
+ * consecutive failure deleted the very judgement the first one preserved.
+ */
+export const UNJUDGED_TITLE = "لم يُصنَّف بعد";
+
+/**
+ * The record for this page that must survive a failed re-read, if there is one.
+ *
+ * Lives here rather than inline in the collector so a gate can drive it
+ * directly. The rule it encodes: a reading of the page outranks the absence of
+ * one, however many rounds in a row the classifier has been unable to confirm
+ * it. Only when nothing but a placeholder exists may the placeholder be
+ * replaced.
+ */
+export function survivingRecord<T extends { sourceUrl: string; titleAr: string }>(
+  records: Iterable<T>,
+  sourceUrl: string,
+): T | undefined {
+  for (const o of records) {
+    if (o.sourceUrl === sourceUrl && o.titleAr !== UNJUDGED_TITLE) return o;
+  }
+  return undefined;
+}
+
 export function asManualReview(args: Common & { reason: string }): Opportunity {
   const { orgId, sourceUrl, text, nowISO, prior, reason } = args;
-  const titleAr = "لم يُصنَّف بعد";
+  const titleAr = UNJUDGED_TITLE;
   const firstSeenISO = prior?.firstSeenISO ?? nowISO;
 
   return {
-    id: idFor(orgId, titleAr, firstSeenISO),
+    id: idFor(orgId, sourceUrl, firstSeenISO),
     orgId,
     titleAr,
     detectedISO: prior?.detectedISO ?? nowISO,

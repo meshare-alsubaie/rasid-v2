@@ -1,0 +1,238 @@
+/**
+ * Three ways the collector used to destroy its own data, and the guards on them.
+ *
+ * Each of these was found by audit, not by a test, because the paths only run
+ * on a bad day: a mistyped flag, a classifier that has been down for two rounds,
+ * an organisation whose pages all fail at once. A bad day is exactly when the
+ * user is relying on the record that was already there.
+ *
+ * The pass criterion throughout is the audit's: **could this silently throw away
+ * something the user cannot get back?**
+ *
+ *   npm run test:records
+ */
+import { spawnSync } from "node:child_process";
+import { readFileSync, rmSync, writeFileSync } from "node:fs";
+import { createHash } from "node:crypto";
+import {
+  asManualReview,
+  fromClassification,
+  survivingRecord,
+  UNJUDGED_TITLE,
+} from "../src/pipeline/opportunity";
+import type { Classification } from "../src/pipeline/classify";
+import type { Opportunity } from "../src/types";
+
+let failures = 0;
+const check = (label: string, ok: boolean, detail = ""): void => {
+  console.log(`  ${ok ? "pass" : "FAIL"}  ${label}${detail ? `: ${detail}` : ""}`);
+  if (!ok) failures++;
+};
+
+const NOW = "2026-09-02T10:00:00.000Z";
+const common = (sourceUrl: string, prior?: Opportunity) => ({
+  orgId: "acme",
+  sourceUrl,
+  text: "نص الصفحة",
+  nowISO: NOW,
+  prior,
+  firstTime: true,
+});
+
+const classification = (titleAr: string): Classification => ({
+  isTrainingAnnouncement: true,
+  product: "coop",
+  titleAr,
+  opensISO: null,
+  closesISO: null,
+  opensRaw: null,
+  closesRaw: null,
+  moreOnPage: false,
+  majors: ["الأمن السيبراني"],
+  seats: null,
+  stipendSAR: null,
+  durationWeeks: null,
+  cities: [],
+  statesZeroCoursesRule: false,
+  zeroCoursesQuote: null,
+  applyUrl: null,
+});
+
+/* ---------- ق‑٤٣ · one id per page, and it does not move ---------- */
+
+console.log("\nrecord identity");
+
+const a = asManualReview({ ...common("https://acme.sa/coop/ar"), reason: "api — down" });
+const b = asManualReview({ ...common("https://acme.sa/coop/en"), reason: "api — down" });
+const c = asManualReview({ ...common("https://acme.sa/careers"), reason: "api — down" });
+
+check(
+  "three unjudged pages of one organisation get three ids",
+  new Set([a.id, b.id, c.id]).size === 3,
+  `${a.id} ${b.id} ${c.id}`,
+);
+
+/*
+ * The collector stores records in a Map keyed by id, so a collision is not a
+ * cosmetic clash: the later record overwrites the earlier one and the earlier
+ * page is gone from the round entirely. This asserts the consequence, not just
+ * the hash, because the consequence is what the user loses.
+ */
+const stored = new Map([a, b, c].map((o) => [o.id, o]));
+check("all three survive a map keyed by id", stored.size === 3, `${stored.size} of 3`);
+
+const titleShifted = [
+  fromClassification({ ...common("https://acme.sa/coop/ar"), c: classification("برنامج التدريب التعاوني") }),
+  fromClassification({ ...common("https://acme.sa/coop/ar"), c: classification("التدريب التعاوني ١٤٤٨") }),
+];
+check(
+  "re-reading a page with different wording keeps the same id",
+  titleShifted[0]!.id === titleShifted[1]!.id,
+  `${titleShifted[0]!.id} vs ${titleShifted[1]!.id}`,
+);
+
+/*
+ * The seeded fault. This is the old scheme, written out here so the gate fails
+ * if anyone puts it back: it is stable against nothing and collides on the
+ * constant placeholder title.
+ */
+const legacyId = (o: Opportunity): string =>
+  createHash("sha256").update(`${o.orgId}|${o.titleAr}|${o.firstSeenISO}`).digest("hex").slice(0, 16);
+check(
+  "the old title-based scheme is genuinely broken (seeded fault)",
+  legacyId(a) === legacyId(b) && legacyId(titleShifted[0]!) !== legacyId(titleShifted[1]!),
+  "collides across pages and moves when the title moves",
+);
+
+/* ---------- ق‑٣ · a failed re-read never deletes a real reading ---------- */
+
+console.log("\nsurviving a classifier outage");
+
+const judged: Opportunity = {
+  ...fromClassification({
+    ...common("https://acme.sa/coop/ar"),
+    c: classification("برنامج التدريب التعاوني"),
+  }),
+};
+const placeholder = asManualReview({ ...common("https://acme.sa/other"), reason: "api — down" });
+
+check(
+  "a real record is found before any failure",
+  survivingRecord([judged, placeholder], "https://acme.sa/coop/ar")?.id === judged.id,
+);
+
+// Round one fails: the collector flags the good record and keeps it.
+const flagged: Opportunity = { ...judged, flags: [...judged.flags, "needs_manual_review"] };
+
+check(
+  "round two still finds it, though round one flagged it",
+  survivingRecord([flagged, placeholder], "https://acme.sa/coop/ar")?.id === judged.id,
+);
+check(
+  "and it still carries the title the page gave",
+  survivingRecord([flagged, placeholder], "https://acme.sa/coop/ar")?.titleAr === "برنامج التدريب التعاوني",
+);
+check(
+  "a bare placeholder is not mistaken for a real reading",
+  survivingRecord([placeholder], "https://acme.sa/other") === undefined,
+);
+
+/*
+ * The seeded fault: the old predicate, which asked whether the record was
+ * unflagged rather than whether it held a reading. On round two it finds
+ * nothing, and the collector's `else` branch deletes every record for the page.
+ */
+const legacyFind = (rows: Opportunity[], url: string): Opportunity | undefined =>
+  rows.find((o) => o.sourceUrl === url && !o.flags.includes("needs_manual_review"));
+check(
+  "the old flag-based predicate is genuinely broken (seeded fault)",
+  legacyFind([flagged, placeholder], "https://acme.sa/coop/ar") === undefined,
+  "round two would have deleted the judgement round one preserved",
+);
+
+check("the placeholder title constant is what asManualReview writes", placeholder.titleAr === UNJUDGED_TITLE);
+
+/* ---------- ق‑٢ · a malformed --limit refuses instead of erasing ---------- */
+
+console.log("\nthe flag that used to wipe the dataset");
+
+const before = readFileSync("data/health.json", "utf8").length;
+for (const arg of [[], ["abc"], ["0"], ["-3"], ["2.5"]]) {
+  const shown = arg.length === 0 ? "(nothing)" : arg[0]!;
+  const run = spawnSync("npx", ["tsx", "scripts/collect.ts", "--limit", ...arg], {
+    encoding: "utf8",
+    shell: true,
+    timeout: 60_000,
+  });
+  check(`--limit ${shown} refuses with exit 2`, run.status === 2, `exit ${String(run.status)}`);
+}
+check(
+  "and health.json was not touched by any of them",
+  readFileSync("data/health.json", "utf8").length === before,
+);
+
+/* ---------- ق‑١ · a round always reaches its own write ---------- */
+
+console.log("\nthe deadline that replaces being killed");
+
+{
+  /*
+   * Behavioural. The collector is given a deadline it has already missed, and
+   * has to stop, report, write, and exit cleanly — rather than run on until the
+   * watcher kills it and the whole round's reading is discarded.
+   */
+  const urls = "data/.deadline-probe.txt";
+  const orgs = JSON.parse(readFileSync("data/organisations.json", "utf8").replace(/^﻿/, "")) as {
+    sources: { url: string; verifiedAtISO: string | null }[];
+  }[];
+  const sample = orgs
+    .flatMap((o) => o.sources.filter((s) => s.verifiedAtISO !== null).map((s) => s.url))
+    .slice(0, 3);
+  writeFileSync(urls, sample.join("\n") + "\n", "utf8");
+
+  const healthBefore = readFileSync("data/health.json", "utf8");
+  const run = spawnSync("npx", ["tsx", "scripts/collect.ts", "--urls", urls], {
+    encoding: "utf8",
+    shell: true,
+    timeout: 120_000,
+    env: { ...process.env, RASID_RUN_DEADLINE_MS: "1" },
+  });
+  rmSync(urls, { force: true });
+
+  check("a round past its deadline still exits 0", run.status === 0, `exit ${String(run.status)}`);
+  check(
+    "and says how many sources it did not open",
+    /deadline\s+reached after .*; 3 source\(s\) not opened and still due/.test(run.stdout ?? ""),
+    (run.stdout ?? "").split("\n").filter((l) => l.includes("deadline")).join("") || "no deadline line",
+  );
+  check(
+    "sources it did not open keep their health record, so they stay due",
+    readFileSync("data/health.json", "utf8") === healthBefore,
+  );
+}
+
+{
+  /*
+   * Structural, and named as such: these two live inside the watcher's own loop,
+   * which cannot be imported without starting it. What they guard is the pair of
+   * mistakes that made ق‑١ fatal — two ceilings set independently, and a kill
+   * treated as though it were an ordinary failure.
+   */
+  const src = readFileSync("scripts/watch.ts", "utf8");
+  check(
+    "the collector's deadline is derived from the kill timer, not set beside it",
+    /COLLECT_DEADLINE_MS\s*=\s*Math\.max\([^)]*CHILD_TIMEOUT_MS\s*-\s*WRITE_MARGIN_MS/.test(src),
+  );
+  check(
+    "and it is handed to the child",
+    /RASID_RUN_DEADLINE_MS:\s*String\(COLLECT_DEADLINE_MS\)/.test(src),
+  );
+  check(
+    "a killed round does not advance the schedule",
+    /collectExit === 124[\s\S]{0,200}stay due[\s\S]{0,120}else\s*\{[\s\S]{0,160}markChecked/.test(src),
+    "a kill writes nothing at all, so marking the sources checked is a false green light",
+  );
+}
+
+console.log(`\n${failures === 0 ? "all record guards hold" : `${failures} check(s) failed`}`);
+process.exit(failures === 0 ? 0 : 1);

@@ -12,6 +12,7 @@ import "./style.css";
 import { VAPID_PUBLIC_KEY } from "./vapid";
 import { loadDataset, formatDate, timeAgo, daysUntil, type Dataset } from "./data";
 import { renderSeasonBar, type LaneInput } from "./season-bar";
+import { humanError, sectorLabel } from "./messages";
 import { hijriOf, unattested } from "../types";
 import type { Attested, Opportunity, Organisation, Provenance } from "../types";
 
@@ -50,6 +51,7 @@ const THEMES: [string, string, string][] = [
 const app = document.getElementById("app")!;
 const esc = (s: string): string =>
   s.replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]!);
+
 
 /* ---------- local state, never a server ---------- */
 
@@ -142,10 +144,26 @@ const band = (o: Opportunity): string =>
  */
 const urgency = (o: Opportunity): string => (o.status === "closing_soon" ? " closing-soon" : "");
 
-const scoreLabel = (o: Opportunity): string =>
-  o.relevanceScore === null
+/**
+ * The number, and what it is a number about.
+ *
+ * It read "صلة" and nothing else, over a figure computed entirely against one
+ * stored profile. That reads as a property of the announcement — how good this
+ * opportunity is — when it is a property of the *pairing*, and the other half of
+ * the pairing was invisible. Anyone else opening the link was being shown
+ * somebody else's fit with no way to know it.
+ *
+ * The field comes from `data/score-basis.json`, which carries the profile's
+ * field label and nothing else about the profile. When it is missing the old
+ * wording stands, because a wrong label is worse than a terse one.
+ */
+const scoreLabel = (o: Opportunity): string => {
+  const field = data.scoreBasis?.fieldLabel ?? null;
+  const caption = field === null ? "صلة" : `صلة بـ${field}`;
+  return o.relevanceScore === null
     ? `<span class="score unscored">؟<small>لم يُصنَّف</small></span>`
-    : `<span class="score">${o.relevanceScore}<small>صلة</small></span>`;
+    : `<span class="score">${o.relevanceScore}<small>${esc(caption)}</small></span>`;
+};
 
 /**
  * Where a value came from, said in the same breath as the value.
@@ -340,11 +358,24 @@ function answerBlock(): string {
    */
   const sinceCheck =
     data.lastCheckISO === null ? Infinity : (Date.now() - Date.parse(data.lastCheckISO)) / 3_600_000;
+  /*
+   * Three hours, because the cadence this was written against no longer exists.
+   *
+   * The threshold was twelve hours and the sentence said "every six", both of
+   * them describing a scheduled task that ran four times a day and has since
+   * been switched off. The resident watcher wakes every minute and the shortest
+   * tier is checked every fifteen, so a round completes many times an hour on
+   * any working day. Twelve hours of silence was therefore not "late", it was
+   * dead — and the app said nothing for the whole of it.
+   *
+   * Three hours is well clear of a quiet stretch where nothing happened to be
+   * due, and far short of a night spent believing a stopped watcher is working.
+   */
   const stalled =
-    sinceCheck > 12
-      ? `<p class="stalled">⚠ لم تعمل جولة قراءة منذ ${
+    sinceCheck > 3
+      ? `<p class="stalled">⚠ لم تكتمل جولة قراءة منذ ${
           sinceCheck === Infinity ? "بدء التطبيق" : `${Math.floor(sinceCheck)} ساعة`
-        }، والمفترض كل ٦. ما تراه هنا قديم، وقد تكون فُتحت نوافذ لا يعرف بها. افحص الجهات المهمة بنفسك حتى تعود الجولة.</p>`
+        }، والمراقب يقرأ ما يستحقّ القراءة كل ربع ساعة. ما تراه هنا قديم، وقد تكون فُتحت نوافذ لا يعرف بها. افحص الجهات المهمة بنفسك حتى تعود الجولة.</p>`
       : "";
 
   /*
@@ -364,7 +395,28 @@ function answerBlock(): string {
     lastPush === null ? null : (Date.now() - Date.parse(lastPush)) / 86_400_000;
   const pushSilent =
     collectorAlive && daysSincePush !== null && daysSincePush > 7
-      ? `<p class="stalled">⚠ لم يصل أي إشعار منذ ${Math.floor(daysSincePush)} يوماً، والجولات تعمل. قد تكون الإشعارات معطّلة على هذا الجهاز — افتح الإعدادات واضغط «جرّب إشعاراً الآن».</p>`
+      ? `<p class="stalled">⚠ لم يصل أي إشعار منذ ${Math.floor(daysSincePush)} يوماً، والجولات تعمل. قد تكون الإشعارات معطّلة على هذا الجهاز، افتح الإعدادات واضغط «جرّب إشعاراً الآن».</p>`
+      : "";
+
+  /*
+   * What the sender itself last saw, which the watchdog above cannot know.
+   *
+   * The check above waits seven days and only ever runs on the device that
+   * received the last push, so it is blind to the failure that actually
+   * happened: the browser discarded the subscription, every send since has come
+   * back HTTP 410, and no device has anything to count from. The notifier knows
+   * this on its very first failed send, so it writes it down, and this is where
+   * it is read. Said in the first person of the system, with the one action that
+   * fixes it, because nobody can act on "delivery failed".
+   */
+  const channel = data.notifyHealth;
+  const pushDown =
+    channel !== null && channel.state === "down"
+      ? `<p class="stalled">⚠ لا يصل إلى جوّالك شيء الآن.<br>${esc(channel.reason)}${
+          channel.heldCount > 0
+            ? `<br>محفوظ لك ${channel.heldCount} تنبيهاً، وسيصلك أول ما يعود الاشتراك.`
+            : ""
+        }</p>`
       : "";
 
   /*
@@ -386,6 +438,7 @@ function answerBlock(): string {
 
   return `<section class="answer" aria-label="الحالة اليوم">
     ${stalled}
+    ${pushDown}
     ${classifierDown}
     ${pushSilent}
     ${headline}
@@ -536,7 +589,7 @@ function seasonScreen(): string {
       }، و${silent} جهة قُرئت ولم تنشر شيئاً${
         unread > 0 ? `، و<strong>${unread} جهة لم تُقرأ</strong> فلا يُعرف عنها شيء` : ""
       }.
-      لا تُعطى الجهة درجة صلة، لأن الدرجة تُقاس على إعلان بعينه — وجهة صامتة لا إعلان لها تُقاس.
+      لا تُعطى الجهة درجة صلة، لأن الدرجة تُقاس على إعلان بعينه، وجهة صامتة لا إعلان لها تُقاس.
     </p>
     ${
       shownLanes.length === 0
@@ -592,7 +645,14 @@ function orgsScreen(): string {
       <input id="q" type="search" placeholder="ابحث باسم الجهة" value="${esc(query)}" aria-label="ابحث باسم الجهة" />
       <select id="sector" aria-label="القطاع">
         <option value="">كل القطاعات</option>
-        ${sectors.map((s) => `<option value="${s}"${s === sector ? " selected" : ""}>${s}</option>`).join("")}
+        ${/* The value stays the dataset's own word, because that is what the
+              filter compares against; only the label is the reader's. */ ""}
+        ${sectors
+          .map(
+            (s) =>
+              `<option value="${esc(s)}"${s === sector ? " selected" : ""}>${esc(sectorLabel(s))}</option>`,
+          )
+          .join("")}
       </select>
       <select id="tier" aria-label="الفئة">
         <option value="">كل الفئات</option>
@@ -728,7 +788,7 @@ function notificationsCard(): string {
     d.permission === "granted"
       ? "مسموح"
       : d.permission === "denied"
-        ? "مرفوض — أعد السماح من إعدادات الموقع في المتصفّح"
+        ? "مرفوض، أعد السماح من إعدادات الموقع في المتصفّح"
         : d.permission === "default"
           ? "لم يُسأل بعد"
           : "المتصفّح لا يعرف الإشعارات";
@@ -747,7 +807,7 @@ function notificationsCard(): string {
       : `<p class="reason">آخر إشعار وصل هذا الجهاز: <strong>${timeAgo(d.lastArrival.at)}</strong> (${d.lastArrival.via === "push" ? "من الخادم" : "تجربة محلية"})${d.lastArrival.title ? ` — ${esc(d.lastArrival.title)}` : ""}.</p>
          ${
            lastServerPush === null
-             ? `<p class="reason warn">ولم يصل أي إشعار <strong>من الخادم</strong> بعد. التجربة المحلية تُثبت أن جهازك يعرض الإشعارات، ولا تُثبت أن الخادم يصل إليك وأنت نائم — وهذا هو ما تعتمد عليه.</p>`
+             ? `<p class="reason warn">ولم يصل أي إشعار <strong>من الخادم</strong> بعد. التجربة المحلية تُثبت أن جهازك يعرض الإشعارات، ولا تُثبت أن الخادم يصل إليك وأنت نائم، وهذا هو ما تعتمد عليه.</p>`
              : `<p class="reason">وآخر إشعار من الخادم: <strong>${timeAgo(lastServerPush)}</strong>. هذه هي الحلقة التي تهمّ.</p>`
          }`;
 
@@ -758,7 +818,7 @@ function notificationsCard(): string {
     <ul class="diag">
       ${diagRow("المتصفّح يدعم التنبيهات", d.supported, d.supported ? "نعم" : "لا")}
       ${diagRow("الإذن", d.permission === "granted", permText)}
-      ${diagRow("عامل الخدمة نشط", d.workerReady, d.workerReady ? "نعم" : "غير مسجَّل — أعد تحميل الصفحة")}
+      ${diagRow("عامل الخدمة نشط", d.workerReady, d.workerReady ? "نعم" : "غير مسجَّل، أعد تحميل الصفحة")}
       ${diagRow("هذا الجهاز مشترك", d.subscribed, d.subscribed ? `نعم …${d.endpointTail}` : "لا")}
       ${diagRow("مفتاح الإرسال مبنيّ", d.keyPresent, d.keyPresent ? "نعم" : "ناقص في البناء")}
     </ul>
@@ -797,12 +857,24 @@ function checkFollowUps(): void {
   if (due.length === 0) return;
 
   void navigator.serviceWorker.ready.then((reg) => {
+    /*
+     * Marked as reminded only if the message actually went.
+     *
+     * `reg.active?.postMessage(...)` does nothing at all when the worker is not
+     * yet active, which happens on the first load after an update — and the very
+     * next line recorded the reminder as sent regardless. The entry is permanent,
+     * so that reminder was then never sent again: the one nudge two weeks after
+     * an application, silently swallowed by an optional chain.
+     */
+    const worker = reg.active;
+    if (worker === null) return;
+
     for (const [id] of due) {
       const title = data.opportunities.find((o) => o.id === id)?.titleAr ?? "فرصة قدّمت عليها";
-      reg.active?.postMessage({
+      worker.postMessage({
         type: "follow-up",
         title: "⏱ مضى أسبوعان على تقديمك",
-        body: `${title} — تابع الجهة إن لم يصلك ردّ.`,
+        body: `${title}، تابع الجهة إن لم يصلك ردّ.`,
         tag: `rasid-follow-${id}`,
       });
       reminded[id] = new Date().toISOString();
@@ -922,11 +994,11 @@ function settingsScreen(): string {
       </dl>
       <p class="reason">
         هذه القيم تُضبط في الجولة الآلية نفسها، لا في المتصفّح، لأن الإرسال يحدث والتطبيق مغلق.
-        عُرضت هنا لتعرفها، ولم تُعرض كأزرار لأن ضغطها لن يغيّر شيئاً — وزرّ لا يفعل شيئاً أسوأ من غيابه.
+        عُرضت هنا لتعرفها، ولم تُعرض كأزرار لأن ضغطها لن يغيّر شيئاً، وزرّ لا يفعل شيئاً أسوأ من غيابه.
       </p>
       <p class="reason">
         وحدّ واحد معروف: تنبيه «يغلق قريباً» يصلك حتى لو علّمت الفرصة «قدّمت». علاماتك محفوظة
-        في هذا الجهاز وحده ولا يراها المُرسِل، وهذا مقصود — لا حساب ولا قاعدة بيانات تحفظ ما تفعله.
+        في هذا الجهاز وحده ولا يراها المُرسِل، وهذا مقصود، لا حساب ولا قاعدة بيانات تحفظ ما تفعله.
       </p>
     </div>
     <div class="card">
@@ -991,7 +1063,9 @@ function honestyLine(): string {
     </button>
     ${
       tierSA.length > 0 && !bannerDismissed
-        ? `<div class="banner" role="status">مصدر من الفئة S أو A لا يُقرأ الآن (${esc(tierSA.map((h) => h.orgId).join("، "))}). افحصه بنفسك.<button id="dismiss">إخفاء</button></div>`
+        ? `<div class="banner" role="status">مصدر من الفئة S أو A لا يُقرأ الآن (${esc(
+            [...new Set(tierSA.map((h) => data.orgById.get(h.orgId)?.nameAr ?? h.orgId))].join("، "),
+          )}). افحصه بنفسك.<button id="dismiss">إخفاء</button></div>`
         : ""
     }
     <div id="health-panel" hidden>
@@ -1005,7 +1079,7 @@ function honestyLine(): string {
                 { healthy: "سليم", degraded: "متعثّر", broken: "معطوب" }[h.state]
               }، آخر نجاح ${timeAgo(h.lastSuccessISO)}
               <div class="url">${esc(h.sourceUrl)}</div>
-              ${h.lastError ? `<div>${esc(h.lastError)}</div>` : ""}
+              ${h.lastError ? `<div>${esc(humanError(h.lastError))}</div>` : ""}
             </li>`,
           )
           .join("")}
@@ -1272,9 +1346,10 @@ async function subscribeToPush(): Promise<void> {
      */
     out.innerHTML = `
       <strong>تمّ تسجيل هذا الجهاز.</strong>
-      <span>لا يوجد خادم ولا حساب، فتسجيل الجهاز نفسه هو ما يُحفظ — احتفظ بالنصّ التالي مرّة واحدة،
-      ويُضبط في إعدادات الجولة الآلية باسم <code>RASID_PUSH_SUBSCRIPTION</code>. لن تحتاجه ثانيةً
-      ما لم تُلغِ الإذن أو تُعِد تثبيت التطبيق.</span>
+      <span>راصد يعمل بلا خادم وبلا حساب: التنبيهات تُرسَل من الجهاز الذي يشغّل المراقب،
+      وهو يحتاج أن يعرف جهازك. انسخ النصّ التالي وسلّمه لمن يشغّل المراقب، أو ضعه بنفسك
+      في ملفّ <code>.env</code> باسم <code>RASID_PUSH_SUBSCRIPTION</code> إن كنت أنت من
+      يشغّله. مرّة واحدة تكفي، ولن تحتاجه ثانيةً ما لم تُلغِ الإذن أو تُعِد تثبيت التطبيق.</span>
       <textarea class="sub-out" readonly rows="4">${esc(json)}</textarea>
       <button class="secondary" id="copy-sub">انسخ</button>
       <span id="copy-done" class="chip yes" hidden>نُسخ</span>`;

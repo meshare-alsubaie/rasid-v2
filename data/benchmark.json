@@ -1,16 +1,17 @@
 {
-  "promptHash": "c5771ac466527912",
-  "builtISO": "2026-08-31T20:00:32.307Z",
-  "model": "claude-sonnet-5",
+  "promptHash": "011057241183a86a",
+  "builtISO": "2026-09-02T23:36:53.166Z",
+  "model": "qwen3:8b",
   "answers": {
     "cyber_1": {
       "isTrainingAnnouncement": true,
       "product": "coop",
-      "titleAr": "برنامج التدريب التعاوني — الهيئة الوطنية للأمن السيبراني",
+      "titleAr": "إعلان برنامج التدريب التعاوني — الهيئة الوطنية للأمن السيبراني",
       "opensISO": null,
-      "closesISO": null,
+      "closesISO": "2026-10-12",
       "opensRaw": null,
       "closesRaw": "12 ربيع الأول 1448",
+      "moreOnPage": false,
       "majors": [
         "الأمن السيبراني",
         "أمن المعلومات",
@@ -24,8 +25,6 @@
       ],
       "statesZeroCoursesRule": false,
       "zeroCoursesQuote": null,
-      "relevanceScore": 95,
-      "relevanceReason": "",
       "applyUrl": null
     },
     "cyber_2": {
@@ -33,9 +32,10 @@
       "product": "coop",
       "titleAr": "برنامج التدريب التعاوني بسدايا",
       "opensISO": null,
-      "closesISO": null,
+      "closesISO": "2027-03-12",
       "opensRaw": null,
       "closesRaw": "١٤٤٨/٣/١٢",
+      "moreOnPage": false,
       "majors": [
         "الأمن السيبراني",
         "علوم البيانات"
@@ -46,8 +46,6 @@
       "cities": [],
       "statesZeroCoursesRule": false,
       "zeroCoursesQuote": null,
-      "relevanceScore": 95,
-      "relevanceReason": "",
       "applyUrl": null
     },
     "cyber_3": {
@@ -58,17 +56,16 @@
       "closesISO": null,
       "opensRaw": null,
       "closesRaw": "12 ربيع الآخر 1448",
+      "moreOnPage": false,
       "majors": [
-        "أمن المعلومات"
+        "إدارة أمن المعلومات"
       ],
       "seats": null,
       "stipendSAR": null,
-      "durationWeeks": 24,
+      "durationWeeks": 8,
       "cities": [],
-      "statesZeroCoursesRule": false,
-      "zeroCoursesQuote": null,
-      "relevanceScore": 95,
-      "relevanceReason": "",
+      "statesZeroCoursesRule": true,
+      "zeroCoursesQuote": "يُشترط أن يكون التدريب التعاوني متطلب تخرج",
       "applyUrl": null
     },
     "cyber_4": {
@@ -79,6 +76,7 @@
       "closesISO": "2026-09-15",
       "opensRaw": null,
       "closesRaw": "2026-09-15",
+      "moreOnPage": false,
       "majors": [
         "الأمن السيبراني",
         "نظم المعلومات"
@@ -88,9 +86,7 @@
       "durationWeeks": null,
       "cities": [],
       "statesZeroCoursesRule": true,
-      "zeroCoursesQuote": "يشترط تفريغ الطالب كامل الوقت",
-      "relevanceScore": 95,
-      "relevanceReason": "",
+      "zeroCoursesQuote": "تفريغ الطالب كامل الوقت",
       "applyUrl": null
     },
     "cyber_5": {
@@ -101,6 +97,7 @@
       "closesISO": null,
       "opensRaw": null,
       "closesRaw": "٥ جمادى الأولى ١٤٤٨",
+      "moreOnPage": false,
       "majors": [
         "حوكمة الأمن السيبراني",
         "إدارة المخاطر السيبرانية",
@@ -110,12 +107,10 @@
       "stipendSAR": null,
       "durationWeeks": null,
       "cities": [
-        "الرياض"
+        "المقر الرياض"
       ],
       "statesZeroCoursesRule": false,
       "zeroCoursesQuote": null,
-      "relevanceScore": 95,
-      "relevanceReason": "",
       "applyUrl": null
     },
     "it_1": {
@@ -126,6 +121,7 @@
       "closesISO": "2026-10-01",
       "opensRaw": null,
       "closesRaw": "2026-10-01",
+      "moreOnPage": false,
       "majors": [
         "علوم الحاسب",
         "نظم المعلومات",
@@ -137,8 +133,6 @@
       "cities": [],
       "statesZeroCoursesRule": false,
       "zeroCoursesQuote": null,
-      "relevanceScore": 70,
-      "relevanceReason": "",
       "applyUrl": null
     },
     "it_2": {
@@ -149,6 +143,7 @@
       "closesISO": null,
       "opensRaw": null,
       "closesRaw": null,
+      "moreOnPage": false,
       "majors": [
         "علوم الحاسب",
         "هندسة البرمجيات"
@@ -159,8 +154,6 @@
       "cities": [],
       "statesZeroCoursesRule": false,
       "zeroCoursesQuote": null,
-      "relevanceScore": 65,
-      "relevanceReason": "",
       "applyUrl": null
     },
     "it_3": {
@@ -171,6 +164,7 @@
       "closesISO": null,
       "opensRaw": null,
       "closesRaw": null,
+      "moreOnPage": false,
       "majors": [
         "نظم المعلومات",
         "علوم البيانات",
@@ -182,8 +176,6 @@
       "cities": [],
       "statesZeroCoursesRule": false,
       "zeroCoursesQuote": null,
-      "relevanceScore": 65,
-      "relevanceReason": "",
       "applyUrl": null
     },
     "it_4": {
@@ -194,6 +186,7 @@
       "closesISO": null,
       "opensRaw": null,
       "closesRaw": null,
+      "moreOnPage": false,
       "majors": [
         "هندسة الشبكات",
         "تقنية المعلومات"
@@ -206,30 +199,6 @@
       ],
       "statesZeroCoursesRule": false,
       "zeroCoursesQuote": null,
-      "relevanceScore": 65,
-      "relevanceReason": "",
-      "applyUrl": null
-    },
-    "it_5": {
-      "isTrainingAnnouncement": true,
-      "product": "coop",
-      "titleAr": "برنامج التدريب التعاوني — الدعم التقني",
-      "opensISO": null,
-      "closesISO": null,
-      "opensRaw": null,
-      "closesRaw": null,
-      "majors": [
-        "تقنية المعلومات",
-        "علوم الحاسب"
-      ],
-      "seats": null,
-      "stipendSAR": null,
-      "durationWeeks": 12,
-      "cities": [],
-      "statesZeroCoursesRule": false,
-      "zeroCoursesQuote": null,
-      "relevanceScore": 35,
-      "relevanceReason": "",
       "applyUrl": null
     },
     "unrelated_1": {
@@ -240,6 +209,7 @@
       "closesISO": null,
       "opensRaw": null,
       "closesRaw": null,
+      "moreOnPage": false,
       "majors": [
         "الصيدلة الإكلينيكية"
       ],
@@ -249,8 +219,6 @@
       "cities": [],
       "statesZeroCoursesRule": false,
       "zeroCoursesQuote": null,
-      "relevanceScore": 0,
-      "relevanceReason": "",
       "applyUrl": null
     },
     "unrelated_2": {
@@ -261,8 +229,9 @@
       "closesISO": "2026-09-20",
       "opensRaw": null,
       "closesRaw": "2026-09-20",
+      "moreOnPage": false,
       "majors": [
-        "التمريض"
+        "تمريض"
       ],
       "seats": null,
       "stipendSAR": null,
@@ -270,8 +239,6 @@
       "cities": [],
       "statesZeroCoursesRule": false,
       "zeroCoursesQuote": null,
-      "relevanceScore": 0,
-      "relevanceReason": "",
       "applyUrl": null
     },
     "unrelated_3": {
@@ -282,6 +249,7 @@
       "closesISO": null,
       "opensRaw": null,
       "closesRaw": null,
+      "moreOnPage": false,
       "majors": [
         "علوم التغذية"
       ],
@@ -293,8 +261,6 @@
       ],
       "statesZeroCoursesRule": false,
       "zeroCoursesQuote": null,
-      "relevanceScore": 0,
-      "relevanceReason": "",
       "applyUrl": null
     },
     "unrelated_4": {
@@ -305,6 +271,7 @@
       "closesISO": null,
       "opensRaw": null,
       "closesRaw": null,
+      "moreOnPage": false,
       "majors": [
         "إدارة الموارد البشرية",
         "إدارة الأعمال"
@@ -315,8 +282,6 @@
       "cities": [],
       "statesZeroCoursesRule": false,
       "zeroCoursesQuote": null,
-      "relevanceScore": 5,
-      "relevanceReason": "",
       "applyUrl": null
     },
     "unrelated_5": {
@@ -327,6 +292,7 @@
       "closesISO": null,
       "opensRaw": null,
       "closesRaw": null,
+      "moreOnPage": false,
       "majors": [
         "الهندسة المدنية"
       ],
@@ -338,8 +304,6 @@
       ],
       "statesZeroCoursesRule": false,
       "zeroCoursesQuote": null,
-      "relevanceScore": 0,
-      "relevanceReason": "",
       "applyUrl": null
     },
     "graddev_1": {
@@ -347,18 +311,19 @@
       "product": "graduate_dev",
       "titleAr": "برنامج تطوير الخريجين المنتهي بالتوظيف",
       "opensISO": null,
-      "closesISO": null,
+      "closesISO": "2026-12-12",
       "opensRaw": null,
       "closesRaw": "12 ربيع الأول 1448",
-      "majors": [],
+      "moreOnPage": false,
+      "majors": [
+        "بكالوريوس"
+      ],
       "seats": null,
       "stipendSAR": null,
-      "durationWeeks": 52,
+      "durationWeeks": 48,
       "cities": [],
       "statesZeroCoursesRule": false,
       "zeroCoursesQuote": null,
-      "relevanceScore": 0,
-      "relevanceReason": "",
       "applyUrl": null
     },
     "graddev_2": {
@@ -369,17 +334,16 @@
       "closesISO": null,
       "opensRaw": null,
       "closesRaw": null,
+      "moreOnPage": false,
       "majors": [
         "الأمن السيبراني"
       ],
       "seats": null,
       "stipendSAR": null,
-      "durationWeeks": null,
+      "durationWeeks": 52,
       "cities": [],
       "statesZeroCoursesRule": false,
       "zeroCoursesQuote": null,
-      "relevanceScore": 0,
-      "relevanceReason": "",
       "applyUrl": null
     },
     "graddev_3": {
@@ -390,15 +354,16 @@
       "closesISO": null,
       "opensRaw": null,
       "closesRaw": null,
-      "majors": [],
+      "moreOnPage": false,
+      "majors": [
+        "البكالوريوس فأعلى"
+      ],
       "seats": null,
       "stipendSAR": null,
       "durationWeeks": 24,
       "cities": [],
       "statesZeroCoursesRule": false,
       "zeroCoursesQuote": null,
-      "relevanceScore": 0,
-      "relevanceReason": "",
       "applyUrl": null
     },
     "graddev_4": {
@@ -409,17 +374,16 @@
       "closesISO": null,
       "opensRaw": null,
       "closesRaw": "5 جمادى الآخرة 1448",
+      "moreOnPage": false,
       "majors": [
-        "تخصصات الحاسب"
+        "تقنية المعلومات"
       ],
       "seats": null,
       "stipendSAR": null,
-      "durationWeeks": 72,
+      "durationWeeks": null,
       "cities": [],
       "statesZeroCoursesRule": false,
       "zeroCoursesQuote": null,
-      "relevanceScore": 0,
-      "relevanceReason": "",
       "applyUrl": null
     },
     "graddev_5": {
@@ -430,6 +394,7 @@
       "closesISO": null,
       "opensRaw": null,
       "closesRaw": null,
+      "moreOnPage": false,
       "majors": [
         "جميع التخصصات"
       ],
@@ -439,8 +404,6 @@
       "cities": [],
       "statesZeroCoursesRule": false,
       "zeroCoursesQuote": null,
-      "relevanceScore": 0,
-      "relevanceReason": "",
       "applyUrl": null
     },
     "general_1": {
@@ -451,6 +414,7 @@
       "closesISO": null,
       "opensRaw": null,
       "closesRaw": null,
+      "moreOnPage": false,
       "majors": [
         "تقنية المعلومات",
         "علوم الحاسب"
@@ -461,8 +425,6 @@
       "cities": [],
       "statesZeroCoursesRule": false,
       "zeroCoursesQuote": null,
-      "relevanceScore": 45,
-      "relevanceReason": "",
       "applyUrl": null
     }
   }

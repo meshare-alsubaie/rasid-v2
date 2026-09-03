@@ -101,6 +101,42 @@ export function isSoft404(title: string | null): boolean {
   return title !== null && SOFT_404.test(title);
 }
 
+/**
+ * The Saudi government verification banner, and nothing else.
+ *
+ * Every `.gov.sa` site carries an interstitial explaining how to recognise an
+ * official site: the `gov.sa` domain, the padlock, "how do you verify". When the
+ * page behind it renders client-side, or is slow, or is blocked, the extractor
+ * gets the banner and only the banner — and the banner is real prose, so it is
+ * neither empty nor a soft 404 and passes every check there was.
+ *
+ * Thirty stored records were built from that text, and six of them were
+ * classified as genuine announcements, including a 90 on the national
+ * cybersecurity academy. The model was not hallucinating in those six: it was
+ * being shown chrome and asked what the page announces.
+ *
+ * Recognised by its own phrases, and only when the text is short enough that the
+ * banner *is* the page. A real announcement that happens to sit under the same
+ * banner runs to thousands of characters and is untouched.
+ */
+const GOV_BANNER = [
+  /كيف تتحقق/,
+  /المواقع الحكومية الرسمية/,
+  /تنتهي بنطاق/,
+  /موقع رسمي/,
+  /رابط آمن/,
+  /official government website/i,
+  /end(?:s|ing)? with gov\.sa/i,
+  /how (?:do|can) you verify/i,
+];
+const GOV_BANNER_MAX_CHARS = 1200;
+
+export function isGovBannerOnly(text: string): boolean {
+  if (text.length > GOV_BANNER_MAX_CHARS) return false;
+  const hits = GOV_BANNER.filter((re) => re.test(text)).length;
+  return hits >= 2;
+}
+
 const EMPTY: Extracted = {
   title: null,
   text: "",

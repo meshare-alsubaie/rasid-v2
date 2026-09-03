@@ -207,16 +207,34 @@ for (const org of targets) {
       continue;
     }
 
-    const interesting = training
-      .filter((u) => !known.has(fingerprint(u)))
-      .slice(0, MAX_NEW_PER_ORG);
+    const unseen = training.filter((u) => !known.has(fingerprint(u)));
+    const interesting = unseen.slice(0, MAX_NEW_PER_ORG);
+
+    /*
+     * Only what was actually surfaced is remembered as seen.
+     *
+     * This stored every training fingerprint found, while showing at most twenty
+     * of them. Link twenty-one was therefore recorded as "already known" without
+     * anyone ever having been shown it, and no later run would ever raise it
+     * again — the cap silently became a permanent deletion. A portal that
+     * publishes a batch of thirty programmes loses the last ten for good, and
+     * they are as likely to be the co-op announcement as the first twenty.
+     *
+     * What is held back stays unknown, so the next run offers it.
+     */
+    const surfaced = new Set(interesting.map((u) => fingerprint(u)));
+    const carriedForward = [...known].filter((f) => fingerprints.includes(f));
+    const held = unseen.length - interesting.length;
+    if (held > 0) {
+      console.log(`  ${org.id}: ${held} رابطاً آخر يخصّ التدريب، مؤجّل إلى الجولة القادمة`);
+    }
 
     byOrg.set(key, {
       orgId: org.id,
       origin,
       lastReadISO: now,
       urlCount: all.length,
-      seenTraining: fingerprints,
+      seenTraining: [...new Set([...carriedForward, ...surfaced])],
       feedUrl: prior.feedUrl,
     });
 

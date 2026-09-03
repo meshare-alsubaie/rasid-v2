@@ -10,7 +10,7 @@
  *
  *   npm run test:hijri
  */
-import { hijriToISO, hijriPartsOf, parseArabicDate } from "../src/hijri";
+import { hijriToISO, hijriPartsOf, parseArabicDate, parseArabicDateRange } from "../src/hijri";
 import { hijriOf } from "../src/types";
 
 let failures = 0;
@@ -120,6 +120,84 @@ check(
   (hijriOf("2026-08-25T00:00:00.000Z") ?? "").includes("ربيع"),
   String(hijriOf("2026-08-25T00:00:00.000Z")),
 );
+
+/*
+ * "من ... إلى ..." is how a Saudi page writes an application window, and it is
+ * the single most likely thing for a model to copy whole into one field. Read
+ * as one date it was wrong in a specific and dangerous direction: always the
+ * earlier end, so the record closed before the window did.
+ */
+console.log("\na window written as a range gives up the right end");
+{
+  const cases: [string, string, string][] = [
+    ["من 1 رجب 1448 إلى 15 شعبان 1448", "2026-12-10", "2027-01-23"],
+    ["من 2026-09-01 إلى 2026-12-30", "2026-09-01", "2026-12-30"],
+    ["من 1 سبتمبر 2026 إلى 30 ديسمبر 2026", "2026-09-01", "2026-12-30"],
+    ["التقديم من 12/09/2026 حتى 30/11/2026", "2026-09-12", "2026-11-30"],
+  ];
+  for (const [text, opens, closes] of cases) {
+    check(
+      `opens: ${text.slice(0, 30)}`,
+      parseArabicDateRange(text, "first").iso === opens,
+      String(parseArabicDateRange(text, "first").iso),
+    );
+    check(
+      `closes: ${text.slice(0, 30)}`,
+      parseArabicDateRange(text, "last").iso === closes,
+      String(parseArabicDateRange(text, "last").iso),
+    );
+  }
+
+  /*
+   * The seeded fault. The old reader walked the month table in calendar order
+   * and returned the first month that matched, so which end of the range it
+   * gave back was decided by the Hijri year, not by the sentence. On the case
+   * above that is Rajab: forty-four days before the real deadline, reported
+   * with no ambiguity flag, so nothing downstream refused it.
+   */
+  check(
+    "reading a range as a single date is genuinely wrong (seeded fault)",
+    parseArabicDate("من 1 رجب 1448 إلى 15 شعبان 1448").iso !==
+      parseArabicDateRange("من 1 رجب 1448 إلى 15 شعبان 1448", "last").iso,
+    "the plain reading gives the opening date, which is why closes must ask for the last",
+  );
+}
+
+/*
+ * Every one of these came back as "no date, and not ambiguous either", which is
+ * the combination that let `resolveDate` fall through to the model's own Hijri
+ * conversion — the exact thing this module exists to replace.
+ */
+console.log("\nthe shapes that used to hand the date back to the model");
+{
+  const shapes: [string, string][] = [
+    ["غرة رمضان 1448", "2027-02-08"],
+    ["1 المحرم 1448", "2026-06-16"],
+    ["12 شهر صفر 1448", "2026-07-26"],
+    ["12 من شهر ربيع الأول 1448", "2026-08-25"],
+    ["5 جمادى الأول 1448", "2026-10-16"],
+    ["5 جمادى الآخر 1448", "2026-11-15"],
+    ["30 ذو الحجة 1448", "2027-06-05"],
+    // The worked example in the classifier's own system prompt.
+    ["15 سبتمبر 2026", "2026-09-15"],
+    // U+061C between the day and the month. Only U+200F and U+200E were stripped.
+    ["12؜ ربيع الأول 1448", "2026-08-25"],
+    ["آخر موعد 15 September 2026", "2026-09-15"],
+  ];
+  for (const [text, want] of shapes) {
+    check(text, parseArabicDate(text).iso === want, String(parseArabicDate(text).iso));
+  }
+}
+
+console.log("\nand the refusals still refuse");
+{
+  check(
+    "a Hijri date with no year is still ambiguous, not guessed",
+    parseArabicDate("12 ربيع الأول").iso === null && parseArabicDate("12 ربيع الأول").ambiguousYear,
+  );
+  check("a month with no day is not a date", parseArabicDate("خلال شهر رمضان").iso === null);
+  check("prose is not a date", parseArabicDate("بعد أسبوعين من الإعلان").iso === null);
+}
 
 console.log(`\n${failures === 0 ? "all checks passed" : `${failures} CHECK(S) FAILED`}`);
 process.exit(failures === 0 ? 0 : 1);

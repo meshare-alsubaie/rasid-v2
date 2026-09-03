@@ -48,6 +48,19 @@ const promptHash = createHash("sha256").update(SYSTEM_PROMPT_SHAPE).digest("hex"
 const answers: Record<string, unknown> = { ...(prior?.answers ?? {}) };
 const spend: Usage = { inputTokens: 0, outputTokens: 0 };
 
+/**
+ * Cases this run actually classified.
+ *
+ * Counting the merged map instead was the defect: it is seeded with the prior
+ * fixture above, so a case that failed *this* run still had an answer in it and
+ * was counted as answered. With every call failing, the count came out equal to
+ * the number of cases, the rebuild declared itself complete, and the file was
+ * rewritten with the old answers under the new prompt hash, a fresh timestamp
+ * and the current model name. A tool that reports on staleness must not be able
+ * to lie about its own, and that is precisely what it did.
+ */
+const answeredThisRun = new Set<string>();
+
 const todo = CASES.filter((c: BenchmarkCase) => (only ? c.id === only : true));
 console.log(`classifying ${todo.length} case(s) with ${CLASSIFIER_MODEL}\n`);
 
@@ -71,6 +84,7 @@ for (const c of todo) {
    * so the fixture holds only facts copied off a public page.
    */
   answers[c.id] = result.value;
+  answeredThisRun.add(c.id);
   console.log(
     `  ok    ${c.id.padEnd(14)} product=${result.value.product.padEnd(16)} majors=${JSON.stringify(result.value.majors)}  closesRaw=${JSON.stringify(result.value.closesRaw)}`,
   );
@@ -85,7 +99,7 @@ for (const c of todo) {
  * then have gone on passing in CI while testing a prompt that no longer exists.
  * A tool that reports on staleness must not be able to lie about its own.
  */
-const answered = todo.filter((c) => answers[c.id] !== undefined).length;
+const answered = todo.filter((c) => answeredThisRun.has(c.id)).length;
 const wholeSetRebuilt = only === undefined && answered === todo.length;
 
 if (answered === 0) {

@@ -3,7 +3,7 @@
 **Watches 115 Saudi organisations for cooperative-training openings, and tells
 you the moment one appears.**
 
-→ **[meshare-alsubaie.github.io/rasid](https://meshare-alsubaie.github.io/rasid/)**
+→ **[meshare-alsubaie.github.io/rasid-v2](https://meshare-alsubaie.github.io/rasid-v2/)**
 
 ## The problem
 
@@ -282,7 +282,7 @@ checker.
 ## Build status
 
 All six phases have shipped. The site is live at
-<https://meshare-alsubaie.github.io/rasid/>.
+<https://meshare-alsubaie.github.io/rasid-v2/>.
 
 - [x] **Phase 1 - data spine.** Types, schemas, dataset (115 organisations,
       3 aggregators), validation in CI.

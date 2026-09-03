@@ -24,6 +24,24 @@ interface Rule {
 
 const RULES: Rule[] = [
   {
+    /*
+     * The owner's own machine, which is not a person but is just as personal.
+     *
+     * Thirty-three rows of `data/health.json` were published carrying
+     * `C:\Users\GIGABITE\AppData\Local\ms-playwright\...` — the Windows account
+     * name, on a public URL, in a file nobody thinks of as prose. It got there
+     * because an error message from a library was stored verbatim, and this
+     * gate did not look for filesystem paths at all.
+     *
+     * The scripts that *use* these paths are allowed to name them: an installer
+     * that must say where node lives is not a leak. A committed data file is.
+     */
+    name: "a local filesystem path",
+    pattern: /[A-Za-z]:[\\/]{1,2}Users[\\/]|\\\\\\\\[^\s\\]+\\\\|\/(?:home|Users)\/[a-z]/gi,
+    why: "the dataset is served from a public URL, and a path names the account it belongs to",
+    allow: /^(?:scripts\/|\.claude\/|.*\.md$|.*\.ps1$|src\/pipeline\/redact\.ts$)/,
+  },
+  {
     name: "personal email",
     // Anything that is not an organisation's published contact address. Those
     // are business addresses that belong in the dataset; a personal mailbox

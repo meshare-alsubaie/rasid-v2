@@ -47,7 +47,12 @@
     "test:toast": "tsx scripts/test-toast.ts",
     "requeue": "tsx scripts/requeue.ts",
     "test:mobile": "tsx scripts/test-mobile.ts",
-    "vapid:new": "tsx scripts/vapid-new.ts"
+    "vapid:new": "tsx scripts/vapid-new.ts",
+    "test:records": "tsx scripts/test-records.ts",
+    "test:copied": "tsx scripts/test-copied.ts",
+    "test:push": "tsx scripts/test-push.ts",
+    "test:redact": "tsx scripts/test-redact.ts",
+    "test:arabic": "tsx scripts/test-arabic.ts"
   },
   "devDependencies": {
     "@types/node": "^22.10.2",

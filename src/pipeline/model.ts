@@ -53,13 +53,35 @@ export function ollamaBase(): string {
  *   gemma3:12b    20/20          2/8                                    8.6s
  *   gemma3:4b     20/20          1/8                                    2.5s
  *
- * The reviews say Qwen is the stronger Arabic model and it may well be. On this
- * job, on these pages, it was not: llama3.1 dropped twice as much noise at the
- * same speed. Eight ordinary pages is a small sample and the gap is three
- * pages, so this is a starting choice and not a settled one - which is the
- * reason the model is a variable and the benchmark is committed.
+ * That table measured the wrong thing, and the wrong model won because of it.
+ *
+ * Every column above is about **triage**: the one-word question, where the only
+ * output is yes or no and no Arabic has to be written. llama3.1 does drop more
+ * noise there. But triage is the cheap half. The expensive half asks the model
+ * to copy seventeen fields *off the page, verbatim*, and nobody measured that
+ * at all — so the model was chosen on a test that could not see the thing it
+ * would spend all its time doing.
+ *
+ * Measured directly, on the same fixtures, with the guard that checks a claimed
+ * copy against the text it was shown:
+ *
+ *   llama3.1:8b   0 of 3 accepted     titles: "الياعلان الثدرب الإعاني",
+ *                                             "الحداب الاشية الإليكي"
+ *   qwen3:8b     10 of 10 accepted    titles: "برنامج التدريب التعاوني بسدايا",
+ *                                             "تدريب تعاوني — تحليل البيانات"
+ *
+ * Those llama strings are not words. They are the same shape as the invented
+ * records the audit found in the live data — a 90 on the national cybersecurity
+ * academy for "البراغات الالميدية", a 0 on a bank for a title that reads as
+ * nothing — and they are not a tuning problem. An 8B model that cannot write
+ * Arabic cannot do this job, however well it answers yes and no.
+ *
+ * qwen3 was also faster on the real work: 33 seconds a page against 68 to 105.
+ * It drops less noise at triage, so more pages reach the full question; that
+ * costs processor time, and processor time is the resource this project has.
+ * Invented records cost the thing it does not have, which is trust in a number.
  */
-export const LOCAL_MODEL = process.env.RASID_LOCAL_MODEL?.trim() || "llama3.1:8b";
+export const LOCAL_MODEL = process.env.RASID_LOCAL_MODEL?.trim() || "qwen3:8b";
 
 /**
  * Generous, because slow is not broken.
@@ -199,7 +221,32 @@ export function readsAsNo(answer: string): boolean {
   const text = stripThinking(answer);
   const json = /\{[\s\S]*?"candidate"\s*:\s*(true|false)[\s\S]*?\}/i.exec(text);
   if (json) return json[1]!.toLowerCase() === "false";
-  return /^\s*(لا|no\b|false)/i.test(text);
+  /*
+   * The Arabic branch needs a boundary of its own, and had none.
+   *
+   * `\b` was correctly moved off the Arabic alternative, because a word
+   * boundary between two Arabic letters never matches and the guard would never
+   * have fired. But nothing replaced it, so the pattern matched the *letters*
+   * lam-alif at the start of any sentence — and Arabic has a great many words
+   * that begin that way. Every one of these was read as "no", and the page was
+   * dropped:
+   *
+   *   "لا شك أنها إعلان تدريب تعاوني"     no doubt this is a coop announcement
+   *   "لاحظ أن الصفحة تحتوي إعلان تدريب"   note that the page contains one
+   *   "لابد من مراجعة الصفحة"              the page must be reviewed
+   *
+   * The last one inverts the instruction the prompt itself gives, which is to
+   * say yes when unsure.
+   *
+   * A letter boundary is not enough either, because the two hardest cases put a
+   * space after it: in "لا شك" and "لا أستطيع" the word does mean "no", but it
+   * is negating the *next* word rather than answering the question. So the rule
+   * follows the contract instead of the grammar. The prompt asks for one word.
+   * A bare "لا", or one followed by punctuation, is that word. A "لا" that runs
+   * on into a sentence is not an answer we were promised, and the documented
+   * default for anything we cannot read is to let the page through.
+   */
+  return /^\s*(?:لا\s*(?:[.،,!؟]|$)|no\b|false)/iu.test(text);
 }
 
 export async function localTriage(excerpt: string): Promise<LocalTriage> {

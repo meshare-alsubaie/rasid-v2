@@ -113,6 +113,34 @@ const attempts = checkSchema<VerificationAttempt>(
   "schemas/verification.schema.json",
 );
 
+/*
+ * An empty dataset is not a clean dataset.
+ *
+ * Every check below is written as "for each row, is the row right", so a file
+ * holding `[]` satisfies all of them and the validator reports success. It is
+ * the shape a truncated write, a bad merge, or a filter that matched nothing
+ * leaves behind — and it is exactly the state that must never reach the deploy,
+ * because the app would render an empty screen under a green build.
+ *
+ * The floors are deliberately far below the real numbers. They are not quality
+ * thresholds to be nudged; they are the line between "a dataset" and "no
+ * dataset", and only a catastrophe crosses them.
+ */
+const FLOORS: [string, number, number][] = [
+  ["data/organisations.json", orgs?.length ?? 0, 50],
+  ["data/health.json", health?.length ?? 0, 50],
+  ["data/snapshots.json", snapshots?.length ?? 0, 50],
+];
+for (const [file, count, floor] of FLOORS) {
+  if (count < floor) {
+    err(
+      "empty_dataset",
+      file,
+      `holds ${count} record(s), and fewer than ${floor} means the file was lost, not merely small`,
+    );
+  }
+}
+
 /**
  * The rules that make a stored link trustworthy.
  *
