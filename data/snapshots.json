@@ -6379,7 +6379,7 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/cooperations?lang=ar",
     "orgId": "hrc",
-    "contentHash": "1725d5b57ce74fa432c2520ee8cb597291f4c9c9e4cf8e54a68d46807edb1f56",
+    "contentHash": "0c921e1c37e742822adc2bd58fad0f3ba575499a82d6e14fb0a1e1af17eaaebc",
     "blockHashes": [
       "12e41a244a8a2984",
       "66c9b86b97a6c854",
@@ -6403,7 +6403,7 @@
     "extractedChars": 6137,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-02T23:42:46.216Z",
+    "lastChangedISO": "2026-09-03T01:15:53.627Z",
     "thinRuns": 0,
     "pendingClassification": true
   },
@@ -8008,6 +8008,18 @@
     "lastChangedISO": "2026-09-02T10:51:40.683Z",
     "thinRuns": 0,
     "pendingClassification": false
+  },
+  {
+    "sourceUrl": "https://www.moi.gov.sa/Pages/home?lang=ar&culture=ar-SA&ui-culture=ar-SA",
+    "orgId": "nic_moi",
+    "contentHash": "9fe51a496810bf36c881b3b55b4601f13296837727da080957cc648216437a09",
+    "blockHashes": [],
+    "extractedChars": 256,
+    "extractionMethod": "body_fallback",
+    "firstSeenISO": "2026-09-03T01:15:53.627Z",
+    "lastChangedISO": "2026-09-03T01:15:53.627Z",
+    "thinRuns": 0,
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://www.monshaat.gov.sa/",
