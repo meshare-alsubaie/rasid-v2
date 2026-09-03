@@ -16,6 +16,7 @@
  */
 import { readFileSync } from "node:fs";
 import { spawnSync } from "node:child_process";
+import { split, type Notice, type NoticeLogEntry } from "../src/pipeline/notify";
 
 let failures = 0;
 const check = (label: string, ok: boolean, detail = ""): void => {
@@ -191,6 +192,75 @@ console.log("\na send that reaches nobody is not a successful round");
     timeout: 120_000,
   });
   check("a dry run still exits cleanly", run.status === 0, `exit ${String(run.status)}`);
+}
+
+/* ---------- an email must not retire an opening ---------- */
+
+console.log("\na digest summarises an opening; it does not deliver it");
+{
+  const now = new Date("2026-09-03T12:00:00.000Z");
+  const opening: Notice = {
+    key: "new:acme:2026-09-03",
+    kind: "new_relevant",
+    title: "🟢 إعلان جديد · جهة",
+    body: "التدريب التعاوني",
+    weight: 290,
+  };
+  const housekeeping: Notice = {
+    key: "broken:acme",
+    kind: "source_broken",
+    title: "🔴 مصدر توقّف · جهة",
+    body: "لم يعد يُقرأ آلياً",
+    weight: 150,
+  };
+
+  /*
+   * The state that used to end an announcement's life: it overflowed the daily
+   * cap, went into an email, and the sent log recorded it. With one set of keys
+   * that made it "already sent", and it was never pushed.
+   */
+  const emailedLastNight: NoticeLogEntry[] = [
+    { key: opening.key, sentISO: "2026-09-02T23:10:00.000Z", via: "digest" },
+    { key: housekeeping.key, sentISO: "2026-09-02T23:10:00.000Z", via: "digest" },
+  ];
+
+  const after = split([opening, housekeeping], emailedLastNight, now, false);
+  check(
+    "an opening already emailed is still queued to push",
+    after.push.some((n) => n.key === opening.key),
+    after.push.map((n) => n.kind).join(",") || "nothing queued",
+  );
+  check(
+    "and it is not emailed a second time",
+    !after.digestOnly.some((n) => n.key === opening.key),
+  );
+  check(
+    "housekeeping already emailed is finished",
+    !after.push.some((n) => n.key === housekeeping.key) &&
+      !after.digestOnly.some((n) => n.key === housekeeping.key),
+    "a source that stopped loading is worth saying once, anywhere",
+  );
+
+  const pushedAlready: NoticeLogEntry[] = [
+    { key: opening.key, sentISO: "2026-09-03T09:00:00.000Z", via: "push" },
+  ];
+  check(
+    "an opening already pushed is not pushed again",
+    !split([opening], pushedAlready, now, false).push.some((n) => n.key === opening.key),
+  );
+
+  /*
+   * The seeded fault: one set of keys for both channels, which is what the code
+   * did. The opening disappears entirely.
+   */
+  const legacyFresh = [opening, housekeeping].filter(
+    (n) => !new Set(emailedLastNight.map((e) => e.key)).has(n.key),
+  );
+  check(
+    "one shared set really does lose the opening (seeded fault)",
+    legacyFresh.length === 0,
+    "both notices read as delivered, and the announcement was never pushed",
+  );
 }
 
 console.log("\nand the site is actually republished");

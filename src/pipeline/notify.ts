@@ -343,11 +343,38 @@ export function split(
   now: Date,
   quiet: boolean,
 ): Split {
-  const alreadySent = new Set(log.map((e) => e.key));
-  const fresh = notices.filter((n) => !alreadySent.has(n.key));
+  /*
+   * The two channels remember separately, because they are not the same
+   * promise.
+   *
+   * One set of keys meant an email could retire a notice permanently. And email
+   * is where the daily cap sends its overflow — so with more than six things
+   * waiting, an opening would be summarised in a digest, marked delivered, and
+   * never pushed at all. That is the wrong way round: the digest is a summary he
+   * reads when he happens to open his mail; the push is the thing that reaches
+   * him at a desk in a game or asleep with the phone beside him, which is what a
+   * closing window needs.
+   *
+   * So an announcement stays a push candidate until it has actually been pushed,
+   * however many digests have mentioned it. Housekeeping — a source that stopped
+   * loading, the classifier being down — is genuinely finished once it has been
+   * said anywhere, and is retired by either channel.
+   */
+  const pushedKeys = new Set(log.filter((e) => (e.via ?? "push") === "push").map((e) => e.key));
+  const digestedKeys = new Set(log.filter((e) => e.via === "digest").map((e) => e.key));
+
+  const stillNeedsPush = (n: Notice): boolean =>
+    OPPORTUNITY_KINDS.has(n.kind) ? !pushedKeys.has(n.key) : !pushedKeys.has(n.key) && !digestedKeys.has(n.key);
+  const stillNeedsDigest = (n: Notice): boolean =>
+    !digestedKeys.has(n.key) && !pushedKeys.has(n.key);
+
+  const fresh = notices.filter(stillNeedsPush);
   if (quiet) {
     const urgent = fresh.filter((n) => URGENT.has(n.kind));
-    return { push: urgent, digestOnly: fresh.filter((n) => !URGENT.has(n.kind)) };
+    return {
+      push: urgent,
+      digestOnly: fresh.filter((n) => !URGENT.has(n.kind)).filter(stillNeedsDigest),
+    };
   }
 
   const sentToday = log.filter(
@@ -355,8 +382,25 @@ export function split(
   ).length;
   const room = Math.max(0, DAILY_PUSH_CAP - sentToday);
   const ranked = [...fresh].sort((a, b) => effectiveWeight(b, now) - effectiveWeight(a, now));
-  return { push: ranked.slice(0, room), digestOnly: ranked.slice(room) };
+  return {
+    push: ranked.slice(0, room),
+    // Everything past the cap is summarised, once. It stays in the push queue.
+    digestOnly: ranked.slice(room).filter(stillNeedsDigest),
+  };
 }
+
+/**
+ * The kinds that describe an opening rather than the tool's own health.
+ *
+ * Only these are held back from being retired by a digest, because only these
+ * cost a semester when they arrive in the wrong place at the wrong time.
+ */
+const OPPORTUNITY_KINDS: ReadonlySet<NoticeKind> = new Set<NoticeKind>([
+  "new_relevant",
+  "opened",
+  "closing_soon",
+  "few_seats",
+]);
 
 /**
  * Weight, plus what waiting has earned.
