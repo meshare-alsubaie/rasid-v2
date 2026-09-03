@@ -83,3 +83,24 @@ export function humanError(raw: string): string {
   if (/fetch failed|ECONNRESET|socket|network/i.test(raw)) return "انقطع الاتّصال أثناء القراءة.";
   return "تعذّرت قراءة هذه الصفحة في آخر جولة.";
 }
+
+/**
+ * A count and its noun, in Arabic rather than in spreadsheet.
+ *
+ * "١ نافذة مفتوحة" is not a sentence anybody writes; Arabic counts one and two
+ * in the noun itself and puts the plural back at three. The headline on the
+ * first screen said it that way, which is a small thing that tells a reader
+ * the text was assembled rather than written — and this screen's whole claim
+ * is that it says true things carefully.
+ *
+ * The three forms are given per noun because Arabic does not derive them:
+ * `["نافذة", "نافذتان", "نوافذ"]`.
+ */
+export function counted(n: number, [one, two, many]: [string, string, string]): string {
+  if (n === 1) return `${one} واحدة`;
+  if (n === 2) return two;
+  // Three to ten take the plural; eleven and above return to the singular after
+  // the number, which is why 11 reads "١١ نافذة" and not "١١ نوافذ".
+  if (n >= 3 && n <= 10) return `${n} ${many}`;
+  return `${n} ${one}`;
+}

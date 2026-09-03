@@ -16,7 +16,7 @@
  *   npm run test:arabic
  */
 import { readFileSync } from "node:fs";
-import { humanError, KNOWN_SECTORS, sectorLabel } from "../src/app/messages";
+import { counted, humanError, KNOWN_SECTORS, sectorLabel } from "../src/app/messages";
 import type { Organisation, SourceHealth } from "../src/types";
 
 let failures = 0;
@@ -136,6 +136,30 @@ console.log("\nthe two Arabic writing rules hold in what is displayed");
     const dashed = arabicRuns.filter((r) => r.includes("—"));
     check(`${file}: no em dash in displayed Arabic`, dashed.length === 0, dashed.slice(0, 2).join(" | "));
   }
+}
+
+console.log("\nthe interface counts in Arabic, not in spreadsheet");
+{
+  /*
+   * "١ نافذة مفتوحة" is not a sentence anybody writes. Arabic counts one and
+   * two inside the noun and returns to the singular at eleven, and the headline
+   * on the first screen ignored all of it — a small thing that tells a reader
+   * the text was assembled rather than written, on a screen whose whole claim
+   * is that it says true things carefully.
+   */
+  const W: [string, string, string] = ["نافذة", "نافذتان", "نوافذ"];
+  const cases: [number, string][] = [
+    [1, "نافذة واحدة"],
+    [2, "نافذتان"],
+    [3, "3 نوافذ"],
+    [10, "10 نوافذ"],
+    [11, "11 نافذة"],
+    [25, "25 نافذة"],
+  ];
+  for (const [n, want] of cases) {
+    check(`${n} reads as "${want}"`, counted(n, W) === want, counted(n, W));
+  }
+  check("and no count ever starts with a bare 1", !/^1 /.test(counted(1, W)));
 }
 
 console.log(`\n${failures === 0 ? "the interface is Arabic all the way down" : `${failures} check(s) failed`}`);

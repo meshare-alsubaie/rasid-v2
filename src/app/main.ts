@@ -12,7 +12,7 @@ import "./style.css";
 import { VAPID_PUBLIC_KEY } from "./vapid";
 import { loadDataset, formatDate, timeAgo, daysUntil, type Dataset } from "./data";
 import { renderSeasonBar, type LaneInput } from "./season-bar";
-import { humanError, sectorLabel } from "./messages";
+import { counted, humanError, sectorLabel } from "./messages";
 import { announcementKey } from "../types";
 import { hijriOf, unattested } from "../types";
 import type { Attested, Opportunity, Organisation, Provenance } from "../types";
@@ -93,6 +93,23 @@ let theme = readJSON<string>(THEME_KEY, "observatory");
 const applyTheme = (): void => {
   if (theme === "observatory") document.documentElement.removeAttribute("data-theme");
   else document.documentElement.setAttribute("data-theme", theme);
+
+  /*
+   * The phone's status bar, which is part of the page on a device.
+   *
+   * `theme-color` was hard-coded to the dark palette in index.html and six
+   * themes shared it, so choosing the warm or sharp theme gave a light screen
+   * with a black bar welded to the top of it — installed to the home screen,
+   * that bar *is* the app's frame. Read from the palette rather than repeated,
+   * so it cannot drift from whatever the stylesheet decides tomorrow.
+   */
+  const meta = document.querySelector('meta[name="theme-color"]');
+  if (meta) {
+    const ground = getComputedStyle(document.documentElement)
+      .getPropertyValue("--slate")
+      .trim();
+    if (ground !== "") meta.setAttribute("content", ground);
+  }
 };
 applyTheme();
 let tab: Tab = "season";
@@ -355,7 +372,7 @@ function answerBlock(): string {
 
   const headline =
     open.length > 0
-      ? `<div class="headline is-live">${open.length} نافذة مفتوحة الآن</div>`
+      ? `<div class="headline is-live">${counted(open.length, ["نافذة", "نافذتان", "نوافذ"])} مفتوحة الآن</div>`
       : `<div class="headline">لا شيء مفتوح اليوم</div>`;
 
   const soonest = open[0]!;
@@ -1032,7 +1049,13 @@ function confirmedPages(): number {
  * the app called itself healthy. A source that has never been fetched is not a
  * source in good standing; it is a promise nobody has kept yet.
  */
-function coverage(): { total: number; read: number; orgsFullyRead: number; orgsUnread: number } {
+function coverage(): {
+  total: number;
+  read: number;
+  orgsFullyRead: number;
+  orgsUnread: number;
+  orgsHomepageOnly: number;
+} {
   const readUrls = new Set(
     data.health.filter((h) => h.lastSuccessISO !== null).map((h) => h.sourceUrl),
   );
@@ -1040,6 +1063,17 @@ function coverage(): { total: number; read: number; orgsFullyRead: number; orgsU
   let read = 0;
   let orgsFullyRead = 0;
   let orgsUnread = 0;
+  /*
+   * Watched, read successfully, and still unlikely to ever show an opening.
+   *
+   * Forty-seven organisations are watched only on a homepage. Every number on
+   * this screen counts them as covered, and every one of them is read every
+   * cycle and answers 200 — so nothing anywhere goes amber. But an opening
+   * announced on a careers page nobody has found is invisible, and a homepage
+   * mentions training once a year if at all. `site_root` exists in the schema
+   * precisely to record this difference; it was recorded and never said aloud.
+   */
+  let orgsHomepageOnly = 0;
   for (const o of data.orgs) {
     const configured = o.sources.filter((s) => s.verifiedAtISO !== null);
     if (configured.length === 0) continue;
@@ -1048,8 +1082,9 @@ function coverage(): { total: number; read: number; orgsFullyRead: number; orgsU
     read += hit;
     if (hit === configured.length) orgsFullyRead++;
     if (hit === 0) orgsUnread++;
+    if (hit > 0 && configured.every((s) => s.type === "site_root")) orgsHomepageOnly++;
   }
-  return { total, read, orgsFullyRead, orgsUnread };
+  return { total, read, orgsFullyRead, orgsUnread, orgsHomepageOnly };
 }
 
 function settingsScreen(): string {
@@ -1062,6 +1097,13 @@ function settingsScreen(): string {
           const c = coverage();
           return `مُهيَّأ لقراءة ${c.total} مصدراً على ${data.orgs.length} جهة، وقُرئ منها ${c.read} فعلاً.
         ${c.orgsUnread > 0 ? `<strong>${c.orgsUnread} جهة لم يُقرأ لها مصدر واحد بعد</strong>، فلن يراها التطبيق إن أعلنت.` : ""}
+        ${
+          c.orgsHomepageOnly > 0
+            ? `و<strong>${c.orgsHomepageOnly} جهة لا تُراقَب إلا على صفحتها الرئيسية</strong>. تُقرأ كل جولة وتردّ بنجاح،
+               فلا يظهر عليها أي إنذار، لكن الإعلان يُنشر عادةً في صفحة توظيف داخلية لم نجدها بعد.
+               عدّها مراقَبة يبالغ في ما نعرفه عنها.`
+            : ""
+        }
         ${confirmedPages()} جهة لها صفحة قالت عن نفسها إنها للتدريب التعاوني؛ والبقية صفحات حقيقية للجهة
         تُراقَب لأن الإعلان قد يظهر عليها، لا لأنها أثبتت أنها صفحة تدريب. الفرق مذكور داخل كل جهة.`;
         })()}
@@ -1356,6 +1398,17 @@ function openSheet(orgId: string): void {
     <h2>${esc(org.nameAr)}</h2>
     <p class="org">${esc(org.nameEn)}، فئة ${org.tier}، ${esc(org.sector)}</p>
     ${orgChips(org)}
+    ${/* Said here because this is where it changes what the reader does: if the
+          only page we watch is the homepage, checking the site himself is not
+          belt-and-braces, it is the actual coverage. */ ""}
+    ${(() => {
+      const watched = org.sources.filter((s) => s.verifiedAtISO !== null);
+      return watched.length > 0 && watched.every((s) => s.type === "site_root")
+        ? `<p class="reason warn">لا نراقب من هذه الجهة إلا صفحتها الرئيسية. تُقرأ كل جولة وتردّ بنجاح،
+             لكن الإعلانات تُنشر عادةً في صفحة توظيف داخلية لم نعثر عليها بعد، فقد لا يصلك إشعار منها إطلاقاً.
+             افتح موقعها بنفسك قبل نهاية كل فصل.</p>`
+        : "";
+    })()}
     ${
       quote
         ? `<blockquote class="quote">${esc(quote)}<cite>نصّ الشرط كما نُشر على صفحة الجهة</cite></blockquote>`
