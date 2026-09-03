@@ -25,7 +25,29 @@ import type { Opportunity, SourceSnapshot } from "../src/types";
 
 const NOW = new Date().toISOString();
 const HASH = "a".repeat(64);
-const TEXT = "نص صفحة افتراضي للاختبار";
+/*
+ * A page that actually says what the injected replies below claim to have
+ * copied off it.
+ *
+ * This was the placeholder "نص صفحة افتراضي للاختبار", and the positive-path
+ * reply claimed a title and a specialism that appeared nowhere in it. Once the
+ * copied-wording guard landed, the classifier rejected that reply — correctly:
+ * a field the page never wrote is a field the model made up, and the guard
+ * exists to catch exactly that. The test was asserting that an invented reply
+ * is accepted.
+ *
+ * The fixture is the thing that was wrong, so the fixture is what changed. The
+ * guard stays as strict as it is; loosening it to make a stale fixture pass
+ * would have removed the check and left the green tick.
+ *
+ * It went unnoticed because `test:classifier` runs in neither the gates chain
+ * nor CI — the audit recorded that as a defect of its own, and this is what it
+ * costs.
+ */
+const TEXT = `برنامج التدريب التعاوني
+تعلن الشركة عن فتح باب التقديم في برنامج التدريب التعاوني لطلاب الجامعات
+في مدينة الرياض. التخصّصات المطلوبة: الأمن السيبراني.
+عدد المقاعد ٣، ومكافأة شهرية قدرها ٣٠٠٠ ريال، ومدّة التدريب ٢٤ أسبوعاً.`;
 
 let failures = 0;
 function check(label: string, condition: boolean, detail = ""): void {

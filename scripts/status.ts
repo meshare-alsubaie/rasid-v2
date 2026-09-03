@@ -203,5 +203,14 @@ console.log("\n٥ · هل المراقب يعمل؟");
 console.log(
   `\n${problems === 0 ? "لا شيء مكسور في هذه اللحظة." : `${problems} شيئاً مكسوراً، وكلٌّ منها مكتوب أعلاه بما يجب عمله.`}`,
 );
-console.log("للفحص العميق: npm run gates\n");
+/*
+ * Three gates run on this machine and nowhere else, because they need the local
+ * model or a Windows toast. That is a good reason not to run them on a cloud
+ * runner and no reason at all to run them nowhere: `test:classifier` sat
+ * outside both the chain and CI, and a real regression in it went unnoticed
+ * until someone ran it by hand. Naming the command here is what makes it a
+ * gate rather than a file.
+ */
+console.log("للفحص العميق: npm run gates");
+console.log("وما لا يعمل إلا على جهازك (النموذج المحلّي والتوست): npm run gates:local\n");
 process.exit(0);

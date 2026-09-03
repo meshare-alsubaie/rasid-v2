@@ -51,10 +51,26 @@ const idFor = (orgId: string, sourceUrl: string, firstSeenISO: string): string =
  * ever saying when it takes applications, and calling that "open" is the one
  * guess that would cost the user a semester.
  */
-export function statusOf(c: Classification, nowISO: string): OpportunityStatus {
+export function statusOf(
+  c: Pick<Classification, "product">,
+  nowISO: string,
+  /*
+   * The dates the record will actually hold, not the ones the model wrote.
+   *
+   * This read `c.opensISO` and `c.closesISO` while the record beside it stored
+   * `resolveDate(...)` — the reading the Umm al-Qura table produced from the
+   * page's own wording. One object, two different pairs of dates, and the
+   * status was judged on the pair that gets thrown away. Production hid it,
+   * because `collect.ts` recomputes the status from the stored record before
+   * writing; the benchmark did not, and was asserting a value nothing in the
+   * pipeline ever keeps.
+   */
+  opensISO: string | null,
+  closesISO: string | null,
+): OpportunityStatus {
   const now = Date.parse(nowISO);
-  const opens = c.opensISO === null ? null : startOfDay(c.opensISO);
-  const closes = c.closesISO === null ? null : endOfDeadline(c.closesISO);
+  const opens = opensISO === null ? null : startOfDay(opensISO);
+  const closes = closesISO === null ? null : endOfDeadline(closesISO);
 
   /*
    * A graduate-development programme is never "open" here, whatever dates it
@@ -216,7 +232,6 @@ function resolveDate(
 export function fromClassification(args: Common & { c: Classification }): Opportunity {
   const { orgId, sourceUrl, text, nowISO, prior, firstTime, c } = args;
   const firstSeenISO = prior?.firstSeenISO ?? nowISO;
-  const status = statusOf(c, nowISO);
   // classify() refuses an announcement without a title, so by the time a
   // record is built this is a real string.
   const titleAr = c.titleAr ?? "";
@@ -259,6 +274,9 @@ export function fromClassification(args: Common & { c: Classification }): Opport
     endOfDeadline(closesResolved) < startOfDay(opensResolved);
   const opens = backwards ? null : opensResolved;
   const closes = backwards ? null : closesResolved;
+  // After the dates are resolved, so the status describes the record's own
+  // pair rather than the model's. See the note on statusOf.
+  const status = statusOf(c, nowISO, opens, closes);
 
   return {
     id: idFor(orgId, sourceUrl, firstSeenISO),
