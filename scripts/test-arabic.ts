@@ -120,8 +120,19 @@ console.log("\nthe two Arabic writing rules hold in what is displayed");
     } catch {
       continue;
     }
-    // Only strings the reader sees: Arabic runs. A comment in English is fine.
-    const arabicRuns = text.match(/[؀-ۿ][^\n]*?[؀-ۿ]/g) ?? [];
+    /*
+     * Only strings the reader sees: Arabic runs. A comment in English is fine.
+     *
+     * The quantifier was lazy, and a lazy run stops at the *first* Arabic
+     * character it can — so it matched the two letters either side of a comma
+     * and never reached the em dash three words along. Three of them sat in the
+     * organisation sheet and on the notification screen while this printed
+     * "pass" four times: a gate that was looking at the wrong two characters.
+     *
+     * Greedy, it spans the whole line between the first Arabic character and
+     * the last, which is exactly the span a reader sees.
+     */
+    const arabicRuns = text.match(/[؀-ۿ][^\n]*[؀-ۿ]/g) ?? [];
     const dashed = arabicRuns.filter((r) => r.includes("—"));
     check(`${file}: no em dash in displayed Arabic`, dashed.length === 0, dashed.slice(0, 2).join(" | "));
   }

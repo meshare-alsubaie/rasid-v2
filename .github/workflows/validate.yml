@@ -89,6 +89,22 @@ jobs:
       # stopping a commit that carried a key or a person's details.
       - run: npm run audit:privacy
 
+      # An organisation watched only on somebody else's website is reported as
+      # monitored while nothing of its own is ever read.
+      - run: npm run audit:domains
+
+      # Five gates that were in `npm run gates` and in no workflow, which makes
+      # them habits rather than gates — the same gap `audit:privacy` above was
+      # written to close. Each covers a way the dataset can lie: two records for
+      # one announcement, a "quote" the page never wrote, a redaction that eats
+      # live urls, a push channel that is down, and English or an em dash
+      # reaching a screen that is meant to be Arabic.
+      - run: npm run test:records
+      - run: npm run test:copied
+      - run: npm run test:redact
+      - run: npm run test:push
+      - run: npm run test:arabic
+
       # Acceptance criteria 8.7 are measured, not asserted: contrast on every
       # theme, and the Lighthouse bars the spec names. Both need a browser and a
       # real build, so they run last.

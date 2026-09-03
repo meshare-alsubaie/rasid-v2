@@ -700,10 +700,38 @@ function orgsScreen(): string {
     .filter((o) => !onlyMyMajor || o.acceptsUserMajor === true)
     .sort((a, b) => "SABC".indexOf(a.tier) - "SABC".indexOf(b.tier) || a.nameAr.localeCompare(b.nameAr));
 
-  const toggle = (id: string, label: string, on: boolean): string =>
-    `<button class="filter-toggle" data-filter="${id}" aria-pressed="${on}">${label}</button>`;
+  /*
+   * How many organisations each toggle can ever show, printed on the toggle.
+   *
+   * «لها مكافأة معلنة» matched nothing at all: zero of a hundred and fifteen.
+   * Pressed, it emptied the screen, and an empty screen says "nobody pays" when
+   * the truth is "no page here published an amount". A filter that silently
+   * turns a gap in the data into a statement about the world is the same lie
+   * the dotted chip beside it exists to refuse — so the toggle now carries its
+   * own reach, and one that can reach nothing says so instead of pretending to
+   * be a choice.
+   */
+  const reach = {
+    zero: data.orgs.filter((o) => o.requiresZeroCourses.value === false).length,
+    stipend: data.orgs.filter((o) => o.stipend.amountSAR !== null && o.stipend.amountSAR > 0).length,
+    major: data.orgs.filter((o) => o.acceptsUserMajor === true).length,
+  };
 
-  return `<div class="filters">
+  const toggle = (id: keyof typeof reach, label: string, on: boolean): string => {
+    const n = reach[id];
+    return `<button class="filter-toggle" data-filter="${id}" aria-pressed="${on}"${
+      n === 0 ? " disabled" : ""
+    } title="${n === 0 ? "لم تنشر أي جهة هذه المعلومة بعد" : `${n} جهة نشرت هذا صراحةً`}">${label} (${n})</button>`;
+  };
+
+  /*
+   * Three of the four tabs went straight from the h1 to an h3, so a screen
+   * reader announcing the outline skipped a level and the reader was told there
+   * was a section between them that does not exist. The season tab already had
+   * its h2; these are the three that did not.
+   */
+  return `<h2>الجهات</h2>
+    <div class="filters">
       <input id="q" type="search" placeholder="ابحث باسم الجهة" value="${esc(query)}" aria-label="ابحث باسم الجهة" />
       <select id="sector" aria-label="القطاع">
         <option value="">كل القطاعات</option>
@@ -720,9 +748,19 @@ function orgsScreen(): string {
         <option value="">كل الفئات</option>
         ${["S", "A", "B", "C"].map((t) => `<option value="${t}"${t === tierFilter ? " selected" : ""}>فئة ${t}</option>`).join("")}
       </select>
+      ${/* Each city carries its count, because five of a hundred and fifteen
+            organisations have published one at all. Without the number, picking
+            "جدة" and seeing one card reads as "there is one employer in Jeddah",
+            which is false: it is one employer that said where it is. The line
+            under the filters says how many stayed silent. */ ""}
       <select id="city" aria-label="المدينة">
         <option value="">كل المدن</option>
-        ${cities.map((c) => `<option value="${esc(c)}"${c === cityFilter ? " selected" : ""}>${esc(c)}</option>`).join("")}
+        ${cities
+          .map((c) => {
+            const n = data.orgs.filter((o) => o.city.includes(c)).length;
+            return `<option value="${esc(c)}"${c === cityFilter ? " selected" : ""}>${esc(c)} (${n})</option>`;
+          })
+          .join("")}
       </select>
     </div>
     <div class="filter-toggles">
@@ -731,7 +769,12 @@ function orgsScreen(): string {
       ${toggle("major", "تقبل تخصّصي", onlyMyMajor)}
     </div>
     <p class="count-line">${list.length} جهة من ${data.orgs.length}. الشريحة المتقطّعة تعني «غير معروف»، لا «لا بأس».
-      ${onlyNoZeroCourses || onlyStipend || onlyMyMajor ? "هذه المرشِّحات تُظهر ما نُشر صراحةً فقط، والصمت ليس موافقة." : ""}</p>
+      ${onlyNoZeroCourses || onlyStipend || onlyMyMajor ? "هذه المرشِّحات تُظهر ما نُشر صراحةً فقط، والصمت ليس موافقة." : ""}
+      ${
+        cityFilter === ""
+          ? `${data.orgs.filter((o) => o.city.length === 0).length} جهة لم تنشر مدينتها، فلن تظهر في أي اختيار للمدينة.`
+          : "هذه الجهات هي التي أعلنت مدينتها، لا كل ما في المدينة."
+      }</p>
     <ul class="cards">
       ${list
         .map(
@@ -747,9 +790,9 @@ function orgsScreen(): string {
 function mineScreen(): string {
   const entries = Object.entries(marks).filter(([, v]) => v.mark !== "ignored");
   if (entries.length === 0) {
-    return `<p class="empty">لم تعلّم أي فرصة بعد. علّم «مهتم» أو «قدّمت» من شاشة الموسم، ويُذكّرك التطبيق بعد ١٤ يوماً من التقديم.</p>`;
+    return `<h2>طلباتي</h2><p class="empty">لم تعلّم أي فرصة بعد. علّم «مهتم» أو «قدّمت» من شاشة الموسم، ويُذكّرك التطبيق بعد ١٤ يوماً من التقديم.</p>`;
   }
-  return `<ul class="cards">${entries
+  return `<h2>طلباتي</h2><ul class="cards">${entries
     .map(([id, v]) => {
       const o = data.opportunities.find((x) => x.id === id);
       const since = Math.floor((Date.now() - Date.parse(v.atISO)) / 86_400_000);
@@ -866,7 +909,7 @@ function notificationsCard(): string {
   const arrival =
     d.lastArrival === null
       ? `<p class="reason warn">لم يصل هذا الجهاز أي إشعار بعد. اضغط «جرّب إشعاراً الآن» أولاً: إن ظهر، فالعرض يعمل والمشكلة في الإرسال. وإن لم يظهر مع أن الإذن مسموح، فالنظام يحجب إشعارات المتصفّح.</p>`
-      : `<p class="reason">آخر إشعار وصل هذا الجهاز: <strong>${timeAgo(d.lastArrival.at)}</strong> (${d.lastArrival.via === "push" ? "من الخادم" : "تجربة محلية"})${d.lastArrival.title ? ` — ${esc(d.lastArrival.title)}` : ""}.</p>
+      : `<p class="reason">آخر إشعار وصل هذا الجهاز: <strong>${timeAgo(d.lastArrival.at)}</strong> (${d.lastArrival.via === "push" ? "من الخادم" : "تجربة محلية"})${d.lastArrival.title ? `، ${esc(d.lastArrival.title)}` : ""}.</p>
          ${
            lastServerPush === null
              ? `<p class="reason warn">ولم يصل أي إشعار <strong>من الخادم</strong> بعد. التجربة المحلية تُثبت أن جهازك يعرض الإشعارات، ولا تُثبت أن الخادم يصل إليك وأنت نائم، وهذا هو ما تعتمد عليه.</p>`
@@ -1010,7 +1053,8 @@ function coverage(): { total: number; read: number; orgsFullyRead: number; orgsU
 }
 
 function settingsScreen(): string {
-  return `<div class="cards">
+  return `<h2>الإعدادات</h2>
+    <div class="cards">
     <div class="card">
       <h3>ما الذي يضمنه هذا التطبيق، وما الذي لا يضمنه</h3>
       <p class="reason">
@@ -1169,7 +1213,34 @@ const TABS: [Tab, string][] = [
   ["settings", "الإعدادات"],
 ];
 
+/**
+ * What had focus, said in a way that survives the element being destroyed.
+ *
+ * Every interaction here re-renders the whole shell through `innerHTML`, which
+ * throws away the focused element and hands focus back to `<body>`. With a
+ * mouse that is invisible. On a keyboard it means every single press — change
+ * a filter, open a tab, toggle a switch — sends you back to the top of the page
+ * to tab down again, which makes the screen unusable rather than merely
+ * awkward. A student using a keyboard because of an injury or a preference
+ * cannot get to the fourth filter at all.
+ *
+ * The identity is the attribute the element is addressed by, not the node, so
+ * the freshly built element inherits the focus its predecessor had.
+ */
+function focusKey(el: Element | null): string | null {
+  if (!(el instanceof HTMLElement) || el === document.body) return null;
+  for (const attr of ["id", "data-tab", "data-filter"]) {
+    const v = el.getAttribute(attr);
+    if (v !== null && v !== "") return `[${attr}="${CSS.escape(v)}"]`;
+  }
+  return null;
+}
+
 function render(): void {
+  const hadFocus = focusKey(document.activeElement);
+  const caret =
+    document.activeElement instanceof HTMLInputElement ? document.activeElement.selectionStart : null;
+
   const screen =
     tab === "season" ? seasonScreen()
     : tab === "orgs" ? orgsScreen()
@@ -1193,6 +1264,26 @@ function render(): void {
   </div>
   <dialog class="sheet" id="sheet"><div class="sheet-body"></div></dialog>`;
   app.setAttribute("aria-busy", "false");
+
+  /*
+   * Put focus back where the reader left it, and the caret with it: the search
+   * box re-renders on every keystroke, so restoring focus without the cursor
+   * position would send every letter typed to the front of the word.
+   */
+  if (hadFocus !== null) {
+    const again = app.querySelector(hadFocus);
+    if (again instanceof HTMLElement) {
+      again.focus({ preventScroll: true });
+      if (again instanceof HTMLInputElement && caret !== null) {
+        try {
+          again.setSelectionRange(caret, caret);
+        } catch {
+          // A search input refuses a selection range in some browsers. Focus is
+          // the part that matters; the caret is a nicety.
+        }
+      }
+    }
+  }
 
   /*
    * With the labels on the left, scroll position zero already shows the names
@@ -1263,7 +1354,7 @@ function openSheet(orgId: string): void {
 
   dialog.querySelector(".sheet-body")!.innerHTML = `
     <h2>${esc(org.nameAr)}</h2>
-    <p class="org">${esc(org.nameEn)} — فئة ${org.tier} — ${esc(org.sector)}</p>
+    <p class="org">${esc(org.nameEn)}، فئة ${org.tier}، ${esc(org.sector)}</p>
     ${orgChips(org)}
     ${
       quote
@@ -1287,7 +1378,7 @@ function openSheet(orgId: string): void {
         "قناة التقديم",
         org.applyVia === null
           ? null
-          : `${esc(org.applyVia.target)}${org.applyVia.verifiedAtISO === null ? " — عنوان منشور، لم يُؤكَّد أنه يستقبل طلبات التدريب" : ""}`,
+          : `${esc(org.applyVia.target)}${org.applyVia.verifiedAtISO === null ? "، عنوان منشور، لم يُؤكَّد أنه يستقبل طلبات التدريب" : ""}`,
       )}
       ${fact(
         "مصدر السجل",

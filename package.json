@@ -8,6 +8,7 @@
     "node": ">=22"
   },
   "scripts": {
+    "test": "npm run gates",
     "validate": "tsx scripts/validate.ts",
     "collect": "tsx scripts/collect.ts",
     "verify-leads": "tsx scripts/verify-leads.ts",

@@ -38,6 +38,21 @@ const AUDIT = `(() => {
   const ratio = (a, b) => { const x = lum(a), y = lum(b);
     return (Math.max(x, y) + 0.05) / (Math.min(x, y) + 0.05); };
 
+  // The colour the page actually rests on, read rather than assumed.
+  //
+  // This was the literal light-theme grey, hard-coded. Under the night theme
+  // every element whose ancestors are all transparent - which is most text -
+  // was therefore measured as pale text on a pale ground, and reported a
+  // failing ratio as a passing one, or the reverse. An audit of five palettes
+  // that assumes one of them is not an audit of five palettes.
+  const rootBg = (() => {
+    for (const n of [document.body, document.documentElement]) {
+      const c = parse(getComputedStyle(n).backgroundColor);
+      if (c.a === 1) return c;
+    }
+    return { r: 255, g: 255, b: 255, a: 1 };
+  })();
+
   // Composite every ancestor background until an opaque one is reached: a tint
   // measured on its own reports a contrast nobody ever sees.
   const bgOf = (el) => { const stack = []; let n = el;
@@ -46,7 +61,7 @@ const AUDIT = `(() => {
       if (c.a > 0) stack.push(c);
       if (c.a === 1) break;
       n = n.parentNode; }
-    stack.push({ r: 231, g: 235, b: 239, a: 1 });
+    stack.push(rootBg);
     return stack.reduceRight((acc, c) => over(c, acc)); };
 
   const failures = []; let checked = 0;
@@ -68,12 +83,15 @@ const AUDIT = `(() => {
       size: Math.round(size), ratio: Number(r.toFixed(2)), need: large ? 3 : 4.5,
       text: el.textContent.trim().slice(0, 32) });
   });
-  return { checked: checked, failures: failures };
+  return { checked: checked, failures: failures,
+    ground: getComputedStyle(document.body).backgroundColor };
 })()`;
 
 interface Result {
   checked: number;
   failures: { cls: string; size: number; ratio: number; need: number; text: string }[];
+  /** The composited page background, so a theme that never applied is visible. */
+  ground: string;
 }
 
 /*
@@ -105,8 +123,16 @@ try {
   }
   await page.waitForSelector(".season", { timeout: 15_000 });
 
-  // Every theme on every screen. A theme is a palette, and a palette that was
-  // never measured is a guess about whether someone can read a closing date.
+  /*
+   * Every theme on every screen. A theme is a palette, and a palette that was
+   * never measured is a guess about whether someone can read a closing date.
+   *
+   * The grounds are collected so the run can prove the palettes really changed.
+   * Setting `data-theme` and reading back identical numbers five times is what a
+   * theme audit looks like when the attribute is being ignored — every figure
+   * below would then describe the light theme, five times, under five names.
+   */
+  const grounds = new Map<string, string>();
   for (const themeId of ["instrument", "night", "warm", "sharp", "playful"]) {
     await page.evaluate(
       `(() => { const t = ${JSON.stringify(themeId)};
@@ -122,13 +148,36 @@ try {
       ["settings", "الإعدادات"],
     ] as const) {
       await page.click(`[data-tab="${tab}"]`);
-      const { checked, failures } = (await page.evaluate(AUDIT)) as Result;
+      const { checked, failures, ground } = (await page.evaluate(AUDIT)) as Result;
       bad += failures.length;
+      grounds.set(themeId, ground);
+      /*
+       * "0 runs of text · 0 below the bar" is a perfect score for a screen that
+       * failed to render, and it read exactly like a clean one. A screen that
+       * measured nothing is a screen nobody has checked, so it counts against
+       * the run rather than for it. Twenty is well under the smallest of the
+       * four screens and well over anything an empty page could produce.
+       */
+      if (checked < 20) {
+        bad++;
+        console.log(`      NOTHING MEASURED on ${tab}/${themeId}: ${checked} runs of text`);
+      }
       console.log(
         `  ${label.padEnd(10)} ${String(checked).padStart(4)} runs of text · ${failures.length} below the bar`,
       );
       for (const f of failures) console.log(`      ${JSON.stringify(f)}`);
     }
+  }
+
+  console.log("\nthe five palettes are five palettes");
+  for (const [id, g] of grounds) console.log(`  ${id.padEnd(11)} ${g}`);
+  const distinct = new Set(grounds.values()).size;
+  if (distinct < 3) {
+    bad++;
+    console.log(
+      `  ONLY ${distinct} DISTINCT BACKGROUND(S): data-theme is not reaching the page, so every` +
+        ` figure above describes one palette under five names.`,
+    );
   }
 } finally {
   await browser.close();
