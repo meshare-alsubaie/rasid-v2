@@ -8404,5 +8404,489 @@
     "historicalWindows": [],
     "notes": "مستورد من ملف COOP، تاريخه ~2020-2021، غير محقق",
     "importSource": "coop_pdf_2021"
+  },
+  {
+    "id": "sirar",
+    "nameAr": "سرار من stc",
+    "nameEn": "sirar by stc",
+    "sector": "tech",
+    "city": [],
+    "tier": "S",
+    "requiresZeroCourses": {
+      "value": null,
+      "provenance": "unknown"
+    },
+    "acceptsUserMajor": null,
+    "offersCoopProduct": true,
+    "stipend": {
+      "amountSAR": null,
+      "provenance": "unknown"
+    },
+    "flexibility": "unknown",
+    "intakeSize": "unknown",
+    "trainingQuality": null,
+    "sources": [
+      {
+        "url": "https://www.sirar.com.sa/about-us/careers/",
+        "provenance": "reported",
+        "verifiedAtISO": null,
+        "verifiedNote": "أُضيف من تدقيق شرعيّة المصادر: تعاون أمن سيبراني منصوص عليه في صفحة التوظيف",
+        "type": "careers_page",
+        "checkFrequencyHours": 12,
+        "renderMode": "static",
+        "coopConfirmed": false
+      },
+      {
+        "url": "https://www.sirar.com.sa/",
+        "provenance": "reported",
+        "verifiedAtISO": null,
+        "verifiedNote": "أُضيف من تدقيق شرعيّة المصادر: تعاون أمن سيبراني منصوص عليه في صفحة التوظيف",
+        "type": "site_root",
+        "checkFrequencyHours": 12,
+        "renderMode": "static",
+        "coopConfirmed": false
+      }
+    ],
+    "applyVia": null,
+    "manualCheckUrl": null,
+    "historicalWindows": [],
+    "importSource": "manual"
+  },
+  {
+    "id": "tahakom",
+    "nameAr": "تحاكم",
+    "nameEn": "Tahakom",
+    "sector": "semi_gov",
+    "city": [],
+    "tier": "S",
+    "requiresZeroCourses": {
+      "value": null,
+      "provenance": "unknown"
+    },
+    "acceptsUserMajor": null,
+    "offersCoopProduct": true,
+    "stipend": {
+      "amountSAR": null,
+      "provenance": "unknown"
+    },
+    "flexibility": "unknown",
+    "intakeSize": "unknown",
+    "trainingQuality": null,
+    "sources": [
+      {
+        "url": "https://www.tahakom.com/careers",
+        "provenance": "reported",
+        "verifiedAtISO": null,
+        "verifiedNote": "أُضيف من تدقيق شرعيّة المصادر: تعاوني يستهدف الأمن السيبراني وعلوم الحاسب والذكاء الاصطناعي",
+        "type": "careers_page",
+        "checkFrequencyHours": 12,
+        "renderMode": "static",
+        "coopConfirmed": false
+      },
+      {
+        "url": "https://www.tahakom.com/",
+        "provenance": "reported",
+        "verifiedAtISO": null,
+        "verifiedNote": "أُضيف من تدقيق شرعيّة المصادر: تعاوني يستهدف الأمن السيبراني وعلوم الحاسب والذكاء الاصطناعي",
+        "type": "site_root",
+        "checkFrequencyHours": 12,
+        "renderMode": "static",
+        "coopConfirmed": false
+      }
+    ],
+    "applyVia": null,
+    "manualCheckUrl": null,
+    "historicalWindows": [],
+    "importSource": "manual"
+  },
+  {
+    "id": "kacst",
+    "nameAr": "مدينة الملك عبدالعزيز للعلوم والتقنية",
+    "nameEn": "KACST",
+    "sector": "gov",
+    "city": [],
+    "tier": "A",
+    "requiresZeroCourses": {
+      "value": null,
+      "provenance": "unknown"
+    },
+    "acceptsUserMajor": null,
+    "offersCoopProduct": true,
+    "stipend": {
+      "amountSAR": null,
+      "provenance": "unknown"
+    },
+    "flexibility": "unknown",
+    "intakeSize": "unknown",
+    "trainingQuality": null,
+    "sources": [
+      {
+        "url": "https://coop.kacst.edu.sa/",
+        "provenance": "reported",
+        "verifiedAtISO": null,
+        "verifiedNote": "أُضيف من تدقيق شرعيّة المصادر: بوابة تدريب تعاوني مخصّصة، لطلاب السنة الأخيرة في العلوم التطبيقية",
+        "type": "portal",
+        "checkFrequencyHours": 12,
+        "renderMode": "static",
+        "coopConfirmed": false
+      },
+      {
+        "url": "https://www.kacst.edu.sa/",
+        "provenance": "reported",
+        "verifiedAtISO": null,
+        "verifiedNote": "أُضيف من تدقيق شرعيّة المصادر: بوابة تدريب تعاوني مخصّصة، لطلاب السنة الأخيرة في العلوم التطبيقية",
+        "type": "site_root",
+        "checkFrequencyHours": 12,
+        "renderMode": "static",
+        "coopConfirmed": false
+      }
+    ],
+    "applyVia": null,
+    "manualCheckUrl": null,
+    "historicalWindows": [],
+    "importSource": "manual"
+  },
+  {
+    "id": "nic_moi",
+    "nameAr": "المركز الوطني للمعلومات",
+    "nameEn": "National Information Center",
+    "sector": "gov",
+    "city": [],
+    "tier": "A",
+    "requiresZeroCourses": {
+      "value": null,
+      "provenance": "unknown"
+    },
+    "acceptsUserMajor": null,
+    "offersCoopProduct": true,
+    "stipend": {
+      "amountSAR": null,
+      "provenance": "unknown"
+    },
+    "flexibility": "unknown",
+    "intakeSize": "unknown",
+    "trainingQuality": null,
+    "sources": [
+      {
+        "url": "https://www.moi.gov.sa/wps/portal/Home/sectors/nic/",
+        "provenance": "reported",
+        "verifiedAtISO": null,
+        "verifiedNote": "أُضيف من تدقيق شرعيّة المصادر: تعاوني يشمل تقنية المعلومات ونظم المعلومات الإدارية",
+        "type": "site_root",
+        "checkFrequencyHours": 12,
+        "renderMode": "static",
+        "coopConfirmed": false
+      }
+    ],
+    "applyVia": null,
+    "manualCheckUrl": null,
+    "historicalWindows": [],
+    "importSource": "manual"
+  },
+  {
+    "id": "sami",
+    "nameAr": "الشركة السعودية للصناعات العسكرية",
+    "nameEn": "SAMI",
+    "sector": "semi_gov",
+    "city": [],
+    "tier": "A",
+    "requiresZeroCourses": {
+      "value": null,
+      "provenance": "unknown"
+    },
+    "acceptsUserMajor": null,
+    "offersCoopProduct": true,
+    "stipend": {
+      "amountSAR": null,
+      "provenance": "unknown"
+    },
+    "flexibility": "unknown",
+    "intakeSize": "unknown",
+    "trainingQuality": null,
+    "sources": [
+      {
+        "url": "https://www.sami.com.sa/careers/",
+        "provenance": "reported",
+        "verifiedAtISO": null,
+        "verifiedNote": "أُضيف من تدقيق شرعيّة المصادر: تعاوني، وبرنامج روّاد الصناعة، وشراكة مع مسك",
+        "type": "careers_page",
+        "checkFrequencyHours": 12,
+        "renderMode": "static",
+        "coopConfirmed": false
+      },
+      {
+        "url": "https://www.sami.com.sa/",
+        "provenance": "reported",
+        "verifiedAtISO": null,
+        "verifiedNote": "أُضيف من تدقيق شرعيّة المصادر: تعاوني، وبرنامج روّاد الصناعة، وشراكة مع مسك",
+        "type": "site_root",
+        "checkFrequencyHours": 12,
+        "renderMode": "static",
+        "coopConfirmed": false
+      }
+    ],
+    "applyVia": null,
+    "manualCheckUrl": null,
+    "historicalWindows": [],
+    "importSource": "manual"
+  },
+  {
+    "id": "zain_ksa",
+    "nameAr": "زين السعودية",
+    "nameEn": "Zain KSA",
+    "sector": "tech",
+    "city": [],
+    "tier": "B",
+    "requiresZeroCourses": {
+      "value": null,
+      "provenance": "unknown"
+    },
+    "acceptsUserMajor": null,
+    "offersCoopProduct": true,
+    "stipend": {
+      "amountSAR": null,
+      "provenance": "unknown"
+    },
+    "flexibility": "unknown",
+    "intakeSize": "unknown",
+    "trainingQuality": null,
+    "sources": [
+      {
+        "url": "https://sa.zain.com/ar/careers/join-zain",
+        "provenance": "reported",
+        "verifiedAtISO": null,
+        "verifiedNote": "أُضيف من تدقيق شرعيّة المصادر: تدريب تعاوني وصيفي يشمل تقنية المعلومات وعلوم الحاسب",
+        "type": "careers_page",
+        "checkFrequencyHours": 12,
+        "renderMode": "static",
+        "coopConfirmed": false
+      }
+    ],
+    "applyVia": null,
+    "manualCheckUrl": null,
+    "historicalWindows": [],
+    "importSource": "manual"
+  },
+  {
+    "id": "sec",
+    "nameAr": "الشركة السعودية للكهرباء",
+    "nameEn": "Saudi Electricity Company",
+    "sector": "semi_gov",
+    "city": [],
+    "tier": "B",
+    "requiresZeroCourses": {
+      "value": null,
+      "provenance": "unknown"
+    },
+    "acceptsUserMajor": null,
+    "offersCoopProduct": true,
+    "stipend": {
+      "amountSAR": null,
+      "provenance": "unknown"
+    },
+    "flexibility": "unknown",
+    "intakeSize": "unknown",
+    "trainingQuality": null,
+    "sources": [
+      {
+        "url": "https://se.com.sa/nh",
+        "provenance": "reported",
+        "verifiedAtISO": null,
+        "verifiedNote": "أُضيف من تدقيق شرعيّة المصادر: تعاوني في أربع مناطق، تقني وإداري",
+        "type": "careers_page",
+        "checkFrequencyHours": 12,
+        "renderMode": "static",
+        "coopConfirmed": false
+      }
+    ],
+    "applyVia": null,
+    "manualCheckUrl": null,
+    "historicalWindows": [],
+    "importSource": "manual"
+  },
+  {
+    "id": "sab",
+    "nameAr": "البنك السعودي الأول",
+    "nameEn": "Saudi Awwal Bank",
+    "sector": "bank",
+    "city": [],
+    "tier": "B",
+    "requiresZeroCourses": {
+      "value": null,
+      "provenance": "unknown"
+    },
+    "acceptsUserMajor": null,
+    "offersCoopProduct": true,
+    "stipend": {
+      "amountSAR": null,
+      "provenance": "unknown"
+    },
+    "flexibility": "unknown",
+    "intakeSize": "unknown",
+    "trainingQuality": null,
+    "sources": [
+      {
+        "url": "https://careers.sab.com/ar/",
+        "provenance": "reported",
+        "verifiedAtISO": null,
+        "verifiedNote": "أُضيف من تدقيق شرعيّة المصادر: برنامج تدريب تعاوني معلَن",
+        "type": "careers_page",
+        "checkFrequencyHours": 12,
+        "renderMode": "static",
+        "coopConfirmed": false
+      }
+    ],
+    "applyVia": null,
+    "manualCheckUrl": null,
+    "historicalWindows": [],
+    "importSource": "manual"
+  },
+  {
+    "id": "spl",
+    "nameAr": "البريد السعودي",
+    "nameEn": "Saudi Post (SPL)",
+    "sector": "semi_gov",
+    "city": [],
+    "tier": "C",
+    "requiresZeroCourses": {
+      "value": null,
+      "provenance": "unknown"
+    },
+    "acceptsUserMajor": null,
+    "offersCoopProduct": true,
+    "stipend": {
+      "amountSAR": null,
+      "provenance": "unknown"
+    },
+    "flexibility": "unknown",
+    "intakeSize": "unknown",
+    "trainingQuality": null,
+    "sources": [
+      {
+        "url": "https://splonline.com.sa/ar/careers/",
+        "provenance": "reported",
+        "verifiedAtISO": null,
+        "verifiedNote": "أُضيف من تدقيق شرعيّة المصادر: برنامج «إتمام» للتدريب التعاوني، لجميع التخصصات",
+        "type": "careers_page",
+        "checkFrequencyHours": 12,
+        "renderMode": "static",
+        "coopConfirmed": false
+      }
+    ],
+    "applyVia": null,
+    "manualCheckUrl": null,
+    "historicalWindows": [],
+    "importSource": "manual"
+  },
+  {
+    "id": "ncvc",
+    "nameAr": "المركز الوطني لتنمية الغطاء النباتي",
+    "nameEn": "NCVC",
+    "sector": "gov",
+    "city": [],
+    "tier": "C",
+    "requiresZeroCourses": {
+      "value": null,
+      "provenance": "unknown"
+    },
+    "acceptsUserMajor": null,
+    "offersCoopProduct": true,
+    "stipend": {
+      "amountSAR": null,
+      "provenance": "unknown"
+    },
+    "flexibility": "unknown",
+    "intakeSize": "unknown",
+    "trainingQuality": null,
+    "sources": [
+      {
+        "url": "https://ncvc.gov.sa/en/Pages/COOP-Training.aspx",
+        "provenance": "reported",
+        "verifiedAtISO": null,
+        "verifiedNote": "أُضيف من تدقيق شرعيّة المصادر: صفحة تدريب تعاوني معلَنة",
+        "type": "careers_page",
+        "checkFrequencyHours": 12,
+        "renderMode": "static",
+        "coopConfirmed": false
+      }
+    ],
+    "applyVia": null,
+    "manualCheckUrl": null,
+    "historicalWindows": [],
+    "importSource": "manual"
+  },
+  {
+    "id": "flyadeal",
+    "nameAr": "طيران أديل",
+    "nameEn": "flyadeal",
+    "sector": "semi_gov",
+    "city": [],
+    "tier": "C",
+    "requiresZeroCourses": {
+      "value": null,
+      "provenance": "unknown"
+    },
+    "acceptsUserMajor": null,
+    "offersCoopProduct": true,
+    "stipend": {
+      "amountSAR": null,
+      "provenance": "unknown"
+    },
+    "flexibility": "unknown",
+    "intakeSize": "unknown",
+    "trainingQuality": null,
+    "sources": [
+      {
+        "url": "https://careers.flyadeal.com/",
+        "provenance": "reported",
+        "verifiedAtISO": null,
+        "verifiedNote": "أُضيف من تدقيق شرعيّة المصادر: إعلان تعاوني ٢٠٢٦ منشور على بوابة التوظيف",
+        "type": "careers_page",
+        "checkFrequencyHours": 12,
+        "renderMode": "static",
+        "coopConfirmed": false
+      }
+    ],
+    "applyVia": null,
+    "manualCheckUrl": null,
+    "historicalWindows": [],
+    "importSource": "manual"
+  },
+  {
+    "id": "kafd",
+    "nameAr": "مركز الملك عبدالله المالي",
+    "nameEn": "KAFD",
+    "sector": "semi_gov",
+    "city": [],
+    "tier": "C",
+    "requiresZeroCourses": {
+      "value": null,
+      "provenance": "unknown"
+    },
+    "acceptsUserMajor": null,
+    "offersCoopProduct": true,
+    "stipend": {
+      "amountSAR": null,
+      "provenance": "unknown"
+    },
+    "flexibility": "unknown",
+    "intakeSize": "unknown",
+    "trainingQuality": null,
+    "sources": [
+      {
+        "url": "https://careers.kafd.sa/",
+        "provenance": "reported",
+        "verifiedAtISO": null,
+        "verifiedNote": "أُضيف من تدقيق شرعيّة المصادر: شواغر تعاوني مفتوحة على بوابة التوظيف",
+        "type": "careers_page",
+        "checkFrequencyHours": 12,
+        "renderMode": "static",
+        "coopConfirmed": false
+      }
+    ],
+    "applyVia": null,
+    "manualCheckUrl": null,
+    "historicalWindows": [],
+    "importSource": "manual"
   }
 ]
