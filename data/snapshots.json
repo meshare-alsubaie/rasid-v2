@@ -135,31 +135,22 @@
   {
     "sourceUrl": "https://adf.gov.sa/ar/Pages/default.aspx",
     "orgId": "adf",
-    "contentHash": "f869ff43ab2aaf11bb0f5a87b3704ea6d4c551b7447ba932511f10ec72ef9c36",
+    "contentHash": "45cf9f211de152810a0b6f7592a63050a5aa34cfac550ef5f198816a439a6bc9",
     "blockHashes": [
-      "76e1a7648ad6cad4",
-      "74e4c1d2a646a96e",
-      "3072760ddc75445f",
+      "1ce798e0ca5f6070",
+      "9e8708f46644e878",
+      "3556d228f5c96277",
       "d9fa33934fb9c265",
       "b7a4f19178b3b8a1",
       "0514128baf9c79f1",
       "9185920f2483a42d",
-      "3502749bcedfbdb2",
+      "4dd50af7ab1e6e39",
       "d380a83380c07da6",
       "2c2b159c69b9c652",
       "a388dba12693ad77",
       "96a4c3fb7f3a9ff3",
       "4c89d6f101d719a5",
       "2368a233abe4d7c0",
-      "4975ce7e75d441a1",
-      "60ea9d4520db3494",
-      "ab4f539d550c50ff",
-      "4244123e19b92da1",
-      "ab9cc27414bdfd29",
-      "0be2826933813a9a",
-      "c300ce630f7f9bfd",
-      "43cacd501d06f23a",
-      "1741d12f8f6236be",
       "89e64ef213f6260e",
       "72033fdd25227d0d",
       "782261474561a27a",
@@ -168,9 +159,9 @@
     "extractedChars": 1665,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
-    "lastChangedISO": "2026-09-02T23:42:46.216Z",
+    "lastChangedISO": "2026-09-03T02:15:11.754Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://adf.gov.sa/ar/Pages/employment.aspx",
@@ -1537,11 +1528,9 @@
   {
     "sourceUrl": "https://careers.saib.com.sa/ar/page/coop-program/",
     "orgId": "saib",
-    "contentHash": "dbcac92d92bcffebad599bfff6e18c51407da7c11259fd0b181bddb8daf39034",
+    "contentHash": "2b314bfcdc146e409bd9046e3e5af20b56397b00ccb824f4334b7e320c4f74ff",
     "blockHashes": [
-      "825147e49db63280",
-      "0aada8fc06fc1718",
-      "e4e5c6ff02cdce7f",
+      "50bf894de94aefd8",
       "84438777d4b0d8a6",
       "35030cfcf1d7b420",
       "7c3d7ee8e149eb5b",
@@ -1555,7 +1544,7 @@
     "extractedChars": 1535,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
-    "lastChangedISO": "2026-09-02T14:52:39.481Z",
+    "lastChangedISO": "2026-09-03T02:15:11.754Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -2419,14 +2408,14 @@
     "orgId": "gcam",
     "contentHash": "a65f79202676ee7c9a84c647bb9eddcf855fb90d6ca9e3ff0b98ab2d109f7d8a",
     "blockHashes": [
-      "f8995272d1f778fc"
+      "a65f79202676ee7c"
     ],
     "extractedChars": 1118,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-02T23:42:46.216Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://gmedia.gov.sa/ar/hiring",
@@ -3463,13 +3452,17 @@
     "sourceUrl": "https://nca.gov.sa/ar/nca-academy/",
     "orgId": "ncac",
     "contentHash": "f067dca053e98658a5a56f3ab4752c9dc13f41096dbe53d843a0bd6493ce3e60",
-    "blockHashes": [],
+    "blockHashes": [
+      "ac85fb321e70939c",
+      "69e7c9665d85d926",
+      "8aab71e6c2b5aa59"
+    ],
     "extractedChars": 773,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-02T23:42:46.216Z",
     "lastChangedISO": "2026-09-02T23:42:46.216Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://nca.gov.sa/ar/news/",
@@ -5439,7 +5432,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-03T01:18:25.099Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.bog.gov.sa/en/EServices/Pages/khabeer.aspx",
@@ -7894,7 +7887,7 @@
     "blockHashes": [
       "7f625851cbbadbc6",
       "f7711325e2c4b301",
-      "122d2a9d2717f2c6",
+      "d31ef575b7880a50",
       "ffd666e2720f42ef",
       "f4809815161554d5",
       "ec90d29b5d482b67",
@@ -7910,7 +7903,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-02T23:42:46.216Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.mof.gov.sa/mediacenter/circulars/Pages/default.aspx",
@@ -8522,7 +8515,7 @@
     "orgId": "nazaha",
     "contentHash": "bf954eca17abeedc0683850998fc76695bcb548dc5507e2aeaffe43fdda5f006",
     "blockHashes": [
-      "662bd5eddf609daa",
+      "a17674a31330e660",
       "8d35c6dbfb6149bf",
       "934470dd7b84953f",
       "db91f83ef7359a6e"
@@ -8532,7 +8525,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-02T23:42:46.216Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.ncc.gov.sa/ar/MediaCenter/Events/Pages/default.aspx",
@@ -10220,7 +10213,7 @@
   {
     "sourceUrl": "https://www.sfda.gov.sa/en/career-vision-and-mission",
     "orgId": "sfda",
-    "contentHash": "8da6131558234fa6deecd955cf7523c95d4bab4c245ffc8a0de189735464b212",
+    "contentHash": "3a7f2e3e9903cc142245656dd2a751d67d56b97801e0096051738a88118e3fe7",
     "blockHashes": [
       "4e3b1c94f76f8148",
       "eba48d47d7bc0f9e",
@@ -10234,12 +10227,12 @@
       "a0466ff116c86d28",
       "4b81d1c31f1f9c59",
       "02085740ec4421fd",
-      "b59408715fca35d1"
+      "bea41799751eb16d"
     ],
     "extractedChars": 997,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-02T23:42:46.216Z",
+    "lastChangedISO": "2026-09-03T02:15:11.754Z",
     "thinRuns": 0,
     "pendingClassification": false
   },

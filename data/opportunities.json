@@ -322,7 +322,7 @@
     "titleAr": "لم يُصنَّف بعد",
     "detectedISO": "2026-09-03T01:22:25.873Z",
     "firstSeenISO": "2026-09-03T01:22:25.873Z",
-    "lastConfirmedISO": "2026-09-03T01:22:25.873Z",
+    "lastConfirmedISO": "2026-09-03T02:15:11.754Z",
     "status": "unknown",
     "opensISO": null,
     "closesISO": null,
@@ -715,7 +715,8 @@
     "zeroCoursesQuote": null,
     "flags": [
       "no_course_condition",
-      "more_on_page"
+      "more_on_page",
+      "vanished_from_source"
     ],
     "sourceUrl": "https://www.mof.gov.sa/GFS/TrainingProgram/Pages/TrainingManual.aspx",
     "applyUrl": null,
@@ -1317,7 +1318,8 @@
     "statesZeroCoursesRule": false,
     "zeroCoursesQuote": null,
     "flags": [
-      "needs_manual_review"
+      "needs_manual_review",
+      "vanished_from_source"
     ],
     "sourceUrl": "https://adf.gov.sa/ar/Pages/default.aspx",
     "applyUrl": null,
@@ -3525,39 +3527,33 @@
   {
     "id": "c5940bb38450323a",
     "orgId": "saib",
-    "titleAr": "برنامج التدريب التعاوني",
+    "titleAr": "البنك السعودي للاستثمار",
     "detectedISO": "2026-08-29T19:43:17.547Z",
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
-    "lastConfirmedISO": "2026-09-02T23:42:46.216Z",
+    "lastConfirmedISO": "2026-09-03T02:15:11.754Z",
     "status": "unknown",
     "opensISO": null,
     "closesISO": null,
     "closesHijri": null,
     "product": "coop",
     "majors": [
-      "المالية",
-      "المحاسبة",
-      "التسويق",
-      "الهندسة",
-      "نظم المعلومات الإدارية",
-      "مجالات إدارة الأعمال الأخرى ذات الصلة"
+      "التدريب التعاوني"
     ],
     "seats": null,
     "stipendSAR": null,
     "durationWeeks": null,
     "cities": [],
-    "relevanceScore": 65,
-    "relevanceReason": "تخصّص تقني قريب من تخصّصك لا مطابق له.",
+    "relevanceScore": 10,
+    "relevanceReason": "ذكر الإعلان تخصّصات ليس فيها ما يقارب تخصّصك.",
     "statesZeroCoursesRule": false,
     "zeroCoursesQuote": null,
     "flags": [
       "no_course_condition",
-      "first_time_seen",
-      "more_on_page"
+      "first_time_seen"
     ],
     "sourceUrl": "https://careers.saib.com.sa/ar/page/coop-program/",
     "applyUrl": null,
-    "rawExcerpt": "About the Program يركز برنامج التدريب التعاوني على تطوير المهارات العملية لطلاب التدريب التعاوني، من خلال تعزيز التعاون بين الجامعات وطلابها والبنك السعودي للاستثمار، بما يسهم في تسريع جاهزية الخريجين واندماجهم في سوق العمل.. Practical Work Experience Students work with SAIB professional staff to gain practical experience and develop an understanding of the banking sector. Department-Based Trainin"
+    "rawExcerpt": "البنك السعودي للاستثمار\n\nEnglish تسجيل دخول إنشاء حساب جديد About the Program يركز برنامج التدريب التعاوني على تطوير المهارات العملية لطلاب التدريب التعاوني، من خلال تعزيز التعاون بين الجامعات وطلابها والبنك السعودي للاستثمار، بما يسهم في تسريع جاهزية الخريجين واندماجهم في سوق العمل..\n\nEnglish تسجيل دخول إنشاء حساب جديد About the Program يركز برنامج التدريب التعاوني على تطوير المهارات العملية لطلا"
   },
   {
     "id": "c63d725e0fb3e3ee",
