@@ -677,8 +677,8 @@
   {
     "sourceUrl": "https://careers.sab.com/ar/",
     "orgId": "sab",
-    "lastAttemptISO": "2026-09-03T01:22:25.873Z",
-    "lastSuccessISO": "2026-09-03T01:22:25.873Z",
+    "lastAttemptISO": "2026-09-03T03:32:47.890Z",
+    "lastSuccessISO": "2026-09-03T03:32:47.890Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -794,9 +794,9 @@
   {
     "sourceUrl": "https://careers.sdaia.gov.sa/jobs",
     "orgId": "sdaia",
-    "lastAttemptISO": "2026-09-03T02:28:19.364Z",
+    "lastAttemptISO": "2026-09-03T03:32:47.890Z",
     "lastSuccessISO": "2026-09-02T23:42:46.216Z",
-    "consecutiveFailures": 3,
+    "consecutiveFailures": 4,
     "lastError": "headless chromium unavailable (browserType.launch: Executable doesn't exist at [مسار محلي]/chrome-headless-shell.exe\n╔════════════════════════════════════════════════════════════╗\n║ Looks like Playwright was just installed or updated.       ║\n║ Please run the following command to download new browsers: ║\n║                                                            ║\n║     npx playwright install                                 ║\n║                                                            ║\n║ <3 Playwright Team                                         ║\n╚════════════════════════════════════════════════════════════╝); run \"npx playwright install chromium\"",
     "state": "degraded"
   },
@@ -1001,8 +1001,8 @@
   {
     "sourceUrl": "https://gmedia.gov.sa/ar/news/news-0019",
     "orgId": "gcam",
-    "lastAttemptISO": "2026-09-03T00:55:34.080Z",
-    "lastSuccessISO": "2026-09-03T00:55:34.080Z",
+    "lastAttemptISO": "2026-09-03T03:32:47.890Z",
+    "lastSuccessISO": "2026-09-03T03:32:47.890Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -3809,9 +3809,9 @@
   {
     "sourceUrl": "https://www.tawuniya.com/en/careers",
     "orgId": "tawuniya",
-    "lastAttemptISO": "2026-09-03T00:54:25.423Z",
+    "lastAttemptISO": "2026-09-03T03:32:47.890Z",
     "lastSuccessISO": null,
-    "consecutiveFailures": 16,
+    "consecutiveFailures": 17,
     "lastError": "headless chromium unavailable (browserType.launch: Executable doesn't exist at [مسار محلي]/chrome-headless-shell.exe\n╔════════════════════════════════════════════════════════════╗\n║ Looks like Playwright was just installed or updated.       ║\n║ Please run the following command to download new browsers: ║\n║                                                            ║\n║     npx playwright install                                 ║\n║                                                            ║\n║ <3 Playwright Team                                         ║\n╚════════════════════════════════════════════════════════════╝); run \"npx playwright install chromium\"",
     "state": "broken"
   },
