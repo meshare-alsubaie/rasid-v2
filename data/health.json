@@ -1388,11 +1388,11 @@
   {
     "sourceUrl": "https://ncar.gov.sa/",
     "orgId": "ncar",
-    "lastAttemptISO": "2026-09-02T23:42:46.216Z",
+    "lastAttemptISO": "2026-09-03T00:59:05.762Z",
     "lastSuccessISO": "2026-09-02T23:42:46.216Z",
-    "consecutiveFailures": 0,
-    "lastError": null,
-    "state": "healthy"
+    "consecutiveFailures": 1,
+    "lastError": "headless chromium unavailable (browserType.launch: Executable doesn't exist at [مسار محلي]/chrome-headless-shell.exe\n╔════════════════════════════════════════════════════════════╗\n║ Looks like Playwright was just installed or updated.       ║\n║ Please run the following command to download new browsers: ║\n║                                                            ║\n║     npx playwright install                                 ║\n║                                                            ║\n║ <3 Playwright Team                                         ║\n╚════════════════════════════════════════════════════════════╝); run \"npx playwright install chromium\"",
+    "state": "degraded"
   },
   {
     "sourceUrl": "https://ncdc.gov.sa/",
@@ -2072,8 +2072,8 @@
   {
     "sourceUrl": "https://www.citc.gov.sa/ar/Pages/default.aspx",
     "orgId": "citc",
-    "lastAttemptISO": "2026-09-02T23:42:46.216Z",
-    "lastSuccessISO": "2026-09-02T23:42:46.216Z",
+    "lastAttemptISO": "2026-09-03T00:59:05.762Z",
+    "lastSuccessISO": "2026-09-03T00:59:05.762Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -3251,8 +3251,8 @@
   {
     "sourceUrl": "https://www.riyadbank.com/ar/personal-banking",
     "orgId": "riyadbank",
-    "lastAttemptISO": "2026-09-02T23:42:46.216Z",
-    "lastSuccessISO": "2026-09-02T23:42:46.216Z",
+    "lastAttemptISO": "2026-09-03T00:59:05.762Z",
+    "lastSuccessISO": "2026-09-03T00:59:05.762Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
