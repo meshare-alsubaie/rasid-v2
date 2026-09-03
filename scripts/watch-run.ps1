@@ -58,15 +58,64 @@ $env:Path = "$nodeDir;C:\Program Files\GitHub CLI;C:\Program Files\Git\cmd;$env:
 # Reproduced deliberately: overriding LOCALAPPDATA produces exactly that error
 # and nothing else changes. So the location is pinned here, and the watcher no
 # longer depends on which environment the scheduler happened to hand it.
+# Resolved from the user token, not from the environment block.
+#
+# The first attempt at this read $env:LOCALAPPDATA and fell back to
+# $env:USERNAME, and the watcher's own warning then fired on every start: the
+# scheduler hands the task an environment in which neither is usable, so both
+# candidates missed and 41 sources went on failing. GetFolderPath asks Windows
+# where the folder is rather than asking the environment what it was told, which
+# is the difference between a value that is right and a value that was inherited.
 if (-not $env:PLAYWRIGHT_BROWSERS_PATH) {
-    $browsers = Join-Path $env:LOCALAPPDATA "ms-playwright"
-    if (-not (Test-Path $browsers)) {
-        $browsers = Join-Path "C:\Users\$env:USERNAME\AppData\Local" "ms-playwright"
+    # The last candidate is derived from this script's own location and asks the
+    # environment for nothing at all. The three before it were each tried in
+    # turn and each failed under the scheduler, which hands the task an
+    # environment where LOCALAPPDATA, USERNAME and even the token lookup all
+    # miss. The repository sits inside the profile that owns the browsers, so
+    # its path is the one fact available here that is certainly true.
+    # First: the copy installed inside the repository itself.
+    $inRepo = Join-Path $repo ".playwright"
+
+    $fromRepo = $null
+    if ($repo -match '^(?<root>[A-Za-z]:\\Users\\[^\\]+)\\') {
+        $fromRepo = Join-Path $Matches['root'] "AppData\Local"
     }
-    if (Test-Path $browsers) {
-        $env:PLAYWRIGHT_BROWSERS_PATH = $browsers
+    $candidates = @(
+        $inRepo,
+        [Environment]::GetFolderPath("LocalApplicationData"),
+        $env:LOCALAPPDATA,
+        (Join-Path $HOME "AppData\Local"),
+        $fromRepo
+    )
+    foreach ($root in $candidates) {
+        if (-not $root) { continue }
+        # The in-repo copy is already the browsers root; the profile ones need
+        # the ms-playwright folder appended.
+        $browsers = if ($root -eq $inRepo) { $root } else { Join-Path $root "ms-playwright" }
+        # [IO.Directory]::Exists rather than Test-Path: the provider-based cmdlet
+        # reported False for this exact path under the scheduler while a direct
+        # filesystem call reports True, and the log above proved the string was
+        # correct all along.
+        if ([System.IO.Directory]::Exists($browsers)) {
+            $env:PLAYWRIGHT_BROWSERS_PATH = $browsers
+            break
+        }
+    }
+    if ($env:PLAYWRIGHT_BROWSERS_PATH) {
+        Say ("browsers: " + $env:PLAYWRIGHT_BROWSERS_PATH)
     } else {
+        # Naming what was tried, because the first two attempts at this failed
+        # silently and the only way to tell why was to guess. A diagnostic that
+        # prints the candidates costs one line and ends the guessing.
         Say "WARNING: no Playwright browsers found. Pages needing a real browser will not be read."
+        Say ("  repo=" + $repo)
+        $i = 0
+        foreach ($root in $candidates) {
+            $i++
+            if (-not $root) { Say ("  candidate " + $i + ": (empty)"); continue }
+            $try = if ($root -eq $inRepo) { $root } else { Join-Path $root "ms-playwright" }
+            Say ("  candidate " + $i + ": " + $try + " exists=" + [System.IO.Directory]::Exists($try))
+        }
     }
 }
 
