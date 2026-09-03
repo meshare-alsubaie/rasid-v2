@@ -1694,8 +1694,8 @@
   {
     "sourceUrl": "https://talent.mc.gov.sa/",
     "orgId": "mc",
-    "lastAttemptISO": "2026-09-02T23:42:46.216Z",
-    "lastSuccessISO": "2026-09-02T23:42:46.216Z",
+    "lastAttemptISO": "2026-09-03T01:11:23.540Z",
+    "lastSuccessISO": "2026-09-03T01:11:23.540Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -1739,11 +1739,11 @@
   {
     "sourceUrl": "https://thiqah.sa/",
     "orgId": "thiqah",
-    "lastAttemptISO": "2026-09-02T23:42:46.216Z",
+    "lastAttemptISO": "2026-09-03T01:11:23.540Z",
     "lastSuccessISO": "2026-09-02T23:42:46.216Z",
-    "consecutiveFailures": 0,
-    "lastError": null,
-    "state": "healthy"
+    "consecutiveFailures": 1,
+    "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
+    "state": "degraded"
   },
   {
     "sourceUrl": "https://training.moj.gov.sa/",
@@ -3359,8 +3359,8 @@
   {
     "sourceUrl": "https://www.sar.com.sa/",
     "orgId": "sar",
-    "lastAttemptISO": "2026-09-02T23:42:46.216Z",
-    "lastSuccessISO": "2026-09-02T23:42:46.216Z",
+    "lastAttemptISO": "2026-09-03T01:11:23.540Z",
+    "lastSuccessISO": "2026-09-03T01:11:23.540Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -3683,11 +3683,11 @@
   {
     "sourceUrl": "https://www.taifcity.gov.sa/#/ar",
     "orgId": "taif_amanah",
-    "lastAttemptISO": "2026-09-02T23:42:46.216Z",
+    "lastAttemptISO": "2026-09-03T01:11:23.540Z",
     "lastSuccessISO": "2026-09-02T23:42:46.216Z",
-    "consecutiveFailures": 0,
-    "lastError": null,
-    "state": "healthy"
+    "consecutiveFailures": 1,
+    "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
+    "state": "degraded"
   },
   {
     "sourceUrl": "https://www.tawuniya.com/en/careers",
