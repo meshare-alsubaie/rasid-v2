@@ -193,18 +193,35 @@ export async function checkFinalUrl(
   finalUrl: string | undefined,
 ): Promise<RobotsVerdict | null> {
   if (!finalUrl) return null;
+  let sameOrigin: boolean;
   try {
-    if (new URL(finalUrl).origin === new URL(requested).origin) return null;
+    const to = new URL(finalUrl);
+    const from = new URL(requested);
+    if (to.href === from.href) return null;
+    sameOrigin = to.origin === from.origin;
+    /*
+     * A redirect that stays on the host used to end here, unchecked.
+     *
+     * The reasoning was that the rules file had already been read for this
+     * origin, which is true and beside the point: robots.txt does not permit a
+     * *host*, it permits a *path*. `/careers` allowed and redirecting to
+     * `/internal/careers` disallowed is an ordinary shape — a site moves a
+     * page behind a section it has asked crawlers to leave alone, keeps the old
+     * address working for people, and we followed it into exactly the place it
+     * said not to go. Same origin makes it cheaper to check, not unnecessary:
+     * the rules are cached, so this costs a map lookup.
+     */
   } catch {
     return null;
   }
   const verdict = await checkRobots(finalUrl);
-  return verdict.allowed
-    ? null
-    : {
-        ...verdict,
-        reason: `redirected to ${new URL(finalUrl).origin}, whose robots.txt refuses it: ${verdict.reason}`,
-      };
+  if (verdict.allowed) return null;
+  return {
+    ...verdict,
+    reason: sameOrigin
+      ? `redirected to ${new URL(finalUrl).pathname}, which its own robots.txt refuses: ${verdict.reason}`
+      : `redirected to ${new URL(finalUrl).origin}, whose robots.txt refuses it: ${verdict.reason}`,
+  };
 }
 
 /** Test seam: forget cached robots.txt files. */

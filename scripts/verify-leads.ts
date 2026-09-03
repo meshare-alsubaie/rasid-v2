@@ -19,6 +19,7 @@
  *   npm run verify-leads -- --dry-run    report, write nothing
  */
 import { readFileSync, writeFileSync } from "node:fs";
+import { addressOf } from "../src/pipeline/address";
 import { writeAtomic } from "../src/pipeline/write";
 import { closeBrowser, renderPage } from "../src/pipeline/browser";
 import { redactPaths } from "../src/pipeline/redact";
@@ -203,6 +204,23 @@ for (const org of targets) {
     };
     let needsBrowser = false;
     let blockedByRobots: string | null = null;
+    /*
+     * Why the recorded address itself failed, if it did.
+     *
+     * The candidate list ends at the site root, and whichever candidate answers
+     * overwrites `source.url` — so a deep announcement page that was merely
+     * down for a minute was permanently replaced by the homepage, and the page
+     * that actually carries the announcements stopped being watched. The
+     * failure was invisible: the record then looked verified, on a real page,
+     * on the right domain.
+     *
+     * A 404 or a 410 is the site saying the address is gone, and replacing it
+     * is right. A timeout, a 500, a 429, a certificate error are the site
+     * having a bad minute, and replacing it on that evidence is throwing away
+     * the only deep link we had.
+     */
+    let originalStatus: number | null = null;
+    let originalFailed = false;
 
     for (const candidate of candidatesFor(source.url)) {
       const verdict = await checkRobots(candidate);
@@ -235,7 +253,40 @@ for (const org of targets) {
         url = attempt.finalUrl ?? candidate;
         break;
       }
+      if (candidate === source.url) {
+        originalFailed = true;
+        originalStatus = attempt.status;
+      }
       res = attempt;
+    }
+
+    /*
+     * The recorded address failed for a reason that will pass, and something
+     * shallower answered instead. Keep watching the deep page: it is the one
+     * the announcements appear on, and a homepage that mentions training once a
+     * year is not a replacement for it.
+     */
+    const GONE = new Set([404, 410]);
+    const transient = originalFailed && !GONE.has(originalStatus ?? 0);
+    if (res.ok && transient && addressOf(url) !== addressOf(source.url)) {
+      const why =
+        `تعذّر فتح هذا العنوان في هذه الجولة (${originalStatus === null ? "لا استجابة" : `حالة ${originalStatus}`})، ` +
+        `وليس رمز حذف، فبقي مراقَباً. وأُضيف ${url} بجواره لأنه استجاب.`;
+      source.verifiedNote = redactPaths(why);
+      outcomes.push({ org: org.id, url: source.url, result: "unreachable", note: why });
+      const already = new Set(org.sources.map((s) => addressOf(s.url)));
+      if (!already.has(addressOf(url))) {
+        org.sources.push({
+          url,
+          provenance: "reported",
+          verifiedAtISO: null,
+          verifiedNote: `أُضيف لأن ${source.url} تعذّر فتحه مؤقّتاً، وهذا العنوان استجاب. لم يُحكم عليه بعد.`,
+          type: typeFor(url, "site_root"),
+          checkFrequencyHours: source.checkFrequencyHours,
+          renderMode: needsBrowser ? "browser" : "static",
+        });
+      }
+      continue;
     }
 
     if (!res.ok) {
@@ -355,7 +406,8 @@ await closeBrowser();
  */
 const strength = (s: Organisation["sources"][number]): number =>
   (s.verifiedAtISO !== null ? 2 : 0) + (s.coopConfirmed === true ? 1 : 0);
-const addressOf = (url: string): string => url.replace(/#.*$/, "").replace(/\/+$/, "").toLowerCase();
+// The address rule lives in src/pipeline/address.ts: an anchor is dropped
+// because it is the same page, and a hash route is kept because it is not.
 
 let deduped = 0;
 for (const org of orgs) {

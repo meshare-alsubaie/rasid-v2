@@ -14,7 +14,7 @@ import { closeBrowser } from "../src/pipeline/browser";
 import { extract, isSoft404 } from "../src/pipeline/extract";
 import { fromClassification, markVanished } from "../src/pipeline/opportunity";
 import { fetchPage } from "../src/pipeline/fetch";
-import { checkRobots, resetRobotsCache } from "../src/pipeline/robots";
+import { checkFinalUrl, checkRobots, resetRobotsCache } from "../src/pipeline/robots";
 import { MAX_BYTES } from "../src/pipeline/fetch";
 
 let failures = 0;
@@ -281,6 +281,27 @@ console.log("\nfaults 10-12: redirects, robots reachability, and pacing");
     !htmlRobots.allowed,
     (htmlRobots.reason ?? "").slice(0, 60),
   );
+
+  /*
+   * 14. A redirect that stays on the host was waved through without a second
+   * look, on the reasoning that the rules file had already been read for this
+   * origin. But robots.txt permits a path, not a host: an allowed `/careers`
+   * redirecting into a disallowed `/forbidden/…` is an ordinary shape, and we
+   * followed it into the one place the site asked us not to go.
+   */
+  resetRobotsCache();
+  const sameHost = await checkFinalUrl(`${base}/ok`, `${base}/forbidden/moved`);
+  check(
+    "14. a same-host redirect into a disallowed path is refused",
+    sameHost !== null && !sameHost.allowed,
+    sameHost === null ? "IT PASSED — same-origin redirects are never re-checked" : (sameHost.reason ?? ""),
+  );
+
+  const stillFine = await checkFinalUrl(`${base}/ok`, `${base}/ok2`);
+  check("   and a same-host redirect into an allowed path still passes", stillFine === null);
+
+  const unmoved = await checkFinalUrl(`${base}/ok`, `${base}/ok`);
+  check("   and a url that did not move costs nothing", unmoved === null);
 }
 
 await closeBrowser();

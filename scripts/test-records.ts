@@ -14,6 +14,7 @@
 import { spawnSync } from "node:child_process";
 import { readFileSync, rmSync, writeFileSync } from "node:fs";
 import { createHash } from "node:crypto";
+import { addressOf } from "../src/pipeline/address";
 import {
   asManualReview,
   fromClassification,
@@ -351,6 +352,36 @@ console.log("\nthe deadline that replaces being killed");
     "a killed round does not advance the schedule",
     /collectExit === 124[\s\S]{0,200}stay due[\s\S]{0,120}else\s*\{[\s\S]{0,160}markChecked/.test(src),
     "a kill writes nothing at all, so marking the sources checked is a false green light",
+  );
+}
+
+console.log("\nan anchor is the same page and a hash route is not");
+{
+  /*
+   * Both dedupers threw the whole fragment away. On a hash-routed portal —
+   * and Saudi sites run plenty of them — the entire path lives after the `#`,
+   * so two different announcement pages collapsed into one url and one of them
+   * was dropped as a duplicate. The page stays live, the organisation reads as
+   * watched, and nothing ever connects the two. It is the quietest way this
+   * project can fail, which is why it is here rather than in a comment.
+   */
+  const same = (a: string, b: string): boolean => addressOf(a) === addressOf(b);
+
+  check("an anchor does not make a new page", same("https://x.gov.sa/c#apply", "https://x.gov.sa/c"));
+  check("nor does an empty fragment", same("https://x.gov.sa/c#", "https://x.gov.sa/c"));
+  check("nor does a trailing slash", same("https://x.gov.sa/c/", "https://x.gov.sa/c"));
+  check(
+    "two hash routes stay two pages",
+    !same("https://x.gov.sa/#/careers/coop", "https://x.gov.sa/#/careers/graduate"),
+    addressOf("https://x.gov.sa/#/careers/coop"),
+  );
+  check(
+    "and the older #! convention too",
+    !same("https://x.gov.sa/#!/coop", "https://x.gov.sa/#!/graduate"),
+  );
+  check(
+    "a fragment we cannot classify is kept, because keeping one costs a fetch",
+    !same("https://x.gov.sa/c#tab=coop&year=1448", "https://x.gov.sa/c"),
   );
 }
 

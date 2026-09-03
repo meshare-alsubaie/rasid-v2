@@ -221,5 +221,60 @@ console.log("\nthe log does not grow without end");
   );
 }
 
+console.log("\nthe installer does not undo the file that fixes the installer");
+{
+  /*
+   * `install-schedule.ps1` re-registered the task with `-Force` and Task
+   * Scheduler's defaults, which put back exactly the four settings
+   * `fix-schedule.ps1` was written to correct: unplugged at 18:00 meant no run
+   * at all, unplugged mid-run meant a run killed halfway, and a thirty-minute
+   * limit killed a round after the sitemaps and before the collection —
+   * measured, `LastTaskResult 267014`, with not one word written to the log.
+   *
+   * Nothing enforced the agreement between the two files, so the second was one
+   * `-Force` away from being pointless. This is that enforcement.
+   */
+  const install = readFileSync(join(dir, "install-schedule.ps1"), "utf8");
+  const fix = readFileSync(join(dir, "fix-schedule.ps1"), "utf8");
+
+  check("the installer allows a start on battery", /-AllowStartIfOnBatteries/.test(install));
+  check("and does not stop when the plug comes out", /-DontStopIfGoingOnBatteries/.test(install));
+  check("and makes up a run the machine slept through", /-StartWhenAvailable/.test(install));
+
+  const minutes = /ExecutionTimeLimit \(New-TimeSpan -Minutes (\d+)\)/.exec(install)?.[1];
+  const fixMinutes = /ExecutionTimeLimit\s*=\s*"PT(\d+)M"/.exec(fix)?.[1];
+  check(
+    "and gives a round the same time the repair script gives it",
+    minutes !== undefined && minutes === fixMinutes,
+    `installer ${minutes ?? "?"}m vs repair ${fixMinutes ?? "?"}m`,
+  );
+}
+
+console.log("\ndiscovery runs from the watcher that is actually running");
+{
+  /*
+   * `watch-sitemaps` is the only defence against an announcement published at
+   * a fresh address. It was called from `scheduled-run.ps1` behind
+   * `if ($hour -lt 6)` — a disabled watcher, and a condition that a machine
+   * asleep overnight never meets — and from the live watcher, not at all.
+   */
+  const src = readFileSync("scripts/watch.ts", "utf8");
+  check("the live watcher calls it", /watch-sitemaps\.ts/.test(src));
+  /*
+   * The body of the decision, not the whole file: `say()` stamps every log line
+   * with the hour, which is not a scheduling decision and must not read as one.
+   */
+  const body = /function discoverIfDue\(\)[\s\S]*?\n\}/.exec(src)?.[0] ?? "";
+  check(
+    "on elapsed time, not on the hour of the day",
+    /DISCOVERY_GAP_MS/.test(body) && !/getHours\(\)|getDay\(\)/.test(body),
+    body === "" ? "the function was not found at all" : "",
+  );
+  check(
+    "and it stamps the attempt whatever the outcome, so a failure is not retried every cycle",
+    /discovery exit[\s\S]{0,400}writeFileSync\(DISCOVERY_STAMP/.test(src),
+  );
+}
+
 console.log(`\n${failures === 0 ? "all checks passed" : `${failures} CHECK(S) FAILED`}`);
 process.exit(failures === 0 ? 0 : 1);

@@ -22,6 +22,7 @@
  */
 import { readFileSync, writeFileSync } from "node:fs";
 import { parseHTML } from "linkedom";
+import { addressOf } from "../src/pipeline/address";
 import { closeBrowser, renderPage } from "../src/pipeline/browser";
 import { fetchPage, paced } from "../src/pipeline/fetch";
 import { checkRobots } from "../src/pipeline/robots";
@@ -182,11 +183,12 @@ let scanned = 0;
 
 for (const org of targets) {
   /*
-   * Compared without a trailing slash or a fragment, because those do not make
+   * Compared without a trailing slash or an anchor, because those do not make
    * a different page — and a source listed twice is a page fetched twice and
-   * classified twice, every six hours, for ever.
+   * classified twice, every six hours, for ever. A hash *route* does make a
+   * different page and is kept: see src/pipeline/address.ts.
    */
-  const norm = (u: string): string => u.replace(/#.*$/, "").replace(/\/+$/, "").toLowerCase();
+  const norm = addressOf;
   const known = new Set(org.sources.map((s) => norm(s.url)));
   // Read the verified pages this organisation already has, and only those.
   const pages = org.sources.filter((s) => s.verifiedAtISO !== null);

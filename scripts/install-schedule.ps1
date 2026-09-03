@@ -30,11 +30,23 @@ $daily = New-ScheduledTaskTrigger -Once -At (Get-Date).Date.AddHours(6) `
 $logon = New-ScheduledTaskTrigger -AtLogOn
 $logon.Delay = "PT5M"
 
+# The three battery settings and the time limit are the four that fix-schedule.ps1
+# exists to correct, and this file re-registered with -Force and put the defaults
+# straight back: unplugged at 18:00 meant no run at all, unplugged mid-run meant
+# a run killed halfway, and thirty minutes was short enough that the scheduler
+# killed a round after the sitemaps and before the collection. It was measured:
+# LastTaskResult 267014, and not one word written.
+#
+# So the corrected settings are here, at the point of creation, rather than in a
+# second script somebody has to remember to run afterwards. Anything changed
+# here has to change in fix-schedule.ps1 too.
 $settings = New-ScheduledTaskSettingsSet `
     -StartWhenAvailable `
     -DontStopOnIdleEnd `
     -RunOnlyIfNetworkAvailable `
-    -ExecutionTimeLimit (New-TimeSpan -Minutes 30) `
+    -AllowStartIfOnBatteries `
+    -DontStopIfGoingOnBatteries `
+    -ExecutionTimeLimit (New-TimeSpan -Minutes 40) `
     -MultipleInstances IgnoreNew
 
 Register-ScheduledTask -TaskName $name -Action $action -Trigger @($daily, $logon) `
