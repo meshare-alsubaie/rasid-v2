@@ -16,6 +16,20 @@ import { defineConfig, type Plugin } from "vite";
  */
 const SERVED = ["organisations", "aggregators", "opportunities", "health"];
 
+/**
+ * Served too, but the app must render without them.
+ *
+ * `notify-health` is how the app says "your phone is not receiving", which it
+ * could not say at all while the channel was dead for forty-seven hours.
+ * `score-basis` carries the one phrase that makes the relevance number honest
+ * to somebody who is not the person it was computed for.
+ *
+ * Separate from the list above because a build must not fail over them: they are
+ * written by the notifier and the collector respectively, so a fresh clone that
+ * has run neither simply does not have them yet, and that is not an error.
+ */
+const SERVED_OPTIONAL = ["notify-health", "score-basis"];
+
 const copyData = (): Plugin => ({
   name: "rasid-copy-data",
   apply: "build",
@@ -39,6 +53,14 @@ const copyData = (): Plugin => ({
     await mkdir("dist/data", { recursive: true });
     for (const name of SERVED) {
       await cp(`data/${name}.json`, `dist/data/${name}.json`);
+    }
+    for (const name of SERVED_OPTIONAL) {
+      try {
+        await cp(`data/${name}.json`, `dist/data/${name}.json`);
+      } catch {
+        // Not written yet. The app treats an absent file as "no opinion", which
+        // is different from a bad one and must not be reported as either.
+      }
     }
   },
 });
