@@ -2527,13 +2527,6 @@
     "note": "عنوان الصفحة: \"Explore Careers & Apply for Jobs at Tawuniya Insurance | Tawuniya\". صفحة حقيقية على نطاق الجهة، قُرئ منها 2457 حرفاً، ولا يرد فيها ذكر التدريب التعاوني وقت الفحص. تُراقَب لأن الإعلان قد يظهر عليها لاحقاً، وليست صفحة تدريب مؤكّدة. أول ما فيها: \"Be a part of meaningful innovationWork with the very best people and be a part of innovation that makes a real…\""
   },
   {
-    "targetId": "taqnia",
-    "checkedAtISO": "2026-08-30T04:40:37.058Z",
-    "urlTried": "https://taqnia.com/en/",
-    "outcome": "rejected",
-    "note": "الصفحة فُتحت لكنها لم تُخرج نصاً يُقرأ (149 حرفاً)، فلا يمكن مراقبتها."
-  },
-  {
     "targetId": "derayah",
     "checkedAtISO": "2026-08-30T04:40:37.058Z",
     "urlTried": "http://www.derayah.com/web/ar/index.html",
@@ -3442,20 +3435,6 @@
     "urlTried": "https://www.saudiexchange.sa/wps/portal/saudiexchange/newsandreports/issuer-financial-calendars?locale=ar",
     "outcome": "verified",
     "note": "عنوان الصفحة: \"Market News\". صفحة حقيقية على نطاق الجهة، قُرئ منها 860 حرفاً، ولا يرد فيها ذكر التدريب التعاوني وقت الفحص. تُراقَب لأن الإعلان قد يظهر عليها لاحقاً، وليست صفحة تدريب مؤكّدة. أول ما فيها: \"الرئيسية السوق مغلق المشتقات السوق مغلق نمو حد أعلى السوق مغلق الصكوك و السندات السوق مغلق تنويه: الأسعار متأخ…\""
-  },
-  {
-    "targetId": "takamol",
-    "checkedAtISO": "2026-08-30T05:41:04.579Z",
-    "urlTried": "https://join.takamol.com.sa",
-    "outcome": "unreachable",
-    "note": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either"
-  },
-  {
-    "targetId": "takamol",
-    "checkedAtISO": "2026-08-30T05:41:04.579Z",
-    "urlTried": "https://join.takamol.com.sa/?page_id=4",
-    "outcome": "unreachable",
-    "note": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either"
   },
   {
     "targetId": "taqnia",
@@ -4744,20 +4723,6 @@
     "urlTried": "https://www.maaden.com.sa/ar/careers/working",
     "outcome": "unreachable",
     "note": "robots.txt: disallowed by robots.txt"
-  },
-  {
-    "targetId": "mobily",
-    "checkedAtISO": "2026-08-30T06:37:18.016Z",
-    "urlTried": "https://careers.mobily.com.sa",
-    "outcome": "rejected",
-    "note": "الصفحة فُتحت لكنها لم تُخرج نصاً يُقرأ (0 حرفاً)، فلا يمكن مراقبتها."
-  },
-  {
-    "targetId": "mobily",
-    "checkedAtISO": "2026-08-30T06:37:18.016Z",
-    "urlTried": "https://careers.mobily.com.sa/en/saudi-arabia/jobs/coop-program-1100006246/",
-    "outcome": "rejected",
-    "note": "الصفحة فُتحت لكنها لم تُخرج نصاً يُقرأ (75 حرفاً)، فلا يمكن مراقبتها."
   },
   {
     "targetId": "pwc_sa",
@@ -6891,6 +6856,55 @@
     "targetId": "kacst",
     "checkedAtISO": "2026-09-03T01:09:40.615Z",
     "urlTried": "https://www.kacst.edu.sa/",
+    "outcome": "unreachable",
+    "note": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either"
+  },
+  {
+    "targetId": "citc",
+    "checkedAtISO": "2026-09-03T04:11:48.863Z",
+    "urlTried": "https://new.cst.gov.sa/ar/business/about/career",
+    "outcome": "rejected",
+    "note": "الصفحة فُتحت لكنها لم تُخرج نصاً يُقرأ (84 حرفاً)، فلا يمكن مراقبتها."
+  },
+  {
+    "targetId": "taqnia",
+    "checkedAtISO": "2026-09-03T04:12:11.817Z",
+    "urlTried": "https://taqnia.com/en/",
+    "outcome": "unreachable",
+    "note": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either"
+  },
+  {
+    "targetId": "mobily",
+    "checkedAtISO": "2026-09-03T04:14:05.534Z",
+    "urlTried": "https://careers.mobily.com.sa",
+    "outcome": "rejected",
+    "note": "الصفحة فُتحت لكنها لم تُخرج نصاً يُقرأ (0 حرفاً)، فلا يمكن مراقبتها."
+  },
+  {
+    "targetId": "mobily",
+    "checkedAtISO": "2026-09-03T04:14:05.534Z",
+    "urlTried": "https://careers.mobily.com.sa/en/saudi-arabia/jobs/coop-program-1100006246/",
+    "outcome": "rejected",
+    "note": "الصفحة فُتحت لكنها لم تُخرج نصاً يُقرأ (75 حرفاً)، فلا يمكن مراقبتها."
+  },
+  {
+    "targetId": "takamol",
+    "checkedAtISO": "2026-09-03T04:14:43.170Z",
+    "urlTried": "https://join.takamol.com.sa",
+    "outcome": "unreachable",
+    "note": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either"
+  },
+  {
+    "targetId": "takamol",
+    "checkedAtISO": "2026-09-03T04:14:43.170Z",
+    "urlTried": "https://join.takamol.com.sa/?page_id=4",
+    "outcome": "unreachable",
+    "note": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either"
+  },
+  {
+    "targetId": "zatca",
+    "checkedAtISO": "2026-09-03T04:15:02.782Z",
+    "urlTried": "https://www.customs.gov.sa/",
     "outcome": "unreachable",
     "note": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either"
   }
