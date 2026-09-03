@@ -479,8 +479,8 @@
   {
     "sourceUrl": "https://careers.anb.sa/ar/",
     "orgId": "anb",
-    "lastAttemptISO": "2026-09-02T23:42:46.216Z",
-    "lastSuccessISO": "2026-09-02T23:42:46.216Z",
+    "lastAttemptISO": "2026-09-03T01:10:11.654Z",
+    "lastSuccessISO": "2026-09-03T01:10:11.654Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -497,11 +497,11 @@
   {
     "sourceUrl": "https://careers.bahri.sa/",
     "orgId": "bahri",
-    "lastAttemptISO": "2026-09-02T23:42:46.216Z",
+    "lastAttemptISO": "2026-09-03T01:10:11.654Z",
     "lastSuccessISO": "2026-09-02T23:42:46.216Z",
-    "consecutiveFailures": 0,
-    "lastError": null,
-    "state": "healthy"
+    "consecutiveFailures": 1,
+    "lastError": "headless chromium unavailable (browserType.launch: Executable doesn't exist at [مسار محلي]/chrome-headless-shell.exe\n╔════════════════════════════════════════════════════════════╗\n║ Looks like Playwright was just installed or updated.       ║\n║ Please run the following command to download new browsers: ║\n║                                                            ║\n║     npx playwright install                                 ║\n║                                                            ║\n║ <3 Playwright Team                                         ║\n╚════════════════════════════════════════════════════════════╝); run \"npx playwright install chromium\"",
+    "state": "degraded"
   },
   {
     "sourceUrl": "https://careers.cma.gov.sa/",
@@ -857,8 +857,8 @@
   {
     "sourceUrl": "https://cma.gov.sa/Pages/default.aspx",
     "orgId": "cma",
-    "lastAttemptISO": "2026-09-02T23:42:46.216Z",
-    "lastSuccessISO": "2026-09-02T23:42:46.216Z",
+    "lastAttemptISO": "2026-09-03T01:10:11.654Z",
+    "lastSuccessISO": "2026-09-03T01:10:11.654Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -1154,8 +1154,8 @@
   {
     "sourceUrl": "https://mcit.gov.sa/ar",
     "orgId": "mcit",
-    "lastAttemptISO": "2026-09-02T23:42:46.216Z",
-    "lastSuccessISO": "2026-09-02T23:42:46.216Z",
+    "lastAttemptISO": "2026-09-03T01:10:11.654Z",
+    "lastSuccessISO": "2026-09-03T01:10:11.654Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -1505,8 +1505,8 @@
   {
     "sourceUrl": "https://nour.net.sa/news/",
     "orgId": "nournet",
-    "lastAttemptISO": "2026-09-02T23:42:46.216Z",
-    "lastSuccessISO": "2026-09-02T23:42:46.216Z",
+    "lastAttemptISO": "2026-09-03T01:10:11.654Z",
+    "lastSuccessISO": "2026-09-03T01:10:11.654Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -3854,8 +3854,8 @@
   {
     "sourceUrl": "https://www2.deloitte.com/",
     "orgId": "deloitte_sa",
-    "lastAttemptISO": "2026-09-02T23:42:46.216Z",
-    "lastSuccessISO": "2026-09-02T23:42:46.216Z",
+    "lastAttemptISO": "2026-09-03T01:10:11.654Z",
+    "lastSuccessISO": "2026-09-03T01:10:11.654Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
