@@ -196,6 +196,31 @@ export function fromClassification(args: Common & { c: Classification }): Opport
   const reader = readProfile(studentProfile() ?? "");
   const fit = reader === null ? null : relevanceOf(c, reader);
 
+  /*
+   * A window that closes before it opens is not a window.
+   *
+   * The dates are picked out of the page by position — the first for the
+   * opening, the last for the deadline — which is right when a page writes its
+   * window in order and wrong when it does not. A page listing several cohorts,
+   * or putting the deadline above the start, produced `opens 2025-10-31,
+   * closes 2025-07-13`: an impossible pair, stored as fact, and caught only by
+   * the validator, which fails the whole dataset and stops the deploy.
+   *
+   * Two dates that contradict each other mean at least one was misread, and
+   * there is nothing here that says which. Keeping the earlier one risks
+   * closing a live window; keeping the later one risks a deadline that has
+   * passed. So neither is kept, the record says its dates were not announced,
+   * and it goes to review where a person can open the page.
+   */
+  const opensResolved = resolveDate(c.opensISO, c.opensRaw, "first");
+  const closesResolved = resolveDate(c.closesISO, c.closesRaw, "last");
+  const backwards =
+    opensResolved !== null &&
+    closesResolved !== null &&
+    endOfDeadline(closesResolved) < startOfDay(opensResolved);
+  const opens = backwards ? null : opensResolved;
+  const closes = backwards ? null : closesResolved;
+
   return {
     id: idFor(orgId, sourceUrl, firstSeenISO),
     orgId,
@@ -204,16 +229,17 @@ export function fromClassification(args: Common & { c: Classification }): Opport
     firstSeenISO,
     lastConfirmedISO: nowISO,
     status,
-    opensISO: resolveDate(c.opensISO, c.opensRaw, "first"),
-    closesISO: resolveDate(c.closesISO, c.closesRaw, "last"),
-    closesHijri: hijriOf(resolveDate(c.closesISO, c.closesRaw, "last")),
+    opensISO: opens,
+    closesISO: closes,
+    closesHijri: hijriOf(closes),
     product: c.product,
     majors: c.majors,
     seats: c.seats,
     stipendSAR: c.stipendSAR,
     durationWeeks: c.durationWeeks,
     cities: c.cities,
-    relevanceScore: fit?.score ?? null,
+    // A record whose dates contradict each other is not scored on them.
+    relevanceScore: backwards ? null : (fit?.score ?? null),
     /*
      * Two different absences, and the card has to say which one it is looking
      * at. "Your profile names no field I recognise" is something the reader can
@@ -221,16 +247,17 @@ export function fromClassification(args: Common & { c: Classification }): Opport
      * page and a signal to open it himself. Printing the first sentence for
      * both would send him to edit a profile that is perfectly fine.
      */
-    relevanceReason:
-      fit?.reason ??
+    relevanceReason: backwards
+      ? "تعارضت تواريخ الصفحة: موعد الإغلاق قبل موعد الفتح، فلم يُحفظ أيٌّ منهما. افتح الصفحة بنفسك."
+      : fit?.reason ??
       (reader === null
         ? "لم تُحسب الملاءمة: ملفّك الشخصي لا يذكر تخصّصاً معروفاً، فلم يُحكم على قربها منك."
         : "لم تُحسب الملاءمة: لم يُذكر في الصفحة تخصّص ولا مجال، فلا يوجد ما يُقاس عليه. افتحها بنفسك."),
     statesZeroCoursesRule: c.statesZeroCoursesRule,
     zeroCoursesQuote: c.zeroCoursesQuote,
     flags: [
-      ...flagsFor(c, fit?.score ?? null, status, firstTime),
-      ...(fit === null ? (["needs_manual_review"] as const) : []),
+      ...flagsFor(c, backwards ? null : (fit?.score ?? null), status, firstTime),
+      ...(fit === null || backwards ? (["needs_manual_review"] as const) : []),
     ],
     sourceUrl,
     applyUrl: absoluteApplyUrl(c.applyUrl, sourceUrl),

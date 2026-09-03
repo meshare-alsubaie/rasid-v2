@@ -155,6 +155,50 @@ console.log("\ntelling one announcement from two");
   );
 }
 
+/* ---------- a window that closes before it opens is not stored ---------- */
+
+console.log("\ndates that contradict each other");
+{
+  const withDates = (opensRaw: string | null, closesRaw: string | null): Opportunity =>
+    fromClassification({
+      ...common("https://acme.sa/window"),
+      c: { ...classification("برنامج التدريب التعاوني"), opensRaw, closesRaw },
+    });
+
+  const backwards = withDates("31 أكتوبر 2025", "13 يوليو 2025");
+  check(
+    "neither date is kept when the deadline precedes the opening",
+    backwards.opensISO === null && backwards.closesISO === null,
+    `${String(backwards.opensISO)} → ${String(backwards.closesISO)}`,
+  );
+  check(
+    "and the record goes to review rather than being scored on them",
+    backwards.relevanceScore === null && backwards.flags.includes("needs_manual_review"),
+    backwards.flags.join(","),
+  );
+
+  const ordered = withDates("13 يوليو 2025", "31 أكتوبر 2025");
+  check(
+    "an ordinary window is untouched",
+    ordered.opensISO === "2025-07-13" && ordered.closesISO === "2025-10-31",
+    `${String(ordered.opensISO)} → ${String(ordered.closesISO)}`,
+  );
+
+  const sameDay = withDates("31 أكتوبر 2025", "31 أكتوبر 2025");
+  check(
+    "a one-day window is a window",
+    sameDay.opensISO === "2025-10-31" && sameDay.closesISO === "2025-10-31",
+    `${String(sameDay.opensISO)} → ${String(sameDay.closesISO)}`,
+  );
+
+  const closesOnly = withDates(null, "31 أكتوبر 2025");
+  check(
+    "a deadline with no opening date is still a deadline",
+    closesOnly.closesISO === "2025-10-31",
+    String(closesOnly.closesISO),
+  );
+}
+
 /* ---------- ق‑٣ · a failed re-read never deletes a real reading ---------- */
 
 console.log("\nsurviving a classifier outage");
