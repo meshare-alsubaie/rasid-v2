@@ -21,7 +21,19 @@ function Say($msg) {
 }
 
 # Task Scheduler starts with a bare environment, so the tools are named here.
-$env:Path = "D:\tools\node;C:\Program Files\GitHub CLI;C:\Program Files\Git\cmd;$env:Path"
+#
+# The hard-coded node directory is a guess that is right on one machine and
+# wrong on every other. watch-run.ps1 was corrected for this and this file was
+# not, so the two collectors on the same repository disagreed about where node
+# lives. An installed node on PATH wins; RASID_NODE_DIR overrides; the old guess
+# is the last resort.
+$nodeDir = $env:RASID_NODE_DIR
+if (-not $nodeDir) {
+    $onPath = Get-Command node.exe -ErrorAction SilentlyContinue
+    if ($onPath) { $nodeDir = Split-Path -Parent $onPath.Source }
+}
+if (-not $nodeDir) { $nodeDir = "D:\tools\node" }
+$env:Path = "$nodeDir;C:\Program Files\GitHub CLI;C:\Program Files\Git\cmd;$env:Path"
 
 # Spec 5.1 asks the User-Agent to carry a contact address, so a site owner who
 # sees this traffic can reach a person. It was set in CI and not here, which

@@ -317,13 +317,27 @@ export function relevanceOf(
 
   let total = score;
 
-  const cityMatch = reader.cities.length
-    ? c.cities.find((city) => reader.cities.some((mine) => city.toLowerCase().includes(mine)))
-    : undefined;
+  /*
+   * The city bonus is a tie-breaker between openings he could take, so it has
+   * nothing to add to one he cannot. An unrelated announcement in Riyadh scored
+   * 15 and an unrelated one elsewhere scored 10, which reads as though being
+   * nearby made a civil engineering placement slightly more his — and the two
+   * numbers sit either side of nothing, because both are noise.
+   *
+   * The sentence goes quiet with the number. Saying "outside your city" about a
+   * placement in Riyadh, to a reader in Riyadh, because the field disqualified
+   * it, is worse than saying nothing: it is a false reason attached to a correct
+   * score, and he would be right to stop trusting the reasons.
+   */
+  const scorable = announced !== "none" && score > UNRELATED;
+  const cityMatch =
+    scorable && reader.cities.length
+      ? c.cities.find((city) => reader.cities.some((mine) => city.toLowerCase().includes(mine)))
+      : undefined;
   if (cityMatch) {
     total += 5;
     clauses.push(`وفي ${cityMatch}`);
-  } else if (reader.cities.length && c.cities.length) {
+  } else if (scorable && reader.cities.length && c.cities.length) {
     clauses.push(`وفي ${c.cities.join("، ")}، خارج مدينتك`);
   }
 

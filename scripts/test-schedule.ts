@@ -320,5 +320,56 @@ console.log("\nsources that left the dataset leave the schedule");
   check("the schedule shrinks with the dataset", after.length === 10, `${after.length}`);
 }
 
+console.log("\na lost schedule file does not lose the host floor");
+{
+  /*
+   * The crash case. `.rasid/schedule.json` is per-machine and gitignored, so a
+   * rebuild starts with every `lastCheckedAt` null — and the host floor keeps
+   * its entire memory in exactly that field. Without a seed, a host read sixty
+   * seconds before the crash is eligible the moment the watcher comes back, and
+   * the least steady moment on the machine becomes the hardest one on the site.
+   */
+  const two = [
+    { sourceUrl: "https://one.gov.sa/coop", orgId: "one", tier: "high" as const },
+    { sourceUrl: "https://one.gov.sa/news", orgId: "one", tier: "high" as const },
+  ];
+  const hosts = new Map([["one.gov.sa", 2]]);
+  const aMinuteAgo = T0 - 60_000;
+  const seed = new Map(two.map((t) => [t.sourceUrl, aMinuteAgo]));
+
+  const blind = reconcile([], two, T0, hosts);
+  check(
+    "without a seed the rebuilt schedule remembers nothing",
+    blind.every((d) => d.lastCheckedAt === null),
+  );
+  check(
+    "and the floor lets a host through that answered a minute ago",
+    dueNow(
+      blind.map((d) => ({ ...d, nextCheckAt: T0 - 1 })),
+      T0,
+      10,
+      hosts,
+    ).length === 1,
+  );
+
+  const seeded = reconcile([], two, T0, hosts, seed);
+  check("with the seed it remembers the last attempt", seeded.every((d) => d.lastCheckedAt === aMinuteAgo));
+  check(
+    "and the host floor holds",
+    dueNow(
+      seeded.map((d) => ({ ...d, nextCheckAt: T0 - 1 })),
+      T0,
+      10,
+      hosts,
+    ).length === 0,
+  );
+
+  const future = new Map(two.map((t) => [t.sourceUrl, T0 + 60 * MIN]));
+  check(
+    "a seed from the future is refused, so a bad clock cannot silence a source",
+    reconcile([], two, T0, hosts, future).every((d) => d.lastCheckedAt === null),
+  );
+}
+
 console.log(failures === 0 ? "\nall checks passed" : `\n${failures} CHECK(S) FAILED`);
 process.exit(failures === 0 ? 0 : 1);

@@ -24,6 +24,7 @@
  */
 import { createHash } from "node:crypto";
 import { existsSync, readFileSync, writeFileSync } from "node:fs";
+import { writeAtomic } from "../src/pipeline/write";
 import { parseHTML } from "linkedom";
 import { closeBrowser } from "../src/pipeline/browser";
 import { fetchPage } from "../src/pipeline/fetch";
@@ -126,7 +127,7 @@ let firstRun = 0;
  */
 function checkpoint(): void {
   if (DRY) return;
-  writeFileSync(ORGS, JSON.stringify(orgs, null, 2) + "\n", "utf8");
+  writeAtomic(ORGS, JSON.stringify(orgs, null, 2) + "\n");
   writeFileSync(
     STATE,
     JSON.stringify([...byOrg.values()].sort((a, b) => a.orgId.localeCompare(b.orgId)), null, 2) +

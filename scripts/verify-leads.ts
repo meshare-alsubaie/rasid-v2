@@ -19,6 +19,7 @@
  *   npm run verify-leads -- --dry-run    report, write nothing
  */
 import { readFileSync, writeFileSync } from "node:fs";
+import { writeAtomic } from "../src/pipeline/write";
 import { closeBrowser, renderPage } from "../src/pipeline/browser";
 import { redactPaths } from "../src/pipeline/redact";
 import { extract } from "../src/pipeline/extract";
@@ -373,7 +374,7 @@ for (const org of orgs) {
 if (deduped > 0) console.log(`\nmerged ${deduped} source(s) that resolved to an address already listed`);
 
 if (!DRY) {
-  writeFileSync("data/organisations.json", JSON.stringify(orgs, null, 2) + "\n", "utf8");
+  writeAtomic("data/organisations.json", JSON.stringify(orgs, null, 2) + "\n");
   attempts.push(
     ...outcomes.map((o) => ({
       targetId: o.org,

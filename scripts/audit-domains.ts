@@ -15,9 +15,20 @@
 import { readFileSync } from "node:fs";
 import type { Organisation } from "../src/types";
 
-const orgs = JSON.parse(
-  readFileSync("data/organisations.json", "utf8").replace(/^﻿/, ""),
-) as Organisation[];
+/*
+ * The dataset, or a fixture standing in for it.
+ *
+ * `test:gates` has to be able to plant an organisation on the wrong domain and
+ * watch this catch it. Doing that by rewriting the real half-megabyte file for
+ * a second, while a collection round may be holding it open, is how a gate
+ * comes to corrupt the thing it guards. A path argument costs nothing and makes
+ * the seeded fault harmless.
+ */
+const FILE = process.argv.slice(2).includes("--file")
+  ? (process.argv[process.argv.indexOf("--file") + 1] ?? "data/organisations.json")
+  : "data/organisations.json";
+
+const orgs = JSON.parse(readFileSync(FILE, "utf8").replace(/^﻿/, "")) as Organisation[];
 
 /** The registered domain: `careers.x.gov.sa` and `x.gov.sa` are one site. */
 function registered(url: string): string | null {
@@ -51,6 +62,25 @@ interface Finding {
   alsoWatchedBy: string[];
 }
 
+/*
+ * The cases where living on another organisation's domain is the truth.
+ *
+ * A unit inside a parent body genuinely publishes on the parent's site — the
+ * National Centre for AI has no domain of its own, and `sdaia.gov.sa/ncai/` is
+ * its page, not a record pointed at the wrong place. Left unnamed, that one
+ * finding would either keep this audit advisory forever or make a gate that
+ * fails on a correct dataset every run.
+ *
+ * Each entry is a claim about the world, so each carries why. Anything not
+ * listed here fails, which is what makes this a gate rather than a report.
+ */
+const HOUSED_INSIDE: Record<string, { domain: string; why: string }> = {
+  ncai: {
+    domain: "sdaia.gov.sa",
+    why: "المركز الوطني للذكاء الاصطناعي وحدة داخل سدايا، ولا نطاق مستقلّاً له",
+  },
+};
+
 const findings: Finding[] = [];
 
 for (const org of orgs) {
@@ -78,6 +108,7 @@ for (const org of orgs) {
       claimants.find((id) => stem.includes(id) || id.includes(stem));
 
     if (nativeOwner === org.id) continue; // watched at home; nothing to fix
+    if (HOUSED_INSIDE[org.id]?.domain === domain) continue; // published by its parent, on purpose
 
     const others = [...(owners.get(domain) ?? new Map())]
       .filter(([id, count]) => id !== org.id && (id === nativeOwner || count >= onIt))
@@ -89,6 +120,13 @@ for (const org of orgs) {
       findings.push({ org, domain, onIt, total: verified.length, alsoWatchedBy: others });
     }
   }
+}
+
+const housed = Object.entries(HOUSED_INSIDE);
+if (housed.length > 0) {
+  console.log(`${housed.length} organisation(s) are known to publish on a parent's domain:`);
+  for (const [id, { domain, why }] of housed) console.log(`  ${id} على ${domain} — ${why}`);
+  console.log("");
 }
 
 if (findings.length === 0) {
@@ -105,3 +143,13 @@ if (findings.length === 0) {
     console.log("");
   }
 }
+
+/*
+ * This used to end here, printing and exiting zero whatever it found — so it
+ * was a report somebody had to remember to run, and the Taif record it was
+ * written for could have come back the next time a source was added without a
+ * single check going red. It runs in `npm run gates` now and fails: a new
+ * organisation watched only on another body's domain either gets its own
+ * source, or gets named above with the reason.
+ */
+process.exit(findings.length === 0 ? 0 : 1);

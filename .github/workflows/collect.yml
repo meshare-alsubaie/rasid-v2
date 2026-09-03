@@ -63,6 +63,19 @@ jobs:
       # is the whole point of running it between the push and the deploy.
       - run: npm run validate
 
+      # And the privacy scan, which until now ran only in validate.yml — a
+      # parallel workflow with no `needs:` between it and this one. So the scan
+      # could go red and the deploy would publish anyway, in the same minute,
+      # which is the one failure mode a privacy gate exists to prevent: git
+      # remembers, and a personal detail published once stays public after it is
+      # deleted. Here it is in the path that actually ships.
+      - run: npm run audit:privacy
+
+      # An organisation watched only on somebody else's website is reported as
+      # monitored while nothing of its own is ever read. That is a false green
+      # on the front page, so it stops the deploy too.
+      - run: npm run audit:domains
+
       - env:
           VITE_VAPID_PUBLIC_KEY: ${{ secrets.VAPID_PUBLIC_KEY }}
         run: npm run build

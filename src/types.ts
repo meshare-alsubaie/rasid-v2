@@ -355,6 +355,20 @@ export type OpportunityFlag =
    */
   | "vanished_from_source"
   /**
+   * The deadline was written `12/03/2026`, which has two honest readings.
+   *
+   * It is read day-first, because that is what Saudi pages mean and guessing
+   * the other way would be wrong far more often. But an imported CMS or an
+   * English page for an international audience writes the same characters the
+   * American way, and then the stored date is out by up to eleven months with
+   * nothing on the screen to hint at it — the worst kind of wrong, because it
+   * looks exactly like a right answer.
+   *
+   * So the date stands and the doubt is shown. Losing the deadline entirely
+   * over a doubt would cost more openings than the doubt costs.
+   */
+  | "date_order_ambiguous"
+  /**
    * The page carries other announcements this record does not describe.
    *
    * The collector keeps exactly one record per source, so a careers page

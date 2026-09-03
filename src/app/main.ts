@@ -286,6 +286,13 @@ function opportunityCard(o: Opportunity, also: Opportunity[] = []): string {
         ? `<p class="reason warn">هذه الصفحة تحمل إعلانات أخرى غير هذا، ولا يُسجَّل منها إلا واحد. افتحها بنفسك لترى البقية.</p>`
         : ""
     }
+    ${/* A date the page wrote as 12/03: read باليوم أولاً, and said so, because
+          صمتُنا عن الاحتمال الثاني هو ما يجعل الخطأ يبدو صواباً. */ ""}
+    ${
+      o.flags.includes("date_order_ambiguous")
+        ? `<p class="reason warn">كتبت الصفحة التاريخ بالأرقام وحدها، وهو يُقرأ بوجهين. قرأناه باليوم أوّلاً كما هو العرف هنا، وقد يكون المقصود الشهر أوّلاً. تأكّد من الموعد على الصفحة قبل أن تعتمد عليه.</p>`
+        : ""
+    }
     ${/* The same announcement on the organisation's other pages. Listed rather
           than hidden: the reading above is the one that said the most, and a
           reader who wants the page that worded it differently can have it. */ ""}

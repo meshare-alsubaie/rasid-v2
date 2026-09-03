@@ -301,11 +301,34 @@ function reapOrphanedBrowsers(): void {
   if (killed > 0) say(`  and ${killed} headless browser process(es) it had left behind`);
 }
 
+/**
+ * When each source was last attempted, out of the file that survives a rebuild.
+ *
+ * `.rasid/schedule.json` is per-machine and gitignored, so a crash that loses
+ * it takes the host floor's entire memory with it and the next cycle is free to
+ * re-read a host it hit a minute ago. `data/health.json` is committed, is
+ * written on every attempt including the failed ones, and is therefore the
+ * honest answer to "when did we last knock on this door".
+ */
+function lastReadFromHealth(): Map<string, number> {
+  const out = new Map<string, number>();
+  try {
+    for (const h of read<{ sourceUrl: string; lastAttemptISO: string }>("data/health.json")) {
+      const t = Date.parse(h.lastAttemptISO);
+      if (!Number.isNaN(t)) out.set(h.sourceUrl, Math.max(out.get(h.sourceUrl) ?? 0, t));
+    }
+  } catch {
+    // No health file yet, or an unreadable one. Then there is nothing to seed
+    // from, which is the state this used to be in permanently.
+  }
+  return out;
+}
+
 async function cycle(state: Due[]): Promise<Due[]> {
   const nowMs = Date.now();
   const targets = currentTargets(nowMs);
   const hosts = hostCounts(targets.map((t) => t.sourceUrl));
-  let next = clampAfterSleep(reconcile(state, targets, nowMs, hosts), nowMs);
+  let next = clampAfterSleep(reconcile(state, targets, nowMs, hosts, lastReadFromHealth()), nowMs);
 
   const due = dueNow(next, nowMs, MAX_PER_CYCLE, hosts);
   const counts = due.reduce<Record<string, number>>((acc, d) => {
@@ -314,8 +337,30 @@ async function cycle(state: Due[]): Promise<Due[]> {
   }, {});
 
   if (due.length === 0) {
+    /*
+     * "nothing due; next in 0 min" was printed 225 times and no other number
+     * ever was, which is not a quiet queue reporting itself — it is the queue
+     * saying the opposite of what it looks like. `soonest` was already in the
+     * past on every one of those lines; `Math.max(0, …)` rounded the overdue
+     * gap up to zero and produced a sentence that reads as "all caught up,
+     * back in a moment". What was actually happening is that sources were late
+     * and every one of them was blocked behind the twelve-minute host floor.
+     *
+     * Two states, two sentences. "Caught up" and "backed up" need different
+     * things from the reader, and only one of them is a reason to look at the
+     * host floor.
+     */
     const soonest = Math.min(...next.map((d) => d.nextCheckAt));
-    say(`nothing due; next in ${Math.max(0, Math.round((soonest - nowMs) / 60_000))} min`);
+    const gapMin = Math.round((soonest - nowMs) / 60_000);
+    if (gapMin > 0) {
+      say(`nothing due; next in ${gapMin} min`);
+    } else {
+      const overdue = next.filter((d) => d.nextCheckAt <= nowMs).length;
+      const late = Math.round((nowMs - soonest) / 60_000);
+      say(
+        `${overdue} source(s) overdue by up to ${late} min, all held back by the ${HOST_GAP_MINUTES}-minute host floor`,
+      );
+    }
     return next;
   }
 
@@ -364,12 +409,56 @@ async function cycle(state: Due[]): Promise<Due[]> {
   if (collectExit === 0) {
     const notifyExit = runNode("scripts/notify.ts", []);
     say(`notify exit ${notifyExit}`);
+    discoverIfDue();
     publish();
   } else {
     say("collect failed, so nothing was notified this cycle");
   }
 
   return next;
+}
+
+/** Once a day, measured from the last one, not from the clock on the wall. */
+const DISCOVERY_GAP_MS = 20 * 60 * 60_000;
+const DISCOVERY_STAMP = join(STATE_DIR, "last-discovery");
+
+/**
+ * Look for pages the organisations published that nobody added by hand.
+ *
+ * This is the only defence against an announcement appearing at a fresh
+ * address, which is how Saudi bodies actually publish — a new `/ar/news/…`,
+ * not an edit to the careers page. Every watched url can be read faithfully
+ * every fifteen minutes and the opening still never be seen.
+ *
+ * It ran nowhere. `scheduled-run.ps1` had it behind `if ($hour -lt 6)`, and
+ * that file is the disabled previous watcher; this one never had it at all. So
+ * for as long as this watcher has been the live path, discovery has not
+ * happened once.
+ *
+ * The gate is elapsed time, not the hour. `-StartWhenAvailable` makes a missed
+ * midnight round run late, and a machine that is off overnight never sees an
+ * hour under six at all — so the wall-clock condition read as "once a day" and
+ * meant "never" on exactly the machines it was written for.
+ */
+function discoverIfDue(): void {
+  let last = 0;
+  try {
+    last = Number(readFileSync(DISCOVERY_STAMP, "utf8").trim()) || 0;
+  } catch {
+    // Never run here, which is the state that needs it most.
+  }
+  if (Date.now() - last < DISCOVERY_GAP_MS) return;
+
+  const exit = runNode("scripts/watch-sitemaps.ts", []);
+  say(`discovery exit ${exit}`);
+  /*
+   * Stamped whatever happened. A pass that fails on a network outage must not
+   * be retried every fifteen minutes for the rest of the day: that is a hundred
+   * sitemap sweeps across every watched host, which is precisely the traffic
+   * the host floor exists to prevent, arriving through a door that has none.
+   */
+  mkdirSync(STATE_DIR, { recursive: true });
+  writeFileSync(DISCOVERY_STAMP, String(Date.now()), "utf8");
 }
 
 /**

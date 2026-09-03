@@ -37,3 +37,10 @@ scripts/probe/results/
 # the user profile like everything else.
 .playwright/
 watch.log.1
+
+# The defect log and the resume note. Working papers, not documentation: they
+# name this machine's paths, they quote failures out of the context that
+# explains them, and the repository is meant to be handed to a friend. They stay
+# on the machine that produced them.
+AUDIT.md
+استأنف-من-هنا.md

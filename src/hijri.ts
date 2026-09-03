@@ -171,6 +171,20 @@ export interface ParsedDate {
   calendar: "hijri" | "gregorian" | null;
   /** True when a day and month were read but no year was written. */
   ambiguousYear: boolean;
+  /**
+   * True when `12/03/2026` could as honestly be March or December.
+   *
+   * The reading is day-first, and that is right: it is the Saudi convention and
+   * the convention of every page this project reads. But a site running an
+   * imported CMS, or an English page written for an international audience,
+   * writes the same eleven characters meaning the other month — and the reading
+   * was silently wrong by up to eleven months with nothing to show for it.
+   *
+   * Both fields have to be twelve or less, and they have to differ: `25/03` has
+   * only one reading, and `03/03` has only one answer. What is left is a real
+   * fork, and it is said out loud rather than guessed at quietly.
+   */
+  ambiguousOrder?: boolean;
   /** What was matched, so a reader can check the reading. */
   matched: string | null;
 }
@@ -303,9 +317,17 @@ function allDates(text: string): Sighting[] {
     } else if (y >= 1900 && y <= 2200) {
       const iso = `${y}-${String(m).padStart(2, "0")}-${String(d).padStart(2, "0")}`;
       const ok = !Number.isNaN(Date.parse(iso)) && new Date(iso).getUTCDate() === d;
+      // Year last, and both of the other two could be a month: see ambiguousOrder.
+      const forked = a.length !== 4 && d <= 12 && m <= 12 && d !== m;
       out.push({
         index: n.index,
-        parsed: { iso: ok ? iso : null, calendar: "gregorian", ambiguousYear: false, matched: n[0] },
+        parsed: {
+          iso: ok ? iso : null,
+          calendar: "gregorian",
+          ambiguousYear: false,
+          ambiguousOrder: forked,
+          matched: n[0],
+        },
       });
     } else {
       out.push({ index: n.index, parsed: { ...NONE, matched: n[0] } });

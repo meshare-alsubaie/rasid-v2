@@ -127,5 +127,115 @@ console.log("\nthe validator refuses a dataset that breaks an honesty rule");
   check("restoring the file makes it pass again", restored.code === 0);
 }
 
+console.log("\nthe PowerShell check catches a file the shell cannot read");
+{
+  /*
+   * PowerShell 5.1 reads an unmarked `.ps1` in the system codepage, so a single
+   * Arabic character in a comment turns the whole file into a parse error and
+   * collection silently stops. That is a failure nobody sees until the phone
+   * has been quiet for a week, which is why it is a gate and not a habit.
+   */
+  const probe = "scripts/gate-probe.ps1";
+  writeFileSync(probe, "# تعليق بالعربية\nWrite-Output 'x'\n", "utf8");
+  const seeded = run("test:scripts");
+  rmSync(probe);
+  const clean = run("test:scripts");
+
+  check(
+    "a non-ASCII byte in a .ps1 is caught",
+    seeded.code !== 0,
+    seeded.code === 0 ? "IT PASSED — the shell files are not being read" : "",
+  );
+  check("and the report names the file", /gate-probe/.test(seeded.out));
+  check("removing it makes the check pass again", clean.code === 0);
+}
+
+console.log("\nthe domain audit catches an organisation watched on somebody else's site");
+{
+  /*
+   * On a fixture, not on the real dataset: planting this in
+   * `data/organisations.json` would mean rewriting half a megabyte that a
+   * collection round may be holding open, to test a rule about correctness.
+   */
+  const probe = "data/gate-probe-orgs.json";
+  const src = (url: string) => ({
+    url,
+    provenance: "manual" as const,
+    verifiedAtISO: "2026-01-01T00:00:00.000Z",
+    verifiedNote: "fixture",
+    type: "careers_page" as const,
+    checkFrequencyHours: 24,
+    renderMode: "static" as const,
+  });
+  const org = (id: string, urls: string[]) => ({
+    id,
+    nameAr: id,
+    tier: "A",
+    sector: "gov",
+    sources: urls.map(src),
+  });
+  writeFileSync(
+    probe,
+    JSON.stringify(
+      [
+        org("alpha", ["https://alpha.gov.sa/coop", "https://alpha.gov.sa/careers"]),
+        org("beta", ["https://alpha.gov.sa/beta-coop"]),
+      ],
+      null,
+      2,
+    ) + "\n",
+    "utf8",
+  );
+  const seeded = run("audit:domains -- --file data/gate-probe-orgs.json");
+  rmSync(probe);
+  const clean = run("audit:domains");
+
+  check(
+    "an organisation with no source of its own is caught",
+    seeded.code !== 0,
+    seeded.code === 0 ? "IT PASSED — the rule is not enforced" : "",
+  );
+  check("and it is named", /beta/.test(seeded.out), seeded.out.split("\n").slice(-6).join(" | ").slice(0, 90));
+  check("the real dataset still passes", clean.code === 0);
+}
+
+/*
+ * Every gate in the chain has a way to fail.
+ *
+ * The three faults above are planted from outside, which only works on a gate
+ * that reads a file. Most of them build their own fixtures in memory, and there
+ * is no honest way to seed those without rewriting them — but the failure that
+ * actually happened twice is cruder than a subtle wrong assertion: a script
+ * that prints its findings and exits zero regardless. `audit:domains` was
+ * exactly that until today; it printed an organisation watched on the wrong
+ * site, every run, and nothing ever went red.
+ *
+ * So this reads the chain out of package.json and checks each member has a
+ * non-zero exit path and a failure counter feeding it. Cheap, static, and it
+ * catches the shape of the bug rather than one instance of it.
+ */
+console.log("\nevery gate in the chain can go red at all");
+{
+  const pkg = JSON.parse(readFileSync("package.json", "utf8")) as {
+    scripts: Record<string, string>;
+  };
+  const chain = [...(pkg.scripts.gates ?? "").matchAll(/npm run ([\w:-]+)/g)].map((m) => m[1]!);
+  check("the chain was read from package.json", chain.length > 10, `${chain.length} gates`);
+
+  const NO_SOURCE = new Set(["typecheck"]); // tsc's own exit code, not ours
+  for (const name of chain) {
+    if (NO_SOURCE.has(name)) continue;
+    const cmd = pkg.scripts[name] ?? "";
+    const file = /tsx (scripts\/[\w.-]+)/.exec(cmd)?.[1];
+    if (!file || !existsSync(file)) {
+      check(`${name}: its source was found`, false, cmd);
+      continue;
+    }
+    const src = readFileSync(file, "utf8");
+    const canFail = /process\.exit\([^)]*[?:][^)]*1\)|process\.exit\(1\)/.test(src);
+    check(`${name}: exits non-zero on a finding`, canFail, canFail ? "" : "it can only ever print");
+  }
+}
+
 console.log(`\n${failures === 0 ? "every gate fails when it should" : `${failures} GATE(S) DO NOT CATCH WHAT THEY CLAIM TO`}`);
 process.exit(failures === 0 ? 0 : 1);

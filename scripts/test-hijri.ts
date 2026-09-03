@@ -199,5 +199,32 @@ console.log("\nand the refusals still refuse");
   check("prose is not a date", parseArabicDate("بعد أسبوعين من الإعلان").iso === null);
 }
 
+console.log("\na numeric date that has two honest readings says so");
+{
+  /*
+   * `12/03/2026` is read day-first, which is right for these pages and wrong
+   * for a site running an imported CMS. The reading does not change — guessing
+   * the other way would be wrong far more often, and dropping the date would
+   * cost real deadlines — but the doubt is now carried out of the parser, so
+   * the card can print it instead of showing a confident wrong month.
+   */
+  const forked = parseArabicDate("آخر موعد 12/03/2026");
+  check("12/03/2026 still reads as 12 March", forked.iso === "2026-03-12", String(forked.iso));
+  check("and it is marked as having a second reading", forked.ambiguousOrder === true);
+
+  const settled = parseArabicDate("آخر موعد 25/03/2026");
+  check("25/03/2026 has only one reading", settled.iso === "2026-03-25", String(settled.iso));
+  check("and is not marked", settled.ambiguousOrder !== true);
+
+  const same = parseArabicDate("آخر موعد 03/03/2026");
+  check("03/03/2026 has two readings and one answer, so it is not marked", same.ambiguousOrder !== true);
+
+  const yearFirst = parseArabicDate("2026-03-12");
+  check("a year-first date is never ambiguous", yearFirst.ambiguousOrder !== true);
+
+  const hijri = parseArabicDate("1448/03/12");
+  check("a Hijri numeric date is unaffected", hijri.calendar === "hijri" && hijri.ambiguousOrder !== true);
+}
+
 console.log(`\n${failures === 0 ? "all checks passed" : `${failures} CHECK(S) FAILED`}`);
 process.exit(failures === 0 ? 0 : 1);

@@ -177,6 +177,9 @@ function absoluteApplyUrl(candidate: string | null, sourceUrl: string): string |
  * date with no year, both are refused: the day and month are known and the year
  * is not, and inventing it is how a deadline gets missed by a year.
  */
+/** Set while resolving, read straight after: `12/03` had two honest readings. */
+let sawAmbiguousOrder = false;
+
 function resolveDate(
   iso: string | null,
   raw: string | null,
@@ -184,6 +187,7 @@ function resolveDate(
 ): string | null {
   if (raw !== null && raw.trim() !== "") {
     const read = parseArabicDateRange(raw, end);
+    if (read.ambiguousOrder === true) sawAmbiguousOrder = true;
     if (read.iso !== null) return read.iso;
     /*
      * The page wrote something and we could not read it, so we do not have a
@@ -205,6 +209,7 @@ function resolveDate(
   }
   if (iso === null) return null;
   const fallback = parseArabicDateRange(iso, end);
+  if (fallback.ambiguousOrder === true) sawAmbiguousOrder = true;
   return fallback.iso;
 }
 
@@ -244,8 +249,10 @@ export function fromClassification(args: Common & { c: Classification }): Opport
    * passed. So neither is kept, the record says its dates were not announced,
    * and it goes to review where a person can open the page.
    */
+  sawAmbiguousOrder = false;
   const opensResolved = resolveDate(c.opensISO, c.opensRaw, "first");
   const closesResolved = resolveDate(c.closesISO, c.closesRaw, "last");
+  const ambiguousOrder = sawAmbiguousOrder;
   const backwards =
     opensResolved !== null &&
     closesResolved !== null &&
@@ -290,6 +297,7 @@ export function fromClassification(args: Common & { c: Classification }): Opport
     flags: [
       ...flagsFor(c, backwards ? null : (fit?.score ?? null), status, firstTime),
       ...(fit === null || backwards ? (["needs_manual_review"] as const) : []),
+      ...(ambiguousOrder && !backwards ? (["date_order_ambiguous"] as const) : []),
     ],
     sourceUrl,
     applyUrl: absoluteApplyUrl(c.applyUrl, sourceUrl),

@@ -128,9 +128,57 @@ for (const file of files) {
   }
 }
 
+/*
+ * The one field in the published dataset that is written *about the owner*.
+ *
+ * `opportunities.json` is exempted from the grade rule above, and rightly: an
+ * organisation's own published minimum is the evidence the dataset rests on.
+ * But the exemption is whole-file, and one field in that file is not a quote
+ * from a page at all — `relevanceReason` is generated from the reader's own
+ * profile, and while a model was writing it, it quoted his specialism, his
+ * project and his certifications back into a public repository.
+ *
+ * It is deterministic now and says only what it needs to. This checks that,
+ * field by field, so the exemption covers what it was meant to cover and no
+ * more.
+ */
+console.log("");
+{
+  const PERSONAL = [
+    { name: "a grade", re: /\bGPA\b|معدل\s*(?:تراكمي|المستخدم|الطالب)|\b[0-4]\.\d{1,2}\s*(?:من|\/)\s*[45]\b/ },
+    { name: "a university", re: /جامعة\s+\S+|\bKFUPM\b|\bKAU\b/ },
+    { name: "a certificate", re: /Security\+|CCNA|CEH|شهادة\s+(?:احترافية|مهنية)/i },
+    { name: "a name or a mailbox", re: /[\w.+-]+@[\w.-]+\.\w{2,}|مشاري|السبيعي/i },
+  ];
+  let leaks = 0;
+  try {
+    const rows = JSON.parse(
+      readFileSync("data/opportunities.json", "utf8").replace(/^﻿/, ""),
+    ) as { relevanceReason?: string }[];
+    for (const row of rows) {
+      const reason = row.relevanceReason ?? "";
+      for (const p of PERSONAL) {
+        if (p.re.test(reason)) {
+          leaks++;
+          console.log(`  relevanceReason carries ${p.name}: ${reason.slice(0, 90)}`);
+        }
+      }
+    }
+    console.log(
+      leaks === 0
+        ? `  the ${rows.length} published reasons say nothing about the reader beyond his field`
+        : `  ${leaks} published reason(s) say too much`,
+    );
+  } catch {
+    console.log("  opportunities.json could not be read as JSON, so its reasons were not checked");
+    leaks++;
+  }
+  hits += leaks;
+}
+
 console.log(
   hits === 0
-    ? `privacy: ${files.length} tracked files, nothing personal found`
+    ? `\nprivacy: ${files.length} tracked files, nothing personal found`
     : `\nprivacy: ${hits} match(es). Do not push until these are gone from the working tree AND from history.`,
 );
 process.exit(hits === 0 ? 0 : 1);

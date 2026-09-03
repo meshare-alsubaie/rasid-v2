@@ -83,7 +83,16 @@ export const CASES: BenchmarkCase[] = [
     expect: { isTrainingAnnouncement: true, product: "coop", minScore: 90, closesISO: "2026-10-16" },
   },
 
-  /* ---------- general IT: the spec's 60–85 band ---------- */
+  /*
+   * ---------- general IT: the spec's 60–85 band ----------
+   *
+   * These four asserted 55–89 while the comment above them said 60–85, which is
+   * a test that has quietly stopped testing the thing it names: the scorer gives
+   * a general-IT page 65, or 70 in his city, and both sit comfortably inside the
+   * real band. The wider one was slack nobody needed, and slack in a benchmark
+   * is where a scorer drifts without anything going red. It is the spec's band
+   * now, and if the scorer ever leaves it the fix is the scorer.
+   */
   {
     id: "it_1",
     band: "it",
@@ -91,7 +100,7 @@ export const CASES: BenchmarkCase[] = [
 تعلن الشركة عن حاجتها لمتدربين في إدارة تقنية المعلومات للعمل على دعم الأنظمة
 وإدارة قواعد البيانات والشبكات. التخصصات: علوم الحاسب، نظم المعلومات، هندسة البرمجيات.
 المدة ١٢ أسبوعاً. آخر موعد 2026-10-01.`,
-    expect: { isTrainingAnnouncement: true, product: "coop", minScore: 55, maxScore: 89 },
+    expect: { isTrainingAnnouncement: true, product: "coop", minScore: 60, maxScore: 85 },
   },
   {
     id: "it_2",
@@ -99,7 +108,7 @@ export const CASES: BenchmarkCase[] = [
     text: `برنامج التدريب التعاوني في تطوير البرمجيات
 يعمل المتدرب ضمن فريق تطوير التطبيقات باستخدام جافا و.NET، ويشارك في اختبار البرمجيات
 وكتابة الوثائق التقنية. مطلوب طلاب علوم الحاسب وهندسة البرمجيات.`,
-    expect: { isTrainingAnnouncement: true, product: "coop", minScore: 55, maxScore: 89 },
+    expect: { isTrainingAnnouncement: true, product: "coop", minScore: 60, maxScore: 85 },
   },
   {
     id: "it_3",
@@ -107,7 +116,7 @@ export const CASES: BenchmarkCase[] = [
     text: `تدريب تعاوني — تحليل البيانات
 فرصة تدريب في إدارة البيانات والتحليل، تشمل بناء لوحات المعلومات وإعداد التقارير
 باستخدام Power BI و SQL. التخصصات: نظم المعلومات، علوم البيانات، إحصاء.`,
-    expect: { isTrainingAnnouncement: true, product: "coop", minScore: 55, maxScore: 89 },
+    expect: { isTrainingAnnouncement: true, product: "coop", minScore: 60, maxScore: 85 },
   },
   {
     id: "it_4",
@@ -115,7 +124,7 @@ export const CASES: BenchmarkCase[] = [
     text: `التدريب التعاوني في إدارة الشبكات والاتصالات
 يشمل التدريب إعداد أجهزة التوجيه والتبديل ومتابعة أداء الشبكة والدعم الفني للمستخدمين.
 المدة ١٦ أسبوعاً في الرياض. التخصصات المطلوبة: هندسة الشبكات، تقنية المعلومات.`,
-    expect: { isTrainingAnnouncement: true, product: "coop", minScore: 55, maxScore: 89 },
+    expect: { isTrainingAnnouncement: true, product: "coop", minScore: 60, maxScore: 85 },
   },
   {
     /*

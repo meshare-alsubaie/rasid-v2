@@ -262,15 +262,32 @@ export function reconcile(
   targets: { sourceUrl: string; orgId: string; tier: Tier }[],
   nowMs: number,
   hosts: Map<string, number>,
+  /**
+   * When each source was last actually read, from a record that outlives the
+   * schedule file.
+   *
+   * The host floor's whole memory lived in `.rasid/schedule.json`, which is
+   * per-machine, gitignored and rebuilt from nothing after a crash. Rebuilt,
+   * every `lastCheckedAt` is null, `lastByHost` is empty, and a host read sixty
+   * seconds ago is eligible again — so the one moment the machine is least
+   * steady is the moment it hits every site hardest. `data/health.json` records
+   * the last attempt per source and survives all of that, so it seeds the
+   * politeness the schedule file forgot.
+   */
+  lastRead?: Map<string, number>,
 ): Due[] {
   const before = new Map(previous.map((d) => [d.sourceUrl, d]));
   return dedupeTargets(targets).map((t) => {
     const old = before.get(t.sourceUrl);
     if (!old) {
+      const seeded = lastRead?.get(t.sourceUrl) ?? null;
       return {
         ...t,
         nextCheckAt: nowMs + initialSpread(t.sourceUrl, FIRST_SWEEP_MINUTES),
-        lastCheckedAt: null,
+        // Only backwards: a stale record must never push a check into the
+        // future, it only stops a host being hammered the second it is known
+        // to have just answered.
+        lastCheckedAt: seeded !== null && seeded <= nowMs ? seeded : null,
       };
     }
     if (old.tier === t.tier) return { ...old, orgId: t.orgId };

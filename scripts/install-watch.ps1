@@ -123,6 +123,10 @@ Write-Output ""
 Write-Output "It starts at the next logon. To start it now without waiting:"
 Write-Output ("    powershell -ExecutionPolicy Bypass -File `"" + $script + "`"")
 Write-Output "To watch what it is doing:"
-Write-Output ("    Get-Content '" + (Join-Path $repo "watch.log") + "' -Tail 20 -Wait")
+# -Encoding UTF8 is not optional: the log is written UTF-8 and almost every line
+# in it is Arabic, and Get-Content without it reads the system codepage and
+# prints mojibake. The installer was handing out a command that corrupted the
+# one file somebody reads when the watcher goes wrong.
+Write-Output ("    Get-Content '" + (Join-Path $repo "watch.log") + "' -Tail 20 -Wait -Encoding UTF8")
 Write-Output "To remove it:"
 Write-Output "    powershell -ExecutionPolicy Bypass -File scripts\install-watch.ps1 -Remove"
