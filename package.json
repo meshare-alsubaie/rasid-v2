@@ -52,7 +52,9 @@
     "test:copied": "tsx scripts/test-copied.ts",
     "test:push": "tsx scripts/test-push.ts",
     "test:redact": "tsx scripts/test-redact.ts",
-    "test:arabic": "tsx scripts/test-arabic.ts"
+    "test:arabic": "tsx scripts/test-arabic.ts",
+    "status": "tsx scripts/status.ts",
+    "gates": "npm run typecheck && npm run validate && npm run audit:privacy && npm run test:records && npm run test:copied && npm run test:redact && npm run test:push && npm run test:arabic && npm run test:relevance && npm run test:hijri && npm run test:scripts && npm run test:extract && npm run test:costfilter && npm run test:schedule && npm run test:sitemap && npm run test:lifecycle && npm run test:notify && npm run test:benchmark && npm run test:faults && npm run test:longrun"
   },
   "devDependencies": {
     "@types/node": "^22.10.2",

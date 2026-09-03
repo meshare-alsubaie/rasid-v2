@@ -156,7 +156,19 @@ check("the placeholder title constant is what asManualReview writes", placeholde
 
 console.log("\nthe flag that used to wipe the dataset");
 
-const before = readFileSync("data/health.json", "utf8").length;
+/*
+ * Counted, not compared byte for byte.
+ *
+ * The first version asserted the file was identical afterwards, which is true
+ * of the defect but also true of nothing else on this machine: the resident
+ * watcher writes this file every few minutes, so the check failed at random
+ * whenever a round happened to land mid-test. A gate that fails for reasons
+ * unrelated to what it guards teaches people to ignore it, which is worse than
+ * not having it.
+ *
+ * What the defect actually did was empty the file. That is what is asserted.
+ */
+const rowsBefore = (JSON.parse(readFileSync("data/health.json", "utf8")) as unknown[]).length;
 for (const arg of [[], ["abc"], ["0"], ["-3"], ["2.5"]]) {
   const shown = arg.length === 0 ? "(nothing)" : arg[0]!;
   const run = spawnSync("npx", ["tsx", "scripts/collect.ts", "--limit", ...arg], {
@@ -166,9 +178,11 @@ for (const arg of [[], ["abc"], ["0"], ["-3"], ["2.5"]]) {
   });
   check(`--limit ${shown} refuses with exit 2`, run.status === 2, `exit ${String(run.status)}`);
 }
+const rowsAfter = (JSON.parse(readFileSync("data/health.json", "utf8")) as unknown[]).length;
 check(
-  "and health.json was not touched by any of them",
-  readFileSync("data/health.json", "utf8").length === before,
+  "and health.json still holds its records",
+  rowsAfter >= rowsBefore,
+  rowsBefore + " -> " + rowsAfter,
 );
 
 /* ---------- ق‑١ · a round always reaches its own write ---------- */
@@ -190,7 +204,13 @@ console.log("\nthe deadline that replaces being killed");
     .slice(0, 3);
   writeFileSync(urls, sample.join("\n") + "\n", "utf8");
 
-  const healthBefore = readFileSync("data/health.json", "utf8");
+  // Row count, not bytes: the watcher writes this file while the suite runs.
+  const probedUrls = new Set(sample);
+  const healthBefore = (JSON.parse(readFileSync("data/health.json", "utf8")) as {sourceUrl: string; lastAttemptISO: string}[])
+    .filter((h) => probedUrls.has(h.sourceUrl))
+    .map((h) => h.sourceUrl + "|" + h.lastAttemptISO)
+    .sort()
+    .join();
   const run = spawnSync("npx", ["tsx", "scripts/collect.ts", "--urls", urls], {
     encoding: "utf8",
     shell: true,
@@ -205,9 +225,14 @@ console.log("\nthe deadline that replaces being killed");
     /deadline\s+reached after .*; 3 source\(s\) not opened and still due/.test(run.stdout ?? ""),
     (run.stdout ?? "").split("\n").filter((l) => l.includes("deadline")).join("") || "no deadline line",
   );
+  const healthAfter = (JSON.parse(readFileSync("data/health.json", "utf8")) as {sourceUrl: string; lastAttemptISO: string}[])
+    .filter((h) => probedUrls.has(h.sourceUrl))
+    .map((h) => h.sourceUrl + "|" + h.lastAttemptISO)
+    .sort()
+    .join();
   check(
     "sources it did not open keep their health record, so they stay due",
-    readFileSync("data/health.json", "utf8") === healthBefore,
+    healthAfter === healthBefore,
   );
 }
 

@@ -26,7 +26,7 @@ import type {
 export interface NotifyHealth {
   lastAttemptISO: string | null;
   lastSuccessISO: string | null;
-  state: "healthy" | "down";
+  state: "healthy" | "down" | "untested";
   reason: string;
   heldCount: number;
 }

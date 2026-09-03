@@ -418,6 +418,24 @@ if (!DRY) {
     }
   })();
 
+  /*
+   * Three states, because "nothing was attempted" is not "it works".
+   *
+   * With two states this wrote `healthy` after a quiet-hours run in which no
+   * push was even tried, and the status screen then said "the channel works,
+   * the last send succeeded" while the phone's subscription had been dead for
+   * two days. That is the same false green light this whole project is built to
+   * refuse, reproduced in the very file that reports on it.
+   *
+   * `healthy` now requires a send that actually succeeded — this run, or a
+   * previous one. Anything else is `untested`, which reads as what it is.
+   */
+  const state = pushChannelDown
+    ? "down"
+    : pushedKeys.length > 0 || priorState.lastSuccessISO
+      ? "healthy"
+      : "untested";
+
   writeFileSync(
     "data/notify-health.json",
     JSON.stringify(
@@ -425,8 +443,12 @@ if (!DRY) {
         lastAttemptISO: now.toISOString(),
         lastSuccessISO:
           pushedKeys.length > 0 ? now.toISOString() : (priorState.lastSuccessISO ?? null),
-        state: pushChannelDown ? "down" : "healthy",
-        reason: pushChannelDown ? pushDownReason : "",
+        state,
+        reason: pushChannelDown
+          ? pushDownReason
+          : state === "untested"
+            ? "لم يُرسَل أي إشعار بنجاح بعد، فلا دليل على أن جوّالك يستقبل. جرّب «إشعاراً الآن» من الإعدادات."
+            : "",
         heldCount: notices.filter((n) => !pushedKeys.includes(n.key)).length,
       },
       null,
