@@ -168,8 +168,8 @@
     "orgId": "adf",
     "contentHash": "af59697fa98378685bac3970717ab8799aba47b7347a0c55d452fbd98280b238",
     "blockHashes": [
-      "76e1a7648ad6cad4",
-      "74e4c1d2a646a96e",
+      "1ce798e0ca5f6070",
+      "9e8708f46644e878",
       "a3620971d1fc0226",
       "5c8aba30098a77be",
       "767fd8086fa62d3d",
@@ -188,7 +188,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-02T23:42:46.216Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://adf.gov.sa/ar/Pages/training-request.aspx",
@@ -605,7 +605,7 @@
     "orgId": "anb",
     "contentHash": "917469b11c31b2aa29a6fa7741404f8cda751698e3c2aeeb036893fb71e8b52e",
     "blockHashes": [
-      "e61a048393b3b398",
+      "3c564a093eaa50e4",
       "793a466ff765af0e",
       "a3813bf637b4d939",
       "0aa4b9541202c0c9",
@@ -634,7 +634,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-03T01:00:16.068Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://athkax.sdaia.gov.sa/coop",
@@ -1528,9 +1528,11 @@
   {
     "sourceUrl": "https://careers.saib.com.sa/ar/page/coop-program/",
     "orgId": "saib",
-    "contentHash": "2b314bfcdc146e409bd9046e3e5af20b56397b00ccb824f4334b7e320c4f74ff",
+    "contentHash": "dbcac92d92bcffebad599bfff6e18c51407da7c11259fd0b181bddb8daf39034",
     "blockHashes": [
-      "50bf894de94aefd8",
+      "825147e49db63280",
+      "0aada8fc06fc1718",
+      "e4e5c6ff02cdce7f",
       "84438777d4b0d8a6",
       "35030cfcf1d7b420",
       "7c3d7ee8e149eb5b",
@@ -1544,7 +1546,7 @@
     "extractedChars": 1535,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
-    "lastChangedISO": "2026-09-03T02:15:11.754Z",
+    "lastChangedISO": "2026-09-03T04:02:53.097Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -3421,13 +3423,37 @@
     "sourceUrl": "https://nca.gov.sa/ar/cyber-training-and-qualifications/cybersecurity-program-3/",
     "orgId": "nca",
     "contentHash": "331576a32769c8d9eafb4497b0a1896b5b6d6ef5284f69bcc8a8ed995ddab8c1",
-    "blockHashes": [],
+    "blockHashes": [
+      "c68e392680fd6972",
+      "4863769fd39682a0",
+      "0849235c04c82e52",
+      "a08bf01d574fcf24",
+      "2cfb4d495ba5fefe",
+      "21f1747cc8326266",
+      "0e4402be1bb1a2d5",
+      "f32cc354b4dee2ca",
+      "cd73f1722064cc55",
+      "2cda3143a87ee724",
+      "5dda0f94b4e64951",
+      "ec5f9bca36ea4c00",
+      "b9416eb892678868",
+      "40ef8c208dd402ff",
+      "58fde36d5e542193",
+      "bc7f6dc4d06bfaa4",
+      "f7071bddf444e712",
+      "14832983d06eff38",
+      "5b1253f4f972f502",
+      "944c7eeca9568fb6",
+      "3b565d3c221f9aad",
+      "b057fb967da03c6a",
+      "4ad37f3605206255"
+    ],
     "extractedChars": 2155,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-02T23:42:46.216Z",
     "lastChangedISO": "2026-09-02T23:42:46.216Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://nca.gov.sa/ar/education-program/",
@@ -5020,7 +5046,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-08-31T00:02:49.563Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.aramco.com/en/careers/for-saudi-applicants/student-opportunities/college-continuation-program",
@@ -9181,12 +9207,12 @@
   {
     "sourceUrl": "https://www.rcrc.gov.sa/news-ar/",
     "orgId": "rcrc",
-    "contentHash": "8c0fe47a9164af324896695150a8b3366c4a505970ec08df418e723b16ca40c8",
+    "contentHash": "c4208a040bccf1e644fc8d8a1f23433177f651ac70a3324f66ce76656a7400dd",
     "blockHashes": [
       "dd62229c2f61fb42",
       "306db3646b8a6c73",
       "b28682d0a5fa37ed",
-      "8a90c40369d3a3fc",
+      "1e09339e5d677bce",
       "dd5bfb74e89dbbdd",
       "b32d68c4e5c2da0f",
       "b91cd7f4edfa88d2",
@@ -9199,9 +9225,9 @@
     "extractedChars": 3553,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-03T01:02:36.603Z",
+    "lastChangedISO": "2026-09-03T04:02:53.097Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.rcu.gov.sa/",
@@ -9473,7 +9499,7 @@
   {
     "sourceUrl": "https://www.riyadbank.com/ar/personal-banking",
     "orgId": "riyadbank",
-    "contentHash": "e73c5106cd39b3ac2bec7b3162828788bab91ed14885c92b048e586905de3b1f",
+    "contentHash": "7f6ffe85c9e2aabe9c3060b62e77d95ffcfb25a12d3550e1856451804158fe92",
     "blockHashes": [
       "c5fa97b84e96f11e",
       "a01ad1ea1a27690a",
@@ -9519,12 +9545,12 @@
       "27ab07a2e57dda34",
       "f2f0e16c376080f6"
     ],
-    "extractedChars": 10225,
+    "extractedChars": 10029,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
-    "lastChangedISO": "2026-09-03T00:59:05.762Z",
+    "lastChangedISO": "2026-09-03T04:02:53.097Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.sabic.com/ar/careers",
@@ -10298,7 +10324,7 @@
     "orgId": "sidf",
     "contentHash": "bb4ed7aa1e9f578fc42fbf4c89e9f70f72e985a3c6dd559e1eb36eac1620ae17",
     "blockHashes": [
-      "8a9102d8a53f5352",
+      "ec7d4599449154fe",
       "25b3bc91b9810520"
     ],
     "extractedChars": 288,
@@ -10306,7 +10332,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-02T23:42:46.216Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.simah.com/en/personal/pages/default.aspx",
@@ -10415,7 +10441,7 @@
     "blockHashes": [
       "13f48669ebfa59aa",
       "74e4c1d2a646a96e",
-      "36f3774948fb91a5",
+      "d8970cefb53f063a",
       "911fe68415c8e04d",
       "73801acea2d59ad8",
       "fc34eb5a18d3701f",
@@ -10439,7 +10465,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-02T23:42:46.216Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.srca.org.sa/newsletters/",
