@@ -830,8 +830,8 @@
   {
     "sourceUrl": "https://careers.stc.com.sa/go/Cooperative-Training/7736023/",
     "orgId": "stc",
-    "lastAttemptISO": "2026-09-02T23:42:46.216Z",
-    "lastSuccessISO": "2026-09-02T23:42:46.216Z",
+    "lastAttemptISO": "2026-09-03T00:53:12.625Z",
+    "lastSuccessISO": "2026-09-03T00:53:12.625Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -1604,11 +1604,11 @@
   {
     "sourceUrl": "https://site.sa/",
     "orgId": "site",
-    "lastAttemptISO": "2026-09-02T23:42:46.216Z",
+    "lastAttemptISO": "2026-09-03T00:53:12.625Z",
     "lastSuccessISO": "2026-09-02T23:42:46.216Z",
-    "consecutiveFailures": 0,
-    "lastError": null,
-    "state": "healthy"
+    "consecutiveFailures": 1,
+    "lastError": "headless chromium unavailable (browserType.launch: Executable doesn't exist at [مسار محلي]/chrome-headless-shell.exe\n╔════════════════════════════════════════════════════════════╗\n║ Looks like Playwright was just installed or updated.       ║\n║ Please run the following command to download new browsers: ║\n║                                                            ║\n║     npx playwright install                                 ║\n║                                                            ║\n║ <3 Playwright Team                                         ║\n╚════════════════════════════════════════════════════════════╝); run \"npx playwright install chromium\"",
+    "state": "degraded"
   },
   {
     "sourceUrl": "https://slccareers.kpmg.com/go/All-Jobs/7738123/",
@@ -2612,8 +2612,8 @@
   {
     "sourceUrl": "https://www.mewa.gov.sa/ar/MediaCenter/MultimediaLibrary/Pages/default.aspx",
     "orgId": "mewa",
-    "lastAttemptISO": "2026-09-02T23:42:46.216Z",
-    "lastSuccessISO": "2026-09-02T23:42:46.216Z",
+    "lastAttemptISO": "2026-09-03T00:53:12.625Z",
+    "lastSuccessISO": "2026-09-03T00:53:12.625Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -2657,8 +2657,8 @@
   {
     "sourceUrl": "https://www.mim.gov.sa/ar",
     "orgId": "mim",
-    "lastAttemptISO": "2026-09-02T23:42:46.216Z",
-    "lastSuccessISO": "2026-09-02T23:42:46.216Z",
+    "lastAttemptISO": "2026-09-03T00:53:12.625Z",
+    "lastSuccessISO": "2026-09-03T00:53:12.625Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -2882,8 +2882,8 @@
   {
     "sourceUrl": "https://www.moh.gov.sa/ministry/mediacenter/publications/pages/default.aspx",
     "orgId": "moh",
-    "lastAttemptISO": "2026-09-02T23:42:46.216Z",
-    "lastSuccessISO": "2026-09-02T23:42:46.216Z",
+    "lastAttemptISO": "2026-09-03T00:53:12.625Z",
+    "lastSuccessISO": "2026-09-03T00:53:12.625Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -2972,8 +2972,8 @@
   {
     "sourceUrl": "https://www.nazaha.gov.sa/Jobs",
     "orgId": "nazaha",
-    "lastAttemptISO": "2026-09-02T23:42:46.216Z",
-    "lastSuccessISO": "2026-09-02T23:42:46.216Z",
+    "lastAttemptISO": "2026-09-03T00:53:12.625Z",
+    "lastSuccessISO": "2026-09-03T00:53:12.625Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -3044,8 +3044,8 @@
   {
     "sourceUrl": "https://www.ncc.gov.sa/ar/MediaCenter/News/Pages/News_065.aspx",
     "orgId": "ncc",
-    "lastAttemptISO": "2026-09-02T23:42:46.216Z",
-    "lastSuccessISO": "2026-09-02T23:42:46.216Z",
+    "lastAttemptISO": "2026-09-03T00:53:12.625Z",
+    "lastSuccessISO": "2026-09-03T00:53:12.625Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -3071,10 +3071,10 @@
   {
     "sourceUrl": "https://www.pif.gov.sa/",
     "orgId": "pif",
-    "lastAttemptISO": "2026-09-02T23:42:46.216Z",
+    "lastAttemptISO": "2026-09-03T00:53:12.625Z",
     "lastSuccessISO": "2026-08-30T00:02:43.835Z",
-    "consecutiveFailures": 12,
-    "lastError": "HTTP 403",
+    "consecutiveFailures": 13,
+    "lastError": "headless chromium unavailable (browserType.launch: Executable doesn't exist at [مسار محلي]/chrome-headless-shell.exe\n╔════════════════════════════════════════════════════════════╗\n║ Looks like Playwright was just installed or updated.       ║\n║ Please run the following command to download new browsers: ║\n║                                                            ║\n║     npx playwright install                                 ║\n║                                                            ║\n║ <3 Playwright Team                                         ║\n╚════════════════════════════════════════════════════════════╝); run \"npx playwright install chromium\"",
     "state": "broken"
   },
   {
@@ -3134,11 +3134,11 @@
   {
     "sourceUrl": "https://www.pwc.com/m1/en/careers/uae-nationals-careers.html",
     "orgId": "pwc_sa",
-    "lastAttemptISO": "2026-09-02T23:42:46.216Z",
+    "lastAttemptISO": "2026-09-03T00:53:12.625Z",
     "lastSuccessISO": "2026-09-02T23:42:46.216Z",
-    "consecutiveFailures": 0,
-    "lastError": null,
-    "state": "healthy"
+    "consecutiveFailures": 1,
+    "lastError": "HTTP 403",
+    "state": "degraded"
   },
   {
     "sourceUrl": "https://www.rcjy.gov.sa/",
@@ -3152,8 +3152,8 @@
   {
     "sourceUrl": "https://www.rcjy.gov.sa/media-center",
     "orgId": "rcjy",
-    "lastAttemptISO": "2026-09-02T23:42:46.216Z",
-    "lastSuccessISO": "2026-09-02T23:42:46.216Z",
+    "lastAttemptISO": "2026-09-03T00:53:12.625Z",
+    "lastSuccessISO": "2026-09-03T00:53:12.625Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -3665,8 +3665,8 @@
   {
     "sourceUrl": "https://www.tadawulgroup.sa/wps/portal/tadawulgroup/joinus",
     "orgId": "tadawul",
-    "lastAttemptISO": "2026-09-02T23:42:46.216Z",
-    "lastSuccessISO": "2026-09-02T23:42:46.216Z",
+    "lastAttemptISO": "2026-09-03T00:53:12.625Z",
+    "lastSuccessISO": "2026-09-03T00:53:12.625Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
