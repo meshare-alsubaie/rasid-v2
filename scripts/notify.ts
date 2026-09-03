@@ -345,19 +345,34 @@ async function sendDigest(items: Notice[]): Promise<boolean> {
  * tried again. Repeating a toast for a notice still waiting on push is the
  * lesser fault, and it errs towards telling him.
  */
-async function showToasts(items: Notice[]): Promise<number> {
-  if (items.length === 0 || DRY) return 0;
-  let shown = 0;
+/**
+ * Returns the keys that were actually shown, so they are not shown again.
+ *
+ * The toast deliberately sits outside the delivery contract: it must never mark
+ * a notice delivered, because the phone is what matters and a banner on a
+ * machine he is not sitting at proves nothing. But "outside the contract" was
+ * read as "outside all memory", so while the push channel was down the same six
+ * notices were toasted on every round — six banners a minute, repeating what
+ * they had already said, which is how a person learns to ignore them.
+ *
+ * They are logged now under their own channel, which retires nothing.
+ */
+async function showToasts(items: Notice[], alreadyToasted: Set<string>): Promise<string[]> {
+  if (items.length === 0 || DRY) return [];
+  const shown: string[] = [];
   for (const n of items) {
+    if (alreadyToasted.has(n.key)) continue;
     const r = await showToast(n.title, n.body);
-    if (r.ok) shown++;
+    if (r.ok) shown.push(n.key);
     else console.log(`toast: ${n.key} not shown (${r.reason})`);
   }
   return shown;
 }
 
 const pushedKeys = await sendPush(push);
-const toasted = await showToasts(push);
+const alreadyToasted = new Set(log.filter((e) => e.via === "toast").map((e) => e.key));
+const toastedKeys = await showToasts(push, alreadyToasted);
+const toasted = toastedKeys.length;
 const digested = await sendDigest(digestOnly);
 console.log(
   `sent: ${pushedKeys.length} push, ${toasted} toast, ${digested ? "1" : "0"} digest${DRY ? " (dry run)" : ""}`,
@@ -383,6 +398,11 @@ if (!DRY && !TEST) {
       sentISO: now.toISOString(),
       via: pushedSet.has(key) ? ("push" as const) : ("digest" as const),
     })),
+    // Recorded so it is not repeated. Retires nothing:  counts only
+    // push and digest, so a toasted notice is still owed a real delivery.
+    ...toastedKeys
+      .filter((key) => !sentKeys.has(key))
+      .map((key) => ({ key, sentISO: now.toISOString(), via: "toast" as const })),
   ]
     // Kept strictly longer than ANNOUNCE_WINDOW_DAYS, so a notice can never be
     // proposed again after the entry proving it was sent has been pruned.

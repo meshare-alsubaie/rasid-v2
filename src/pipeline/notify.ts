@@ -51,7 +51,15 @@ export interface NoticeLogEntry {
    * Absent on entries written before the distinction existed; those are counted
    * as pushes, which is the cautious reading.
    */
-  via?: "push" | "digest";
+  /*
+   * "toast" is recorded but never retires anything. The desktop banner is a
+   * convenience for the machine he is sitting at; the phone is what reaches him
+   * away from it, so a toast must not be able to mark a notice delivered. It is
+   * logged only so the same six are not shown again every single round, which
+   * is what happened for as long as the push channel was down: six banners a
+   * minute, saying what they had already said.
+   */
+  via?: "push" | "digest" | "toast";
 }
 
 /** Spec 5.4: never more than six pushes in a day. The rest goes to the digest. */

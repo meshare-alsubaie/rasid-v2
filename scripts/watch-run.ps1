@@ -22,6 +22,20 @@ $OutputEncoding = [System.Text.Encoding]::UTF8
 # that does not expect it.
 $log = Join-Path $repo "watch.log"
 $utf8 = New-Object System.Text.UTF8Encoding($false)
+
+# Rolled at eight megabytes, keeping one previous file.
+#
+# This grew without limit, and it is the only record of everything the watcher
+# does: every round, every failure, every push. Left alone it becomes a file
+# nobody can open on the day they most need to read it, and it grows fastest
+# exactly when something is going wrong and every round is logging a failure.
+$maxLogBytes = 8MB
+if ([System.IO.File]::Exists($log) -and (Get-Item $log).Length -gt $maxLogBytes) {
+    $previous = Join-Path $repo "watch.log.1"
+    if ([System.IO.File]::Exists($previous)) { Remove-Item $previous -Force -ErrorAction SilentlyContinue }
+    Move-Item $log $previous -Force -ErrorAction SilentlyContinue
+}
+
 function Write-Log($text) {
     [System.IO.File]::AppendAllText($log, $text + [Environment]::NewLine, $utf8)
 }
@@ -154,6 +168,22 @@ try {
     }
 } catch {
     Say "WARNING: Ollama is not reachable at $ollama. Pages will be fetched but nothing judged."
+}
+
+# One watcher, and only one.
+#
+# Nothing stopped two from running at once, and the installer's own help text
+# invited it by explaining how to start the task by hand. Two watchers mean two
+# rounds reading the same hosts on the same minute -- the per-host floor is
+# enforced inside a single process and knows nothing about a second one -- two
+# collectors writing the same four files at the end of their rounds, and every
+# notification decided and sent twice.
+$mine = $PID
+$others = @(Get-CimInstance Win32_Process -Filter "Name='node.exe'" -ErrorAction SilentlyContinue |
+    Where-Object { $_.CommandLine -like '*watch.ts*' -and $_.ProcessId -ne $mine })
+if ($others.Count -gt 0) {
+    Say ("another watcher is already running (pid " + ($others[0].ProcessId) + "); this one is exiting rather than doubling every round")
+    exit 0
 }
 
 Say "watcher starting"

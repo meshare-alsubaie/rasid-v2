@@ -122,8 +122,11 @@ console.log("\na failed rebase can never be collected through");
 console.log("\none stderr line cannot kill the watcher");
 {
   const src = readFileSync(join(dir, "watch-run.ps1"), "utf8");
-  const atChild = src.slice(src.indexOf("watch.ts"));
-  const beforeChild = src.slice(0, src.indexOf("watch.ts"));
+  // Anchored on the launch itself, not on the first mention of the filename:
+  // the single-instance guard names watch.ts too, and earlier in the file.
+  const launchAt = src.indexOf("node.exe --import tsx");
+  const atChild = src.slice(launchAt);
+  const beforeChild = src.slice(0, launchAt);
 
   check(
     "the preference is lifted before the child is started",
@@ -172,6 +175,50 @@ console.log("\none stderr line cannot kill the watcher");
     check("the shipped setting survives it", fixed.startsWith("SURVIVED"), fixed);
     check("and the child's exit code came through as 0", fixed === "SURVIVED:0", fixed);
   }
+}
+
+/*
+ * Two watchers is not twice the coverage, it is twice the traffic.
+ *
+ * The per-host floor that stops this project hammering a ministry is enforced
+ * inside one process and knows nothing about a second one. Two watchers read
+ * the same hosts on the same minute, two collectors write the same four files
+ * at the end of their rounds, and every notification is decided and sent twice.
+ * Nothing prevented it, and the installer's own help text explained how to start
+ * the task by hand.
+ */
+console.log("\nonly one watcher runs at a time");
+{
+  const src = readFileSync(join(dir, "watch-run.ps1"), "utf8");
+  const beforeLaunch = src.slice(0, src.indexOf("node.exe --import tsx"));
+  check(
+    "the launcher looks for another watcher before starting one",
+    /Win32_Process[\s\S]{0,200}watch\.ts/.test(beforeLaunch),
+  );
+  check(
+    "and exits rather than doubling the round",
+    /another watcher is already running[\s\S]{0,120}exit 0/.test(beforeLaunch),
+  );
+  check(
+    "it does not count itself",
+    /ProcessId -ne \$mine/.test(beforeLaunch),
+    "a guard that sees its own process would refuse to start at all",
+  );
+}
+
+/*
+ * The log is the only record of everything the watcher does, and it grew without
+ * a limit — fastest exactly when something is wrong and every round logs a
+ * failure, so it becomes unopenable on the day it is most needed.
+ */
+console.log("\nthe log does not grow without end");
+{
+  const src = readFileSync(join(dir, "watch-run.ps1"), "utf8");
+  check("a size ceiling exists", /maxLogBytes\s*=\s*\d+MB/.test(src));
+  check(
+    "and one previous file is kept rather than deleted outright",
+    /watch\.log\.1[\s\S]{0,200}Move-Item/.test(src),
+  );
 }
 
 console.log(`\n${failures === 0 ? "all checks passed" : `${failures} CHECK(S) FAILED`}`);

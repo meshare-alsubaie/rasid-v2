@@ -261,9 +261,44 @@ function runNode(script: string, extra: string[]): number {
   });
   if (res.error && "code" in res.error && res.error.code === "ETIMEDOUT") {
     say(`${script} exceeded ${CHILD_TIMEOUT_MS / 60_000} minutes and was stopped`);
+    /*
+     * Killing the collector does not kill what the collector started.
+     *
+     * A wedged round is usually wedged on a page, and a page is rendered by a
+     * headless browser the collector launched. SIGKILL on Windows ends that one
+     * process and orphans its children, so every timed-out round left a
+     * chromium tree behind — holding memory on the machine this is supposed to
+     * stay out of the way of, and accumulating one tree per bad round until
+     * something is restarted.
+     *
+     * Only browsers launched from this repository's own copy are touched, so a
+     * browser the owner is using is never in scope.
+     */
+    reapOrphanedBrowsers();
     return 124; // the shell convention for "timed out", so the log is greppable
   }
   return res.status ?? 1;
+}
+
+/**
+ * End the headless browsers a killed round left running.
+ *
+ * Matched on the repository's own browser directory, which is where the
+ * launcher points Playwright, so nothing the owner opened himself can match.
+ */
+function reapOrphanedBrowsers(): void {
+  if (process.platform !== "win32") return;
+  const marker = join(process.cwd(), ".playwright").replace(/\\/g, "\\\\");
+  const script = `Get-CimInstance Win32_Process -Filter "Name='chrome-headless-shell.exe' or Name='chrome.exe'" -ErrorAction SilentlyContinue |
+      Where-Object { $_.CommandLine -like '*${marker}*' } |
+      ForEach-Object { Stop-Process -Id $_.ProcessId -Force -ErrorAction SilentlyContinue; $_.ProcessId }`;
+  const res = spawnSync(
+    "powershell.exe",
+    ["-NoProfile", "-NonInteractive", "-Command", script],
+    { encoding: "utf8", timeout: 30_000, windowsHide: true },
+  );
+  const killed = (res.stdout ?? "").trim().split(/\s+/).filter(Boolean).length;
+  if (killed > 0) say(`  and ${killed} headless browser process(es) it had left behind`);
 }
 
 async function cycle(state: Due[]): Promise<Due[]> {

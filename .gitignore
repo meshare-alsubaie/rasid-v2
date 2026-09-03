@@ -15,6 +15,7 @@ dist/
 # A data file mid-write. Present only while a round is writing, and never
 # committed: a half-written dataset is the one thing worse than a late one.
 data/*.json.tmp
+data/*.tmp
 # Per-machine tool settings, rewritten by the editor as permissions change.
 # Committing it means every approval on this laptop travels to the repository.
 .claude/settings.local.json
@@ -35,3 +36,4 @@ scripts/probe/results/
 # reach it. See the note in scripts/watch-run.ps1 for why it does not live in
 # the user profile like everything else.
 .playwright/
+watch.log.1

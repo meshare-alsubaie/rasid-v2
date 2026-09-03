@@ -1106,8 +1106,19 @@ const snapshots = [...snapshotByUrl.values()].sort((a, b) =>
  * one file that stops every script and the app at once. The app fails loudly on
  * it, which is right, but it should not be possible to get there by accident.
  */
+/**
+ * Write to a scratch file, then move it into place in one step.
+ *
+ * The scratch name carries this process's id. It did not, so two rounds writing
+ * at the same moment shared one temporary file: the second overwrote the first
+ * mid-write, and whichever renamed last published a file the other had been
+ * halfway through producing. That is precisely the torn write the rename is
+ * there to prevent, reintroduced by the name. Two rounds at once is meant to be
+ * impossible and now is — the launcher refuses a second watcher — but a
+ * guarantee that depends on another file's correctness is not a guarantee.
+ */
 function writeAtomic(path: string, contents: string): void {
-  const temp = `${path}.tmp`;
+  const temp = `${path}.${process.pid}.tmp`;
   writeFileSync(temp, contents, "utf8");
   renameSync(temp, path);
 }
