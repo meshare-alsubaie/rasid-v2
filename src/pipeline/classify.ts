@@ -431,15 +431,14 @@ export const liveAsk: Asker = async (excerpt, insist) => {
  * ever looks at, which is the failure this whole application exists to prevent.
  * Pages already known to be about training skip this stage entirely.
  */
-export const TRIAGE_PROMPT = `أنت تفحص نصّ صفحة من موقع جهة سعودية.
-
-السؤال الوحيد: هل تحتوي هذه الصفحة على إعلان عن فرصة تدريب أو تدريب تعاوني أو
-برنامج للطلاب أو الخريجين؟
-
-أجب بكلمة واحدة فقط: نعم أو لا.
-
-إن ترددت، أو كان النصّ ناقصاً، أو احتمل الأمرين — قل نعم. كلفة "نعم" الخاطئة
-لا شيء، وكلفة "لا" الخاطئة أن يفوت الطالب فرصته.`;
+/*
+ * The one-word prompt that used to live here is gone.
+ *
+ * Nothing in the repository referenced it. The instruction actually sent is
+ * TRIAGE_SYSTEM in model.ts, and this one asked for a bare "نعم" or "لا" — the
+ * exact shape whose parsing was wrong twice. A dead constant that reads like
+ * the contract is worse than no constant, because it is what someone checks.
+ */
 
 export interface TriageResult {
   looksLikeAnnouncement: boolean;
@@ -466,10 +465,40 @@ const TRIAGE_AROUND = 600;
 
 export function triageExcerpt(text: string): string {
   const head = text.slice(0, TRIAGE_HEAD);
-  const at = text.search(/تدريب|تعاون|متدرب|تمهير|co-?op|intern|trainee|training/i);
+  const at = text.search(TRAINING_WORD);
   if (at < 0 || at < TRIAGE_HEAD) return head;
   const from = Math.max(0, at - TRIAGE_AROUND / 2);
   return `${head}\n…\n${text.slice(from, from + TRIAGE_AROUND)}`;
+}
+
+const TRAINING_WORD = /تدريب|تعاون|متدرب|تمهير|co-?op|intern|trainee|training/i;
+
+/**
+ * The head of the page, and the part of it that talks about training.
+ *
+ * The same idea as `triageExcerpt` at the size the full question can afford.
+ * Two thirds go to the head, because the title, the organisation and the shape
+ * of the page are all there and the model needs them to answer at all; the rest
+ * goes to the neighbourhood of the training word, which is where the majors,
+ * the seats and the deadline actually are on a long page.
+ *
+ * A page shorter than the budget is passed through whole, so nothing changes
+ * for the ordinary case.
+ */
+export function focusedExcerpt(text: string, budget: number): string {
+  if (text.length <= budget) return text;
+
+  // The gap marker costs three characters, and the whole excerpt has to stay
+  // inside the budget: the copied-wording guard compares against exactly this
+  // string, so its size is part of the contract rather than an approximation.
+  const SEPARATOR = "\n…\n";
+  const head = Math.floor(budget * 0.66);
+  const around = budget - head - SEPARATOR.length;
+  const at = text.search(TRAINING_WORD);
+  if (at < 0 || at < head) return text.slice(0, budget);
+
+  const from = Math.max(head, at - Math.floor(around / 3));
+  return `${text.slice(0, head)}${SEPARATOR}${text.slice(from, from + around)}`;
 }
 
 export async function triage(text: string): Promise<TriageResult> {
@@ -524,7 +553,22 @@ export async function classify(text: string, ask: Asker = liveAsk): Promise<Clas
     };
   }
 
-  const excerpt = text.slice(0, MAX_EXCERPT_CHARS);
+  /*
+   * The head, plus the neighbourhood of the announcement, rather than the head
+   * alone.
+   *
+   * A blind `slice(0, 6000)` is the right shape for a page whose content is at
+   * the top and the wrong one for a portal, a media centre, or a careers page
+   * with forty listings — which is most of what this watches. Deadlines live at
+   * the bottom of long pages, and past six thousand characters the model could
+   * not see the date at all, so the record stored `closesISO: null` and the app
+   * showed an announcement with no deadline.
+   *
+   * `triageExcerpt` already solves this for the cheap question and was never
+   * used for the expensive one. The window it builds is the same one, at the
+   * size the full question can afford.
+   */
+  const excerpt = focusedExcerpt(text, MAX_EXCERPT_CHARS);
   let last: { stage: "api" | "parse" | "schema"; reason: string } = {
     stage: "api",
     reason: "not attempted",

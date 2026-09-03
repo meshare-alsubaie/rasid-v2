@@ -208,7 +208,17 @@ export function readProfile(profileText: string): ReaderProfile | null {
    * and unknown is not "no": scoring a graduate programme zero for someone who
    * has in fact graduated would hide exactly the opportunity they can take.
    */
-  const graduated = /not\s+yet\s+graduated|لم\s*يتخرّ?ج|لم\s*يتخرج/i.test(profileText)
+  /*
+   * The first person, because that is how somebody writes about himself.
+   *
+   * This matched only "لم يتخرّج", the third person, and a profile reading
+   * "لم أتخرج بعد" therefore left `graduated` unknown. The consequence is not
+   * cosmetic: with it unknown, the branch that scores a graduate-development
+   * programme zero is skipped, and a programme he cannot apply to scores 90.
+   * The benchmark's own fixture uses the English phrasing, so no gate would
+   * ever have surfaced it.
+   */
+  const graduated = /not\s+yet\s+graduated|لم\s*(?:يتخرّ?ج|أتخرّ?ج|اتخرّ?ج|تتخرّ?ج)/i.test(profileText)
     ? false
     : /\bgraduated\b|تخرّ?ج\s*فعلي|حاصل\s*على\s*وثيقة\s*التخرج/i.test(profileText)
       ? true

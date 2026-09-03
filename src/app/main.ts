@@ -180,7 +180,10 @@ function provenanceTag(p: Provenance): string {
     inferred: "استنتاج من دورات سابقة",
     unknown: "مصدر غير معروف",
   }[p];
-  return `<span class="prov prov-${p}">${label}</span>`;
+  // The class carries a value from a data file the model writes. The type
+  // stops it at compile time and nothing stops it at run time, and this is the
+  // last field that reached the page unescaped.
+  return `<span class="prov prov-${esc(p)}">${label}</span>`;
 }
 
 /** A field with no published value is said in words, never left blank. */

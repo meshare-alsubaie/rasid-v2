@@ -198,11 +198,25 @@ export interface LocalTriage {
  * instruction to answer yes when unsure is written into the prompt as well as
  * enforced in the code, because both readers matter.
  */
+/**
+ * The one-word question, and the one case it kept getting wrong.
+ *
+ * A graduate-development programme is not what this reader wants, and it must
+ * still get past this stage. The app has a state for it — scored zero, marked
+ * `wrong_product` — which tells him the programme exists and is not for him;
+ * dropped here instead, he is told nothing and the page is never read again.
+ * The gate caught the newer model ruling one out, so the question now names
+ * graduates explicitly rather than relying on "when in doubt, say true" to
+ * cover a case the wording had excluded.
+ */
 const TRIAGE_SYSTEM = `أنت فارز صفحات. سؤالك واحد فقط:
-هل يمكن أن تحتوي هذه الصفحة على إعلان تدريب تعاوني أو تدريب جامعي أو تمهير أو برنامج تدريب لطلاب؟
+هل يمكن أن تحتوي هذه الصفحة على إعلان تدريب تعاوني أو تدريب جامعي أو تمهير أو
+برنامج تدريب لطلاب أو خرّيجين، بما في ذلك برامج تطوير الخرّيجين والتوظيف
+المنتهي بالتوظيف؟
 
 قواعد مُلزمة:
 - عند أي شكّ، أو نقص معلومة، أو غموض: أجب true.
+- برنامج للخرّيجين هو إعلان، حتى لو لم يكن تدريباً تعاونياً. أجب true.
 - لا تحكم على جودة الفرصة ولا على مناسبتها لأحد.
 - لا تحوّل تواريخ ولا تحسب شيئاً.
 - أجب بـJSON فقط: {"candidate": true} أو {"candidate": false}`;

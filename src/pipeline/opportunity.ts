@@ -124,9 +124,41 @@ function absoluteApplyUrl(candidate: string | null, sourceUrl: string): string |
    * nowhere and that the user would tap on a deadline. Only something built
    * from url characters is treated as a url at all.
    */
-  const looksLikePath = /^[A-Za-z0-9._~!$&'()*+,;=:@%/?#[\]-]+$/.test(raw);
-  if (!looksLikePath) return null;
+  /*
+   * A bare word is not a path, however url-shaped its letters are.
+   *
+   * The charset test above refuses Arabic and nothing else, so every English
+   * placeholder the model reaches for sailed through it and was resolved
+   * against the page: "N/A" became `https://host/careers/N/A`, and so did
+   * "TBD", "none", "null", "unknown", "apply" and a lone hyphen. Each is a link
+   * this app hands a reader on a deadline, and each goes nowhere. The docstring
+   * above already says a broken apply link is worse than no link; this is the
+   * rule that makes that true.
+   *
+   * A real link has structure: a scheme, or a slash, or a dot in a hostname.
+   * A single word with none of the three is the model saying it found nothing.
+   */
+  // No whitespace, so a sentence is never mistaken for an address. Letters of
+  // any script are allowed: `new URL` encodes them the way a browser does.
+  if (/\s/.test(raw)) return null;
 
+  /*
+   * The words a model writes when it found no link. "N/A" carries a slash and
+   * so passes every structural test there is, and became
+   * `https://host/careers/N/A` on a card the reader taps on a deadline.
+   */
+  if (/^(?:n\/?a|tbd|none|null|undefined|unknown|apply|link|url|-+|#)$/i.test(raw)) return null;
+
+  const hasStructure = /^https?:\/\//i.test(raw) || raw.includes("/") || /\.[a-z]{2,}/i.test(raw);
+  if (!hasStructure) return null;
+
+  /*
+   * Arabic in a path is a real address, not a rejection.
+   *
+   * The charset test also threw away `https://x.gov.sa/التدريب`, which is a
+   * perfectly good link that the page published. Encoding it is what a browser
+   * does; refusing it loses the one thing the reader wanted.
+   */
   try {
     const resolved = new URL(raw, sourceUrl);
     return resolved.protocol === "http:" || resolved.protocol === "https:" ? resolved.href : null;

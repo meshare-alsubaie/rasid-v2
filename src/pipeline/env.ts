@@ -29,7 +29,11 @@ export function loadEnvFile(path = ".env"): string[] {
   const added: string[] = [];
   let text: string;
   try {
-    text = readFileSync(path, "utf8");
+    // The BOM is stripped because Windows editors add one silently, and with it
+    // in place the first line reads as "﻿VAPID_PUBLIC_KEY" — a variable
+    // name nothing asks for, so the first secret in the file is simply absent.
+    // collect.ts already strips it when reading JSON for exactly this reason.
+    text = readFileSync(path, "utf8").replace(/^﻿/, "");
   } catch {
     return [];
   }
