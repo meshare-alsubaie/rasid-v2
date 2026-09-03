@@ -401,10 +401,46 @@ export function split(
   ).length;
   const room = Math.max(0, DAILY_PUSH_CAP - sentToday);
   const ranked = [...fresh].sort((a, b) => effectiveWeight(b, now) - effectiveWeight(a, now));
+
+  /*
+   * The same sentence never goes out twice in one batch.
+   *
+   * Keys are per-record and per-day, so two notices can carry identical text and
+   * still be two different keys: the classifier alarm is keyed by date, and a
+   * queue held over two days holds it twice. A preview of what would arrive at
+   * seven in the morning had six pushes of which two read "🟠 التصنيف متوقّف"
+   * and two more named the same organisation — four of the six slots spent
+   * saying two things.
+   *
+   * Deduplicating on what the reader actually sees, rather than on the key,
+   * is the only test that matches what he experiences.
+   */
+  const seen = new Set<string>();
+  const distinct = ranked.filter((n) => {
+    /*
+     * A status is deduplicated on its kind; an opening never is.
+     *
+     * "🟠 التصنيف متوقّف" is keyed by date and its body carries a count, so a
+     * queue held over two days holds it twice with different text — the same
+     * fact, twice, wearing different numbers. Two of six morning slots went to
+     * it. It is a state of the tool, so only the newest is worth sending.
+     *
+     * Openings are matched on their exact text and nothing looser. Two records
+     * at one organisation may be one programme or two, and collapsing them on
+     * the organisation's name would hide the second. The asymmetry that governs
+     * this whole project applies here too: one opening shown twice costs a
+     * swipe, one hidden costs a semester.
+     */
+    const face = STATUS_KINDS.has(n.kind) ? n.kind : `${n.kind}|${n.title}|${n.body}`;
+    if (seen.has(face)) return false;
+    seen.add(face);
+    return true;
+  });
+
   return {
-    push: ranked.slice(0, room),
+    push: distinct.slice(0, room),
     // Everything past the cap is summarised, once. It stays in the push queue.
-    digestOnly: ranked.slice(room).filter(stillNeedsDigest),
+    digestOnly: distinct.slice(room).filter(stillNeedsDigest),
   };
 }
 
@@ -420,6 +456,14 @@ const OPPORTUNITY_KINDS: ReadonlySet<NoticeKind> = new Set<NoticeKind>([
   "closing_soon",
   "few_seats",
 ]);
+
+/**
+ * Kinds that report a state of the tool rather than an event in the world.
+ *
+ * Only the newest of these is worth sending: the reader does not need to be
+ * told twice that the classifier is behind, once with yesterday's count.
+ */
+const STATUS_KINDS: ReadonlySet<NoticeKind> = new Set<NoticeKind>(["classifier_down"]);
 
 /**
  * Weight, plus what waiting has earned.

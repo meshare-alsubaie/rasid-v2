@@ -65,9 +65,10 @@ const opp = (over: Partial<Opportunity>): Opportunity => ({
 const health = (
   state: SourceHealth["state"],
   sourceUrl = "https://example.gov.sa/a",
+  orgId = "sdaia",
 ): SourceHealth => ({
   sourceUrl,
-  orgId: "sdaia",
+  orgId,
   lastAttemptISO: new Date().toISOString(),
   lastSuccessISO: null,
   consecutiveFailures: state === "broken" ? 6 : 0,
@@ -76,7 +77,7 @@ const health = (
 });
 
 const run = (before: Opportunity[], after: Opportunity[], hb: SourceHealth[] = [], ha: SourceHealth[] = []): Notice[] =>
-  decide({ before, after, healthBefore: hb, healthAfter: ha, nameOf: () => "سدايا", threshold: 60 });
+  decide({ before, after, healthBefore: hb, healthAfter: ha, nameOf: (id) => (id === "sdaia" ? "سدايا" : `جهة ${id}`), threshold: 60 });
 
 console.log("what earns a notification");
 check("a new relevant announcement does", run([], [opp({})]).some((n) => n.kind === "new_relevant"));
@@ -217,11 +218,20 @@ check(
 );
 
 console.log("\nthe daily cap and quiet hours");
+/*
+ * Nine *different* announcements, not nine copies of one.
+ *
+ * These carried identical title and body, which is not a shape the pipeline
+ * produces: two notices reading exactly the same thing are the same thing said
+ * twice, and  now drops the repeat rather than spending a slot on it. A
+ * fixture of clones was testing the cap against a case that cannot occur, and
+ * would have passed just as happily if the cap were removed.
+ */
 const many: Notice[] = Array.from({ length: 9 }, (_, i) => ({
   key: `k${i}`,
   kind: "new_relevant",
-  title: "t",
-  body: "b",
+  title: `إعلان جديد · جهة ${i}`,
+  body: `برنامج التدريب التعاوني ${i}`,
   weight: i,
 }));
 const now = new Date("2026-09-01T12:00:00.000Z");
@@ -373,13 +383,26 @@ check(
  */
 console.log("\na bad morning for the tool never buries an opening");
 {
+  /*
+   * Twelve organisations, not twelve pages of one. Twelve identical pushes are
+   * one message repeated, and  now spends one slot on them; what this
+   * asserts is how the *remaining* slots are filled once the openings have
+   * taken theirs, which needs twelve distinguishable alarms.
+   */
   const broken = Array.from({ length: 12 }, (_, i) =>
-    health("broken", `https://example.gov.sa/dead-${i}`),
+    health("broken", `https://example.gov.sa/dead-${i}`, `org${i}`),
   );
   const wasBroken = broken.map((h) => ({ ...h, state: "degraded" as const }));
+  /*
+   * Two different openings, at two organisations. They used to be two records
+   * of one organisation with identical title and body, which a reader receives
+   * as the same push twice and cannot tell apart;  now spends one slot on
+   * it rather than two. What this block is about is whether an opening outranks
+   * a morning of tool alarms, and that needs two openings to be about.
+   */
   const twoMatches = [
-    opp({ id: "gold-a", relevanceScore: 95, sourceUrl: "https://example.gov.sa/a" }),
-    opp({ id: "gold-b", relevanceScore: 95, sourceUrl: "https://example.gov.sa/b" }),
+    opp({ id: "gold-a", orgId: "sdaia", titleAr: "برنامج التدريب التعاوني بسدايا", relevanceScore: 95, sourceUrl: "https://example.gov.sa/a" }),
+    opp({ id: "gold-b", orgId: "nca", titleAr: "برنامج التدريب التعاوني بالهيئة", relevanceScore: 95, sourceUrl: "https://example.gov.sa/b" }),
   ];
   const unjudged = Array.from({ length: 9 }, (_, i) =>
     opp({ id: `u${i}`, relevanceScore: null, flags: ["needs_manual_review"] }),
