@@ -364,7 +364,7 @@
     "titleAr": "لم يُصنَّف بعد",
     "detectedISO": "2026-09-03T01:22:25.873Z",
     "firstSeenISO": "2026-09-03T01:22:25.873Z",
-    "lastConfirmedISO": "2026-09-03T10:53:29.042Z",
+    "lastConfirmedISO": "2026-09-03T12:02:20.812Z",
     "status": "unknown",
     "opensISO": null,
     "closesISO": null,
@@ -3320,37 +3320,6 @@
     "rawExcerpt": "التدريب التعاوني | الهيئة السعودية للمواصفات والمقاييس والجودة\n\nموقع حكومي رسمي تابع لحكومة المملكة العربية السعودية كيف تتحقق روابط المواقع الالكترونية الرسمية السعودية تنتهي بـ gov.sa جميع روابط المواقع الرسمية التابعة للجهات الحكومية في المملكة العربية السعودية تنتهي بـ .gov.sa المواقع الالكترونية الحكومية تستخدم بروتوكول HTTPS للتشفير و الأمان.\n\nمسجل لدى هيئة الحكومة الرقمية برقم : 20250414141"
   },
   {
-    "id": "b4cfc7b92fd1d53f",
-    "orgId": "takamol",
-    "titleAr": "برنامج تكاملي طموح",
-    "detectedISO": "2026-08-29T19:43:17.547Z",
-    "firstSeenISO": "2026-08-29T19:43:17.547Z",
-    "lastConfirmedISO": "2026-08-31T23:54:26.779Z",
-    "status": "unknown",
-    "opensISO": null,
-    "closesISO": null,
-    "closesHijri": null,
-    "product": "graduate_dev",
-    "majors": [],
-    "seats": null,
-    "stipendSAR": null,
-    "durationWeeks": null,
-    "cities": [],
-    "relevanceScore": null,
-    "relevanceReason": "لم يُحكم على هذه الصفحة بعد. الحكم السابق أنتجه نموذج ثبت أنه لا يكتب عربية سليمة، فأُلغي، والصفحة في الطابور لتُقرأ من جديد.",
-    "statesZeroCoursesRule": false,
-    "zeroCoursesQuote": null,
-    "flags": [
-      "wrong_product",
-      "no_course_condition",
-      "first_time_seen",
-      "needs_manual_review"
-    ],
-    "sourceUrl": "https://takamolholding.com/ar/join-us",
-    "applyUrl": null,
-    "rawExcerpt": "انضم الآن ​هنا تفتح الآفاق لتكونوا جزءًا من مسيرة التمكينالفرص التدريبية انضم إلى برنامج \"تكاملي طموح\"، المصمم لتطوير وتدريب الكفاءات الواعدة من حديثي التخرج وتأهيلهم لسوق العمل.مغلقالفرص الوظيفية​انطلق في رحلتك المهنية معنا لاستكشاف إمكانياتك وتطوير مهاراتك، وكن جزءًا من رؤية تكامل القابضة.استكشف الوظائف"
-  },
-  {
     "id": "b4e88c29536c48c8",
     "orgId": "sabic",
     "titleAr": "برنامج التدريب التعاوني",
@@ -3404,7 +3373,8 @@
     "statesZeroCoursesRule": false,
     "zeroCoursesQuote": null,
     "flags": [
-      "needs_manual_review"
+      "needs_manual_review",
+      "vanished_from_source"
     ],
     "sourceUrl": "https://tvtc.gov.sa/",
     "applyUrl": null,
@@ -3791,6 +3761,38 @@
     "sourceUrl": "https://nca.gov.sa/ar/education-program/",
     "applyUrl": null,
     "rawExcerpt": "البرامج التعليمية | NCA\n\nموقع حكومي مسجل لدى هيئة الحكومة الرقميةكيف تتحققEnglishروابط المواقع الالكترونية الرسمية السعودية تنتهي بـ .gov.saجميع روابط المواقع الرسمية التابعة للجهات الحكومية في المملكة العربية السعودية تنتهي بـ .gov.saالمواقع الالكترونية الحكومية تستخدم بروتوكول HTTPS للتشفير والأمان المواقع الالكترونية الآمنة في المملكة العربية السعودية تستخدم بروتوكول HTTPS للتشفير.مسجل لدى هيئة"
+  },
+  {
+    "id": "d081e6e40488de48",
+    "orgId": "takamol",
+    "titleAr": "انضم الآن هنا تفتح الآفاق لتكونوا جزءًا من مسيرة التمكين",
+    "detectedISO": "2026-08-29T19:43:17.547Z",
+    "firstSeenISO": "2026-08-29T19:43:17.547Z",
+    "lastConfirmedISO": "2026-09-03T12:02:20.812Z",
+    "status": "unknown",
+    "opensISO": null,
+    "closesISO": null,
+    "closesHijri": null,
+    "product": "coop",
+    "majors": [
+      "الكفاءات الواعدة من حديثي التخرج"
+    ],
+    "seats": null,
+    "stipendSAR": null,
+    "durationWeeks": null,
+    "cities": [],
+    "relevanceScore": 10,
+    "relevanceReason": "ذكر الإعلان تخصّصات ليس فيها ما يقارب تخصّصك.",
+    "statesZeroCoursesRule": false,
+    "zeroCoursesQuote": null,
+    "flags": [
+      "no_course_condition",
+      "first_time_seen",
+      "more_on_page"
+    ],
+    "sourceUrl": "https://takamolholding.com/ar/join-us",
+    "applyUrl": null,
+    "rawExcerpt": "انضم الآن ​هنا تفتح الآفاق لتكونوا جزءًا من مسيرة التمكينالفرص التدريبية انضم إلى برنامج \"تكاملي طموح\"، المصمم لتطوير وتدريب الكفاءات الواعدة من حديثي التخرج وتأهيلهم لسوق العمل.مغلقالفرص الوظيفية​انطلق في رحلتك المهنية معنا لاستكشاف إمكانياتك وتطوير مهاراتك، وكن جزءًا من رؤية تكامل القابضة.استكشف الوظائف"
   },
   {
     "id": "d101519d36b1b15d",

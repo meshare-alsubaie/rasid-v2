@@ -2850,9 +2850,13 @@
   {
     "sourceUrl": "https://mcit.gov.sa/ar",
     "orgId": "mcit",
-    "contentHash": "6ba0bc3f79e57676420613038591242abec7e19d603d8489a805ece00eb804ca",
+    "contentHash": "b41e168cddf14a4f7f9c668544f7c60a02d77eff10630e2a2e1a5b0572326cdd",
     "blockHashes": [
-      "be8a0aaa84b9a767",
+      "fd1a23e663bf414d",
+      "dad53352645091e6",
+      "ca11e7e3a0ac5e8a",
+      "3abb2c0ae88e5ec8",
+      "fa5cde203381be74",
       "d34417322edb716b",
       "b5e35fb7f04db89a",
       "4a13f8c57c776691",
@@ -2872,28 +2876,14 @@
       "d13d7941a885009d",
       "901f82152404da9e",
       "c50d3a4fbcfc43be",
-      "3aac69a1117e15e0",
-      "353837f0e4d716ed",
-      "065d171cf159b82d",
-      "bce0d7b6af0de567",
-      "f29547b61fa926f0",
-      "010a9e6a36be211d",
-      "0757b3d10f1d59d7",
-      "20e4b04789e43a3d",
-      "59a24cb7bf6f5905",
-      "fad3e560456580fc",
-      "b215a2d835db1f96",
-      "fceccb4c6c772dbe",
-      "6f953ed7a5eee90e",
-      "c0d61bd23265003a",
       "e07746e156cb02f6",
       "4f89e08ec0cce2d9",
       "782261474561a27a"
     ],
-    "extractedChars": 9380,
+    "extractedChars": 7671,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-03T10:40:27.409Z",
+    "lastChangedISO": "2026-09-03T12:02:20.812Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -3784,14 +3774,16 @@
   {
     "sourceUrl": "https://redf.gov.sa/",
     "orgId": "redf",
-    "contentHash": "64dc7f0fda4d8359bac1c191e54845c2813249f4f0826fc237d141865d926471",
+    "contentHash": "01a3f2f3f3a270243de66407ab155ceb7d8338bb73b0078b3489b9e8f73d33a9",
     "blockHashes": [
-      "64dc7f0fda4d8359"
+      "2a152e58454424aa",
+      "743b9c5832ecc399",
+      "5dfa144263097bf6"
     ],
-    "extractedChars": 1785,
+    "extractedChars": 576,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-03T10:40:27.409Z",
+    "lastChangedISO": "2026-09-03T12:02:20.812Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -4199,7 +4191,7 @@
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-08-31T00:02:49.563Z",
-    "thinRuns": 9,
+    "thinRuns": 10,
     "pendingClassification": false
   },
   {
@@ -4215,7 +4207,7 @@
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
     "lastChangedISO": "2026-08-31T00:02:49.563Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://talent.mc.gov.sa/",
@@ -4369,7 +4361,7 @@
     "firstSeenISO": "2026-09-01T03:23:53.266Z",
     "lastChangedISO": "2026-09-01T03:23:53.266Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://wadimakkah.sa/",
@@ -5301,27 +5293,17 @@
   {
     "sourceUrl": "https://www.awqaf.gov.sa/ar",
     "orgId": "awqaf",
-    "contentHash": "048953ec4fb7f5b54c63107732156af7698fcd2cbe62d51298fdfb34db7a4044",
+    "contentHash": "26ab5ea9b2fee39c56b1823491db5a5a8c24c5463a23d6c6894e91eab2e48485",
     "blockHashes": [
       "7364f70c455dc78c",
       "c804732dd480d71a",
       "74e4c1d2a646a96e",
-      "3c59d3d160dcb90c",
-      "35c22307044ef3ba",
-      "2c996ff7fbf9454c",
-      "c9781a45ee4d6e15",
-      "32c96accb939ff53",
-      "c7607eb29cf802b3",
-      "ba801d317883b742",
-      "bffb7f53bef89107",
-      "cfc8030f4144577c",
-      "82135fcbb4f61098",
-      "62bff3863a690d7e"
+      "5b1d5957179ff31d"
     ],
-    "extractedChars": 3458,
+    "extractedChars": 410,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
-    "lastChangedISO": "2026-08-31T00:02:49.563Z",
+    "lastChangedISO": "2026-09-03T12:02:20.812Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -7612,9 +7594,9 @@
   {
     "sourceUrl": "https://www.mim.gov.sa/ar/media-center/news",
     "orgId": "mim",
-    "contentHash": "5b33900460a986edce5ae39b8d7273432c928ca63d384956b68819a836154a37",
+    "contentHash": "52a14b529f8ba26cde47def57fd1032980f72043a4c42884fa5d0249e05f693c",
     "blockHashes": [
-      "6c650c0875e3cb05",
+      "438ce2b86a62e7e8",
       "e6f6bf20c0c7405d",
       "1463ce99001bf0a0",
       "47a950af7f4b0342",
@@ -7646,9 +7628,9 @@
     "extractedChars": 10700,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-03T04:10:56.997Z",
+    "lastChangedISO": "2026-09-03T12:02:20.812Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.moc.gov.sa/ar",
@@ -10104,14 +10086,14 @@
   {
     "sourceUrl": "https://www.seec.gov.sa/",
     "orgId": "seec",
-    "contentHash": null,
+    "contentHash": "0c928d3b5ba3f708bc1b55a4a19911e299c1f649ac2f5c8df03c67df41e602d0",
     "blockHashes": [
       "0c928d3b5ba3f708"
     ],
     "extractedChars": 687,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-01T02:04:59.635Z",
+    "lastChangedISO": "2026-09-03T12:02:20.812Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -10827,27 +10809,16 @@
   {
     "sourceUrl": "https://www.taifcity.gov.sa/#/ar",
     "orgId": "taif_amanah",
-    "contentHash": "73d5fff44a4cb31abe194719c1cf951fc5e856004e7c5b62d5865a0545d9cc20",
+    "contentHash": "f54704e46f16923c7eff43d8462b2ce492cbe65d410a62e25d0ca9b84cc90f9b",
     "blockHashes": [
       "969f0f9d8129003d",
-      "e520dc9814a3edad",
-      "f0f4a4262f40d108",
-      "f0f4a4262f40d108",
-      "f0f4a4262f40d108",
-      "f0f4a4262f40d108",
-      "c07d7b7e0bf6b125",
-      "93b1616da399b4f0",
-      "c621578e43d94062",
-      "81e7845546ea1b57",
-      "93b1616da399b4f0",
-      "c621578e43d94062",
-      "d4fe87b8970780a6",
+      "daa70dc34f9fec80",
       "8554e1d0ca772440"
     ],
-    "extractedChars": 5814,
+    "extractedChars": 439,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T23:54:26.779Z",
-    "lastChangedISO": "2026-09-03T10:40:27.409Z",
+    "lastChangedISO": "2026-09-03T12:02:20.812Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
