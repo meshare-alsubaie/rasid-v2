@@ -965,9 +965,9 @@
   {
     "sourceUrl": "https://gaca.gov.sa/news",
     "orgId": "gaca",
-    "lastAttemptISO": "2026-09-03T00:50:16.841Z",
+    "lastAttemptISO": "2026-09-03T03:26:44.750Z",
     "lastSuccessISO": "2026-09-02T23:42:46.216Z",
-    "consecutiveFailures": 1,
+    "consecutiveFailures": 2,
     "lastError": "headless chromium unavailable (browserType.launch: Executable doesn't exist at [مسار محلي]/chrome-headless-shell.exe\n╔════════════════════════════════════════════════════════════╗\n║ Looks like Playwright was just installed or updated.       ║\n║ Please run the following command to download new browsers: ║\n║                                                            ║\n║     npx playwright install                                 ║\n║                                                            ║\n║ <3 Playwright Team                                         ║\n╚════════════════════════════════════════════════════════════╝); run \"npx playwright install chromium\"",
     "state": "degraded"
   },
@@ -1118,8 +1118,8 @@
   {
     "sourceUrl": "https://master-works.sa/ar/Careers",
     "orgId": "masterworks",
-    "lastAttemptISO": "2026-09-03T00:48:41.819Z",
-    "lastSuccessISO": "2026-09-03T00:48:41.819Z",
+    "lastAttemptISO": "2026-09-03T03:26:44.750Z",
+    "lastSuccessISO": "2026-09-03T03:26:44.750Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -1442,8 +1442,8 @@
   {
     "sourceUrl": "https://ndf.gov.sa/",
     "orgId": "ndf",
-    "lastAttemptISO": "2026-09-03T00:48:41.819Z",
-    "lastSuccessISO": "2026-09-03T00:48:41.819Z",
+    "lastAttemptISO": "2026-09-03T03:26:44.750Z",
+    "lastSuccessISO": "2026-09-03T03:26:44.750Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -1982,8 +1982,8 @@
   {
     "sourceUrl": "https://www.alinma.com/",
     "orgId": "alinma",
-    "lastAttemptISO": "2026-09-03T00:50:16.841Z",
-    "lastSuccessISO": "2026-09-03T00:50:16.841Z",
+    "lastAttemptISO": "2026-09-03T03:26:44.750Z",
+    "lastSuccessISO": "2026-09-03T03:26:44.750Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -2117,8 +2117,8 @@
   {
     "sourceUrl": "https://www.bsfcareers.sa/ar/",
     "orgId": "bsf",
-    "lastAttemptISO": "2026-09-03T00:50:16.841Z",
-    "lastSuccessISO": "2026-09-03T00:50:16.841Z",
+    "lastAttemptISO": "2026-09-03T03:26:44.750Z",
+    "lastSuccessISO": "2026-09-03T03:26:44.750Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -2423,8 +2423,8 @@
   {
     "sourceUrl": "https://www.hrdf.org.sa/products-and-services/programs/individuals/training/cooperative-training/",
     "orgId": "hrdf_coop",
-    "lastAttemptISO": "2026-09-03T01:25:25.661Z",
-    "lastSuccessISO": "2026-09-03T01:25:25.661Z",
+    "lastAttemptISO": "2026-09-03T03:26:44.750Z",
+    "lastSuccessISO": "2026-09-03T03:26:44.750Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -2477,8 +2477,8 @@
   {
     "sourceUrl": "https://www.hrsd.gov.sa/ministry/about-ministry/jobs",
     "orgId": "hrsd",
-    "lastAttemptISO": "2026-09-03T00:48:41.819Z",
-    "lastSuccessISO": "2026-09-03T00:48:41.819Z",
+    "lastAttemptISO": "2026-09-03T03:26:44.750Z",
+    "lastSuccessISO": "2026-09-03T03:26:44.750Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -3557,8 +3557,8 @@
   {
     "sourceUrl": "https://www.sfd.gov.sa/",
     "orgId": "sfd",
-    "lastAttemptISO": "2026-09-03T00:50:16.841Z",
-    "lastSuccessISO": "2026-09-03T00:50:16.841Z",
+    "lastAttemptISO": "2026-09-03T03:26:44.750Z",
+    "lastSuccessISO": "2026-09-03T03:26:44.750Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -3593,8 +3593,8 @@
   {
     "sourceUrl": "https://www.sfda.gov.sa/ar",
     "orgId": "sfda",
-    "lastAttemptISO": "2026-09-03T02:31:46.436Z",
-    "lastSuccessISO": "2026-09-03T02:31:46.436Z",
+    "lastAttemptISO": "2026-09-03T03:26:44.750Z",
+    "lastSuccessISO": "2026-09-03T03:26:44.750Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -3782,9 +3782,9 @@
   {
     "sourceUrl": "https://www.tahakom.com/",
     "orgId": "tahakom",
-    "lastAttemptISO": "2026-09-03T01:15:53.627Z",
+    "lastAttemptISO": "2026-09-03T03:26:44.750Z",
     "lastSuccessISO": null,
-    "consecutiveFailures": 1,
+    "consecutiveFailures": 2,
     "lastError": "headless chromium unavailable (browserType.launch: Executable doesn't exist at [مسار محلي]/chrome-headless-shell.exe\n╔════════════════════════════════════════════════════════════╗\n║ Looks like Playwright was just installed or updated.       ║\n║ Please run the following command to download new browsers: ║\n║                                                            ║\n║     npx playwright install                                 ║\n║                                                            ║\n║ <3 Playwright Team                                         ║\n╚════════════════════════════════════════════════════════════╝); run \"npx playwright install chromium\"",
     "state": "degraded"
   },
