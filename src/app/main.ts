@@ -13,6 +13,7 @@ import { VAPID_PUBLIC_KEY } from "./vapid";
 import { loadDataset, formatDate, timeAgo, daysUntil, type Dataset } from "./data";
 import { renderSeasonBar, type LaneInput } from "./season-bar";
 import { humanError, sectorLabel } from "./messages";
+import { announcementKey } from "../types";
 import { hijriOf, unattested } from "../types";
 import type { Attested, Opportunity, Organisation, Provenance } from "../types";
 
@@ -237,7 +238,7 @@ function orgChips(org: Organisation): string {
   </ul>`;
 }
 
-function opportunityCard(o: Opportunity): string {
+function opportunityCard(o: Opportunity, also: Opportunity[] = []): string {
   const org = data.orgById.get(o.orgId);
   const days = daysUntil(o.closesISO);
   const review = o.flags.includes("needs_manual_review");
@@ -280,6 +281,19 @@ function opportunityCard(o: Opportunity): string {
     ${
       o.flags.includes("more_on_page")
         ? `<p class="reason warn">هذه الصفحة تحمل إعلانات أخرى غير هذا، ولا يُسجَّل منها إلا واحد. افتحها بنفسك لترى البقية.</p>`
+        : ""
+    }
+    ${/* The same announcement on the organisation's other pages. Listed rather
+          than hidden: the reading above is the one that said the most, and a
+          reader who wants the page that worded it differently can have it. */ ""}
+    ${
+      also.length > 0
+        ? `<p class="reason">هذا الإعلان منشور على ${also.length + 1} صفحات عند الجهة نفسها، وهذه أوفاها. البقية: ${also
+            .map(
+              (x, i) =>
+                `<a href="${esc(x.sourceUrl)}" target="_blank" rel="noopener">صفحة ${i + 2}</a>`,
+            )
+            .join("، ")}</p>`
         : ""
     }
     ${
@@ -458,13 +472,38 @@ function answerBlock(): string {
   </section>`;
 }
 
+/**
+ * One announcement, one card, however many pages carry it.
+ *
+ * An organisation that publishes a programme on an Arabic page, an English page
+ * and a job posting produced three records, three cards, and three different
+ * relevance scores for one opening — so the number a reader saw depended on
+ * which card he looked at first. Al Rajhi had five.
+ *
+ * The records themselves are untouched; they are grouped here for display, and
+ * the card shows the reading that said the most about the programme, with the
+ * other pages listed on it so nothing is hidden.
+ */
+function collapse(items: Opportunity[]): { lead: Opportunity; also: Opportunity[] }[] {
+  const byAnnouncement = new Map<string, Opportunity[]>();
+  for (const o of items) {
+    const key = announcementKey(o);
+    byAnnouncement.set(key, [...(byAnnouncement.get(key) ?? []), o]);
+  }
+  return [...byAnnouncement.values()].map((group) => {
+    const sorted = [...group].sort((a, b) => (b.relevanceScore ?? -1) - (a.relevanceScore ?? -1));
+    return { lead: sorted[0]!, also: sorted.slice(1) };
+  });
+}
+
 function group(title: string, items: Opportunity[], emptyText: string, open: boolean): string {
+  const collapsed = collapse(items);
   return `<details class="group"${open ? " open" : ""}>
-    <summary>${title}<span class="count">${items.length}</span></summary>
+    <summary>${title}<span class="count">${collapsed.length}</span></summary>
     ${
-      items.length === 0
+      collapsed.length === 0
         ? `<p class="empty">${emptyText}</p>`
-        : `<ul class="cards">${items.map(opportunityCard).join("")}</ul>`
+        : `<ul class="cards">${collapsed.map(({ lead, also }) => opportunityCard(lead, also)).join("")}</ul>`
     }
   </details>`;
 }

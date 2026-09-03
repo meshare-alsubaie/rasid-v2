@@ -21,6 +21,7 @@ import {
   UNJUDGED_TITLE,
 } from "../src/pipeline/opportunity";
 import type { Classification } from "../src/pipeline/classify";
+import { announcementKey } from "../src/types";
 import type { Opportunity } from "../src/types";
 
 let failures = 0;
@@ -103,6 +104,56 @@ check(
   legacyId(a) === legacyId(b) && legacyId(titleShifted[0]!) !== legacyId(titleShifted[1]!),
   "collides across pages and moves when the title moves",
 );
+
+/* ---------- ق‑٣٨ · one announcement is one card, on evidence ---------- */
+
+console.log("\ntelling one announcement from two");
+{
+  const base = {
+    orgId: "acme",
+    titleAr: "برنامج التدريب التعاوني",
+    closesISO: "2026-09-30",
+    sourceUrl: "https://acme.sa/ar",
+  };
+  const sameProgrammeOtherPage = { ...base, sourceUrl: "https://acme.sa/en" };
+
+  check(
+    "the same title and the same closing date is one announcement",
+    announcementKey(base) === announcementKey(sameProgrammeOtherPage),
+  );
+  check(
+    "a different closing date is a different announcement",
+    announcementKey(base) !== announcementKey({ ...sameProgrammeOtherPage, closesISO: "2026-11-30" }),
+  );
+  check(
+    "and a different organisation always is",
+    announcementKey(base) !== announcementKey({ ...base, orgId: "other" }),
+  );
+  check(
+    "spelling differences in the title do not split it",
+    announcementKey(base) ===
+      announcementKey({ ...sameProgrammeOtherPage, titleAr: "برنامج التدريب التعاونى " }),
+  );
+
+  /*
+   * The conservative half, and the one worth protecting. More than half the
+   * records carry no closing date, and "برنامج التدريب التعاوني" is what most
+   * of these pages call themselves — so grouping on the title alone would hide
+   * a second genuine opening behind the first. Showing one opening twice costs
+   * a swipe; hiding one costs a semester.
+   */
+  const noDate = { ...base, closesISO: null };
+  const noDateOtherPage = { ...sameProgrammeOtherPage, closesISO: null };
+  check(
+    "without a published date, nothing is collapsed",
+    announcementKey(noDate) !== announcementKey(noDateOtherPage),
+    "there is no evidence they are the same programme, and guessing loses openings",
+  );
+  check(
+    "and such a record is still stable across re-readings of its own page",
+    announcementKey(noDate) === announcementKey({ ...noDate, titleAr: "عنوان مختلف تماماً" }),
+  );
+}
 
 /* ---------- ق‑٣ · a failed re-read never deletes a real reading ---------- */
 

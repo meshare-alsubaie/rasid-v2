@@ -614,3 +614,55 @@ export const attested = <T>(value: T, from: ZeroCoursesRule | Stipend): Attested
   quote: "quote" in from ? from.quote : undefined,
   sourceUrl: "sourceUrl" in from ? from.sourceUrl : undefined,
 });
+
+/**
+ * Which *announcement* a record is about, as distinct from which page it is on.
+ *
+ * These are not the same thing and the project only ever modelled one of them.
+ * Al Rajhi publishes one co-op programme on five pages — an Arabic page, an
+ * English page, a job posting, the careers root and the bank's home page — so
+ * the dataset holds five records for one programme, scored 10, 95, 10, 10 and
+ * not-at-all. The list shows five cards, the number a reader sees depends on
+ * which card he happens to look at, and the notifier wakes him five times for
+ * one opening. Thirteen organisations of the thirty-one that carry any scored
+ * record are in that state.
+ *
+ * The key is the organisation, the announcement's own words, and its closing
+ * date. All three come off the page, so two records that describe the same
+ * announcement agree on them however different their urls are.
+ *
+ * Nothing is merged. Every record stays exactly as it is in the file — this is
+ * only how the interface groups them and how the notifier counts them, which is
+ * the difference between showing a reader one thing once and showing him the
+ * same thing five times.
+ */
+export function announcementKey(
+  o: Pick<Opportunity, "orgId" | "titleAr" | "closesISO" | "sourceUrl">,
+): string {
+  /*
+   * A published closing date is the evidence, and without it nothing is
+   * collapsed.
+   *
+   * Grouping on the organisation and the title alone looked right and is not:
+   * "برنامج التدريب التعاوني" is what most of these pages call themselves, and
+   * more than half the records carry no date at all. Two such records may be one
+   * programme on two pages, or two different programmes described in the same
+   * generic words, and nothing in the data distinguishes them.
+   *
+   * The asymmetry decides it. Showing one opening twice costs a swipe. Hiding a
+   * second opening behind the first costs a semester, and the whole project is
+   * judged on whether an announcement reaches him at all. So a shared date is
+   * required as proof, and in its absence the record stands alone.
+   */
+  if (o.closesISO === null) return `${o.orgId}|${o.sourceUrl}`;
+
+  const title = o.titleAr
+    .replace(/[ً-ْـ]/g, "")
+    .replace(/[أإآٱ]/g, "ا")
+    .replace(/ى/g, "ي")
+    .replace(/ة/g, "ه")
+    .replace(/[^\p{L}\p{N}]+/gu, " ")
+    .trim()
+    .toLowerCase();
+  return [o.orgId, title, o.closesISO].join("|");
+}

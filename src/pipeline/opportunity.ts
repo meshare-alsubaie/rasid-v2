@@ -12,8 +12,11 @@ import type { Classification } from "./classify";
 import { studentProfile } from "./classify";
 import { readProfile, relevanceOf } from "./relevance";
 import { parseArabicDateRange } from "../hijri";
-import { endOfDeadline, hijriOf, startOfDay } from "../types";
+import { announcementKey, endOfDeadline, hijriOf, startOfDay } from "../types";
+
 import type { Opportunity, OpportunityFlag, OpportunityStatus } from "../types";
+
+export { announcementKey };
 
 const HOURS_48 = 48 * 60 * 60 * 1000;
 
@@ -311,15 +314,6 @@ export function humanReason(reason: string): string {
 export const UNJUDGED_TITLE = "لم يُصنَّف بعد";
 
 /**
- * The record for this page that must survive a failed re-read, if there is one.
- *
- * Lives here rather than inline in the collector so a gate can drive it
- * directly. The rule it encodes: a reading of the page outranks the absence of
- * one, however many rounds in a row the classifier has been unable to confirm
- * it. Only when nothing but a placeholder exists may the placeholder be
- * replaced.
- */
-/**
  * A page that stopped carrying its announcement, marked rather than forgotten.
  *
  * When the classifier reads a page and concludes it holds no announcement, the
@@ -350,6 +344,15 @@ export function markVanished(
   return { flagged };
 }
 
+/**
+ * The record for this page that must survive a failed re-read, if there is one.
+ *
+ * Lives here rather than inline in the collector so a gate can drive it
+ * directly. The rule it encodes: a reading of the page outranks the absence of
+ * one, however many rounds in a row the classifier has been unable to confirm
+ * it. Only when nothing but a placeholder exists may the placeholder be
+ * replaced.
+ */
 export function survivingRecord<T extends { sourceUrl: string; titleAr: string }>(
   records: Iterable<T>,
   sourceUrl: string,

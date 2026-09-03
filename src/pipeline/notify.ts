@@ -10,6 +10,7 @@
  * the same failure as a stale green light wearing a different coat.
  */
 import { endOfDeadline, hijriOf } from "../types";
+import { announcementKey } from "./opportunity";
 import type { Opportunity, SourceHealth } from "../types";
 
 export type NoticeKind =
@@ -208,7 +209,7 @@ export function decide(input: DecideInput): Notice[] {
     const daysKnown = (Date.now() - Date.parse(o.firstSeenISO)) / 86_400_000;
     if (score >= Math.max(60, threshold) && daysKnown <= ANNOUNCE_WINDOW_DAYS) {
       out.push({
-        key: `new:${o.id}`,
+        key: `new:${announcementKey(o)}`,
         kind: "new_relevant",
         title: `🟢 إعلان جديد · ${org}`,
         body: details(o),
@@ -218,7 +219,7 @@ export function decide(input: DecideInput): Notice[] {
 
     if (was !== undefined && was.status !== "open" && o.status === "open") {
       out.push({
-        key: `opened:${o.id}`,
+        key: `opened:${announcementKey(o)}`,
         kind: "opened",
         title: `🟢 فتح التقديم · ${org}`,
         body: details(o),
@@ -228,7 +229,7 @@ export function decide(input: DecideInput): Notice[] {
 
     if (o.closesISO !== null && hoursUntil(o.closesISO) <= 48 && hoursUntil(o.closesISO) > 0) {
       out.push({
-        key: `closing:${o.id}:${dayOf(o.closesISO)}`,
+        key: `closing:${announcementKey(o)}:${dayOf(o.closesISO)}`,
         kind: "closing_soon",
         title: `⏳ يغلق قريباً · ${org}`,
         body: `${o.titleAr} · تبقّى ${Math.ceil(hoursUntil(o.closesISO))} ساعة${o.cities.length > 0 ? ` · ${o.cities.join("، ")}` : ""}${o.seats !== null ? ` · ${o.seats} مقعداً` : ""}`,
@@ -238,7 +239,7 @@ export function decide(input: DecideInput): Notice[] {
 
     if (o.seats !== null && o.seats <= 5 && score >= 70 && was?.seats !== o.seats) {
       out.push({
-        key: `seats:${o.id}:${o.seats}`,
+        key: `seats:${announcementKey(o)}:${o.seats}`,
         kind: "few_seats",
         title: `⚠ مقاعد قليلة · ${org}`,
         body: `${o.titleAr} · ${o.seats} مقاعد`,
@@ -283,7 +284,25 @@ export function decide(input: DecideInput): Notice[] {
     });
   }
 
-  return out;
+  /*
+   * One announcement, one notice, even within a single round.
+   *
+   * Keying on the announcement rather than the record stops the *same* opening
+   * being pushed again tomorrow, because the sent log recognises the key. It
+   * does not stop two records for one opening producing two notices in the same
+   * pass, and that is the shape the data is actually in: one Al Rajhi programme
+   * on five pages, scored between 10 and 95. Five notices, one opening, and the
+   * phone taught to ignore them.
+   *
+   * The strongest survives, because the highest score is the one produced from
+   * the page that said the most about the programme.
+   */
+  const best = new Map<string, Notice>();
+  for (const n of out) {
+    const seen = best.get(n.key);
+    if (seen === undefined || n.weight > seen.weight) best.set(n.key, n);
+  }
+  return [...best.values()];
 }
 
 /**

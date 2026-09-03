@@ -18,6 +18,7 @@ import {
   LOG_RETENTION_DAYS,
   type Notice,
 } from "../src/pipeline/notify";
+import { announcementKey } from "../src/types";
 import type { Opportunity, SourceHealth } from "../src/types";
 
 let failures = 0;
@@ -105,7 +106,7 @@ check(
   "and it is announced under the same key, so it can only go out once",
   run([opp({ relevanceScore: null })], [opp({ relevanceScore: 95 })]).find(
     (n) => n.kind === "new_relevant",
-  )?.key === "new:x",
+  )?.key === `new:${announcementKey(opp({}))}`,
 );
 check(
   "and one that becomes judgeable but scores low is still not announced",
@@ -129,14 +130,14 @@ check(
  */
 check(
   "an unchanged announcement is proposed again",
-  run([opp({})], [opp({})]).some((n) => n.key === "new:x"),
+  run([opp({})], [opp({})]).some((n) => n.key === `new:${announcementKey(opp({}))}`),
   "proposing is free; the sent log is what decides",
 );
 check(
   "but it is not delivered twice",
   split(
     run([opp({})], [opp({})]),
-    [{ key: "new:x", sentISO: "2026-08-31T06:00:00.000Z", via: "push" }],
+    [{ key: `new:${announcementKey(opp({}))}`, sentISO: "2026-08-31T06:00:00.000Z", via: "push" }],
     new Date("2026-09-01T09:00:00.000Z"),
     false,
   ).push.length === 0,
@@ -148,7 +149,7 @@ check(
     [],
     new Date("2026-09-01T09:00:00.000Z"),
     false,
-  ).push.some((n) => n.key === "new:x"),
+  ).push.some((n) => n.key === `new:${announcementKey(opp({}))}`),
   "this is what recovers a record the old newness rule silently skipped",
 );
 /*
@@ -390,12 +391,12 @@ console.log("\na bad morning for the tool never buries an opening");
 
   check(
     "both 95s are pushed, not digested",
-    pushed.has("new:gold-a") && pushed.has("new:gold-b"),
+    pushed.has(`new:${announcementKey(twoMatches[0]!)}`) && pushed.has(`new:${announcementKey(twoMatches[1]!)}`),
     `pushed: ${[...pushed].join(", ")}`,
   );
   check(
     "and they go first",
-    push[0]!.key.startsWith("new:gold") && push[1]!.key.startsWith("new:gold"),
+    push[0]!.key.startsWith("new:") && push[1]!.key.startsWith("new:"),
   );
   check(
     "the classifier alarm still gets a slot",
