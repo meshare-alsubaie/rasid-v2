@@ -1130,7 +1130,18 @@ function honestyLine(): string {
               <strong>${esc(data.orgById.get(h.orgId)?.nameAr ?? h.orgId)}</strong> — ${
                 { healthy: "سليم", degraded: "متعثّر", broken: "معطوب" }[h.state]
               }، آخر نجاح ${timeAgo(h.lastSuccessISO)}
-              <div class="url">${esc(h.sourceUrl)}</div>
+              ${/*
+                  A page we cannot read is the one the reader most needs to open.
+                  This was printed as plain text, so the health panel named nine
+                  organisations it is blind to and gave him nothing to tap — and
+                  the blind ones are blind because the site refuses automated
+                  reading, which a person's browser is not refused. Not one of
+                  them carries a manual-check link either, so this is the only
+                  route there.
+                */ ""}
+              <div class="url">
+                <a href="${esc(h.sourceUrl)}" target="_blank" rel="noopener">${esc(h.sourceUrl)}</a>
+              </div>
               ${h.lastError ? `<div>${esc(humanError(h.lastError))}</div>` : ""}
             </li>`,
           )

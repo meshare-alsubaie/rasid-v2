@@ -2177,13 +2177,6 @@
     "note": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either"
   },
   {
-    "targetId": "kasb",
-    "checkedAtISO": "2026-08-29T23:52:07.584Z",
-    "urlTried": "http://www.kasbcapital.sa/index.php/ar/",
-    "outcome": "unreachable",
-    "note": "page.goto: net::ERR_CONNECTION_RESET at http://kasbcapital.sa/\nCall log:\n\u001b[2m  - navigating to \"http://kasbcapital.sa/\", waiting until \"networkidle\"\u001b[22m\n · جُرِّب العنوان، ونظيره بـwww أو بدونها، وجذر الموقع، وبمتصفّح حقيقي"
-  },
-  {
     "targetId": "mawhiba",
     "checkedAtISO": "2026-08-29T23:52:07.584Z",
     "urlTried": "https://mawhiba.org/",
@@ -2196,13 +2189,6 @@
     "urlTried": "https://makkah-careers.health.sa/",
     "outcome": "verified",
     "note": "عنوان الصفحة: \"تجمع مكة المكرمة الصحي | الصحة القابضة\". صفحة حقيقية على نطاق الجهة، قُرئ منها 352 حرفاً، ولا يرد فيها ذكر التدريب التعاوني وقت الفحص. تُراقَب لأن الإعلان قد يظهر عليها لاحقاً، وليست صفحة تدريب مؤكّدة. أول ما فيها: \"عن التجمعتجمع مكة المكرمة الصحييقدم تجمع مكة المكرمة الصحي خدمات الرعاية الصحية لأكثر من 1.9 مليون مستفيد، من …\""
-  },
-  {
-    "targetId": "media",
-    "checkedAtISO": "2026-08-29T23:52:07.584Z",
-    "urlTried": "https://media.gov.sa/",
-    "outcome": "unreachable",
-    "note": "robots.txt: disallowed by robots.txt"
   },
   {
     "targetId": "mep",
@@ -2576,13 +2562,6 @@
     "note": "الصفحة فُتحت لكنها لم تُخرج نصاً يُقرأ (0 حرفاً)، فلا يمكن مراقبتها."
   },
   {
-    "targetId": "taqnia",
-    "checkedAtISO": "2026-08-30T04:50:40.620Z",
-    "urlTried": "https://taqnia.com/en/",
-    "outcome": "rejected",
-    "note": "الصفحة فُتحت لكنها لم تُخرج نصاً يُقرأ (149 حرفاً)، فلا يمكن مراقبتها."
-  },
-  {
     "targetId": "derayah",
     "checkedAtISO": "2026-08-30T04:50:40.620Z",
     "urlTried": "https://www.derayah.com/",
@@ -2658,20 +2637,6 @@
     "urlTried": "https://taqnia.com/en/",
     "outcome": "rejected",
     "note": "الصفحة فُتحت لكنها لم تُخرج نصاً يُقرأ (149 حرفاً)، فلا يمكن مراقبتها."
-  },
-  {
-    "targetId": "devoteam_sa",
-    "checkedAtISO": "2026-08-30T05:09:45.038Z",
-    "urlTried": "https://me.devoteam.com/jobs/",
-    "outcome": "unreachable",
-    "note": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either"
-  },
-  {
-    "targetId": "devoteam_sa",
-    "checkedAtISO": "2026-08-30T05:09:45.038Z",
-    "urlTried": "https://www.devoteam.com/me/join-us/",
-    "outcome": "unreachable",
-    "note": "HTTP 403 · جُرِّب العنوان، ونظيره بـwww أو بدونها، وجذر الموقع، وبمتصفّح حقيقي"
   },
   {
     "targetId": "falcom",
@@ -6907,5 +6872,54 @@
     "urlTried": "https://www.customs.gov.sa/",
     "outcome": "unreachable",
     "note": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either"
+  },
+  {
+    "targetId": "kacst",
+    "checkedAtISO": "2026-09-03T05:19:15.758Z",
+    "urlTried": "https://coop.kacst.edu.sa/",
+    "outcome": "unreachable",
+    "note": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either"
+  },
+  {
+    "targetId": "kacst",
+    "checkedAtISO": "2026-09-03T05:19:15.758Z",
+    "urlTried": "https://www.kacst.edu.sa/",
+    "outcome": "unreachable",
+    "note": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either"
+  },
+  {
+    "targetId": "taqnia",
+    "checkedAtISO": "2026-09-03T05:19:38.103Z",
+    "urlTried": "https://taqnia.com/en/",
+    "outcome": "unreachable",
+    "note": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either"
+  },
+  {
+    "targetId": "media",
+    "checkedAtISO": "2026-09-03T05:21:26.332Z",
+    "urlTried": "https://media.gov.sa/",
+    "outcome": "unreachable",
+    "note": "robots.txt: disallowed by robots.txt"
+  },
+  {
+    "targetId": "kasb",
+    "checkedAtISO": "2026-09-03T05:21:29.188Z",
+    "urlTried": "http://www.kasbcapital.sa/index.php/ar/",
+    "outcome": "unreachable",
+    "note": "HTTP 404 · جُرِّب العنوان، ونظيره بـwww أو بدونها، وجذر الموقع، وبمتصفّح حقيقي"
+  },
+  {
+    "targetId": "devoteam_sa",
+    "checkedAtISO": "2026-09-03T05:22:36.273Z",
+    "urlTried": "https://me.devoteam.com/jobs/",
+    "outcome": "unreachable",
+    "note": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either"
+  },
+  {
+    "targetId": "devoteam_sa",
+    "checkedAtISO": "2026-09-03T05:22:36.273Z",
+    "urlTried": "https://www.devoteam.com/me/join-us/",
+    "outcome": "unreachable",
+    "note": "HTTP 403 · جُرِّب العنوان، ونظيره بـwww أو بدونها، وجذر الموقع، وبمتصفّح حقيقي"
   }
 ]

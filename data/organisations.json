@@ -2916,7 +2916,7 @@
         "url": "https://taqnia.com/en/",
         "provenance": "reported",
         "verifiedAtISO": null,
-        "verifiedNote": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
+        "verifiedNote": "أُضيف من تدقيق شرعيّة المصادر: النطاق taqnia.com يُحلّ في DNS ولا يردّ على أي طلب، لا من الزاحف ولا من متصفّح. الجهة غير قابلة للمراقبة من هذا الاتّصال.",
         "type": "site_root",
         "checkFrequencyHours": 24,
         "renderMode": "static"
@@ -3290,7 +3290,7 @@
         "url": "https://me.devoteam.com/jobs/",
         "provenance": "reported",
         "verifiedAtISO": null,
-        "verifiedNote": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
+        "verifiedNote": "أُضيف من تدقيق شرعيّة المصادر: النطاق me.devoteam.com لا يُحلّ في DNS، و devoteam.com يردّ ٤٠٣. غير قابلة للمراقبة.",
         "type": "careers_page",
         "checkFrequencyHours": 12,
         "renderMode": "static"
@@ -3299,7 +3299,7 @@
         "url": "https://www.devoteam.com/me/join-us/",
         "provenance": "reported",
         "verifiedAtISO": null,
-        "verifiedNote": "headless chromium unavailable (browserType.launch: Executable doesn't exist at [مسار محلي]/chrome-headless-shell.exe\n╔════════════════════════════════════════════════════════════╗\n║ Looks like Playwright was just installed or updated.       ║\n║ Please run the following command to download new browsers: ║\n║                                                            ║\n║     npx playwright install                                 ║\n║                                                            ║\n║ <3 Playwright Team                                         ║\n╚════════════════════════════════════════════════════════════╝); run \"npx playwright install chromium\" · جُرِّب العنوان، ونظيره بـwww أو بدونها، وجذر الموقع، وبمتصفّح حقيقي",
+        "verifiedNote": "أُضيف من تدقيق شرعيّة المصادر: النطاق me.devoteam.com لا يُحلّ في DNS، و devoteam.com يردّ ٤٠٣. غير قابلة للمراقبة.",
         "type": "site_root",
         "checkFrequencyHours": 12,
         "renderMode": "static"
@@ -5489,7 +5489,7 @@
         "url": "http://www.kasbcapital.sa/index.php/ar/",
         "provenance": "reported",
         "verifiedAtISO": null,
-        "verifiedNote": "headless chromium unavailable (browserType.launch: Executable doesn't exist at [مسار محلي]/chrome-headless-shell.exe\n╔════════════════════════════════════════════════════════════╗\n║ Looks like Playwright was just installed or updated.       ║\n║ Please run the following command to download new browsers: ║\n║                                                            ║\n║     npx playwright install                                 ║\n║                                                            ║\n║ <3 Playwright Team                                         ║\n╚════════════════════════════════════════════════════════════╝); run \"npx playwright install chromium\" · جُرِّب العنوان، ونظيره بـwww أو بدونها، وجذر الموقع، وبمتصفّح حقيقي",
+        "verifiedNote": "أُضيف من تدقيق شرعيّة المصادر: العنوان يردّ ٤٠٤ و kasbcapital.sa لا يستجيب. يحتاج عنواناً جديداً.",
         "type": "site_root",
         "checkFrequencyHours": 24,
         "renderMode": "static"
@@ -5733,7 +5733,7 @@
         "url": "https://media.gov.sa/",
         "provenance": "reported",
         "verifiedAtISO": null,
-        "verifiedNote": "robots.txt: disallowed by robots.txt",
+        "verifiedNote": "أُضيف من تدقيق شرعيّة المصادر: ملفّ robots في media.gov.sa يمنع القراءة الآلية صراحةً، ونحن نحترمه. تُفحص يدوياً.",
         "type": "site_root",
         "checkFrequencyHours": 24,
         "renderMode": "static"
@@ -8511,21 +8511,11 @@
     "trainingQuality": null,
     "sources": [
       {
-        "url": "https://coop.kacst.edu.sa/",
+        "url": "https://kacst.gov.sa/ar/careers",
         "provenance": "reported",
         "verifiedAtISO": null,
-        "verifiedNote": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
-        "type": "portal",
-        "checkFrequencyHours": 12,
-        "renderMode": "static",
-        "coopConfirmed": false
-      },
-      {
-        "url": "https://www.kacst.edu.sa/",
-        "provenance": "reported",
-        "verifiedAtISO": null,
-        "verifiedNote": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
-        "type": "site_root",
+        "verifiedNote": "أُضيف من تدقيق شرعيّة المصادر: النطاق القديم kacst.edu.sa لا يُحلّ في DNS إطلاقاً، والمدينة انتقلت إلى kacst.gov.sa. الموقع الجديد يردّ ٤٠٣ على القراءة الآلية حتى بمتصفّح كامل، فلا يمكن مراقبته من هنا. الرابط محفوظ لتفتحه بنفسك.",
+        "type": "careers_page",
         "checkFrequencyHours": 12,
         "renderMode": "static",
         "coopConfirmed": false

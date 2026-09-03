@@ -1392,6 +1392,23 @@ dialog.sheet::backdrop {
   color: var(--dormant-text);
 }
 
+/*
+ * The address is a link now, and has to look like one it is worth tapping.
+ * A page the collector cannot read is exactly the page the reader should open
+ * himself, and the sites that block us are not blocking his browser.
+ */
+.health-list .url a {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 0.25em;
+  overflow-wrap: anywhere;
+}
+
+.health-list .url a:hover,
+.health-list .url a:focus-visible {
+  color: var(--text);
+}
+
 /* ---------- motion: one load sequence, nothing else ---------- */
 
 @media (prefers-reduced-motion: no-preference) {

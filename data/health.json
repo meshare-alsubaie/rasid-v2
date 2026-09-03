@@ -560,11 +560,11 @@
   {
     "sourceUrl": "https://careers.flyadeal.com/",
     "orgId": "flyadeal",
-    "lastAttemptISO": "2026-09-03T03:29:08.388Z",
-    "lastSuccessISO": null,
-    "consecutiveFailures": 2,
-    "lastError": "headless chromium unavailable (browserType.launch: Executable doesn't exist at [مسار محلي]/chrome-headless-shell.exe\n╔════════════════════════════════════════════════════════════╗\n║ Looks like Playwright was just installed or updated.       ║\n║ Please run the following command to download new browsers: ║\n║                                                            ║\n║     npx playwright install                                 ║\n║                                                            ║\n║ <3 Playwright Team                                         ║\n╚════════════════════════════════════════════════════════════╝); run \"npx playwright install chromium\"",
-    "state": "degraded"
+    "lastAttemptISO": "2026-09-03T05:13:40.059Z",
+    "lastSuccessISO": "2026-09-03T05:13:40.059Z",
+    "consecutiveFailures": 0,
+    "lastError": null,
+    "state": "healthy"
   },
   {
     "sourceUrl": "https://careers.kafd.sa/",
@@ -929,9 +929,9 @@
   {
     "sourceUrl": "https://gac.gov.sa/",
     "orgId": "gac",
-    "lastAttemptISO": "2026-09-03T04:33:38.070Z",
+    "lastAttemptISO": "2026-09-03T05:13:40.059Z",
     "lastSuccessISO": null,
-    "consecutiveFailures": 18,
+    "consecutiveFailures": 19,
     "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
     "state": "broken"
   },
@@ -2351,10 +2351,10 @@
   {
     "sourceUrl": "https://www.gea.gov.sa/ar",
     "orgId": "gea",
-    "lastAttemptISO": "2026-09-03T04:33:38.070Z",
+    "lastAttemptISO": "2026-09-03T05:13:40.059Z",
     "lastSuccessISO": null,
-    "consecutiveFailures": 19,
-    "lastError": "headless chromium unavailable (browserType.launch: Executable doesn't exist at [مسار محلي]/chrome-headless-shell.exe\n╔════════════════════════════════════════════════════════════╗\n║ Looks like Playwright was just installed or updated.       ║\n║ Please run the following command to download new browsers: ║\n║                                                            ║\n║     npx playwright install                                 ║\n║                                                            ║\n║ <3 Playwright Team                                         ║\n╚════════════════════════════════════════════════════════════╝); run \"npx playwright install chromium\"",
+    "consecutiveFailures": 20,
+    "lastError": "HTTP 403",
     "state": "broken"
   },
   {
@@ -3548,11 +3548,11 @@
   {
     "sourceUrl": "https://www.se.com.sa/nh",
     "orgId": "sec",
-    "lastAttemptISO": "2026-09-03T03:24:09.473Z",
-    "lastSuccessISO": null,
-    "consecutiveFailures": 2,
-    "lastError": "headless chromium unavailable (browserType.launch: Executable doesn't exist at [مسار محلي]/chrome-headless-shell.exe\n╔════════════════════════════════════════════════════════════╗\n║ Looks like Playwright was just installed or updated.       ║\n║ Please run the following command to download new browsers: ║\n║                                                            ║\n║     npx playwright install                                 ║\n║                                                            ║\n║ <3 Playwright Team                                         ║\n╚════════════════════════════════════════════════════════════╝); run \"npx playwright install chromium\"",
-    "state": "degraded"
+    "lastAttemptISO": "2026-09-03T05:13:40.059Z",
+    "lastSuccessISO": "2026-09-03T05:13:40.059Z",
+    "consecutiveFailures": 0,
+    "lastError": null,
+    "state": "healthy"
   },
   {
     "sourceUrl": "https://www.seec.gov.sa/",
@@ -3773,10 +3773,10 @@
   {
     "sourceUrl": "https://www.swcc.gov.sa/Arabic/Pages/Home.aspx",
     "orgId": "swcc",
-    "lastAttemptISO": "2026-09-03T03:24:09.473Z",
+    "lastAttemptISO": "2026-09-03T05:13:40.059Z",
     "lastSuccessISO": null,
-    "consecutiveFailures": 22,
-    "lastError": "headless chromium unavailable (browserType.launch: Executable doesn't exist at [مسار محلي]/chrome-headless-shell.exe\n╔════════════════════════════════════════════════════════════╗\n║ Looks like Playwright was just installed or updated.       ║\n║ Please run the following command to download new browsers: ║\n║                                                            ║\n║     npx playwright install                                 ║\n║                                                            ║\n║ <3 Playwright Team                                         ║\n╚════════════════════════════════════════════════════════════╝); run \"npx playwright install chromium\"",
+    "consecutiveFailures": 23,
+    "lastError": "HTTP 403",
     "state": "broken"
   },
   {
@@ -3791,20 +3791,20 @@
   {
     "sourceUrl": "https://www.tahakom.com/",
     "orgId": "tahakom",
-    "lastAttemptISO": "2026-09-03T03:26:44.750Z",
-    "lastSuccessISO": null,
-    "consecutiveFailures": 2,
-    "lastError": "headless chromium unavailable (browserType.launch: Executable doesn't exist at [مسار محلي]/chrome-headless-shell.exe\n╔════════════════════════════════════════════════════════════╗\n║ Looks like Playwright was just installed or updated.       ║\n║ Please run the following command to download new browsers: ║\n║                                                            ║\n║     npx playwright install                                 ║\n║                                                            ║\n║ <3 Playwright Team                                         ║\n╚════════════════════════════════════════════════════════════╝); run \"npx playwright install chromium\"",
-    "state": "degraded"
+    "lastAttemptISO": "2026-09-03T05:13:40.059Z",
+    "lastSuccessISO": "2026-09-03T05:13:40.059Z",
+    "consecutiveFailures": 0,
+    "lastError": null,
+    "state": "healthy"
   },
   {
     "sourceUrl": "https://www.tahakom.com/careers",
     "orgId": "tahakom",
-    "lastAttemptISO": "2026-09-03T03:44:25.031Z",
-    "lastSuccessISO": null,
-    "consecutiveFailures": 3,
-    "lastError": "headless chromium unavailable (browserType.launch: Executable doesn't exist at [مسار محلي]/chrome-headless-shell.exe\n╔════════════════════════════════════════════════════════════╗\n║ Looks like Playwright was just installed or updated.       ║\n║ Please run the following command to download new browsers: ║\n║                                                            ║\n║     npx playwright install                                 ║\n║                                                            ║\n║ <3 Playwright Team                                         ║\n╚════════════════════════════════════════════════════════════╝); run \"npx playwright install chromium\"",
-    "state": "degraded"
+    "lastAttemptISO": "2026-09-03T05:13:40.059Z",
+    "lastSuccessISO": "2026-09-03T05:13:40.059Z",
+    "consecutiveFailures": 0,
+    "lastError": null,
+    "state": "healthy"
   },
   {
     "sourceUrl": "https://www.taifcity.gov.sa/#/ar",
@@ -3818,10 +3818,10 @@
   {
     "sourceUrl": "https://www.tawuniya.com/en/careers",
     "orgId": "tawuniya",
-    "lastAttemptISO": "2026-09-03T03:32:47.890Z",
+    "lastAttemptISO": "2026-09-03T05:13:40.059Z",
     "lastSuccessISO": null,
-    "consecutiveFailures": 17,
-    "lastError": "headless chromium unavailable (browserType.launch: Executable doesn't exist at [مسار محلي]/chrome-headless-shell.exe\n╔════════════════════════════════════════════════════════════╗\n║ Looks like Playwright was just installed or updated.       ║\n║ Please run the following command to download new browsers: ║\n║                                                            ║\n║     npx playwright install                                 ║\n║                                                            ║\n║ <3 Playwright Team                                         ║\n╚════════════════════════════════════════════════════════════╝); run \"npx playwright install chromium\"",
+    "consecutiveFailures": 18,
+    "lastError": "HTTP 403",
     "state": "broken"
   },
   {
