@@ -76,8 +76,8 @@
     "orgId": "adf",
     "contentHash": "e2b9095a4a164240f4a961099554b03e0cf5bb3fa52f9c16c719544ecef0a216",
     "blockHashes": [
-      "76e1a7648ad6cad4",
-      "74e4c1d2a646a96e",
+      "1ce798e0ca5f6070",
+      "9e8708f46644e878",
       "6d71d098479401bf",
       "d69aaa7b1ef7bb76",
       "fd40c5327e503291",
@@ -89,7 +89,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-02T23:42:46.216Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://adf.gov.sa/ar/media-center/news/Pages/default.aspx",
@@ -1564,7 +1564,9 @@
     "orgId": "saib",
     "contentHash": "0db06f77f8c42875519e3f008e9193bd16c8fbb289ee9d18da2314bb4dc5ad32",
     "blockHashes": [
-      "a1c40235d8fa73b7",
+      "825147e49db63280",
+      "0aada8fc06fc1718",
+      "85d5a83cb199df35",
       "d1e6b72561ed3db3",
       "3b1086a11caf710d",
       "3a7124cb39b8339f",
@@ -1584,7 +1586,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-02T23:42:46.216Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://careers.saib.com.sa/en/page/coop-program/",
@@ -4107,6 +4109,21 @@
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-08-31T23:54:26.779Z",
+    "thinRuns": 0,
+    "pendingClassification": false
+  },
+  {
+    "sourceUrl": "https://splonline.com.sa/ar/careers/",
+    "orgId": "spl",
+    "contentHash": "1f672fb44ed3b9d4257615f8927863cf0fa42c688b63c0126a0c2772e90bc524",
+    "blockHashes": [
+      "5be2bcf6a3274c2b",
+      "513409ca6e23ccb2"
+    ],
+    "extractedChars": 844,
+    "extractionMethod": "body_fallback",
+    "firstSeenISO": "2026-09-03T01:28:06.600Z",
+    "lastChangedISO": "2026-09-03T01:28:06.600Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -7758,7 +7775,7 @@
     "blockHashes": [
       "7f625851cbbadbc6",
       "f7711325e2c4b301",
-      "af14250d16b82616",
+      "3942d38e7a5c883d",
       "e84d677a03549107",
       "f4809815161554d5",
       "0129ceb5c2a3779e",
@@ -7774,7 +7791,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-02T23:42:46.216Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.mof.gov.sa/eservices/Loans/Pages/Lending_Educational_Projects.aspx",
@@ -10200,7 +10217,7 @@
       "b4513eef12a8e364",
       "32817a481f13ddff",
       "69409e45a359c8b0",
-      "7b1578ecaaa45115",
+      "5b7c05b0195c1477",
       "25b3bc91b9810520"
     ],
     "extractedChars": 3878,
@@ -10208,7 +10225,7 @@
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
     "lastChangedISO": "2026-09-02T23:42:46.216Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.sidf.gov.sa/Coop",

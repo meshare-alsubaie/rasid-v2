@@ -3899,26 +3899,23 @@
   {
     "id": "e24efd95d3bf8abc",
     "orgId": "saib",
-    "titleAr": "برنامج التطوير المهني في تقنية المعلومات والأمن السيبراني",
+    "titleAr": "البنك السعودي للاستثمار",
     "detectedISO": "2026-08-31T23:54:26.779Z",
     "firstSeenISO": "2026-08-31T23:54:26.779Z",
-    "lastConfirmedISO": "2026-09-02T14:11:53.875Z",
+    "lastConfirmedISO": "2026-09-03T01:28:06.600Z",
     "status": "unknown",
     "opensISO": null,
     "closesISO": null,
     "closesHijri": null,
     "product": "graduate_dev",
     "majors": [
-      "تكنولوجيا المعلومات",
-      "علوم الحاسب",
-      "الأمن السيبراني"
+      "Information Technology",
+      "Cybersecurity"
     ],
     "seats": null,
     "stipendSAR": null,
     "durationWeeks": null,
-    "cities": [
-      "السعودية"
-    ],
+    "cities": [],
     "relevanceScore": 0,
     "relevanceReason": "برنامج تطوير خريجين، ويشترط وثيقة التخرّج، فلا ينطبق عليك بعد.",
     "statesZeroCoursesRule": false,
@@ -3928,8 +3925,8 @@
       "no_course_condition"
     ],
     "sourceUrl": "https://careers.saib.com.sa/ar/page/it-program/",
-    "applyUrl": "https://www.sabb.com.sa/Arabic/AboutUs/GraduateDevelopmentProgram/Pages/default.aspx",
-    "rawExcerpt": "البنك السعودي للاستثمار\n\nEnglish تسجيل دخول إنشاء حساب جديد About the Program The Graduate Development Program for Information Technology and Cybersecurity is designed to develop the technical capabilities of talented graduates through structured training and practical experience.\n\nEnglish تسجيل دخول إنشاء حساب جديد About the Program The Graduate Development Program for Information Technology and "
+    "applyUrl": null,
+    "rawExcerpt": "البنك السعودي للاستثمار\n\nEnglish تسجيل دخول إنشاء حساب جديد ابنِ مستقبلك مع البنك انضم إلى بنك يتطلع للمستقبل ويقدر الطموح.\n\nEnglish تسجيل دخول إنشاء حساب جديد ابنِ مستقبلك مع البنك انضم إلى بنك يتطلع للمستقبل ويقدر الطموح.\n\nمعنا أفكارك تصنع الفرق، وتطورك المهني جزء من نجاحنا.\n\nAbout the Program The Graduate Development Program for Information Technology and Cybersecurity is designed to develop th"
   },
   {
     "id": "e44274b1de03ee45",
@@ -4216,7 +4213,8 @@
     "statesZeroCoursesRule": false,
     "zeroCoursesQuote": null,
     "flags": [
-      "needs_manual_review"
+      "needs_manual_review",
+      "vanished_from_source"
     ],
     "sourceUrl": "https://www.mof.gov.sa/docslibrary/TrainingManuals/Pages/default.aspx",
     "applyUrl": null,
