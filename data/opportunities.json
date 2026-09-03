@@ -3044,12 +3044,13 @@
       "جميع أنحاء المملكة"
     ],
     "relevanceScore": 10,
-    "relevanceReason": "لا يذكر الإعلان تخصّصاً قريباً من تخصّصك.",
+    "relevanceReason": "لا يذكر الإعلان تخصّصاً قريباً من تخصّصك. (لم يُتحقّق في آخر جولة: جاء الردّ بصيغة غير متوقّعة، فلم يُقبل. الصفحة محفوظة وستُعاد قراءتها.)",
     "statesZeroCoursesRule": false,
     "zeroCoursesQuote": null,
     "flags": [
       "no_course_condition",
-      "more_on_page"
+      "more_on_page",
+      "needs_manual_review"
     ],
     "sourceUrl": "https://www.mim.gov.sa/ar/empower-training/cooperative-training",
     "applyUrl": null,
@@ -4096,6 +4097,34 @@
     "sourceUrl": "https://careers.scfhs.org.sa/ar/saudi-arabia/jobs/",
     "applyUrl": null,
     "rawExcerpt": "الرئيسية / فرص / نتائج البحث عن الفرصة تم العثور على {{ totalItems }} فرصفرصة, {{ numberOfVacanciesText }} {{ totalVacancies }} Filters تصنيف حسب الفرص المحفوظة اعلانات داخلية الفرص الموصى بها تم العثور على {{ totalItems }} فرصة محفوظة تم العثور على {{ totalItems }} الفرص المحفوظة تم العثور على {{ totalItems }} اعلانات داخلية تم العثور على {{ totalItems }} الفرص الموصى بها"
+  },
+  {
+    "id": "e8c36522e4c524a6",
+    "orgId": "ncac",
+    "titleAr": "لم يُصنَّف بعد",
+    "detectedISO": "2026-09-03T02:43:43.219Z",
+    "firstSeenISO": "2026-09-03T02:43:43.219Z",
+    "lastConfirmedISO": "2026-09-03T02:43:43.219Z",
+    "status": "unknown",
+    "opensISO": null,
+    "closesISO": null,
+    "closesHijri": null,
+    "product": "unknown",
+    "majors": [],
+    "seats": null,
+    "stipendSAR": null,
+    "durationWeeks": null,
+    "cities": [],
+    "relevanceScore": null,
+    "relevanceReason": "تعذّر التصنيف: جاء الردّ بصيغة غير متوقّعة، فلم يُقبل. الصفحة محفوظة وستُعاد قراءتها.",
+    "statesZeroCoursesRule": false,
+    "zeroCoursesQuote": null,
+    "flags": [
+      "needs_manual_review"
+    ],
+    "sourceUrl": "https://haseen.gov.sa/academy/ar/",
+    "applyUrl": null,
+    "rawExcerpt": "الأكاديمية الوطنية للأمن السيبرانيالبرامج التدريبية والتمارين السيبرانيةتقدم الأكاديمية الوطنية للأمن السيبراني مجموعة من البرامج التدريبية المتخصصة والتمارين السيبرانية التي تتلاءم مع احتياجات ومتطلبات القطاعات الحيوية في المملكة.خدمات الجهات خدمات الأفراد"
   },
   {
     "id": "e94273724ada6fb8",
