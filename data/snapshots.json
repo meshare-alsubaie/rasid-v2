@@ -96,8 +96,8 @@
     "orgId": "adf",
     "contentHash": "bbf01f14a83ced2fca86030a3520a691d19a342c2aae64fe5b5fa1587b6adf20",
     "blockHashes": [
-      "76e1a7648ad6cad4",
-      "74e4c1d2a646a96e",
+      "1ce798e0ca5f6070",
+      "9e8708f46644e878",
       "2b4f3b233962e49b",
       "98c599aa7ca6e471",
       "307881a626bbd4a4",
@@ -110,7 +110,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-02T23:42:46.216Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://adf.gov.sa/ar/media-center/success-stories/Pages/default.aspx",
@@ -1444,14 +1444,14 @@
       "8a4154243a063008",
       "6c1f4fe03943127a",
       "c0befaa6e959676a",
-      "8f80a31b660c13d6"
+      "9bcd192aa27961ea"
     ],
     "extractedChars": 2626,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-02T23:42:46.216Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://careers.riyadbank.com/ar/",
@@ -2149,7 +2149,7 @@
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T02:22:33.828Z",
     "lastChangedISO": "2026-08-29T02:36:21.032Z",
-    "thinRuns": 49,
+    "thinRuns": 50,
     "pendingClassification": false
   },
   {
@@ -3955,7 +3955,7 @@
     "firstSeenISO": "2026-08-29T02:22:13.030Z",
     "lastChangedISO": "2026-08-31T00:02:49.563Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://sdaia.gov.sa/ar/Sectors/Ncai/Pages/default.aspx",
@@ -5249,7 +5249,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-08-31T00:02:49.563Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.aramco.com/en/careers/for-saudi-applicants/student-opportunities/university-and-vocational-college-internship-programs/vocational-college-internship-program",
@@ -7938,7 +7938,7 @@
     "blockHashes": [
       "7f625851cbbadbc6",
       "f7711325e2c4b301",
-      "15375d6e696a2865",
+      "fec82c969ad4a1de",
       "b1bec34b5330c702",
       "f4809815161554d5",
       "16ff3360390869f3",
@@ -7954,7 +7954,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-02T23:42:46.216Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.mof.gov.sa/Pages/default.aspx",
@@ -10275,13 +10275,23 @@
     "sourceUrl": "https://www.sidf.gov.sa/Coop",
     "orgId": "sidf",
     "contentHash": "cff234ef24ca914da7dd74304c0a0029ef63cc972076d803152698e5b9c78f35",
-    "blockHashes": [],
+    "blockHashes": [
+      "b2f8402cbf414c94",
+      "19799f9a1ecc3c57",
+      "0c2d4d8fa3648c14",
+      "2c8ff6158ea16a16",
+      "69712b563e846237",
+      "d842aa2993bdbb38",
+      "6ce0bb6fceb85cb0",
+      "7ead486165d12322",
+      "25b3bc91b9810520"
+    ],
     "extractedChars": 1040,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-02T23:42:46.216Z",
     "lastChangedISO": "2026-09-02T23:42:46.216Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.sidf.gov.sa/News",
@@ -10380,7 +10390,7 @@
     "blockHashes": [
       "13f48669ebfa59aa",
       "74e4c1d2a646a96e",
-      "d18a62efa6e14af6",
+      "b9684b9783bc969b",
       "68c03d860d910c71",
       "782261474561a27a",
       "201de1784c4f3dae",
@@ -10396,7 +10406,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-02T23:42:46.216Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.srca.org.sa/news/",
