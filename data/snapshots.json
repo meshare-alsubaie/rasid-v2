@@ -252,23 +252,23 @@
     "firstSeenISO": "2026-08-29T22:03:35.383Z",
     "lastChangedISO": "2026-09-04T03:39:47.081Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "triaged_out"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://alinma.com/About-the-Bank/The-Bank/News",
     "orgId": "alinma",
-    "contentHash": "51dc940e2ef33dc1cef7893c6c367b5afbc55c6353e62992f582a1d930d530e7",
+    "contentHash": "e16d4fd06b79ef10e7e4c6465cb982bbba522e01ef9139da449d3509631be344",
     "blockHashes": [
-      "cd7fc326454450e2",
+      "b0ca489b276a15be",
       "5f5056d49f495bbe"
     ],
     "extractedChars": 3675,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-02T15:06:22.771Z",
+    "lastChangedISO": "2026-09-04T03:49:59.769Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://alinma.com/About-the-Bank/The-Bank/News/2009/02/alinma-bank-selects-and-prepares-its-phone-banking-and-training-center-location",
@@ -415,25 +415,26 @@
   {
     "sourceUrl": "https://alinma.com/About-the-Bank/The-Bank/News/2026/8/amwal-tech",
     "orgId": "alinma",
-    "contentHash": "28852c812f5e33a63c92c2e566291b770b0344c9e807f444fe20a3a1a50ed316",
+    "contentHash": "1f139e8c276956238585a18d748366d53b9fbdeea10761be4d62bc00da78239a",
     "blockHashes": [
-      "0f22a5282aebb909",
+      "6edcd192b914f755",
       "17d37ab6b71387ee",
       "fb5eb1dea74e03e2"
     ],
     "extractedChars": 737,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-08-31T00:02:49.563Z",
+    "lastChangedISO": "2026-09-04T03:49:59.769Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://alinma.com/About-the-Bank/The-Bank/News/2026/8/IFN-Awards",
     "orgId": "alinma",
-    "contentHash": "dbeffdd06bf68a76a13cee851acdd706673dfacd9e3bf206708086b2817a8e4a",
+    "contentHash": "c512c9a9794eaa138916d646dd382eb0657cf846605d0c139e1030b6a6e61985",
     "blockHashes": [
-      "cf9812257f374162",
+      "a87f525932d1eef6",
       "1ed01ab7550902a3",
       "edb0eb72f14698e7",
       "ec081929f22e36ea",
@@ -442,23 +443,25 @@
     "extractedChars": 1052,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-08-31T00:02:49.563Z",
+    "lastChangedISO": "2026-09-04T03:49:59.769Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://alinma.com/en/About-the-Bank/The-Bank/News/2009/02/alinma-bank-selects-and-prepares-its-phone-banking-and-training-center-location",
     "orgId": "alinma",
-    "contentHash": "7731907e702cdac19eb154223a0ecec0a8f8e014870a3932abe49d219009f725",
+    "contentHash": "f8f6bc7f0b8d44dc6115d5b5c11e2acfc88467694f3419b677c1c105a9f02b58",
     "blockHashes": [
-      "7731907e702cdac1"
+      "f8f6bc7f0b8d44dc"
     ],
     "extractedChars": 285,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T23:54:26.779Z",
-    "lastChangedISO": "2026-08-31T23:54:26.779Z",
+    "lastChangedISO": "2026-09-04T03:49:59.769Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "triaged_out"
   },
   {
     "sourceUrl": "https://alinma.com/en/About-the-Bank/The-Bank/News/2010/01/alinma-bank-signs-agreement-with-specialized-academy-for-medical-training-for-financing-tuition-fees",
@@ -740,7 +743,7 @@
   {
     "sourceUrl": "https://career.alinma.com/",
     "orgId": "alinma",
-    "contentHash": "e245fd94c1ab59dcc6bad34af50ba34c224654b27d2f46834c18eef001143fa5",
+    "contentHash": null,
     "blockHashes": [
       "d139e32e22028878",
       "24a16c9057a577bb",
@@ -3989,17 +3992,18 @@
   {
     "sourceUrl": "https://site.sa/",
     "orgId": "site",
-    "contentHash": "d63bad788850f80c2691f8ab1d85e27ed57fdac1aed1b2a258390ef77b04c649",
+    "contentHash": "abf64154e9186a20f4fb45eae081f584705860728eb1e994a994a4f9ea6b67bf",
     "blockHashes": [
-      "d63bad788850f80c"
+      "353982acccd83575",
+      "994dda06630e8e23",
+      "83437a656392be3f"
     ],
-    "extractedChars": 598,
+    "extractedChars": 1312,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-01T08:30:59.864Z",
+    "lastChangedISO": "2026-09-04T03:49:59.769Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "triaged_out"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://slccareers.kpmg.com/go/All-Jobs/7738123/",
@@ -4853,8 +4857,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-04T03:39:47.081Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "triaged_out"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.alrajhibank.com.sa/",

@@ -474,16 +474,39 @@ export function triageExcerpt(text: string): string {
 const TRAINING_WORD = /تدريب|تعاون|متدرب|تمهير|co-?op|intern|trainee|training/i;
 
 /**
- * The head of the page, and the part of it that talks about training.
+ * A date, in any shape a Saudi page writes one.
+ *
+ * Deliberately loose. This decides only which part of a long page the model is
+ * shown; a false positive costs a few hundred characters of excerpt, and a
+ * false negative costs the deadline. `src/hijri.ts` is what decides whether a
+ * string really is a date, and it is strict.
+ */
+const DATE_SHAPED =
+  /\d{1,4}\s*[/\-.]\s*\d{1,2}\s*[/\-.]\s*\d{1,4}|\d{1,2}\s*[-/\s]\s*(?:محرم|صفر|ربيع|جمادى|رجب|شعبان|رمضان|شوال|ذو|يناير|فبراير|مارس|أبريل|ابريل|مايو|يونيو|يوليو|أغسطس|اغسطس|سبتمبر|أكتوبر|اكتوبر|نوفمبر|ديسمبر|jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)|آخر\s*موعد|اخر\s*موعد|الموعد\s*النهائي|ينتهي\s*التقديم|deadline|closing\s*date/i;
+
+/**
+ * The head of the page, the part that talks about training, and the dates.
  *
  * The same idea as `triageExcerpt` at the size the full question can afford.
- * Two thirds go to the head, because the title, the organisation and the shape
- * of the page are all there and the model needs them to answer at all; the rest
- * goes to the neighbourhood of the training word, which is where the majors,
- * the seats and the deadline actually are on a long page.
+ * Roughly half goes to the head, because the title, the organisation and the
+ * shape of the page are all there and the model needs them to answer at all.
+ *
+ * The rest used to go entirely to the neighbourhood of the training word, on
+ * the reasoning that the majors, the seats and the deadline are all there. Two
+ * of those three are. **The deadline very often is not** — a Saudi careers page
+ * introduces the programme at the top and prints "آخر موعد للتقديم" in a table
+ * or a footer far below — so on a long page the model was asked for a date it
+ * had never been shown, and answered null. The dataset holds three dates across
+ * every record it has, and this is one of the reasons.
+ *
+ * So a third window follows the first date-shaped text the other two do not
+ * already cover. It costs a few hundred characters of a six thousand character
+ * budget.
  *
  * A page shorter than the budget is passed through whole, so nothing changes
- * for the ordinary case.
+ * for the ordinary case. Every window is a verbatim slice: the copied-wording
+ * guard compares the model's reply against exactly this string, so widening
+ * what is shown can only let more real wording through, never less.
  */
 export function focusedExcerpt(text: string, budget: number): string {
   if (text.length <= budget) return text;
@@ -492,13 +515,29 @@ export function focusedExcerpt(text: string, budget: number): string {
   // inside the budget: the copied-wording guard compares against exactly this
   // string, so its size is part of the contract rather than an approximation.
   const SEPARATOR = "\n…\n";
-  const head = Math.floor(budget * 0.66);
-  const around = budget - head - SEPARATOR.length;
   const at = text.search(TRAINING_WORD);
-  if (at < 0 || at < head) return text.slice(0, budget);
+  const dateAt = text.search(DATE_SHAPED);
+  if (at < 0 && dateAt < 0) return text.slice(0, budget);
 
-  const from = Math.max(head, at - Math.floor(around / 3));
-  return `${text.slice(0, head)}${SEPARATOR}${text.slice(from, from + around)}`;
+  const head = Math.floor(budget * (dateAt >= 0 ? 0.5 : 0.66));
+
+  /** Slices already taken, so a later window never repeats an earlier one. */
+  const taken: [number, number][] = [[0, head]];
+  const covered = (i: number): boolean => taken.some(([a, b]) => i >= a && i < b);
+
+  let out = text.slice(0, head);
+  let left = budget - head;
+
+  const wanted = [at, dateAt].filter((i) => i >= 0 && !covered(i));
+  for (const [n, i] of wanted.entries()) {
+    const share = Math.floor((left - SEPARATOR.length) / (wanted.length - n));
+    if (share <= 0) break;
+    const from = Math.max(head, i - Math.floor(share / 3));
+    out += `${SEPARATOR}${text.slice(from, from + share)}`;
+    taken.push([from, from + share]);
+    left -= share + SEPARATOR.length;
+  }
+  return out;
 }
 
 export async function triage(text: string): Promise<TriageResult> {

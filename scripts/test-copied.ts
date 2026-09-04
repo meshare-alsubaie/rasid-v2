@@ -20,7 +20,7 @@
  */
 import { readFileSync } from "node:fs";
 import { CASES } from "./benchmark-cases";
-import { MAX_EXCERPT_CHARS, normaliseArabic, notCopiedFrom } from "../src/pipeline/classify";
+import { MAX_EXCERPT_CHARS, focusedExcerpt, normaliseArabic, notCopiedFrom } from "../src/pipeline/classify";
 import type { Classification } from "../src/pipeline/classify";
 
 let failures = 0;
@@ -173,6 +173,56 @@ console.log("\nnothing is required to be present");
     applyUrl: null,
   };
   check("a reply that claims nothing is accepted", notCopiedFrom(page, empty).length === 0);
+}
+
+console.log("\nthe excerpt shows the model the deadline, not only the programme");
+{
+  /*
+   * `focusedExcerpt` had no gate at all, and it decides what the model is even
+   * able to answer. It gave two thirds of the budget to the head of the page
+   * and the rest to the neighbourhood of the training word — which is where the
+   * majors and the seats live, and very often not where the deadline does. A
+   * Saudi careers page introduces the programme at the top and prints
+   * "آخر موعد للتقديم" in a table far below, so the model was asked for a date
+   * it had never been shown and answered null. Three dates across the whole
+   * dataset, and this was one of the causes.
+   */
+  const head = "عنوان الصفحة وشعارها ونبذة عن الجهة. ".repeat(60);
+  const training = "برنامج التدريب التعاوني لطلاب الجامعات في تخصصات الحاسب. ".repeat(40);
+  const filler = "نصّ عام لا يخصّ التدريب ولا المواعيد. ".repeat(200);
+  const deadline = "آخر موعد للتقديم 15 سبتمبر 2026 عبر البوابة.";
+  const page = `${head}${training}${filler}${deadline}`;
+
+  const excerpt = focusedExcerpt(page, MAX_EXCERPT_CHARS);
+  check("a long page is longer than the budget (seeded premise)", page.length > MAX_EXCERPT_CHARS);
+  check("the excerpt stays inside the budget", excerpt.length <= MAX_EXCERPT_CHARS, `${excerpt.length}`);
+  check("it still carries the programme", /التدريب التعاوني/.test(excerpt));
+  check("and it now carries the deadline", excerpt.includes(deadline), excerpt.slice(-60));
+
+  /*
+   * The seeded fault: the head alone, which is what the old rule produced for
+   * this page. If this ever stops being true the fixture has drifted and the
+   * check above is passing for the wrong reason.
+   */
+  check(
+    "the head alone would have missed it (seeded fault)",
+    !page.slice(0, Math.floor(MAX_EXCERPT_CHARS * 0.66)).includes(deadline),
+  );
+
+  const short = "صفحة قصيرة فيها التدريب التعاوني وآخر موعد 15 سبتمبر 2026.";
+  check("a page inside the budget passes through whole", focusedExcerpt(short, MAX_EXCERPT_CHARS) === short);
+
+  /*
+   * Every window must be a verbatim slice of the page, because the guard above
+   * compares the model's reply against exactly this string. An excerpt that
+   * rewrote anything would make the guard reject wording that really is there.
+   */
+  const pieces = excerpt.split("\n…\n");
+  check(
+    "every window is a verbatim slice of the page",
+    pieces.every((p) => page.includes(p)),
+    `${pieces.length} window(s)`,
+  );
 }
 
 console.log(`\n${failures === 0 ? "the guard holds in both directions" : `${failures} check(s) failed`}`);
