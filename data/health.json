@@ -380,11 +380,11 @@
   {
     "sourceUrl": "https://career.alinma.com/",
     "orgId": "alinma",
-    "lastAttemptISO": "2026-09-04T06:04:12.470Z",
+    "lastAttemptISO": "2026-09-04T06:50:15.198Z",
     "lastSuccessISO": "2026-09-04T06:04:12.470Z",
-    "consecutiveFailures": 0,
-    "lastError": null,
-    "state": "healthy"
+    "consecutiveFailures": 1,
+    "lastError": "fetched 6384 bytes but extracted only 0 chars of text; the page is probably rendered by javascript and cannot be watched this way",
+    "state": "degraded"
   },
   {
     "sourceUrl": "https://career.dga.gov.sa/",
@@ -425,8 +425,8 @@
   {
     "sourceUrl": "https://career.elm.sa/elm/go/coop-trainee-and-training-program/8486100/elm.sa",
     "orgId": "elm",
-    "lastAttemptISO": "2026-09-04T06:04:12.470Z",
-    "lastSuccessISO": "2026-09-04T06:04:12.470Z",
+    "lastAttemptISO": "2026-09-04T06:50:15.198Z",
+    "lastSuccessISO": "2026-09-04T06:50:15.198Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -596,8 +596,8 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/search-results",
     "orgId": "maaden",
-    "lastAttemptISO": "2026-09-04T06:04:12.470Z",
-    "lastSuccessISO": "2026-09-04T06:04:12.470Z",
+    "lastAttemptISO": "2026-09-04T06:50:15.198Z",
+    "lastSuccessISO": "2026-09-04T06:50:15.198Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -1082,8 +1082,8 @@
   {
     "sourceUrl": "https://jobs.sabic.com/",
     "orgId": "sabic",
-    "lastAttemptISO": "2026-09-04T06:04:12.470Z",
-    "lastSuccessISO": "2026-09-04T06:04:12.470Z",
+    "lastAttemptISO": "2026-09-04T06:50:15.198Z",
+    "lastSuccessISO": "2026-09-04T06:50:15.198Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"

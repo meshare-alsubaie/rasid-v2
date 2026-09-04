@@ -740,7 +740,7 @@
   {
     "sourceUrl": "https://career.alinma.com/",
     "orgId": "alinma",
-    "contentHash": "e245fd94c1ab59dcc6bad34af50ba34c224654b27d2f46834c18eef001143fa5",
+    "contentHash": null,
     "blockHashes": [
       "d139e32e22028878",
       "24a16c9057a577bb",
@@ -1313,16 +1313,16 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/search-results",
     "orgId": "maaden",
-    "contentHash": "176cd862766baf6ba45e6fd4b7cc702eb3324865b2b7ba27532023d6c685a528",
+    "contentHash": "900f1dc033a2986dd38d795b6345c7525295a553a0b8dfedb155037e86c680e8",
     "blockHashes": [
       "dab5a7f3801bc914",
       "d6c0adacb353836a",
       "9adcb17133f10db0"
     ],
-    "extractedChars": 396,
-    "extractionMethod": "readability",
+    "extractedChars": 1167,
+    "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-04T06:04:12.470Z",
+    "lastChangedISO": "2026-09-04T06:50:15.198Z",
     "thinRuns": 0,
     "pendingClassification": true
   },
