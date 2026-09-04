@@ -4787,7 +4787,7 @@
     "firstSeenISO": "2026-08-29T02:22:33.828Z",
     "lastChangedISO": "2026-08-31T00:02:49.563Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.alahli.com/en/pages/about-us/careers/snb-cooperative-training-program",
@@ -7187,7 +7187,7 @@
   {
     "sourceUrl": "https://www.kapsarc.org/work-with-us/job-opportunities/",
     "orgId": "kapsarc",
-    "contentHash": "3eef227edce68ccc36feb71c7cb8d435406b68a77df06733e5a713721ee7bace",
+    "contentHash": "7f0398bf3cbd7a80dcd4fcece7c41e658226b1ee23cfd83e142b423a90575670",
     "blockHashes": [
       "dbad88ec8435b910",
       "11ed80f75ad0e89e",
@@ -7209,7 +7209,7 @@
       "82125fef711b8fdc",
       "a8eb670b84904811",
       "d9cd1c2148907399",
-      "4d05a7cbf13e210c",
+      "689a0fbeb6cf6496",
       "9c51ede42f36a1d8",
       "0b23b586c4f30fe5",
       "0b23b586c4f30fe5",
@@ -7220,7 +7220,7 @@
     "extractedChars": 993,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-03T01:33:29.808Z",
+    "lastChangedISO": "2026-09-04T05:48:00.498Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -7592,9 +7592,9 @@
   {
     "sourceUrl": "https://www.mim.gov.sa/ar/media-center/news",
     "orgId": "mim",
-    "contentHash": "52a14b529f8ba26cde47def57fd1032980f72043a4c42884fa5d0249e05f693c",
+    "contentHash": "db4815decd113c0aa9b7c00b1e9f9a580ba8910626d1afc3f54a8f44e4ba5603",
     "blockHashes": [
-      "438ce2b86a62e7e8",
+      "0dc56d6995692b22",
       "e6f6bf20c0c7405d",
       "1463ce99001bf0a0",
       "47a950af7f4b0342",
@@ -7626,9 +7626,10 @@
     "extractedChars": 10700,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-03T12:02:20.812Z",
+    "lastChangedISO": "2026-09-04T05:48:00.498Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://www.moc.gov.sa/ar",
@@ -8428,9 +8429,9 @@
   {
     "sourceUrl": "https://www.nazaha.gov.sa/News",
     "orgId": "nazaha",
-    "contentHash": "2703c61204661ee2c8b5eac291bfe8d074ea4ceadded7bb82a844deaef873b6b",
+    "contentHash": "f92ac437527737d49e7a8bfdc11258529b6fd3d33bbab16336e3f410e9415c94",
     "blockHashes": [
-      "6d2c5dad45f3bf99",
+      "6a9eb29222f21346",
       "ae788be0df385c72",
       "ecfe196c74433ee8",
       "c343d10cb0767689"
@@ -8438,9 +8439,10 @@
     "extractedChars": 240,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-02T23:42:46.216Z",
+    "lastChangedISO": "2026-09-04T05:48:00.498Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "triaged_out"
   },
   {
     "sourceUrl": "https://www.nazaha.gov.sa/News/Details?q=+ZUW2RPX/9RAyHyLvILpaw==",
@@ -10309,18 +10311,18 @@
   {
     "sourceUrl": "https://www.sidf.gov.sa/ar/Pages/Home.aspx",
     "orgId": "sidf",
-    "contentHash": "49540eec121c2e190be5ef5a1a638bedad8cff15aef798a6749fb4a0717948cf",
+    "contentHash": "03363fc5773a176569c5ec722a8e2d03ff56b8006f631fa0c881c702ffc0b68c",
     "blockHashes": [
       "b4513eef12a8e364",
       "32817a481f13ddff",
       "69409e45a359c8b0",
-      "5b7c05b0195c1477",
+      "9f12c4740101192f",
       "25b3bc91b9810520"
     ],
     "extractedChars": 3878,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
-    "lastChangedISO": "2026-09-02T23:42:46.216Z",
+    "lastChangedISO": "2026-09-04T05:48:00.498Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
