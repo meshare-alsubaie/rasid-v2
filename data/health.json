@@ -29,8 +29,8 @@
   {
     "sourceUrl": "http://www.wasatah.com.sa/index.php/ar/",
     "orgId": "wasatah",
-    "lastAttemptISO": "2026-09-04T05:27:09.532Z",
-    "lastSuccessISO": "2026-09-04T05:27:09.532Z",
+    "lastAttemptISO": "2026-09-04T11:29:29.055Z",
+    "lastSuccessISO": "2026-09-04T11:29:29.055Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -1415,11 +1415,11 @@
   {
     "sourceUrl": "https://ncar.gov.sa/",
     "orgId": "ncar",
-    "lastAttemptISO": "2026-09-04T05:27:09.532Z",
+    "lastAttemptISO": "2026-09-04T11:29:29.055Z",
     "lastSuccessISO": "2026-09-02T23:42:46.216Z",
-    "consecutiveFailures": 5,
+    "consecutiveFailures": 6,
     "lastError": "robots.txt: robots.txt answered 200 with a web page rather than a rules file, so the site was never actually asked; a browser reached it but the body was not a robots.txt, so it is treated as a refusal",
-    "state": "degraded"
+    "state": "broken"
   },
   {
     "sourceUrl": "https://ncdc.gov.sa/",
@@ -1901,8 +1901,8 @@
   {
     "sourceUrl": "https://www.aecl.com/ar/",
     "orgId": "aec",
-    "lastAttemptISO": "2026-09-04T05:27:09.532Z",
-    "lastSuccessISO": "2026-09-04T05:27:09.532Z",
+    "lastAttemptISO": "2026-09-04T11:29:29.055Z",
+    "lastSuccessISO": "2026-09-04T11:29:29.055Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -1991,8 +1991,8 @@
   {
     "sourceUrl": "https://www.alrajhibank.com.sa/",
     "orgId": "alrajhi",
-    "lastAttemptISO": "2026-09-04T05:27:09.532Z",
-    "lastSuccessISO": "2026-09-04T05:27:09.532Z",
+    "lastAttemptISO": "2026-09-04T11:29:29.055Z",
+    "lastSuccessISO": "2026-09-04T11:29:29.055Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -2126,9 +2126,9 @@
   {
     "sourceUrl": "https://www.citc.gov.sa/ar/Pages/default.aspx",
     "orgId": "citc",
-    "lastAttemptISO": "2026-09-04T05:27:09.532Z",
+    "lastAttemptISO": "2026-09-04T11:29:29.055Z",
     "lastSuccessISO": "2026-09-03T04:22:58.520Z",
-    "consecutiveFailures": 3,
+    "consecutiveFailures": 4,
     "lastError": "robots.txt: robots.txt answered 200 with a web page rather than a rules file, so the site was never actually asked; a browser reached it but the body was not a robots.txt, so it is treated as a refusal",
     "state": "degraded"
   },
@@ -3026,9 +3026,9 @@
   {
     "sourceUrl": "https://www.mot.gov.sa/ar/Pages/default.aspx",
     "orgId": "mot",
-    "lastAttemptISO": "2026-09-04T05:27:09.532Z",
+    "lastAttemptISO": "2026-09-04T11:29:29.055Z",
     "lastSuccessISO": "2026-08-30T00:02:43.835Z",
-    "consecutiveFailures": 18,
+    "consecutiveFailures": 19,
     "lastError": "fetch failed",
     "state": "broken"
   },
@@ -3368,8 +3368,8 @@
   {
     "sourceUrl": "https://www.saib.com.sa/ar",
     "orgId": "saib",
-    "lastAttemptISO": "2026-09-04T05:27:09.532Z",
-    "lastSuccessISO": "2026-09-04T05:27:09.532Z",
+    "lastAttemptISO": "2026-09-04T11:29:29.055Z",
+    "lastSuccessISO": "2026-09-04T11:29:29.055Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
