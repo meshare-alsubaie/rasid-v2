@@ -2184,9 +2184,9 @@
   {
     "sourceUrl": "https://gaca.gov.sa/ar/News",
     "orgId": "gaca",
-    "contentHash": "48e197d8f64c2c61629557e6a8331d605307a2082434ec5008d44258c8fcc370",
+    "contentHash": "b0976a9a27aae9cdbe96f9560cd46ebc35228b9a9bba9c8fc6228eef60c28305",
     "blockHashes": [
-      "d4752ac3b6b9bff3",
+      "8ae6afd94ca8f35f",
       "fa5c90da8c7623db",
       "c84b4ce195a4a7a7",
       "d0191f9ce7cda459",
@@ -2264,10 +2264,10 @@
     "extractedChars": 22059,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-04T05:56:46.725Z",
+    "lastChangedISO": "2026-09-04T09:05:33.502Z",
     "thinRuns": 0,
     "pendingClassification": false,
-    "settledWithoutVerdict": "triaged_out"
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://gaca.gov.sa/news",
@@ -2943,8 +2943,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-04T05:56:46.725Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://misa.gov.sa/ar/media-center/announcements/",
@@ -6341,10 +6340,10 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/careers?lang=ar",
     "orgId": "hrc",
-    "contentHash": "cc8946ee449d59f0be4a7d15e477a86de7baa90246db3d2494535b8251f7b783",
+    "contentHash": "6f510ad99071c4f76f9f79e0debdd4847614f7864f4f6ac4a96b775da9abdbf5",
     "blockHashes": [
       "12e41a244a8a2984",
-      "61ab59ee98d08553",
+      "5f1f185151435b0f",
       "9bd6314e9bbc7375",
       "474d2dbb69aae30b",
       "84b2fc11813dc7e8",
@@ -6368,7 +6367,7 @@
     "extractedChars": 3794,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-04T05:56:46.725Z",
+    "lastChangedISO": "2026-09-04T09:05:33.502Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -7590,9 +7589,9 @@
   {
     "sourceUrl": "https://www.mim.gov.sa/ar/media-center/news",
     "orgId": "mim",
-    "contentHash": "db4815decd113c0aa9b7c00b1e9f9a580ba8910626d1afc3f54a8f44e4ba5603",
+    "contentHash": "9ce0d2d02e6350f37fb698feeca8b1ff40d98f34c4f34c7fe4a10350895fd3a8",
     "blockHashes": [
-      "0dc56d6995692b22",
+      "8210ebc1772c489a",
       "e6f6bf20c0c7405d",
       "1463ce99001bf0a0",
       "47a950af7f4b0342",
@@ -7624,7 +7623,7 @@
     "extractedChars": 10700,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-04T05:48:00.498Z",
+    "lastChangedISO": "2026-09-04T09:05:33.502Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
