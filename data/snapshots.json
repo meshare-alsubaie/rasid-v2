@@ -3595,7 +3595,7 @@
     "orgId": "ndf",
     "contentHash": "5d2f4919895279fd5d67033785263895f5b8ed9eef0c2b46215216dacb1b270f",
     "blockHashes": [
-      "e974475b41e0ac57",
+      "ab1ec6dc4e2cc46f",
       "b4a5c7cd60560196",
       "4c268b289192e891",
       "d91f8453abc8bd97",
@@ -3606,7 +3606,8 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-04T06:41:08.999Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://ndf.gov.sa/media-center/articles/article-human-resource-development",

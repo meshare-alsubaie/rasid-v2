@@ -1469,8 +1469,8 @@
   {
     "sourceUrl": "https://ndf.gov.sa/media-center/articles",
     "orgId": "ndf",
-    "lastAttemptISO": "2026-09-04T06:41:08.999Z",
-    "lastSuccessISO": "2026-09-04T06:41:08.999Z",
+    "lastAttemptISO": "2026-09-04T09:46:38.626Z",
+    "lastSuccessISO": "2026-09-04T09:46:38.626Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -3512,11 +3512,11 @@
   {
     "sourceUrl": "https://www.saudiexchange.sa/wps/portal/saudiexchange/newsandreports/issuer-financial-calendars/general-assembly-meetings?locale=ar",
     "orgId": "tadawul",
-    "lastAttemptISO": "2026-09-04T06:30:44.807Z",
+    "lastAttemptISO": "2026-09-04T09:46:38.626Z",
     "lastSuccessISO": "2026-09-02T23:42:46.216Z",
-    "consecutiveFailures": 5,
+    "consecutiveFailures": 6,
     "lastError": "HTTP 403",
-    "state": "degraded"
+    "state": "broken"
   },
   {
     "sourceUrl": "https://www.saudiexchange.sa/wps/portal/saudiexchange/newsandreports/issuer-news?locale=ar",
