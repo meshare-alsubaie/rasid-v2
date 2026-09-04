@@ -135,7 +135,7 @@
   {
     "sourceUrl": "https://adf.gov.sa/ar/Pages/default.aspx",
     "orgId": "adf",
-    "contentHash": "06bfd6754bb406487a357a696bc64783f50af7cd95bdaf4c5a959bf18193e936",
+    "contentHash": "556df0c3333e35fb414c42efff754115020f9e73b5320b768b42932db85cacc4",
     "blockHashes": [
       "1ce798e0ca5f6070",
       "9e8708f46644e878",
@@ -156,12 +156,12 @@
       "782261474561a27a",
       "74b06ac36e5c75b0"
     ],
-    "extractedChars": 1663,
+    "extractedChars": 1665,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
-    "lastChangedISO": "2026-09-03T05:58:52.536Z",
+    "lastChangedISO": "2026-09-04T06:28:32.793Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://adf.gov.sa/ar/Pages/employment.aspx",
@@ -3135,7 +3135,7 @@
   {
     "sourceUrl": "https://momah.gov.sa/ar/form/partnerships-and-cooperation",
     "orgId": "housing",
-    "contentHash": "1ee626cf21cfaa9240c9fece8ca3dac88e35cfd8be600db7a72e508a0bc9b71a",
+    "contentHash": "9b1e171c3e62e42ea0e3e9342b21708313c30b9f9ddc87abfe9bc20f74ed8b6f",
     "blockHashes": [
       "bc22896c0dc046da",
       "d2009185b8a1a230",
@@ -3168,7 +3168,7 @@
     "extractedChars": 151356,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-04T03:12:19.874Z",
+    "lastChangedISO": "2026-09-04T06:28:32.793Z",
     "thinRuns": 0,
     "pendingClassification": true
   },
@@ -3566,7 +3566,7 @@
   {
     "sourceUrl": "https://ndf.gov.sa/media-center",
     "orgId": "ndf",
-    "contentHash": "1f72270656c4aa50b9972b1419a8467258ab87fc35c740802b18e1c477d0c375",
+    "contentHash": "08ceae60515024d7247999a3061e6257178e19536d6366e8eaf19d477ed73864",
     "blockHashes": [
       "efb707f748092102",
       "8bf6c2343ffd8520",
@@ -3577,9 +3577,9 @@
     "extractedChars": 4058,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-02T23:42:46.216Z",
+    "lastChangedISO": "2026-09-04T06:28:32.793Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://ndf.gov.sa/media-center/annual-reports",
@@ -5668,7 +5668,7 @@
       "1928fdbb5b09339c",
       "5cf7ef5e6f3bc94c"
     ],
-    "extractedChars": 509,
+    "extractedChars": 1418,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
     "lastChangedISO": "2026-08-31T00:02:49.563Z",
@@ -6486,7 +6486,7 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/news?lang=ar",
     "orgId": "hrc",
-    "contentHash": "bfd6114b5301c04df3727560fad7a34fb2722921a124b961904cbf784abb4ae7",
+    "contentHash": "3d31407b8ffdf27825d3fc626100c82bcf7ae2f8f176760e770ebab40a74f661",
     "blockHashes": [
       "12e41a244a8a2984",
       "b83c3dbb3389dc4e",
@@ -6519,10 +6519,9 @@
     "extractedChars": 5431,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-04T03:12:19.874Z",
+    "lastChangedISO": "2026-09-04T06:28:32.793Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://www.hrdf.org.sa/products-and-services/programs/individuals/training/cooperative-training/",
@@ -6886,7 +6885,7 @@
   {
     "sourceUrl": "https://www.jadwa.com/en",
     "orgId": "jadwa",
-    "contentHash": "8aef61a9bea305e70456abbfe591216b71359abe3e3bfd5c86cc7e7bee8a75d2",
+    "contentHash": "ea7a29feb706351de02ab5a3057f47802057fc963704b8d67c61762884771c3f",
     "blockHashes": [
       "8e755ce1b7d492e5",
       "09ee36a93af365f4",
@@ -6902,12 +6901,12 @@
       "a010c17754802d58",
       "3ab518f9cbc3c6b4"
     ],
-    "extractedChars": 2363,
+    "extractedChars": 2323,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-08-31T00:02:49.563Z",
+    "lastChangedISO": "2026-09-04T06:28:32.793Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://www.jadwa.com/en/announcements",
