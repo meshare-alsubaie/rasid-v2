@@ -7478,7 +7478,7 @@
       "12e41a244a8a2984",
       "c804732dd480d71a",
       "74e4c1d2a646a96e",
-      "c07584b493eb6902",
+      "52f5333cb9ada13e",
       "eaca30400015cdec",
       "b957f376a744a274",
       "2a4972a6e12ecc2a",
@@ -7491,7 +7491,8 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-04T06:30:44.807Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://www.mewa.gov.sa/ar/MediaCenter/VisualIdentityGuide/Pages/default.aspx",
@@ -8503,7 +8504,7 @@
     "orgId": "nazaha",
     "contentHash": "2e4032a272e72801bdafd523621f58448b4735ee62a9648fff64074ed1d0e86c",
     "blockHashes": [
-      "a17674a31330e660",
+      "7e49fbf4ccfb338c",
       "8d35c6dbfb6149bf",
       "934470dd7b84953f",
       "db91f83ef7359a6e"
@@ -8513,7 +8514,8 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-04T06:30:44.807Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "triaged_out"
   },
   {
     "sourceUrl": "https://www.ncc.gov.sa/ar/MediaCenter/Events/Pages/default.aspx",
@@ -9127,14 +9129,14 @@
   {
     "sourceUrl": "https://www.rcrc.gov.sa/careers/?lang=ar",
     "orgId": "rcrc",
-    "contentHash": "856b02b2d8818c06427531f825477c5274f5c06791c6a42e128e48e93f79d965",
+    "contentHash": "930f3837bc23867061f593c8597bfa550ed1298de728b09f9d006b8e900562b4",
     "blockHashes": [
       "6b3de91cda203c2d"
     ],
     "extractedChars": 1167,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-04T08:45:41.247Z",
+    "lastChangedISO": "2026-09-04T09:40:21.411Z",
     "thinRuns": 0,
     "pendingClassification": true
   },
