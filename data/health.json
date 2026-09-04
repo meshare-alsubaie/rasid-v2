@@ -479,8 +479,8 @@
   {
     "sourceUrl": "https://careers.anb.sa/ar/",
     "orgId": "anb",
-    "lastAttemptISO": "2026-09-03T12:02:20.812Z",
-    "lastSuccessISO": "2026-09-03T12:02:20.812Z",
+    "lastAttemptISO": "2026-09-04T05:38:46.756Z",
+    "lastSuccessISO": "2026-09-04T05:38:46.756Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -497,9 +497,9 @@
   {
     "sourceUrl": "https://careers.bahri.sa/",
     "orgId": "bahri",
-    "lastAttemptISO": "2026-09-03T12:02:20.812Z",
+    "lastAttemptISO": "2026-09-04T05:38:46.756Z",
     "lastSuccessISO": "2026-09-02T23:42:46.216Z",
-    "consecutiveFailures": 4,
+    "consecutiveFailures": 5,
     "lastError": "robots.txt: robots.txt answered 200 with a web page rather than a rules file, so the site was never actually asked; a browser reached it but the body was not a robots.txt, so it is treated as a refusal",
     "state": "degraded"
   },
@@ -695,8 +695,8 @@
   {
     "sourceUrl": "https://careers.saib.com.sa/ar/page/coop-program/",
     "orgId": "saib",
-    "lastAttemptISO": "2026-09-03T11:47:31.105Z",
-    "lastSuccessISO": "2026-09-03T11:47:31.105Z",
+    "lastAttemptISO": "2026-09-04T05:38:46.756Z",
+    "lastSuccessISO": "2026-09-04T05:38:46.756Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -749,8 +749,8 @@
   {
     "sourceUrl": "https://careers.sama.gov.sa/search/",
     "orgId": "sama",
-    "lastAttemptISO": "2026-09-04T04:19:56.314Z",
-    "lastSuccessISO": "2026-09-04T04:19:56.314Z",
+    "lastAttemptISO": "2026-09-04T05:38:46.756Z",
+    "lastSuccessISO": "2026-09-04T05:38:46.756Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -902,8 +902,8 @@
   {
     "sourceUrl": "https://futureskills.mcit.gov.sa/ar/catalogue/all",
     "orgId": "mcit",
-    "lastAttemptISO": "2026-09-03T11:47:31.105Z",
-    "lastSuccessISO": "2026-09-03T11:47:31.105Z",
+    "lastAttemptISO": "2026-09-04T05:38:46.756Z",
+    "lastSuccessISO": "2026-09-04T05:38:46.756Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -1541,8 +1541,8 @@
   {
     "sourceUrl": "https://nour.net.sa/news/",
     "orgId": "nournet",
-    "lastAttemptISO": "2026-09-03T04:02:53.097Z",
-    "lastSuccessISO": "2026-09-03T04:02:53.097Z",
+    "lastAttemptISO": "2026-09-04T05:38:46.756Z",
+    "lastSuccessISO": "2026-09-04T05:38:46.756Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -1748,8 +1748,8 @@
   {
     "sourceUrl": "https://talent.mc.gov.sa/",
     "orgId": "mc",
-    "lastAttemptISO": "2026-09-03T12:02:20.812Z",
-    "lastSuccessISO": "2026-09-03T12:02:20.812Z",
+    "lastAttemptISO": "2026-09-04T05:38:46.756Z",
+    "lastSuccessISO": "2026-09-04T05:38:46.756Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -1793,11 +1793,11 @@
   {
     "sourceUrl": "https://thiqah.sa/",
     "orgId": "thiqah",
-    "lastAttemptISO": "2026-09-03T12:02:20.812Z",
-    "lastSuccessISO": "2026-09-03T10:40:27.409Z",
-    "consecutiveFailures": 1,
-    "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
-    "state": "degraded"
+    "lastAttemptISO": "2026-09-04T05:38:46.756Z",
+    "lastSuccessISO": "2026-09-04T05:38:46.756Z",
+    "consecutiveFailures": 0,
+    "lastError": null,
+    "state": "healthy"
   },
   {
     "sourceUrl": "https://training.moj.gov.sa/",
@@ -2909,11 +2909,11 @@
   {
     "sourceUrl": "https://www.mofa.gov.sa/ar/ministry/news/Pages/default.aspx",
     "orgId": "mofa",
-    "lastAttemptISO": "2026-09-03T04:10:56.997Z",
+    "lastAttemptISO": "2026-09-04T05:38:46.756Z",
     "lastSuccessISO": "2026-09-03T04:10:56.997Z",
-    "consecutiveFailures": 0,
-    "lastError": null,
-    "state": "healthy"
+    "consecutiveFailures": 1,
+    "lastError": "robots.txt: robots.txt answered 200 with a web page rather than a rules file, so the site was never actually asked; a browser reached it but the body was not a robots.txt, so it is treated as a refusal",
+    "state": "degraded"
   },
   {
     "sourceUrl": "https://www.moh.gov.sa/ministry/mediacenter/ads/pages/default.aspx",
@@ -3422,8 +3422,8 @@
   {
     "sourceUrl": "https://www.sami.com.sa/",
     "orgId": "sami",
-    "lastAttemptISO": "2026-09-03T12:02:20.812Z",
-    "lastSuccessISO": "2026-09-03T12:02:20.812Z",
+    "lastAttemptISO": "2026-09-04T05:38:46.756Z",
+    "lastSuccessISO": "2026-09-04T05:38:46.756Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -3449,9 +3449,9 @@
   {
     "sourceUrl": "https://www.sar.com.sa/",
     "orgId": "sar",
-    "lastAttemptISO": "2026-09-03T12:02:20.812Z",
+    "lastAttemptISO": "2026-09-04T05:38:46.756Z",
     "lastSuccessISO": "2026-09-03T04:33:38.070Z",
-    "consecutiveFailures": 2,
+    "consecutiveFailures": 3,
     "lastError": "robots.txt: robots.txt answered 200 with a web page rather than a rules file, so the site was never actually asked; a browser reached it but the body was not a robots.txt, so it is treated as a refusal",
     "state": "degraded"
   },
@@ -3755,8 +3755,8 @@
   {
     "sourceUrl": "https://www.stats.gov.sa/en/cooperative-training",
     "orgId": "gastat",
-    "lastAttemptISO": "2026-09-03T11:47:31.105Z",
-    "lastSuccessISO": "2026-09-03T11:47:31.105Z",
+    "lastAttemptISO": "2026-09-04T05:38:46.756Z",
+    "lastSuccessISO": "2026-09-04T05:38:46.756Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -3809,8 +3809,8 @@
   {
     "sourceUrl": "https://www.taifcity.gov.sa/#/ar",
     "orgId": "taif_amanah",
-    "lastAttemptISO": "2026-09-03T12:02:20.812Z",
-    "lastSuccessISO": "2026-09-03T12:02:20.812Z",
+    "lastAttemptISO": "2026-09-04T05:38:46.756Z",
+    "lastSuccessISO": "2026-09-04T05:38:46.756Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
