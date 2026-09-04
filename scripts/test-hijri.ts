@@ -226,5 +226,39 @@ console.log("\na numeric date that has two honest readings says so");
   check("a Hijri numeric date is unaffected", hijri.calendar === "hijri" && hijri.ambiguousOrder !== true);
 }
 
+
+console.log("\nthe shapes an English-language Saudi portal prints");
+{
+  /*
+   * Taken from the live verdict memory, where the model had copied them off the
+   * page correctly and this file threw them away. `DAY_BEFORE` allowed
+   * whitespace and Arabic words between the digits and the month name, and the
+   * year pattern allowed letters and commas - neither allowed a hyphen, which
+   * is the separator these portals use.
+   */
+  const shapes: [string, string][] = [
+    ["06-May-2026", "2026-05-06"],
+    ["14-Sep-2023", "2023-09-14"],
+    ["06/May/2026", "2026-05-06"],
+    ["6 May 2026", "2026-05-06"],
+    ["31-October-2025", "2025-10-31"],
+  ];
+  for (const [text, want] of shapes) {
+    const got = parseArabicDate(text).iso;
+    check(`${text} reads as ${want}`, got === want, String(got));
+  }
+
+  /*
+   * The refusals that must survive the loosening. A month with no day, a word
+   * that is not a date, and prose all have to stay null - a parser that starts
+   * inventing dates from these is worse than one that reads too few.
+   */
+  const refuse = ["مايو 2025", "مغلق", "خلال فترات التسجيل للتدريب التعاوني", "2025-2026"];
+  for (const text of refuse) {
+    const got = parseArabicDate(text).iso;
+    check(`"${text}" is still refused`, got === null, String(got));
+  }
+}
+
 console.log(`\n${failures === 0 ? "all checks passed" : `${failures} CHECK(S) FAILED`}`);
 process.exit(failures === 0 ? 0 : 1);

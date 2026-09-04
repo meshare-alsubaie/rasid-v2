@@ -152,7 +152,16 @@ const GREGORIAN_MONTHS: [RegExp, number][] = [
  * read as no date at all. That is the same leftover-letter problem the month
  * patterns were already written to survive on the right.
  */
-const DAY_BEFORE = /(\d{1,2})\s*(?:من\s+)?(?:شهر\s+)?(?:ال)?\s*$/;
+/*
+ * A hyphen or a slash is a separator too.
+ *
+ * The pattern allowed whitespace and Arabic words and nothing else, so
+ * `06-May-2026` and `14-Sep-2023` - which are what an English-language Saudi
+ * careers portal actually prints - were read as no date at all. Both were
+ * sitting in the live verdict memory, copied correctly off the page by the
+ * model, and thrown away here.
+ */
+const DAY_BEFORE = /(\d{1,2})\s*[-/.]?\s*(?:من\s+)?(?:شهر\s+)?(?:ال)?\s*$/;
 
 /** "غرة رمضان" is the first of the month, and this file documented it as read. */
 const FIRST_OF_MONTH = /(?:غرّة|غرة|أوّل|أول|اول)\s*(?:من\s+)?(?:شهر\s+)?(?:ال)?\s*$/;
@@ -250,7 +259,8 @@ function allDates(text: string): Sighting[] {
         if (day === undefined) continue;
         // "هـ", "ه", "من عام", a comma — a few Arabic letters may stand between
         // the month and its year without meaning the year is absent.
-        const year = /^[\s\p{L}ـ.،,]{0,10}?(\d{4})/u.exec(after)?.[1];
+        // `-` and `/` for the `06-May-2026` shape; see DAY_BEFORE.
+        const year = /^[\s\p{L}ـ.،,\-/]{0,10}?(\d{4})/u.exec(after)?.[1];
 
         if (calendar === "gregorian") {
           if (year === undefined || !/^(19|20|21)\d\d$/.test(year)) {

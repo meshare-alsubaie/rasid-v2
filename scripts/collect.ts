@@ -27,6 +27,7 @@ import {
   addUsage,
   classify,
   costOf,
+  notCopiedFrom,
   studentProfile,
   triage,
   type Classification,
@@ -630,6 +631,8 @@ let classified = 0;
 let notAnnouncements = 0;
 /** Pages whose changed text did not mention training at all. Never silent. */
 let skippedByFilter = 0;
+/** Remembered verdicts thrown out because their wording is not on the page. */
+let poisonedVerdicts = 0;
 /** Pages answered from a verdict already paid for. */
 let fromMemory = 0;
 /** Pages the one-word question ruled out before the expensive one. */
@@ -643,14 +646,67 @@ let triagedOut = 0;
  * one there is no point buying twice.
  */
 const VERDICTS_FILE = "data/verdicts.json";
-type RememberedVerdict = Record<string, Classification | null>;
-const verdicts = new Map<string, Classification | null>(
-  Object.entries(
-    existsSync(VERDICTS_FILE)
-      ? (JSON.parse(readFileSync(VERDICTS_FILE, "utf8")) as RememberedVerdict)
-      : {},
-  ),
-);
+
+/**
+ * The verdict memory, stamped with the model that filled it.
+ *
+ * It was a bare map of fingerprint to verdict, and that made it a cache with no
+ * way to go stale. When the classifier moved from llama3.1 to qwen3:8b - because
+ * llama3.1 could not write Arabic, which is the root cause the audit spent its
+ * whole length looking for - every answer that model had already given stayed in
+ * this file and went on being replayed. `collect` looks the fingerprint up,
+ * finds a hit, and hands the old verdict straight to `fromClassification`, which
+ * never sees the copied-wording guard because that guard lives inside
+ * `classify()`.
+ *
+ * The damage is visible in the data. Twenty-two of ninety-four remembered
+ * verdicts carry a title in Arabic letters that is not Arabic words: `hrsd` is
+ * stored as a run of non-words over a page whose extracted text reads perfectly.
+ * Their dates are the same quality - "06 اوعأبت 2023", "06-ميع 2026" - which is
+ * a large part of why the dataset holds three dates across every record it has.
+ *
+ * And nothing could ever clear them: the page has not changed, so the
+ * fingerprint still matches, so the poisoned answer is returned again. A cache
+ * that cannot be invalidated by the thing that produced it is not a cache, it is
+ * a permanent record of one model's worst day.
+ *
+ * A stamp fixes both halves. A file written by a different model is not read at
+ * all, so changing the model re-judges everything at local-CPU cost and nothing
+ * else; and a file with no stamp is from before this existed, which is exactly
+ * the era being thrown away.
+ */
+interface VerdictFile {
+  model: string;
+  writtenISO: string;
+  verdicts: Record<string, Classification | null>;
+}
+
+const verdicts = ((): Map<string, Classification | null> => {
+  if (!existsSync(VERDICTS_FILE)) return new Map();
+  let raw: unknown;
+  try {
+    raw = JSON.parse(readFileSync(VERDICTS_FILE, "utf8").replace(/^﻿/, ""));
+  } catch {
+    console.log("verdict memory: unreadable, starting empty");
+    return new Map();
+  }
+  const file = raw as Partial<VerdictFile>;
+  if (typeof file?.model !== "string" || file.verdicts === undefined) {
+    console.log(
+      "verdict memory: written before the model was recorded, so it is discarded." +
+        " Every page will be judged again by the current model.",
+    );
+    return new Map();
+  }
+  if (file.model !== CLASSIFIER_MODEL) {
+    console.log(
+      `verdict memory: written by ${file.model}, and the classifier is now ${CLASSIFIER_MODEL}.` +
+        " Discarded rather than replayed.",
+    );
+    return new Map();
+  }
+  return new Map(Object.entries(file.verdicts));
+})();
 
 /**
  * Pages the one-word triage ruled out during *this* run.
@@ -849,10 +905,39 @@ if (!NO_CLASSIFY && !DRY_RUN) {
     }
 
     const remembered = verdicts.get(fingerprint);
-    if (!RECLASSIFY && remembered !== undefined) {
+    /*
+     * A remembered verdict faces the same guard a fresh one does.
+     *
+     * `notCopiedFrom` lives inside `classify()`, so this branch — which skips
+     * `classify()` entirely, that being the point of it — was the one route
+     * into the dataset that never checked whether the model's wording is
+     * actually on the page. A verdict recorded before the guard existed was
+     * therefore replayed for ever, and could not be dislodged: the page has not
+     * changed, so the fingerprint matches, so the same answer comes back.
+     *
+     * The text is right here, so checking costs a substring search. A verdict
+     * that fails is dropped from the memory and the page falls through to be
+     * judged again below, which is exactly what should have happened the first
+     * time.
+     */
+    if (!RECLASSIFY && remembered != null) {
+      const invented = notCopiedFrom(text, remembered);
+      if (invented.length > 0) {
+        verdicts.delete(fingerprint);
+        poisonedVerdicts++;
+        reviewQueue.push(
+          `  ${snap.orgId.padEnd(14)} ${"stale verdict".padEnd(15)} remembered wording is not on the page: ${invented
+            .slice(0, 2)
+            .join("; ")}`,
+        );
+        // Fall through: it is judged again this round, by the current model.
+      }
+    }
+    if (!RECLASSIFY && verdicts.get(fingerprint) !== undefined) {
+      const cached = verdicts.get(fingerprint);
       fromMemory++;
       snap.pendingClassification = false;
-      if (remembered === null) {
+      if (cached === null || cached === undefined) {
         notAnnouncements++;
         continue;
       }
@@ -871,7 +956,7 @@ if (!NO_CLASSIFY && !DRY_RUN) {
         firstTime: prior
           ? prior.flags.includes("first_time_seen")
           : !orgsWithHistory.has(snap.orgId),
-        c: remembered,
+        c: cached,
       });
       opportunityById.set(record.id, record);
       classified++;
@@ -1222,7 +1307,12 @@ if (!DRY_RUN) {
    */
   const MAX_REMEMBERED = 3_000;
   const kept = [...verdicts.entries()].slice(-MAX_REMEMBERED);
-  writeAtomic(VERDICTS_FILE, JSON.stringify(Object.fromEntries(kept), null, 2) + "\n");
+  const verdictFile: VerdictFile = {
+    model: CLASSIFIER_MODEL,
+    writtenISO: now,
+    verdicts: Object.fromEntries(kept),
+  };
+  writeAtomic(VERDICTS_FILE, JSON.stringify(verdictFile, null, 2) + "\n");
 }
 
 const byState = (s: HealthState): number => health.filter((h) => h.state === s).length;
