@@ -10350,7 +10350,7 @@
     "orgId": "sidf",
     "contentHash": "353402d4143fbed33726b292dfba85a782ff148eec9112ff0a1371f5470c7856",
     "blockHashes": [
-      "ec7d4599449154fe",
+      "dbc340fae0f6d6e4",
       "25b3bc91b9810520"
     ],
     "extractedChars": 288,
@@ -10358,7 +10358,8 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-04T05:34:05.761Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://www.simah.com/en/personal/pages/default.aspx",
