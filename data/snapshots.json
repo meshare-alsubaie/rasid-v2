@@ -3565,7 +3565,7 @@
     "orgId": "ndf",
     "contentHash": "08ceae60515024d7247999a3061e6257178e19536d6366e8eaf19d477ed73864",
     "blockHashes": [
-      "efb707f748092102",
+      "3cc0d0dc153bfdde",
       "8bf6c2343ffd8520",
       "fb0d9256a76422f3",
       "eeac3e91395fd6e9",
@@ -3576,7 +3576,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-04T06:28:32.793Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://ndf.gov.sa/media-center/annual-reports",
@@ -6474,10 +6474,10 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/news?lang=ar",
     "orgId": "hrc",
-    "contentHash": "3d31407b8ffdf27825d3fc626100c82bcf7ae2f8f176760e770ebab40a74f661",
+    "contentHash": "4418fada3cc02b0540cb04a6475a125e61968dacdc8d881203a0eb19c47435bf",
     "blockHashes": [
       "12e41a244a8a2984",
-      "b83c3dbb3389dc4e",
+      "e90fdecdc9637028",
       "b36f463f827d4fac",
       "a8285d033b0740f8",
       "bb698175f42936ba",
@@ -6507,9 +6507,10 @@
     "extractedChars": 5431,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-04T06:28:32.793Z",
+    "lastChangedISO": "2026-09-04T09:33:07.212Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://www.hrdf.org.sa/products-and-services/programs/individuals/training/cooperative-training/",
