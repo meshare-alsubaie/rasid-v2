@@ -8462,7 +8462,7 @@
     "orgId": "nazaha",
     "contentHash": "577fd1c9a320859ec47556895f5fdc73fe65702523ab4844b2cd3e18ac1da1f2",
     "blockHashes": [
-      "27054ce28ddd719f",
+      "265a1e9ccac575ed",
       "366f824a751bf3bd",
       "a96b8a7b6f568013",
       "4d9af472ef4907d3",
@@ -8485,7 +8485,8 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-04T06:04:12.470Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://www.nazaha.gov.sa/News/Details?q=LDqaftYCK2agKydxrbY5fg==",
