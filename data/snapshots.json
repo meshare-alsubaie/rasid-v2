@@ -237,9 +237,9 @@
   {
     "sourceUrl": "https://alinma.com/",
     "orgId": "alinma",
-    "contentHash": "b5f477dd4228f602c7c42b9bb3f1d9ea19acea7be5fd89f8443012440e47855a",
+    "contentHash": "8b8c83232c4fbceb588a3867c39ee5488fbc83f33352cd26a3816f7ebc85e837",
     "blockHashes": [
-      "b2a9e419817cc876",
+      "39a5b8e64279e99a",
       "7472f35a35d5be62",
       "5a893dabed2d6dcf",
       "cfc4a6c7d4a4fcdc",
@@ -250,22 +250,23 @@
     "extractedChars": 1212,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T22:03:35.383Z",
-    "lastChangedISO": "2026-09-04T03:39:47.081Z",
+    "lastChangedISO": "2026-09-04T04:19:56.314Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "triaged_out"
   },
   {
     "sourceUrl": "https://alinma.com/About-the-Bank/The-Bank/News",
     "orgId": "alinma",
-    "contentHash": "e16d4fd06b79ef10e7e4c6465cb982bbba522e01ef9139da449d3509631be344",
+    "contentHash": "51dc940e2ef33dc1cef7893c6c367b5afbc55c6353e62992f582a1d930d530e7",
     "blockHashes": [
-      "b0ca489b276a15be",
+      "cd7fc326454450e2",
       "5f5056d49f495bbe"
     ],
     "extractedChars": 3675,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-04T03:49:59.769Z",
+    "lastChangedISO": "2026-09-04T04:19:56.314Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -415,16 +416,16 @@
   {
     "sourceUrl": "https://alinma.com/About-the-Bank/The-Bank/News/2026/8/amwal-tech",
     "orgId": "alinma",
-    "contentHash": "1f139e8c276956238585a18d748366d53b9fbdeea10761be4d62bc00da78239a",
+    "contentHash": "28852c812f5e33a63c92c2e566291b770b0344c9e807f444fe20a3a1a50ed316",
     "blockHashes": [
-      "6edcd192b914f755",
+      "0f22a5282aebb909",
       "17d37ab6b71387ee",
       "fb5eb1dea74e03e2"
     ],
     "extractedChars": 737,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-04T03:49:59.769Z",
+    "lastChangedISO": "2026-09-04T04:19:56.314Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -432,9 +433,9 @@
   {
     "sourceUrl": "https://alinma.com/About-the-Bank/The-Bank/News/2026/8/IFN-Awards",
     "orgId": "alinma",
-    "contentHash": "c512c9a9794eaa138916d646dd382eb0657cf846605d0c139e1030b6a6e61985",
+    "contentHash": "dbeffdd06bf68a76a13cee851acdd706673dfacd9e3bf206708086b2817a8e4a",
     "blockHashes": [
-      "a87f525932d1eef6",
+      "cf9812257f374162",
       "1ed01ab7550902a3",
       "edb0eb72f14698e7",
       "ec081929f22e36ea",
@@ -443,7 +444,7 @@
     "extractedChars": 1052,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-04T03:49:59.769Z",
+    "lastChangedISO": "2026-09-04T04:19:56.314Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -451,14 +452,14 @@
   {
     "sourceUrl": "https://alinma.com/en/About-the-Bank/The-Bank/News/2009/02/alinma-bank-selects-and-prepares-its-phone-banking-and-training-center-location",
     "orgId": "alinma",
-    "contentHash": "f8f6bc7f0b8d44dc6115d5b5c11e2acfc88467694f3419b677c1c105a9f02b58",
+    "contentHash": "7731907e702cdac19eb154223a0ecec0a8f8e014870a3932abe49d219009f725",
     "blockHashes": [
-      "f8f6bc7f0b8d44dc"
+      "7731907e702cdac1"
     ],
     "extractedChars": 285,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T23:54:26.779Z",
-    "lastChangedISO": "2026-09-04T03:49:59.769Z",
+    "lastChangedISO": "2026-09-04T04:19:56.314Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "triaged_out"
@@ -3992,16 +3993,14 @@
   {
     "sourceUrl": "https://site.sa/",
     "orgId": "site",
-    "contentHash": "abf64154e9186a20f4fb45eae081f584705860728eb1e994a994a4f9ea6b67bf",
+    "contentHash": "d63bad788850f80c2691f8ab1d85e27ed57fdac1aed1b2a258390ef77b04c649",
     "blockHashes": [
-      "353982acccd83575",
-      "994dda06630e8e23",
-      "83437a656392be3f"
+      "d63bad788850f80c"
     ],
-    "extractedChars": 1312,
+    "extractedChars": 598,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-04T03:49:59.769Z",
+    "lastChangedISO": "2026-09-04T04:19:56.314Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -4842,9 +4841,9 @@
   {
     "sourceUrl": "https://www.alinma.com/",
     "orgId": "alinma",
-    "contentHash": "b5f477dd4228f602c7c42b9bb3f1d9ea19acea7be5fd89f8443012440e47855a",
+    "contentHash": "8b8c83232c4fbceb588a3867c39ee5488fbc83f33352cd26a3816f7ebc85e837",
     "blockHashes": [
-      "b2a9e419817cc876",
+      "39a5b8e64279e99a",
       "7472f35a35d5be62",
       "5a893dabed2d6dcf",
       "cfc4a6c7d4a4fcdc",
@@ -4855,7 +4854,7 @@
     "extractedChars": 1212,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-04T03:39:47.081Z",
+    "lastChangedISO": "2026-09-04T04:19:56.314Z",
     "thinRuns": 0,
     "pendingClassification": false
   },

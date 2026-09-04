@@ -18,7 +18,7 @@
  *   npm run collect -- --dry-run     fetch and report, write nothing
  *   npm run collect -- --verbose     one line per source
  */
-import { existsSync, readFileSync, renameSync, writeFileSync } from "node:fs";
+import { existsSync, mkdirSync, readFileSync, renameSync, rmSync, writeFileSync } from "node:fs";
 import pLimit from "p-limit";
 import { HAS_CONTACT, USER_AGENT } from "../src/pipeline/agent";
 import { browserUnavailable, closeBrowser, renderPage } from "../src/pipeline/browser";
@@ -96,6 +96,79 @@ const LIMIT = ((): number => {
 const onlyArg = args.indexOf("--only");
 /** Debug one source without hitting every host again. */
 const ONLY = onlyArg >= 0 ? args[onlyArg + 1] : null;
+
+/**
+ * One collector at a time, because two of them destroy each other's round.
+ *
+ * Every file this script produces is written at the very end, in one block. So
+ * two collectors do not interleave, they overwrite: whichever finishes second
+ * writes `health.json`, `snapshots.json` and `opportunities.json` from the state
+ * it read at *its* start, and the other round's work is gone with no error
+ * anywhere. The watcher has a single-instance guard of its own, and it does not
+ * help — the second collector is usually one somebody started by hand.
+ *
+ * It happened during this project's own repair session: a background round was
+ * "stopped", the shell died and the node process did not, and a second round was
+ * started on top of it. Two collectors, forty-five sources each, both about to
+ * write the whole dataset. Nothing in the code would have said a word.
+ *
+ * A pid file, checked for liveness rather than trusted. A stale lock from a
+ * machine that lost power must not block collection for ever, so a lock whose
+ * process is gone is taken over and said so.
+ */
+const LOCK_FILE = ".rasid/collect.lock";
+{
+  const alive = (pid: number): boolean => {
+    try {
+      process.kill(pid, 0);
+      return true;
+    } catch {
+      return false;
+    }
+  };
+
+  if (!DRY_RUN) {
+    mkdirSync(".rasid", { recursive: true });
+    if (existsSync(LOCK_FILE)) {
+      const held = Number(readFileSync(LOCK_FILE, "utf8").trim());
+      if (Number.isInteger(held) && held !== process.pid && alive(held)) {
+        console.error(
+          `another collector is already running (pid ${held}), and two of them overwrite` +
+            ` each other's whole round. This one is stopping instead.`,
+        );
+        process.exit(3);
+      }
+      if (Number.isInteger(held)) {
+        console.log(`taking over a lock left by pid ${held}, which is no longer running`);
+      }
+    }
+    writeFileSync(LOCK_FILE, String(process.pid), "utf8");
+    /*
+     * Released on the way out, however that happens. A SIGKILL cannot be caught
+     * and will leave the file behind, which is exactly what the liveness check
+     * above is for.
+     */
+    const release = (): void => {
+      try {
+        if (existsSync(LOCK_FILE) && readFileSync(LOCK_FILE, "utf8").trim() === String(process.pid)) {
+          rmSync(LOCK_FILE);
+        }
+      } catch {
+        // A lock we cannot remove is a lock the next run will take over.
+      }
+    };
+    process.on("exit", release);
+    process.on("SIGINT", () => {
+      release();
+      process.exit(130);
+    });
+    process.on("SIGTERM", () => {
+      release();
+      process.exit(143);
+    });
+  }
+}
+
 
 /**
  * A wall-clock deadline for the whole round, so the round can always reach its

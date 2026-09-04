@@ -12,7 +12,7 @@
  *   npm run test:records
  */
 import { spawnSync } from "node:child_process";
-import { readFileSync, rmSync, writeFileSync } from "node:fs";
+import { existsSync, mkdirSync, readFileSync, rmSync, writeFileSync } from "node:fs";
 import { createHash } from "node:crypto";
 import { addressOf, typeFor } from "../src/pipeline/address";
 import {
@@ -501,6 +501,66 @@ console.log("\nan unjudged card is never left promising a verdict nobody owes it
     settledWithContent.every((o) => o.titleAr.trim().length > 0),
     `${settledWithContent.length} such record(s) kept`,
   );
+}
+
+
+console.log("\ntwo collectors cannot write the same round");
+{
+  /*
+   * Every file the collector produces is written at the very end, in one block.
+   * So two of them do not interleave, they overwrite: whichever finishes second
+   * writes health, snapshots and opportunities from the state it read at *its*
+   * start, and the other round is gone with no error anywhere.
+   *
+   * It happened during this project's own repair session. A background round was
+   * "stopped", the shell died and the node process did not, and a second round
+   * was started on top of it - two collectors, forty-five sources each, both
+   * about to write the whole dataset.
+   *
+   * A live lock is obeyed and a dead one is taken over, because a stale lock
+   * from a machine that lost power must not stop collection for ever.
+   */
+  const LOCK = ".rasid/collect.lock";
+  const npmCmd = process.platform === "win32" ? "npm.cmd" : "npm";
+  const run = (): { code: number; out: string } => {
+    const r = spawnSync(npmCmd, ["run", "collect", "--", "--limit", "1"], {
+      encoding: "utf8",
+      stdio: ["ignore", "pipe", "pipe"],
+      shell: process.platform === "win32",
+      timeout: 240_000,
+    });
+    return { code: r.status ?? 1, out: `${r.stdout ?? ""}${r.stderr ?? ""}` };
+  };
+
+  const had = existsSync(LOCK) ? readFileSync(LOCK, "utf8") : null;
+  try {
+    mkdirSync(".rasid", { recursive: true });
+
+    // This process is alive by definition, so the lock it plants is live.
+    writeFileSync(LOCK, String(process.pid), "utf8");
+    const blocked = run();
+    check(
+      "a second collector refuses while another holds the lock",
+      blocked.code === 3,
+      blocked.code === 0 ? "IT RAN — both rounds would overwrite each other" : `exit ${blocked.code}`,
+    );
+    check("and it says why", /another collector is already running/.test(blocked.out));
+
+    // A pid that cannot be running.
+    writeFileSync(LOCK, "999999", "utf8");
+    const takenOver = run();
+    check(
+      "a lock left by a dead process is taken over, not obeyed for ever",
+      takenOver.code === 0 && /taking over a lock/.test(takenOver.out),
+      `exit ${takenOver.code}`,
+    );
+  } finally {
+    if (had === null) {
+      if (existsSync(LOCK)) rmSync(LOCK);
+    } else {
+      writeFileSync(LOCK, had, "utf8");
+    }
+  }
 }
 
 console.log(`\n${failures === 0 ? "all record guards hold" : `${failures} check(s) failed`}`);
