@@ -352,10 +352,19 @@ async function cycle(state: Due[]): Promise<Due[]> {
      */
     const soonest = Math.min(...next.map((d) => d.nextCheckAt));
     const gapMin = Math.round((soonest - nowMs) / 60_000);
+    const overdue = next.filter((d) => d.nextCheckAt <= nowMs).length;
     if (gapMin > 0) {
       say(`nothing due; next in ${gapMin} min`);
+    } else if (overdue === 0) {
+      /*
+       * Rounding, not a backlog. The soonest check is inside the next minute, so
+       * `gapMin` rounds to zero while nothing is actually late — and the branch
+       * below then printed "0 source(s) overdue by up to 0 min, all held back by
+       * the host floor", which is the same confusing sentence this whole block
+       * was written to replace, wearing the other mask.
+       */
+      say("nothing due; the next check is inside a minute");
     } else {
-      const overdue = next.filter((d) => d.nextCheckAt <= nowMs).length;
       const late = Math.round((nowMs - soonest) / 60_000);
       say(
         `${overdue} source(s) overdue by up to ${late} min, all held back by the ${HOST_GAP_MINUTES}-minute host floor`,

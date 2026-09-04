@@ -12,6 +12,7 @@
  *
  *   npm run status
  */
+import { counted } from "../src/app/messages";
 import { execFileSync } from "node:child_process";
 import { existsSync, readFileSync } from "node:fs";
 import type { Opportunity, Organisation, SourceHealth } from "../src/types";
@@ -114,7 +115,7 @@ console.log("\n٢ · هل يحكم على ما يقرأ؟");
   if (pending > 0) {
     say(
       warnLine(
-        `${pending} سجلاً في طابور الحكم، و${stillQueued} صفحة مستحقّة فعلاً. ينخفض من نفسه مع كل جولة، فإن بقي كما هو غداً فالتصنيف متوقّف.`,
+        `${pending} سجلاً بلا حكم، و${stillQueued} صفحة تنتظر قراءة ثانية. ينخفض من نفسه مع كل جولة، فإن بقي كما هو غداً فالتصنيف متوقّف.`,
       ),
     );
   }
@@ -122,7 +123,9 @@ console.log("\n٢ · هل يحكم على ما يقرأ؟");
     const noWord = settled.filter((s) => s.settledWithoutVerdict === "no_training_word").length;
     say(
       ok(
-        `${settled.length} صفحة أُغلقت بلا حكم عن قصد (${noWord} لا ترد فيها كلمة تدريب أصلاً). هذه ليست طابوراً، ولا تنتظر شيئاً.`,
+        `${counted(settled.length, ["صفحة", "صفحتان", "صفحات"])} أُغلقت بلا حكم عن قصد، ` +
+          `${noWord === settled.length ? "كلّها" : `منها ${noWord}`} لا ترد فيها كلمة تدريب أصلاً. ` +
+          `هذه ليست طابوراً، ولا تنتظر شيئاً.`,
       ),
     );
   }
@@ -137,7 +140,7 @@ console.log("\n٢ · هل يحكم على ما يقرأ؟");
   const open = opps.filter((o) => o.status === "open" || o.status === "closing_soon");
   say(
     open.length > 0
-      ? ok(`${open.length} نافذة مفتوحة الآن`)
+      ? ok(`${counted(open.length, ["نافذة", "نافذتان", "نوافذ"])} مفتوحة الآن`)
       : ok("لا نافذة مفتوحة الآن، وهذا خبر لا عطب"),
   );
 }

@@ -112,7 +112,20 @@ console.log("\nthe screens carry no leftover code vocabulary");
  */
 console.log("\nthe two Arabic writing rules hold in what is displayed");
 {
-  const sources = ["src/app/main.ts", "src/app/messages.ts", "src/app/season-bar.ts", "index.html"];
+  /*
+   * `scripts/status.ts` is in this list because it is Arabic the owner reads,
+   * and it was not being scanned: it printed "1 نافذة مفتوحة الآن" while the
+   * counting rule two blocks above asserted that no count starts with a bare 1.
+   * A gate that checks four files and misses the fifth is not checking the rule,
+   * it is checking four files.
+   */
+  const sources = [
+    "src/app/main.ts",
+    "src/app/messages.ts",
+    "src/app/season-bar.ts",
+    "index.html",
+    "scripts/status.ts",
+  ];
   for (const file of sources) {
     let text: string;
     try {
