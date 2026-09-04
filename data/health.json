@@ -380,9 +380,9 @@
   {
     "sourceUrl": "https://career.alinma.com/",
     "orgId": "alinma",
-    "lastAttemptISO": "2026-09-04T10:41:09.292Z",
+    "lastAttemptISO": "2026-09-04T11:26:45.104Z",
     "lastSuccessISO": "2026-09-04T06:04:12.470Z",
-    "consecutiveFailures": 6,
+    "consecutiveFailures": 7,
     "lastError": "fetched 6384 bytes but extracted only 0 chars of text; the page is probably rendered by javascript and cannot be watched this way",
     "state": "broken"
   },
@@ -605,8 +605,8 @@
   {
     "sourceUrl": "https://careers.mcit.gov.sa/",
     "orgId": "mcit",
-    "lastAttemptISO": "2026-09-04T10:41:09.292Z",
-    "lastSuccessISO": "2026-09-04T10:41:09.292Z",
+    "lastAttemptISO": "2026-09-04T11:26:45.104Z",
+    "lastSuccessISO": "2026-09-04T11:26:45.104Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -668,8 +668,8 @@
   {
     "sourceUrl": "https://careers.riyadbank.com/ar/",
     "orgId": "riyadbank",
-    "lastAttemptISO": "2026-09-04T10:41:09.292Z",
-    "lastSuccessISO": "2026-09-04T10:41:09.292Z",
+    "lastAttemptISO": "2026-09-04T11:26:45.104Z",
+    "lastSuccessISO": "2026-09-04T11:26:45.104Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -1082,8 +1082,8 @@
   {
     "sourceUrl": "https://jobs.sabic.com/",
     "orgId": "sabic",
-    "lastAttemptISO": "2026-09-04T10:41:09.292Z",
-    "lastSuccessISO": "2026-09-04T10:41:09.292Z",
+    "lastAttemptISO": "2026-09-04T11:26:45.104Z",
+    "lastSuccessISO": "2026-09-04T11:26:45.104Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -1892,8 +1892,8 @@
   {
     "sourceUrl": "https://wasatah.com.sa/media-center/",
     "orgId": "wasatah",
-    "lastAttemptISO": "2026-09-04T10:41:09.292Z",
-    "lastSuccessISO": "2026-09-04T10:41:09.292Z",
+    "lastAttemptISO": "2026-09-04T11:26:45.104Z",
+    "lastSuccessISO": "2026-09-04T11:26:45.104Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -2360,8 +2360,8 @@
   {
     "sourceUrl": "https://www.gosi.gov.sa/",
     "orgId": "pension",
-    "lastAttemptISO": "2026-09-04T05:24:41.076Z",
-    "lastSuccessISO": "2026-09-04T05:24:41.076Z",
+    "lastAttemptISO": "2026-09-04T11:26:45.104Z",
+    "lastSuccessISO": "2026-09-04T11:26:45.104Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -3431,8 +3431,8 @@
   {
     "sourceUrl": "https://www.sami.com.sa/careers/",
     "orgId": "sami",
-    "lastAttemptISO": "2026-09-04T10:41:09.292Z",
-    "lastSuccessISO": "2026-09-04T10:41:09.292Z",
+    "lastAttemptISO": "2026-09-04T11:26:45.104Z",
+    "lastSuccessISO": "2026-09-04T11:26:45.104Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -3503,11 +3503,11 @@
   {
     "sourceUrl": "https://www.saudiexchange.sa/wps/portal/saudiexchange/newsandreports/issuer-financial-calendars/dividends?locale=ar",
     "orgId": "tadawul",
-    "lastAttemptISO": "2026-09-04T08:26:03.219Z",
+    "lastAttemptISO": "2026-09-04T11:26:45.104Z",
     "lastSuccessISO": "2026-09-02T23:42:46.216Z",
-    "consecutiveFailures": 5,
+    "consecutiveFailures": 6,
     "lastError": "HTTP 403",
-    "state": "degraded"
+    "state": "broken"
   },
   {
     "sourceUrl": "https://www.saudiexchange.sa/wps/portal/saudiexchange/newsandreports/issuer-financial-calendars/general-assembly-meetings?locale=ar",
@@ -3539,8 +3539,8 @@
   {
     "sourceUrl": "https://www.saudiexports.gov.sa/ar",
     "orgId": "saudi_exports",
-    "lastAttemptISO": "2026-09-04T05:24:41.076Z",
-    "lastSuccessISO": "2026-09-04T05:24:41.076Z",
+    "lastAttemptISO": "2026-09-04T11:26:45.104Z",
+    "lastSuccessISO": "2026-09-04T11:26:45.104Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
