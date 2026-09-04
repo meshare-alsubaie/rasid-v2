@@ -180,11 +180,25 @@ export function dueNow(state: Due[], nowMs: number, max: number, hosts: Map<stri
     .map((d) => ({ d, urgency: (nowMs - d.nextCheckAt) / intervalMinutes(d.sourceUrl, d.tier, hosts) }))
     .sort((a, b) => b.urgency - a.urgency)) {
     if (out.length >= max) break;
+    /*
+     * A url that will not parse is not read at all.
+     *
+     * It used to fall back to `host = d.sourceUrl`, which gives a malformed
+     * entry its own private host bucket — so it escaped the twelve-minute floor
+     * entirely and was eligible every cycle. The floor is the one promise this
+     * project makes to the sites it reads, and the entry it exempted is exactly
+     * the one nothing else in the pipeline can handle either: `fetchPage` will
+     * throw on it a moment later.
+     *
+     * Skipping is both politer and more honest. `validate` rejects a dataset
+     * that holds one of these, so reaching this line means something upstream
+     * is already wrong.
+     */
     let host: string;
     try {
       host = new URL(d.sourceUrl).host;
     } catch {
-      host = d.sourceUrl;
+      continue;
     }
     if (takenThisCycle.has(host)) continue;
     const last = lastByHost.get(host);

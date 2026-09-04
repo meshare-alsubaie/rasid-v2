@@ -133,3 +133,67 @@ export function typeFor(url: string, current: SourceType): SourceType {
   if (isDatedArticle(u)) return "announcement_page";
   return current === "site_root" ? "announcement_page" : current;
 }
+
+/**
+ * The city list, with the things that are not cities taken out.
+ *
+ * `cities` is one of the four fields still copied by the model, and the live
+ * dataset showed what that costs: alongside الرياض and جدة it held
+ * "المملكة العربية السعودية", "Saudi Arabia", "جميع أنحاء المملكة",
+ * "Southern Area Oil Operations" and "مدَن" — a country, a country again, a
+ * phrase meaning "everywhere", a department, and an organisation's own name.
+ *
+ * Two harms follow. The filter dropdown offers them as choices that match one
+ * card each, and the +5 "in your city" bonus can fire on a country, which makes
+ * a nationwide programme score as though it were down the road.
+ *
+ * A country-level phrase is dropped outright: it is true and useless, since
+ * every announcement in the dataset is in Saudi Arabia. A Latin spelling of a
+ * city that is also written in Arabic is folded into the Arabic, so "Riyadh"
+ * and "الرياض" stop being two entries in one dropdown.
+ *
+ * Anything else is kept exactly as written. A small city this list has never
+ * heard of is still a city, and guessing it away would be the same mistake in
+ * the other direction.
+ */
+const NOT_A_CITY =
+  /^(?:المملكة(?:\s+العربية\s+السعودية)?|السعودية|جميع\s+أنحاء\s+المملكة|كافة\s+المناطق|جميع\s+المناطق|عن\s+بعد|remote|saudi\s*arabia|ksa|kingdom(?:\s+of\s+saudi\s+arabia)?|nationwide|various|multiple\s+locations)$/i;
+
+const LATIN_CITY: Record<string, string> = {
+  riyadh: "الرياض",
+  jeddah: "جدة",
+  jiddah: "جدة",
+  dammam: "الدمام",
+  khobar: "الخبر",
+  alkhobar: "الخبر",
+  dhahran: "الظهران",
+  makkah: "مكة المكرمة",
+  mecca: "مكة المكرمة",
+  madinah: "المدينة المنورة",
+  medina: "المدينة المنورة",
+  taif: "الطائف",
+  jubail: "الجبيل",
+  yanbu: "ينبع",
+  abha: "أبها",
+  tabuk: "تبوك",
+  buraydah: "بريدة",
+  hail: "حائل",
+  najran: "نجران",
+  jazan: "جازان",
+  jizan: "جازان",
+  qassim: "القصيم",
+  ahsa: "الأحساء",
+  hofuf: "الهفوف",
+};
+
+export function cleanCities(cities: string[]): string[] {
+  const out: string[] = [];
+  for (const raw of cities) {
+    const city = raw.trim().replace(/\s+/g, " ");
+    if (city === "" || NOT_A_CITY.test(city)) continue;
+    const latin = LATIN_CITY[city.toLowerCase().replace(/^al[- ]/, "")];
+    const value = latin ?? city;
+    if (!out.includes(value)) out.push(value);
+  }
+  return out;
+}

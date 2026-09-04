@@ -808,6 +808,9 @@ if (!NO_CLASSIFY && !DRY_RUN) {
       // Nothing is owed a verdict that cannot contain one. Clearing the flag
       // stops the page being carried forward as an unpaid debt for ever.
       snap.pendingClassification = false;
+      // ...and saying so on the snapshot, because a run-total in a rotating log
+      // is not an answer to "which pages were never judged, and why".
+      snap.settledWithoutVerdict = "no_training_word";
       continue;
     }
 
@@ -889,6 +892,7 @@ if (!NO_CLASSIFY && !DRY_RUN) {
         triagedOut++;
         notAnnouncements++;
         snap.pendingClassification = false;
+        snap.settledWithoutVerdict = "triaged_out";
         // In-run only. See the note above the memory lookup: a triage "no" is a
         // guess, and a guess must not be able to silence a page permanently.
         triagedOutThisRun.add(fingerprint);
@@ -977,6 +981,7 @@ if (!NO_CLASSIFY && !DRY_RUN) {
     }
 
     snap.pendingClassification = false;
+    delete snap.settledWithoutVerdict;
     /*
      * One source, one current record.
      *

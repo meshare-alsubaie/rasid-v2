@@ -7,6 +7,7 @@
  * deliberately no path that produces a scored record without a verdict behind
  * it, so a failure can never be read as "not relevant".
  */
+import { cleanCities } from "./address";
 import { createHash } from "node:crypto";
 import type { Classification } from "./classify";
 import { studentProfile } from "./classify";
@@ -294,7 +295,7 @@ export function fromClassification(args: Common & { c: Classification }): Opport
     seats: c.seats,
     stipendSAR: c.stipendSAR,
     durationWeeks: c.durationWeeks,
-    cities: c.cities,
+    cities: cleanCities(c.cities),
     // A record whose dates contradict each other is not scored on them.
     relevanceScore: backwards ? null : (fit?.score ?? null),
     /*

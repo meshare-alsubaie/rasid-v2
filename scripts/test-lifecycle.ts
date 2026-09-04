@@ -106,12 +106,40 @@ check(
     at("2026-08-30T06:00:00.000Z"),
   ) === "unknown",
 );
+/*
+ * "Not judged" and "no dates" are two different unknowns.
+ *
+ * This asserted that any `needs_manual_review` record is `unknown`, whatever
+ * dates it holds — and that was the conflation, not the rule. The flag means
+ * the *relevance* could not be worked out: the page named no field this reader
+ * recognises. The dates are separate; they were read off the page and converted
+ * by the Umm al-Qura table before anyone tried to score anything.
+ *
+ * Hiding a real open window because nobody could score it is the wrong
+ * direction for this project. A deadline nobody scored is still a deadline, and
+ * he can act on it himself — the card already shows it unscored and flagged for
+ * review, so nothing is claiming more than it knows.
+ */
 check(
-  "an unjudged record is never open either",
+  "an unjudged record with a real window is still shown as open",
   statusFor(
     opp({ flags: ["needs_manual_review"], opensISO: "2026-08-01", closesISO: "2026-12-31" }),
     at("2026-08-30T06:00:00.000Z"),
+  ) === "open",
+);
+check(
+  "and an unjudged record with no dates is still unknown",
+  statusFor(
+    opp({ flags: ["needs_manual_review"], opensISO: null, closesISO: null }),
+    at("2026-08-30T06:00:00.000Z"),
   ) === "unknown",
+);
+check(
+  "and a closed window stays closed however it was flagged",
+  statusFor(
+    opp({ flags: ["needs_manual_review"], opensISO: "2026-01-01", closesISO: "2026-02-01" }),
+    at("2026-08-30T06:00:00.000Z"),
+  ) === "closed",
 );
 
 console.log("\nthe opening of a window is announced");

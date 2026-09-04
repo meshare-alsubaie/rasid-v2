@@ -19,23 +19,79 @@
       "pendingClassification"
     ],
     "properties": {
-      "sourceUrl": { "type": "string", "format": "uri" },
-      "orgId": { "type": "string", "pattern": "^[a-z0-9]+(_[a-z0-9]+)*$" },
+      "sourceUrl": {
+        "type": "string",
+        "format": "uri"
+      },
+      "orgId": {
+        "type": "string",
+        "pattern": "^[a-z0-9]+(_[a-z0-9]+)*$"
+      },
       "contentHash": {
-        "oneOf": [{ "type": "null" }, { "type": "string", "pattern": "^[0-9a-f]{64}$" }]
+        "oneOf": [
+          {
+            "type": "null"
+          },
+          {
+            "type": "string",
+            "pattern": "^[0-9a-f]{64}$"
+          }
+        ]
       },
       "blockHashes": {
         "type": "array",
-        "items": { "type": "string", "pattern": "^[0-9a-f]{16}$" }
+        "items": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{16}$"
+        }
       },
-      "extractedChars": { "type": ["integer", "null"], "minimum": 0 },
+      "extractedChars": {
+        "type": [
+          "integer",
+          "null"
+        ],
+        "minimum": 0
+      },
       "extractionMethod": {
-        "oneOf": [{ "type": "null" }, { "type": "string", "enum": ["readability", "body_fallback"] }]
+        "oneOf": [
+          {
+            "type": "null"
+          },
+          {
+            "type": "string",
+            "enum": [
+              "readability",
+              "body_fallback"
+            ]
+          }
+        ]
       },
-      "firstSeenISO": { "type": "string", "format": "date-time" },
-      "lastChangedISO": { "type": ["string", "null"], "format": "date-time" },
-      "thinRuns": { "type": "integer", "minimum": 0 },
-      "pendingClassification": { "type": "boolean" }
+      "firstSeenISO": {
+        "type": "string",
+        "format": "date-time"
+      },
+      "lastChangedISO": {
+        "type": [
+          "string",
+          "null"
+        ],
+        "format": "date-time"
+      },
+      "thinRuns": {
+        "type": "integer",
+        "minimum": 0
+      },
+      "pendingClassification": {
+        "type": "boolean"
+      },
+      "settledWithoutVerdict": {
+        "description": "Why a page was settled without a verdict: the cost filter found no training word, or the one-word triage ruled it out. Absent on a page that reached a verdict.",
+        "type": "string",
+        "enum": [
+          "no_training_word",
+          "triaged_out"
+        ]
+      }
     }
   }
 }

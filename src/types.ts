@@ -483,6 +483,21 @@ export interface SourceSnapshot {
    * this, one failed call would bury a source until the page happened to move.
    */
   pendingClassification: boolean;
+  /**
+   * Why this page was settled without ever being judged, if that is what
+   * happened.
+   *
+   * A page that changed, was fetched successfully, and contains no training
+   * word is skipped by the cost filter. That is correct - a page that cannot
+   * hold an announcement is not worth the processor - but the only trace was a
+   * run-total integer printed to a log that rotates at 8 MB. So the question
+   * "which pages were never judged, and why?" had no answer after a rotation,
+   * and the code comment claiming "every skip is counted rather than passing in
+   * silence" was true about counting and false about attribution.
+   *
+   * Absent on a page that reached a verdict, which is the ordinary case.
+   */
+  settledWithoutVerdict?: "no_training_word" | "triaged_out";
 }
 
 export interface SourceHealth {
@@ -577,7 +592,29 @@ export function statusFor(
   now: number = Date.now(),
 ): OpportunityStatus {
   if (o.product === "graduate_dev") return "unknown";
-  if (o.flags.includes("needs_manual_review")) return "unknown";
+
+  /*
+   * "Not judged" and "no dates" are two different unknowns, and this conflated
+   * them.
+   *
+   * `needs_manual_review` means the *relevance* could not be worked out — the
+   * profile named no field the page recognises, or the two dates contradicted
+   * each other. It does not mean the dates are unknown. A record can carry a
+   * real window, read off the page and converted by the Umm al-Qura table, and
+   * still be flagged because nobody could score it for him.
+   *
+   * Vetoing the status threw that window away and reported "no dates
+   * announced", which is a stronger claim than the truth and the wrong
+   * direction for this project: a deadline nobody scored is still a deadline,
+   * and he can act on it himself.
+   *
+   * The flag is only allowed to veto when there is nothing to veto in favour
+   * of. With no dates the answer is `unknown` anyway, so nothing changes for
+   * the placeholder records this was written for.
+   */
+  if (o.flags.includes("needs_manual_review") && o.opensISO === null && o.closesISO === null) {
+    return "unknown";
+  }
 
   const opens = o.opensISO === null ? null : startOfDay(o.opensISO);
   const closes = o.closesISO === null ? null : endOfDeadline(o.closesISO);

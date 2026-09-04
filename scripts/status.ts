@@ -96,10 +96,33 @@ console.log("\n٢ · هل يحكم على ما يقرأ؟");
   const judged = opps.filter((o) => o.relevanceScore !== null).length;
   const pending = opps.filter((o) => o.flags.includes("needs_manual_review")).length;
   say(ok(`${judged} سجلاً عليه حكم، من ${opps.length}`));
+
+  /*
+   * This line used to promise the queue drains by itself, and for 88 of 136
+   * records that was false: their pages had been settled by the cost filter
+   * while a placeholder card went on saying a verdict was coming. The collector
+   * reconciles those now, so the promise is true again — but a promise is only
+   * worth making if something checks it, so the two numbers are printed apart:
+   * what is genuinely queued, and what was settled without ever being judged.
+   */
+  const snaps = read<{ sourceUrl: string; pendingClassification: boolean; settledWithoutVerdict?: string }>(
+    "data/snapshots.json",
+  );
+  const stillQueued = snaps.filter((s) => s.pendingClassification).length;
+  const settled = snaps.filter((s) => s.settledWithoutVerdict !== undefined);
+
   if (pending > 0) {
     say(
       warnLine(
-        `${pending} سجلاً في طابور الحكم. هذا ينخفض من نفسه مع كل جولة، فإن بقي كما هو غداً فالتصنيف متوقّف.`,
+        `${pending} سجلاً في طابور الحكم، و${stillQueued} صفحة مستحقّة فعلاً. ينخفض من نفسه مع كل جولة، فإن بقي كما هو غداً فالتصنيف متوقّف.`,
+      ),
+    );
+  }
+  if (settled.length > 0) {
+    const noWord = settled.filter((s) => s.settledWithoutVerdict === "no_training_word").length;
+    say(
+      ok(
+        `${settled.length} صفحة أُغلقت بلا حكم عن قصد (${noWord} لا ترد فيها كلمة تدريب أصلاً). هذه ليست طابوراً، ولا تنتظر شيئاً.`,
       ),
     );
   }

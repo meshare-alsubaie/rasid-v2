@@ -212,7 +212,21 @@ export async function checkFinalUrl(
      * the rules are cached, so this costs a map lookup.
      */
   } catch {
-    return null;
+    /*
+     * A redirect target we cannot parse is not permission to follow it.
+     *
+     * This returned `null`, and the caller reads `null` as "allowed" — so the
+     * one case where we understand least about where we have been sent was the
+     * one case that got through unchecked. Every other unanswerable question in
+     * this file refuses: an unreachable robots.txt means no crawl, a robots.txt
+     * that answers with a web page means no crawl. A permission gate whose
+     * default flips to "yes" when it is confused is not a gate.
+     */
+    return {
+      allowed: false,
+      crawlDelayMs: 0,
+      reason: `redirected to an address that could not be parsed (${String(finalUrl).slice(0, 80)}), so it was not followed`,
+    };
   }
   const verdict = await checkRobots(finalUrl);
   if (verdict.allowed) return null;
