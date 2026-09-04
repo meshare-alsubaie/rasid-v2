@@ -25,6 +25,7 @@
  *   - the same pure function can run in a classmate's browser against their own
  *     profile, so the collection is shared and the judgement is not
  */
+import { normaliseArabic } from "./classify.js";
 import type { Classification } from "./classify.js";
 
 export type Field = "cyber" | "it" | "general" | "none";
@@ -283,6 +284,45 @@ export function relevanceOf(
   const announced = fieldOf(haystack);
 
   /*
+   * "Open to all majors" includes his major.
+   *
+   * This was the worst defect in the project and it was silent. `fieldOf` looks
+   * for a named discipline; a page that opens its programme to *every*
+   * discipline names none of them, so it fell to `none` and scored 10, and the
+   * card printed "the announcement named specialisms, none of which is close to
+   * yours" — about a page that had named all of them, his included.
+   *
+   * Ten is below the notification floor of sixty, so the whole category was
+   * permanently silent. Not late: never. `sidf` sat in the dataset as
+   * `["All majors"]`, scored 10, and would never have reached his phone.
+   *
+   * It scores as his own field, because that is what it is: an announcement he
+   * is eligible for, on its own terms. It is deliberately not given the +5 that
+   * an exact cybersecurity match would earn on top, and the sentence says why
+   * it scored well, so he can see the reasoning is "everyone is welcome" and
+   * not "they asked for you by name".
+   *
+   * The phrase must be about specialisms. "جميع الجامعات" is about universities
+   * and says nothing about whether his field qualifies, so it is not matched.
+   */
+  /*
+   * Written against *normalised* text, which is why the spellings look odd:
+   * `normaliseArabic` has already stripped tashkeel and folded ة to ه, so
+   * "كافّة التخصّصات" arrives here as "كافه التخصصات".
+   */
+  const ALL_MAJORS =
+    /(?:جميع|كافه|كل|لجميع|لكافه)\s*(?:ال)?تخصصات|(?:ال)?تخصصات\s*(?:كافه|جميعها)|\ball\s+(?:majors|disciplines|specialisations|specializations|fields)\b|\bany\s+major\b/iu;
+  /*
+   * A reader whose own profile names no field cannot be told that "all majors"
+   * includes his, because we do not know what his is. That case keeps the old
+   * path and ends up unscored and flagged, which is the honest answer.
+   */
+  const allMajors =
+    reader.field !== "none" && ALL_MAJORS.test(normaliseArabic(haystack));
+  const readerField: Exclude<Field, "none"> =
+    reader.field === "none" ? "general" : reader.field;
+
+  /*
    * A page that named no field at all is not a page that named the wrong one.
    *
    * This function had no way to say "I could not tell". Every path returned a
@@ -297,13 +337,16 @@ export function relevanceOf(
    * conversion this project exists to refuse. Null instead: the record is stored
    * unscored and flagged for review, a path `fromClassification` already has.
    */
-  if (announced === "none" && c.majors.length === 0 && !namesAField(haystack)) {
+  if (announced === "none" && !allMajors && c.majors.length === 0 && !namesAField(haystack)) {
     return null;
   }
 
-  const score = announced === "none" ? UNRELATED : BASE[announced];
+  const score =
+    announced === "none" ? (allMajors ? BASE[readerField] : UNRELATED) : BASE[announced];
 
-  if (announced === "none") {
+  if (announced === "none" && allMajors) {
+    clauses.push("مفتوح لجميع التخصّصات، وتخصّصك منها");
+  } else if (announced === "none") {
     clauses.push("ذكر الإعلان تخصّصات ليس فيها ما يقارب تخصّصك");
   } else if (announced === reader.field) {
     clauses.push(`يذكر ${reader.fieldLabel}، وهو تخصّصك`);

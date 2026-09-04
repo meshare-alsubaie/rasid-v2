@@ -266,5 +266,64 @@ console.log("\nthe field detector is not fooled by the neighbouring word");
   check("English counts too", fieldOf("Cybersecurity Analyst") === "cyber");
 }
 
+console.log("\na programme open to every major is open to his");
+{
+  /*
+   * The worst defect this project has had, and the quietest.
+   *
+   * `fieldOf` looks for a named discipline. A page that opens its programme to
+   * *all* disciplines names none, so it scored 10 — below the notification
+   * floor of 60 — and the card printed "the announcement named specialisms,
+   * none of which is close to yours" about a page that had named every one of
+   * them. The whole category was permanently silent, and `sidf` sat in the live
+   * dataset as `["All majors"]` scoring 10.
+   *
+   * Both halves are asserted: the number, and the sentence. A right score under
+   * a wrong reason is how this went unnoticed for so long.
+   */
+  const NOTIFY_FLOOR = 60;
+  const score = (majors: string[]): number | null =>
+    relevanceOf({ product: "coop", majors, titleAr: "برنامج التدريب التعاوني", cities: [] }, CYBER_READER)
+      ?.score ?? null;
+
+  const phrasings = [
+    "All majors",
+    "جميع التخصصات",
+    "كافّة التخصّصات",
+    "كل التخصصات الجامعية",
+    "لجميع التخصصات",
+    "Any major",
+    "All disciplines",
+  ];
+  for (const p of phrasings) {
+    const s = score([p]);
+    check(
+      `"${p}" clears the notification floor`,
+      s !== null && s >= NOTIFY_FLOOR,
+      s === null ? "unscored" : `scored ${s}, floor is ${NOTIFY_FLOOR}`,
+    );
+  }
+
+  const r = relevanceOf(
+    { product: "coop", majors: ["All majors"], titleAr: "برنامج التدريب التعاوني", cities: [] },
+    CYBER_READER,
+  );
+  check(
+    "and the reason says why, rather than denying his field was named",
+    r !== null && r.reason.includes("جميع التخصّصات") && !r.reason.includes("ليس فيها"),
+    r?.reason ?? "no reason",
+  );
+
+  /*
+   * The other half of the guard. A phrase about universities, or a genuinely
+   * unrelated discipline, must not be swept in by a loose pattern - that would
+   * trade a silent miss for a false alarm on every announcement in the country.
+   */
+  check("«الجامعات في المملكة» is not a majors phrase", score(["الجامعات في المملكة"]) === 10);
+  check("a named unrelated discipline still scores low", score(["إدارة الأعمال"]) === 10);
+  check("an exact field match is untouched", score(["الأمن السيبراني"]) === 90);
+  check("an adjacent field is untouched", score(["Computer Science"]) === 65);
+}
+
 console.log(failures === 0 ? "\nall checks passed" : `\n${failures} CHECK(S) FAILED`);
 process.exit(failures === 0 ? 0 : 1);

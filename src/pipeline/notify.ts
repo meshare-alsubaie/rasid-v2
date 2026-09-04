@@ -62,8 +62,45 @@ export interface NoticeLogEntry {
   via?: "push" | "digest" | "toast";
 }
 
-/** Spec 5.4: never more than six pushes in a day. The rest goes to the digest. */
+/**
+ * Spec 5.4: never more than six pushes in a day. The rest goes to the digest.
+ *
+ * This now bounds *housekeeping only*: a source that stopped loading, the
+ * classifier being down. Those are states of the tool, they read the same an
+ * hour later, and six a day is already more than anyone wants.
+ */
 export const DAILY_PUSH_CAP = 6;
+
+/**
+ * The separate, much larger budget for actual openings.
+ *
+ * **This is a deliberate departure from spec 5.4, and it resolves a
+ * contradiction between two of the owner's own rules rather than quietly
+ * ignoring one.**
+ *
+ * Spec 5.4 caps every push at six a day. The failure criterion says: an
+ * announcement published at any of the 127 that does not reach his phone within
+ * six hours is a failure, whatever the gates say. When more than six relevant
+ * things happen in one day those two rules cannot both hold, and until now the
+ * cap won silently.
+ *
+ * It was measured, not theorised. On 2026-09-03 thirteen notices were generated;
+ * six went out at 07:00 Riyadh and **seven real openings sat in the queue, every
+ * one already past the six-hour promise**, waiting for the next day's release.
+ * Among them: البنك الأهلي السعودي, هيئة السوق المالية, هيئة الحكومة الرقمية,
+ * وزارة الاتصالات وتقنية المعلومات, البنك السعودي للاستثمار.
+ *
+ * The cap exists to prevent notification fatigue, which is a real cost. A missed
+ * semester is a larger one, and he said so in the only sentence in this project
+ * that calls itself the single measure of failure. So openings get their own
+ * budget, sized so that it never binds in a normal season and still bounds a
+ * pathological run — a bug that mints four hundred records must not send four
+ * hundred pushes.
+ *
+ * Twenty is roughly three times the busiest day observed. If it ever binds, that
+ * is itself worth knowing, and `notify.ts` prints when it does.
+ */
+export const DAILY_OPPORTUNITY_CAP = 20;
 
 /**
  * What outranks what when only six can go out.
@@ -396,9 +433,59 @@ export function split(
     !digestedKeys.has(n.key) && !pushedKeys.has(n.key);
 
   const fresh = notices.filter(stillNeedsPush);
-  const sentToday = log.filter(
+  const pushedToday = log.filter(
     (e) => dayOf(e.sentISO) === dayOf(now.toISOString()) && (e.via ?? "push") === "push",
-  ).length;
+  );
+  const sentToday = pushedToday.length;
+
+  /*
+   * Two budgets, because they answer to two different rules. See
+   * DAILY_OPPORTUNITY_CAP: openings are the product and are bounded only against
+   * a runaway; housekeeping is a state of the tool and keeps spec 5.4's six.
+   *
+   * The log does not record a kind, so an opening is identified by its key
+   * prefix, which is how every opportunity key in this file is minted
+   * ("new:", "opened:", "closing:", "seats:").
+   */
+  const OPPORTUNITY_KEY = /^(?:new|opened|closing|seats):/;
+  const opportunitiesSentToday = pushedToday.filter((e) => OPPORTUNITY_KEY.test(e.key)).length;
+  const maintenanceSentToday = sentToday - opportunitiesSentToday;
+
+  /**
+   * Take from a ranked list until each budget is spent.
+   *
+   * `atNight` collapses both budgets back to spec 5.4's six. The larger
+   * opportunity budget buys speed during the day; at three in the morning
+   * speed is worth nothing and twenty buzzes is the fatigue the quiet window
+   * exists to prevent. A closing window still gets through the silence — that
+   * exemption is unchanged — it just cannot get through twenty times.
+   */
+  const withinBudgets = (
+    ranked: Notice[],
+    atNight: boolean,
+  ): { push: Notice[]; overflow: Notice[] } => {
+    const oppCap = atNight ? DAILY_PUSH_CAP : DAILY_OPPORTUNITY_CAP;
+    const push: Notice[] = [];
+    const overflow: Notice[] = [];
+    let usedOpp = 0;
+    let usedMaint = 0;
+    for (const n of ranked) {
+      const isOpportunity = OPPORTUNITY_KINDS.has(n.kind);
+      const room = atNight
+        ? sentToday + usedOpp + usedMaint < DAILY_PUSH_CAP
+        : isOpportunity
+          ? opportunitiesSentToday + usedOpp < oppCap
+          : maintenanceSentToday + usedMaint < DAILY_PUSH_CAP;
+      if (room) {
+        push.push(n);
+        if (isOpportunity) usedOpp++;
+        else usedMaint++;
+      } else {
+        overflow.push(n);
+      }
+    }
+    return { push, overflow };
+  };
 
   if (quiet) {
     /*
@@ -417,15 +504,14 @@ export function split(
     const urgent = fresh
       .filter((n) => URGENT.has(n.kind))
       .sort((a, b) => effectiveWeight(b, now) - effectiveWeight(a, now));
-    const roomTonight = Math.max(0, DAILY_PUSH_CAP - sentToday);
+    const tonight = withinBudgets(urgent, true);
     return {
-      push: urgent.slice(0, roomTonight),
-      digestOnly: [...fresh.filter((n) => !URGENT.has(n.kind)), ...urgent.slice(roomTonight)].filter(
+      push: tonight.push,
+      digestOnly: [...fresh.filter((n) => !URGENT.has(n.kind)), ...tonight.overflow].filter(
         stillNeedsDigest,
       ),
     };
   }
-  const room = Math.max(0, DAILY_PUSH_CAP - sentToday);
   const ranked = [...fresh].sort((a, b) => effectiveWeight(b, now) - effectiveWeight(a, now));
 
   /*
@@ -463,10 +549,11 @@ export function split(
     return true;
   });
 
+  const today = withinBudgets(distinct, false);
   return {
-    push: distinct.slice(0, room),
+    push: today.push,
     // Everything past the cap is summarised, once. It stays in the push queue.
-    digestOnly: distinct.slice(room).filter(stillNeedsDigest),
+    digestOnly: today.overflow.filter(stillNeedsDigest),
   };
 }
 

@@ -19,7 +19,7 @@
  *   npm run verify-leads -- --dry-run    report, write nothing
  */
 import { readFileSync, writeFileSync } from "node:fs";
-import { addressOf } from "../src/pipeline/address";
+import { addressOf, typeFor } from "../src/pipeline/address";
 import { writeAtomic } from "../src/pipeline/write";
 import { closeBrowser, renderPage } from "../src/pipeline/browser";
 import { redactPaths } from "../src/pipeline/redact";
@@ -103,48 +103,11 @@ function candidatesFor(url: string): string[] {
   return [...new Set(all)];
 }
 
-/**
- * The type a url has actually earned, now that the address may have moved.
- *
- * When a dead deep path fell back to the site root, the url was rewritten and
- * the type was left alone — so a bank homepage sat in the dataset labelled
- * `announcement_page`, which is precisely the quiet kind of lie types.ts says
- * `site_root` exists to prevent.
+/*
+ * The type rules moved to src/pipeline/address.ts so a gate can call them
+ * without importing this script, which runs a full verification pass on
+ * import. Same rule, one copy.
  */
-const HOME_SEGMENTS = new Set([
-  "ar",
-  "en",
-  "ar-sa",
-  "en-sa",
-  "ar-us",
-  "en-us",
-  "web",
-  "pages",
-  "home",
-  "index.php",
-  "index.html",
-  "index.htm",
-  "default.aspx",
-  "default.html",
-  "home.aspx",
-]);
-
-/** A homepage is still a homepage when it is reached through /ar/Pages/default.aspx. */
-function isHomePath(u: URL): boolean {
-  return u.pathname
-    .split("/")
-    .filter(Boolean)
-    .every((part) => HOME_SEGMENTS.has(part.toLowerCase()) || /^\d+$/.test(part));
-}
-
-function typeFor(url: string, current: Organisation["sources"][number]["type"]): typeof current {
-  const u = new URL(url);
-  if (/career|job|coop|training|recruit|تدريب|وظائف/i.test(decodeURI(url)) && !isHomePath(u)) {
-    return "careers_page";
-  }
-  if (isHomePath(u)) return "site_root";
-  return current === "site_root" ? "announcement_page" : current;
-}
 
 /** The sentence around the phrase, so a promoted link carries its evidence. */
 function quoteAround(text: string, at: number, marker: string): string {

@@ -9,7 +9,7 @@
  * thirty-three published rows:
  *
  *   headless chromium unavailable (browserType.launch: Executable doesn't
- *   exist at C:\Users\GIGABITE\AppData\Local\ms-playwright\...)
+ *   exist at C:\Users\<account>\AppData\Local\ms-playwright\...)
  *
  * The message is worth keeping; the path is not. Redacting at the point where
  * an error becomes data is the only place that holds, because by the time it

@@ -40,6 +40,7 @@ import {
   humanReason,
   markVanished,
   survivingRecord,
+  UNJUDGED_TITLE,
 } from "../src/pipeline/opportunity";
 import { extract, isGovBannerOnly, isSoft404, sha256 } from "../src/pipeline/extract";
 import { redactPaths } from "../src/pipeline/redact";
@@ -1038,6 +1039,54 @@ if (!NO_CLASSIFY && !DRY_RUN) {
     opportunityById.set(record.id, record);
     classified++;
   }
+}
+
+/*
+ * A card that promises a verdict nobody owes it any more.
+ *
+ * Measured on 2026-09-03: of 136 records flagged `needs_manual_review`, **88
+ * were stuck for ever**. The route in is not exotic, it is the ordinary one:
+ *
+ *   1. Classification fails — the model is down, or a schema miss. A placeholder
+ *      record is minted, titled "لم يُصنَّف بعد", and `pendingClassification`
+ *      is set. Correct.
+ *   2. A later round fetches the page unchanged, carries the flag forward, and
+ *      the page enters `owed`. Still correct.
+ *   3. The cost filter finds no training word in it, clears
+ *      `pendingClassification`, and moves on. Also correct, on its own terms.
+ *   4. Nothing anywhere reconciles the two. The page is settled and the card
+ *      that says otherwise is left standing.
+ *
+ * Two screens then lie about it. Each card reads "هي محفوظة في الطابور
+ * وستُقرأ في جولة قادمة" — it will be read in a coming round — and
+ * `npm run status` says the queue drains by itself every round. Neither was
+ * true for 65% of it.
+ *
+ * The placeholder is dropped rather than re-flagged, because it carries nothing
+ * to keep: no title, no dates, no score, no majors. It is the *absence* of a
+ * verdict wearing the shape of a record. The page itself stays watched, its
+ * snapshot and its health row are untouched, and the moment its text changes it
+ * is judged like anything else — so nothing about coverage moves. What moves is
+ * that the app stops promising something it will not do.
+ *
+ * Dropped loudly. A count goes to the round summary, because a record leaving
+ * the dataset is never something this project does quietly.
+ */
+let settledPlaceholders = 0;
+for (const [id, o] of opportunityById) {
+  if (o.titleAr !== UNJUDGED_TITLE) continue;
+  if (!o.flags.includes("needs_manual_review")) continue;
+  const snap = snapshotByUrl.get(o.sourceUrl);
+  // Still owed a verdict, or we have no snapshot to judge by: leave it alone.
+  if (snap === undefined || snap.pendingClassification) continue;
+  opportunityById.delete(id);
+  settledPlaceholders++;
+}
+if (settledPlaceholders > 0) {
+  console.log(
+    `\n${settledPlaceholders} unjudged placeholder(s) dropped: their pages are settled, so the card` +
+      ` promising "it will be read in a coming round" was false. The pages stay watched.`,
+  );
 }
 
 /*

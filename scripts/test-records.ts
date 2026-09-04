@@ -14,7 +14,7 @@
 import { spawnSync } from "node:child_process";
 import { readFileSync, rmSync, writeFileSync } from "node:fs";
 import { createHash } from "node:crypto";
-import { addressOf } from "../src/pipeline/address";
+import { addressOf, typeFor } from "../src/pipeline/address";
 import {
   asManualReview,
   fromClassification,
@@ -23,6 +23,7 @@ import {
 } from "../src/pipeline/opportunity";
 import type { Classification } from "../src/pipeline/classify";
 import { announcementKey } from "../src/types";
+import type { SourceType } from "../src/types";
 import type { Opportunity } from "../src/types";
 
 let failures = 0;
@@ -382,6 +383,123 @@ console.log("\nan anchor is the same page and a hash route is not");
   check(
     "a fragment we cannot classify is kept, because keeping one costs a fetch",
     !same("https://x.gov.sa/c#tab=coop&year=1448", "https://x.gov.sa/c"),
+  );
+}
+
+
+console.log("\na dated article is not a careers page");
+{
+  /*
+   * `typeFor` matched "career" anywhere in the address, so a press release from
+   * May 2013 about a careers day was filed as a `careers_page`. Twenty sources
+   * were in that state, from 2009 through 2014, and because `collect.ts` builds
+   * `alwaysJudge` from `type === "careers_page"` every one of them bypassed the
+   * cost filter and was sent to the model on every round, for ever, to be told
+   * again that a thirteen-year-old press release is not an announcement.
+   *
+   * Both halves are asserted. A guard that fixed the mislabel and broke real
+   * careers pages would cost far more than it saved.
+   */
+  const dated = [
+    "https://alinma.com/en/About-the-Bank/The-Bank/News/2013/05/alinmajobandcareerday",
+    "https://x.gov.sa/news/2009/02/training-course",
+    "https://x.com/ar/media/2011/10/career-day",
+  ];
+  for (const u of dated) {
+    check("dated path is not a careers page: ..." + u.slice(-30), typeFor(u, "site_root") !== "careers_page");
+  }
+
+  const real = [
+    "https://careers.stc.com.sa/go/coop-training/7736823/",
+    "https://x.gov.sa/ar/careers/coop",
+    "https://x.gov.sa/jobs/training",
+  ];
+  for (const u of real) {
+    check("a real careers path still is: ..." + u.slice(-24), typeFor(u, "site_root") === "careers_page");
+  }
+
+  check(
+    "a homepage is still a site root",
+    typeFor("https://x.gov.sa/ar/Pages/default.aspx", "careers_page") === "site_root",
+  );
+  check(
+    "and a far-future year inside a slug is not read as a date",
+    typeFor("https://x.gov.sa/careers/vision-2030-programme", "site_root") === "careers_page",
+  );
+
+  const orgsForType = JSON.parse(
+    readFileSync("data/organisations.json", "utf8").replace(/^﻿/, ""),
+  ) as { id: string; sources: { url: string; type: SourceType }[] }[];
+  const stillWrong: string[] = [];
+  for (const o of orgsForType) {
+    for (const src of o.sources) {
+      if (src.type === "careers_page" && typeFor(src.url, "careers_page") !== "careers_page") {
+        stillWrong.push(o.id + " " + src.url.slice(0, 56));
+      }
+    }
+  }
+  check(
+    "and the live dataset holds no dated article labelled a careers page",
+    stillWrong.length === 0,
+    stillWrong.slice(0, 3).join(" | "),
+  );
+}
+
+
+console.log("\nan unjudged card is never left promising a verdict nobody owes it");
+{
+  /*
+   * Measured on 2026-09-03: of 136 records flagged `needs_manual_review`, 88
+   * were stuck for ever. A classification failure mints a placeholder titled
+   * "لم يُصنَّف بعد" and sets `pendingClassification`; a later round finds no
+   * training word in the page, clears the flag, and nothing reconciles the two.
+   *
+   * Two screens then lied. Each card read "هي محفوظة في الطابور وستُقرأ في
+   * جولة قادمة" and `npm run status` said the queue drains by itself. Neither
+   * was true for 65% of it.
+   *
+   * The invariant: a placeholder exists only while its page is genuinely owed a
+   * verdict. A record with a real title is never touched by this, however long
+   * it has been waiting - it carries content a person can act on.
+   */
+  const opps = JSON.parse(
+    readFileSync("data/opportunities.json", "utf8").replace(/^\uFEFF/, ""),
+  ) as Opportunity[];
+  const snaps = JSON.parse(
+    readFileSync("data/snapshots.json", "utf8").replace(/^\uFEFF/, ""),
+  ) as { sourceUrl: string; pendingClassification: boolean }[];
+  const pending = new Map(snaps.map((s) => [s.sourceUrl, s.pendingClassification]));
+
+  const placeholders = opps.filter((o) => o.titleAr === UNJUDGED_TITLE);
+  const stranded = placeholders.filter((o) => pending.get(o.sourceUrl) === false);
+
+  check(
+    "every unjudged placeholder is on a page still owed a verdict",
+    stranded.length === 0,
+    stranded.length === 0
+      ? `${placeholders.length} placeholder(s), all genuinely queued`
+      : `${stranded.length} of ${placeholders.length} will never be judged: ${stranded
+          .slice(0, 3)
+          .map((o) => o.orgId)
+          .join(", ")}`,
+  );
+
+  check(
+    "and no placeholder is missing its snapshot entirely",
+    placeholders.every((o) => pending.has(o.sourceUrl)),
+  );
+
+  /* The other half: a record with real content is left alone, however stale. */
+  const settledWithContent = opps.filter(
+    (o) =>
+      o.titleAr !== UNJUDGED_TITLE &&
+      o.flags.includes("needs_manual_review") &&
+      pending.get(o.sourceUrl) === false,
+  );
+  check(
+    "a record carrying real wording is kept even when its page is settled",
+    settledWithContent.every((o) => o.titleAr.trim().length > 0),
+    `${settledWithContent.length} such record(s) kept`,
   );
 }
 

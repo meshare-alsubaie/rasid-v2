@@ -27,7 +27,7 @@ console.log("a local path is removed, and what it was is still readable");
 {
   const cases: [string, string][] = [
     [
-      "headless chromium unavailable (browserType.launch: Executable doesn't exist at C:\\Users\\GIGABITE\\AppData\\Local\\ms-playwright\\chrome-headless-shell.exe)",
+      "headless chromium unavailable (browserType.launch: Executable doesn't exist at C:\\Users\\Owner\\AppData\\Local\\ms-playwright\\chrome-headless-shell.exe)",
       "chrome-headless-shell.exe",
     ],
     ["ENOENT: no such file or directory, open 'D:/tools/node/node.exe'", "node.exe"],
@@ -40,7 +40,7 @@ console.log("a local path is removed, and what it was is still readable");
   }
   check(
     "the account name is gone",
-    !redactPaths(cases[0]![0]).includes("GIGABITE"),
+    !redactPaths(cases[0]![0]).includes("Owner"),
   );
 }
 

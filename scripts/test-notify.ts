@@ -14,6 +14,7 @@ import {
   split,
   ANNOUNCE_WINDOW_DAYS,
   BAND,
+  DAILY_OPPORTUNITY_CAP,
   DAILY_PUSH_CAP,
   LOG_RETENTION_DAYS,
   type Notice,
@@ -236,9 +237,75 @@ const many: Notice[] = Array.from({ length: 9 }, (_, i) => ({
 }));
 const now = new Date("2026-09-01T12:00:00.000Z");
 
+/*
+ * Nine openings all go out, and this assertion is the opposite of what it used
+ * to be.
+ *
+ * It read `capped.push.length === DAILY_PUSH_CAP` — six of nine pushed, three
+ * to the digest — and that was a faithful test of spec 5.4 and a faithful test
+ * of a product that misses windows. On 2026-09-03 thirteen notices were
+ * generated, six went out, and seven real openings sat in the queue every one
+ * already past the six-hour promise. The cap and the failure criterion cannot
+ * both hold on a busy day, and the failure criterion is the one the owner calls
+ * the single measure of failure.
+ *
+ * So openings answer to DAILY_OPPORTUNITY_CAP and housekeeping keeps the six.
+ * This is a deliberate change of behaviour, not a threshold loosened to make a
+ * red test green: the number that moved is the product decision, and the test
+ * moved with it because the old expectation was the defect.
+ */
 const capped = split(many, [], now, false);
-check(`only ${DAILY_PUSH_CAP} are pushed`, capped.push.length === DAILY_PUSH_CAP, String(capped.push.length));
-check("the rest go to the digest, not the bin", capped.digestOnly.length === 3, String(capped.digestOnly.length));
+check(
+  `all ${many.length} openings are pushed, because openings are the product`,
+  capped.push.length === many.length,
+  String(capped.push.length),
+);
+check("and nothing is left for the digest", capped.digestOnly.length === 0, String(capped.digestOnly.length));
+check(
+  `the opportunity budget still bounds a runaway at ${DAILY_OPPORTUNITY_CAP}`,
+  split(
+    Array.from({ length: 40 }, (_, i) => ({
+      key: `runaway${i}`,
+      kind: "new_relevant" as const,
+      title: `إعلان ${i}`,
+      body: `نص ${i}`,
+      weight: i,
+    })),
+    [],
+    now,
+    false,
+  ).push.length === DAILY_OPPORTUNITY_CAP,
+);
+check(
+  `housekeeping is still held to ${DAILY_PUSH_CAP}`,
+  split(
+    Array.from({ length: 12 }, (_, i) => ({
+      key: `broken${i}`,
+      kind: "source_broken" as const,
+      title: `مصدر ${i}`,
+      body: `نص ${i}`,
+      weight: BAND.sourceBroken,
+    })),
+    [],
+    now,
+    false,
+  ).push.length === DAILY_PUSH_CAP,
+);
+check(
+  "and a night still holds everything to the small cap, however many windows close",
+  split(
+    Array.from({ length: 20 }, (_, i) => ({
+      key: `night${i}`,
+      kind: "closing_soon" as const,
+      title: `يغلق ${i}`,
+      body: `نص ${i}`,
+      weight: BAND.closingSoon,
+    })),
+    [],
+    now,
+    true,
+  ).push.length === DAILY_PUSH_CAP,
+);
 check("the most urgent are the ones pushed", capped.push[0]!.weight === 8);
 
 const quiet = split(many, [], now, true);
@@ -298,23 +365,48 @@ const emailedLastNight = Array.from({ length: 9 }, (_, i) => ({
 const morningAfter = split(many, emailedLastNight, now, false);
 check(
   "a night of digests does not eat the next day's push budget",
-  morningAfter.push.length === DAILY_PUSH_CAP,
+  morningAfter.push.length === many.length,
   String(morningAfter.push.length),
 );
 
-const pushedAlready = emailedLastNight.map((e) => ({ ...e, via: "push" as const }));
+/*
+ * Keys matter now, not just the count. The two budgets are told apart by the
+ * key prefix an opportunity notice is minted with, so a log of nine `old0..8`
+ * entries counts as housekeeping and leaves the opening budget untouched. The
+ * fixture uses real opportunity keys.
+ */
+const pushedAlready = Array.from({ length: DAILY_OPPORTUNITY_CAP }, (_, i) => ({
+  key: `new:spent${i}`,
+  sentISO: now.toISOString(),
+  via: "push" as const,
+}));
 check(
   "pushes do still count against it",
   split(many, pushedAlready, now, false).push.length === 0,
+  String(split(many, pushedAlready, now, false).push.length),
+);
+check(
+  "and a spent housekeeping budget does not silence an opening",
+  split(
+    many,
+    Array.from({ length: DAILY_PUSH_CAP }, (_, i) => ({
+      key: `broken:spent${i}`,
+      sentISO: now.toISOString(),
+      via: "push" as const,
+    })),
+    now,
+    false,
+  ).push.length === many.length,
 );
 
 /* An entry written before the channel was recorded is counted as a push, which
    is the cautious reading: it can only ever hold notifications back, never let
    extra ones through. */
-const legacy = emailedLastNight.map(({ key, sentISO }) => ({ key, sentISO }));
+const legacy = pushedAlready.map(({ key, sentISO }) => ({ key, sentISO }));
 check(
   "a log entry with no channel recorded is treated as a push",
   split(many, legacy, now, false).push.length === 0,
+  String(split(many, legacy, now, false).push.length),
 );
 
 /*
@@ -459,10 +551,23 @@ console.log("\na bad morning for the tool never buries an opening");
     "the classifier alarm still gets a slot",
     push.some((n) => n.kind === "classifier_down"),
   );
+  /*
+   * Broken sources no longer take a slot from an opening at all: they draw on
+   * their own budget. This used to assert `DAILY_PUSH_CAP - 3`, i.e. that the
+   * three openings in this batch each cost a housekeeping slot, which is the
+   * arithmetic of one shared budget.
+   */
   check(
-    "broken sources fill what is left, and the rest wait in the digest",
-    push.filter((n) => n.kind === "source_broken").length === DAILY_PUSH_CAP - 3 &&
-      digestOnly.filter((n) => n.kind === "source_broken").length === 12 - (DAILY_PUSH_CAP - 3),
+    "broken sources fill their own budget, and the rest wait in the digest",
+    push.filter((n) => n.kind === "source_broken").length === DAILY_PUSH_CAP - 1 &&
+      digestOnly.filter((n) => n.kind === "source_broken").length ===
+        12 - (DAILY_PUSH_CAP - 1),
+    `pushed ${push.filter((n) => n.kind === "source_broken").length}, digested ${digestOnly.filter((n) => n.kind === "source_broken").length}`,
+  );
+  check(
+    "and every opening in the batch went out",
+    push.filter((n) => n.key.startsWith("new:")).length === 2,
+    String(push.filter((n) => n.key.startsWith("new:")).length),
   );
 }
 
