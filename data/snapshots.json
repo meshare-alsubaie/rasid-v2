@@ -2134,7 +2134,7 @@
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T02:22:33.828Z",
     "lastChangedISO": "2026-08-29T02:36:21.032Z",
-    "thinRuns": 54,
+    "thinRuns": 55,
     "pendingClassification": false
   },
   {
@@ -2154,7 +2154,7 @@
   {
     "sourceUrl": "https://gaca.gov.sa/announcements",
     "orgId": "gaca",
-    "contentHash": "d71622c638f723dfc55e22d4a89af33624aa2d09ffef9c3dc0113b5b58278273",
+    "contentHash": "40dfbc1f5f35a5be3e38374e8191d9c8c86475e7f233273e751cc9b58457cd0f",
     "blockHashes": [
       "225f03bcd13005ab",
       "9c2a3967149440a8",
@@ -2164,7 +2164,7 @@
     "extractedChars": 1211,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-03T05:28:02.777Z",
+    "lastChangedISO": "2026-09-04T06:15:53.035Z",
     "thinRuns": 0,
     "pendingClassification": true
   },
@@ -3064,7 +3064,7 @@
   {
     "sourceUrl": "https://momah.gov.sa/ar",
     "orgId": "housing",
-    "contentHash": "95477ee5c558c4e3b9fa6a48fa6f3cecdddbdebeb52bf037279d785152a47f6d",
+    "contentHash": "36bfc14a2e5a179cbec3d1ea30040c365af427a460ccafb5fc3e6ed668b42c32",
     "blockHashes": [
       "86d7450e67d58e0a",
       "46ee8b01c715e490",
@@ -3089,12 +3089,12 @@
       "75449e9dc1e8015f",
       "4e8e7a939af99fe5"
     ],
-    "extractedChars": 153919,
+    "extractedChars": 153857,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-03T02:08:42.193Z",
+    "lastChangedISO": "2026-09-04T06:15:53.035Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://momah.gov.sa/ar/announcements",
@@ -3639,16 +3639,16 @@
   {
     "sourceUrl": "https://ndf.gov.sa/media-center/newsletters",
     "orgId": "ndf",
-    "contentHash": "8d14653a6c52c9f2d6ad8d120ae8ecce75efeac49d4a00bebdc424dfbbbd9f61",
+    "contentHash": "e9edb2d7ab19f755cce4cefb92ec4e49362498631a456ac05b8031acdcf02ca5",
     "blockHashes": [
       "8d14653a6c52c9f2"
     ],
     "extractedChars": 1211,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-02T23:42:46.216Z",
+    "lastChangedISO": "2026-09-04T06:15:53.035Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://ndf.gov.sa/media-center/press-news",
@@ -5623,7 +5623,7 @@
   {
     "sourceUrl": "https://www.etec.gov.sa/ar/institutions",
     "orgId": "etec",
-    "contentHash": "937bcc21815d74e3ebd3709ea79e336308a365bbd49e83eee8e7e61e61fa23ae",
+    "contentHash": "9febbc5f87ecf54ae4cbcd52659b172d53122e5602548074195196ee1900b33f",
     "blockHashes": [
       "969f0f9d8129003d",
       "1928fdbb5b09339c",
@@ -5637,12 +5637,12 @@
       "df88135255595e7d",
       "c73e4b84a57fb0c7"
     ],
-    "extractedChars": 1214,
+    "extractedChars": 1418,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-02T09:55:38.978Z",
+    "lastChangedISO": "2026-09-04T06:15:53.035Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://www.etec.gov.sa/ar/jobs",
@@ -6313,7 +6313,7 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/careers",
     "orgId": "hrc",
-    "contentHash": "737a2be4cb9fa332aaff6f6027584e5ddd1762d8bd9a89ac435bd74e042ba246",
+    "contentHash": "c07819ade40bd925a22c7a2eb85ee3a12b26c1f83a4cc82eff9a6a6842abfc06",
     "blockHashes": [
       "12e41a244a8a2984",
       "23015eedc83b10df",
@@ -6340,9 +6340,9 @@
     "extractedChars": 3794,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-03T05:51:47.891Z",
+    "lastChangedISO": "2026-09-04T06:15:53.035Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/careers?lang=ar",
@@ -9143,14 +9143,14 @@
   {
     "sourceUrl": "https://www.rcrc.gov.sa/careers/?lang=ar",
     "orgId": "rcrc",
-    "contentHash": "cc38ae05574abe16f6842673a1de678488c91e8255cf4d9ca58b4a1b7c0bb934",
+    "contentHash": "f1e793d6f869c0b467fb58e1dc77a487bc3bfe4ae5775e32955c68042a5e4b8c",
     "blockHashes": [
       "6b3de91cda203c2d"
     ],
     "extractedChars": 1166,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-04T05:14:53.825Z",
+    "lastChangedISO": "2026-09-04T06:15:53.035Z",
     "thinRuns": 0,
     "pendingClassification": true
   },
