@@ -2275,7 +2275,7 @@
   {
     "sourceUrl": "https://gaca.gov.sa/news",
     "orgId": "gaca",
-    "contentHash": "d34cd4dc362962cd3819d1bedfa2a77a80dc737298f6c3b913ec7b29313b9d5d",
+    "contentHash": "cf632b397a9ee8e6114716d06ca0c414d06b166e8770ad684a224fcb0709a0f3",
     "blockHashes": [
       "79480b9b2ec8ecc7",
       "fa5c90da8c7623db",
@@ -2352,13 +2352,12 @@
       "83a22e1f9fb245f8",
       "5b948c64294d8817"
     ],
-    "extractedChars": 22059,
+    "extractedChars": 22054,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-04T03:20:03.287Z",
+    "lastChangedISO": "2026-09-04T05:16:51.798Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://gaca.gov.sa/web/ar-sa/page/home",
@@ -2967,16 +2966,16 @@
   {
     "sourceUrl": "https://misa.gov.sa/ar/media-center/latest-news/",
     "orgId": "misa",
-    "contentHash": "a8b52620d526a6c0c8d6e5aebf3994b2643a5a83d108f69477282d6f9eea38fd",
+    "contentHash": "339778d2cb727e962149c50740948b98795425f0ae15b22a118e78f628b4e656",
     "blockHashes": [
       "a8b52620d526a6c0"
     ],
-    "extractedChars": 702,
+    "extractedChars": 727,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-03T11:34:19.122Z",
+    "lastChangedISO": "2026-09-04T05:16:51.798Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://misa.gov.sa/ar/news/latest-news/",
@@ -3552,7 +3551,7 @@
   {
     "sourceUrl": "https://ndf.gov.sa/",
     "orgId": "ndf",
-    "contentHash": "3489b3a08302186956d94c2571becf2260d4b0645cfc829c908227f99c9aa78d",
+    "contentHash": "7c4ce8dbb8914d5edc54735cc28eef5db82a52ea49f7994f9a2cfd2e5f9d6bb4",
     "blockHashes": [
       "aa5a8f4bda318436",
       "cea7fd3977a9c5c0"
@@ -3560,7 +3559,7 @@
     "extractedChars": 3077,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-02T23:42:46.216Z",
+    "lastChangedISO": "2026-09-04T05:16:51.798Z",
     "thinRuns": 0,
     "pendingClassification": true
   },
@@ -6524,7 +6523,7 @@
   {
     "sourceUrl": "https://www.hrdf.org.sa/products-and-services/programs/individuals/training/cooperative-training/",
     "orgId": "hrdf_coop",
-    "contentHash": "0fbfa9f32e456d6145db62f8a06de8b34700317c27bd4dff1967ad0eb4310189",
+    "contentHash": "4762196cde51750cde0e61edf0d4ba018baf15d3551a6174f7008c5e430361d4",
     "blockHashes": [
       "45526a3a724650be",
       "74e4c1d2a646a96e",
@@ -6698,9 +6697,9 @@
     "extractedChars": 8563,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-03T01:25:25.661Z",
-    "lastChangedISO": "2026-09-03T01:25:25.661Z",
+    "lastChangedISO": "2026-09-04T05:16:51.798Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://www.hrsd.gov.sa/care-about-you/skillsandtrain",
