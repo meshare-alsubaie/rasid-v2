@@ -254,8 +254,8 @@
   {
     "sourceUrl": "https://alinma.com/en/About-the-Bank/The-Bank/News/2011/05/alinma-bank-participates-at-university-career-fairs",
     "orgId": "alinma",
-    "lastAttemptISO": "2026-09-03T05:58:52.536Z",
-    "lastSuccessISO": "2026-09-03T05:58:52.536Z",
+    "lastAttemptISO": "2026-09-04T06:06:01.210Z",
+    "lastSuccessISO": "2026-09-04T06:06:01.210Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -389,8 +389,8 @@
   {
     "sourceUrl": "https://career.dga.gov.sa/",
     "orgId": "dga",
-    "lastAttemptISO": "2026-09-04T05:18:43.685Z",
-    "lastSuccessISO": "2026-09-04T05:18:43.685Z",
+    "lastAttemptISO": "2026-09-04T06:06:01.210Z",
+    "lastSuccessISO": "2026-09-04T06:06:01.210Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -614,9 +614,9 @@
   {
     "sourceUrl": "https://careers.mobily.com.sa/ar/sites/opportunities/pages/Coop",
     "orgId": "mobily",
-    "lastAttemptISO": "2026-09-04T05:20:22.188Z",
+    "lastAttemptISO": "2026-09-04T06:06:01.210Z",
     "lastSuccessISO": "2026-08-30T00:02:43.835Z",
-    "consecutiveFailures": 44,
+    "consecutiveFailures": 45,
     "lastError": "page.evaluate: Target crashed ",
     "state": "broken"
   },
@@ -713,8 +713,8 @@
   {
     "sourceUrl": "https://careers.saib.com.sa/en/page/coop-program/",
     "orgId": "saib",
-    "lastAttemptISO": "2026-09-04T05:11:27.922Z",
-    "lastSuccessISO": "2026-09-04T05:11:27.922Z",
+    "lastAttemptISO": "2026-09-04T06:06:01.210Z",
+    "lastSuccessISO": "2026-09-04T06:06:01.210Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -722,8 +722,8 @@
   {
     "sourceUrl": "https://careers.sama.gov.sa/",
     "orgId": "sama",
-    "lastAttemptISO": "2026-09-04T05:11:27.922Z",
-    "lastSuccessISO": "2026-09-04T05:11:27.922Z",
+    "lastAttemptISO": "2026-09-04T06:06:01.210Z",
+    "lastSuccessISO": "2026-09-04T06:06:01.210Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -812,8 +812,8 @@
   {
     "sourceUrl": "https://careers.stats.gov.sa/",
     "orgId": "gastat",
-    "lastAttemptISO": "2026-09-04T05:18:43.685Z",
-    "lastSuccessISO": "2026-09-04T05:18:43.685Z",
+    "lastAttemptISO": "2026-09-04T06:06:01.210Z",
+    "lastSuccessISO": "2026-09-04T06:06:01.210Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -866,8 +866,8 @@
   {
     "sourceUrl": "https://careers.zatca.gov.sa/content/Coop-and-Training-Programs-Arabic/?locale=ar_SA",
     "orgId": "zatca",
-    "lastAttemptISO": "2026-09-04T05:18:43.685Z",
-    "lastSuccessISO": "2026-09-04T05:18:43.685Z",
+    "lastAttemptISO": "2026-09-04T06:06:01.210Z",
+    "lastSuccessISO": "2026-09-04T06:06:01.210Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -1028,11 +1028,11 @@
   {
     "sourceUrl": "https://gmedia.gov.sa/en/hiring",
     "orgId": "gcam",
-    "lastAttemptISO": "2026-09-03T04:56:25.527Z",
+    "lastAttemptISO": "2026-09-04T06:06:01.210Z",
     "lastSuccessISO": "2026-09-03T04:56:25.527Z",
-    "consecutiveFailures": 0,
-    "lastError": null,
-    "state": "healthy"
+    "consecutiveFailures": 1,
+    "lastError": "robots.txt: robots.txt answered 200 with a web page rather than a rules file, so the site was never actually asked; a browser could not reach it either",
+    "state": "degraded"
   },
   {
     "sourceUrl": "https://haseen.gov.sa/academy/ar/",
@@ -1091,9 +1091,9 @@
   {
     "sourceUrl": "https://khabeer.bog.gov.sa/cotraining/index",
     "orgId": "bog",
-    "lastAttemptISO": "2026-09-04T05:18:43.685Z",
+    "lastAttemptISO": "2026-09-04T06:06:01.210Z",
     "lastSuccessISO": "2026-09-03T05:40:28.101Z",
-    "consecutiveFailures": 4,
+    "consecutiveFailures": 5,
     "lastError": "robots.txt: robots.txt answered 200 with a web page rather than a rules file, so the site was never actually asked; a browser reached it but the body was not a robots.txt, so it is treated as a refusal",
     "state": "degraded"
   },
@@ -1433,9 +1433,9 @@
   {
     "sourceUrl": "https://ncvc.gov.sa/en/Pages/COOP-Training.aspx",
     "orgId": "ncvc",
-    "lastAttemptISO": "2026-09-04T05:18:43.685Z",
+    "lastAttemptISO": "2026-09-04T06:06:01.210Z",
     "lastSuccessISO": "2026-09-03T05:40:28.101Z",
-    "consecutiveFailures": 4,
+    "consecutiveFailures": 5,
     "lastError": "robots.txt: robots.txt answered 200 with a web page rather than a rules file, so the site was never actually asked; a browser reached it but the body was not a robots.txt, so it is treated as a refusal",
     "state": "degraded"
   },
@@ -1514,8 +1514,8 @@
   {
     "sourceUrl": "https://nour.net.sa/ar/",
     "orgId": "nournet",
-    "lastAttemptISO": "2026-09-03T12:47:12.718Z",
-    "lastSuccessISO": "2026-09-03T12:47:12.718Z",
+    "lastAttemptISO": "2026-09-04T06:06:01.210Z",
+    "lastSuccessISO": "2026-09-04T06:06:01.210Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -1622,8 +1622,8 @@
   {
     "sourceUrl": "https://sdaia.gov.sa/ar/Sectors/BuildingCapacity/Pages/CooperativeTraining.aspx",
     "orgId": "sdaia",
-    "lastAttemptISO": "2026-09-04T05:18:43.685Z",
-    "lastSuccessISO": "2026-09-04T05:18:43.685Z",
+    "lastAttemptISO": "2026-09-04T06:06:01.210Z",
+    "lastSuccessISO": "2026-09-04T06:06:01.210Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -2090,8 +2090,8 @@
   {
     "sourceUrl": "https://www.bog.gov.sa/en/EServices/judiciaryHiring/Pages/default.aspx",
     "orgId": "bog",
-    "lastAttemptISO": "2026-09-04T05:18:43.685Z",
-    "lastSuccessISO": "2026-09-04T05:18:43.685Z",
+    "lastAttemptISO": "2026-09-04T06:06:01.210Z",
+    "lastSuccessISO": "2026-09-04T06:06:01.210Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -3692,8 +3692,8 @@
   {
     "sourceUrl": "https://www.sirar.com.sa/about-us/careers/",
     "orgId": "sirar",
-    "lastAttemptISO": "2026-09-04T05:18:43.685Z",
-    "lastSuccessISO": "2026-09-04T05:18:43.685Z",
+    "lastAttemptISO": "2026-09-04T06:06:01.210Z",
+    "lastSuccessISO": "2026-09-04T06:06:01.210Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -3782,8 +3782,8 @@
   {
     "sourceUrl": "https://www.tadawulgroup.sa/wps/portal/tadawulgroup/joinus",
     "orgId": "tadawul",
-    "lastAttemptISO": "2026-09-04T05:20:22.188Z",
-    "lastSuccessISO": "2026-09-04T05:20:22.188Z",
+    "lastAttemptISO": "2026-09-04T06:06:01.210Z",
+    "lastSuccessISO": "2026-09-04T06:06:01.210Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
