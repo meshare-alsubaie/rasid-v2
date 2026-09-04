@@ -535,7 +535,7 @@ console.log("\na bad morning for the tool never buries an opening");
   );
 
   const notices = run([], [...twoMatches, ...unjudged], wasBroken, broken);
-  const { push, digestOnly } = split(notices, [], new Date("2026-09-01T09:00:00.000Z"), false);
+  const { push } = split(notices, [], new Date("2026-09-01T09:00:00.000Z"), false);
   const pushed = new Set(push.map((n) => n.key));
 
   check(
@@ -547,27 +547,100 @@ console.log("\na bad morning for the tool never buries an opening");
     "and they go first",
     push[0]!.key.startsWith("new:") && push[1]!.key.startsWith("new:"),
   );
-  check(
-    "the classifier alarm still gets a slot",
-    push.some((n) => n.kind === "classifier_down"),
-  );
   /*
-   * Broken sources no longer take a slot from an opening at all: they draw on
-   * their own budget. This used to assert `DAILY_PUSH_CAP - 3`, i.e. that the
-   * three openings in this batch each cost a housekeeping slot, which is the
-   * arithmetic of one shared budget.
+   * This asserted the opposite, and the opposite is what reached his phone: a
+   * "🟠 التصنيف متوقّف" alarm delivered in the same batch as three real
+   * opportunity alerts. The round judged two records here, so the classifier is
+   * demonstrably working and a backlog is only a backlog. An alarm that
+   * contradicts the notification above it teaches him to disbelieve both.
    */
   check(
-    "broken sources fill their own budget, and the rest wait in the digest",
-    push.filter((n) => n.kind === "source_broken").length === DAILY_PUSH_CAP - 1 &&
-      digestOnly.filter((n) => n.kind === "source_broken").length ===
-        12 - (DAILY_PUSH_CAP - 1),
-    `pushed ${push.filter((n) => n.kind === "source_broken").length}, digested ${digestOnly.filter((n) => n.kind === "source_broken").length}`,
+    "no stall alarm in a round that judged something, however long the queue",
+    !push.some((n) => n.kind === "classifier_down"),
+    push.filter((n) => n.kind === "classifier_down").map((n) => n.title).join(", "),
+  );
+
+  /* And it must still fire on a real stall: a queue, and nothing judged. */
+  {
+    const stalled = run([], unjudged, wasBroken, broken);
+    check(
+      "but it does fire when the queue is long and nothing was judged",
+      stalled.some((n) => n.kind === "classifier_down"),
+    );
+  }
+
+  /*
+   * Twelve broken sources are one piece of news. Each used to be its own notice
+   * titled "🔴 مصدر توقّف — <organisation>", and a phone truncates the title:
+   * he woke to five notifications reading "مصدر توقّف..." over an identical
+   * sentence, unable to tell which organisation any of them was about.
+   */
+  const brokenPushed = push.filter((n) => n.kind === "source_broken");
+  check(
+    "twelve broken sources become one notice",
+    brokenPushed.length === 1,
+    `${brokenPushed.length} notice(s)`,
+  );
+  check(
+    "and the organisations are named in the body, which a phone shows in full",
+    brokenPushed[0] !== undefined && brokenPushed[0].body.length > 40,
+    brokenPushed[0]?.body.slice(0, 70) ?? "no notice",
+  );
+  check(
+    "so housekeeping no longer fills the day's budget",
+    brokenPushed.length < DAILY_PUSH_CAP,
   );
   check(
     "and every opening in the batch went out",
     push.filter((n) => n.key.startsWith("new:")).length === 2,
     String(push.filter((n) => n.key.startsWith("new:")).length),
+  );
+
+  /* Two or fewer stay as they are: one name in a title beats a list of one. */
+  {
+    const twoBroken = broken.slice(0, 2);
+    const few = run([], twoMatches, twoBroken.map((h) => ({ ...h, state: "degraded" as const })), twoBroken);
+    check(
+      "two broken sources stay as two, each naming its organisation",
+      few.filter((n) => n.kind === "source_broken").length === 2,
+    );
+  }
+}
+
+console.log("\na status about a past day is not delivered as though it were today's");
+{
+  /*
+   * `classifier:2026-09-02` was pushed on the fourth - held two days by the old
+   * daily cap, then released by the new budget carrying a count that was two
+   * days stale. A state of the tool is only worth saying while it is the state
+   * of the tool.
+   */
+  const stale: Notice = {
+    key: "classifier:2026-09-02",
+    kind: "classifier_down",
+    title: "🟠 التصنيف لم يتقدّم",
+    body: "قديم",
+    weight: BAND.classifierDown,
+  };
+  const todays: Notice = { ...stale, key: "classifier:2026-09-04" };
+  const at = new Date("2026-09-04T09:00:00.000Z");
+
+  check(
+    "a two-day-old status is dropped",
+    split([stale], [], at, false).push.length === 0,
+  );
+  check(
+    "today's is delivered",
+    split([todays], [], at, false).push.length === 1,
+  );
+  check(
+    "and an opening is never dropped for being old, because it keeps until sent",
+    split(
+      [{ key: "new:old", kind: "new_relevant", title: "إعلان", body: "نصّ", weight: 300 }],
+      [],
+      at,
+      false,
+    ).push.length === 1,
   );
 }
 

@@ -308,6 +308,30 @@ console.log("\nthe deadline that replaces being killed");
     .map((h) => h.sourceUrl + "|" + h.lastAttemptISO)
     .sort()
     .join();
+  /*
+   * Wait for the collector lock before spawning one.
+   *
+   * The suite runs real collectors and so does the watcher, and since a lock
+   * was added to stop two of them overwriting each other's round, a collector
+   * started while the watcher is mid-round refuses with exit 3 - correctly.
+   * That is not this block's subject, so it waits its turn rather than reading
+   * a correct refusal as a failure.
+   *
+   * Bounded, and a lock that never frees is reported rather than waited on for
+   * ever: a permanently held lock is a real problem and must not look like a
+   * passing test.
+   */
+  const LOCK = ".rasid/collect.lock";
+  const waitedFrom = Date.now();
+  while (existsSync(LOCK) && Date.now() - waitedFrom < 180_000) {
+    spawnSync(process.execPath, ["-e", "setTimeout(()=>{},2000)"], { timeout: 5_000 });
+  }
+  check(
+    "the collector lock was free within three minutes",
+    !existsSync(LOCK),
+    "a lock nobody releases would stop collection entirely",
+  );
+
   const run = spawnSync("npx", ["tsx", "scripts/collect.ts", "--urls", urls], {
     encoding: "utf8",
     shell: true,

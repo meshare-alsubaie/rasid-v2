@@ -317,15 +317,62 @@ export function decide(input: DecideInput): Notice[] {
    * each morning instead of four times a day, and so it says it again tomorrow
    * if nobody has fixed it.
    */
+  /*
+   * A queue is not an outage, and this alarm could not tell them apart.
+   *
+   * It fired on the count of unjudged records alone, and said "no alerts about
+   * new opportunities will arrive until classification returns". On the morning
+   * this was written that sentence went to his phone alongside **three real
+   * opportunity alerts sent in the same batch** - the classifier was working
+   * perfectly and grinding through a backlog somebody had created on purpose by
+   * clearing the verdict memory. An alarm that contradicts the notification
+   * above it teaches him to disbelieve both.
+   *
+   * So the alarm now needs evidence of a stall, not merely of a queue: a large
+   * backlog *and* not one record gaining a score in this round. And when it does
+   * fire it describes what is true rather than predicting a silence it cannot
+   * know about.
+   */
   const unjudged = after.filter((o) => o.flags.includes("needs_manual_review"));
-  if (unjudged.length >= UNJUDGED_ALARM) {
+  const scoredBefore = before.filter((o) => o.relevanceScore !== null).length;
+  const scoredAfter = after.filter((o) => o.relevanceScore !== null).length;
+  const judgedSomething = scoredAfter > scoredBefore;
+
+  if (unjudged.length >= UNJUDGED_ALARM && !judgedSomething) {
     const day = new Date().toISOString().slice(0, 10);
     out.push({
       key: `classifier:${day}`,
       kind: "classifier_down",
-      title: "🟠 التصنيف متوقّف",
-      body: `قُرئت الصفحات لكن تعذّر الحكم على ${unjudged.length} منها. لن تصل تنبيهات عن فرص جديدة حتى يعود التصنيف، افحص الجهات المهمة بنفسك.`,
+      title: "🟠 التصنيف لم يتقدّم",
+      body: `${unjudged.length} صفحة قُرئت ولم يُحكم عليها، ولم تُحكم أي صفحة في هذه الجولة. إن تكرّر هذا غداً فالمصنّف متوقّف: افحص الجهات المهمة بنفسك.`,
       weight: BAND.classifierDown,
+    });
+  }
+
+  /*
+   * Five "a source stopped" alerts are one piece of news, badly told.
+   *
+   * Each broken source produced its own notice, titled
+   * "🔴 مصدر توقّف — <organisation>" with an identical body. On a phone the
+   * title is truncated: he woke to five notifications reading "مصدر توقّف..."
+   * over the same sentence, unable to tell which organisation any of them was
+   * about, and they filled the whole housekeeping budget for the day.
+   *
+   * The names belong in the body, which is shown in full. Two or fewer stay as
+   * they are - naming one organisation in a title is clearer than a list of one.
+   */
+  const broken = out.filter((n) => n.kind === "source_broken");
+  if (broken.length > 2) {
+    const names = broken.map((n) => n.title.replace(/^🔴 مصدر توقّف\s*[—·-]\s*/u, "").trim());
+    for (const n of broken) out.splice(out.indexOf(n), 1);
+    out.push({
+      // Keyed by the day and the set, so the same outage is not re-sent every
+      // round and a different set of sources is a different piece of news.
+      key: `broken:${new Date().toISOString().slice(0, 10)}:${names.slice().sort().join("|")}`,
+      kind: "source_broken",
+      title: `🔴 ${names.length} مصادر توقّفت`,
+      body: `${names.join("، ")} — لم تعد تُقرأ آلياً. افحص صفحاتها بنفسك.`,
+      weight: BAND.sourceBroken,
     });
   }
 
@@ -432,7 +479,23 @@ export function split(
   const stillNeedsDigest = (n: Notice): boolean =>
     !digestedKeys.has(n.key) && !pushedKeys.has(n.key);
 
-  const fresh = notices.filter(stillNeedsPush);
+  /*
+   * A status about today, delivered today, or not at all.
+   *
+   * `classifier:2026-09-02` was pushed on the fourth: held two days by the old
+   * daily cap, then released by the new budget carrying a count that was two
+   * days stale. A state of the tool is only worth saying while it is the state
+   * of the tool. An opening is the opposite - it keeps until it is delivered,
+   * which is why this drops statuses and nothing else.
+   */
+  const todayKey = dayOf(now.toISOString());
+  const notStale = (n: Notice): boolean => {
+    if (!STATUS_KINDS.has(n.kind)) return true;
+    const dated = /:(\d{4}-\d{2}-\d{2})$/.exec(n.key)?.[1];
+    return dated === undefined || dated === todayKey;
+  };
+
+  const fresh = notices.filter(stillNeedsPush).filter(notStale);
   const pushedToday = log.filter(
     (e) => dayOf(e.sentISO) === dayOf(now.toISOString()) && (e.via ?? "push") === "push",
   );
