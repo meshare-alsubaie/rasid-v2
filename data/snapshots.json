@@ -711,18 +711,17 @@
   {
     "sourceUrl": "https://awqaf.gov.sa/ar/media-center/ar/hiring/",
     "orgId": "awqaf",
-    "contentHash": "0897b0f4f54111e724a4f607d60be9b79e12468c91d59e1818da7cfa30957d4c",
+    "contentHash": "89f66a4fb9227834d0d7072a5b7ca52a01a6ff7357847a34a52610891510bb4c",
     "blockHashes": [
       "7364f70c455dc78c",
       "c804732dd480d71a",
       "74e4c1d2a646a96e",
-      "45b24d5ca2905171",
-      "ec27270c1f727fec"
+      "45b24d5ca2905171"
     ],
     "extractedChars": 410,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-08-31T00:02:49.563Z",
+    "lastChangedISO": "2026-09-04T05:54:13.865Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -3841,11 +3840,12 @@
   {
     "sourceUrl": "https://rega.gov.sa/media-center/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%88%D8%A7%D9%84%D8%A5%D8%B9%D9%84%D8%A7%D9%86%D8%A7%D8%AA/",
     "orgId": "rega",
-    "contentHash": "da733c99022b89e69378031811a9b89325fbaa24e0b378531881a0c77187d37f",
+    "contentHash": "04c1e497a95ba3a0c2b1843f46e40d64f9a0ffdc3e95d35ce916666191f11129",
     "blockHashes": [
       "2c2608753486ae3f",
       "74e4c1d2a646a96e",
-      "72e9784ea201cfd2",
+      "523d93439f444787",
+      "390c3456f1227c15",
       "20c59be41c15f5ca",
       "ca1d8198457d49ca",
       "8b4746061ea2fee8",
@@ -3856,17 +3856,17 @@
       "4570d5f6a8627fa8",
       "4a8605c99078759c",
       "b5fe7291a5494579",
-      "51ee62efb69654e4",
       "0635b9cc5bee94ad",
       "782261474561a27a",
       "f583729048a57f1a"
     ],
-    "extractedChars": 3181,
+    "extractedChars": 3144,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-02T09:58:24.016Z",
+    "lastChangedISO": "2026-09-04T05:54:13.865Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://rega.gov.sa/media-center/%D8%A7%D9%84%D8%AD%D9%82%D9%8A%D8%A8%D8%A9-%D8%A7%D9%84%D8%AA%D9%88%D8%B9%D9%88%D9%8A%D8%A9/",
