@@ -189,7 +189,25 @@ const LOCK_FILE = ".rasid/collect.lock";
  * it, so stopping early would only lose work.
  */
 const runStartedAt = Date.now();
-const RUN_DEADLINE_MS = Number(process.env.RASID_RUN_DEADLINE_MS ?? Infinity);
+/*
+ * A hand-run round used to default to `Infinity`, and the reasoning was that
+ * nothing is going to kill it so stopping early would only lose work.
+ *
+ * That is exactly backwards for the failure it meets. This script writes every
+ * file it produces at the very end, in one block, so a round that never reaches
+ * the end writes *nothing*. "No deadline" therefore does not preserve the work,
+ * it guarantees losing all of it the first time a fetch wedges.
+ *
+ * And it wedged, during this project's own repair session: a forty-five source
+ * round sat for fifteen minutes with zero CPU, no open sockets and no browser -
+ * every promise awaited, none of them ever going to settle. It would have sat
+ * there until the machine was restarted.
+ *
+ * Forty-five minutes is far longer than a full sweep needs and short enough that
+ * a wedged round still ends its day by writing what it read.
+ */
+const DEFAULT_RUN_DEADLINE_MS = 45 * 60_000;
+const RUN_DEADLINE_MS = Number(process.env.RASID_RUN_DEADLINE_MS ?? DEFAULT_RUN_DEADLINE_MS);
 let ranOutOfTime = 0;
 const outOfTime = (): boolean => Date.now() - runStartedAt >= RUN_DEADLINE_MS;
 
@@ -606,12 +624,56 @@ const robotsAtOnce = pLimit(6);
 console.log(`reading robots.txt for ${origins.length} host(s)…`);
 await Promise.all(origins.map((origin) => robotsAtOnce(() => checkRobots(origin))));
 
+/**
+ * Run a phase, and give up on it at the round's deadline rather than never.
+ *
+ * `fetchPage` has its own per-request timeout and `paced` serialises per host,
+ * so in principle nothing here can hang. In practice a round did: fifteen
+ * minutes at zero CPU with no sockets open, which is what a promise that will
+ * never settle looks like from outside. Whatever the cause, the round must
+ * still reach its own write - the sources it did read are worth keeping, and
+ * the ones it did not simply have no entry this round, which is the correct
+ * "not read" state and is exactly what the health file is for.
+ */
+async function withinDeadline(work: Promise<unknown>, label: string): Promise<void> {
+  const left = RUN_DEADLINE_MS - (Date.now() - runStartedAt);
+  if (!Number.isFinite(left)) {
+    await work;
+    return;
+  }
+  let timer: ReturnType<typeof setTimeout> | undefined;
+  const deadline = new Promise<"deadline">((resolve) => {
+    timer = setTimeout(() => resolve("deadline"), Math.max(0, left));
+  });
+  const winner = await Promise.race([work.then(() => "done" as const), deadline]);
+  if (timer !== undefined) clearTimeout(timer);
+  if (winner === "deadline") {
+    ranOutOfTime++;
+    console.log(
+      `
+${label} did not finish inside the round's deadline. Writing what was read;` +
+        " the rest keep their previous state and stay due.",
+    );
+  }
+}
+
 // Every source is awaited, and a rejection here would be a bug in this file
 // rather than a bad page: collect() converts page failures into health records.
-await Promise.all(staticTargets.map((t) => collect(t)));
+await withinDeadline(
+  Promise.all(staticTargets.map((t) => collect(t))),
+  `the ${staticTargets.length} static source(s)`,
+);
 
 // Rendered sources run strictly one at a time, after the cheap work is done.
-for (const t of browserTargets) await collect(t);
+await withinDeadline(
+  (async () => {
+    for (const t of browserTargets) {
+      if (outOfTime()) break;
+      await collect(t);
+    }
+  })(),
+  `the ${browserTargets.length} rendered source(s)`,
+);
 
 // What the cap left out is recorded as unread, with the reason, so the app can
 // show it. A source nobody looked at must never sit in the dataset as healthy.
@@ -1489,3 +1551,14 @@ if (browserTargets.length > 0 && browserUnavailable()) {
   );
 }
 if (DRY_RUN) console.log("\ndry run: data/health.json and data/snapshots.json were not touched.");
+
+/*
+ * Everything is written by this point, so the round is finished whatever is
+ * still open.
+ *
+ * A phase abandoned at the deadline leaves its sockets and timers behind, and
+ * node will not exit while a handle is alive — so without this the process would
+ * sit there after a successful write, looking exactly like the hang it was
+ * added to survive. The lock is released by the `exit` handler above.
+ */
+process.exit(0);

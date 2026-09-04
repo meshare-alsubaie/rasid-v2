@@ -58,6 +58,29 @@ export function normaliseArabic(s: string): string {
       .replace(/ة/g, "ه")
       // zero-width and direction marks, which gov.sa markup is full of
       .replace(/[​-‏؜⁦-⁩﻿]/g, "")
+      /*
+       * A clitic glued to the definite article is the same word.
+       *
+       * Arabic writes prepositions and conjunctions attached: the National
+       * Cybersecurity Authority's page says "الأكاديمية الوطنية **للأمن**
+       * السيبراني", and the model copied the field in its citation form,
+       * "الأمن السيبراني". Those are the same words, and the guard - which
+       * compares exact substrings - called the reply an invention and threw
+       * the whole classification away.
+       *
+       * That is not a rare shape. It is ordinary Arabic, and it was costing
+       * real classifications at the single most relevant organisation in the
+       * dataset for a cybersecurity student.
+       *
+       * `لل` at the start of a word is ل + ال with the alef elided; the others
+       * are a letter before an intact ال. Applied to both the page and the
+       * claim, so the comparison stays symmetric. It does over-merge a few
+       * ordinary words - "بالغ" becomes "الغ" - but it does so on both sides,
+       * and the guard exists to catch wholesale invention (non-words, English
+       * translations, cities the page never named), which this does not soften.
+       */
+      .replace(/(^|\s)لل/g, "$1ال")
+      .replace(/(^|\s)[وف]?[بكل]ال/g, "$1ال")
       .replace(/\s+/g, " ")
       .trim()
       .toLowerCase()

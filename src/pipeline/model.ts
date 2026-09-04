@@ -141,7 +141,40 @@ export async function askLocal(opts: {
         // Reasoning traces are latency this job cannot spend and does not need.
         think: false,
         ...(opts.json ? { format: "json" } : {}),
-        options: { num_gpu: 0, temperature: 0, num_predict: opts.maxTokens },
+        /*
+         * Two of these were missing, and between them they were most of why
+         * the dataset held three dates.
+         *
+         * `num_ctx` was not set at all, so Ollama used its default of 4096
+         * tokens — while qwen3:8b supports 40,960. The excerpt alone is up to
+         * 6,000 characters, and Arabic runs two to three characters per token,
+         * so the prompt is around 2,400 tokens before the system prompt and the
+         * schema instructions are added. The window was therefore overflowing,
+         * silently, and what falls off is the *end* of the excerpt — which is
+         * exactly where a Saudi careers page prints "آخر موعد للتقديم", and
+         * exactly where the date window added to `focusedExcerpt` puts it. The
+         * fix upstream could not take effect because the model never received
+         * the text.
+         *
+         * `repeat_penalty` is 1 in this model's own Modelfile, meaning none. On
+         * its own that is survivable; with `temperature: 0` it is not, because
+         * greedy decoding with no penalty cannot leave a repeating state once it
+         * enters one. A live round produced `majors` as the same phrase ten
+         * times over and `cities` as "الرياض" ten times, and the copied-wording
+         * guard threw the whole reply away — correctly, and the page went
+         * unjudged, and no date came out of it.
+         *
+         * 8192 is double what the prompt needs and a quarter of what the model
+         * allows, which leaves room for a longer excerpt later without paying
+         * for 40k of context on a CPU that also has to run his games.
+         */
+        options: {
+          num_gpu: 0,
+          temperature: 0,
+          num_ctx: 8192,
+          repeat_penalty: 1.1,
+          num_predict: opts.maxTokens,
+        },
       }),
       signal: AbortSignal.timeout(TIMEOUT_MS),
     });

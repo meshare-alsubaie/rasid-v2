@@ -1,8 +1,28 @@
 {
   "model": "qwen3:8b",
-  "writtenISO": "2026-09-04T04:31:04.607Z",
+  "writtenISO": "2026-09-04T05:06:03.695Z",
   "verdicts": {
     "d3ed902d693a4c1d3b4fc1c6f9b85ea8": null,
-    "cc97c142781ff3943c2ea2f9f38af7d8": null
+    "cc97c142781ff3943c2ea2f9f38af7d8": null,
+    "dbed8aa359af06e8de96391947ca617d": {
+      "isTrainingAnnouncement": true,
+      "product": "unknown",
+      "titleAr": "البرامج التدريبية والتمارين السيبرانية",
+      "opensISO": null,
+      "closesISO": null,
+      "opensRaw": null,
+      "closesRaw": null,
+      "moreOnPage": true,
+      "majors": [
+        "الأمن السيبراني"
+      ],
+      "seats": null,
+      "stipendSAR": null,
+      "durationWeeks": null,
+      "cities": [],
+      "statesZeroCoursesRule": false,
+      "zeroCoursesQuote": null,
+      "applyUrl": null
+    }
   }
 }

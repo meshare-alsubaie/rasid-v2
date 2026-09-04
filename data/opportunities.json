@@ -2080,26 +2080,30 @@
   {
     "id": "e8c36522e4c524a6",
     "orgId": "ncac",
-    "titleAr": "لم يُصنَّف بعد",
+    "titleAr": "البرامج التدريبية والتمارين السيبرانية",
     "detectedISO": "2026-09-03T02:43:43.219Z",
     "firstSeenISO": "2026-09-03T02:43:43.219Z",
-    "lastConfirmedISO": "2026-09-04T04:19:56.314Z",
+    "lastConfirmedISO": "2026-09-04T04:58:57.433Z",
     "status": "unknown",
     "opensISO": null,
     "closesISO": null,
     "closesHijri": null,
     "product": "unknown",
-    "majors": [],
+    "majors": [
+      "الأمن السيبراني"
+    ],
     "seats": null,
     "stipendSAR": null,
     "durationWeeks": null,
     "cities": [],
-    "relevanceScore": null,
-    "relevanceReason": "تعذّر التصنيف: جاء الردّ بصيغة غير متوقّعة، فلم يُقبل. الصفحة محفوظة وستُعاد قراءتها.",
+    "relevanceScore": 90,
+    "relevanceReason": "يذكر الأمن السيبراني، وهو تخصّصك.",
     "statesZeroCoursesRule": false,
     "zeroCoursesQuote": null,
     "flags": [
-      "needs_manual_review"
+      "exact_major_match",
+      "no_course_condition",
+      "more_on_page"
     ],
     "sourceUrl": "https://haseen.gov.sa/academy/ar/",
     "applyUrl": null,
