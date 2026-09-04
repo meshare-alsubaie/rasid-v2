@@ -1310,19 +1310,18 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/search-results",
     "orgId": "maaden",
-    "contentHash": "e65043e5a894de55c99453234919d753e1da1384bf85b9162d12e42b1d80d580",
+    "contentHash": "079d2203aad26933cff71cc071fcb51ace5020fc535ee232ab40c0b30c182684",
     "blockHashes": [
       "5569201553604d03",
-      "6610997bc1f9b192",
-      "408e4ecc793b83ac",
-      "2c61056b1bd4ace4"
+      "6e3cceb54e777f64",
+      "b6fb4afcb61e903f"
     ],
-    "extractedChars": 942,
-    "extractionMethod": "body_fallback",
+    "extractedChars": 201,
+    "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-04T08:32:42.354Z",
+    "lastChangedISO": "2026-09-04T09:19:30.153Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://careers.mcit.gov.sa/",
@@ -2149,19 +2148,20 @@
   {
     "sourceUrl": "https://gaca.gov.sa/announcements",
     "orgId": "gaca",
-    "contentHash": "40dfbc1f5f35a5be3e38374e8191d9c8c86475e7f233273e751cc9b58457cd0f",
+    "contentHash": "c2b1d62025dca80e494a817274c011dd3ed2e0f5f73caea5e1d91e52109bd60d",
     "blockHashes": [
-      "225f03bcd13005ab",
+      "516fafdfdc1f4e0e",
       "9c2a3967149440a8",
       "83a22e1f9fb245f8",
       "bc532942aaed49b7"
     ],
-    "extractedChars": 1211,
+    "extractedChars": 1212,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-04T06:15:53.035Z",
+    "lastChangedISO": "2026-09-04T09:19:30.153Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://gaca.gov.sa/ar/announcements",
@@ -2926,8 +2926,7 @@
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
     "lastChangedISO": "2026-09-04T03:09:00.829Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://misa.gov.sa/ar/media-center/",
@@ -3636,14 +3635,15 @@
     "orgId": "ndf",
     "contentHash": "e9edb2d7ab19f755cce4cefb92ec4e49362498631a456ac05b8031acdcf02ca5",
     "blockHashes": [
-      "8d14653a6c52c9f2"
+      "e9edb2d7ab19f755"
     ],
     "extractedChars": 1211,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-04T06:15:53.035Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://ndf.gov.sa/media-center/press-news",
@@ -5620,22 +5620,14 @@
     "blockHashes": [
       "969f0f9d8129003d",
       "1928fdbb5b09339c",
-      "0386cf13261ffe9d",
-      "6f2ba9922a5aa0a8",
-      "b531ac36a1ae3c0c",
-      "82b9d8b8888f0cc3",
-      "f757bbd801e04278",
-      "f59b431bece43ac9",
-      "43db1696da8c5ece",
-      "df88135255595e7d",
-      "c73e4b84a57fb0c7"
+      "5cf7ef5e6f3bc94c"
     ],
     "extractedChars": 1418,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-04T06:15:53.035Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.etec.gov.sa/ar/jobs",
@@ -6306,10 +6298,10 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/careers",
     "orgId": "hrc",
-    "contentHash": "c07819ade40bd925a22c7a2eb85ee3a12b26c1f83a4cc82eff9a6a6842abfc06",
+    "contentHash": "9a2f8d625fa47bcb67e42d9ec29fda9f19f2f83843cca550fbc0600267a774e8",
     "blockHashes": [
       "12e41a244a8a2984",
-      "23015eedc83b10df",
+      "0f903e585369a978",
       "9bd6314e9bbc7375",
       "474d2dbb69aae30b",
       "84b2fc11813dc7e8",
@@ -6333,9 +6325,9 @@
     "extractedChars": 3794,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-04T06:15:53.035Z",
+    "lastChangedISO": "2026-09-04T09:19:30.153Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/careers?lang=ar",
