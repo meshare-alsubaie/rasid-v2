@@ -1,6 +1,6 @@
 {
   "model": "qwen3:8b",
-  "writtenISO": "2026-09-04T07:07:55.791Z",
+  "writtenISO": "2026-09-04T07:12:28.383Z",
   "verdicts": {
     "d3ed902d693a4c1d3b4fc1c6f9b85ea8": null,
     "cc97c142781ff3943c2ea2f9f38af7d8": null,
@@ -109,6 +109,26 @@
       "applyUrl": null
     },
     "7c59a9fd4f081933867605dc534840e2": null,
-    "92c20e7b31c4dec287840a9e5fd24bc5": null
+    "92c20e7b31c4dec287840a9e5fd24bc5": null,
+    "59d9777cbabec70509f96c42e03ea57a": {
+      "isTrainingAnnouncement": true,
+      "product": "coop",
+      "titleAr": "برنامج التدريب التعاوني للفصل الدراسي الأول 2026م - هيئة السوق المالية",
+      "opensISO": null,
+      "closesISO": null,
+      "opensRaw": null,
+      "closesRaw": null,
+      "moreOnPage": false,
+      "majors": [
+        "غيرذلك"
+      ],
+      "seats": null,
+      "stipendSAR": 500,
+      "durationWeeks": null,
+      "cities": [],
+      "statesZeroCoursesRule": false,
+      "zeroCoursesQuote": null,
+      "applyUrl": null
+    }
   }
 }
