@@ -3040,9 +3040,9 @@
   {
     "sourceUrl": "https://modon.gov.sa/ar/MediaCenter/Pages/default.aspx",
     "orgId": "modon",
-    "contentHash": "3779a74855023e5a434338e5306ed4f7f703a6463f570fcd29b5a76d54c938bb",
+    "contentHash": "04f1a3452249d4bc3f71297b94e876c240a1e5a781617a5888b6188688d5e288",
     "blockHashes": [
-      "6c0c0962931e8a92",
+      "f279b166b3d266c7",
       "317f2772b9ef6210",
       "8ae17958586c8a8c",
       "a052fcd3e0ca047c"
@@ -3050,9 +3050,10 @@
     "extractedChars": 306,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-04T06:19:25.627Z",
+    "lastChangedISO": "2026-09-04T09:22:07.355Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://momah.gov.sa/ar",
@@ -8485,7 +8486,7 @@
     "orgId": "nazaha",
     "contentHash": "dee8c095eb83d900104c1e6976845749d66814b27ea8fd70e36ad9d438d31815",
     "blockHashes": [
-      "9dee6f4277bd727d",
+      "f668847abc5a674c",
       "6eca9a7e8f445a2e",
       "fcc9ab0ce14a3013",
       "687dc7a896984645"
@@ -8495,7 +8496,8 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-04T06:17:33.293Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://www.nazaha.gov.sa/News/Details?q=o2ojUlDL5mGosOuEoGXXeg==",
@@ -10061,17 +10063,17 @@
   {
     "sourceUrl": "https://www.se.com.sa/nh",
     "orgId": "sec",
-    "contentHash": "d290ed5e964a6cd7a034c4ffa072a37897244459346603bcbcbce7f0cd6b78c8",
+    "contentHash": "8ded396959e5ee36c601c335deb9f9ee779922f9bb74faf2daf3e45ba78991d0",
     "blockHashes": [
       "29ebacf6d27888a5",
       "33ac0ac2b2a350b8"
     ],
-    "extractedChars": 625,
+    "extractedChars": 1173,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-03T05:13:40.059Z",
-    "lastChangedISO": "2026-09-04T06:19:25.627Z",
+    "lastChangedISO": "2026-09-04T09:22:07.355Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.seec.gov.sa/",
