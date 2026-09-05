@@ -737,7 +737,7 @@
   {
     "sourceUrl": "https://career.alinma.com/",
     "orgId": "alinma",
-    "contentHash": null,
+    "contentHash": "e245fd94c1ab59dcc6bad34af50ba34c224654b27d2f46834c18eef001143fa5",
     "blockHashes": [
       "d139e32e22028878",
       "24a16c9057a577bb",
@@ -746,9 +746,9 @@
     "extractedChars": 750,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-01T01:46:07.967Z",
-    "lastChangedISO": "2026-09-04T06:04:12.470Z",
+    "lastChangedISO": "2026-09-05T02:17:57.314Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://career.dga.gov.sa/",
@@ -2643,15 +2643,16 @@
   {
     "sourceUrl": "https://lcgpa.gov.sa/ar/Pages/default.aspx",
     "orgId": "lcgpa",
-    "contentHash": "357bb691454021961e116f06ba1def9d3f65130d19eeea86a7454bf8d9204318",
+    "contentHash": "0e01f2881ae0c664ad6f912e49182fc95293af0ac01f00e0b5c09b86388b1c71",
     "blockHashes": [
-      "ac6f4bc8da598f29",
+      "fae40ec5870a4d4a",
+      "8702181c54b895c1",
       "beda84e843f95551"
     ],
-    "extractedChars": 218,
+    "extractedChars": 594,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-04T03:12:19.874Z",
+    "lastChangedISO": "2026-09-05T02:17:57.314Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -3040,9 +3041,9 @@
   {
     "sourceUrl": "https://modon.gov.sa/ar/MediaCenter/Pages/default.aspx",
     "orgId": "modon",
-    "contentHash": "04f1a3452249d4bc3f71297b94e876c240a1e5a781617a5888b6188688d5e288",
+    "contentHash": "d317952203b7f192a222a03c5214d4e5851ef7451775e40274131d55d8661063",
     "blockHashes": [
-      "f279b166b3d266c7",
+      "1c18d797c67ab6b8",
       "317f2772b9ef6210",
       "8ae17958586c8a8c",
       "a052fcd3e0ca047c"
@@ -3050,7 +3051,7 @@
     "extractedChars": 306,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-04T09:22:07.355Z",
+    "lastChangedISO": "2026-09-05T02:17:57.314Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -3131,7 +3132,7 @@
   {
     "sourceUrl": "https://momah.gov.sa/ar/form/partnerships-and-cooperation",
     "orgId": "housing",
-    "contentHash": "c3dbc953466234e80c594b6511ee2f54999e45c6029a1df9447c4a3250f03df4",
+    "contentHash": "8c0627518ffbefc94eb06ee29660ba5e33f9554c3b64dbddd45f97f1f22fcc9d",
     "blockHashes": [
       "bc22896c0dc046da",
       "d2009185b8a1a230",
@@ -3140,31 +3141,31 @@
       "335d51c1e5760c06",
       "aa8e55eac5aea8cd",
       "09552ec2996654f9",
-      "b1010bb0117866f1",
-      "09b1bd561f62b68f",
-      "50bf3b200311bd70",
-      "ba297bba32de6ef3",
-      "9f6af05074fd95c7",
-      "ff6f87e39638cb9b",
-      "d74ebc6d78bc5591",
-      "bd6841d401304d20",
+      "366990cfa6b76aa4",
+      "9ac30262caf855e2",
+      "4a3f1ed2c4e71a28",
       "5d15152619ff887e",
-      "219b1281675de0c4",
-      "b1accb8a8861584e",
+      "1f06a96fe87a4f1a",
+      "8f0cdc8e24e9b97e",
       "ac1405062719fb86",
-      "6727f76101bafc0e",
-      "979d54b46498e095",
-      "ce309fac13956123",
-      "0bccb3506326d291",
+      "e8e5866915a236bd",
+      "ff6f87e39638cb9b",
+      "4c9d87ee90ecd6c0",
+      "487746b6b181caea",
       "560edfe1df9d8921",
       "23b97a8a93aba477",
       "9cd3abf7fd1573ff",
-      "2d58c010d87a58ee"
+      "7b5b9c4aeaa15575",
+      "1979c68518da777d",
+      "0ae422281b8c3c6d",
+      "9a4e0049dbdaf530",
+      "09b1bd561f62b68f",
+      "f93e8b90d81b8684"
     ],
     "extractedChars": 151356,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-04T09:29:56.963Z",
+    "lastChangedISO": "2026-09-05T02:17:57.314Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -3328,7 +3329,7 @@
   {
     "sourceUrl": "https://mot.gov.sa/ar/news",
     "orgId": "mot",
-    "contentHash": "adfcad651c50f39c5fb86452816c3c2c4a0d058d1e736260d30406d1acc1fba2",
+    "contentHash": null,
     "blockHashes": [
       "51f380681e0e1186",
       "aa279a49c5521ae8",
