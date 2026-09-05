@@ -596,8 +596,8 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/search-results",
     "orgId": "maaden",
-    "lastAttemptISO": "2026-09-05T15:24:04.386Z",
-    "lastSuccessISO": "2026-09-05T15:24:04.386Z",
+    "lastAttemptISO": "2026-09-05T16:15:01.423Z",
+    "lastSuccessISO": "2026-09-05T16:15:01.423Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -614,9 +614,9 @@
   {
     "sourceUrl": "https://careers.mobily.com.sa/ar/sites/opportunities/pages/Coop",
     "orgId": "mobily",
-    "lastAttemptISO": "2026-09-05T15:24:04.386Z",
+    "lastAttemptISO": "2026-09-05T16:15:01.423Z",
     "lastSuccessISO": "2026-08-30T00:02:43.835Z",
-    "consecutiveFailures": 62,
+    "consecutiveFailures": 63,
     "lastError": "page.evaluate: Target crashed ",
     "state": "broken"
   },
@@ -794,9 +794,9 @@
   {
     "sourceUrl": "https://careers.sdaia.gov.sa/jobs",
     "orgId": "sdaia",
-    "lastAttemptISO": "2026-09-05T15:24:04.386Z",
+    "lastAttemptISO": "2026-09-05T16:15:01.423Z",
     "lastSuccessISO": "2026-09-03T05:51:47.891Z",
-    "consecutiveFailures": 27,
+    "consecutiveFailures": 28,
     "lastError": "robots.txt: robots.txt answered 200 with a web page rather than a rules file, so the site was never actually asked; a browser reached it but the body was not a robots.txt, so it is treated as a refusal",
     "state": "broken"
   },
@@ -812,8 +812,8 @@
   {
     "sourceUrl": "https://careers.stats.gov.sa/",
     "orgId": "gastat",
-    "lastAttemptISO": "2026-09-05T15:24:04.386Z",
-    "lastSuccessISO": "2026-09-05T15:24:04.386Z",
+    "lastAttemptISO": "2026-09-05T16:15:01.423Z",
+    "lastSuccessISO": "2026-09-05T16:15:01.423Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -866,8 +866,8 @@
   {
     "sourceUrl": "https://careers.zatca.gov.sa/content/Coop-and-Training-Programs-Arabic/?locale=ar_SA",
     "orgId": "zatca",
-    "lastAttemptISO": "2026-09-05T15:24:04.386Z",
-    "lastSuccessISO": "2026-09-05T15:24:04.386Z",
+    "lastAttemptISO": "2026-09-05T16:15:01.423Z",
+    "lastSuccessISO": "2026-09-05T16:15:01.423Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -920,8 +920,8 @@
   {
     "sourceUrl": "https://futureskills.mcit.gov.sa/en/coop-training",
     "orgId": "mcit",
-    "lastAttemptISO": "2026-09-05T15:24:04.386Z",
-    "lastSuccessISO": "2026-09-05T15:24:04.386Z",
+    "lastAttemptISO": "2026-09-05T16:15:01.423Z",
+    "lastSuccessISO": "2026-09-05T16:15:01.423Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -1082,18 +1082,18 @@
   {
     "sourceUrl": "https://jobs.sabic.com/",
     "orgId": "sabic",
-    "lastAttemptISO": "2026-09-05T15:24:04.386Z",
+    "lastAttemptISO": "2026-09-05T16:15:01.423Z",
     "lastSuccessISO": "2026-09-05T15:24:04.386Z",
-    "consecutiveFailures": 0,
-    "lastError": null,
-    "state": "healthy"
+    "consecutiveFailures": 1,
+    "lastError": "fetch failed",
+    "state": "degraded"
   },
   {
     "sourceUrl": "https://khabeer.bog.gov.sa/cotraining/index",
     "orgId": "bog",
-    "lastAttemptISO": "2026-09-05T15:24:04.386Z",
+    "lastAttemptISO": "2026-09-05T16:15:01.423Z",
     "lastSuccessISO": "2026-09-03T05:40:28.101Z",
-    "consecutiveFailures": 22,
+    "consecutiveFailures": 23,
     "lastError": "robots.txt: robots.txt answered 200 with a web page rather than a rules file, so the site was never actually asked; a browser reached it but the body was not a robots.txt, so it is treated as a refusal",
     "state": "broken"
   },
@@ -1433,10 +1433,10 @@
   {
     "sourceUrl": "https://ncvc.gov.sa/en/Pages/COOP-Training.aspx",
     "orgId": "ncvc",
-    "lastAttemptISO": "2026-09-05T15:24:04.386Z",
+    "lastAttemptISO": "2026-09-05T16:15:01.423Z",
     "lastSuccessISO": "2026-09-03T05:40:28.101Z",
-    "consecutiveFailures": 22,
-    "lastError": "robots.txt: robots.txt answered 200 with a web page rather than a rules file, so the site was never actually asked; a browser reached it but the body was not a robots.txt, so it is treated as a refusal",
+    "consecutiveFailures": 23,
+    "lastError": "robots.txt: robots.txt answered 200 with a web page rather than a rules file, so the site was never actually asked; a browser could not reach it either",
     "state": "broken"
   },
   {
@@ -1586,9 +1586,9 @@
   {
     "sourceUrl": "https://rega.gov.sa/media-center/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%88%D8%A7%D9%84%D8%A5%D8%B9%D9%84%D8%A7%D9%86%D8%A7%D8%AA/",
     "orgId": "rega",
-    "lastAttemptISO": "2026-09-05T13:03:45.179Z",
+    "lastAttemptISO": "2026-09-05T16:15:01.423Z",
     "lastSuccessISO": "2026-09-04T11:59:16.091Z",
-    "consecutiveFailures": 2,
+    "consecutiveFailures": 3,
     "lastError": "robots.txt: robots.txt returned 503; RFC 9309 treats a server error as disallow; a browser could not reach it either",
     "state": "degraded"
   },
@@ -1757,8 +1757,8 @@
   {
     "sourceUrl": "https://tetco.sa/",
     "orgId": "tetco",
-    "lastAttemptISO": "2026-09-05T09:38:54.461Z",
-    "lastSuccessISO": "2026-09-05T09:38:54.461Z",
+    "lastAttemptISO": "2026-09-05T16:15:01.423Z",
+    "lastSuccessISO": "2026-09-05T16:15:01.423Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -2522,8 +2522,8 @@
   {
     "sourceUrl": "https://www.jadwa.com/en/form/summer-internship-program",
     "orgId": "jadwa",
-    "lastAttemptISO": "2026-09-05T12:50:22.144Z",
-    "lastSuccessISO": "2026-09-05T12:50:22.144Z",
+    "lastAttemptISO": "2026-09-05T16:15:01.423Z",
+    "lastSuccessISO": "2026-09-05T16:15:01.423Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -2837,9 +2837,9 @@
   {
     "sourceUrl": "https://www.mof.gov.sa/docslibrary/TrainingManuals/Pages/default.aspx",
     "orgId": "mof",
-    "lastAttemptISO": "2026-09-05T12:47:11.043Z",
+    "lastAttemptISO": "2026-09-05T16:15:01.423Z",
     "lastSuccessISO": "2026-09-03T04:02:53.097Z",
-    "consecutiveFailures": 4,
+    "consecutiveFailures": 5,
     "lastError": "robots.txt: robots.txt answered 200 with a web page rather than a rules file, so the site was never actually asked; a browser reached it but the body was not a robots.txt, so it is treated as a refusal",
     "state": "degraded"
   },
@@ -2981,8 +2981,8 @@
   {
     "sourceUrl": "https://www.monshaat.gov.sa/",
     "orgId": "monshaat",
-    "lastAttemptISO": "2026-09-05T10:02:22.644Z",
-    "lastSuccessISO": "2026-09-05T10:02:22.644Z",
+    "lastAttemptISO": "2026-09-05T16:15:01.423Z",
+    "lastSuccessISO": "2026-09-05T16:15:01.423Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -3134,8 +3134,8 @@
   {
     "sourceUrl": "https://www.ncc.gov.sa/ar/Pages/default.aspx",
     "orgId": "ncc",
-    "lastAttemptISO": "2026-09-05T10:02:22.644Z",
-    "lastSuccessISO": "2026-09-05T10:02:22.644Z",
+    "lastAttemptISO": "2026-09-05T16:15:01.423Z",
+    "lastSuccessISO": "2026-09-05T16:15:01.423Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -3260,8 +3260,8 @@
   {
     "sourceUrl": "https://www.rcrc.gov.sa/media-center/",
     "orgId": "rcrc",
-    "lastAttemptISO": "2026-09-05T12:47:11.043Z",
-    "lastSuccessISO": "2026-09-05T12:47:11.043Z",
+    "lastAttemptISO": "2026-09-05T16:15:01.423Z",
+    "lastSuccessISO": "2026-09-05T16:15:01.423Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -3377,8 +3377,8 @@
   {
     "sourceUrl": "https://www.saip.gov.sa",
     "orgId": "saip",
-    "lastAttemptISO": "2026-09-05T10:02:22.644Z",
-    "lastSuccessISO": "2026-09-05T10:02:22.644Z",
+    "lastAttemptISO": "2026-09-05T16:15:01.423Z",
+    "lastSuccessISO": "2026-09-05T16:15:01.423Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -3530,9 +3530,9 @@
   {
     "sourceUrl": "https://www.saudiexchange.sa/wps/portal/saudiexchange/newsandreports/issuer-news/issuer-announcements?locale=ar",
     "orgId": "tadawul",
-    "lastAttemptISO": "2026-09-05T13:03:45.179Z",
+    "lastAttemptISO": "2026-09-05T16:15:01.423Z",
     "lastSuccessISO": "2026-09-02T23:42:46.216Z",
-    "consecutiveFailures": 6,
+    "consecutiveFailures": 7,
     "lastError": "HTTP 403",
     "state": "broken"
   },
@@ -3656,8 +3656,8 @@
   {
     "sourceUrl": "https://www.sidf.gov.sa/Coop",
     "orgId": "sidf",
-    "lastAttemptISO": "2026-09-05T15:14:55.369Z",
-    "lastSuccessISO": "2026-09-05T15:14:55.369Z",
+    "lastAttemptISO": "2026-09-05T16:15:01.423Z",
+    "lastSuccessISO": "2026-09-05T16:15:01.423Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -3782,8 +3782,8 @@
   {
     "sourceUrl": "https://www.tadawulgroup.sa/wps/portal/tadawulgroup/joinus",
     "orgId": "tadawul",
-    "lastAttemptISO": "2026-09-05T15:24:04.386Z",
-    "lastSuccessISO": "2026-09-05T15:24:04.386Z",
+    "lastAttemptISO": "2026-09-05T16:15:01.423Z",
+    "lastSuccessISO": "2026-09-05T16:15:01.423Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -3827,8 +3827,8 @@
   {
     "sourceUrl": "https://www.thiqah.sa/",
     "orgId": "thiqah",
-    "lastAttemptISO": "2026-09-05T10:02:22.644Z",
-    "lastSuccessISO": "2026-09-05T10:02:22.644Z",
+    "lastAttemptISO": "2026-09-05T16:15:01.423Z",
+    "lastSuccessISO": "2026-09-05T16:15:01.423Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -3944,9 +3944,9 @@
   {
     "sourceUrl": "https://www.unilever.com/news/",
     "orgId": "unilever_sa",
-    "lastAttemptISO": "2026-09-05T13:03:45.179Z",
+    "lastAttemptISO": "2026-09-05T16:15:01.423Z",
     "lastSuccessISO": "2026-09-02T23:42:46.216Z",
-    "consecutiveFailures": 6,
+    "consecutiveFailures": 7,
     "lastError": "HTTP 403",
     "state": "broken"
   },
