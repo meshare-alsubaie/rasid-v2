@@ -488,8 +488,8 @@
   {
     "sourceUrl": "https://careers.awqaf.gov.sa/viewalljobs/",
     "orgId": "awqaf",
-    "lastAttemptISO": "2026-09-05T12:09:02.913Z",
-    "lastSuccessISO": "2026-09-05T12:09:02.913Z",
+    "lastAttemptISO": "2026-09-05T15:09:46.042Z",
+    "lastSuccessISO": "2026-09-05T15:09:46.042Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -893,9 +893,9 @@
   {
     "sourceUrl": "https://e-services.hrc.gov.sa/ar/service/details/12",
     "orgId": "hrc",
-    "lastAttemptISO": "2026-09-05T12:09:02.913Z",
+    "lastAttemptISO": "2026-09-05T15:09:46.042Z",
     "lastSuccessISO": "2026-09-03T04:10:56.997Z",
-    "consecutiveFailures": 6,
+    "consecutiveFailures": 7,
     "lastError": "robots.txt: robots.txt answered 200 with a web page rather than a rules file, so the site was never actually asked; a browser reached it but the body was not a robots.txt, so it is treated as a refusal",
     "state": "broken"
   },
@@ -929,9 +929,9 @@
   {
     "sourceUrl": "https://gac.gov.sa/",
     "orgId": "gac",
-    "lastAttemptISO": "2026-09-05T09:07:47.438Z",
+    "lastAttemptISO": "2026-09-05T15:09:46.042Z",
     "lastSuccessISO": null,
-    "consecutiveFailures": 24,
+    "consecutiveFailures": 25,
     "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
     "state": "broken"
   },
@@ -1055,8 +1055,8 @@
   {
     "sourceUrl": "https://jobs.misa.gov.sa/ar/?locale=ar_SA",
     "orgId": "misa",
-    "lastAttemptISO": "2026-09-05T12:06:52.343Z",
-    "lastSuccessISO": "2026-09-05T12:06:52.343Z",
+    "lastAttemptISO": "2026-09-05T15:09:46.042Z",
+    "lastSuccessISO": "2026-09-05T15:09:46.042Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -1163,11 +1163,11 @@
   {
     "sourceUrl": "https://mc.gov.sa/ar/mediacenter/News/pages/default.aspx",
     "orgId": "mc",
-    "lastAttemptISO": "2026-09-05T12:06:52.343Z",
+    "lastAttemptISO": "2026-09-05T15:09:46.042Z",
     "lastSuccessISO": "2026-09-05T12:06:52.343Z",
-    "consecutiveFailures": 0,
-    "lastError": null,
-    "state": "healthy"
+    "consecutiveFailures": 1,
+    "lastError": "page.goto: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://mc.gov.sa/ar/mediacenter/News/pages/default.aspx\", waiting until \"domcontentloaded\"\u001b[22m\n",
+    "state": "degraded"
   },
   {
     "sourceUrl": "https://mc.gov.sa/ar/pages/default.aspx",
@@ -1613,8 +1613,8 @@
   {
     "sourceUrl": "https://sa.zain.com/ar/careers/join-zain",
     "orgId": "zain_ksa",
-    "lastAttemptISO": "2026-09-05T12:06:52.343Z",
-    "lastSuccessISO": "2026-09-05T12:06:52.343Z",
+    "lastAttemptISO": "2026-09-05T15:09:46.042Z",
+    "lastSuccessISO": "2026-09-05T15:09:46.042Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -1739,8 +1739,8 @@
   {
     "sourceUrl": "https://takamolholding.com/ar/join-us",
     "orgId": "takamol",
-    "lastAttemptISO": "2026-09-05T12:09:02.913Z",
-    "lastSuccessISO": "2026-09-05T12:09:02.913Z",
+    "lastAttemptISO": "2026-09-05T15:09:46.042Z",
+    "lastSuccessISO": "2026-09-05T15:09:46.042Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -1973,11 +1973,11 @@
   {
     "sourceUrl": "https://www.alfransi.com.sa/",
     "orgId": "bsf",
-    "lastAttemptISO": "2026-09-05T09:07:47.438Z",
+    "lastAttemptISO": "2026-09-05T15:09:46.042Z",
     "lastSuccessISO": "2026-09-03T04:33:38.070Z",
-    "consecutiveFailures": 5,
+    "consecutiveFailures": 6,
     "lastError": "robots.txt: robots.txt answered 200 with a web page rather than a rules file, so the site was never actually asked; a browser reached it but the body was not a robots.txt, so it is treated as a refusal",
-    "state": "degraded"
+    "state": "broken"
   },
   {
     "sourceUrl": "https://www.alinma.com/",
@@ -3314,11 +3314,11 @@
   {
     "sourceUrl": "https://www.rega.gov.sa/",
     "orgId": "rega",
-    "lastAttemptISO": "2026-09-05T09:07:47.438Z",
+    "lastAttemptISO": "2026-09-05T15:09:46.042Z",
     "lastSuccessISO": "2026-09-03T04:33:38.070Z",
-    "consecutiveFailures": 5,
-    "lastError": "robots.txt: robots.txt answered 200 with a web page rather than a rules file, so the site was never actually asked; a browser reached it but the body was not a robots.txt, so it is treated as a refusal",
-    "state": "degraded"
+    "consecutiveFailures": 6,
+    "lastError": "robots.txt: robots.txt returned 503; RFC 9309 treats a server error as disallow; a browser could not reach it either",
+    "state": "broken"
   },
   {
     "sourceUrl": "https://www.riyadbank.com/ar/personal-banking",
@@ -3989,8 +3989,8 @@
   {
     "sourceUrl": "https://yaqeen.sa/ar/",
     "orgId": "falcom",
-    "lastAttemptISO": "2026-09-05T09:07:47.438Z",
-    "lastSuccessISO": "2026-09-05T09:07:47.438Z",
+    "lastAttemptISO": "2026-09-05T15:09:46.042Z",
+    "lastSuccessISO": "2026-09-05T15:09:46.042Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
