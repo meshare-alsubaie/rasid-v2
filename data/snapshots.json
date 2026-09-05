@@ -2073,8 +2073,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-04T05:37:19.844Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://e-services.hrc.gov.sa/ar/service/details/12",
@@ -2362,9 +2361,9 @@
   {
     "sourceUrl": "https://gaca.gov.sa/web/ar-sa/page/home",
     "orgId": "gaca",
-    "contentHash": "5167529eb7f0c4dc170707b81b5021911af7fab0db5fb8db544857bb02e5d813",
+    "contentHash": "c8ffa46f716e11d70c93975aea834812f23939c948bcd5f00483d5d410f16d83",
     "blockHashes": [
-      "e1199c82a4e4e392",
+      "10227655d67fe426",
       "b1a688d32a900310",
       "83a22e1f9fb245f8",
       "bc532942aaed49b7"
@@ -2372,7 +2371,7 @@
     "extractedChars": 386,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-05T12:19:03.685Z",
+    "lastChangedISO": "2026-09-05T15:20:32.619Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -6765,19 +6764,19 @@
   {
     "sourceUrl": "https://www.hrsd.gov.sa/contact-us/inquiries-about-employment-offices",
     "orgId": "hrsd",
-    "contentHash": "790c006472f0dd465acd2c8a1c3f3bb1eeb461739477849948bc47b34ab8adc6",
+    "contentHash": "2add3cab3f844b7d7767f26d245b07dd9e75a9df4efa2ce956e57cbd47032048",
     "blockHashes": [
       "92ab7c84ae7e0913",
       "0c78e22b2fe724ca",
       "6f2560b47c07aaba",
       "5f36e870a7ea7b71",
       "f240ebfacade946d",
-      "f509254ebaca8b51"
+      "622202e5e3479094"
     ],
     "extractedChars": 989,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-04T05:29:27.985Z",
+    "lastChangedISO": "2026-09-05T15:20:32.619Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -9195,12 +9194,12 @@
   {
     "sourceUrl": "https://www.rcrc.gov.sa/news-ar/",
     "orgId": "rcrc",
-    "contentHash": "bc7c2110468185bc018df8814ed7a160f39f30de38e9d5875385f6f615f52816",
+    "contentHash": "a01d0f778d2eea29897231b19698e3255f4de18dbda05d37a2c4ee19677d677b",
     "blockHashes": [
       "dd62229c2f61fb42",
       "306db3646b8a6c73",
       "b28682d0a5fa37ed",
-      "fe088b68a29970d1",
+      "01a082c9621e07d6",
       "dd5bfb74e89dbbdd",
       "b32d68c4e5c2da0f",
       "b91cd7f4edfa88d2",
@@ -9213,9 +9212,10 @@
     "extractedChars": 3553,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-05T12:04:25.275Z",
+    "lastChangedISO": "2026-09-05T15:20:32.619Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://www.rcu.gov.sa/",
