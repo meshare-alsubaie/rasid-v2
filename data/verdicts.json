@@ -1,6 +1,6 @@
 {
   "model": "qwen3:8b",
-  "writtenISO": "2026-09-05T12:47:11.043Z",
+  "writtenISO": "2026-09-05T12:50:22.144Z",
   "verdicts": {
     "d3ed902d693a4c1d3b4fc1c6f9b85ea8": null,
     "cc97c142781ff3943c2ea2f9f38af7d8": null,
@@ -374,6 +374,63 @@
     "c890106768532e749aa9c67ffd4ebc04": null,
     "1d83db278c8f09d28e5ec9f7bfca5db9": null,
     "4f881a87b978aadef7625ee61aa79aa2": null,
-    "fb2d4f432c115032d3798b4a851e11ac": null
+    "fb2d4f432c115032d3798b4a851e11ac": null,
+    "b67b527621cd2c81fe0d98f1d8bfe1e9": {
+      "isTrainingAnnouncement": true,
+      "product": "coop",
+      "titleAr": "برنامج التدريب التعاوني للفصل الدراسي الأول 2026م",
+      "opensISO": null,
+      "closesISO": null,
+      "opensRaw": null,
+      "closesRaw": null,
+      "moreOnPage": false,
+      "majors": [
+        "جميع تخصصات إدارة الأعمال",
+        "جميع تخصصات تقنية المعلومات",
+        "جميع تخصصات الإعلام",
+        "القانون",
+        "الإحصاء",
+        "المخاطر",
+        "الاقتصاد",
+        "الترجمة",
+        "الهندسة الصناعية",
+        "معايير"
+      ],
+      "seats": null,
+      "stipendSAR": 500,
+      "durationWeeks": null,
+      "cities": [
+        "المملكة العربية السعودية"
+      ],
+      "statesZeroCoursesRule": false,
+      "zeroCoursesQuote": null,
+      "applyUrl": null
+    },
+    "bc0ecbd05021797b0522c14acfa619f8": {
+      "isTrainingAnnouncement": true,
+      "product": "coop",
+      "titleAr": "Cooperative Program",
+      "opensISO": null,
+      "closesISO": null,
+      "opensRaw": null,
+      "closesRaw": null,
+      "moreOnPage": false,
+      "majors": [
+        "Finance",
+        "Accounting",
+        "Marketing",
+        "Engineering",
+        "Management",
+        "Information Systems",
+        "Other related business management areas"
+      ],
+      "seats": null,
+      "stipendSAR": null,
+      "durationWeeks": null,
+      "cities": [],
+      "statesZeroCoursesRule": false,
+      "zeroCoursesQuote": null,
+      "applyUrl": null
+    }
   }
 }
