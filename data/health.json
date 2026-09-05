@@ -380,10 +380,10 @@
   {
     "sourceUrl": "https://career.alinma.com/",
     "orgId": "alinma",
-    "lastAttemptISO": "2026-09-05T13:23:46.738Z",
+    "lastAttemptISO": "2026-09-05T14:09:08.823Z",
     "lastSuccessISO": "2026-09-05T02:17:57.314Z",
-    "consecutiveFailures": 6,
-    "lastError": "fetched 6384 bytes but extracted only 0 chars of text; the page is probably rendered by javascript and cannot be watched this way",
+    "consecutiveFailures": 7,
+    "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
     "state": "broken"
   },
   {
@@ -407,11 +407,11 @@
   {
     "sourceUrl": "https://career.dga.gov.sa/ar/page/coop-program/",
     "orgId": "dga",
-    "lastAttemptISO": "2026-09-05T13:18:41.949Z",
+    "lastAttemptISO": "2026-09-05T14:09:08.823Z",
     "lastSuccessISO": "2026-09-05T13:18:41.949Z",
-    "consecutiveFailures": 0,
-    "lastError": null,
-    "state": "healthy"
+    "consecutiveFailures": 1,
+    "lastError": "fetch failed",
+    "state": "degraded"
   },
   {
     "sourceUrl": "https://career.elm.sa/elm/go/coop-trainee-and-training-program/8486100/",
@@ -605,11 +605,11 @@
   {
     "sourceUrl": "https://careers.mcit.gov.sa/",
     "orgId": "mcit",
-    "lastAttemptISO": "2026-09-05T13:23:46.738Z",
+    "lastAttemptISO": "2026-09-05T14:09:08.823Z",
     "lastSuccessISO": "2026-09-05T13:23:46.738Z",
-    "consecutiveFailures": 0,
-    "lastError": null,
-    "state": "healthy"
+    "consecutiveFailures": 1,
+    "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
+    "state": "degraded"
   },
   {
     "sourceUrl": "https://careers.mobily.com.sa/ar/sites/opportunities/pages/Coop",
@@ -803,10 +803,10 @@
   {
     "sourceUrl": "https://careers.sdaia.gov.sa/training",
     "orgId": "sdaia",
-    "lastAttemptISO": "2026-09-05T13:18:41.949Z",
+    "lastAttemptISO": "2026-09-05T14:09:08.823Z",
     "lastSuccessISO": "2026-09-03T05:28:02.777Z",
-    "consecutiveFailures": 19,
-    "lastError": "robots.txt: robots.txt answered 200 with a web page rather than a rules file, so the site was never actually asked; a browser reached it but the body was not a robots.txt, so it is treated as a refusal",
+    "consecutiveFailures": 20,
+    "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser reached it but the body was not a robots.txt, so it is treated as a refusal",
     "state": "broken"
   },
   {
@@ -875,11 +875,11 @@
   {
     "sourceUrl": "https://careers.zatca.gov.sa/search/?createNewAlert=false&q=&locationsearch=",
     "orgId": "zatca",
-    "lastAttemptISO": "2026-09-05T13:18:41.949Z",
+    "lastAttemptISO": "2026-09-05T14:09:08.823Z",
     "lastSuccessISO": "2026-09-05T13:18:41.949Z",
-    "consecutiveFailures": 0,
-    "lastError": null,
-    "state": "healthy"
+    "consecutiveFailures": 1,
+    "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
+    "state": "degraded"
   },
   {
     "sourceUrl": "https://cma.gov.sa/Pages/default.aspx",
@@ -1478,11 +1478,11 @@
   {
     "sourceUrl": "https://ndf.gov.sa/media-center/articles/article-human-resource-development",
     "orgId": "ndf",
-    "lastAttemptISO": "2026-09-05T12:43:38.866Z",
+    "lastAttemptISO": "2026-09-05T14:09:08.823Z",
     "lastSuccessISO": "2026-09-05T12:43:38.866Z",
-    "consecutiveFailures": 0,
-    "lastError": null,
-    "state": "healthy"
+    "consecutiveFailures": 1,
+    "lastError": "fetch failed",
+    "state": "degraded"
   },
   {
     "sourceUrl": "https://ndf.gov.sa/media-center/newsletters",
@@ -2108,11 +2108,11 @@
   {
     "sourceUrl": "https://www.bog.gov.sa/en/EServices/Pages/khabeer.aspx",
     "orgId": "bog",
-    "lastAttemptISO": "2026-09-05T13:18:41.949Z",
+    "lastAttemptISO": "2026-09-05T14:09:08.823Z",
     "lastSuccessISO": "2026-09-05T13:18:41.949Z",
-    "consecutiveFailures": 0,
-    "lastError": null,
-    "state": "healthy"
+    "consecutiveFailures": 1,
+    "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
+    "state": "degraded"
   },
   {
     "sourceUrl": "https://www.bsfcareers.sa/ar/",
