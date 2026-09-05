@@ -2968,14 +2968,15 @@
     "orgId": "misa",
     "contentHash": "339778d2cb727e962149c50740948b98795425f0ae15b22a118e78f628b4e656",
     "blockHashes": [
-      "a8b52620d526a6c0"
+      "339778d2cb727e96"
     ],
     "extractedChars": 727,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-04T05:16:51.798Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://misa.gov.sa/ar/news/latest-news/",
@@ -3722,14 +3723,16 @@
     "contentHash": "af599ca3b9d6f2c19988d162540f1e48e4654bffd8c557593e9072950c311391",
     "blockHashes": [
       "e387450693cee68e",
-      "19939b21fb1c569c"
+      "480336c0417bb253",
+      "139546e1bb791f29"
     ],
     "extractedChars": 383,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-04T11:28:02.779Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "triaged_out"
   },
   {
     "sourceUrl": "https://nour.net.sa/ar/news/limitless-2026-event/",
@@ -7633,18 +7636,18 @@
   {
     "sourceUrl": "https://www.moc.gov.sa/ar",
     "orgId": "moc",
-    "contentHash": "7b4e14c82dd52cb87565c03bd0bdd3663f2fa89829e7b594cc10e4163d3007b9",
+    "contentHash": "ddcbc9297b2ceb2f4521ec3dff1efac4bf78ef2466650955a41e7491bcc837c7",
     "blockHashes": [
       "88c122fdb76fc42f",
-      "301bdfb852c062ad",
-      "ca8d6123c6de06cd"
+      "6e92c55b41b4c3a9",
+      "fb2c726ea3e48c9e"
     ],
     "extractedChars": 6094,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-04T11:22:17.888Z",
+    "lastChangedISO": "2026-09-05T02:31:19.208Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.moe.gov.sa/ar/aboutus/nationaltransformation/Pages/employmentstrategy.aspx",
@@ -8412,16 +8415,16 @@
   {
     "sourceUrl": "https://www.nazaha.gov.sa/Jobs",
     "orgId": "nazaha",
-    "contentHash": "77ef416d5b1872cd93e9f30323fe99ef54fd963bf5178686c84ae55283083aae",
+    "contentHash": "b4ba0a4a9f353bfbedb1e1ecb3813abec3efc48052198b7a5b5892022f714111",
     "blockHashes": [
-      "3222d37011f00108",
+      "a0627abbb5596038",
       "3ba73a370eb8ee9c",
       "5dda25defa0c4cdd"
     ],
     "extractedChars": 200,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-04T05:34:05.761Z",
+    "lastChangedISO": "2026-09-05T02:31:19.208Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
