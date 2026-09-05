@@ -2169,17 +2169,17 @@
   {
     "sourceUrl": "https://gaca.gov.sa/ar/announcements",
     "orgId": "gaca",
-    "contentHash": "8668d630002bf43b05701e0430fae70dce7253ba16d5fddfdc552744abf7f013",
+    "contentHash": "78bc4f2a8dc25af58b746f7725c0d2c888e0d37d295abfc5b181ff2c4891f814",
     "blockHashes": [
-      "ffb60fe8ff9f6126",
+      "5347fab450a130cc",
       "9c2a3967149440a8",
       "83a22e1f9fb245f8",
-      "90988f83106e64c6"
+      "bc532942aaed49b7"
     ],
-    "extractedChars": 1216,
+    "extractedChars": 1211,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-04T11:53:00.803Z",
+    "lastChangedISO": "2026-09-05T09:29:33.044Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -8444,9 +8444,9 @@
   {
     "sourceUrl": "https://www.nazaha.gov.sa/News",
     "orgId": "nazaha",
-    "contentHash": "f92ac437527737d49e7a8bfdc11258529b6fd3d33bbab16336e3f410e9415c94",
+    "contentHash": "2a609b89b981cf8a701dd22602414a79af5c3519f28ccdc5e96e0608e0621cac",
     "blockHashes": [
-      "6a9eb29222f21346",
+      "f61374aa213578be",
       "ae788be0df385c72",
       "ecfe196c74433ee8",
       "c343d10cb0767689"
@@ -8454,9 +8454,10 @@
     "extractedChars": 240,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-04T05:48:00.498Z",
+    "lastChangedISO": "2026-09-05T09:29:33.044Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "triaged_out"
   },
   {
     "sourceUrl": "https://www.nazaha.gov.sa/News/Details?q=+ZUW2RPX/9RAyHyLvILpaw==",
@@ -11415,8 +11416,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-04T11:55:18.003Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "triaged_out"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://zatca.gov.sa/ar/MediaCenter/Pages/default.aspx",

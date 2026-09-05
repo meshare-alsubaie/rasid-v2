@@ -1,6 +1,6 @@
 {
   "model": "qwen3:8b",
-  "writtenISO": "2026-09-05T09:27:14.061Z",
+  "writtenISO": "2026-09-05T09:32:32.995Z",
   "verdicts": {
     "d3ed902d693a4c1d3b4fc1c6f9b85ea8": null,
     "cc97c142781ff3943c2ea2f9f38af7d8": null,
@@ -292,6 +292,34 @@
     "16651fa741aa9478cc1d4a362545f3d7": null,
     "15631365690dd4a688d6020b36886824": null,
     "565a1abb2760aaafcefb53ef48c17dee": null,
-    "674afeffde172410fda2abdc9b01d1bf": null
+    "674afeffde172410fda2abdc9b01d1bf": null,
+    "c900ad6414744faea43864e1a2520241": {
+      "isTrainingAnnouncement": true,
+      "product": "coop",
+      "titleAr": "برنامج التدريب التعاوني",
+      "opensISO": null,
+      "closesISO": null,
+      "opensRaw": null,
+      "closesRaw": null,
+      "moreOnPage": false,
+      "majors": [
+        "جميع تخصصات إدارة الأعمال",
+        "جميع تخصصات الإعلام",
+        "جميع تخصصات تقنية المعلومات",
+        "الاقتصاد",
+        "الإحصاء",
+        "القانون",
+        "المخاطر",
+        "الترجمة",
+        "الهندسة الصناعية"
+      ],
+      "seats": null,
+      "stipendSAR": null,
+      "durationWeeks": null,
+      "cities": [],
+      "statesZeroCoursesRule": false,
+      "zeroCoursesQuote": null,
+      "applyUrl": null
+    }
   }
 }
