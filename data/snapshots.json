@@ -3042,9 +3042,9 @@
   {
     "sourceUrl": "https://modon.gov.sa/ar/MediaCenter/modon-news/News/Pages/default.aspx",
     "orgId": "modon",
-    "contentHash": "08ccc65d171aa1449ebf2e7bd8d55f54d166c330961c5d0694ab817e6dbba2c3",
+    "contentHash": "2e2f150ca334475a9c2b92807916b7e26bd131d9efa895dd73c7aecbfd6bed32",
     "blockHashes": [
-      "da1d7c6d1b1b51b8",
+      "0e557f0dc07f6f41",
       "8727cbb5dfea6170",
       "bdfe2a112c399ccd",
       "8ae17958586c8a8c",
@@ -3053,9 +3053,10 @@
     "extractedChars": 1591,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-05T12:04:25.275Z",
+    "lastChangedISO": "2026-09-05T15:14:55.369Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://modon.gov.sa/ar/MediaCenter/Pages/default.aspx",
@@ -3117,36 +3118,37 @@
     "blockHashes": [
       "b5d072cff912d21d",
       "83198c6586cd15b8",
-      "a0c4fb4148a81ab8",
+      "335d51c1e5760c06",
       "aa8e55eac5aea8cd",
       "09552ec2996654f9",
-      "41fa301e4277dd0e",
-      "3230225a70bbdb02",
-      "b9ecdfe3e1ecf144",
-      "ff6f87e39638cb9b",
-      "a25a68322fa5aad2",
-      "22e4bd80762f8625",
-      "f130ff74fb29300a",
+      "12f6e40828785354",
+      "ab7400379a06652d",
+      "e942f7d6467ac063",
       "09b1bd561f62b68f",
-      "3591b76906bfff2b",
-      "be3ea3ff42c4071f",
-      "c4a6044e501ca94d",
+      "ee42898122cdd8e3",
+      "e88c688d898595e3",
+      "7d7f4f29c2b0158c",
+      "5a581a14dcc452e1",
       "ac1405062719fb86",
-      "fb13e96dbeb5cc3c",
+      "7add58da2745b1d5",
       "5d15152619ff887e",
-      "ae577ce06308da82",
-      "f05aea6e67b87823",
+      "1e53cd94de4b04e2",
+      "c9bd8010f40457f3",
+      "e751cfbe02813ded",
+      "ff6f87e39638cb9b",
+      "755d59ab34ccc8c5",
       "560edfe1df9d8921",
       "23b97a8a93aba477",
       "9cd3abf7fd1573ff",
-      "1a1e414ff65ef075"
+      "93d5c90de99e04fa"
     ],
     "extractedChars": 152454,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-04T05:14:53.825Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://momah.gov.sa/ar/form/partnerships-and-cooperation",
@@ -3307,7 +3309,7 @@
   {
     "sourceUrl": "https://mot.gov.sa/ar/employment1",
     "orgId": "mot",
-    "contentHash": "406208335ae7f9cb5043aa2a8e7f3345802ef01bebb1b7450c056aba0c5022dd",
+    "contentHash": null,
     "blockHashes": [
       "51f380681e0e1186",
       "aa279a49c5521ae8",
@@ -6287,10 +6289,10 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/all_branches_news?lang=ar",
     "orgId": "hrc",
-    "contentHash": "bc896b30cd69769c41c4b876379cf9e11e3ca60da09cb8db55170a5c1ca28640",
+    "contentHash": "8ae67bb5dfa0fbb21f9c1c19c86bd5620a15ce141a56f10d17de625e94af3b90",
     "blockHashes": [
       "12e41a244a8a2984",
-      "2688044b420de563",
+      "68edc03092dc61ba",
       "f5f8d6443e8e9010",
       "02fd91be7253d9e4",
       "6cd077b5b02f6b16",
@@ -6316,9 +6318,9 @@
     "extractedChars": 5039,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-05T12:04:25.275Z",
+    "lastChangedISO": "2026-09-05T15:14:55.369Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/careers",
