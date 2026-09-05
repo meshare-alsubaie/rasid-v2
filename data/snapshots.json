@@ -1107,7 +1107,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-02T23:42:46.216Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://careers.cma.gov.sa/en/page/coop-program/",
@@ -2149,20 +2149,19 @@
   {
     "sourceUrl": "https://gaca.gov.sa/announcements",
     "orgId": "gaca",
-    "contentHash": "c2b1d62025dca80e494a817274c011dd3ed2e0f5f73caea5e1d91e52109bd60d",
+    "contentHash": "46acb5df7314d7fc7203c650a6a78c4b2a3c7b24c49779ff4582a115d43381a5",
     "blockHashes": [
       "516fafdfdc1f4e0e",
       "9c2a3967149440a8",
       "83a22e1f9fb245f8",
       "bc532942aaed49b7"
     ],
-    "extractedChars": 1212,
-    "extractionMethod": "body_fallback",
+    "extractedChars": 242,
+    "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-04T09:19:30.153Z",
+    "lastChangedISO": "2026-09-05T10:02:22.644Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://gaca.gov.sa/ar/announcements",
@@ -7494,7 +7493,7 @@
   {
     "sourceUrl": "https://www.mewa.gov.sa/ar/MediaCenter/PressReleases/Pages/home.aspx",
     "orgId": "mewa",
-    "contentHash": "31ceb79d56f0e7a01bf424ff07833895decbb83fbeb8167389ad353b9e0c5102",
+    "contentHash": "abe3d5f7d0516684850e37e3f805c2c662310a390da57b5cfbe70be728743ed9",
     "blockHashes": [
       "12e41a244a8a2984",
       "c804732dd480d71a",
@@ -7507,13 +7506,12 @@
       "e61f71e158b8fcbd",
       "c36ce57653eabf38"
     ],
-    "extractedChars": 1378,
+    "extractedChars": 1376,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-04T06:30:44.807Z",
+    "lastChangedISO": "2026-09-05T10:02:22.644Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://www.mewa.gov.sa/ar/MediaCenter/VisualIdentityGuide/Pages/default.aspx",
@@ -8507,7 +8505,7 @@
   {
     "sourceUrl": "https://www.nazaha.gov.sa/News/Details?q=LDqaftYCK2agKydxrbY5fg==",
     "orgId": "nazaha",
-    "contentHash": "dee8c095eb83d900104c1e6976845749d66814b27ea8fd70e36ad9d438d31815",
+    "contentHash": "c27cd17150ea9d9cdcfd5dbfa9c00db2fddd84222233e37a6392d39b588fe2ae",
     "blockHashes": [
       "f668847abc5a674c",
       "6eca9a7e8f445a2e",
@@ -8517,10 +8515,9 @@
     "extractedChars": 1117,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-04T06:17:33.293Z",
+    "lastChangedISO": "2026-09-05T10:02:22.644Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://www.nazaha.gov.sa/News/Details?q=o2ojUlDL5mGosOuEoGXXeg==",
@@ -10879,7 +10876,7 @@
   {
     "sourceUrl": "https://www.thiqah.sa/",
     "orgId": "thiqah",
-    "contentHash": "41585f247e073f7dfa50339963ead8d8387c9a1b752741091b485d74143c63b9",
+    "contentHash": "bba18d1332d9277cfb6fa175f6984c62b16db98c935a6738a2b6a55c5b1d20bc",
     "blockHashes": [
       "2badba214de43400",
       "cff1ddff4e992236",
@@ -10895,7 +10892,7 @@
     "extractedChars": 2087,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-02T23:42:46.216Z",
+    "lastChangedISO": "2026-09-05T10:02:22.644Z",
     "thinRuns": 0,
     "pendingClassification": true
   },
