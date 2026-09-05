@@ -1309,19 +1309,20 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/search-results",
     "orgId": "maaden",
-    "contentHash": "3f496c114516a2e14df24cea3c5187bc41e302edb2fe80ba83760ad8800204a2",
+    "contentHash": "96f30d93b26dd734c245e980ab29828c74b409be54a6e2bab5ae95010e24e2a6",
     "blockHashes": [
-      "5569201553604d03",
-      "6610997bc1f9b192",
-      "0c1f7e81ceff4b10",
-      "62fa9adf9842b737"
+      "0593a1678d987760",
+      "298a05ebe5a16280",
+      "d6c0adacb353836a",
+      "d4d89e78640401e7",
+      "94ef33978b6e36f0"
     ],
-    "extractedChars": 240,
+    "extractedChars": 373,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-04T11:40:52.562Z",
+    "lastChangedISO": "2026-09-05T02:23:16.839Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://careers.mcit.gov.sa/",
@@ -2272,9 +2273,9 @@
   {
     "sourceUrl": "https://gaca.gov.sa/news",
     "orgId": "gaca",
-    "contentHash": "9e2d76683571565d54779469806f2fbceaa590a0782ab9ff1dd9e27290b3c365",
+    "contentHash": "b3e04fcaaeca5ae3fc4a9037364077a80f029fc861ba9ebe0b2d9bd2ba4ac57e",
     "blockHashes": [
-      "79480b9b2ec8ecc7",
+      "3c2eb09e09bacc01",
       "fa5c90da8c7623db",
       "c84b4ce195a4a7a7",
       "d0191f9ce7cda459",
@@ -2352,9 +2353,10 @@
     "extractedChars": 22059,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-04T11:18:49.641Z",
+    "lastChangedISO": "2026-09-05T02:23:16.839Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://gaca.gov.sa/web/ar-sa/page/home",
@@ -2748,7 +2750,7 @@
   {
     "sourceUrl": "https://mawhiba.org/",
     "orgId": "mawhiba",
-    "contentHash": "fb035432b20ff8c4c9d3719551cbfa0a28ee66312525cc2e2581fba8e0234fb4",
+    "contentHash": "d438239ff653b0a3c7bad315e10bc0c6b871460cc104d8f92b7be5c4cc9fdef2",
     "blockHashes": [
       "cebaa0d7740345e0",
       "14311a518f14de25",
@@ -2771,7 +2773,7 @@
       "c4583f676c27517a",
       "4ea242e080578a16",
       "a4e4e1fbeaab5463",
-      "e2cdf20d3ad79b0a",
+      "c0de350a123d7dc5",
       "b518044d0e3ef109",
       "1f3c4598715a2661",
       "5a644146634488e9"
@@ -2779,9 +2781,9 @@
     "extractedChars": 8799,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-04T11:16:29.686Z",
+    "lastChangedISO": "2026-09-05T02:23:16.839Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://mc.gov.sa/ar/mediacenter/News/pages/default.aspx",
@@ -2823,21 +2825,22 @@
   {
     "sourceUrl": "https://mc.gov.sa/ar/pages/default.aspx",
     "orgId": "mc",
-    "contentHash": "40ec85a3eace96a94bc8fa5d2a00e70213ee2dc8d02bbbdf4a2ab5a410d5ed67",
+    "contentHash": "0f3c20bd82f07f428527e2a0dd4dd5075842f7607617d3ab85b5b5f712fc74bb",
     "blockHashes": [
       "88b5148b04637d49",
       "74e4c1d2a646a96e",
-      "ed3360b1ac797eda",
+      "f8d80a2eeff0be41",
       "254ace7740177ca6",
       "f266646eb913af38",
       "512411bd0eda978e"
     ],
-    "extractedChars": 5503,
+    "extractedChars": 3608,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T23:21:37.487Z",
-    "lastChangedISO": "2026-09-04T11:16:29.686Z",
+    "lastChangedISO": "2026-09-05T02:23:16.839Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://mcit.gov.sa/ar",
@@ -3548,17 +3551,17 @@
   {
     "sourceUrl": "https://ndf.gov.sa/",
     "orgId": "ndf",
-    "contentHash": "7c4ce8dbb8914d5edc54735cc28eef5db82a52ea49f7994f9a2cfd2e5f9d6bb4",
+    "contentHash": "5775f11ecb45b2b38e7ded1a41d63f65befe920a403437469fe1034de80b1440",
     "blockHashes": [
-      "aa5a8f4bda318436",
+      "c1f0d0151211178c",
       "cea7fd3977a9c5c0"
     ],
-    "extractedChars": 3077,
+    "extractedChars": 3076,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-04T05:16:51.798Z",
+    "lastChangedISO": "2026-09-05T02:23:16.839Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://ndf.gov.sa/media-center",
@@ -4008,22 +4011,22 @@
   {
     "sourceUrl": "https://slccareers.kpmg.com/go/All-Jobs/7738123/",
     "orgId": "kpmg_sa",
-    "contentHash": "0ea83f4b27caf569af0f7ab04699bd73ac2526f2769b59e9ae9a56ada180f2aa",
+    "contentHash": "6f66370f95f8ad291c4d1147b671ee66df23aff1dd7c91e99508cc8e051f5856",
     "blockHashes": [
       "aa19d4515674c079",
       "29400fb30e509541",
       "1d422c5f89e5d543",
+      "27e4d328c168570b",
       "754f9ae5941e20ca",
       "0f96afd473240237",
       "ef6634b01e699791",
       "4a5001bd484ad62c",
-      "6b2b9a0031b3615c",
       "1acb280e4ad34ff3"
     ],
     "extractedChars": 520,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-04T03:20:03.287Z",
+    "lastChangedISO": "2026-09-05T02:23:16.839Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -5449,13 +5452,16 @@
     "sourceUrl": "https://www.bsfcareers.sa/ar/",
     "orgId": "bsf",
     "contentHash": "5385d1b5fe3097f12d4cc3441bf4af72cb8dd5b159daba907f1c036cd7879bdb",
-    "blockHashes": [],
+    "blockHashes": [
+      "6f29f547d0d08e7b"
+    ],
     "extractedChars": 231,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-09-02T23:42:46.216Z",
     "lastChangedISO": "2026-09-02T23:42:46.216Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://www.citc.gov.sa/ar/Pages/default.aspx",
@@ -5634,17 +5640,17 @@
   {
     "sourceUrl": "https://www.etec.gov.sa/ar/jobs",
     "orgId": "etec",
-    "contentHash": "882466c74519a418c5da637d1a8f9a8b12feade9e9c8282be743da443843209a",
+    "contentHash": "42a91b95c90feff2a99d87349955d72f76f20e9799602abf2c5b250c61275ca9",
     "blockHashes": [
       "969f0f9d8129003d",
       "1928fdbb5b09339c",
       "acbc78ef7b3b47f6",
-      "e6bf311dd5d5d991"
+      "82c8fa180b60e3fa"
     ],
     "extractedChars": 831,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-04T03:20:03.287Z",
+    "lastChangedISO": "2026-09-05T02:23:16.839Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -6475,10 +6481,10 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/news?lang=ar",
     "orgId": "hrc",
-    "contentHash": "4418fada3cc02b0540cb04a6475a125e61968dacdc8d881203a0eb19c47435bf",
+    "contentHash": "aa04330bf32cf26df5167379a102f304aca62880dcee58adbb68633ee17b45c3",
     "blockHashes": [
       "12e41a244a8a2984",
-      "e90fdecdc9637028",
+      "2619ee50d5b32440",
       "b36f463f827d4fac",
       "a8285d033b0740f8",
       "bb698175f42936ba",
@@ -6508,7 +6514,7 @@
     "extractedChars": 5431,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-04T09:33:07.212Z",
+    "lastChangedISO": "2026-09-05T02:23:16.839Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -6516,11 +6522,11 @@
   {
     "sourceUrl": "https://www.hrdf.org.sa/products-and-services/programs/individuals/training/cooperative-training/",
     "orgId": "hrdf_coop",
-    "contentHash": "4762196cde51750cde0e61edf0d4ba018baf15d3551a6174f7008c5e430361d4",
+    "contentHash": "965c4f8e6bcd3dfb87913ad10e69802651c1a3d9a40949dcc7c65b811bba050c",
     "blockHashes": [
       "45526a3a724650be",
       "74e4c1d2a646a96e",
-      "72a3215af3bad280",
+      "edb11c94de76d8b6",
       "0bbb8684587712ce",
       "708fe6c77bb05acc",
       "8b7e6b90d8c89aa7",
@@ -6690,9 +6696,9 @@
     "extractedChars": 8563,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-03T01:25:25.661Z",
-    "lastChangedISO": "2026-09-04T05:16:51.798Z",
+    "lastChangedISO": "2026-09-05T02:23:16.839Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.hrsd.gov.sa/care-about-you/skillsandtrain",
@@ -9132,14 +9138,14 @@
   {
     "sourceUrl": "https://www.rcrc.gov.sa/careers/?lang=ar",
     "orgId": "rcrc",
-    "contentHash": "b2afe153d989b8b7042de8a32df07045394999f1524d3065afdc30f52e9de33a",
+    "contentHash": "828a0aa5e603ef0e47ff5ed3417627279205771b4f67ee9f4c58c15972d500e0",
     "blockHashes": [
       "6b3de91cda203c2d"
     ],
     "extractedChars": 1166,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-04T11:22:17.888Z",
+    "lastChangedISO": "2026-09-05T02:23:16.839Z",
     "thinRuns": 0,
     "pendingClassification": true
   },
