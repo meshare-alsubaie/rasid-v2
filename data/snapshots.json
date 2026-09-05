@@ -1310,18 +1310,18 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/search-results",
     "orgId": "maaden",
-    "contentHash": "54a73b87322e9b9dc55f863a88e436b19fd30343e34159bdd15dca4b8c589bc0",
+    "contentHash": "512c64b620ae9058acadea40ebb20db79c960789dd5a7d0f64b5f590e25cf822",
     "blockHashes": [
       "0593a1678d987760",
-      "3c5f16e32e11f13f",
-      "09897db0041ddc67"
+      "59a507f9e51dbbdb",
+      "30c3f96df8c0da69"
     ],
-    "extractedChars": 177,
+    "extractedChars": 761,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-05T12:01:37.927Z",
+    "lastChangedISO": "2026-09-05T12:47:11.043Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://careers.mcit.gov.sa/",
@@ -3180,39 +3180,40 @@
   {
     "sourceUrl": "https://momah.gov.sa/ar/menu/media-center",
     "orgId": "housing",
-    "contentHash": "f1dba0316e42043b2c55e05e61768da355968342e7497285522432f763c7fd50",
+    "contentHash": "60967513f1488053f6e3760b46987e113949910ae27be4d41e9850091ca6d278",
     "blockHashes": [
       "4c63522200199108",
       "7bc8965d992df69b",
       "aa8e55eac5aea8cd",
       "09552ec2996654f9",
-      "9e7706a0066ecf23",
-      "3cbdb2e8d911ed8f",
-      "af77d3fbd5953474",
+      "51abce9247392178",
       "560edfe1df9d8921",
       "23b97a8a93aba477",
       "9cd3abf7fd1573ff",
-      "f83d94034a825f58",
-      "ed2adbc728c752b1",
-      "09b1bd561f62b68f",
-      "203dc1cb1ca39dbe",
-      "16a5b3b2d18b65da",
-      "76ba1de740e33f52",
-      "ab9ba37faa087fa1",
-      "ac1405062719fb86",
-      "0f7a27a97e619fc8",
-      "5d15152619ff887e",
-      "11cd620b179d0073",
-      "599949df9d808fcd",
+      "0da04d267e5ab52e",
+      "1a6cf472acfc7a2a",
+      "e5f7667c7c89f318",
       "ff6f87e39638cb9b",
-      "19f7c26e69893093"
+      "9d56f27e95883f1f",
+      "ac1405062719fb86",
+      "3d5ceeb46c1921bf",
+      "66e4333025056b8d",
+      "01e8b08580e64e58",
+      "6eed86a8c208f719",
+      "979368bf73add3b2",
+      "09b1bd561f62b68f",
+      "0703099cc4946fb2",
+      "8f20304155eb921c",
+      "5d15152619ff887e",
+      "8e839f2b8f88b4fc"
     ],
     "extractedChars": 151282,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-04T05:42:44.184Z",
+    "lastChangedISO": "2026-09-05T12:47:11.043Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://momah.gov.sa/ar/news",
@@ -3753,8 +3754,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-05T09:38:54.461Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "triaged_out"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://nour.net.sa/news/",
@@ -6380,10 +6380,10 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/careers/graduate-development-program",
     "orgId": "hrc",
-    "contentHash": "cd362ea4367b84cb31a1d6174bead04a0ed343430c55544f12ab8f82a058d201",
+    "contentHash": "bcf6f2fa20ed4bcdef74a5a0828ebd5c80064b95d7f38333269467150a1ef0fa",
     "blockHashes": [
       "12e41a244a8a2984",
-      "f6b4296ba1d1f210",
+      "31fbcdce2f2e4188",
       "741386d322f274be",
       "40d7009856bbc81d",
       "2dd486d3d3cacb8b",
@@ -6449,7 +6449,7 @@
     "extractedChars": 10688,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-05T09:38:54.461Z",
+    "lastChangedISO": "2026-09-05T12:47:11.043Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
