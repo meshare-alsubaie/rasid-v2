@@ -626,7 +626,7 @@ export function split(
  * Only these are held back from being retired by a digest, because only these
  * cost a semester when they arrive in the wrong place at the wrong time.
  */
-const OPPORTUNITY_KINDS: ReadonlySet<NoticeKind> = new Set<NoticeKind>([
+export const OPPORTUNITY_KINDS: ReadonlySet<NoticeKind> = new Set<NoticeKind>([
   "new_relevant",
   "opened",
   "closing_soon",

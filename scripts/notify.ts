@@ -21,6 +21,7 @@ import {
   inQuietHours,
   split,
   LOG_RETENTION_DAYS,
+  OPPORTUNITY_KINDS,
   type Notice,
   type NoticeLogEntry,
 } from "../src/pipeline/notify";
@@ -127,6 +128,9 @@ const stillOpen = new Set(
 const aboutALiveOpportunity = (key: string): boolean =>
   [...stillOpen].some((id) => key.includes(id));
 
+/** What is genuinely still waiting after this run, for the health file. */
+let heldNow = 0;
+
 const carriedRaw = read<Held>(PENDING_FILE);
 const carried = carriedRaw.filter((n) => {
   const age = now.getTime() - Date.parse(n.queuedISO);
@@ -137,8 +141,42 @@ const expired = carriedRaw.length - carried.length;
 if (expired > 0) {
   console.log(`${expired} held notice(s) dropped: past a week and no longer about an open window`);
 }
+
+/*
+ * A backlog of one-per-source "a source stopped" notices, collapsed on the way
+ * in.
+ *
+ * `decide` collapses them when it mints them, but fifty were already sitting in
+ * the queue in the old one-per-source shape, and the maintenance budget releases
+ * six a day - so he would have got a week of mornings with six notifications
+ * reading "مصدر توقّف..." over an identical sentence, which is exactly the noise
+ * the collapse was written to stop. They are one piece of news; they become one
+ * notice here too.
+ */
+const carriedBroken = carried.filter((n) => n.kind === "source_broken");
+const carriedRest = carried.filter((n) => n.kind !== "source_broken");
+const carriedCollapsed =
+  carriedBroken.length > 2
+    ? [
+        ...carriedRest,
+        {
+          key: `broken:${now.toISOString().slice(0, 10)}:carried`,
+          kind: "source_broken" as const,
+          title: `🔴 ${carriedBroken.length} مصادر توقّفت`,
+          body: `${carriedBroken
+            .map((n) => n.title.replace(/^🔴 مصدر توقّف\s*[·—-]\s*/u, "").trim())
+            .join("، ")
+            .slice(0, 300)} — لم تعد تُقرأ آلياً. افحص صفحاتها بنفسك.`,
+          weight: carriedBroken[0]!.weight,
+          queuedISO: carriedBroken.map((n) => n.queuedISO).sort()[0]!,
+        },
+      ]
+    : carried;
+if (carriedBroken.length > 2) {
+  console.log(`${carriedBroken.length} held "source stopped" notices collapsed into one`);
+}
 const seen = new Set<string>();
-const notices: Held[] = [...carried, ...fresh.map((n) => ({ ...n, queuedISO: now.toISOString() }))]
+const notices: Held[] = [...carriedCollapsed, ...fresh.map((n) => ({ ...n, queuedISO: now.toISOString() }))]
   .filter((n) => !seen.has(n.key) && seen.add(n.key));
 
 const quietStart = Number(process.env.RASID_QUIET_START ?? 23);
@@ -409,9 +447,40 @@ if (!DRY && !TEST) {
     .filter((e) => Date.now() - Date.parse(e.sentISO) < LOG_RETENTION_DAYS * 86_400_000);
   writeFileSync("data/notifications.json", JSON.stringify(merged, null, 2) + "\n", "utf8");
 
-  // Whatever did not go out waits for the next run rather than evaporating.
-  const stillWaiting = notices.filter((n) => !sentKeys.has(n.key));
+  /*
+   * Whatever did not go out waits for the next run rather than evaporating -
+   * but "did not go out" means ever, not just in this run.
+   *
+   * This filtered on `sentKeys`, which holds only what was delivered a moment
+   * ago, so a notice delivered *yesterday* stayed in the queue until its
+   * seven-day expiry. Measured: eleven opportunity notices sat in
+   * `pending-notices.json` marked as held, and every one of them had already
+   * reached his phone. `npm run status` read that queue and told him 69 things
+   * were waiting, which is a frightening number and was mostly false.
+   *
+   * It cost no deliveries - `split` refuses a key the log has seen, so nothing
+   * was ever sent twice - but a queue that never empties is a queue nobody can
+   * read, and the number on the status screen is one he is meant to act on.
+   *
+   * The retirement rule is the one `split` already uses: an opening is finished
+   * once it has been *pushed*, because a digest is a summary he may never open;
+   * housekeeping is finished once it has been said anywhere.
+   */
+  const everPushed = new Set(merged.filter((e) => (e.via ?? "push") === "push").map((e) => e.key));
+  const everDigested = new Set(merged.filter((e) => e.via === "digest").map((e) => e.key));
+  const delivered = (n: { key: string; kind: string }): boolean =>
+    OPPORTUNITY_KINDS.has(n.kind as Notice["kind"])
+      ? everPushed.has(n.key)
+      : everPushed.has(n.key) || everDigested.has(n.key);
+
+  const before = notices.length;
+  const stillWaiting = notices.filter((n) => !sentKeys.has(n.key) && !delivered(n));
+  const retired = before - stillWaiting.length - sentKeys.size;
+  if (retired > 0) {
+    console.log(`retired ${retired} notice(s) that had already been delivered on an earlier run`);
+  }
   writeFileSync(PENDING_FILE, JSON.stringify(stillWaiting, null, 2) + "\n", "utf8");
+  heldNow = stillWaiting.length;
   if (stillWaiting.length > 0) {
     console.log(`held for the next run: ${stillWaiting.length}`);
   }
@@ -469,7 +538,15 @@ if (!DRY) {
           : state === "untested"
             ? "لم يُرسَل أي إشعار بنجاح بعد، فلا دليل على أن جوّالك يستقبل. جرّب «إشعاراً الآن» من الإعدادات."
             : "",
-        heldCount: notices.filter((n) => !pushedKeys.includes(n.key)).length,
+        /*
+         * What is genuinely still waiting, which is the number `npm run status`
+         * prints and he is meant to act on. It used to count everything
+         * proposed this round minus what went out a moment ago, so notices
+         * delivered on an *earlier* run were counted as held: it said 69 when
+         * eleven of those had already reached his phone and the rest were
+         * housekeeping. A frightening number, and mostly false.
+         */
+        heldCount: heldNow,
       },
       null,
       2,
