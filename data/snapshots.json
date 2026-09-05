@@ -3226,8 +3226,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-05T12:47:11.043Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://momah.gov.sa/ar/news",
@@ -3637,21 +3636,14 @@
   {
     "sourceUrl": "https://ndf.gov.sa/media-center/articles/article-human-resource-development",
     "orgId": "ndf",
-    "contentHash": "ef21df89ffe504353464d839dbfa8105e95fa0640747451647c17834ed05ce01",
+    "contentHash": "e280a87cc24da52cd20d7fe3e5ced291b5afc75f9d4be53c5e97673e047c5c3f",
     "blockHashes": [
-      "5d6db0c4c7da0afa",
-      "2e431a1caf07dcca",
-      "7a4afe45d7b2cb37",
-      "a16ea57600a8a4dd",
-      "2e1ebd364e8df9ef",
-      "d48f6957bf0d435d",
-      "e13becff422fb79f",
-      "2dce6a68bcf7278f"
+      "e280a87cc24da52c"
     ],
-    "extractedChars": 4221,
+    "extractedChars": 122,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-05T09:38:54.461Z",
+    "lastChangedISO": "2026-09-05T15:53:14.028Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -6394,10 +6386,10 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/careers/graduate-development-program",
     "orgId": "hrc",
-    "contentHash": "bcf6f2fa20ed4bcdef74a5a0828ebd5c80064b95d7f38333269467150a1ef0fa",
+    "contentHash": "e848c3b9ae00f9f5cd2327db6360af669857bfe23ae19dc243e1da3721ca8b79",
     "blockHashes": [
       "12e41a244a8a2984",
-      "31fbcdce2f2e4188",
+      "7e5049adf700f74d",
       "741386d322f274be",
       "40d7009856bbc81d",
       "2dd486d3d3cacb8b",
@@ -6463,7 +6455,7 @@
     "extractedChars": 10688,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-05T12:47:11.043Z",
+    "lastChangedISO": "2026-09-05T15:53:14.028Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -7611,9 +7603,9 @@
   {
     "sourceUrl": "https://www.mim.gov.sa/ar/media-center/news",
     "orgId": "mim",
-    "contentHash": "3c35da7033f7bacac288b71bdd1a2b1b27d915de0ab0deef5af2937618cc5282",
+    "contentHash": "2ea3d566b0cccdb4c9fec4f64c1c7c6649904d9157ee25c0441af21884a755cf",
     "blockHashes": [
-      "6d4f1fb048b2d7e8",
+      "d0ecf993da519f41",
       "e6f6bf20c0c7405d",
       "1463ce99001bf0a0",
       "47a950af7f4b0342",
@@ -7645,7 +7637,7 @@
     "extractedChars": 10700,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-05T12:31:19.967Z",
+    "lastChangedISO": "2026-09-05T15:53:14.028Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
