@@ -1,6 +1,6 @@
 {
   "model": "qwen3:8b",
-  "writtenISO": "2026-09-05T14:56:16.128Z",
+  "writtenISO": "2026-09-05T15:01:28.550Z",
   "verdicts": {
     "d3ed902d693a4c1d3b4fc1c6f9b85ea8": null,
     "cc97c142781ff3943c2ea2f9f38af7d8": null,
@@ -479,6 +479,28 @@
       "applyUrl": "https://www.hrdf.gov.sa"
     },
     "16eb37fc39af3b1c172d8108ae4c80f2": null,
-    "309ef7aadb2c946893ffe250ad01d2eb": null
+    "309ef7aadb2c946893ffe250ad01d2eb": null,
+    "ac054ccfc271935793da3188432aeb6d": {
+      "isTrainingAnnouncement": true,
+      "product": "professional_experience",
+      "titleAr": "بيئة العمل في\"مدن\"",
+      "opensISO": null,
+      "closesISO": null,
+      "opensRaw": null,
+      "closesRaw": null,
+      "moreOnPage": false,
+      "majors": [
+        "التدريب المتخصص",
+        "الإرشاد المهني",
+        "تطوير الكفاءات"
+      ],
+      "seats": null,
+      "stipendSAR": null,
+      "durationWeeks": null,
+      "cities": [],
+      "statesZeroCoursesRule": false,
+      "zeroCoursesQuote": null,
+      "applyUrl": null
+    }
   }
 }

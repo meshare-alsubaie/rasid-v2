@@ -1381,7 +1381,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-08-31T00:02:49.563Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://careers.modon.gov.sa/ar/job-search-results/",
@@ -2274,9 +2274,9 @@
   {
     "sourceUrl": "https://gaca.gov.sa/news",
     "orgId": "gaca",
-    "contentHash": "501668014c32aa8a1908ef1e62650cb95e001113b438571972bf516a38094627",
+    "contentHash": "adac75dbc9040273eff24d8a6e9e9f07a1b637397b8e27cae56cee088a9fa288",
     "blockHashes": [
-      "8f7a69fb4b70c29d",
+      "afaeae0a3f91360a",
       "fa5c90da8c7623db",
       "c84b4ce195a4a7a7",
       "d0191f9ce7cda459",
@@ -2354,9 +2354,10 @@
     "extractedChars": 22054,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-05T11:58:22.330Z",
+    "lastChangedISO": "2026-09-05T15:01:28.550Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://gaca.gov.sa/web/ar-sa/page/home",
@@ -9145,14 +9146,14 @@
   {
     "sourceUrl": "https://www.rcrc.gov.sa/careers/?lang=ar",
     "orgId": "rcrc",
-    "contentHash": "4b4d5afd91c28bd4fc059683be06f413d0263209643d2e003dc74a0e3bb96504",
+    "contentHash": "80649f7dcf101e8de8d47cb253a363a4489de7d4173f6b4005e44d655ce732c1",
     "blockHashes": [
       "6b3de91cda203c2d"
     ],
     "extractedChars": 1166,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-05T14:12:04.690Z",
+    "lastChangedISO": "2026-09-05T15:01:28.550Z",
     "thinRuns": 0,
     "pendingClassification": true
   },
