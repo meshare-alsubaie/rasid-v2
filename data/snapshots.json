@@ -2973,8 +2973,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-04T05:16:51.798Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://misa.gov.sa/ar/news/latest-news/",
@@ -3583,16 +3582,17 @@
   {
     "sourceUrl": "https://ndf.gov.sa/media-center/annual-reports",
     "orgId": "ndf",
-    "contentHash": "c416531183d3fd1a2fb5fdfa5b4dfdfd82c83a4bbe6228105b7b238e474a697b",
+    "contentHash": "8d61ceda134d11871e8322293b3aabb691223b459ee8ec4028e5bfb17ca1da17",
     "blockHashes": [
-      "897ebf6e68342bc3"
+      "8d61ceda134d1187"
     ],
-    "extractedChars": 1283,
+    "extractedChars": 1282,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-04T05:29:27.985Z",
+    "lastChangedISO": "2026-09-05T08:58:42.151Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://ndf.gov.sa/media-center/articles",
@@ -3718,16 +3718,15 @@
   {
     "sourceUrl": "https://nour.net.sa/ar/news/",
     "orgId": "nournet",
-    "contentHash": "af599ca3b9d6f2c19988d162540f1e48e4654bffd8c557593e9072950c311391",
+    "contentHash": "6f332e1d712b730afa41f1820e7f8b06be287775fca31da525d5745c128ffb82",
     "blockHashes": [
       "e387450693cee68e",
-      "480336c0417bb253",
-      "139546e1bb791f29"
+      "19939b21fb1c569c"
     ],
     "extractedChars": 383,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-04T11:28:02.779Z",
+    "lastChangedISO": "2026-09-05T08:58:42.151Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "triaged_out"
@@ -9469,7 +9468,7 @@
   {
     "sourceUrl": "https://www.riyadbank.com/ar/personal-banking",
     "orgId": "riyadbank",
-    "contentHash": "e73c5106cd39b3ac2bec7b3162828788bab91ed14885c92b048e586905de3b1f",
+    "contentHash": "7f6ffe85c9e2aabe9c3060b62e77d95ffcfb25a12d3550e1856451804158fe92",
     "blockHashes": [
       "c5fa97b84e96f11e",
       "a01ad1ea1a27690a",
@@ -9515,12 +9514,12 @@
       "27ab07a2e57dda34",
       "f2f0e16c376080f6"
     ],
-    "extractedChars": 10225,
+    "extractedChars": 10029,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
-    "lastChangedISO": "2026-09-04T08:28:52.634Z",
+    "lastChangedISO": "2026-09-05T08:58:42.151Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.sabic.com/ar/careers",
@@ -10478,11 +10477,11 @@
   {
     "sourceUrl": "https://www.srca.org.sa/%d8%a7%d9%84%d8%aa%d9%88%d8%b8%d9%8a%d9%81/",
     "orgId": "srca",
-    "contentHash": "a5764d392d6408c156d544c85c84c73c6ca70c2ee57d949900a4c0a46a1f327a",
+    "contentHash": "dec7fd8dbede91dc6cd6e786401419ca100dafee904ae86ef2fed491c2e117e1",
     "blockHashes": [
       "13f48669ebfa59aa",
       "74e4c1d2a646a96e",
-      "ede26b71863726cb",
+      "c97db35da27413f6",
       "68c03d860d910c71",
       "782261474561a27a",
       "201de1784c4f3dae",
@@ -10496,7 +10495,7 @@
     "extractedChars": 3012,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-04T03:12:19.874Z",
+    "lastChangedISO": "2026-09-05T08:58:42.151Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
