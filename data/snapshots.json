@@ -3079,35 +3079,36 @@
     "orgId": "housing",
     "contentHash": "c5c5bfb4e167743aaacf30962dfcce2c94533fab777e4d6a5b24177678df9605",
     "blockHashes": [
-      "86d7450e67d58e0a",
-      "46ee8b01c715e490",
-      "de306ed164c57c6e",
-      "46862a0a92889392",
+      "b37d6b8b08054dc6",
+      "f3622d6409fb72b8",
+      "15e7886a85e0a301",
       "ac1405062719fb86",
-      "22dd2cc90067e723",
+      "56a2b08368bd7103",
+      "73c1e2e3746e45e5",
       "5d15152619ff887e",
-      "6e77d83ba0921ba9",
-      "ae7b3beef14befc0",
-      "ff6f87e39638cb9b",
-      "b025552455db654e",
+      "1bd54870803af1f7",
       "09b1bd561f62b68f",
-      "f0a680e93504fa7f",
+      "51465e44db3bfd09",
+      "a716e33c593d5997",
+      "a0fbcddb71c96679",
+      "7d5e5ac5d4205fc5",
+      "726e423b5db6a785",
       "560edfe1df9d8921",
       "23b97a8a93aba477",
       "9cd3abf7fd1573ff",
-      "9d38cb10fa2ef46c",
-      "f6fbe439ddf6b9d5",
-      "689847342b12d61c",
-      "98ce175aa625ca7a",
-      "75449e9dc1e8015f",
-      "4e8e7a939af99fe5"
+      "1f7cf3c312300a01",
+      "8951ceddab449425",
+      "ff6f87e39638cb9b",
+      "87d5f395c9e1f460",
+      "7844e54a78fc1705"
     ],
     "extractedChars": 153857,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-05T10:12:06.790Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "triaged_out"
   },
   {
     "sourceUrl": "https://momah.gov.sa/ar/announcements",
@@ -6317,10 +6318,10 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/careers",
     "orgId": "hrc",
-    "contentHash": "2047c2249709a306b26117c96e58df9ba218607056eac5f5425818a83c2e7ff2",
+    "contentHash": "c9dc80660e42ca1a71bfd5d0540e591cc43a57346780c6b8082b47a1fa145534",
     "blockHashes": [
       "12e41a244a8a2984",
-      "0f903e585369a978",
+      "14d1019751341eb7",
       "9bd6314e9bbc7375",
       "474d2dbb69aae30b",
       "84b2fc11813dc7e8",
@@ -6344,9 +6345,9 @@
     "extractedChars": 3794,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-05T13:22:15.021Z",
+    "lastChangedISO": "2026-09-05T16:26:22.866Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/careers?lang=ar",
@@ -7586,7 +7587,7 @@
   {
     "sourceUrl": "https://www.mim.gov.sa/ar/empower-training/cooperative-training",
     "orgId": "mim",
-    "contentHash": "4a3fe172f8c009b8f16477dd548e1fb76ef0c2a4153ba9cc106b2ca3359daa76",
+    "contentHash": "e84af09a3f520edc76a24bfb254ed5bcac5d188eed0f82d89ae9e49ec226044f",
     "blockHashes": [
       "1cb91553dd3291a4",
       "5300d4cdd32a8d33"
@@ -7594,7 +7595,7 @@
     "extractedChars": 2495,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T02:22:33.828Z",
-    "lastChangedISO": "2026-09-05T15:34:44.870Z",
+    "lastChangedISO": "2026-09-05T16:26:22.866Z",
     "thinRuns": 0,
     "pendingClassification": true
   },
