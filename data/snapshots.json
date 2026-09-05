@@ -1230,10 +1230,10 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/cookiesettings",
     "orgId": "maaden",
-    "contentHash": "8420f2f93f28b6b11fb3f4102dd4991c18066439eb67b1ed318a9e081d2afd2c",
+    "contentHash": "5273acd5844cca226d2620b34eca2bbace98bbe90fcfdb917b04b8c9ef978430",
     "blockHashes": [
       "5569201553604d03",
-      "57c0b9ff0f5e8303",
+      "f4979ecd6a2f2db6",
       "dd53e083dd4c4329",
       "5e2fc5a4da5c7871",
       "197c66a2b21d9654",
@@ -1298,12 +1298,12 @@
       "ee82ab94d7112a03",
       "60b7b15f81dc7749",
       "abf11bb520a3d451",
-      "b4b1b90e95ad6838"
+      "c83fcb75c4016758"
     ],
     "extractedChars": 8013,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-05T14:47:56.096Z",
+    "lastChangedISO": "2026-09-05T15:42:20.444Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -2131,7 +2131,7 @@
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T02:22:33.828Z",
     "lastChangedISO": "2026-08-29T02:36:21.032Z",
-    "thinRuns": 69,
+    "thinRuns": 70,
     "pendingClassification": false
   },
   {
@@ -2169,9 +2169,9 @@
   {
     "sourceUrl": "https://gaca.gov.sa/ar/announcements",
     "orgId": "gaca",
-    "contentHash": "f8bdfa1ee58d7879fefa9681d252a4069812ec130527cdeb1e88edeb14570e41",
+    "contentHash": "d3f97b7b884d48fdd68249a842093e76f3ea8085c93e180daa3e70396ae3814e",
     "blockHashes": [
-      "f86844ae189e6de6",
+      "c9fa220bbdbff08a",
       "9c2a3967149440a8",
       "83a22e1f9fb245f8",
       "bc532942aaed49b7"
@@ -2179,7 +2179,7 @@
     "extractedChars": 242,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-05T12:32:58.425Z",
+    "lastChangedISO": "2026-09-05T15:42:20.444Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -3011,9 +3011,9 @@
   {
     "sourceUrl": "https://modon.gov.sa/",
     "orgId": "modon",
-    "contentHash": "07d1c294a0a110ae03e9679c69f0b475cc66d1bde1e83d541bbbd49111503fee",
+    "contentHash": "45642579bed65f4458de69fceac7421ea116705dabe0f46f682d9906757dbb63",
     "blockHashes": [
-      "654089153d572fee",
+      "9fa06c08948a02c5",
       "0edf2292f0637ccb",
       "c32ffa2c93fe0d09",
       "9066ce9805b0428c",
@@ -3035,7 +3035,7 @@
     "extractedChars": 5996,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-05T09:27:14.061Z",
+    "lastChangedISO": "2026-09-05T15:42:20.444Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -11723,11 +11723,11 @@
   {
     "sourceUrl": "https://zatca.gov.sa/ar/MediaCenter/News/Pages/default.aspx",
     "orgId": "zatca",
-    "contentHash": "1f2949977175947deedb0ec44b52840a1d6dbb83bc11ba77e82672f97bb3e5c4",
+    "contentHash": "fc3087a807c70fb9dd4c0d3f6b5a2d0d4794bffedad6c191f79e36119b1fa5f7",
     "blockHashes": [
-      "92e062ead6a4fbfe",
+      "17235b4e635af4e3",
       "9acbd81fedb893d5",
-      "292ee020cfd63c91",
+      "b351b915ba1f70fe",
       "31d52be61e89a485",
       "0c29e44b5bdedb8c",
       "6d17861e54a08e7a",
@@ -11743,12 +11743,13 @@
       "3b5a8943dae3d475",
       "d375f8cc214f564c"
     ],
-    "extractedChars": 16645,
+    "extractedChars": 16504,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-04T11:55:18.003Z",
+    "lastChangedISO": "2026-09-05T15:42:20.444Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "triaged_out"
   },
   {
     "sourceUrl": "https://zatca.gov.sa/ar/MediaCenter/Pages/default.aspx",
