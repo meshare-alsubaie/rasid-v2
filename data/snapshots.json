@@ -3659,8 +3659,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-05T09:57:22.892Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://ndf.gov.sa/media-center/press-news",
@@ -3719,14 +3718,17 @@
       "76746f52976848b1",
       "73ea57f5d3f49927",
       "f113972f5bda8fba",
-      "62bf404445b0fa36"
+      "62bf404445b0fa36",
+      "d0e89f8b02ff9960",
+      "139546e1bb791f29"
     ],
     "extractedChars": 3805,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T22:03:35.383Z",
     "lastChangedISO": "2026-09-05T09:57:22.892Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://nour.net.sa/ar/news/",
@@ -6352,10 +6354,10 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/careers?lang=ar",
     "orgId": "hrc",
-    "contentHash": "45d90ca4bf8010d558f54bd39f241951178df6a5f5fbef9bcde18ba0094d2b30",
+    "contentHash": "77a4d76be0bcf92d8e65f5a953998031cb1912d716b0ca71921fc2e0d8bb0386",
     "blockHashes": [
       "12e41a244a8a2984",
-      "77e01f7a002e80ec",
+      "d57eeee7fca53966",
       "9bd6314e9bbc7375",
       "474d2dbb69aae30b",
       "84b2fc11813dc7e8",
@@ -6379,7 +6381,7 @@
     "extractedChars": 3794,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-05T13:03:45.179Z",
+    "lastChangedISO": "2026-09-05T16:09:52.099Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
