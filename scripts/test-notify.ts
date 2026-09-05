@@ -20,6 +20,7 @@ import {
   type Notice,
 } from "../src/pipeline/notify";
 import { announcementKey } from "../src/types";
+import { UNJUDGED_TITLE } from "../src/pipeline/opportunity";
 import type { Opportunity, SourceHealth } from "../src/types";
 
 let failures = 0;
@@ -118,10 +119,55 @@ check(
   "a graduate-development one never does",
   run([], [opp({ product: "graduate_dev", flags: ["wrong_product"] })]).length === 0,
 );
+/*
+ * This asserted that a null score is never news, and that was the hole.
+ *
+ * It is right about a page nothing could be read from. It is wrong about a page
+ * that was read perfectly and simply did not list majors - which is how a great
+ * many Saudi co-op pages are written. Measured on the live data: fourteen
+ * confirmed co-op openings sat in that state and could never have notified him,
+ * among them stc's own "Cooperative Training Program", Aramco, Al Rajhi, ZATCA,
+ * Mobily and the Ministry of Justice. That is the failure criterion itself.
+ */
 check(
-  "an unclassified record never does",
-  run([], [opp({ relevanceScore: null, flags: ["needs_manual_review"] })]).length === 0,
-  "null is not a score, and it is not news either",
+  "a co-op opening we could not score is announced, under a kind that says so",
+  run([], [opp({ relevanceScore: null, flags: ["needs_manual_review"] })]).some(
+    (n) => n.kind === "fit_unknown",
+  ),
+  "not scoring it is honest; not telling him is not",
+);
+check(
+  "and it says the fit is unknown rather than giving a number nobody computed",
+  run([], [opp({ relevanceScore: null, flags: ["needs_manual_review"] })])
+    .find((n) => n.kind === "fit_unknown")
+    ?.body.includes("لم تذكر الصفحة التخصّصات") === true,
+);
+check(
+  "a real match still outranks it",
+  BAND.newRelevant > BAND.fitUnknown,
+  `${BAND.newRelevant} vs ${BAND.fitUnknown}`,
+);
+check(
+  "a record with no usable title is still skipped",
+  !run([], [opp({ relevanceScore: null, titleAr: UNJUDGED_TITLE, flags: ["needs_manual_review"] })]).some(
+    (n) => n.kind === "fit_unknown",
+  ),
+  "a page nothing could be read from is still noise",
+);
+check(
+  "and one whose page has gone quiet is skipped too",
+  !run([], [opp({ relevanceScore: null, flags: ["needs_manual_review", "vanished_from_source"] })]).some(
+    (n) => n.kind === "fit_unknown",
+  ),
+);
+check(
+  "it draws on the opportunity budget, not the housekeeping one",
+  split(
+    run([], [opp({ relevanceScore: null, flags: ["needs_manual_review"] })]),
+    [],
+    new Date("2026-09-01T09:00:00.000Z"),
+    false,
+  ).push.some((n) => n.kind === "fit_unknown"),
 );
 /*
  * Repetition is prevented by the sent log, not by `decide` guessing whether a

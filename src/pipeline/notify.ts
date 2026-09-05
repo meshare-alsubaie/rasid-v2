@@ -10,7 +10,7 @@
  * the same failure as a stale green light wearing a different coat.
  */
 import { endOfDeadline, hijriOf } from "../types";
-import { announcementKey } from "./opportunity";
+import { announcementKey, UNJUDGED_TITLE } from "./opportunity";
 import type { Opportunity, SourceHealth } from "../types";
 
 export type NoticeKind =
@@ -29,7 +29,26 @@ export type NoticeKind =
    * because fetching them worked perfectly. The only trace was a small counter
    * on a screen nobody had a reason to open. This is that failure, said aloud.
    */
-  | "classifier_down";
+  | "classifier_down"
+  /**
+   * A co-op opening whose fit could not be computed, because the page named no
+   * specialism at all.
+   *
+   * `relevanceOf` returns null for that, and rightly: silence about majors is
+   * not a statement that his major qualifies, and inventing a number would be
+   * the guess this project refuses everywhere else. But `decide` then skipped
+   * the record entirely, so **a confirmed co-op page at a tier-S organisation
+   * that does not list majors could never notify him**. stc, Aramco, Al Rajhi,
+   * the Digital Government Authority and the Ministry of Justice were all in
+   * exactly that state, showing a permanent "?" on the screen and sending
+   * nothing.
+   *
+   * That is the failure criterion itself: an opening published at one of the
+   * 127 that does not reach his phone. So it is announced under its own kind,
+   * which says in the title that the fit is unknown - he is told, and he is not
+   * told a number nobody computed.
+   */
+  | "fit_unknown";
 
 export interface Notice {
   /** Stable across runs, so the log can prove a thing was said only once. */
@@ -150,6 +169,7 @@ export const BAND = {
   opened: 400,
   fewSeats: 300,
   newRelevant: 200,
+  fitUnknown: 180,
   classifierDown: 250,
   sourceBroken: 150,
 } as const;
@@ -220,11 +240,40 @@ export function decide(input: DecideInput): Notice[] {
     const org = nameOf(o.orgId);
     const score = o.relevanceScore;
 
-    // A record we could not judge is never announced as an opportunity. It is
-    // surfaced in the app's review queue instead: waking someone for a thing
-    // we cannot describe is noise, not diligence.
-    if (score === null) continue;
     if (o.flags.includes("wrong_product")) continue;
+
+    /*
+     * A co-op opening we could not score is still an opening.
+     *
+     * This used to `continue` on any null score, on the reasoning that waking
+     * someone for a thing we cannot describe is noise. That is right when the
+     * page could not be read - and wrong when the page was read perfectly and
+     * simply did not list majors, which is how a great many Saudi co-op pages
+     * are written. stc's own "Cooperative Training Program" is one.
+     *
+     * The two are distinguishable: a page that produced a real title and a
+     * co-op product was understood; only the *fit* is unknown. Announcing it
+     * under its own kind tells him without telling him a number nobody computed.
+     * A page that produced nothing usable is still skipped.
+     */
+    if (score === null) {
+      const readable =
+        o.product === "coop" &&
+        o.titleAr.trim() !== "" &&
+        o.titleAr !== UNJUDGED_TITLE &&
+        !o.flags.includes("vanished_from_source");
+      const daysKnownNull = (Date.now() - Date.parse(o.firstSeenISO)) / 86_400_000;
+      if (readable && daysKnownNull <= ANNOUNCE_WINDOW_DAYS) {
+        out.push({
+          key: `fit:${announcementKey(o)}`,
+          kind: "fit_unknown",
+          title: `🟡 تدريب تعاوني · ${org}`,
+          body: `${o.titleAr} · لم تذكر الصفحة التخصّصات، فلم تُحسب نسبة ملاءمتها لك. افتحها بنفسك.`,
+          weight: BAND.fitUnknown,
+        });
+      }
+      continue;
+    }
 
     /*
      * Announce anything worth announcing, every round, and let the sent log
@@ -510,7 +559,7 @@ export function split(
    * prefix, which is how every opportunity key in this file is minted
    * ("new:", "opened:", "closing:", "seats:").
    */
-  const OPPORTUNITY_KEY = /^(?:new|opened|closing|seats):/;
+  const OPPORTUNITY_KEY = /^(?:new|opened|closing|seats|fit):/;
   const opportunitiesSentToday = pushedToday.filter((e) => OPPORTUNITY_KEY.test(e.key)).length;
   const maintenanceSentToday = sentToday - opportunitiesSentToday;
 
@@ -628,6 +677,7 @@ export function split(
  */
 export const OPPORTUNITY_KINDS: ReadonlySet<NoticeKind> = new Set<NoticeKind>([
   "new_relevant",
+  "fit_unknown",
   "opened",
   "closing_soon",
   "few_seats",
