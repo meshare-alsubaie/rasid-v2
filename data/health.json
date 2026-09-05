@@ -1406,8 +1406,8 @@
   {
     "sourceUrl": "https://nca.gov.sa/en/news/",
     "orgId": "nca",
-    "lastAttemptISO": "2026-09-05T10:12:06.790Z",
-    "lastSuccessISO": "2026-09-05T10:12:06.790Z",
+    "lastAttemptISO": "2026-09-05T13:35:02.203Z",
+    "lastSuccessISO": "2026-09-05T13:35:02.203Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -1928,8 +1928,8 @@
   {
     "sourceUrl": "https://www.alahli.com/ar/pages/about-us/careers",
     "orgId": "snb",
-    "lastAttemptISO": "2026-09-05T12:19:03.685Z",
-    "lastSuccessISO": "2026-09-05T12:19:03.685Z",
+    "lastAttemptISO": "2026-09-05T13:35:02.203Z",
+    "lastSuccessISO": "2026-09-05T13:35:02.203Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -3494,11 +3494,11 @@
   {
     "sourceUrl": "https://www.saudiexchange.sa/wps/portal/saudiexchange/newsandreports/issuer-financial-calendars?locale=ar",
     "orgId": "tadawul",
-    "lastAttemptISO": "2026-09-05T10:12:06.790Z",
+    "lastAttemptISO": "2026-09-05T13:35:02.203Z",
     "lastSuccessISO": "2026-09-02T23:42:46.216Z",
-    "consecutiveFailures": 5,
+    "consecutiveFailures": 6,
     "lastError": "HTTP 403",
-    "state": "degraded"
+    "state": "broken"
   },
   {
     "sourceUrl": "https://www.saudiexchange.sa/wps/portal/saudiexchange/newsandreports/issuer-financial-calendars/dividends?locale=ar",
@@ -3836,8 +3836,8 @@
   {
     "sourceUrl": "https://www.thiqah.sa/careers/",
     "orgId": "thiqah",
-    "lastAttemptISO": "2026-09-05T12:34:40.744Z",
-    "lastSuccessISO": "2026-09-05T12:34:40.744Z",
+    "lastAttemptISO": "2026-09-05T13:35:02.203Z",
+    "lastSuccessISO": "2026-09-05T13:35:02.203Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
