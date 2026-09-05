@@ -1010,11 +1010,11 @@
   {
     "sourceUrl": "https://gmedia.gov.sa/ar/news/news-0020",
     "orgId": "gcam",
-    "lastAttemptISO": "2026-09-05T12:26:02.003Z",
+    "lastAttemptISO": "2026-09-05T15:30:34.562Z",
     "lastSuccessISO": "2026-09-03T04:02:53.097Z",
-    "consecutiveFailures": 5,
-    "lastError": "robots.txt: robots.txt answered 200 with a web page rather than a rules file, so the site was never actually asked; a browser could not reach it either",
-    "state": "degraded"
+    "consecutiveFailures": 6,
+    "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (The operation was aborted due to timeout); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
+    "state": "broken"
   },
   {
     "sourceUrl": "https://gmedia.gov.sa/ar/news/news-0022",
@@ -1235,8 +1235,8 @@
   {
     "sourceUrl": "https://misa.gov.sa/ar/news/latest-news/",
     "orgId": "misa",
-    "lastAttemptISO": "2026-09-05T12:26:02.003Z",
-    "lastSuccessISO": "2026-09-05T12:26:02.003Z",
+    "lastAttemptISO": "2026-09-05T15:30:34.562Z",
+    "lastSuccessISO": "2026-09-05T15:30:34.562Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -1496,11 +1496,11 @@
   {
     "sourceUrl": "https://ndf.gov.sa/media-center/press-news",
     "orgId": "ndf",
-    "lastAttemptISO": "2026-09-05T12:26:02.003Z",
+    "lastAttemptISO": "2026-09-05T15:30:34.562Z",
     "lastSuccessISO": "2026-09-05T12:26:02.003Z",
-    "consecutiveFailures": 0,
-    "lastError": null,
-    "state": "healthy"
+    "consecutiveFailures": 1,
+    "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
+    "state": "degraded"
   },
   {
     "sourceUrl": "https://neti.etec.gov.sa/",
@@ -1541,8 +1541,8 @@
   {
     "sourceUrl": "https://nour.net.sa/news/",
     "orgId": "nournet",
-    "lastAttemptISO": "2026-09-05T12:26:02.003Z",
-    "lastSuccessISO": "2026-09-05T12:26:02.003Z",
+    "lastAttemptISO": "2026-09-05T15:30:34.562Z",
+    "lastSuccessISO": "2026-09-05T15:30:34.562Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -1856,11 +1856,11 @@
   {
     "sourceUrl": "https://wadimakkah.sa/en/media-center/page/2/",
     "orgId": "wadi_makkah",
-    "lastAttemptISO": "2026-09-05T12:26:02.003Z",
+    "lastAttemptISO": "2026-09-05T15:30:34.562Z",
     "lastSuccessISO": "2026-09-05T12:26:02.003Z",
-    "consecutiveFailures": 0,
-    "lastError": null,
-    "state": "healthy"
+    "consecutiveFailures": 1,
+    "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
+    "state": "degraded"
   },
   {
     "sourceUrl": "https://wadimakkah.sa/en/media-center/page/3/",
@@ -2324,11 +2324,11 @@
   {
     "sourceUrl": "https://www.fakeeh.care/news-and-media",
     "orgId": "fakeeh",
-    "lastAttemptISO": "2026-09-05T12:26:02.003Z",
+    "lastAttemptISO": "2026-09-05T15:30:34.562Z",
     "lastSuccessISO": "2026-09-05T12:26:02.003Z",
-    "consecutiveFailures": 0,
-    "lastError": null,
-    "state": "healthy"
+    "consecutiveFailures": 1,
+    "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
+    "state": "degraded"
   },
   {
     "sourceUrl": "https://www.fakeeh.care/news-and-update",
@@ -2873,11 +2873,11 @@
   {
     "sourceUrl": "https://www.mof.gov.sa/mediacenter/events/Pages/CalEvent.aspx",
     "orgId": "mof",
-    "lastAttemptISO": "2026-09-05T12:26:02.003Z",
+    "lastAttemptISO": "2026-09-05T15:30:34.562Z",
     "lastSuccessISO": "2026-09-03T03:35:36.282Z",
-    "consecutiveFailures": 5,
-    "lastError": "robots.txt: robots.txt answered 200 with a web page rather than a rules file, so the site was never actually asked; a browser reached it but the body was not a robots.txt, so it is treated as a refusal",
-    "state": "degraded"
+    "consecutiveFailures": 6,
+    "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
+    "state": "broken"
   },
   {
     "sourceUrl": "https://www.mof.gov.sa/Pages/default.aspx",
@@ -2909,11 +2909,11 @@
   {
     "sourceUrl": "https://www.mofa.gov.sa/ar/ministry/news/Pages/default.aspx",
     "orgId": "mofa",
-    "lastAttemptISO": "2026-09-05T12:26:02.003Z",
+    "lastAttemptISO": "2026-09-05T15:30:34.562Z",
     "lastSuccessISO": "2026-09-03T04:10:56.997Z",
-    "consecutiveFailures": 5,
+    "consecutiveFailures": 6,
     "lastError": "robots.txt: robots.txt answered 200 with a web page rather than a rules file, so the site was never actually asked; a browser reached it but the body was not a robots.txt, so it is treated as a refusal",
-    "state": "degraded"
+    "state": "broken"
   },
   {
     "sourceUrl": "https://www.moh.gov.sa/ministry/mediacenter/ads/pages/default.aspx",
@@ -3719,8 +3719,8 @@
   {
     "sourceUrl": "https://www.srca.org.sa/news/",
     "orgId": "srca",
-    "lastAttemptISO": "2026-09-05T12:26:02.003Z",
-    "lastSuccessISO": "2026-09-05T12:26:02.003Z",
+    "lastAttemptISO": "2026-09-05T15:30:34.562Z",
+    "lastSuccessISO": "2026-09-05T15:30:34.562Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
