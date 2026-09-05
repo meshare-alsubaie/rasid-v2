@@ -3647,14 +3647,15 @@
     "orgId": "ndf",
     "contentHash": "a8e1806eddac126a8dfd3404c03aa20c3457dc190bc966277fee944be91e378b",
     "blockHashes": [
-      "e9edb2d7ab19f755"
+      "a8e1806eddac126a"
     ],
     "extractedChars": 1210,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-05T09:57:22.892Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://ndf.gov.sa/media-center/press-news",
