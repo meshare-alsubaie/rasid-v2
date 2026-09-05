@@ -1230,10 +1230,10 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/cookiesettings",
     "orgId": "maaden",
-    "contentHash": "df56721ad86cf995927edf414d7400fd25259ce95c2dbdac5926591f2fd8a2c6",
+    "contentHash": "cc9d8d2dd325fb4084438211b7da03c1303957a6750648a18b65f4c3354b0d0c",
     "blockHashes": [
       "5569201553604d03",
-      "f4979ecd6a2f2db6",
+      "4c196b7e3be1973c",
       "dd53e083dd4c4329",
       "5e2fc5a4da5c7871",
       "197c66a2b21d9654",
@@ -1298,14 +1298,14 @@
       "ee82ab94d7112a03",
       "60b7b15f81dc7749",
       "abf11bb520a3d451",
-      "9221329612c33d33"
+      "8027e7e9035712bc"
     ],
     "extractedChars": 8013,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-05T11:31:02.290Z",
+    "lastChangedISO": "2026-09-05T12:19:03.685Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/search-results",
@@ -2130,7 +2130,7 @@
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T02:22:33.828Z",
     "lastChangedISO": "2026-08-29T02:36:21.032Z",
-    "thinRuns": 65,
+    "thinRuns": 66,
     "pendingClassification": false
   },
   {
@@ -2360,17 +2360,17 @@
   {
     "sourceUrl": "https://gaca.gov.sa/web/ar-sa/page/home",
     "orgId": "gaca",
-    "contentHash": "5ac5975c0527c6c7ac0ea8c259d8f3e617b27dda2f5e4bc954988fc3684b4173",
+    "contentHash": "5167529eb7f0c4dc170707b81b5021911af7fab0db5fb8db544857bb02e5d813",
     "blockHashes": [
-      "bcb87901a91b9c1d",
+      "e1199c82a4e4e392",
       "b1a688d32a900310",
       "83a22e1f9fb245f8",
-      "ac473f85e97b4d85"
+      "bc532942aaed49b7"
     ],
-    "extractedChars": 387,
+    "extractedChars": 386,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-05T09:11:52.807Z",
+    "lastChangedISO": "2026-09-05T12:19:03.685Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -5513,8 +5513,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-04T05:29:27.985Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.cst.gov.sa/media-center",
