@@ -1309,18 +1309,16 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/search-results",
     "orgId": "maaden",
-    "contentHash": "96f30d93b26dd734c245e980ab29828c74b409be54a6e2bab5ae95010e24e2a6",
+    "contentHash": "16bc85a535c4416815cd4c48505913ed34938096dc4494eeed92496f2d3c5d23",
     "blockHashes": [
-      "0593a1678d987760",
-      "298a05ebe5a16280",
-      "d6c0adacb353836a",
-      "d4d89e78640401e7",
-      "94ef33978b6e36f0"
+      "dab5a7f3801bc914",
+      "bae6a15f045e2e25",
+      "549e7bf6815d5b9f"
     ],
-    "extractedChars": 373,
+    "extractedChars": 240,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-05T02:23:16.839Z",
+    "lastChangedISO": "2026-09-05T09:38:54.461Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -3628,9 +3626,9 @@
   {
     "sourceUrl": "https://ndf.gov.sa/media-center/articles/article-human-resource-development",
     "orgId": "ndf",
-    "contentHash": "6f7573cd8583a11fbe06f484422584244dcf600cf73346f7be3918d1dc417303",
+    "contentHash": "ef21df89ffe504353464d839dbfa8105e95fa0640747451647c17834ed05ce01",
     "blockHashes": [
-      "6e7159de5694aac1",
+      "5d6db0c4c7da0afa",
       "2e431a1caf07dcca",
       "7a4afe45d7b2cb37",
       "a16ea57600a8a4dd",
@@ -3639,10 +3637,10 @@
       "e13becff422fb79f",
       "2dce6a68bcf7278f"
     ],
-    "extractedChars": 4222,
+    "extractedChars": 4221,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-04T05:56:46.725Z",
+    "lastChangedISO": "2026-09-05T09:38:54.461Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -3746,23 +3744,22 @@
   {
     "sourceUrl": "https://nour.net.sa/ar/news/limitless-2026-event/",
     "orgId": "nournet",
-    "contentHash": "ed0c08359c6b082696be6cc51dda5e2180e53e071f55c5bd0a277ab75cfd9712",
+    "contentHash": "da5b86540a898147beafd86d74f9440b3d3f21e7f689b0664f3dff826faed52c",
     "blockHashes": [
       "c98d23b8511f3049",
       "1c2d61fcce5b811e",
       "a7e35620c6dc756e",
       "8f60949bf1abf18c",
       "8a6708e28e87ebb1",
-      "ff4492456d47433c",
-      "d0e89f8b02ff9960",
-      "139546e1bb791f29"
+      "ff4492456d47433c"
     ],
     "extractedChars": 3296,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-04T05:52:22.560Z",
+    "lastChangedISO": "2026-09-05T09:38:54.461Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "triaged_out"
   },
   {
     "sourceUrl": "https://nour.net.sa/news/",
@@ -6390,10 +6387,10 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/careers/graduate-development-program",
     "orgId": "hrc",
-    "contentHash": "18e425d4ec9c6d8cbf82dc19073b492d925dd8774134affa736c35374cf61a77",
+    "contentHash": "cd362ea4367b84cb31a1d6174bead04a0ed343430c55544f12ab8f82a058d201",
     "blockHashes": [
       "12e41a244a8a2984",
-      "7c5d65615f21aff1",
+      "f6b4296ba1d1f210",
       "741386d322f274be",
       "40d7009856bbc81d",
       "2dd486d3d3cacb8b",
@@ -6459,7 +6456,7 @@
     "extractedChars": 10688,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-04T11:53:00.803Z",
+    "lastChangedISO": "2026-09-05T09:38:54.461Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -7202,7 +7199,7 @@
   {
     "sourceUrl": "https://www.kapsarc.org/work-with-us/job-opportunities/",
     "orgId": "kapsarc",
-    "contentHash": "7f0398bf3cbd7a80dcd4fcece7c41e658226b1ee23cfd83e142b423a90575670",
+    "contentHash": "61a7612438cbe8b07462ef11bda3cadf4e303b1bacad061fc9c51ab5d4948910",
     "blockHashes": [
       "dbad88ec8435b910",
       "11ed80f75ad0e89e",
@@ -7224,7 +7221,7 @@
       "82125fef711b8fdc",
       "a8eb670b84904811",
       "d9cd1c2148907399",
-      "689a0fbeb6cf6496",
+      "cc10ff42835a39f3",
       "9c51ede42f36a1d8",
       "0b23b586c4f30fe5",
       "0b23b586c4f30fe5",
@@ -7235,7 +7232,7 @@
     "extractedChars": 993,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-04T05:48:00.498Z",
+    "lastChangedISO": "2026-09-05T09:38:54.461Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
