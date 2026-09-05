@@ -15,6 +15,7 @@ import { spawnSync } from "node:child_process";
 import { existsSync, mkdirSync, readFileSync, rmSync, writeFileSync } from "node:fs";
 import { createHash } from "node:crypto";
 import { addressOf, typeFor } from "../src/pipeline/address";
+import { notCopiedFrom } from "../src/pipeline/classify";
 import {
   asManualReview,
   fromClassification,
@@ -585,6 +586,74 @@ console.log("\ntwo collectors cannot write the same round");
       writeFileSync(LOCK, had, "utf8");
     }
   }
+}
+
+
+console.log("\na record whose wording is not on its page does not survive");
+{
+  /*
+   * The verdict memory was purged and stamped, and cached verdicts now face the
+   * copied-wording guard - and neither of those reaches a record written before
+   * any of it existed whose page has not changed since. `hrsd` sat in the live
+   * data titled "حياديدة وادد لالحمية المحارة والدربية", Arabic letters forming
+   * no Arabic words, with `pendingClassification: false`: nothing would ever
+   * have looked at it again.
+   *
+   * Two rules close it, and both are asserted here because either alone leaves
+   * the record standing. The page is re-armed for judgement when its record's
+   * wording is missing from the fresh text; and the record is dropped outright
+   * once the page has been read and the wording is provably not there - because
+   * a fresh verdict of "not an announcement" does not, on its own, remove
+   * anything.
+   */
+  const page = "برنامج التدريب التعاوني في الأمن السيبراني بمدينة الرياض.";
+
+  const faithful: Classification = {
+    ...classification("برنامج التدريب التعاوني"),
+    majors: ["الأمن السيبراني"],
+    cities: ["الرياض"],
+  };
+  check(
+    "a record that really was copied from the page is left alone",
+    notCopiedFrom(page, faithful).length === 0,
+  );
+
+  const garbled: Classification = {
+    ...classification("حياديدة وادد لالحمية المحارة والدربية"),
+    majors: ["الحصولة والدربية"],
+    cities: [],
+  };
+  check(
+    "one carrying invented wording is detected",
+    notCopiedFrom(page, garbled).length > 0,
+    notCopiedFrom(page, garbled).join("; ").slice(0, 80),
+  );
+
+  /*
+   * The seeded fault, in the direction that matters. Arabic glues prepositions
+   * to the article, and an over-strict guard would call ordinary Arabic an
+   * invention and delete a real record - which is a far worse failure than
+   * keeping a bad one.
+   */
+  const clitic = "الأكاديمية الوطنية للأمن السيبراني تعلن برنامج التدريب التعاوني.";
+  check(
+    "and ordinary Arabic morphology is never mistaken for invention",
+    notCopiedFrom(clitic, {
+      ...classification("برنامج التدريب التعاوني"),
+      majors: ["الأمن السيبراني"],
+      cities: [],
+    }).length === 0,
+    "a record deleted over a preposition would be the worse bug",
+  );
+
+  check(
+    "the collector re-arms such a page rather than leaving it settled",
+    /staleWording\(t\.url, extracted\.text\)/.test(readFileSync("scripts/collect.ts", "utf8")),
+  );
+  check(
+    "and drops the record once the page has been read without it",
+    /record\(s\) dropped: the page was read this round/.test(readFileSync("scripts/collect.ts", "utf8")),
+  );
 }
 
 console.log(`\n${failures === 0 ? "all record guards hold" : `${failures} check(s) failed`}`);

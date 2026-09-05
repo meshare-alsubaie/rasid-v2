@@ -417,6 +417,47 @@ function recordFailure(t: Target, error: string, outcome: Outcome): void {
   lines.push(`  ${tag}  ${t.ownerId.padEnd(14)} ${error}`);
 }
 
+/**
+ * A stored record whose wording is not on the page any more is not a record of
+ * that page.
+ *
+ * The verdict memory was purged and stamped, and cached verdicts now face the
+ * copied-wording guard - but neither of those reaches a record that was written
+ * before any of it existed and whose page has not changed since. `hrsd` sat in
+ * the live data titled "حياديدة وادد لالحمية المحارة والدربية", which is Arabic
+ * letters forming no Arabic words, with `pendingClassification: false`. Nothing
+ * would ever have looked at it again.
+ *
+ * The placeholder reconciliation added earlier does not catch this one, because
+ * it only drops records with no wording at all. A record carrying *invented*
+ * wording is worse than an empty one: it is shown to him as content.
+ *
+ * We have the page text right here, and the guard is a substring search, so
+ * asking costs nothing. A record that fails is not deleted - it is re-armed, and
+ * the next classification either corrects it or turns it into a placeholder that
+ * the reconciliation can settle honestly.
+ */
+function staleWording(url: string, text: string): boolean {
+  // `priorOpportunities`, not `opportunityById`: that map is built long after
+  // the fetch phase runs, and this is asked during it. The record as stored
+  // before this round is the right thing to test anyway.
+  const existing = survivingRecord(priorOpportunities, url);
+  if (existing === undefined) return false;
+  // Only wording the model was told to copy. A generated reason or a computed
+  // date is ours, not the page's, and is not evidence of anything.
+  return (
+    notCopiedFrom(text, {
+      titleAr: existing.titleAr === UNJUDGED_TITLE ? null : existing.titleAr,
+      majors: existing.majors,
+      cities: existing.cities,
+      zeroCoursesQuote: existing.zeroCoursesQuote,
+      statesZeroCoursesRule: existing.statesZeroCoursesRule,
+      opensRaw: null,
+      closesRaw: null,
+    } as Classification).length > 0
+  );
+}
+
 async function collect(t: Target): Promise<void> {
   /*
    * Stopping here leaves the source exactly as it was: no health row is
@@ -567,7 +608,12 @@ async function collect(t: Target): Promise<void> {
     thinRuns: thinAndSilent ? (prevSnapshot?.thinRuns ?? 0) + 1 : 0,
     // New text owes a verdict. Unchanged text keeps whatever it was owed, so
     // a source whose classification failed last run is retried, not buried.
-    pendingClassification: changed ? true : (prevSnapshot?.pendingClassification ?? false),
+    // A record whose stored wording is no longer on the page owes one too: see
+    // `staleWording` below.
+    pendingClassification:
+      changed || staleWording(t.url, extracted.text)
+        ? true
+        : (prevSnapshot?.pendingClassification ?? false),
   });
   healthByUrl.set(t.url, {
     sourceUrl: t.url,
@@ -1306,6 +1352,47 @@ for (const [id, o] of opportunityById) {
   if (snap === undefined || snap.pendingClassification) continue;
   opportunityById.delete(id);
   settledPlaceholders++;
+}
+
+/*
+ * A record whose wording is provably not on the page it claims to describe.
+ *
+ * `staleWording` re-arms these so they are judged again, and that is half the
+ * job. The other half is what happens when the fresh verdict comes back "not a
+ * training announcement": nothing deletes the old record, so `hrsd` went on
+ * being displayed as "حياديدة وادد لالحمية المحارة والدربية" - Arabic letters
+ * forming no Arabic words - over a page that had just been read and found to
+ * carry no announcement at all.
+ *
+ * The test is not the verdict, it is the evidence: the page was fetched and read
+ * this round, and the wording the record claims to have copied from it is not
+ * there. That is proof the record does not describe this page, whatever the
+ * model thinks of the page itself.
+ *
+ * This is the one deletion in this file that is not about a placeholder, so it
+ * is deliberately narrow. A page that could not be read this round is not
+ * touched - only a page we hold fresh text for. And it is announced with the
+ * organisation and the wording, because a record leaving the dataset is never
+ * something this project does quietly.
+ */
+let staleRecords = 0;
+for (const [id, o] of opportunityById) {
+  const text = textByUrl.get(o.sourceUrl);
+  if (text === undefined) continue; // not read this round; nothing to test against
+  if (o.titleAr === UNJUDGED_TITLE) continue; // handled above
+  if (!staleWording(o.sourceUrl, text)) continue;
+  console.log(
+    `  dropping a record whose wording is not on its page: ${o.orgId} ${JSON.stringify(o.titleAr).slice(0, 48)}`,
+  );
+  opportunityById.delete(id);
+  staleRecords++;
+}
+if (staleRecords > 0) {
+  console.log(
+    `
+${staleRecords} record(s) dropped: the page was read this round and does not contain the` +
+      ` wording they claim to have copied from it. The pages stay watched.`,
+  );
 }
 if (settledPlaceholders > 0) {
   console.log(

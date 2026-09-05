@@ -24,6 +24,7 @@
  */
 import { createHash } from "node:crypto";
 import { existsSync, readFileSync, writeFileSync } from "node:fs";
+import { addressOf } from "../src/pipeline/address";
 import { writeAtomic } from "../src/pipeline/write";
 import { parseHTML } from "linkedom";
 import { closeBrowser } from "../src/pipeline/browser";
@@ -252,9 +253,24 @@ for (const org of targets) {
       console.log(`  ${org.id}: ${all.length} رابطاً، ${interesting.length} جديد يخصّ التدريب`);
     }
 
-    const existing = new Set(org.sources.map((s) => s.url.replace(/\/+$/, "").toLowerCase()));
+    /*
+     * The set is added to as we go, not built once and read.
+     *
+     * A sitemap can list the same address twice - two entries differing only in
+     * a `lastmod`, or one url appearing in two nested sitemaps - and this loop
+     * pushed both, because `existing` was a snapshot taken before the first
+     * push. `alinma` ended up with the identical unverified source listed twice,
+     * which the validator refuses outright: a duplicate source is a page fetched
+     * and classified twice every round, for ever.
+     *
+     * `addressOf` rather than a trailing-slash trim, so this agrees with the
+     * rule the rest of the project deduplicates by - an anchor is the same page,
+     * a hash route is not.
+     */
+    const existing = new Set(org.sources.map((s) => addressOf(s.url)));
     for (const url of interesting) {
-      if (existing.has(url.replace(/\/+$/, "").toLowerCase())) continue;
+      if (existing.has(addressOf(url))) continue;
+      existing.add(addressOf(url));
       console.log(`      + ${url}`);
       org.sources.push({
         url,
