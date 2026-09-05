@@ -2488,7 +2488,7 @@
       "92ab7c84ae7e0913",
       "e512a8ae8e84e8ba",
       "2b741ddae5e4b441",
-      "47c6f08fac48286e",
+      "8151ad5293111f98",
       "cca43091c26e3420",
       "58980e78a2b8cf5a",
       "445cdb17cf867f69",
@@ -2524,7 +2524,8 @@
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
     "lastChangedISO": "2026-09-04T05:29:27.985Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://jobs.misa.gov.sa/ar/?locale=ar_SA",
@@ -3772,18 +3773,19 @@
   {
     "sourceUrl": "https://redf.gov.sa/",
     "orgId": "redf",
-    "contentHash": "67bc294dc26d4e0c011668a7eb3f02177079d95caed9e80ee171808d055d7084",
+    "contentHash": "ff163dc2c2345aaafdf503fa948e01b8df256005c96fdf12ee7eb666d088c68c",
     "blockHashes": [
       "2a152e58454424aa",
       "743b9c5832ecc399",
-      "5dfa144263097bf6"
+      "4333dc6c50096cf0"
     ],
-    "extractedChars": 1785,
+    "extractedChars": 576,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-04T11:31:01.777Z",
+    "lastChangedISO": "2026-09-05T09:04:40.626Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://redf.gov.sa/ar/careers",
@@ -4183,14 +4185,15 @@
     "orgId": "sta",
     "contentHash": "daed8f34cf40bb61ab33c3ec7eaa1a6ed4c9367bb06def382d031e96fa75990c",
     "blockHashes": [
-      "e837e53880dd6d6a"
+      "daed8f34cf40bb61"
     ],
     "extractedChars": 163,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-04T05:29:27.985Z",
-    "thinRuns": 1,
-    "pendingClassification": true
+    "thinRuns": 2,
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://takamolholding.com/ar/join-us",
@@ -10095,7 +10098,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-04T11:31:01.777Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.sfd.gov.sa/",
