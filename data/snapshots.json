@@ -2185,9 +2185,9 @@
   {
     "sourceUrl": "https://gaca.gov.sa/ar/News",
     "orgId": "gaca",
-    "contentHash": "b0976a9a27aae9cdbe96f9560cd46ebc35228b9a9bba9c8fc6228eef60c28305",
+    "contentHash": "f546fc8468fd1c5f4bbca19c10afb235af85acc7cc698c54ae89e4c7c5ec5ef3",
     "blockHashes": [
-      "8ae6afd94ca8f35f",
+      "67e8caeccb4ae734",
       "fa5c90da8c7623db",
       "c84b4ce195a4a7a7",
       "d0191f9ce7cda459",
@@ -2260,12 +2260,12 @@
       "4321218cdc0673b6",
       "88979047ce19a285",
       "83a22e1f9fb245f8",
-      "5b948c64294d8817"
+      "bc532942aaed49b7"
     ],
-    "extractedChars": 22059,
+    "extractedChars": 22054,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-04T09:05:33.502Z",
+    "lastChangedISO": "2026-09-05T09:46:07.058Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -8477,9 +8477,9 @@
   {
     "sourceUrl": "https://www.nazaha.gov.sa/News/Details?q=HNQU9DHVnwVHan0Mf562ug==",
     "orgId": "nazaha",
-    "contentHash": "577fd1c9a320859ec47556895f5fdc73fe65702523ab4844b2cd3e18ac1da1f2",
+    "contentHash": "1c194938464beb057f4fe3c1134eca11f40f99e7efadedb02b062740b15ce568",
     "blockHashes": [
-      "265a1e9ccac575ed",
+      "06b6e1a385a73072",
       "366f824a751bf3bd",
       "a96b8a7b6f568013",
       "4d9af472ef4907d3",
@@ -8500,7 +8500,7 @@
     "extractedChars": 3927,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-04T06:04:12.470Z",
+    "lastChangedISO": "2026-09-05T09:46:07.058Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -11334,11 +11334,11 @@
   {
     "sourceUrl": "https://zatca.gov.sa/ar",
     "orgId": "zatca",
-    "contentHash": "d0bd1c87ea1b493a9a32682893c0847fa887b7e8f824bd4613d9b660ef0a181e",
+    "contentHash": "929198e23970c6f86433e0288ff80b11bdab59a0e29df2092ecb797ae1e455b1",
     "blockHashes": [
       "0c8cf2b5bad0838e",
       "dd3372afafcdfd61",
-      "5210d6209f744b7e",
+      "325fdbd7f85a6636",
       "e5df56b0a0fe5091",
       "782261474561a27a",
       "701306ea50407e12",
@@ -11353,9 +11353,10 @@
     "extractedChars": 696,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-04T06:04:12.470Z",
+    "lastChangedISO": "2026-09-05T09:46:07.058Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://zatca.gov.sa/ar/MediaCenter/Elan/Pages/default.aspx",
