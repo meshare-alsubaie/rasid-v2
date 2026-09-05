@@ -3002,9 +3002,9 @@
   {
     "sourceUrl": "https://modon.gov.sa/",
     "orgId": "modon",
-    "contentHash": "76f1884d4f3a9b0c57b6c9d76e4cab8d19b38d35011365361b98701086067e35",
+    "contentHash": "07d1c294a0a110ae03e9679c69f0b475cc66d1bde1e83d541bbbd49111503fee",
     "blockHashes": [
-      "c76f9d0a889e181a",
+      "654089153d572fee",
       "0edf2292f0637ccb",
       "c32ffa2c93fe0d09",
       "9066ce9805b0428c",
@@ -3026,9 +3026,10 @@
     "extractedChars": 5996,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-04T11:37:32.800Z",
+    "lastChangedISO": "2026-09-05T09:27:14.061Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://modon.gov.sa/ar/MediaCenter/modon-news/News/Pages/default.aspx",
