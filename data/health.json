@@ -29,8 +29,8 @@
   {
     "sourceUrl": "http://www.wasatah.com.sa/index.php/ar/",
     "orgId": "wasatah",
-    "lastAttemptISO": "2026-09-04T11:29:29.055Z",
-    "lastSuccessISO": "2026-09-04T11:29:29.055Z",
+    "lastAttemptISO": "2026-09-05T15:06:01.896Z",
+    "lastSuccessISO": "2026-09-05T15:06:01.896Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -317,11 +317,11 @@
   {
     "sourceUrl": "https://anb.com.sa/web/anb",
     "orgId": "anb",
-    "lastAttemptISO": "2026-09-05T12:04:25.275Z",
+    "lastAttemptISO": "2026-09-05T15:06:01.896Z",
     "lastSuccessISO": "2026-09-03T04:02:53.097Z",
-    "consecutiveFailures": 5,
+    "consecutiveFailures": 6,
     "lastError": "robots.txt: robots.txt answered 200 with a web page rather than a rules file, so the site was never actually asked; a browser reached it but the body was not a robots.txt, so it is treated as a refusal",
-    "state": "degraded"
+    "state": "broken"
   },
   {
     "sourceUrl": "https://athkax.sdaia.gov.sa/coop",
@@ -677,8 +677,8 @@
   {
     "sourceUrl": "https://careers.sab.com/ar/",
     "orgId": "sab",
-    "lastAttemptISO": "2026-09-05T12:02:53.213Z",
-    "lastSuccessISO": "2026-09-05T12:02:53.213Z",
+    "lastAttemptISO": "2026-09-05T15:06:01.896Z",
+    "lastSuccessISO": "2026-09-05T15:06:01.896Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -1001,9 +1001,9 @@
   {
     "sourceUrl": "https://gmedia.gov.sa/ar/news/news-0019",
     "orgId": "gcam",
-    "lastAttemptISO": "2026-09-05T12:02:53.213Z",
+    "lastAttemptISO": "2026-09-05T15:06:01.896Z",
     "lastSuccessISO": "2026-09-03T03:32:47.890Z",
-    "consecutiveFailures": 8,
+    "consecutiveFailures": 9,
     "lastError": "robots.txt: robots.txt answered 200 with a web page rather than a rules file, so the site was never actually asked; a browser could not reach it either",
     "state": "broken"
   },
@@ -1415,9 +1415,9 @@
   {
     "sourceUrl": "https://ncar.gov.sa/",
     "orgId": "ncar",
-    "lastAttemptISO": "2026-09-04T11:29:29.055Z",
+    "lastAttemptISO": "2026-09-05T15:06:01.896Z",
     "lastSuccessISO": "2026-09-02T23:42:46.216Z",
-    "consecutiveFailures": 6,
+    "consecutiveFailures": 7,
     "lastError": "robots.txt: robots.txt answered 200 with a web page rather than a rules file, so the site was never actually asked; a browser reached it but the body was not a robots.txt, so it is treated as a refusal",
     "state": "broken"
   },
@@ -1523,8 +1523,8 @@
   {
     "sourceUrl": "https://nour.net.sa/ar/news/",
     "orgId": "nournet",
-    "lastAttemptISO": "2026-09-05T12:02:53.213Z",
-    "lastSuccessISO": "2026-09-05T12:02:53.213Z",
+    "lastAttemptISO": "2026-09-05T15:06:01.896Z",
+    "lastSuccessISO": "2026-09-05T15:06:01.896Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -1703,8 +1703,8 @@
   {
     "sourceUrl": "https://splonline.com.sa/ar/careers/",
     "orgId": "spl",
-    "lastAttemptISO": "2026-09-05T12:04:25.275Z",
-    "lastSuccessISO": "2026-09-05T12:04:25.275Z",
+    "lastAttemptISO": "2026-09-05T15:06:01.896Z",
+    "lastSuccessISO": "2026-09-05T15:06:01.896Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -2126,9 +2126,9 @@
   {
     "sourceUrl": "https://www.citc.gov.sa/ar/Pages/default.aspx",
     "orgId": "citc",
-    "lastAttemptISO": "2026-09-04T11:29:29.055Z",
+    "lastAttemptISO": "2026-09-05T15:06:01.896Z",
     "lastSuccessISO": "2026-09-03T04:22:58.520Z",
-    "consecutiveFailures": 4,
+    "consecutiveFailures": 5,
     "lastError": "robots.txt: robots.txt answered 200 with a web page rather than a rules file, so the site was never actually asked; a browser reached it but the body was not a robots.txt, so it is treated as a refusal",
     "state": "degraded"
   },
@@ -2900,9 +2900,9 @@
   {
     "sourceUrl": "https://www.mofa.gov.sa/ar/ministry/news/Pages/%D8%A7%D8%AA%D9%81%D8%A7%D9%82%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D8%A5%D8%B9%D9%81%D8%A7%D8%A1-%D8%A7%D9%84%D9%85%D8%AA%D8%A8%D8%A7%D8%AF%D9%84.aspx",
     "orgId": "mofa",
-    "lastAttemptISO": "2026-09-05T12:02:53.213Z",
+    "lastAttemptISO": "2026-09-05T15:06:01.896Z",
     "lastSuccessISO": "2026-09-03T03:33:59.526Z",
-    "consecutiveFailures": 7,
+    "consecutiveFailures": 8,
     "lastError": "robots.txt: robots.txt answered 200 with a web page rather than a rules file, so the site was never actually asked; a browser reached it but the body was not a robots.txt, so it is treated as a refusal",
     "state": "broken"
   },
@@ -3323,8 +3323,8 @@
   {
     "sourceUrl": "https://www.riyadbank.com/ar/personal-banking",
     "orgId": "riyadbank",
-    "lastAttemptISO": "2026-09-05T12:02:53.213Z",
-    "lastSuccessISO": "2026-09-05T12:02:53.213Z",
+    "lastAttemptISO": "2026-09-05T15:06:01.896Z",
+    "lastSuccessISO": "2026-09-05T15:06:01.896Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -3674,9 +3674,9 @@
   {
     "sourceUrl": "https://www.simah.com/en/personal/pages/default.aspx",
     "orgId": "simah",
-    "lastAttemptISO": "2026-09-05T12:02:53.213Z",
+    "lastAttemptISO": "2026-09-05T15:06:01.896Z",
     "lastSuccessISO": "2026-08-30T00:02:43.835Z",
-    "consecutiveFailures": 24,
+    "consecutiveFailures": 25,
     "lastError": "HTTP 403",
     "state": "broken"
   },
