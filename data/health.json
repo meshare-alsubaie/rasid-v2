@@ -3629,11 +3629,11 @@
   {
     "sourceUrl": "https://www.sfda.gov.sa/en/career-vision-and-mission",
     "orgId": "sfda",
-    "lastAttemptISO": "2026-09-05T13:16:40.448Z",
+    "lastAttemptISO": "2026-09-05T14:06:07.293Z",
     "lastSuccessISO": "2026-09-05T13:16:40.448Z",
-    "consecutiveFailures": 0,
-    "lastError": null,
-    "state": "healthy"
+    "consecutiveFailures": 1,
+    "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
+    "state": "degraded"
   },
   {
     "sourceUrl": "https://www.sidf.gov.sa/ar/News",
