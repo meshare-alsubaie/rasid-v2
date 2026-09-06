@@ -2927,7 +2927,7 @@
   {
     "sourceUrl": "https://misa.gov.sa/ar/",
     "orgId": "misa",
-    "contentHash": "f481dd734c78db845fc4ab2cb9d07f4f264c057a43c179edd08db4be655213d1",
+    "contentHash": "13b0b80c96dbf8e63f3aaa47fccc13dad1a648e020304cabbcaf1a5f980b55b0",
     "blockHashes": [
       "cf39773c3229a12a",
       "159cdf9e48cb9d11",
@@ -2935,7 +2935,7 @@
       "cc0c947bdabda055",
       "5b77a464a4b205db",
       "387a47c50f8aa41e",
-      "6142bb7c8ad12935",
+      "533ba38492ca693a",
       "740a328ac6937af5",
       "c9220ee548c22fed",
       "e1f8c035f4682346",
@@ -2952,9 +2952,10 @@
     "extractedChars": 2535,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
-    "lastChangedISO": "2026-09-06T09:56:28.018Z",
+    "lastChangedISO": "2026-09-06T15:58:26.243Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://misa.gov.sa/ar/media-center/",
