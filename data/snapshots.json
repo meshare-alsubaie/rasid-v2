@@ -2287,9 +2287,9 @@
   {
     "sourceUrl": "https://gaca.gov.sa/news",
     "orgId": "gaca",
-    "contentHash": "855470991b175001a742d08b7b74ec16eb1c130befbbeede56039fcf09fe0980",
+    "contentHash": "c56204a5e40a5dafc5ef3560533e3fc1f54b667454e50ced6f7ba89abaa4d086",
     "blockHashes": [
-      "a2b4bd88cfef83e9",
+      "4f7a9cc871415374",
       "b7e9fc0c697d7af6",
       "d308cb2d8454f4f9",
       "66b87ba82dee441e",
@@ -2365,10 +2365,10 @@
     "extractedChars": 21276,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-06T13:22:16.296Z",
+    "lastChangedISO": "2026-09-06T16:26:36.306Z",
     "thinRuns": 0,
     "pendingClassification": false,
-    "settledWithoutVerdict": "triaged_out"
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://gaca.gov.sa/web/ar-sa/page/home",
@@ -3805,17 +3805,14 @@
   {
     "sourceUrl": "https://redf.gov.sa/",
     "orgId": "redf",
-    "contentHash": "420174c8604654d64157b68ebec59723a0c92ce1fc79234debaeff0d68b1473e",
+    "contentHash": "2f8630af486bbb7fe7a475cb15acee5c21a983a9641d80d068322fff01bd1361",
     "blockHashes": [
-      "52386c706652615c",
-      "6bc2375027c7565d",
-      "782261474561a27a",
-      "6e86ac8d582b575b"
+      "2f8630af486bbb7f"
     ],
-    "extractedChars": 540,
+    "extractedChars": 1782,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-06T10:24:20.770Z",
+    "lastChangedISO": "2026-09-06T16:26:36.306Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -4224,7 +4221,7 @@
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-04T05:29:27.985Z",
-    "thinRuns": 5,
+    "thinRuns": 6,
     "pendingClassification": false
   },
   {
@@ -5565,10 +5562,10 @@
   {
     "sourceUrl": "https://www.derayah.com/",
     "orgId": "derayah",
-    "contentHash": "040650f659faf4f76a08b32c2c89daa168fc36489862798730de9d52926ec0c0",
+    "contentHash": "25ea74e2850cf5978c95dd790e647ff79c74e997b75ddddb73db218f2a37251c",
     "blockHashes": [
       "ddd0fdeb77b2b8bc",
-      "6ea52bb7b4efe586",
+      "200d7f5b457d15fe",
       "7cd6ce736fcf8d67",
       "7469b745da57c204",
       "a9b28e97d53fcf80",
@@ -5585,9 +5582,10 @@
     "extractedChars": 1431,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-08-31T00:02:49.563Z",
+    "lastChangedISO": "2026-09-06T16:26:36.306Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://www.ecza.gov.sa/ar",
@@ -9856,8 +9854,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-06T10:24:20.770Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "triaged_out"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.sar.com.sa/",
