@@ -2169,17 +2169,17 @@
   {
     "sourceUrl": "https://gaca.gov.sa/announcements",
     "orgId": "gaca",
-    "contentHash": "c0de7186dd7834aa004e33b715045728fc3b2c137b70667b3dadf74f9bff6202",
+    "contentHash": "bbe356929b5bd9f1a615ad8f6b1274834706832756b14bc252fff83cc9219342",
     "blockHashes": [
-      "c1465bcb44315aac",
+      "84617af3e03e3235",
       "9c2a3967149440a8",
       "83a22e1f9fb245f8",
       "bc532942aaed49b7"
     ],
-    "extractedChars": 1211,
-    "extractionMethod": "body_fallback",
+    "extractedChars": 242,
+    "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-06T08:22:24.231Z",
+    "lastChangedISO": "2026-09-06T11:28:25.123Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -6389,10 +6389,10 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/careers?lang=ar",
     "orgId": "hrc",
-    "contentHash": "1d4cf873e295ba4cdba166d9fba3fb305a52a53f64885742743bb1e451b872e6",
+    "contentHash": "023a90e8adaaf16169b8f4bb5150a661bddb94766723a3600c29d5aa05fa9ae0",
     "blockHashes": [
       "12e41a244a8a2984",
-      "f9534011d825776b",
+      "847927fab361b220",
       "9bd6314e9bbc7375",
       "474d2dbb69aae30b",
       "84b2fc11813dc7e8",
@@ -6416,7 +6416,7 @@
     "extractedChars": 3794,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-06T08:22:24.231Z",
+    "lastChangedISO": "2026-09-06T11:28:25.123Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -8330,11 +8330,13 @@
   {
     "sourceUrl": "https://www.monshaat.gov.sa/",
     "orgId": "monshaat",
-    "contentHash": "8a939a0418b5bc6ecfbcc60be9e19ff3d808c3c82d86c0e35155a611d66096fc",
+    "contentHash": "c273aa21c9f31a865b1e17ca28bb92d54191ef6238e2720ed8c40ecc0245ba61",
     "blockHashes": [
       "f3c3bc418548abc0",
       "d50dd161f6f86a1e",
-      "16897fbfc350c4ef",
+      "685393e090029428",
+      "c74f4d2dccc4eabb",
+      "1a32619d70077786",
       "5c69506a3d5f7a48",
       "399508eebde112fd",
       "be154d8cd7ade2c5",
@@ -8344,10 +8346,10 @@
       "c3b32ad61eedf80f",
       "20ba520b6f6ead91"
     ],
-    "extractedChars": 4120,
+    "extractedChars": 4121,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
-    "lastChangedISO": "2026-09-04T05:42:44.184Z",
+    "lastChangedISO": "2026-09-06T11:28:25.123Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -9185,16 +9187,16 @@
   {
     "sourceUrl": "https://www.rcrc.gov.sa/careers/?lang=ar",
     "orgId": "rcrc",
-    "contentHash": "829aefd8f31bc31468ba4dc8f250a31887672d752d9320b6922597b06d3bcd30",
+    "contentHash": "2c9c4e4348ccad86a72587aae57c0bde9d37fcdf4ec243b69e982a61b995df89",
     "blockHashes": [
       "829aefd8f31bc314"
     ],
-    "extractedChars": 784,
+    "extractedChars": 1166,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-06T10:26:11.215Z",
+    "lastChangedISO": "2026-09-06T11:28:25.123Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://www.rcrc.gov.sa/media-center/",
@@ -10275,19 +10277,19 @@
   {
     "sourceUrl": "https://www.sfda.gov.sa/ar/career-vision-and-mission",
     "orgId": "sfda",
-    "contentHash": "88f7584afbd948e4f686dbab132ee4fc48fab0455a9c97bd03bd5a603e213934",
+    "contentHash": "4019dad7ccc743751cea6c587ec03e3241091edc3f65685c4bf152b6252a287e",
     "blockHashes": [
       "9f0d7edcae8bb52a",
       "60b6afb763e71c83",
       "074367ffe7536568",
       "b69ab73ade473181",
       "fe04993c9918963a",
-      "1a279f2864cbdc61"
+      "f2c30782cd2c2970"
     ],
     "extractedChars": 806,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-06T10:29:59.237Z",
+    "lastChangedISO": "2026-09-06T11:28:25.123Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
