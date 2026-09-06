@@ -9217,12 +9217,12 @@
   {
     "sourceUrl": "https://www.rcrc.gov.sa/news-ar/",
     "orgId": "rcrc",
-    "contentHash": "3d59bebeb0e0fd3cc2c02ab0c70acc2441364ace7de61424e16232a4a0ee488e",
+    "contentHash": "ba1a1e3744a714bf5a36d9169f2988176db232009ca1489316c6cdddd78ce3fc",
     "blockHashes": [
       "dd62229c2f61fb42",
       "306db3646b8a6c73",
       "b28682d0a5fa37ed",
-      "a1acec7f078e6d76",
+      "d51010d61a038966",
       "dd5bfb74e89dbbdd",
       "b32d68c4e5c2da0f",
       "b91cd7f4edfa88d2",
@@ -9235,9 +9235,10 @@
     "extractedChars": 3554,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-06T07:24:50.814Z",
+    "lastChangedISO": "2026-09-06T10:41:32.082Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://www.rcu.gov.sa/",
