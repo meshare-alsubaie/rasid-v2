@@ -1451,8 +1451,8 @@
   {
     "sourceUrl": "https://ndf.gov.sa/media-center",
     "orgId": "ndf",
-    "lastAttemptISO": "2026-09-06T11:42:38.001Z",
-    "lastSuccessISO": "2026-09-06T11:42:38.001Z",
+    "lastAttemptISO": "2026-09-06T14:44:07.781Z",
+    "lastSuccessISO": "2026-09-06T14:44:07.781Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -3746,10 +3746,10 @@
   {
     "sourceUrl": "https://www.stats.gov.sa/ar/cooperative-training",
     "orgId": "gastat",
-    "lastAttemptISO": "2026-09-06T13:54:01.582Z",
+    "lastAttemptISO": "2026-09-06T14:44:07.781Z",
     "lastSuccessISO": "2026-09-06T12:57:20.104Z",
-    "consecutiveFailures": 1,
-    "lastError": "robots.txt: robots.txt returned 502; RFC 9309 treats a server error as disallow; a browser could not reach it either",
+    "consecutiveFailures": 2,
+    "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
     "state": "degraded"
   },
   {
