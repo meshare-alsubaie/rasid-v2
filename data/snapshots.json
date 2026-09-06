@@ -3418,7 +3418,8 @@
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
     "lastChangedISO": "2026-09-01T08:30:59.864Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "triaged_out"
   },
   {
     "sourceUrl": "https://nca.gov.sa/ar/nca-academy/",
@@ -3576,9 +3577,9 @@
   {
     "sourceUrl": "https://ndf.gov.sa/media-center/articles",
     "orgId": "ndf",
-    "contentHash": "9b0637207e964675bb824ddec3d6281c78df944f4e46a9232156689c9e49763c",
+    "contentHash": "eb5e4cc1c5ce9be51e1afea4b9654eb323569a42b1a10d72200c8516f1d504d2",
     "blockHashes": [
-      "29d5961383844bbd",
+      "7600527fc8e42b11",
       "b4a5c7cd60560196",
       "4c268b289192e891",
       "d91f8453abc8bd97",
@@ -3587,9 +3588,10 @@
     "extractedChars": 4125,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-05T10:25:27.016Z",
+    "lastChangedISO": "2026-09-06T05:52:25.704Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://ndf.gov.sa/media-center/articles/article-human-resource-development",
@@ -7520,7 +7522,7 @@
   {
     "sourceUrl": "https://www.mewa.gov.sa/ar/Pages/default.aspx",
     "orgId": "mewa",
-    "contentHash": "bfcc93b30355423b307afce443dcdd58fc972dfb27075354e4696496857fdc9f",
+    "contentHash": "fdeee8429542b5c008c402eef5a1f16595970b89b7ea72345700c24d02637dc7",
     "blockHashes": [
       "df773046de6f0b5f",
       "c804732dd480d71a",
@@ -7530,9 +7532,9 @@
       "8dc2d50d3a76ea01",
       "3a8b686d277275a8",
       "fe3f4e9008ec6963",
-      "81c1e93dde36738d",
+      "69063d4f3719d436",
       "b957f376a744a274",
-      "502a30feb70dafbe",
+      "3d3d5cdd0c9e38fa",
       "94a24ba56b39a8e4",
       "deec0c4811cef5b6",
       "c36ce57653eabf38"
@@ -7540,9 +7542,10 @@
     "extractedChars": 1586,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
-    "lastChangedISO": "2026-09-02T11:11:53.170Z",
+    "lastChangedISO": "2026-09-06T05:52:25.704Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://www.mim.gov.sa/ar",
@@ -8386,16 +8389,16 @@
   {
     "sourceUrl": "https://www.nazaha.gov.sa/",
     "orgId": "nazaha",
-    "contentHash": "6e0e60d70bc9655adda13822f7a8e8555f0ca96597b41417540c6011df293c74",
+    "contentHash": "84d1fd7f250316ae128556c6667d2f5f561df1a226530e188f388eecbef3dd93",
     "blockHashes": [
-      "d8ae882e1b659e22",
+      "b7eeadb52c8eec07",
       "c3fc1cda7b3b3192",
       "5ca983e6f0344343"
     ],
     "extractedChars": 877,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T22:03:35.383Z",
-    "lastChangedISO": "2026-09-05T10:29:01.657Z",
+    "lastChangedISO": "2026-09-06T05:52:25.704Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
