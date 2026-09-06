@@ -3291,38 +3291,38 @@
   {
     "sourceUrl": "https://momah.gov.sa/ar/node/14717",
     "orgId": "housing",
-    "contentHash": "8f0dee885f8be4916d1abea07941d6d1eafabafcb84e00fc50de31a5d4b1cfda",
+    "contentHash": "ad6f27c2239ff0e33748bcff628559260ca3fad44fe7dbdf328676df77f9f450",
     "blockHashes": [
       "cb4161ba67cbcfe8",
       "075ae909c8ed1c08",
       "a9b825825b3c6e51",
       "aa8e55eac5aea8cd",
       "09552ec2996654f9",
-      "e790f47fc761348c",
-      "71d49ca1b6c5728e",
-      "5d15152619ff887e",
-      "3a5bf8f3ab1f12e4",
-      "c393da2ad79b1610",
-      "09b1bd561f62b68f",
-      "00c7cb672fca73a1",
-      "fd191f54318d8df3",
+      "8847ecccadd7755e",
+      "faaeaee8a1ba8cff",
+      "4e6b4a4b9e8a28ad",
+      "ff6f87e39638cb9b",
+      "0dbc61f64955380d",
+      "e855666bc7e22b9d",
       "ac1405062719fb86",
-      "b92b1e3df5d76a82",
-      "c533fea0255598be",
-      "2acea397094ff532",
-      "998412a02a0d69b3",
+      "9e48de9a5570766c",
       "560edfe1df9d8921",
       "23b97a8a93aba477",
       "9cd3abf7fd1573ff",
-      "79d00a75eedd8d21",
-      "0d8f83914fc0d29b",
-      "ff6f87e39638cb9b",
-      "731a9bc61049e0ab"
+      "84f830b76b43a814",
+      "09b1bd561f62b68f",
+      "c8d0299145174fa6",
+      "7b840be9a51f0340",
+      "5d15152619ff887e",
+      "1200cf695040a45b",
+      "3686d6c5ea7b574d",
+      "56b28e6e787138fb",
+      "522afa668bd56106"
     ],
     "extractedChars": 152144,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-06T08:13:47.401Z",
+    "lastChangedISO": "2026-09-06T11:17:00.673Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -3721,7 +3721,7 @@
   {
     "sourceUrl": "https://nour.net.sa/ar/",
     "orgId": "nournet",
-    "contentHash": "ccece23935df3cac7a223211e2f7b45f98fc9caee364648dc4c1521b481f5368",
+    "contentHash": "7ff3edfcee431138a48b915ecbf2bc2c15a949fd8988e78e7808078de5273e8a",
     "blockHashes": [
       "d273f51ab1fc8358",
       "c7d4cc00704cdb7c",
@@ -3745,16 +3745,15 @@
       "76746f52976848b1",
       "73ea57f5d3f49927",
       "f113972f5bda8fba",
-      "62bf404445b0fa36",
-      "d0e89f8b02ff9960",
-      "139546e1bb791f29"
+      "62bf404445b0fa36"
     ],
     "extractedChars": 3805,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T22:03:35.383Z",
-    "lastChangedISO": "2026-09-05T09:57:22.892Z",
+    "lastChangedISO": "2026-09-06T11:17:00.673Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "triaged_out"
   },
   {
     "sourceUrl": "https://nour.net.sa/ar/news/",
@@ -11736,8 +11735,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-06T05:06:55.532Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://zatca.gov.sa/ar/MediaCenter/Elan/Pages/default.aspx",
