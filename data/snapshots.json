@@ -2205,9 +2205,9 @@
   {
     "sourceUrl": "https://gaca.gov.sa/ar/News",
     "orgId": "gaca",
-    "contentHash": "5e23fe7be087ac143a572fbfee085bd9d0ccdaf98969c366ef121d3c9bf4b00c",
+    "contentHash": "e5bf9959ec11c6254e8d9dc2280fdae4c5a5fd527a4dd1bec9d74397b8ce3618",
     "blockHashes": [
-      "f12a03ad4778855c",
+      "d2f5578f7935e273",
       "fa5c90da8c7623db",
       "c84b4ce195a4a7a7",
       "d0191f9ce7cda459",
@@ -2285,9 +2285,10 @@
     "extractedChars": 22054,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-06T08:06:44.962Z",
+    "lastChangedISO": "2026-09-06T11:11:25.149Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://gaca.gov.sa/news",
@@ -6423,10 +6424,10 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/careers/graduate-development-program",
     "orgId": "hrc",
-    "contentHash": "f5c788747c9252798e6270fb64321656a081af3922a51476753709108dcf2d56",
+    "contentHash": "512a6426d93fcdbdde87385e53ce5632ace5fc7987fccb7c4c76fd830a6a1b07",
     "blockHashes": [
       "12e41a244a8a2984",
-      "d99ee6c708b60b7b",
+      "c81928ffcf7cfb92",
       "741386d322f274be",
       "40d7009856bbc81d",
       "2dd486d3d3cacb8b",
@@ -6492,9 +6493,9 @@
     "extractedChars": 10688,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-06T08:06:44.962Z",
+    "lastChangedISO": "2026-09-06T11:11:25.149Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/cooperations?lang=ar",
@@ -7625,7 +7626,7 @@
   {
     "sourceUrl": "https://www.mim.gov.sa/ar/empower-training/cooperative-training",
     "orgId": "mim",
-    "contentHash": "4b8eb6b8409a68b7c34faf45b66c9159d29199d66807f28032c2abb25475e8ce",
+    "contentHash": "a85dd99f3817ed2e83557bcac5232e02f7c774bb487ccb8066c7a86f6819ad79",
     "blockHashes": [
       "1cb91553dd3291a4",
       "5300d4cdd32a8d33"
@@ -7633,7 +7634,7 @@
     "extractedChars": 2495,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T02:22:33.828Z",
-    "lastChangedISO": "2026-09-06T10:09:01.513Z",
+    "lastChangedISO": "2026-09-06T11:11:25.149Z",
     "thinRuns": 0,
     "pendingClassification": true
   },
@@ -10294,24 +10295,24 @@
   {
     "sourceUrl": "https://www.sfda.gov.sa/ar/news",
     "orgId": "sfda",
-    "contentHash": "dc3d3399f649ca0f14311c2bc8f20b654967ea3cb66fcab38019e15bad161951",
+    "contentHash": "c88dd442a5ab458a01e8dfade3a00db4cd773d87773f470f30352abdb716be75",
     "blockHashes": [
-      "94ac2dba5ca460cb",
+      "faf358d9e967a635",
+      "5285052957cb0adc",
       "eacc9eac565fd066",
       "85c5d72cb41d7350",
       "4cc5364898644f8d",
       "7b6aed063abb1ba4",
-      "194112e1f9ad3e9f",
       "abbaebe56469a2c6",
-      "6ce7c1882dd7873d",
+      "12cad4d95d35df7f",
       "b69ab73ade473181",
       "fe04993c9918963a",
       "506fe5d55093ecae"
     ],
-    "extractedChars": 1461,
+    "extractedChars": 1494,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-02T13:04:35.772Z",
+    "lastChangedISO": "2026-09-06T11:11:25.149Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
