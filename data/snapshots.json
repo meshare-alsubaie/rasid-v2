@@ -6561,7 +6561,7 @@
   {
     "sourceUrl": "https://www.hrdf.org.sa/products-and-services/programs/individuals/training/cooperative-training/",
     "orgId": "hrdf_coop",
-    "contentHash": "80bea5dbebedb70a70a892d2537b12dd830a9c2024e8d47eb2d050098b8ca2bc",
+    "contentHash": "e893205191b9e423bcbc440378fa250c288da2765866bc0567c186e04b50ac7d",
     "blockHashes": [
       "45526a3a724650be",
       "74e4c1d2a646a96e",
@@ -6722,7 +6722,7 @@
       "40039fbcaf34e544",
       "105174332da9b279",
       "477ce407b80d41ae",
-      "63dcb273e12b74d7",
+      "d20f6068a1937660",
       "c2249387b24d5743",
       "09d64d27d498f55b",
       "88a0ff48498bd9c1",
@@ -6735,7 +6735,7 @@
     "extractedChars": 8563,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-03T01:25:25.661Z",
-    "lastChangedISO": "2026-09-06T04:07:14.985Z",
+    "lastChangedISO": "2026-09-06T10:14:31.584Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -7671,16 +7671,16 @@
   {
     "sourceUrl": "https://www.moc.gov.sa/ar",
     "orgId": "moc",
-    "contentHash": "76fe87f37a03b59b4fc9d39b7868a05f818e438449a66985bfb1d07a8870c9ae",
+    "contentHash": "6510010f42eb82731642da7ad4ac9821d76efabe355b246309ad3f747e995d96",
     "blockHashes": [
       "88c122fdb76fc42f",
-      "2b19c807e4f4b960",
+      "19b667708a16e395",
       "fb2c726ea3e48c9e"
     ],
     "extractedChars": 6094,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-06T04:07:14.985Z",
+    "lastChangedISO": "2026-09-06T10:14:31.584Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -10211,7 +10211,7 @@
   {
     "sourceUrl": "https://www.sfda.gov.sa/ar",
     "orgId": "sfda",
-    "contentHash": "1a3efb439c1c87a40c1884f3cf5a31033bff4b0effd3ee7d8256be93192a9eb2",
+    "contentHash": "c27cd24fe1d991e159b81d477b3ed3edb5324007a7c2007c035c88c2be99ce3e",
     "blockHashes": [
       "453064c4c6654ab4",
       "6ecc1b58c61ff1cd",
@@ -10241,7 +10241,7 @@
       "3b931cad7ef53a13",
       "658b43d0993d5397",
       "60b6afb763e71c83",
-      "6ce7c1882dd7873d",
+      "12cad4d95d35df7f",
       "b69ab73ade473181",
       "fe04993c9918963a",
       "fb8fc4ee283bc351"
@@ -10249,9 +10249,10 @@
     "extractedChars": 6292,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-02T20:05:15.369Z",
+    "lastChangedISO": "2026-09-06T10:14:31.584Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://www.sfda.gov.sa/ar/career-vision-and-mission",
