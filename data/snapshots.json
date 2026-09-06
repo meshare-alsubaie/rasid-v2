@@ -2203,7 +2203,7 @@
   {
     "sourceUrl": "https://gaca.gov.sa/ar/News",
     "orgId": "gaca",
-    "contentHash": "e5bf9959ec11c6254e8d9dc2280fdae4c5a5fd527a4dd1bec9d74397b8ce3618",
+    "contentHash": "485cd7da4358bca815e4c86fcc1af724538ba466e6bf005adaaebdc0c1f96a0b",
     "blockHashes": [
       "d2f5578f7935e273",
       "fa5c90da8c7623db",
@@ -2280,13 +2280,12 @@
       "83a22e1f9fb245f8",
       "bc532942aaed49b7"
     ],
-    "extractedChars": 22054,
+    "extractedChars": 21276,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-06T11:11:25.149Z",
+    "lastChangedISO": "2026-09-06T14:17:26.353Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://gaca.gov.sa/news",
@@ -6418,7 +6417,7 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/careers/graduate-development-program",
     "orgId": "hrc",
-    "contentHash": "512a6426d93fcdbdde87385e53ce5632ace5fc7987fccb7c4c76fd830a6a1b07",
+    "contentHash": "7393ea317fa10013c46f1851ade629ab958a45193275871ab9f4ce55ec0d5b0a",
     "blockHashes": [
       "12e41a244a8a2984",
       "c81928ffcf7cfb92",
@@ -6487,9 +6486,9 @@
     "extractedChars": 10688,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-06T11:11:25.149Z",
+    "lastChangedISO": "2026-09-06T14:17:26.353Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/cooperations?lang=ar",
