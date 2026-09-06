@@ -2122,9 +2122,9 @@
   {
     "sourceUrl": "https://gaca.gov.sa/ar/announcements",
     "orgId": "gaca",
-    "contentHash": "d3f97b7b884d48fdd68249a842093e76f3ea8085c93e180daa3e70396ae3814e",
+    "contentHash": "b326b8629455bef2b51ba3fd4193559987121bcb63d8848f02ea6cf8baa7cc90",
     "blockHashes": [
-      "c9fa220bbdbff08a",
+      "1952da4913557c2f",
       "9c2a3967149440a8",
       "83a22e1f9fb245f8",
       "bc532942aaed49b7"
@@ -2132,7 +2132,7 @@
     "extractedChars": 242,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-05T15:42:20.444Z",
+    "lastChangedISO": "2026-09-06T04:43:36.875Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -7573,9 +7573,9 @@
   {
     "sourceUrl": "https://www.mim.gov.sa/ar/media-center/news",
     "orgId": "mim",
-    "contentHash": "2ea3d566b0cccdb4c9fec4f64c1c7c6649904d9157ee25c0441af21884a755cf",
+    "contentHash": "9d471660b4cfc263d2524fe589ca11d89998897a5347c37d7b660919a5dd25d9",
     "blockHashes": [
-      "d0ecf993da519f41",
+      "af812701f2ccdb26",
       "e6f6bf20c0c7405d",
       "1463ce99001bf0a0",
       "47a950af7f4b0342",
@@ -7607,7 +7607,7 @@
     "extractedChars": 10700,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-05T15:53:14.028Z",
+    "lastChangedISO": "2026-09-06T04:43:36.875Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -8410,9 +8410,9 @@
   {
     "sourceUrl": "https://www.nazaha.gov.sa/News",
     "orgId": "nazaha",
-    "contentHash": "2a609b89b981cf8a701dd22602414a79af5c3519f28ccdc5e96e0608e0621cac",
+    "contentHash": "feb5708445e56f3f37aa49ad01eeec782e059c2dadd98a78324a2f9bc6e1d34a",
     "blockHashes": [
-      "f61374aa213578be",
+      "f457f6df1d7df833",
       "ae788be0df385c72",
       "ecfe196c74433ee8",
       "c343d10cb0767689"
@@ -8420,9 +8420,10 @@
     "extractedChars": 240,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-05T09:29:33.044Z",
+    "lastChangedISO": "2026-09-06T04:43:36.875Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "triaged_out"
   },
   {
     "sourceUrl": "https://www.nazaha.gov.sa/News/Details?q=+ZUW2RPX/9RAyHyLvILpaw==",
@@ -11717,8 +11718,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-05T15:42:20.444Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "triaged_out"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://zatca.gov.sa/ar/MediaCenter/Pages/default.aspx",
