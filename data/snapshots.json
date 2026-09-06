@@ -1327,15 +1327,16 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/search-results",
     "orgId": "maaden",
-    "contentHash": "86f0508c2c6eb23e47a26d96b17cf9b521eb6bd1d0cddccd9bdfa516875ee659",
+    "contentHash": "79b3b70d3fbaf9e1656dc73d91e04f066e0059473a8ba3e4fad38a6e466c585a",
     "blockHashes": [
       "0593a1678d987760",
-      "782cb0d7c9a28aa8"
+      "b0cf2f7bd089c61b",
+      "3a920fec547018ab"
     ],
-    "extractedChars": 226,
-    "extractionMethod": "body_fallback",
+    "extractedChars": 240,
+    "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-06T09:13:39.555Z",
+    "lastChangedISO": "2026-09-06T10:01:49.844Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -2145,7 +2146,7 @@
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T02:22:33.828Z",
     "lastChangedISO": "2026-08-29T02:36:21.032Z",
-    "thinRuns": 78,
+    "thinRuns": 79,
     "pendingClassification": false
   },
   {
