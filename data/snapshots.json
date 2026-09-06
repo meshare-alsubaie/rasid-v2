@@ -2138,7 +2138,7 @@
   {
     "sourceUrl": "https://gaca.gov.sa/ar/News",
     "orgId": "gaca",
-    "contentHash": "b02b5dd95ddfedac32d613e7a9e3eae1a50812d5d270c6eded842489120e8f73",
+    "contentHash": "5e23fe7be087ac143a572fbfee085bd9d0ccdaf98969c366ef121d3c9bf4b00c",
     "blockHashes": [
       "f12a03ad4778855c",
       "fa5c90da8c7623db",
@@ -2218,10 +2218,9 @@
     "extractedChars": 22054,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-06T05:00:30.918Z",
+    "lastChangedISO": "2026-09-06T08:06:44.962Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://gaca.gov.sa/news",
@@ -5396,7 +5395,7 @@
   {
     "sourceUrl": "https://www.bog.gov.sa/en/EServices/judiciaryHiring/Pages/Hiring.aspx",
     "orgId": "bog",
-    "contentHash": "6635fa4c3d3bd50914f5da28c4c617ed4f7368cc92708f67e06332e4497360e5",
+    "contentHash": "991a6aba6915675d3432f1fa6317b1271691eedeb4f729a07b62fe0c0620b0a0",
     "blockHashes": [
       "46d9575ec382a9d1",
       "96c63175498462d9",
@@ -5407,9 +5406,9 @@
     "extractedChars": 609,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-04T05:45:25.540Z",
+    "lastChangedISO": "2026-09-06T08:06:44.962Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://www.bog.gov.sa/en/EServices/Pages/khabeer.aspx",
@@ -6355,7 +6354,7 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/careers/graduate-development-program",
     "orgId": "hrc",
-    "contentHash": "da274ac95bfa8674962eec8a23d71f38c83a054de71b4636bdb6f724adcab617",
+    "contentHash": "f5c788747c9252798e6270fb64321656a081af3922a51476753709108dcf2d56",
     "blockHashes": [
       "12e41a244a8a2984",
       "d99ee6c708b60b7b",
@@ -6424,9 +6423,9 @@
     "extractedChars": 10688,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-06T05:00:30.918Z",
+    "lastChangedISO": "2026-09-06T08:06:44.962Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/cooperations?lang=ar",
