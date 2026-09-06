@@ -753,7 +753,7 @@
   {
     "sourceUrl": "https://career.alinma.com/",
     "orgId": "alinma",
-    "contentHash": "e245fd94c1ab59dcc6bad34af50ba34c224654b27d2f46834c18eef001143fa5",
+    "contentHash": null,
     "blockHashes": [
       "d139e32e22028878",
       "24a16c9057a577bb",
@@ -2043,13 +2043,14 @@
   {
     "sourceUrl": "https://cma.gov.sa/Pages/default.aspx",
     "orgId": "cma",
-    "contentHash": "1e449c6cdcba4f67bd2d0711adb0adccc8ac8a879deaecf1036b035a23a5a2de",
+    "contentHash": "7ef269662204d817908845d4f6de777716451eda012f2d2a90a7a46faa00a37c",
     "blockHashes": [
       "74fbc9af4b28d2d6",
       "74e4c1d2a646a96e",
       "480b43638df466ee",
       "a033604fe1e6160c",
-      "51ecb4272bf0c700",
+      "91f4185d4feb1d0a",
+      "6c9e3c4884920b88",
       "3464ff12380ca036",
       "0bc174bc1329525c",
       "c10c9684f0f8ac0c",
@@ -2061,8 +2062,7 @@
       "982d7d3cbbd1732e",
       "2285aadccffc4469",
       "247252cf67da25b2",
-      "173e22645096b721",
-      "040b48d342033593",
+      "12e235235c085b03",
       "a7dd529366338547",
       "cd3c75b5a07e0dc8",
       "cf3583b4fe09c953",
@@ -2084,10 +2084,10 @@
       "3b5a8943dae3d475",
       "57967945306787f5"
     ],
-    "extractedChars": 8539,
+    "extractedChars": 8540,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-06T10:33:06.861Z",
+    "lastChangedISO": "2026-09-06T16:38:39.778Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -3052,9 +3052,9 @@
   {
     "sourceUrl": "https://modon.gov.sa/ar/MediaCenter/modon-news/News/Pages/default.aspx",
     "orgId": "modon",
-    "contentHash": "48c3dec70d4799568d3a5e2b92949acb09cdd7b18fb9063c8c473bab81633416",
+    "contentHash": "698b8a214f7d05b6632181bb01a2c79daa79345f3a210853cf270fde0fd7063f",
     "blockHashes": [
-      "615aa95e987af47d",
+      "df7550c2cc4201b2",
       "8727cbb5dfea6170",
       "bdfe2a112c399ccd",
       "8ae17958586c8a8c",
@@ -3063,7 +3063,7 @@
     "extractedChars": 1591,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-06T13:30:50.060Z",
+    "lastChangedISO": "2026-09-06T16:38:39.778Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -4341,10 +4341,13 @@
   {
     "sourceUrl": "https://thiqah.sa/",
     "orgId": "thiqah",
-    "contentHash": "bba18d1332d9277cfb6fa175f6984c62b16db98c935a6738a2b6a55c5b1d20bc",
+    "contentHash": "41585f247e073f7dfa50339963ead8d8387c9a1b752741091b485d74143c63b9",
     "blockHashes": [
-      "2badba214de43400",
-      "cff1ddff4e992236",
+      "56d61a024ef0c23a",
+      "988b9a8bf2486a9d",
+      "a4ad1af066840cba",
+      "2a753899ff945f72",
+      "0254baf3c601928d",
       "e6bf180d162757ed",
       "ce6b1d76c3fa0a8f",
       "5702aa0bdde53d7c",
@@ -4357,7 +4360,7 @@
     "extractedChars": 2087,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T23:03:32.200Z",
-    "lastChangedISO": "2026-09-06T10:33:06.861Z",
+    "lastChangedISO": "2026-09-06T16:38:39.778Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -5629,16 +5632,16 @@
   {
     "sourceUrl": "https://www.etec.gov.sa/ar/centers/nctea",
     "orgId": "etec",
-    "contentHash": "faf63c757cfae61e3525a966febc0c440384325a052e78e76b233d75462389c7",
+    "contentHash": "8aa698530c2032bf42c6804ca425e5a7022f62f4cdc3924f38327dd92a0cbcf8",
     "blockHashes": [
       "969f0f9d8129003d",
       "1928fdbb5b09339c",
-      "9bebc378ce9ccf9b"
+      "16d9c63b74875000"
     ],
     "extractedChars": 1405,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-04T05:29:27.985Z",
+    "lastChangedISO": "2026-09-06T16:38:39.778Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -6309,10 +6312,10 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/all_branches_news?lang=ar",
     "orgId": "hrc",
-    "contentHash": "92cca89bca7fe5169a1426430c510f4dd81641751e27d8a1fba6749048c86960",
+    "contentHash": "695202355651310f2aa2497f26524a83124b4dbf974e551692d4ee9d156875f3",
     "blockHashes": [
       "12e41a244a8a2984",
-      "3c071847a940c737",
+      "f98d7a16f921f334",
       "f5f8d6443e8e9010",
       "02fd91be7253d9e4",
       "6cd077b5b02f6b16",
@@ -6338,7 +6341,7 @@
     "extractedChars": 5039,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-06T13:30:50.060Z",
+    "lastChangedISO": "2026-09-06T16:38:39.778Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -10262,8 +10265,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-06T10:14:31.584Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.sfda.gov.sa/ar/career-vision-and-mission",
@@ -11229,26 +11231,26 @@
   {
     "sourceUrl": "https://www.taifcity.gov.sa/#/ar",
     "orgId": "taif_amanah",
-    "contentHash": "e68d50abae1d3e5db2100641165c74ede3e3c53af33380c828bc7d0f9d828816",
+    "contentHash": "0d9583457c4329fdb0f383fd0b347ef72179a193ad60bb3b470f4bc75c719c3f",
     "blockHashes": [
       "969f0f9d8129003d",
-      "6faa05ef300c72b0",
+      "cbe87849874d327a",
       "f0f4a4262f40d108",
       "f0f4a4262f40d108",
       "f0f4a4262f40d108",
       "f0f4a4262f40d108",
       "86973fd4549d9692",
       "afa6849a7139e9bd",
-      "9fba4eee68134ddd",
+      "c5ad1ccd3b8f58d2",
       "8554e1d0ca772440"
     ],
-    "extractedChars": 5844,
+    "extractedChars": 6078,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T23:54:26.779Z",
-    "lastChangedISO": "2026-09-06T10:33:06.861Z",
+    "lastChangedISO": "2026-09-06T16:38:39.778Z",
     "thinRuns": 0,
     "pendingClassification": false,
-    "settledWithoutVerdict": "triaged_out"
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://www.thiqah.sa/",
