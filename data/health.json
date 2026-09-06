@@ -3260,11 +3260,11 @@
   {
     "sourceUrl": "https://www.rcrc.gov.sa/media-center/",
     "orgId": "rcrc",
-    "lastAttemptISO": "2026-09-06T11:11:25.149Z",
+    "lastAttemptISO": "2026-09-06T14:22:56.900Z",
     "lastSuccessISO": "2026-09-06T11:11:25.149Z",
-    "consecutiveFailures": 0,
-    "lastError": null,
-    "state": "healthy"
+    "consecutiveFailures": 1,
+    "lastError": "The operation was aborted due to timeout",
+    "state": "degraded"
   },
   {
     "sourceUrl": "https://www.rcrc.gov.sa/news-ar/",
@@ -3620,8 +3620,8 @@
   {
     "sourceUrl": "https://www.sfda.gov.sa/ar/news",
     "orgId": "sfda",
-    "lastAttemptISO": "2026-09-06T11:11:25.149Z",
-    "lastSuccessISO": "2026-09-06T11:11:25.149Z",
+    "lastAttemptISO": "2026-09-06T14:22:56.900Z",
+    "lastSuccessISO": "2026-09-06T14:22:56.900Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
