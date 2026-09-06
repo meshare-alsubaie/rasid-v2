@@ -7639,9 +7639,9 @@
   {
     "sourceUrl": "https://www.mim.gov.sa/ar/media-center/news",
     "orgId": "mim",
-    "contentHash": "b59c18d1d94b5f7a4adac88a98bc491c783c0e7410016eaf347f279293932e9e",
+    "contentHash": "c30440dd8ecaada2484ad5e7adbc2f78137da462318013bb049d89811b164c1f",
     "blockHashes": [
-      "af812701f2ccdb26",
+      "1c374ec29eef960d",
       "e6f6bf20c0c7405d",
       "1463ce99001bf0a0",
       "47a950af7f4b0342",
@@ -7673,9 +7673,10 @@
     "extractedChars": 10700,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-06T07:56:21.677Z",
+    "lastChangedISO": "2026-09-06T10:56:37.320Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://www.moc.gov.sa/ar",
@@ -9158,12 +9159,12 @@
   {
     "sourceUrl": "https://www.rcrc.gov.sa/",
     "orgId": "rcrc",
-    "contentHash": "266e63e143dc8c8bb813e365e55613a83f1e31fdb8b42b813f1dbb86b63d5777",
+    "contentHash": "9c0d6cf566eacef0bb50381ad113fbf338632c0c7ef98b8e3f1cb6ab4fc05f4b",
     "blockHashes": [
       "dd62229c2f61fb42",
       "306db3646b8a6c73",
       "b28682d0a5fa37ed",
-      "4bf795930b0a55d6",
+      "6c6150da2723920f",
       "423bcc1f5b3b7f33",
       "b32d68c4e5c2da0f",
       "b91cd7f4edfa88d2",
@@ -9176,7 +9177,7 @@
     "extractedChars": 1896,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
-    "lastChangedISO": "2026-09-06T04:36:39.196Z",
+    "lastChangedISO": "2026-09-06T10:56:37.320Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
