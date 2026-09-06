@@ -470,8 +470,8 @@
   {
     "sourceUrl": "https://careers.anb.sa/",
     "orgId": "anb",
-    "lastAttemptISO": "2026-09-06T07:56:21.677Z",
-    "lastSuccessISO": "2026-09-06T07:56:21.677Z",
+    "lastAttemptISO": "2026-09-06T08:44:35.841Z",
+    "lastSuccessISO": "2026-09-06T08:44:35.841Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -1775,8 +1775,8 @@
   {
     "sourceUrl": "https://tetco.sa/ar/digital-education-and-training",
     "orgId": "tetco",
-    "lastAttemptISO": "2026-09-06T07:56:21.677Z",
-    "lastSuccessISO": "2026-09-06T07:56:21.677Z",
+    "lastAttemptISO": "2026-09-06T08:44:35.841Z",
+    "lastSuccessISO": "2026-09-06T08:44:35.841Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -1964,8 +1964,8 @@
   {
     "sourceUrl": "https://www.alahli.com/en/pages/personal-banking",
     "orgId": "snb",
-    "lastAttemptISO": "2026-09-06T05:18:09.563Z",
-    "lastSuccessISO": "2026-09-06T05:18:09.563Z",
+    "lastAttemptISO": "2026-09-06T08:44:35.841Z",
+    "lastSuccessISO": "2026-09-06T08:44:35.841Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -3251,11 +3251,11 @@
   {
     "sourceUrl": "https://www.rcrc.gov.sa/careers/?lang=ar",
     "orgId": "rcrc",
-    "lastAttemptISO": "2026-09-06T07:53:33.802Z",
+    "lastAttemptISO": "2026-09-06T08:44:35.841Z",
     "lastSuccessISO": "2026-09-06T07:53:33.802Z",
-    "consecutiveFailures": 0,
-    "lastError": null,
-    "state": "healthy"
+    "consecutiveFailures": 1,
+    "lastError": "HTTP 503",
+    "state": "degraded"
   },
   {
     "sourceUrl": "https://www.rcrc.gov.sa/media-center/",
@@ -3611,8 +3611,8 @@
   {
     "sourceUrl": "https://www.sfda.gov.sa/ar/career-vision-and-mission",
     "orgId": "sfda",
-    "lastAttemptISO": "2026-09-06T07:53:33.802Z",
-    "lastSuccessISO": "2026-09-06T07:53:33.802Z",
+    "lastAttemptISO": "2026-09-06T08:44:35.841Z",
+    "lastSuccessISO": "2026-09-06T08:44:35.841Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -3764,8 +3764,8 @@
   {
     "sourceUrl": "https://www.stats.gov.sa/en/news",
     "orgId": "gastat",
-    "lastAttemptISO": "2026-09-06T07:53:33.802Z",
-    "lastSuccessISO": "2026-09-06T07:53:33.802Z",
+    "lastAttemptISO": "2026-09-06T08:44:35.841Z",
+    "lastSuccessISO": "2026-09-06T08:44:35.841Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
