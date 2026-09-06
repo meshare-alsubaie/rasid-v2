@@ -3054,9 +3054,9 @@
   {
     "sourceUrl": "https://modon.gov.sa/ar/MediaCenter/modon-news/News/Pages/default.aspx",
     "orgId": "modon",
-    "contentHash": "625d69296a00cc05dce729d5d4c0beb4fdf1c9e2f555b62c82136176ee03351a",
+    "contentHash": "9a51bb8776b319a8b7abc69077c759bee2d4090d994da9ae9005ae70cf74d1b5",
     "blockHashes": [
-      "48989070b69f5c35",
+      "8b77e453db645873",
       "8727cbb5dfea6170",
       "bdfe2a112c399ccd",
       "8ae17958586c8a8c",
@@ -3065,9 +3065,10 @@
     "extractedChars": 1591,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-06T07:24:50.814Z",
+    "lastChangedISO": "2026-09-06T10:26:11.215Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://modon.gov.sa/ar/MediaCenter/Pages/default.aspx",
@@ -3358,7 +3359,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-06T07:24:50.814Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://mot.gov.sa/ar/news",
@@ -6312,10 +6313,10 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/all_branches_news?lang=ar",
     "orgId": "hrc",
-    "contentHash": "57e68dea2f23bb7a32453ba66641fce214046cff861eda359308395a8ef213af",
+    "contentHash": "edd2bf7d0c33d498276339a19248e949f4d6ade6e3bf1e7eaa7029064685faad",
     "blockHashes": [
       "12e41a244a8a2984",
-      "4fd653c3c6af3949",
+      "30ccb79a65611229",
       "f5f8d6443e8e9010",
       "02fd91be7253d9e4",
       "6cd077b5b02f6b16",
@@ -6341,9 +6342,9 @@
     "extractedChars": 5039,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-06T07:24:50.814Z",
+    "lastChangedISO": "2026-09-06T10:26:11.215Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/careers",
@@ -9177,16 +9178,16 @@
   {
     "sourceUrl": "https://www.rcrc.gov.sa/careers/?lang=ar",
     "orgId": "rcrc",
-    "contentHash": "9db92a6ef5d07a68581fc93b03977ac27b6f5de57b265c3e2e98c5f9a81f46f7",
+    "contentHash": "829aefd8f31bc31468ba4dc8f250a31887672d752d9320b6922597b06d3bcd30",
     "blockHashes": [
-      "5602d9d8e920b689"
+      "829aefd8f31bc314"
     ],
-    "extractedChars": 785,
+    "extractedChars": 784,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-06T07:53:33.802Z",
+    "lastChangedISO": "2026-09-06T10:26:11.215Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.rcrc.gov.sa/media-center/",
