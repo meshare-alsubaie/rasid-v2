@@ -2121,20 +2121,19 @@
   {
     "sourceUrl": "https://gaca.gov.sa/ar/announcements",
     "orgId": "gaca",
-    "contentHash": "b326b8629455bef2b51ba3fd4193559987121bcb63d8848f02ea6cf8baa7cc90",
+    "contentHash": "4532f6e7ccec8224196d65303c3ee638cbefd4540ae4f2234afd01f8b0f0505c",
     "blockHashes": [
       "1952da4913557c2f",
       "9c2a3967149440a8",
       "83a22e1f9fb245f8",
       "bc532942aaed49b7"
     ],
-    "extractedChars": 242,
-    "extractionMethod": "readability",
+    "extractedChars": 1211,
+    "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-06T04:43:36.875Z",
+    "lastChangedISO": "2026-09-06T07:44:50.718Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://gaca.gov.sa/ar/News",
