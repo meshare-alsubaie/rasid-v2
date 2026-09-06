@@ -1,6 +1,6 @@
 {
   "model": "qwen3:8b",
-  "writtenISO": "2026-09-06T16:12:59.428Z",
+  "writtenISO": "2026-09-06T16:21:51.070Z",
   "verdicts": {
     "d3ed902d693a4c1d3b4fc1c6f9b85ea8": null,
     "cc97c142781ff3943c2ea2f9f38af7d8": null,
@@ -680,6 +680,30 @@
     "df96c61a603fc34fae94ec9e1da5b56c": null,
     "63433c10f2b7d583c3a344f00ca9c0c4": null,
     "854471743d1b8b4259c8586e5787a5bd": null,
-    "80a22a38c32b6c8e6a6ab6d14d0eb6f8": null
+    "80a22a38c32b6c8e6a6ab6d14d0eb6f8": null,
+    "3a4713fa58eae0c528ad95a57a33d808": {
+      "isTrainingAnnouncement": true,
+      "product": "graduate_dev",
+      "titleAr": "موهبة - اكتشاف وتنمية الموهوبين والإبداع في السعودية",
+      "opensISO": null,
+      "closesISO": null,
+      "opensRaw": null,
+      "closesRaw": null,
+      "moreOnPage": true,
+      "majors": [
+        "علوم الحاسب والرياضيات التطبيقية والاقتصاد",
+        "علوم الهندسة والعمارة",
+        "علوم الفيزياء والأرض والفضاء",
+        "العلوم الطبية والحيوية والكيميائية"
+      ],
+      "seats": null,
+      "stipendSAR": null,
+      "durationWeeks": null,
+      "cities": [],
+      "statesZeroCoursesRule": false,
+      "zeroCoursesQuote": null,
+      "applyUrl": null
+    },
+    "38005d654df37828fe3381279b61083b": null
   }
 }
