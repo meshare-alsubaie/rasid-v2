@@ -3802,16 +3802,17 @@
   {
     "sourceUrl": "https://redf.gov.sa/",
     "orgId": "redf",
-    "contentHash": "ff163dc2c2345aaafdf503fa948e01b8df256005c96fdf12ee7eb666d088c68c",
+    "contentHash": "420174c8604654d64157b68ebec59723a0c92ce1fc79234debaeff0d68b1473e",
     "blockHashes": [
-      "2a152e58454424aa",
-      "743b9c5832ecc399",
-      "4333dc6c50096cf0"
+      "52386c706652615c",
+      "6bc2375027c7565d",
+      "782261474561a27a",
+      "6e86ac8d582b575b"
     ],
-    "extractedChars": 576,
+    "extractedChars": 540,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-05T09:04:40.626Z",
+    "lastChangedISO": "2026-09-06T10:24:20.770Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -4220,7 +4221,7 @@
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-04T05:29:27.985Z",
-    "thinRuns": 4,
+    "thinRuns": 5,
     "pendingClassification": false
   },
   {
@@ -9841,17 +9842,22 @@
   {
     "sourceUrl": "https://www.sanabil.com/",
     "orgId": "sanabil",
-    "contentHash": "69bdcb7ace057efe7211022190523e31173e5b9f46351c6758a0baa968b6d647",
+    "contentHash": "9aeab58b179b61e7e42eccfaf72228189db91dc9da28ddc4df1156560dc39a71",
     "blockHashes": [
-      "69bdcb7ace057efe"
+      "31cdfc6f8c640312",
+      "7c41f59750ecf85e",
+      "c85c8cd795b8ffd3",
+      "8e734943b7081e4f",
+      "a4b70189ffd2a7d4",
+      "1807b705ce9a72a7"
     ],
     "extractedChars": 666,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-06T04:19:00.384Z",
+    "lastChangedISO": "2026-09-06T10:24:20.770Z",
     "thinRuns": 0,
     "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "settledWithoutVerdict": "triaged_out"
   },
   {
     "sourceUrl": "https://www.sar.com.sa/",
