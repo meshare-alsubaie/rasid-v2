@@ -2182,19 +2182,20 @@
   {
     "sourceUrl": "https://gaca.gov.sa/ar/announcements",
     "orgId": "gaca",
-    "contentHash": "b4bb63aaa04caa0f569a1596a49c29f05ea8562d7fc22e3b21893e652b20e174",
+    "contentHash": "23172f64909b01153924e678a593069cb6a9dfde9d8333be1c22749c48d1eca2",
     "blockHashes": [
-      "540bdfe5d147ead6",
+      "da290f2b15d70734",
       "9c2a3967149440a8",
       "83a22e1f9fb245f8",
       "bc532942aaed49b7"
     ],
-    "extractedChars": 1215,
-    "extractionMethod": "body_fallback",
+    "extractedChars": 242,
+    "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-06T14:00:52.818Z",
+    "lastChangedISO": "2026-09-06T17:06:31.130Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://gaca.gov.sa/ar/News",
@@ -7619,7 +7620,7 @@
   {
     "sourceUrl": "https://www.mim.gov.sa/ar/empower-training/cooperative-training",
     "orgId": "mim",
-    "contentHash": "19bb61401c866b44711ccb2c5d4e4fc05d7e5965b3b760a52bbd34fa1412609a",
+    "contentHash": "9e9538f57c4bbf6b5630de3e58e49a80d4d27a4dfcdb63d7e8ca412a562cdba2",
     "blockHashes": [
       "1cb91553dd3291a4",
       "5300d4cdd32a8d33"
@@ -7627,7 +7628,7 @@
     "extractedChars": 2495,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T02:22:33.828Z",
-    "lastChangedISO": "2026-09-06T16:12:59.428Z",
+    "lastChangedISO": "2026-09-06T17:06:31.130Z",
     "thinRuns": 0,
     "pendingClassification": true
   },
