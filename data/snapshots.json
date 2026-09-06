@@ -2315,9 +2315,9 @@
   {
     "sourceUrl": "https://gaca.gov.sa/web/ar-sa/page/home",
     "orgId": "gaca",
-    "contentHash": "c8ffa46f716e11d70c93975aea834812f23939c948bcd5f00483d5d410f16d83",
+    "contentHash": "89497131c5d74169fcf6e71746e8bebe6fb6e882148e95a23fdd49ced27db85d",
     "blockHashes": [
-      "10227655d67fe426",
+      "50d932d236e25b69",
       "b1a688d32a900310",
       "83a22e1f9fb245f8",
       "bc532942aaed49b7"
@@ -2325,7 +2325,7 @@
     "extractedChars": 386,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-05T15:20:32.619Z",
+    "lastChangedISO": "2026-09-06T04:25:17.415Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -5263,19 +5263,30 @@
   {
     "sourceUrl": "https://www.awqaf.gov.sa/ar",
     "orgId": "awqaf",
-    "contentHash": "26ab5ea9b2fee39c56b1823491db5a5a8c24c5463a23d6c6894e91eab2e48485",
+    "contentHash": "048953ec4fb7f5b54c63107732156af7698fcd2cbe62d51298fdfb34db7a4044",
     "blockHashes": [
       "7364f70c455dc78c",
       "c804732dd480d71a",
       "74e4c1d2a646a96e",
-      "5b1d5957179ff31d"
+      "3c59d3d160dcb90c",
+      "35c22307044ef3ba",
+      "2c996ff7fbf9454c",
+      "c9781a45ee4d6e15",
+      "32c96accb939ff53",
+      "c7607eb29cf802b3",
+      "ba801d317883b742",
+      "bffb7f53bef89107",
+      "cfc8030f4144577c",
+      "82135fcbb4f61098",
+      "62bff3863a690d7e"
     ],
-    "extractedChars": 410,
+    "extractedChars": 3458,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
-    "lastChangedISO": "2026-09-03T12:02:20.812Z",
+    "lastChangedISO": "2026-09-06T04:25:17.415Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "triaged_out"
   },
   {
     "sourceUrl": "https://www.bankalbilad.com.sa/en/about/pages/training.aspx",
@@ -7545,7 +7556,7 @@
   {
     "sourceUrl": "https://www.mim.gov.sa/ar/empower-training/cooperative-training",
     "orgId": "mim",
-    "contentHash": "e84af09a3f520edc76a24bfb254ed5bcac5d188eed0f82d89ae9e49ec226044f",
+    "contentHash": "bcf0b640f51ebbd0720c742ec7206177c2ebfe5f1f3798fa868e45f7b3c6b885",
     "blockHashes": [
       "1cb91553dd3291a4",
       "5300d4cdd32a8d33"
@@ -7553,7 +7564,7 @@
     "extractedChars": 2495,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T02:22:33.828Z",
-    "lastChangedISO": "2026-09-05T16:26:22.866Z",
+    "lastChangedISO": "2026-09-06T04:25:17.415Z",
     "thinRuns": 0,
     "pendingClassification": true
   },
@@ -8414,9 +8425,9 @@
   {
     "sourceUrl": "https://www.nazaha.gov.sa/News/Details?q=+ZUW2RPX/9RAyHyLvILpaw==",
     "orgId": "nazaha",
-    "contentHash": "20194beceaa0174117ff962bc8d159af0e70390ed8dc7366f0883c3148f035b2",
+    "contentHash": "de61ada8e1a1bdbd3bfe11ebd4f11459669718b97079bdeac0bd078e50b2a920",
     "blockHashes": [
-      "ee3c398d4edab998",
+      "7344d73ba60ad608",
       "8d35c6dbfb6149bf",
       "934470dd7b84953f",
       "db91f83ef7359a6e"
@@ -8424,9 +8435,10 @@
     "extractedChars": 734,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-05T09:11:52.807Z",
+    "lastChangedISO": "2026-09-06T04:25:17.415Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "triaged_out"
   },
   {
     "sourceUrl": "https://www.nazaha.gov.sa/News/Details?q=HNQU9DHVnwVHan0Mf562ug==",
