@@ -884,8 +884,8 @@
   {
     "sourceUrl": "https://cma.gov.sa/Pages/default.aspx",
     "orgId": "cma",
-    "lastAttemptISO": "2026-09-05T15:20:32.619Z",
-    "lastSuccessISO": "2026-09-05T15:20:32.619Z",
+    "lastAttemptISO": "2026-09-06T04:29:21.406Z",
+    "lastSuccessISO": "2026-09-06T04:29:21.406Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -1181,8 +1181,8 @@
   {
     "sourceUrl": "https://mcit.gov.sa/ar",
     "orgId": "mcit",
-    "lastAttemptISO": "2026-09-05T15:11:44.074Z",
-    "lastSuccessISO": "2026-09-05T15:11:44.074Z",
+    "lastAttemptISO": "2026-09-06T04:29:21.406Z",
+    "lastSuccessISO": "2026-09-06T04:29:21.406Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -1505,8 +1505,8 @@
   {
     "sourceUrl": "https://neti.etec.gov.sa/",
     "orgId": "etec",
-    "lastAttemptISO": "2026-09-05T15:11:44.074Z",
-    "lastSuccessISO": "2026-09-05T15:11:44.074Z",
+    "lastAttemptISO": "2026-09-06T04:29:21.406Z",
+    "lastSuccessISO": "2026-09-06T04:29:21.406Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -1748,8 +1748,8 @@
   {
     "sourceUrl": "https://talent.mc.gov.sa/",
     "orgId": "mc",
-    "lastAttemptISO": "2026-09-05T15:20:32.619Z",
-    "lastSuccessISO": "2026-09-05T15:20:32.619Z",
+    "lastAttemptISO": "2026-09-06T04:29:21.406Z",
+    "lastSuccessISO": "2026-09-06T04:29:21.406Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -1793,8 +1793,8 @@
   {
     "sourceUrl": "https://thiqah.sa/",
     "orgId": "thiqah",
-    "lastAttemptISO": "2026-09-05T15:20:32.619Z",
-    "lastSuccessISO": "2026-09-05T15:20:32.619Z",
+    "lastAttemptISO": "2026-09-06T04:29:21.406Z",
+    "lastSuccessISO": "2026-09-06T04:29:21.406Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -3449,9 +3449,9 @@
   {
     "sourceUrl": "https://www.sar.com.sa/",
     "orgId": "sar",
-    "lastAttemptISO": "2026-09-05T15:20:32.619Z",
+    "lastAttemptISO": "2026-09-06T04:29:21.406Z",
     "lastSuccessISO": "2026-09-03T04:33:38.070Z",
-    "consecutiveFailures": 6,
+    "consecutiveFailures": 7,
     "lastError": "robots.txt: robots.txt answered 200 with a web page rather than a rules file, so the site was never actually asked; a browser reached it but the body was not a robots.txt, so it is treated as a refusal",
     "state": "broken"
   },
@@ -3809,11 +3809,11 @@
   {
     "sourceUrl": "https://www.taifcity.gov.sa/#/ar",
     "orgId": "taif_amanah",
-    "lastAttemptISO": "2026-09-05T15:20:32.619Z",
-    "lastSuccessISO": "2026-09-05T09:11:52.807Z",
-    "consecutiveFailures": 1,
-    "lastError": "page.goto: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.taifcity.gov.sa/#/ar\", waiting until \"domcontentloaded\"\u001b[22m\n",
-    "state": "degraded"
+    "lastAttemptISO": "2026-09-06T04:29:21.406Z",
+    "lastSuccessISO": "2026-09-06T04:29:21.406Z",
+    "consecutiveFailures": 0,
+    "lastError": null,
+    "state": "healthy"
   },
   {
     "sourceUrl": "https://www.tawuniya.com/en/careers",
@@ -3980,8 +3980,8 @@
   {
     "sourceUrl": "https://www2.deloitte.com/",
     "orgId": "deloitte_sa",
-    "lastAttemptISO": "2026-09-05T15:20:32.619Z",
-    "lastSuccessISO": "2026-09-05T15:20:32.619Z",
+    "lastAttemptISO": "2026-09-06T04:29:21.406Z",
+    "lastSuccessISO": "2026-09-06T04:29:21.406Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
