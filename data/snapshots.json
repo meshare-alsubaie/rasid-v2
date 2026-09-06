@@ -2373,17 +2373,17 @@
   {
     "sourceUrl": "https://gaca.gov.sa/web/ar-sa/page/home",
     "orgId": "gaca",
-    "contentHash": "8071bcc7ac4a0c9447d4d1d983fb11a2cc39a3d3707d3df811e914d04d098cc6",
+    "contentHash": "51c5d76cd4741ba0931ca1e59ccf7a96e24099858713da40361dcf0e395e6148",
     "blockHashes": [
-      "df79c80defd55f78",
+      "dcfa146a1795a689",
       "b1a688d32a900310",
       "83a22e1f9fb245f8",
-      "bc532942aaed49b7"
+      "ac473f85e97b4d85"
     ],
     "extractedChars": 386,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-06T13:42:06.133Z",
+    "lastChangedISO": "2026-09-06T16:49:14.545Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -3788,19 +3788,21 @@
   {
     "sourceUrl": "https://nour.net.sa/news/",
     "orgId": "nournet",
-    "contentHash": "a3b978e6fe6ad269594af999059bd582304180a3514d684f4e807eebab51bd65",
+    "contentHash": "29ea9c7f2ba5cdaec1fcb5b18adac97cd1cf486d353fb339734e5f47c77151cc",
     "blockHashes": [
       "f07c14277720310e",
       "1011bca4968f2cff",
       "d203a1013a0fc539",
-      "f41f2f5475db2df1"
+      "ae6329ea7aac7577",
+      "1e515db55223cbf4"
     ],
     "extractedChars": 512,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-06T04:31:18.488Z",
+    "lastChangedISO": "2026-09-06T16:49:14.545Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://redf.gov.sa/",
