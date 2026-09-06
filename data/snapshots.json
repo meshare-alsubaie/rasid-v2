@@ -2103,17 +2103,17 @@
   {
     "sourceUrl": "https://gaca.gov.sa/announcements",
     "orgId": "gaca",
-    "contentHash": "3317202db8df58657ff6db82c7520c1279c786680593e2c9391b065f8f8f00db",
+    "contentHash": "c0de7186dd7834aa004e33b715045728fc3b2c137b70667b3dadf74f9bff6202",
     "blockHashes": [
-      "c17a40a7770495d4",
+      "c1465bcb44315aac",
       "9c2a3967149440a8",
       "83a22e1f9fb245f8",
       "bc532942aaed49b7"
     ],
-    "extractedChars": 242,
-    "extractionMethod": "readability",
+    "extractedChars": 1211,
+    "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-06T05:18:09.563Z",
+    "lastChangedISO": "2026-09-06T08:22:24.231Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -3615,8 +3615,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-06T05:18:09.563Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://ndf.gov.sa/media-center/press-news",
@@ -6320,10 +6319,10 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/careers?lang=ar",
     "orgId": "hrc",
-    "contentHash": "7d0cbb1f29affd36e7fb7f5eaef9a3c14eaa20625a13cd674617137d99478314",
+    "contentHash": "1d4cf873e295ba4cdba166d9fba3fb305a52a53f64885742743bb1e451b872e6",
     "blockHashes": [
       "12e41a244a8a2984",
-      "482b7d3c25449237",
+      "f9534011d825776b",
       "9bd6314e9bbc7375",
       "474d2dbb69aae30b",
       "84b2fc11813dc7e8",
@@ -6347,7 +6346,7 @@
     "extractedChars": 3794,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-06T05:18:09.563Z",
+    "lastChangedISO": "2026-09-06T08:22:24.231Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -7480,8 +7479,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-06T05:18:09.563Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.mewa.gov.sa/ar/MediaCenter/VisualIdentityGuide/Pages/default.aspx",
@@ -8485,8 +8483,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-06T05:18:09.563Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.nazaha.gov.sa/News/Details?q=o2ojUlDL5mGosOuEoGXXeg==",
