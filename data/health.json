@@ -2855,9 +2855,9 @@
   {
     "sourceUrl": "https://www.mof.gov.sa/GFS/TrainingProgram/Pages/TrainingManual.aspx",
     "orgId": "mof",
-    "lastAttemptISO": "2026-09-06T13:42:06.133Z",
+    "lastAttemptISO": "2026-09-06T15:00:33.584Z",
     "lastSuccessISO": "2026-09-03T02:15:11.754Z",
-    "consecutiveFailures": 21,
+    "consecutiveFailures": 22,
     "lastError": "robots.txt: robots.txt answered 200 with a web page rather than a rules file, so the site was never actually asked; a browser reached it but the body was not a robots.txt, so it is treated as a refusal",
     "state": "broken"
   },
@@ -3251,8 +3251,8 @@
   {
     "sourceUrl": "https://www.rcrc.gov.sa/careers/?lang=ar",
     "orgId": "rcrc",
-    "lastAttemptISO": "2026-09-06T14:10:01.349Z",
-    "lastSuccessISO": "2026-09-06T14:10:01.349Z",
+    "lastAttemptISO": "2026-09-06T15:00:33.584Z",
+    "lastSuccessISO": "2026-09-06T15:00:33.584Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -3485,9 +3485,9 @@
   {
     "sourceUrl": "https://www.saudiexchange.sa/wps/portal/saudiexchange/about-saudi-exchange/aboutus/careers?locale=ar",
     "orgId": "tadawul",
-    "lastAttemptISO": "2026-09-06T13:42:06.133Z",
+    "lastAttemptISO": "2026-09-06T15:00:33.584Z",
     "lastSuccessISO": "2026-09-02T23:42:46.216Z",
-    "consecutiveFailures": 25,
+    "consecutiveFailures": 26,
     "lastError": "HTTP 403",
     "state": "broken"
   },
@@ -3611,8 +3611,8 @@
   {
     "sourceUrl": "https://www.sfda.gov.sa/ar/career-vision-and-mission",
     "orgId": "sfda",
-    "lastAttemptISO": "2026-09-06T14:10:01.349Z",
-    "lastSuccessISO": "2026-09-06T14:10:01.349Z",
+    "lastAttemptISO": "2026-09-06T15:00:33.584Z",
+    "lastSuccessISO": "2026-09-06T15:00:33.584Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -3764,11 +3764,11 @@
   {
     "sourceUrl": "https://www.stats.gov.sa/en/news",
     "orgId": "gastat",
-    "lastAttemptISO": "2026-09-06T14:10:01.349Z",
+    "lastAttemptISO": "2026-09-06T15:00:33.584Z",
     "lastSuccessISO": "2026-09-06T14:10:01.349Z",
-    "consecutiveFailures": 0,
-    "lastError": null,
-    "state": "healthy"
+    "consecutiveFailures": 1,
+    "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
+    "state": "degraded"
   },
   {
     "sourceUrl": "https://www.swcc.gov.sa/Arabic/Pages/Home.aspx",
