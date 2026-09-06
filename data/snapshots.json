@@ -2168,7 +2168,7 @@
   {
     "sourceUrl": "https://gaca.gov.sa/announcements",
     "orgId": "gaca",
-    "contentHash": "bbe356929b5bd9f1a615ad8f6b1274834706832756b14bc252fff83cc9219342",
+    "contentHash": "e858f45a559bf49288dadefd4e709f97606be399938bb9514ac9fdf41b8df119",
     "blockHashes": [
       "84617af3e03e3235",
       "9c2a3967149440a8",
@@ -2178,10 +2178,9 @@
     "extractedChars": 242,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-06T11:28:25.123Z",
+    "lastChangedISO": "2026-09-06T14:33:01.641Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://gaca.gov.sa/ar/announcements",
@@ -6383,7 +6382,7 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/careers?lang=ar",
     "orgId": "hrc",
-    "contentHash": "023a90e8adaaf16169b8f4bb5150a661bddb94766723a3600c29d5aa05fa9ae0",
+    "contentHash": "8216b05da7fc1362030e5f00e2a05ad295dd7cc9277551624f6c0252c15690e0",
     "blockHashes": [
       "12e41a244a8a2984",
       "847927fab361b220",
@@ -6410,9 +6409,9 @@
     "extractedChars": 3794,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-06T11:28:25.123Z",
+    "lastChangedISO": "2026-09-06T14:33:01.641Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/careers/graduate-development-program",
