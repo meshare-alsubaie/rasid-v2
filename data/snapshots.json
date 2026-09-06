@@ -1326,16 +1326,16 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/search-results",
     "orgId": "maaden",
-    "contentHash": "56eb9022e60789931d7cfc347c2a2d2b146d06929ea7d0d6359523a80f962f50",
+    "contentHash": "e050229c109f1eb942e1b8f828887207aab96bd86a96a2f8136a6889d19a6cf9",
     "blockHashes": [
-      "0593a1678d987760",
-      "515196d972b34ff7",
-      "f71af92d3e420795"
+      "442b839cee8c46f3",
+      "07c581b42ebb96d5",
+      "f3cacf7022d6b161"
     ],
-    "extractedChars": 467,
-    "extractionMethod": "body_fallback",
+    "extractedChars": 240,
+    "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-06T15:45:27.864Z",
+    "lastChangedISO": "2026-09-06T16:44:03.805Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -2146,7 +2146,7 @@
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T02:22:33.828Z",
     "lastChangedISO": "2026-08-29T02:36:21.032Z",
-    "thinRuns": 86,
+    "thinRuns": 87,
     "pendingClassification": false
   },
   {
@@ -5437,19 +5437,19 @@
   {
     "sourceUrl": "https://www.bog.gov.sa/en/EServices/judiciaryHiring/Pages/default.aspx",
     "orgId": "bog",
-    "contentHash": "81f8d73206efba83e5dada32be755e3c79048f06382e97494defc16051c79dd9",
+    "contentHash": "153d2ebf4c752893fa58c0b53c075e12e71bb9ddc7503b77e9bfd42e68348877",
     "blockHashes": [
       "46d9575ec382a9d1",
       "96c63175498462d9",
       "f4b9821710ab784e",
-      "e24ca624e1e52d43",
+      "db96cc060fa0a333",
       "d9ac968863afb54d",
       "ec5d6ba37d25b982"
     ],
     "extractedChars": 756,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-06T08:24:40.532Z",
+    "lastChangedISO": "2026-09-06T16:44:03.805Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -9179,16 +9179,16 @@
   {
     "sourceUrl": "https://www.rcrc.gov.sa/careers/?lang=ar",
     "orgId": "rcrc",
-    "contentHash": "44a7ece78e14375caefc1cf141a44eab5c430e04708691e234df0ab949e0af82",
+    "contentHash": "48d357170b32288d8e27c54ff666d20b0866a85c054594e983573f33b423a0de",
     "blockHashes": [
-      "829aefd8f31bc314"
+      "48d357170b32288d"
     ],
-    "extractedChars": 1166,
+    "extractedChars": 784,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-06T15:51:35.403Z",
+    "lastChangedISO": "2026-09-06T16:44:03.805Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.rcrc.gov.sa/media-center/",
