@@ -1264,18 +1264,19 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/search-results",
     "orgId": "maaden",
-    "contentHash": "36b19e6703da673a60912c27804a826d706e7cffe6ef4eff127797ee2e484fab",
+    "contentHash": "a7ada813c4091917c7aa24801382152cd78bbfd2cd02554bbc280f39abc8fa37",
     "blockHashes": [
-      "dab5a7f3801bc914",
-      "6bf0ca67e0f069b4",
+      "5569201553604d03",
+      "b856ff306f7f788a",
       "d6c0adacb353836a",
-      "f20064da57437e3d",
-      "62f5248c67f68d67"
+      "2e34738fbe56e68a",
+      "a81cba6da15f6726",
+      "c840a61c5a005768"
     ],
-    "extractedChars": 240,
+    "extractedChars": 373,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-06T04:01:19.594Z",
+    "lastChangedISO": "2026-09-06T05:06:55.532Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -2085,7 +2086,7 @@
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T02:22:33.828Z",
     "lastChangedISO": "2026-08-29T02:36:21.032Z",
-    "thinRuns": 72,
+    "thinRuns": 73,
     "pendingClassification": false
   },
   {
@@ -3227,38 +3228,38 @@
   {
     "sourceUrl": "https://momah.gov.sa/ar/node/14717",
     "orgId": "housing",
-    "contentHash": "59111b8a74fab9999fa33fe4b7c828f9cba2dc2e375fdc51fcbfa87a0571eabc",
+    "contentHash": "0e37551ad540a30f8ebe0668601c10bae534a49aa0dd7b34e2ce535def879d05",
     "blockHashes": [
       "cb4161ba67cbcfe8",
       "075ae909c8ed1c08",
       "a9b825825b3c6e51",
       "aa8e55eac5aea8cd",
       "09552ec2996654f9",
-      "cc830a5eb5db8444",
-      "1c68333aa48fee17",
-      "5d15152619ff887e",
-      "1e5a3d80ed13f9a3",
-      "ff6f87e39638cb9b",
-      "20528620ef22445a",
-      "161c5a063ac2c894",
-      "10f7cd20405cc7d7",
-      "224b646f166713ed",
-      "30abcb6d9ca32476",
-      "cf8a95a3b935c4ba",
-      "f7ab1318186b875f",
-      "09b1bd561f62b68f",
-      "6fe83b3f875bdde8",
-      "ac1405062719fb86",
-      "8472867139506505",
+      "c6ec89b5614fd528",
+      "2f220307f703815a",
       "560edfe1df9d8921",
       "23b97a8a93aba477",
       "9cd3abf7fd1573ff",
-      "d7362ee0a16ce598"
+      "d3c2a50516df014b",
+      "fa354b1bc99583e2",
+      "efb2973d45468de4",
+      "c04e4434621a89f9",
+      "09b1bd561f62b68f",
+      "1401857441242798",
+      "ac1405062719fb86",
+      "01bc24525cceea70",
+      "ff6f87e39638cb9b",
+      "670ab25cb54525de",
+      "e448e7328ff6e337",
+      "83738b20cb6c87e9",
+      "5d15152619ff887e",
+      "5bb3b18aea2d0a1f",
+      "d6282cf7d012b599"
     ],
     "extractedChars": 152144,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-04T05:56:46.725Z",
+    "lastChangedISO": "2026-09-06T05:06:55.532Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -3692,8 +3693,7 @@
     "firstSeenISO": "2026-08-29T22:03:35.383Z",
     "lastChangedISO": "2026-09-05T09:57:22.892Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://nour.net.sa/ar/news/",
@@ -11649,11 +11649,11 @@
   {
     "sourceUrl": "https://zatca.gov.sa/ar",
     "orgId": "zatca",
-    "contentHash": "929198e23970c6f86433e0288ff80b11bdab59a0e29df2092ecb797ae1e455b1",
+    "contentHash": "d00ff8dba0e3d8fde86a1cf079dc6cc3cbf1461c2fb2d813f243ad1cfffd4ccd",
     "blockHashes": [
       "0c8cf2b5bad0838e",
       "dd3372afafcdfd61",
-      "325fdbd7f85a6636",
+      "e64aa654f241e7e6",
       "e5df56b0a0fe5091",
       "782261474561a27a",
       "701306ea50407e12",
@@ -11668,9 +11668,10 @@
     "extractedChars": 696,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-05T09:46:07.058Z",
+    "lastChangedISO": "2026-09-06T05:06:55.532Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://zatca.gov.sa/ar/MediaCenter/Elan/Pages/default.aspx",
