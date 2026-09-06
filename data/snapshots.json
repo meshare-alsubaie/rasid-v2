@@ -1329,19 +1329,17 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/search-results",
     "orgId": "maaden",
-    "contentHash": "b31a92cbd367faf99a13c4be73a4fa4734ca1b0d88fc5f0c448d744d55c47480",
+    "contentHash": "edfe40b9b9f6e8aa6ed89180657b910cd36b9b31d13b0272fffe69e1c46c63af",
     "blockHashes": [
-      "5569201553604d03",
-      "b856ff306f7f788a",
+      "0593a1678d987760",
       "6bf0ca67e0f069b4",
       "d6c0adacb353836a",
-      "84b92450b63bc511",
-      "3d49ebb0a460bbb1"
+      "aa8523259b0e0b26"
     ],
-    "extractedChars": 478,
+    "extractedChars": 240,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-06T05:58:31.787Z",
+    "lastChangedISO": "2026-09-06T06:47:34.006Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -2151,7 +2149,7 @@
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T02:22:33.828Z",
     "lastChangedISO": "2026-08-29T02:36:21.032Z",
-    "thinRuns": 74,
+    "thinRuns": 75,
     "pendingClassification": false
   },
   {
@@ -10859,14 +10857,24 @@
   {
     "sourceUrl": "https://www.tadawulgroup.sa/wps/portal/tadawulgroup/joinus",
     "orgId": "tadawul",
-    "contentHash": "d0d3b5ac169f1b73ab7aa83d70c779f4ee298b89ccc3b8284f83c6034148bac3",
-    "blockHashes": [],
-    "extractedChars": 1186,
+    "contentHash": "218af6789adae9d596633c79e9b359213a247d93501904bfc43eeae06fd8c680",
+    "blockHashes": [
+      "dbfb7021493a5943",
+      "4acb10188c67e120",
+      "9b405996eceb74cf",
+      "5b4fe1a76867e3dc",
+      "4cacbd860b3b4c52",
+      "a888c2eda107d142",
+      "a8f106c1cf7430a5",
+      "99045a67c833cd6b",
+      "332ab17b1cccbd59"
+    ],
+    "extractedChars": 1384,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-02T23:42:46.216Z",
-    "lastChangedISO": "2026-09-05T14:34:55.459Z",
+    "lastChangedISO": "2026-09-06T06:47:34.006Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.tahakom.com/",
