@@ -9177,16 +9177,17 @@
   {
     "sourceUrl": "https://www.rcrc.gov.sa/careers/?lang=ar",
     "orgId": "rcrc",
-    "contentHash": "3d5866743b5990525ffe050d2c48e466fa70158ce62e1452cf6939d7d84136ff",
+    "contentHash": "afe105f048c5f575d1f1a6ed0c929d47fbce949cc15cb3bf99e4048406ce8db3",
     "blockHashes": [
       "83d50294a74d5317"
     ],
     "extractedChars": 1166,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-07T12:26:15.335Z",
+    "lastChangedISO": "2026-09-07T13:15:19.903Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://www.rcrc.gov.sa/media-center/",
@@ -10380,7 +10381,7 @@
       "69712b563e846237",
       "d842aa2993bdbb38",
       "6ce0bb6fceb85cb0",
-      "7ead486165d12322",
+      "a8b5d5c289d60cd6",
       "25b3bc91b9810520"
     ],
     "extractedChars": 1040,
@@ -10388,8 +10389,8 @@
     "firstSeenISO": "2026-09-02T23:42:46.216Z",
     "lastChangedISO": "2026-09-04T05:21:46.319Z",
     "thinRuns": 0,
-    "pendingClassification": true,
-    "classifyFailures": 2
+    "pendingClassification": false,
+    "classifyFailures": 3
   },
   {
     "sourceUrl": "https://www.sidf.gov.sa/News",
