@@ -1,6 +1,6 @@
 {
   "model": "qwen3:8b",
-  "writtenISO": "2026-09-07T10:27:55.257Z",
+  "writtenISO": "2026-09-07T10:36:17.014Z",
   "verdicts": {
     "d3ed902d693a4c1d3b4fc1c6f9b85ea8": null,
     "cc97c142781ff3943c2ea2f9f38af7d8": null,
@@ -827,6 +827,46 @@
       "statesZeroCoursesRule": false,
       "zeroCoursesQuote": null,
       "applyUrl": "https://www.saudi.gov.sa"
+    },
+    "5ab3e4d4e0d2e70e9b37f9b216e29919": {
+      "isTrainingAnnouncement": true,
+      "product": "coop",
+      "titleAr": "التوظيف",
+      "opensISO": null,
+      "closesISO": null,
+      "opensRaw": null,
+      "closesRaw": null,
+      "moreOnPage": false,
+      "majors": [
+        "التدريب"
+      ],
+      "seats": null,
+      "stipendSAR": null,
+      "durationWeeks": null,
+      "cities": [],
+      "statesZeroCoursesRule": false,
+      "zeroCoursesQuote": null,
+      "applyUrl": "cooptraining@sdaia.gov.sa"
+    },
+    "e9807dd6784489ac113a82d918f4d9f5": {
+      "isTrainingAnnouncement": true,
+      "product": "graduate_dev",
+      "titleAr": "البرنامج التدريبي للطلاب والطالبات في المرحلة الجامعية المتخصصين في الأمن السيبراني في نسخته الثانية",
+      "opensISO": null,
+      "closesISO": null,
+      "opensRaw": null,
+      "closesRaw": null,
+      "moreOnPage": true,
+      "majors": [
+        "الأمن السيبراني"
+      ],
+      "seats": null,
+      "stipendSAR": null,
+      "durationWeeks": null,
+      "cities": [],
+      "statesZeroCoursesRule": false,
+      "zeroCoursesQuote": null,
+      "applyUrl": null
     }
   }
 }
