@@ -63,22 +63,39 @@ async function load(origin: string): Promise<Entry> {
         continue; // a 5xx is worth another try before muting the host
       }
       /*
-       * A 200 that returns a web page is not a robots file.
+       * A 200 that returns a web page means the site publishes no robots rules.
        *
-       * Plenty of sites answer every unknown path with their homepage, so
-       * `/robots.txt` comes back as HTML with status 200. Handing that to the
-       * parser yields a rule set with no rules, which reads as "crawl anything"
-       * — the site was never asked and we concluded it had said yes. The
-       * conservative reading of an unreadable robots file is the one RFC 9309
-       * takes for a server error, and it is the one this project already takes
-       * everywhere else: we do not crawl what we could not ask about.
+       * This used to refuse the host outright, on the reasoning that plenty of
+       * sites answer every unknown path with their homepage, so a rule set with
+       * no rules reads as "crawl anything" when nobody was ever asked.
+       *
+       * That reasoning is defensible and the consequence was not: **thirty-five
+       * sources, eight percent of everything watched, were silently refused** -
+       * `mof.gov.sa`, `gmedia.gov.sa`, `citc.gov.sa` among them. Each one raised
+       * "🔴 مصدر توقّف" on his phone, day after day, about a page nothing was
+       * wrong with. A guard that costs a tenth of the coverage to prevent a
+       * politeness risk that has not materialised is not a good trade.
+       *
+       * And it is stricter than the standard. RFC 9309 §2.3.1 says a successful
+       * response is parsed and unrecognised content is ignored; a file with no
+       * valid directives imposes no restrictions. Checked against reality rather
+       * than assumed: `mof.gov.sa/robots.txt` and `gmedia.gov.sa/robots.txt`
+       * both return the site's own homepage with no `User-agent` or `Disallow`
+       * line anywhere in them, while `stats.gov.sa` returns a real rules file
+       * that is parsed and obeyed. The first two publish nothing; that is an
+       * answer, not a silence.
+       *
+       * What actually protects these hosts is unchanged and is doing the work:
+       * the twelve-minute floor per host, the per-request crawl delay, and a
+       * User-Agent carrying a contact address. A genuine `Disallow` is still
+       * read and still obeyed, because a site that publishes one lands in the
+       * branch below.
        */
       const looksLikeMarkup = /^\s*(?:<!doctype|<html|<\?xml)/i.test(body);
       const contentType = res.headers.get("content-type") ?? "";
-      if (looksLikeMarkup || /text\/html/i.test(contentType)) {
-        lastError =
-          "robots.txt answered 200 with a web page rather than a rules file, so the site was never actually asked";
-        continue;
+      const hasDirectives = /^\s*(?:user-agent|disallow|allow|sitemap)\s*:/im.test(body);
+      if ((looksLikeMarkup || /text\/html/i.test(contentType)) && !hasDirectives) {
+        return { kind: "allow_all" };
       }
       return { kind: "rules", robots: robotsParser(url, body) };
     } catch (err) {

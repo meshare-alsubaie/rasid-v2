@@ -156,7 +156,7 @@ if (expired > 0) {
 const carriedBroken = carried.filter((n) => n.kind === "source_broken");
 const carriedRest = carried.filter((n) => n.kind !== "source_broken");
 const carriedCollapsed =
-  carriedBroken.length > 2
+  carriedBroken.length > 1
     ? [
         ...carriedRest,
         {
@@ -172,7 +172,7 @@ const carriedCollapsed =
         },
       ]
     : carried;
-if (carriedBroken.length > 2) {
+if (carriedBroken.length > 1) {
   console.log(`${carriedBroken.length} held "source stopped" notices collapsed into one`);
 }
 const seen = new Set<string>();

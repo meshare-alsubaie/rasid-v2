@@ -110,8 +110,27 @@ const htmlRobotsServer: Server = createServer((_req, res) => {
   res.end(PAGE);
 });
 
+/*
+ * A third origin whose /robots.txt is served as text/html but *does* carry real
+ * directives. Some CMSs do exactly this - the right content, the wrong header -
+ * and the rules in it are still rules. This is the half of fault 13 that must
+ * never be relaxed: a Disallow is obeyed whatever the content-type says.
+ */
+const RULED_HTML_PORT = 4197;
+const ruledHtmlBase = `http://127.0.0.1:${RULED_HTML_PORT}`;
+const ruledHtmlServer: Server = createServer((req, res) => {
+  if ((req.url ?? "/") === "/robots.txt") {
+    res.writeHead(200, { "content-type": "text/html; charset=utf-8" });
+    res.end("User-agent: *\nDisallow: /careers\n");
+    return;
+  }
+  res.writeHead(200, { "content-type": "text/html; charset=utf-8" });
+  res.end(PAGE);
+});
+
 await new Promise<void>((r) => server.listen(PORT, r));
 await new Promise<void>((r) => htmlRobotsServer.listen(HTML_ROBOTS_PORT, r));
+await new Promise<void>((r) => ruledHtmlServer.listen(RULED_HTML_PORT, r));
 resetRobotsCache();
 
 const verdict = await checkRobots(`${base}/ok`);
@@ -269,17 +288,42 @@ console.log("\nfaults 10-12: redirects, robots reachability, and pacing");
 
   /*
    * 13. A great many sites answer every unknown path with their homepage, so
-   * `/robots.txt` comes back as HTML with status 200. Handed to the parser that
-   * yields a rule set with no rules, which reads as "crawl anything" — the site
-   * was never asked and we concluded it had said yes. That is the same silent
-   * yes this file exists to refuse everywhere else.
+   * `/robots.txt` comes back as HTML with status 200 and no directives in it.
+   *
+   * This used to be refused outright, and the refusal cost **thirty-five
+   * sources, eight percent of everything watched** - mof.gov.sa, gmedia.gov.sa,
+   * citc.gov.sa among them - each raising "🔴 مصدر توقّف" on his phone day after
+   * day about a page nothing was wrong with. It is also stricter than the
+   * standard: RFC 9309 §2.3.1 parses a successful response and ignores what it
+   * does not recognise, so a file with no valid directives imposes no
+   * restrictions.
+   *
+   * Verified against the real sites before this changed: both of those return
+   * their own homepage with no User-agent or Disallow line anywhere, while
+   * stats.gov.sa returns a real rules file. Publishing nothing is an answer.
+   *
+   * The half that must never be relaxed is asserted immediately below.
    */
   resetRobotsCache();
   const htmlRobots = await checkRobots(`${htmlRobotsBase}/careers`);
   check(
-    "13. a robots.txt that answers 200 with a web page is not treated as permission",
-    !htmlRobots.allowed,
-    (htmlRobots.reason ?? "").slice(0, 60),
+    "13. a rules-free robots.txt means no restrictions, as RFC 9309 says",
+    htmlRobots.allowed,
+    htmlRobots.allowed ? "" : `REFUSED: ${htmlRobots.reason ?? ""}`,
+  );
+
+  resetRobotsCache();
+  const ruled = await checkRobots(`${ruledHtmlBase}/careers`);
+  check(
+    "    and a Disallow is still obeyed even when served as text/html",
+    !ruled.allowed,
+    ruled.allowed ? "IT CRAWLED A DISALLOWED PATH" : (ruled.reason ?? ""),
+  );
+  resetRobotsCache();
+  const ruledAllowed = await checkRobots(`${ruledHtmlBase}/about`);
+  check(
+    "    while a path that file does not forbid is still allowed",
+    ruledAllowed.allowed,
   );
 
   /*
@@ -307,6 +351,7 @@ console.log("\nfaults 10-12: redirects, robots reachability, and pacing");
 await closeBrowser();
 server.close();
 htmlRobotsServer.close();
+ruledHtmlServer.close();
 
 console.log(
   `\n${failures === 0 ? "every fault produces a state the user can see" : `${failures} CHECK(S) FAILED`}`,

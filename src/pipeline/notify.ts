@@ -382,18 +382,31 @@ export function decide(input: DecideInput): Notice[] {
    * fire it describes what is true rather than predicting a silence it cannot
    * know about.
    */
+  /*
+   * "Nothing gained a score" is not the same as "the classifier is stuck".
+   *
+   * The test was `scoredAfter > scoredBefore`, and most rounds judge pages that
+   * turn out not to be announcements - a media centre, a homepage, a press
+   * release. Those produce a perfectly good verdict and no new score, so the
+   * alarm fired on a working classifier. It went to his phone on 09-06 and
+   * again on 09-07, on mornings when the round had judged six pages each time.
+   *
+   * The honest question is whether the backlog is *moving*. A queue that is the
+   * same size or larger after a round, and large enough to matter, is a queue
+   * nothing is draining - which is what a stalled classifier looks like from
+   * out here, and is the only thing this alarm can actually see.
+   */
   const unjudged = after.filter((o) => o.flags.includes("needs_manual_review"));
-  const scoredBefore = before.filter((o) => o.relevanceScore !== null).length;
-  const scoredAfter = after.filter((o) => o.relevanceScore !== null).length;
-  const judgedSomething = scoredAfter > scoredBefore;
+  const unjudgedBefore = before.filter((o) => o.flags.includes("needs_manual_review")).length;
+  const queueMoved = before.length > 0 && unjudged.length < unjudgedBefore;
 
-  if (unjudged.length >= UNJUDGED_ALARM && !judgedSomething) {
+  if (unjudged.length >= UNJUDGED_ALARM && !queueMoved) {
     const day = new Date().toISOString().slice(0, 10);
     out.push({
       key: `classifier:${day}`,
       kind: "classifier_down",
-      title: "🟠 التصنيف لم يتقدّم",
-      body: `${unjudged.length} صفحة قُرئت ولم يُحكم عليها، ولم تُحكم أي صفحة في هذه الجولة. إن تكرّر هذا غداً فالمصنّف متوقّف: افحص الجهات المهمة بنفسك.`,
+      title: "🟠 طابور الحكم لا ينقص",
+      body: `${unjudged.length} صفحة قُرئت ولم يُحكم عليها، ولم ينقص العدد في هذه الجولة. إن تكرّر هذا غداً فالمصنّف متوقّف: افحص الجهات المهمة بنفسك.`,
       weight: BAND.classifierDown,
     });
   }
@@ -410,8 +423,23 @@ export function decide(input: DecideInput): Notice[] {
    * The names belong in the body, which is shown in full. Two or fewer stay as
    * they are - naming one organisation in a title is clearer than a list of one.
    */
+  /*
+   * Collapsed at two, not three, because sources break one at a time.
+   *
+   * The threshold was "more than two in a single round", and sources do not
+   * break in batches - they break one or two per round, over days. So the
+   * collapse almost never fired and he got three to six separate
+   * "🔴 مصدر توقّف" notifications every morning for a week: 09-04 five, 09-05
+   * six, 09-06 five, 09-07 three. Exactly the noise the collapse was written to
+   * stop, surviving because the trigger was measured per round rather than per
+   * morning.
+   *
+   * `notify.ts` also collapses whatever is already carried in the queue, so the
+   * two together mean one line about broken sources per delivery, whichever way
+   * they arrived.
+   */
   const broken = out.filter((n) => n.kind === "source_broken");
-  if (broken.length > 2) {
+  if (broken.length > 1) {
     const names = broken.map((n) => n.title.replace(/^🔴 مصدر توقّف\s*[—·-]\s*/u, "").trim());
     for (const n of broken) out.splice(out.indexOf(n), 1);
     out.push({

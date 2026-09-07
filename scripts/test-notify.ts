@@ -642,13 +642,35 @@ console.log("\na bad morning for the tool never buries an opening");
     String(push.filter((n) => n.key.startsWith("new:")).length),
   );
 
-  /* Two or fewer stay as they are: one name in a title beats a list of one. */
+  /*
+   * One stays as one: a single name in a title beats a list of one.
+   *
+   * The threshold was three, and sources do not break in threes - they break one
+   * or two per round, over days. So the collapse almost never fired and he got
+   * three to six separate "🔴 مصدر توقّف" notifications every morning for a
+   * week. The trigger was measured per round when the thing he experiences is
+   * per morning.
+   */
   {
+    const oneBroken = broken.slice(0, 1);
+    const one = run([], twoMatches, oneBroken.map((h) => ({ ...h, state: "degraded" as const })), oneBroken);
+    check(
+      "a single broken source stays as itself, naming its organisation",
+      one.filter((n) => n.kind === "source_broken").length === 1,
+    );
+
     const twoBroken = broken.slice(0, 2);
     const few = run([], twoMatches, twoBroken.map((h) => ({ ...h, state: "degraded" as const })), twoBroken);
+    const collapsed = few.filter((n) => n.kind === "source_broken");
     check(
-      "two broken sources stay as two, each naming its organisation",
-      few.filter((n) => n.kind === "source_broken").length === 2,
+      "but two are already one notice, because two mornings in a row is the pattern",
+      collapsed.length === 1,
+      `${collapsed.length} notice(s)`,
+    );
+    check(
+      "and it names them where a phone will show them",
+      collapsed[0] !== undefined && collapsed[0].body.length > 30,
+      collapsed[0]?.body.slice(0, 64) ?? "no notice",
     );
   }
 }

@@ -656,5 +656,50 @@ console.log("\na record whose wording is not on its page does not survive");
   );
 }
 
+
+console.log("\nno source is refused for publishing no robots rules");
+{
+  /*
+   * The robots gate used to refuse any host whose /robots.txt answered 200 with
+   * a web page, on the reasoning that a rule set with no rules reads as "crawl
+   * anything" when nobody was ever asked.
+   *
+   * It cost thirty-four sources across twenty hosts - eight percent of
+   * everything watched - including careers.sdaia.gov.sa, citc.gov.sa,
+   * mof.gov.sa, mofa.gov.sa, gaca.gov.sa and training.moj.gov.sa. Each one
+   * raised "🔴 مصدر توقّف" on his phone morning after morning about a page
+   * nothing was wrong with, and it is stricter than RFC 9309 §2.3.1, which
+   * parses a successful response and ignores what it does not recognise.
+   *
+   * Checked against the real files before it changed: mof.gov.sa and
+   * gmedia.gov.sa return their own homepage with no directive in it, while
+   * stats.gov.sa returns a real rules file that is still parsed and obeyed.
+   *
+   * This asserts the consequence on the live data, because the unit behaviour is
+   * fault 13 in test:faults and the thing worth guarding here is that the
+   * dataset does not silently refill with sources refused for this reason.
+   */
+  const health = JSON.parse(
+    readFileSync("data/health.json", "utf8").replace(/^﻿/, ""),
+  ) as { sourceUrl: string; state: string; lastError: string | null }[];
+  const refused = health.filter((h) =>
+    /robots\.txt answered 200 with a web page/.test(String(h.lastError ?? "")),
+  );
+  check(
+    "no source carries the old rules-free refusal",
+    refused.length === 0,
+    refused.length === 0 ? "" : `${refused.length}: ${refused.slice(0, 2).map((h) => h.sourceUrl).join(", ")}`,
+  );
+
+  const brokenByRobots = health.filter(
+    (h) => h.state === "broken" && /robots/i.test(String(h.lastError ?? "")),
+  );
+  check(
+    "and a robots refusal, where it happens, is a real Disallow",
+    brokenByRobots.every((h) => !/answered 200 with a web page/.test(String(h.lastError ?? ""))),
+    `${brokenByRobots.length} source(s) refused by robots`,
+  );
+}
+
 console.log(`\n${failures === 0 ? "all record guards hold" : `${failures} check(s) failed`}`);
 process.exit(failures === 0 ? 0 : 1);
