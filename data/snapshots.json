@@ -634,8 +634,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-07T07:57:22.566Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "triaged_out"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://athkax.sdaia.gov.sa/coop",
@@ -3473,7 +3472,7 @@
   {
     "sourceUrl": "https://ncar.gov.sa/",
     "orgId": "ncar",
-    "contentHash": "d8ccf5fd764e3da8dacb7f1a14ea3a066cf3ad8931abbf68b7a801d862995bb1",
+    "contentHash": "27f62e05d69caa21d2ef14a491fc742e3f66a9631dbc823c03c1bc3aaf54ce90",
     "blockHashes": [
       "c911502a32b8a6f9",
       "299051b1d7c5abd3",
@@ -3481,10 +3480,10 @@
       "65fe3762c7ce21dc",
       "75c514565d626437"
     ],
-    "extractedChars": 1993,
+    "extractedChars": 1077,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-07T07:57:22.566Z",
+    "lastChangedISO": "2026-09-07T11:36:36.614Z",
     "thinRuns": 0,
     "pendingClassification": true
   },
@@ -7651,16 +7650,16 @@
   {
     "sourceUrl": "https://www.moe.gov.sa/ar/mediacenter/MOEnews/Pages/default.aspx",
     "orgId": "moe",
-    "contentHash": "0a3c776bcc4c82d98a2f4decd7ff4b7b682663ce12a17e4a45cf186fc6aba3a3",
+    "contentHash": "4949f4243f52ca6064e997d60335d8a9f755ff5ad9f54916a16af023383f98ef",
     "blockHashes": [
       "88b5148b04637d49",
       "74e4c1d2a646a96e",
       "8f56071f87fdcaf5"
     ],
-    "extractedChars": 232,
+    "extractedChars": 441,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-07T08:35:34.922Z",
+    "lastChangedISO": "2026-09-07T11:36:36.614Z",
     "thinRuns": 0,
     "pendingClassification": true
   },
@@ -9448,7 +9447,7 @@
   {
     "sourceUrl": "https://www.riyadbank.com/ar/personal-banking",
     "orgId": "riyadbank",
-    "contentHash": "7f6ffe85c9e2aabe9c3060b62e77d95ffcfb25a12d3550e1856451804158fe92",
+    "contentHash": "29a8cadc39eef5713d228d9622218ca296b9c3e1c5782cb712abccb86364e3dc",
     "blockHashes": [
       "c5fa97b84e96f11e",
       "a01ad1ea1a27690a",
@@ -9492,10 +9491,10 @@
       "27ab07a2e57dda34",
       "f2f0e16c376080f6"
     ],
-    "extractedChars": 10029,
+    "extractedChars": 10366,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
-    "lastChangedISO": "2026-09-07T08:35:34.922Z",
+    "lastChangedISO": "2026-09-07T11:36:36.614Z",
     "thinRuns": 0,
     "pendingClassification": true
   },
