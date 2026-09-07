@@ -1328,16 +1328,18 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/search-results",
     "orgId": "maaden",
-    "contentHash": "c7695185654322d362d1a3cdca43a1b9ce93e73199216e83ec1257a98ed82377",
+    "contentHash": "22fe17d05b067a460b0a894c6e0b100c3cf63a4e8dc4096e83a8d122a473fc20",
     "blockHashes": [
-      "0593a1678d987760",
-      "a162fbd14430ff95",
-      "e706a5cff97d04d5"
+      "5569201553604d03",
+      "6e3cceb54e777f64",
+      "298a05ebe5a16280",
+      "d6c0adacb353836a",
+      "39ac93eb6a710e61"
     ],
-    "extractedChars": 240,
+    "extractedChars": 201,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-07T12:48:01.578Z",
+    "lastChangedISO": "2026-09-07T13:38:34.436Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -1922,8 +1924,8 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-08-31T00:02:49.563Z",
     "thinRuns": 0,
-    "pendingClassification": true,
-    "classifyFailures": 2
+    "pendingClassification": false,
+    "classifyFailures": 3
   },
   {
     "sourceUrl": "https://careers.stc.com.sa/go/%D8%A7%D9%84%D8%AA%D8%AF%D8%B1%D9%8A%D8%A8-%D8%A7%D9%84%D8%AA%D8%B9%D8%A7%D9%88%D9%86%D9%8A/7736823/",
@@ -5231,7 +5233,7 @@
     "lastChangedISO": "2026-08-31T00:02:49.563Z",
     "thinRuns": 0,
     "pendingClassification": true,
-    "classifyFailures": 1
+    "classifyFailures": 2
   },
   {
     "sourceUrl": "https://www.aramco.com/en/careers/for-saudi-applicants/student-opportunities/university-and-vocational-college-internship-programs/university-internship-program",
@@ -8445,7 +8447,7 @@
     "orgId": "nazaha",
     "contentHash": "fa8625a32e0dff90f2b46afa9f3d8df2bb41794be91818c5c4d0d008b7c77067",
     "blockHashes": [
-      "b7eeadb52c8eec07",
+      "8112793f58d5130f",
       "c3fc1cda7b3b3192",
       "5ca983e6f0344343"
     ],
@@ -8454,7 +8456,8 @@
     "firstSeenISO": "2026-08-29T22:03:35.383Z",
     "lastChangedISO": "2026-09-07T07:03:38.002Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://www.nazaha.gov.sa/Jobs",
@@ -11229,18 +11232,18 @@
   {
     "sourceUrl": "https://www.tahakom.com/careers",
     "orgId": "tahakom",
-    "contentHash": "457f65df725621cf1ff8df157d2d7ad5927ef366ef94aa5e45fdfae4dd6d3b3f",
+    "contentHash": "40165b57568aeda456da61ad3c8bf620f3e27cb8bb088d933150b71ccddb61fe",
     "blockHashes": [
       "d44217251213a019",
       "611753a8aea1ade1",
       "0cea4d38306888dc",
       "1a5263a5a2541c46",
-      "a937a81f39e1b5a8"
+      "66314e4675e8f143"
     ],
-    "extractedChars": 838,
+    "extractedChars": 832,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-03T05:13:40.059Z",
-    "lastChangedISO": "2026-09-07T12:48:01.578Z",
+    "lastChangedISO": "2026-09-07T13:38:34.436Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
