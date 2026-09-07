@@ -3251,11 +3251,11 @@
   {
     "sourceUrl": "https://www.rcrc.gov.sa/careers/?lang=ar",
     "orgId": "rcrc",
-    "lastAttemptISO": "2026-09-07T13:15:19.903Z",
+    "lastAttemptISO": "2026-09-07T14:06:17.629Z",
     "lastSuccessISO": "2026-09-07T13:15:19.903Z",
-    "consecutiveFailures": 0,
-    "lastError": null,
-    "state": "healthy"
+    "consecutiveFailures": 1,
+    "lastError": "page.goto: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.rcrc.gov.sa/careers/?lang=ar\", waiting until \"domcontentloaded\"\u001b[22m\n",
+    "state": "degraded"
   },
   {
     "sourceUrl": "https://www.rcrc.gov.sa/media-center/",
@@ -3656,8 +3656,8 @@
   {
     "sourceUrl": "https://www.sidf.gov.sa/Coop",
     "orgId": "sidf",
-    "lastAttemptISO": "2026-09-07T13:15:19.903Z",
-    "lastSuccessISO": "2026-09-07T13:15:19.903Z",
+    "lastAttemptISO": "2026-09-07T14:06:17.629Z",
+    "lastSuccessISO": "2026-09-07T14:06:17.629Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
