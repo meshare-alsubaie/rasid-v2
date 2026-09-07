@@ -2111,8 +2111,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-06T16:38:39.778Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://e-services.hrc.gov.sa/ar/service/details/12",
@@ -3831,14 +3830,16 @@
   {
     "sourceUrl": "https://redf.gov.sa/",
     "orgId": "redf",
-    "contentHash": "2f8630af486bbb7fe7a475cb15acee5c21a983a9641d80d068322fff01bd1361",
+    "contentHash": "3a6480ca27bef020de2ba9b1bb34827176c13d84ed464ca317e175a8db77d16e",
     "blockHashes": [
-      "2f8630af486bbb7f"
+      "6bc16366b4220896",
+      "743b9c5832ecc399",
+      "e5293799b982146e"
     ],
-    "extractedChars": 1782,
+    "extractedChars": 576,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-06T16:26:36.306Z",
+    "lastChangedISO": "2026-09-07T05:37:31.051Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -4239,16 +4240,17 @@
   {
     "sourceUrl": "https://sta.gov.sa/",
     "orgId": "sta",
-    "contentHash": "daed8f34cf40bb61ab33c3ec7eaa1a6ed4c9367bb06def382d031e96fa75990c",
+    "contentHash": "e837e53880dd6d6accad57a83694e440c8d946d2a65c9b8cf1538079c8e22fb1",
     "blockHashes": [
-      "daed8f34cf40bb61"
+      "e837e53880dd6d6a"
     ],
-    "extractedChars": 163,
+    "extractedChars": 177,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-04T05:29:27.985Z",
-    "thinRuns": 6,
-    "pendingClassification": false
+    "lastChangedISO": "2026-09-07T05:37:31.051Z",
+    "thinRuns": 0,
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://takamolholding.com/ar/join-us",
@@ -4367,13 +4369,10 @@
   {
     "sourceUrl": "https://thiqah.sa/",
     "orgId": "thiqah",
-    "contentHash": "41585f247e073f7dfa50339963ead8d8387c9a1b752741091b485d74143c63b9",
+    "contentHash": "bba18d1332d9277cfb6fa175f6984c62b16db98c935a6738a2b6a55c5b1d20bc",
     "blockHashes": [
-      "56d61a024ef0c23a",
-      "988b9a8bf2486a9d",
-      "a4ad1af066840cba",
-      "2a753899ff945f72",
-      "0254baf3c601928d",
+      "2badba214de43400",
+      "cff1ddff4e992236",
       "e6bf180d162757ed",
       "ce6b1d76c3fa0a8f",
       "5702aa0bdde53d7c",
@@ -4386,7 +4385,7 @@
     "extractedChars": 2087,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T23:03:32.200Z",
-    "lastChangedISO": "2026-09-06T16:38:39.778Z",
+    "lastChangedISO": "2026-09-07T05:37:31.051Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -5591,10 +5590,10 @@
   {
     "sourceUrl": "https://www.derayah.com/",
     "orgId": "derayah",
-    "contentHash": "25ea74e2850cf5978c95dd790e647ff79c74e997b75ddddb73db218f2a37251c",
+    "contentHash": "040650f659faf4f76a08b32c2c89daa168fc36489862798730de9d52926ec0c0",
     "blockHashes": [
       "ddd0fdeb77b2b8bc",
-      "200d7f5b457d15fe",
+      "6ea52bb7b4efe586",
       "7cd6ce736fcf8d67",
       "7469b745da57c204",
       "a9b28e97d53fcf80",
@@ -5611,7 +5610,7 @@
     "extractedChars": 1431,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-06T16:26:36.306Z",
+    "lastChangedISO": "2026-09-07T05:37:31.051Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -11257,26 +11256,24 @@
   {
     "sourceUrl": "https://www.taifcity.gov.sa/#/ar",
     "orgId": "taif_amanah",
-    "contentHash": "0d9583457c4329fdb0f383fd0b347ef72179a193ad60bb3b470f4bc75c719c3f",
+    "contentHash": "234015682682baf34ff0b2eb98895b9825426aa7ce2f4a2d8a82924f227df526",
     "blockHashes": [
       "969f0f9d8129003d",
-      "cbe87849874d327a",
+      "b6911745d8940c74",
       "f0f4a4262f40d108",
       "f0f4a4262f40d108",
       "f0f4a4262f40d108",
       "f0f4a4262f40d108",
-      "86973fd4549d9692",
-      "afa6849a7139e9bd",
-      "c5ad1ccd3b8f58d2",
+      "64df7a90c572851b",
       "8554e1d0ca772440"
     ],
-    "extractedChars": 6078,
+    "extractedChars": 1917,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T23:54:26.779Z",
-    "lastChangedISO": "2026-09-06T16:38:39.778Z",
+    "lastChangedISO": "2026-09-07T05:37:31.051Z",
     "thinRuns": 0,
     "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "settledWithoutVerdict": "triaged_out"
   },
   {
     "sourceUrl": "https://www.thiqah.sa/",
