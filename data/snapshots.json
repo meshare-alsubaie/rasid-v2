@@ -10219,14 +10219,14 @@
     "orgId": "sfda",
     "contentHash": "6f2e7911ee52e82cb9582d958ce4ccb3316d768cad66f17f7682ff5ad7d049e0",
     "blockHashes": [
-      "faf358d9e967a635",
+      "4b34469999cc33b2",
+      "d3d710c7de3528d8",
       "5285052957cb0adc",
       "eacc9eac565fd066",
       "85c5d72cb41d7350",
       "4cc5364898644f8d",
-      "7b6aed063abb1ba4",
       "abbaebe56469a2c6",
-      "12cad4d95d35df7f",
+      "186ecd7506108857",
       "b69ab73ade473181",
       "fe04993c9918963a",
       "506fe5d55093ecae"
@@ -10236,7 +10236,8 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-07T05:59:10.326Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "triaged_out"
   },
   {
     "sourceUrl": "https://www.sfda.gov.sa/en/career-vision-and-mission",
