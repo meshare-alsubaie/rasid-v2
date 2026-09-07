@@ -634,7 +634,8 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-07T07:57:22.566Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "triaged_out"
   },
   {
     "sourceUrl": "https://athkax.sdaia.gov.sa/coop",
@@ -961,8 +962,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-02T14:38:13.640Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "classifyFailures": 3
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://careers.alrajhibank.com.sa/en/page/coop-program/",
@@ -989,8 +989,8 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-02T14:52:39.481Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "classifyFailures": 3
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://careers.anb.sa/",
@@ -1264,18 +1264,18 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/search-results",
     "orgId": "maaden",
-    "contentHash": "32b75fd44695320266bd54d2481da7751a7d0bab7852ce97594cd6a946c8729e",
+    "contentHash": "11df77591570fbcf5c0e26c30e42af4b9ad73fc8109e5497ed505b6129a9761d",
     "blockHashes": [
       "0593a1678d987760",
-      "97947f05d6b071ce",
-      "72098e49156c4b5e"
+      "beffb60462e2d2b3",
+      "f3ebf0bb037538ca"
     ],
-    "extractedChars": 396,
+    "extractedChars": 240,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-07T09:34:43.662Z",
+    "lastChangedISO": "2026-09-07T09:45:43.924Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://careers.mcit.gov.sa/",
@@ -3575,8 +3575,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-07T06:43:42.049Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://ndf.gov.sa/media-center/articles/article-human-resource-development",
@@ -6280,10 +6279,10 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/careers",
     "orgId": "hrc",
-    "contentHash": "9ea2b15169c19c60e782255e54bc2dace761570775b9b8fba584415cf3ac444c",
+    "contentHash": "2bc8666bf24b8064ca0e8d7b189b549f5bcd486ba754c1c2d22b1c67400783a3",
     "blockHashes": [
       "12e41a244a8a2984",
-      "67c83ed37e35fc49",
+      "21f15f79f81aa060",
       "9bd6314e9bbc7375",
       "474d2dbb69aae30b",
       "84b2fc11813dc7e8",
@@ -6307,7 +6306,7 @@
     "extractedChars": 3794,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-07T06:43:42.049Z",
+    "lastChangedISO": "2026-09-07T09:51:36.392Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -6767,8 +6766,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-06T14:46:26.825Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.hrsd.gov.sa/media-center/news",
@@ -9113,16 +9111,17 @@
   {
     "sourceUrl": "https://www.rcrc.gov.sa/careers/?lang=ar",
     "orgId": "rcrc",
-    "contentHash": "83d50294a74d5317422138187a0a93e17bdb4b1602633b9f03a62d80b690344d",
+    "contentHash": "30f78257c57c2cd60548336eed091421e56f26a268857b81d86056d5867ab1bb",
     "blockHashes": [
       "83d50294a74d5317"
     ],
-    "extractedChars": 785,
+    "extractedChars": 1167,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-07T08:58:18.999Z",
+    "lastChangedISO": "2026-09-07T09:51:36.392Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://www.rcrc.gov.sa/media-center/",
@@ -10321,7 +10320,8 @@
     "firstSeenISO": "2026-09-02T23:42:46.216Z",
     "lastChangedISO": "2026-09-04T05:21:46.319Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://www.sidf.gov.sa/News",
