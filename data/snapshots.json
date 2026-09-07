@@ -1248,7 +1248,7 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/cookiesettings",
     "orgId": "maaden",
-    "contentHash": "1b337b9566b9c142f83ae314767ad7677aba2122c4323ff67ed3efee15eedf51",
+    "contentHash": "f7d2ca6edb7689cd4fdc80261e146daf92dd8ea480a9f4e3c79ceae0ebc9d015",
     "blockHashes": [
       "5569201553604d03",
       "4c196b7e3be1973c",
@@ -1316,12 +1316,13 @@
       "ee82ab94d7112a03",
       "60b7b15f81dc7749",
       "abf11bb520a3d451",
-      "1b0d4de34e88c3ae"
+      "713b764ea2ee2662",
+      "015f10fb1d846d2b"
     ],
     "extractedChars": 8013,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-07T13:02:49.674Z",
+    "lastChangedISO": "2026-09-07T13:54:14.573Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -2151,7 +2152,7 @@
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T02:22:33.828Z",
     "lastChangedISO": "2026-08-29T02:36:21.032Z",
-    "thinRuns": 96,
+    "thinRuns": 97,
     "pendingClassification": false
   },
   {
@@ -10690,8 +10691,8 @@
     "firstSeenISO": "2026-08-29T02:22:33.828Z",
     "lastChangedISO": "2026-08-31T00:02:49.563Z",
     "thinRuns": 0,
-    "pendingClassification": true,
-    "classifyFailures": 2
+    "pendingClassification": false,
+    "classifyFailures": 3
   },
   {
     "sourceUrl": "https://www.stats.gov.sa/en/news",
