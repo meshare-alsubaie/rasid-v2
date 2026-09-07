@@ -2120,20 +2120,19 @@
   {
     "sourceUrl": "https://gaca.gov.sa/ar/announcements",
     "orgId": "gaca",
-    "contentHash": "266261a6557f4eef927b0e3f3d77b76eee0bb362d981f43f796ba99000fd2152",
+    "contentHash": "6c04bbd00e67f0aa40ba7f0d536b1c5b1483f24c79d6a34b656228113eb8bdb5",
     "blockHashes": [
       "42ad3464b9674c00",
       "9c2a3967149440a8",
       "83a22e1f9fb245f8",
       "bc532942aaed49b7"
     ],
-    "extractedChars": 1213,
+    "extractedChars": 1473,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-07T09:03:56.711Z",
+    "lastChangedISO": "2026-09-07T12:06:08.235Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://gaca.gov.sa/ar/News",
@@ -3212,8 +3211,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-07T05:59:10.326Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://momah.gov.sa/ar/node/14717",
@@ -6425,7 +6423,7 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/cooperations?lang=ar",
     "orgId": "hrc",
-    "contentHash": "365ff10b20f1d6eb8b2c68936295b9210a707347924b555e27102e56d55ef645",
+    "contentHash": "dfdd938d653955fd382c52f0d1d946e9a2c28eaf2560e87d16a7f94edc16f501",
     "blockHashes": [
       "12e41a244a8a2984",
       "99bbbeed52bc1a03",
@@ -6449,9 +6447,9 @@
     "extractedChars": 6137,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-07T09:03:56.711Z",
+    "lastChangedISO": "2026-09-07T12:06:08.235Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/news?lang=ar",
@@ -7549,7 +7547,7 @@
   {
     "sourceUrl": "https://www.mim.gov.sa/ar/empower-training/cooperative-training",
     "orgId": "mim",
-    "contentHash": "4c2b67db71d9a3bde7e74baa3c125d60399e67309925585022ab790803894bee",
+    "contentHash": "94370539f4ca83e994b20813cfa5da7fec37238441ae44546273bd0a442a2480",
     "blockHashes": [
       "1cb91553dd3291a4",
       "5300d4cdd32a8d33"
@@ -7557,7 +7555,7 @@
     "extractedChars": 2495,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T02:22:33.828Z",
-    "lastChangedISO": "2026-09-07T11:09:10.285Z",
+    "lastChangedISO": "2026-09-07T12:06:08.235Z",
     "thinRuns": 0,
     "pendingClassification": true
   },
@@ -7948,7 +7946,7 @@
   {
     "sourceUrl": "https://www.mofa.gov.sa/",
     "orgId": "mofa",
-    "contentHash": "c6cfec757a30a753d13823191f1157d2224b2b38a623ecf2bdec4b533ccac3e7",
+    "contentHash": "159faa2ab8b624128f54aa4f43c54fc28bb0a0dc8f3c2db83170cdb56707a585",
     "blockHashes": [
       "88b5148b04637d49",
       "74e4c1d2a646a96e",
@@ -7970,7 +7968,7 @@
     "extractedChars": 1957,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
-    "lastChangedISO": "2026-09-07T07:57:22.566Z",
+    "lastChangedISO": "2026-09-07T12:06:08.235Z",
     "thinRuns": 0,
     "pendingClassification": true
   },
