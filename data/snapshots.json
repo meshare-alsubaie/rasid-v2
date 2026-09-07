@@ -605,7 +605,7 @@
     "orgId": "anb",
     "contentHash": "e8b4f52c7a43ac8637fa2296e550e15d886f69f95851ae4cc00badc482b612f7",
     "blockHashes": [
-      "3c564a093eaa50e4",
+      "1e4f37da86876c5a",
       "793a466ff765af0e",
       "a3813bf637b4d939",
       "0aa4b9541202c0c9",
@@ -622,7 +622,7 @@
       "67b20ba4591028db",
       "e52f55fdfe61e83b",
       "badada8f97ba523a",
-      "a0cd56c5cf824fa1",
+      "d6424f935dfa4872",
       "f46c83f7b5033a3d",
       "7066bb31ea6b2591",
       "3ec22dc347c7ce1c",
@@ -634,7 +634,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-07T07:57:22.566Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://athkax.sdaia.gov.sa/coop",
@@ -647,9 +647,10 @@
     "extractedChars": 756,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-02T23:42:46.216Z",
+    "lastChangedISO": "2026-09-07T09:34:43.662Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://awqaf.gov.sa/ar/ar/hiring/",
@@ -960,7 +961,8 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-02T14:38:13.640Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "classifyFailures": 3
   },
   {
     "sourceUrl": "https://careers.alrajhibank.com.sa/en/page/coop-program/",
@@ -987,7 +989,8 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-02T14:52:39.481Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "classifyFailures": 3
   },
   {
     "sourceUrl": "https://careers.anb.sa/",
@@ -1261,18 +1264,16 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/search-results",
     "orgId": "maaden",
-    "contentHash": "93d0dc7b49c38e619e1c1f3a443cbbc6d3c2401f71004936b7a1e26d3b2cfb1a",
+    "contentHash": "32b75fd44695320266bd54d2481da7751a7d0bab7852ce97594cd6a946c8729e",
     "blockHashes": [
       "0593a1678d987760",
-      "d6c0adacb353836a",
-      "0c1f7e81ceff4b10",
-      "6da241dc7c60c25f",
-      "17001de56208a928"
+      "97947f05d6b071ce",
+      "72098e49156c4b5e"
     ],
-    "extractedChars": 268,
-    "extractionMethod": "body_fallback",
+    "extractedChars": 396,
+    "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-07T08:44:42.683Z",
+    "lastChangedISO": "2026-09-07T09:34:43.662Z",
     "thinRuns": 0,
     "pendingClassification": true
   },
@@ -1953,17 +1954,17 @@
   {
     "sourceUrl": "https://careers.zatca.gov.sa/search/?createNewAlert=false&q=&locationsearch=",
     "orgId": "zatca",
-    "contentHash": "607a57365b9167228d27d6c64169cfb18dee5be53e9c9737014f1482733c0383",
+    "contentHash": "afcdf0815cd7c44c05859c64e417c91df64e9dc42c64e73d67cf3396d6dbbeff",
     "blockHashes": [
       "650a2ce183d63c69",
-      "b731f140ea3e962e",
-      "2d4f232864a81923",
+      "f254f8958ece8b0e",
+      "36fe544e1baf0777",
       "78be07dcda742780",
       "97874d03024f07d0",
+      "6bd1410694d9391e",
       "3b6df8fe790eb0bc",
       "cc01164b53580b1a",
       "5b6f45b047a1cbcf",
-      "a8ac0bb28150c436",
       "a954080d2ed9ccb1",
       "84fe59d621b2eb75",
       "84fe59d621b2eb75",
@@ -1973,7 +1974,7 @@
     "extractedChars": 571,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-07T07:08:28.612Z",
+    "lastChangedISO": "2026-09-07T09:39:22.334Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -8468,7 +8469,7 @@
     "orgId": "nazaha",
     "contentHash": "4dced57d64f910458050a266daf5c09e2e6c12d7be3046b1cc349e64355d59ca",
     "blockHashes": [
-      "99945528cea77af3",
+      "b6c10c601b18bc35",
       "6eca9a7e8f445a2e",
       "fcc9ab0ce14a3013",
       "687dc7a896984645"
@@ -8478,7 +8479,8 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-07T06:27:15.292Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://www.nazaha.gov.sa/News/Details?q=o2ojUlDL5mGosOuEoGXXeg==",
@@ -10219,14 +10221,14 @@
     "orgId": "sfda",
     "contentHash": "6f2e7911ee52e82cb9582d958ce4ccb3316d768cad66f17f7682ff5ad7d049e0",
     "blockHashes": [
-      "4b34469999cc33b2",
-      "d3d710c7de3528d8",
+      "faf358d9e967a635",
       "5285052957cb0adc",
       "eacc9eac565fd066",
       "85c5d72cb41d7350",
       "4cc5364898644f8d",
+      "7b6aed063abb1ba4",
       "abbaebe56469a2c6",
-      "186ecd7506108857",
+      "12cad4d95d35df7f",
       "b69ab73ade473181",
       "fe04993c9918963a",
       "506fe5d55093ecae"
@@ -10236,8 +10238,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-07T05:59:10.326Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "triaged_out"
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://www.sfda.gov.sa/en/career-vision-and-mission",
