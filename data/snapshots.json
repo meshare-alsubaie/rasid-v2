@@ -651,7 +651,7 @@
     "lastChangedISO": "2026-09-07T09:34:43.662Z",
     "thinRuns": 0,
     "pendingClassification": true,
-    "classifyFailures": 1
+    "classifyFailures": 2
   },
   {
     "sourceUrl": "https://awqaf.gov.sa/ar/ar/hiring/",
@@ -1950,7 +1950,7 @@
     "firstSeenISO": "2026-08-29T02:22:33.828Z",
     "lastChangedISO": "2026-08-31T00:02:49.563Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://careers.zatca.gov.sa/search/?createNewAlert=false&q=&locationsearch=",
@@ -3512,7 +3512,8 @@
     "firstSeenISO": "2026-09-03T01:18:25.099Z",
     "lastChangedISO": "2026-09-03T01:18:25.099Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://ndf.gov.sa/",
@@ -5160,7 +5161,8 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-08-31T00:02:49.563Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://www.aramco.com/en/careers/for-saudi-applicants/student-opportunities/university-and-vocational-college-internship-programs/university-internship-program",
@@ -7549,7 +7551,7 @@
   {
     "sourceUrl": "https://www.mim.gov.sa/ar/empower-training/cooperative-training",
     "orgId": "mim",
-    "contentHash": "e381123cd88bfd2fc412151e84fcecab2a5b0658f00b0e8e5d4afa7bfd6d4d22",
+    "contentHash": "22549e17a8dac103fb9c6012898e3c6b1af0d0f5a3ea26a60c2593afd8fe4331",
     "blockHashes": [
       "1cb91553dd3291a4",
       "5300d4cdd32a8d33"
@@ -7557,9 +7559,10 @@
     "extractedChars": 2495,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T02:22:33.828Z",
-    "lastChangedISO": "2026-09-07T08:37:17.072Z",
+    "lastChangedISO": "2026-09-07T10:12:28.817Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://www.mim.gov.sa/ar/media-center/news",
@@ -9897,7 +9900,8 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-08-31T19:04:22.590Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://www.saudiexchange.sa/wps/portal/saudiexchange/about-saudi-exchange/aboutus/careers?locale=ar",
@@ -10409,7 +10413,8 @@
     "firstSeenISO": "2026-09-03T01:22:25.873Z",
     "lastChangedISO": "2026-09-03T01:22:25.873Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://www.srca.org.sa/",
@@ -10792,7 +10797,8 @@
     "firstSeenISO": "2026-09-02T23:42:46.216Z",
     "lastChangedISO": "2026-09-07T08:33:10.808Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://www.tahakom.com/",
@@ -10815,7 +10821,7 @@
   {
     "sourceUrl": "https://www.tahakom.com/careers",
     "orgId": "tahakom",
-    "contentHash": "c6cc57c0f16594942f48318c12f633c350c76a44473935a33fe25d3b4b404684",
+    "contentHash": "809b02d87d75c39f9056ddfd5e8ddff9f708fde920c51c4f54fd2f4898e0146f",
     "blockHashes": [
       "d44217251213a019",
       "611753a8aea1ade1",
@@ -10823,10 +10829,10 @@
       "1a5263a5a2541c46",
       "b94e9ce7eac243c4"
     ],
-    "extractedChars": 833,
+    "extractedChars": 838,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-03T05:13:40.059Z",
-    "lastChangedISO": "2026-09-07T07:57:22.566Z",
+    "lastChangedISO": "2026-09-07T10:12:28.817Z",
     "thinRuns": 0,
     "pendingClassification": true
   },
