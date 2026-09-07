@@ -3586,7 +3586,7 @@
     "orgId": "ndf",
     "contentHash": "c15a9ba6029ce613cc49671da3f73fe216fda4f9b072ab874f888ad8d2ec9393",
     "blockHashes": [
-      "60ad314bc9ecef5b",
+      "253f974cd7219521",
       "cea7fd3977a9c5c0"
     ],
     "extractedChars": 3078,
@@ -3594,7 +3594,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-07T07:03:38.002Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://ndf.gov.sa/media-center",
@@ -7017,7 +7017,7 @@
   {
     "sourceUrl": "https://www.kapsarc.org/",
     "orgId": "kapsarc",
-    "contentHash": "d25793abcada48d07863b943ff39611907aac32e927e00a5685748e75c5a5dc3",
+    "contentHash": "f5992b219b565ce6f0d4107b1882c9f0f65f7847e1c15076d09f787b380c951e",
     "blockHashes": [
       "dbad88ec8435b910",
       "11ed80f75ad0e89e",
@@ -7033,17 +7033,18 @@
       "1ca6bdcf58bdb906",
       "ce9368f230937fe6",
       "069cab84a35d09fa",
-      "8736445536bb893c",
-      "04d84cee756213cc",
+      "75e4929a31254b28",
+      "70cd7b960fc7363c",
       "0a83eb39b7d98b65",
       "db7321e737c4067b"
     ],
     "extractedChars": 1443,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T22:03:35.383Z",
-    "lastChangedISO": "2026-08-31T00:02:49.563Z",
+    "lastChangedISO": "2026-09-07T13:10:25.881Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://www.kapsarc.org/newsroom/events/",
