@@ -2328,16 +2328,17 @@
   {
     "sourceUrl": "https://gmedia.gov.sa/",
     "orgId": "gcam",
-    "contentHash": "67710a4863891635808b959b0fb8d0e3488f948344b31346f02996714095a023",
+    "contentHash": "463a79069dc84dd2516fc18282db016ffcd04daa624286b56ae38b68250352b4",
     "blockHashes": [
-      "a65f79202676ee7c"
+      "463a79069dc84dd2"
     ],
     "extractedChars": 1118,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-07T07:57:22.566Z",
+    "lastChangedISO": "2026-09-07T12:53:51.790Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://gmedia.gov.sa/ar/hiring",
@@ -3023,36 +3024,36 @@
   {
     "sourceUrl": "https://momah.gov.sa/ar",
     "orgId": "housing",
-    "contentHash": "54ac3ae07e568c9396f7abceba5e827194824ee1f8cc64541327ade83ceca007",
+    "contentHash": "198aaa71c38cbd3ccf0a6452577ebb037df5d12e820350df5a5dca1eaada79ba",
     "blockHashes": [
       "887164f092968538",
       "eb02fbb050b9b8fb",
       "f44856ce9e635b31",
-      "1d74d5ee92d241b0",
+      "a1c504066e44cf15",
+      "4ab4dc65175b8ac3",
+      "e405fe0c9bdf1184",
+      "40b6192d1f6d3891",
+      "67029eeba011e9a6",
       "5d15152619ff887e",
-      "a2a880af205a20fc",
+      "b54a19923370fb32",
+      "98440ed042fa4b83",
       "560edfe1df9d8921",
       "23b97a8a93aba477",
       "9cd3abf7fd1573ff",
-      "5dae8e49762a6289",
-      "0c34a40710ac2847",
-      "5226195633e698c1",
-      "6ed6433811d6a278",
-      "931db9aeb6e6db33",
-      "2661baf1609f910d",
-      "f004378018a93cf1",
-      "09b1bd561f62b68f",
-      "c8619f58227e5385",
+      "2231f177c32df503",
+      "9ac30262caf855e2",
+      "235e588cf7d09c80",
       "ff6f87e39638cb9b",
-      "d1c10e187288b436",
-      "e581774de4ac2d0f",
+      "24fbc1a2812a5e00",
       "ac1405062719fb86",
-      "139fd9c9e4ee0230"
+      "08a522e3a42349ef",
+      "09b1bd561f62b68f",
+      "674f4e0db7c32e8e"
     ],
     "extractedChars": 153887,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-07T06:43:42.049Z",
+    "lastChangedISO": "2026-09-07T12:53:51.790Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "triaged_out"
@@ -7548,7 +7549,7 @@
   {
     "sourceUrl": "https://www.mim.gov.sa/ar/empower-training/cooperative-training",
     "orgId": "mim",
-    "contentHash": "94370539f4ca83e994b20813cfa5da7fec37238441ae44546273bd0a442a2480",
+    "contentHash": "6f3fa18bb17b422653b9bad63e6dfabec9b227f8e21dd6330df0112f3ffab17d",
     "blockHashes": [
       "1cb91553dd3291a4",
       "5300d4cdd32a8d33"
@@ -7556,9 +7557,10 @@
     "extractedChars": 2495,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T02:22:33.828Z",
-    "lastChangedISO": "2026-09-07T12:06:08.235Z",
+    "lastChangedISO": "2026-09-07T12:53:51.790Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://www.mim.gov.sa/ar/media-center/news",
@@ -9896,7 +9898,7 @@
     "lastChangedISO": "2026-08-31T19:04:22.590Z",
     "thinRuns": 0,
     "pendingClassification": true,
-    "classifyFailures": 1
+    "classifyFailures": 2
   },
   {
     "sourceUrl": "https://www.saudiexchange.sa/wps/portal/saudiexchange/about-saudi-exchange/aboutus/careers?locale=ar",
