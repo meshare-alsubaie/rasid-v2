@@ -3737,19 +3737,18 @@
   {
     "sourceUrl": "https://redf.gov.sa/",
     "orgId": "redf",
-    "contentHash": "3a6480ca27bef020de2ba9b1bb34827176c13d84ed464ca317e175a8db77d16e",
+    "contentHash": "b01c0686a1050b89a415f87a17593ff9514b52f4bb64e49a1b56ee187736e147",
     "blockHashes": [
       "6bc16366b4220896",
       "743b9c5832ecc399",
       "e5293799b982146e"
     ],
-    "extractedChars": 576,
+    "extractedChars": 1771,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-07T05:37:31.051Z",
+    "lastChangedISO": "2026-09-07T11:39:37.954Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://redf.gov.sa/ar/careers",
@@ -4148,17 +4147,16 @@
   {
     "sourceUrl": "https://sta.gov.sa/",
     "orgId": "sta",
-    "contentHash": "e837e53880dd6d6accad57a83694e440c8d946d2a65c9b8cf1538079c8e22fb1",
+    "contentHash": "b38f72feb3d56ef07910571668ff25247a63bc93336a4392b954400a09470ed6",
     "blockHashes": [
       "e837e53880dd6d6a"
     ],
-    "extractedChars": 177,
+    "extractedChars": 2102,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-07T05:37:31.051Z",
+    "lastChangedISO": "2026-09-07T11:39:37.954Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://takamolholding.com/ar/join-us",
@@ -5259,7 +5257,7 @@
   {
     "sourceUrl": "https://www.awqaf.gov.sa/ar",
     "orgId": "awqaf",
-    "contentHash": "048953ec4fb7f5b54c63107732156af7698fcd2cbe62d51298fdfb34db7a4044",
+    "contentHash": "1c812651a649ddc5a75aa5cf83517d232f0b4715ab626a247376861c997e9730",
     "blockHashes": [
       "7364f70c455dc78c",
       "c804732dd480d71a",
@@ -5279,9 +5277,9 @@
     "extractedChars": 3458,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
-    "lastChangedISO": "2026-09-06T04:25:17.415Z",
+    "lastChangedISO": "2026-09-07T11:39:37.954Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://www.bankalbilad.com.sa/en/about/pages/training.aspx",
@@ -5521,8 +5519,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-07T05:37:31.051Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.ecza.gov.sa/ar",
@@ -6209,7 +6206,7 @@
   {
     "sourceUrl": "https://www.gaca.gov.sa/",
     "orgId": "gaca",
-    "contentHash": "d849b3813085e4fa73300afdfcc1fe367868ffd87f5ba84a9cb7cab76fa8521e",
+    "contentHash": "7529b62f1ed5a5202e38f17dc49525be14d86308378353b5f33726c840d8f2a3",
     "blockHashes": [
       "0e04793a90380295",
       "67ba147535885b5a",
@@ -6220,7 +6217,7 @@
     "extractedChars": 1866,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-07T07:57:22.566Z",
+    "lastChangedISO": "2026-09-07T11:39:37.954Z",
     "thinRuns": 0,
     "pendingClassification": true
   },
@@ -10838,7 +10835,7 @@
   {
     "sourceUrl": "https://www.taifcity.gov.sa/#/ar",
     "orgId": "taif_amanah",
-    "contentHash": "234015682682baf34ff0b2eb98895b9825426aa7ce2f4a2d8a82924f227df526",
+    "contentHash": "83cde60bdd726a7257ece45b96587e8c479e4f1d75669e2fd3dd7309df0d5434",
     "blockHashes": [
       "969f0f9d8129003d",
       "b6911745d8940c74",
@@ -10849,13 +10846,12 @@
       "64df7a90c572851b",
       "8554e1d0ca772440"
     ],
-    "extractedChars": 1917,
+    "extractedChars": 5844,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T23:54:26.779Z",
-    "lastChangedISO": "2026-09-07T05:37:31.051Z",
+    "lastChangedISO": "2026-09-07T11:39:37.954Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "triaged_out"
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://www.thiqah.sa/",
@@ -11256,7 +11252,7 @@
   {
     "sourceUrl": "https://yaqeen.sa/ar/",
     "orgId": "falcom",
-    "contentHash": "6ab26da8ff83b974b9631dec1f57a994592a81e374bca61bef8203a6524cd579",
+    "contentHash": "8ce9036120eb2f8fc1d1b9f00638bea2344a917e55b895657b4ee87a85722cf2",
     "blockHashes": [
       "a0eac9fd663141a9",
       "b7c33a988b2d9d3f",
@@ -11304,12 +11300,12 @@
       "6c34169b09a3fc92",
       "1b233cdcfecc1fd5"
     ],
-    "extractedChars": 9970,
-    "extractionMethod": "body_fallback",
+    "extractedChars": 11130,
+    "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-08-31T00:02:49.563Z",
+    "lastChangedISO": "2026-09-07T11:39:37.954Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://zatca.gov.sa/ar",
