@@ -2681,15 +2681,15 @@
   {
     "sourceUrl": "https://lcgpa.gov.sa/ar/Pages/default.aspx",
     "orgId": "lcgpa",
-    "contentHash": "8355003f690cd2bfb21f2171282031d658468e6345be6aa8920da23c4be40791",
+    "contentHash": "e2d6d5249a4a3d5a8ded2e8a112782436e61abb1b7185761f308b10c194672e9",
     "blockHashes": [
-      "04129c28bfa63bf4",
+      "8450bc9a29f56a1c",
       "beda84e843f95551"
     ],
     "extractedChars": 218,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-06T16:00:58.273Z",
+    "lastChangedISO": "2026-09-07T05:27:54.589Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -2785,7 +2785,7 @@
   {
     "sourceUrl": "https://mawhiba.org/",
     "orgId": "mawhiba",
-    "contentHash": "5faaea238a38519b69df9a5fe2b925b2f832e135f202fc9685b5407780d530a2",
+    "contentHash": "152eae7d3a364037f3109b277fe5e7041b6446b219e522e5835714af11c150f8",
     "blockHashes": [
       "cebaa0d7740345e0",
       "9c8f9dc120c0d201",
@@ -2808,7 +2808,7 @@
       "c4583f676c27517a",
       "4ea242e080578a16",
       "a4e4e1fbeaab5463",
-      "043f3dcd3359a216",
+      "b611b67d0ce88293",
       "b518044d0e3ef109",
       "1f3c4598715a2661",
       "5a644146634488e9"
@@ -2816,7 +2816,7 @@
     "extractedChars": 8737,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-06T16:21:51.070Z",
+    "lastChangedISO": "2026-09-07T05:27:54.589Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -3640,16 +3640,17 @@
   {
     "sourceUrl": "https://ndf.gov.sa/media-center/annual-reports",
     "orgId": "ndf",
-    "contentHash": "f9ecd1464986fcf895ae5ad35972a3ab229e19dab63976d8db15630b2a3650a2",
+    "contentHash": "850027d24080a6bf55b7cd5365060ecb23c0e73b2917c5502172d7f8d4128703",
     "blockHashes": [
-      "f9ecd1464986fcf8"
+      "850027d24080a6bf"
     ],
-    "extractedChars": 1282,
+    "extractedChars": 1284,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-06T04:19:00.384Z",
+    "lastChangedISO": "2026-09-07T05:27:54.589Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://ndf.gov.sa/media-center/articles",
@@ -6589,11 +6590,11 @@
   {
     "sourceUrl": "https://www.hrdf.org.sa/products-and-services/programs/individuals/training/cooperative-training/",
     "orgId": "hrdf_coop",
-    "contentHash": "e893205191b9e423bcbc440378fa250c288da2765866bc0567c186e04b50ac7d",
+    "contentHash": "2d2084a5a130a18f90953cde2724eb02678e811450d7a1560501df3afd756ad9",
     "blockHashes": [
       "45526a3a724650be",
       "74e4c1d2a646a96e",
-      "ece424756741dee3",
+      "4142348cbaea74af",
       "0bbb8684587712ce",
       "708fe6c77bb05acc",
       "8b7e6b90d8c89aa7",
@@ -6763,7 +6764,7 @@
     "extractedChars": 8563,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-03T01:25:25.661Z",
-    "lastChangedISO": "2026-09-06T10:14:31.584Z",
+    "lastChangedISO": "2026-09-07T05:27:54.589Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -7699,16 +7700,16 @@
   {
     "sourceUrl": "https://www.moc.gov.sa/ar",
     "orgId": "moc",
-    "contentHash": "07c2e8c2c5a5c2b4e55ffe1e3fbe0744154c11450a590e325c9749bdc443b222",
+    "contentHash": "ee9ca52a8cd0243bdef3ce0b1437ddb6bf840c036b5ee59c4ed04e560621cb54",
     "blockHashes": [
       "88c122fdb76fc42f",
-      "23ed2c04c83c95e8",
-      "fb2c726ea3e48c9e"
+      "95189895a5329c54",
+      "ca8d6123c6de06cd"
     ],
-    "extractedChars": 6094,
+    "extractedChars": 6088,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-06T16:21:51.070Z",
+    "lastChangedISO": "2026-09-07T05:27:54.589Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -9538,7 +9539,7 @@
   {
     "sourceUrl": "https://www.riyadbank.com/ar/personal-banking",
     "orgId": "riyadbank",
-    "contentHash": "7f6ffe85c9e2aabe9c3060b62e77d95ffcfb25a12d3550e1856451804158fe92",
+    "contentHash": "29a8cadc39eef5713d228d9622218ca296b9c3e1c5782cb712abccb86364e3dc",
     "blockHashes": [
       "c5fa97b84e96f11e",
       "a01ad1ea1a27690a",
@@ -9563,15 +9564,13 @@
       "dd09a93c19a5b408",
       "fc0a22cc81c08834",
       "5ca46b716e2fe884",
-      "5b89998625f6c35a",
-      "4f9d3db32b80f12b",
+      "1d775fb08011859c",
       "303fe28588764a9b",
       "7a8a143470365dc2",
-      "3da50cd1c3c80f72",
-      "75ad41c21fa9b0e1",
+      "960919b7fb63409c",
       "c845d371bfc055e6",
       "e91a2dc79c3ef7ff",
-      "d22dd1cc9b5516ee",
+      "75701b4b0c077673",
       "0b4f6c1a982c9472",
       "cb4329c80213103c",
       "853e155161611ffc",
@@ -9584,10 +9583,10 @@
       "27ab07a2e57dda34",
       "f2f0e16c376080f6"
     ],
-    "extractedChars": 10029,
+    "extractedChars": 10366,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
-    "lastChangedISO": "2026-09-06T16:29:01.450Z",
+    "lastChangedISO": "2026-09-07T05:27:54.589Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
