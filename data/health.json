@@ -1163,11 +1163,11 @@
   {
     "sourceUrl": "https://mc.gov.sa/ar/mediacenter/News/pages/default.aspx",
     "orgId": "mc",
-    "lastAttemptISO": "2026-09-07T11:48:16.208Z",
+    "lastAttemptISO": "2026-09-07T14:52:08.689Z",
     "lastSuccessISO": "2026-09-07T11:48:16.208Z",
-    "consecutiveFailures": 0,
-    "lastError": null,
-    "state": "healthy"
+    "consecutiveFailures": 1,
+    "lastError": "page.goto: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://mc.gov.sa/ar/mediacenter/News/pages/default.aspx\", waiting until \"domcontentloaded\"\u001b[22m\n",
+    "state": "degraded"
   },
   {
     "sourceUrl": "https://mc.gov.sa/ar/pages/default.aspx",
@@ -1631,8 +1631,8 @@
   {
     "sourceUrl": "https://sdaia.gov.sa/ar/Sectors/Ncai/Pages/default.aspx",
     "orgId": "ncai",
-    "lastAttemptISO": "2026-09-07T11:48:16.208Z",
-    "lastSuccessISO": "2026-09-07T11:48:16.208Z",
+    "lastAttemptISO": "2026-09-07T14:52:08.689Z",
+    "lastSuccessISO": "2026-09-07T14:52:08.689Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -2738,8 +2738,8 @@
   {
     "sourceUrl": "https://www.mim.gov.sa/ar/media-center/news",
     "orgId": "mim",
-    "lastAttemptISO": "2026-09-07T11:51:56.580Z",
-    "lastSuccessISO": "2026-09-07T11:51:56.580Z",
+    "lastAttemptISO": "2026-09-07T14:52:08.689Z",
+    "lastSuccessISO": "2026-09-07T14:52:08.689Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -3269,8 +3269,8 @@
   {
     "sourceUrl": "https://www.rcrc.gov.sa/news-ar/",
     "orgId": "rcrc",
-    "lastAttemptISO": "2026-09-07T11:48:16.208Z",
-    "lastSuccessISO": "2026-09-07T11:48:16.208Z",
+    "lastAttemptISO": "2026-09-07T14:52:08.689Z",
+    "lastSuccessISO": "2026-09-07T14:52:08.689Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -3458,8 +3458,8 @@
   {
     "sourceUrl": "https://www.saso.gov.sa/ar/mediacenter/news/Pages/default.aspx",
     "orgId": "saso",
-    "lastAttemptISO": "2026-09-07T11:51:56.580Z",
-    "lastSuccessISO": "2026-09-07T11:51:56.580Z",
+    "lastAttemptISO": "2026-09-07T14:52:08.689Z",
+    "lastSuccessISO": "2026-09-07T14:52:08.689Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -3638,8 +3638,8 @@
   {
     "sourceUrl": "https://www.sidf.gov.sa/ar/News",
     "orgId": "sidf",
-    "lastAttemptISO": "2026-09-07T11:48:16.208Z",
-    "lastSuccessISO": "2026-09-07T11:48:16.208Z",
+    "lastAttemptISO": "2026-09-07T14:52:08.689Z",
+    "lastSuccessISO": "2026-09-07T14:52:08.689Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
