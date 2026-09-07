@@ -1327,7 +1327,7 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/search-results",
     "orgId": "maaden",
-    "contentHash": "c30172d9b2f5a6d61253b71e4f6f728b25edf2ed8b51c7bcd09d176206170aef",
+    "contentHash": "93d0dc7b49c38e619e1c1f3a443cbbc6d3c2401f71004936b7a1e26d3b2cfb1a",
     "blockHashes": [
       "0593a1678d987760",
       "d6c0adacb353836a",
@@ -1335,12 +1335,12 @@
       "6da241dc7c60c25f",
       "17001de56208a928"
     ],
-    "extractedChars": 240,
-    "extractionMethod": "readability",
+    "extractedChars": 268,
+    "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-07T07:52:12.418Z",
+    "lastChangedISO": "2026-09-07T08:44:42.683Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://careers.mcit.gov.sa/",
@@ -5435,7 +5435,7 @@
   {
     "sourceUrl": "https://www.bog.gov.sa/en/EServices/judiciaryHiring/Pages/default.aspx",
     "orgId": "bog",
-    "contentHash": "81f8d73206efba83e5dada32be755e3c79048f06382e97494defc16051c79dd9",
+    "contentHash": "153d2ebf4c752893fa58c0b53c075e12e71bb9ddc7503b77e9bfd42e68348877",
     "blockHashes": [
       "46d9575ec382a9d1",
       "96c63175498462d9",
@@ -5447,9 +5447,9 @@
     "extractedChars": 756,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-07T07:52:12.418Z",
+    "lastChangedISO": "2026-09-07T08:44:42.683Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://www.bog.gov.sa/en/EServices/judiciaryHiring/Pages/Hiring.aspx",
