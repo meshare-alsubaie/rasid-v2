@@ -650,7 +650,7 @@
     "lastChangedISO": "2026-09-07T11:55:15.336Z",
     "thinRuns": 0,
     "pendingClassification": true,
-    "classifyFailures": 1
+    "classifyFailures": 2
   },
   {
     "sourceUrl": "https://awqaf.gov.sa/ar/ar/hiring/",
@@ -3572,14 +3572,19 @@
     "sourceUrl": "https://ncvc.gov.sa/en/Pages/COOP-Training.aspx",
     "orgId": "ncvc",
     "contentHash": "fe04ef72e1e16c5286807e1e7cee4d1b8a0766626b0efec74bef3a58ae6f6f9d",
-    "blockHashes": [],
+    "blockHashes": [
+      "6704e0fff9389b39",
+      "4d9c65777643b502",
+      "270633c3f308ab38",
+      "e71595095aea4f26"
+    ],
     "extractedChars": 1114,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-03T01:18:25.099Z",
     "lastChangedISO": "2026-09-03T01:18:25.099Z",
     "thinRuns": 0,
-    "pendingClassification": true,
-    "classifyFailures": 2
+    "pendingClassification": false,
+    "classifyFailures": 3
   },
   {
     "sourceUrl": "https://ndf.gov.sa/",
@@ -4365,7 +4370,7 @@
   {
     "sourceUrl": "https://training.moj.gov.sa/",
     "orgId": "moj",
-    "contentHash": "f4c6ef6b783b69d09a8f681ad1d80f1df35ef8cb8864917255879208cc305886",
+    "contentHash": null,
     "blockHashes": [
       "84a570379809f573",
       "ab443a0bbfda7883"
@@ -10471,14 +10476,26 @@
     "sourceUrl": "https://www.sirar.com.sa/about-us/careers/",
     "orgId": "sirar",
     "contentHash": "4a8dbda6939749e4046bf928c47e2441704c77096c5c6edc1914d1fa722e5354",
-    "blockHashes": [],
+    "blockHashes": [
+      "3edfae9178731135",
+      "f315fc3adc4dd1ba",
+      "f0bb7d50974b7324",
+      "8c28b11b8e4f509a",
+      "83e860dc6484a91d",
+      "d013390564df71a6",
+      "2ca61127e784c85f",
+      "0b3e9f3dd3ccb856",
+      "0d830fcb763462be",
+      "f0f33becb59938be",
+      "f423703300d81cf7"
+    ],
     "extractedChars": 1737,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-03T01:22:25.873Z",
     "lastChangedISO": "2026-09-03T01:22:25.873Z",
     "thinRuns": 0,
-    "pendingClassification": true,
-    "classifyFailures": 2
+    "pendingClassification": false,
+    "classifyFailures": 3
   },
   {
     "sourceUrl": "https://www.srca.org.sa/",
@@ -11177,23 +11194,19 @@
     "orgId": "tadawul",
     "contentHash": "d0d3b5ac169f1b73ab7aa83d70c779f4ee298b89ccc3b8284f83c6034148bac3",
     "blockHashes": [
-      "dbfb7021493a5943",
-      "4acb10188c67e120",
-      "9b405996eceb74cf",
-      "5b4fe1a76867e3dc",
-      "4cacbd860b3b4c52",
-      "a888c2eda107d142",
-      "a8f106c1cf7430a5",
-      "99045a67c833cd6b",
-      "332ab17b1cccbd59"
+      "0cfcdfa727221d00",
+      "689f707057688943",
+      "50a3cca530113406",
+      "a3435878c6033280",
+      "b2cab4da26050ee9"
     ],
     "extractedChars": 1186,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-02T23:42:46.216Z",
     "lastChangedISO": "2026-09-07T08:33:10.808Z",
     "thinRuns": 0,
-    "pendingClassification": true,
-    "classifyFailures": 2
+    "pendingClassification": false,
+    "classifyFailures": 3
   },
   {
     "sourceUrl": "https://www.tahakom.com/",
