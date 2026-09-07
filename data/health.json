@@ -1199,8 +1199,8 @@
   {
     "sourceUrl": "https://misa.gov.sa/ar/",
     "orgId": "misa",
-    "lastAttemptISO": "2026-09-07T04:58:04.574Z",
-    "lastSuccessISO": "2026-09-07T04:58:04.574Z",
+    "lastAttemptISO": "2026-09-07T11:00:16.453Z",
+    "lastSuccessISO": "2026-09-07T11:00:16.453Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -1811,11 +1811,11 @@
   {
     "sourceUrl": "https://tvtc.gov.sa/",
     "orgId": "tvtc",
-    "lastAttemptISO": "2026-09-07T04:58:04.574Z",
+    "lastAttemptISO": "2026-09-07T11:00:16.453Z",
     "lastSuccessISO": "2026-09-05T08:41:32.854Z",
-    "consecutiveFailures": 5,
+    "consecutiveFailures": 6,
     "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser reached it but the body was not a robots.txt, so it is treated as a refusal",
-    "state": "degraded"
+    "state": "broken"
   },
   {
     "sourceUrl": "https://wadimakkah.sa/",
