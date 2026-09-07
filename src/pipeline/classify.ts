@@ -105,7 +105,39 @@ export function notCopiedFrom(excerpt: string, value: Classification): string[] 
     }
   };
 
-  copied("titleAr", value.titleAr);
+  /*
+   * A title is a label, and a label is assembled. The facts are not.
+   *
+   * Every other field here is a quotation - a date as the page wrote it, a
+   * specialism from its list, a condition in its own words - and an exact
+   * substring is the right test for a quotation. A title is different: a model
+   * asked to name a page composes "التدريب التعاوني في مصرف الراجحي" out of two
+   * phrases that are both on the page but never adjacent to each other, and the
+   * substring test called that an invention.
+   *
+   * The cost was not one rejected reply. A schema failure keeps the page owed a
+   * verdict, so the same page was re-classified and re-failed every round, for
+   * ever - ninety-five pages in that state, sixty-four of them fetched within
+   * two hours, the processor spent on a loop that could not terminate and a
+   * queue the status screen kept telling him to wait for.
+   *
+   * So the title is checked word by word. Invention still fails, because
+   * invented words are not on the page - "حياديدة وادد لالحمية" fails on every
+   * word, and "Computer Science" fails on an Arabic page. Composition passes,
+   * because every word of it was read off the page. Short words are ignored:
+   * "في" and "من" appear on every page and prove nothing either way.
+   */
+  const titleWords = (value.titleAr ?? "")
+    .split(/[\s،,.:;()\[\]"'«»\-–—/|]+/)
+    .map((w) => normaliseArabic(w))
+    .filter((w) => w.length >= 3);
+  const strayWords = titleWords.filter((w) => !hay.includes(w));
+  if (titleWords.length > 0 && strayWords.length > 0) {
+    invented.push(
+      `titleAr has ${strayWords.length} word(s) the page never printed: ${JSON.stringify(strayWords.slice(0, 4).join(" "))}`,
+    );
+  }
+
   copied("zeroCoursesQuote", value.zeroCoursesQuote);
   copied("opensRaw", value.opensRaw);
   copied("closesRaw", value.closesRaw);

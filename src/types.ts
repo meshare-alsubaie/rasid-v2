@@ -498,6 +498,27 @@ export interface SourceSnapshot {
    * Absent on a page that reached a verdict, which is the ordinary case.
    */
   settledWithoutVerdict?: "no_training_word" | "triaged_out";
+  /**
+   * How many rounds in a row the classifier has failed on this exact text.
+   *
+   * A failed classification keeps `pendingClassification`, which is right: a
+   * model that was down should be asked again. But it made an unbounded loop
+   * for a page the model gets wrong the *same way* every time - and it does,
+   * because the failure is usually the copied-wording guard refusing a
+   * paraphrase, and a paraphrase is deterministic at temperature 0.
+   *
+   * Measured on 2026-09-07: ninety-five pages owed a verdict, sixty-four of them
+   * fetched within the previous two hours, being re-classified and re-failed
+   * every round. `alrajhi` returned "التدريب التعاوني في مصرف الراجحي" - a
+   * fluent paraphrase of a page that does not contain that sentence - round
+   * after round. The queue could not empty, the processor was spent on it, and
+   * the status screen told him to wait for something that was never going to
+   * finish.
+   *
+   * Reset to zero by any success, and by the text changing, because either one
+   * means this is a new question.
+   */
+  classifyFailures?: number;
 }
 
 export interface SourceHealth {

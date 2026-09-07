@@ -175,6 +175,60 @@ console.log("\nnothing is required to be present");
   check("a reply that claims nothing is accepted", notCopiedFrom(page, empty).length === 0);
 }
 
+console.log("\na title is a label, and a label is assembled");
+{
+  /*
+   * The exact-substring test was right for a quotation and wrong for a title. A
+   * model asked to name a page composes "التدريب التعاوني في مصرف الراجحي" out
+   * of two phrases that are both on the page and never adjacent, and the guard
+   * called it an invention.
+   *
+   * The cost was not one rejected reply. A schema failure keeps the page owed a
+   * verdict, so the same page was re-classified and re-failed every round for
+   * ever: ninety-five pages in that state, sixty-four of them fetched within two
+   * hours, the processor spent on a loop that could not terminate and a queue
+   * the status screen kept telling him to wait for. Measured after the change on
+   * the five worst offenders: nought of five judged became three of five.
+   */
+  const rajhi = "مصرف الراجحي · برنامج التدريب التعاوني لطلاب الجامعات في الرياض. التخصصات: الأمن السيبراني.";
+  const withTitle = (titleAr: string): Classification => ({
+    isTrainingAnnouncement: true,
+    product: "coop",
+    titleAr,
+    opensISO: null,
+    closesISO: null,
+    opensRaw: null,
+    closesRaw: null,
+    moreOnPage: false,
+    majors: [],
+    seats: null,
+    stipendSAR: null,
+    durationWeeks: null,
+    cities: [],
+    statesZeroCoursesRule: false,
+    zeroCoursesQuote: null,
+    applyUrl: null,
+  });
+
+  check(
+    "a title composed from words on the page is accepted",
+    notCopiedFrom(rajhi, withTitle("التدريب التعاوني في مصرف الراجحي")).length === 0,
+    notCopiedFrom(rajhi, withTitle("التدريب التعاوني في مصرف الراجحي")).join("; "),
+  );
+  check("and an exact copy still is", notCopiedFrom(rajhi, withTitle("برنامج التدريب التعاوني")).length === 0);
+
+  /* The half that must never soften: invention is still invention. */
+  const inventions: [string, string][] = [
+    ["a run of non-words", "حياديدة وادد لالحمية المحارة"],
+    ["an English title on an Arabic page", "Cooperative Training Program"],
+    ["a title about a different subject", "برنامج تطوير المدن الصناعية الكبرى"],
+  ];
+  for (const [label, title] of inventions) {
+    check(`${label} is still refused`, notCopiedFrom(rajhi, withTitle(title)).length > 0);
+  }
+}
+
+
 console.log("\nthe excerpt shows the model the deadline, not only the programme");
 {
   /*

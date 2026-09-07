@@ -48,7 +48,22 @@ export type NoticeKind =
    * which says in the title that the fit is unknown - he is told, and he is not
    * told a number nobody computed.
    */
-  | "fit_unknown";
+  | "fit_unknown"
+  /**
+   * The number of sources that can be read has fallen sharply.
+   *
+   * Every alarm before this one watches *one* source, or the classifier, or the
+   * queue. None of them watches the thing that actually went wrong: on
+   * 2026-09-07 a robots guard was refusing thirty-four sources at once - eight
+   * percent of everything watched - and the only symptom was a handful of
+   * "one source stopped" notices a day, each of which looks like an ordinary
+   * site having an ordinary bad week. Four days passed before anyone counted
+   * them together.
+   *
+   * A per-source alarm cannot see a systemic failure, because a systemic
+   * failure looks exactly like several unrelated ones. This counts.
+   */
+  | "coverage_dropped";
 
 export interface Notice {
   /** Stable across runs, so the log can prove a thing was said only once. */
@@ -171,6 +186,17 @@ export const BAND = {
   newRelevant: 200,
   fitUnknown: 180,
   classifierDown: 250,
+  /*
+   * Above every other alarm about the tool, and below a real opening.
+   *
+   * It was set at 450 first, which put it ahead of a co-op announcement scoring
+   * 95 - and the gate caught that immediately. This file's own rule is that
+   * housekeeping is worth saying and is never worth saying *instead of* an
+   * opening, and a coverage collapse is still housekeeping however alarming.
+   * 260 clears `classifierDown` and `sourceBroken` while any announcement at or
+   * above the notification floor of 60 still outranks it.
+   */
+  coverageDropped: 260,
   sourceBroken: 150,
 } as const;
 
@@ -396,6 +422,31 @@ export function decide(input: DecideInput): Notice[] {
    * nothing is draining - which is what a stalled classifier looks like from
    * out here, and is the only thing this alarm can actually see.
    */
+  /*
+   * The alarm that would have caught the robots regression on the first day.
+   *
+   * Six percent is well above the day-to-day noise of two or three sites having
+   * a bad afternoon, and well below the eight percent that actually went wrong.
+   * A floor of five keeps it quiet on a tiny dataset where one source is a large
+   * fraction of the whole.
+   */
+  const readable = (rows: SourceHealth[]): number =>
+    rows.filter((h) => h.state !== "broken").length;
+  const wasReadable = readable(healthBefore);
+  const nowReadable = readable(healthAfter);
+  const lost = wasReadable - nowReadable;
+  if (wasReadable > 0 && lost >= 5 && lost / wasReadable >= 0.06) {
+    out.push({
+      key: `coverage:${new Date().toISOString().slice(0, 10)}`,
+      kind: "coverage_dropped",
+      title: `🔴 ${lost} مصدراً توقّف دفعة واحدة`,
+      body:
+        `كانت ${wasReadable} صفحة تُقرأ وصارت ${nowReadable}. هذا ليس موقعاً تعطّل، ` +
+        `بل شيء عندنا كسر القراءة على نطاق واسع. افحص بـ npm run status.`,
+      weight: BAND.coverageDropped,
+    });
+  }
+
   const unjudged = after.filter((o) => o.flags.includes("needs_manual_review"));
   const unjudgedBefore = before.filter((o) => o.flags.includes("needs_manual_review")).length;
   const queueMoved = before.length > 0 && unjudged.length < unjudgedBefore;

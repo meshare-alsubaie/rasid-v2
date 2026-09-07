@@ -460,6 +460,25 @@ function staleWording(url: string, text: string): boolean {
 
 async function collect(t: Target): Promise<void> {
   /*
+   * A source not started before the deadline is not started at all.
+   *
+   * The fetch phase races a wall-clock deadline so a wedged round still reaches
+   * its own write. But racing only abandons the *waiting* - every `collect`
+   * already in flight goes on running and can still write a health row after
+   * the round has given up, which made "sources it did not open keep their
+   * health record" pass or fail on timing. A test that flips is not a test.
+   *
+   * Checking here makes the common case deterministic: once the deadline has
+   * passed, nothing new is opened and nothing new is recorded. The few requests
+   * already in flight are left to finish, because cancelling them mid-write is
+   * how a half-written health file happens.
+   */
+  if (outOfTime()) {
+    ranOutOfTime++;
+    return;
+  }
+
+  /*
    * Stopping here leaves the source exactly as it was: no health row is
    * touched, so it stays due and is read first next cycle. That is the
    * opposite of being killed, which discards the whole round's reading.
@@ -614,6 +633,9 @@ async function collect(t: Target): Promise<void> {
       changed || staleWording(t.url, extracted.text)
         ? true
         : (prevSnapshot?.pendingClassification ?? false),
+    // New text is a new question, so a streak of failures on the old text is
+    // not held against it.
+    classifyFailures: changed ? undefined : prevSnapshot?.classifyFailures,
   });
   healthByUrl.set(t.url, {
     sourceUrl: t.url,
@@ -811,6 +833,9 @@ const vanished: string[] = [];
 let classified = 0;
 let notAnnouncements = 0;
 /** Pages whose changed text did not mention training at all. Never silent. */
+/** Rounds of identical failure before a page stops being retried. */
+const MAX_CLASSIFY_FAILURES = 3;
+let giveUps = 0;
 let skippedByFilter = 0;
 /** Remembered verdicts thrown out because their wording is not on the page. */
 let poisonedVerdicts = 0;
@@ -1241,13 +1266,48 @@ if (!NO_CLASSIFY && !DRY_RUN) {
         const record = asManualReview({ ...common, reason: note });
         opportunityById.set(record.id, record);
       }
-      snap.pendingClassification = true;
+      /*
+       * A page the model fails on the same way every round is not a queue, it
+       * is a loop.
+       *
+       * Keeping `pendingClassification` after a failure is right when the model
+       * was down: ask again. It is wrong when the failure is deterministic, and
+       * the common one is - the copied-wording guard refusing a paraphrase, and
+       * a paraphrase at temperature 0 is the same paraphrase every time.
+       *
+       * Measured: ninety-five pages owed a verdict, sixty-four of them fetched
+       * within the previous two hours, re-classified and re-failed every round.
+       * `alrajhi` returned "التدريب التعاوني في مصرف الراجحي" - fluent, and not
+       * a sentence on that page - round after round. The queue could not empty,
+       * the processor was spent on it, and the status screen told him to wait
+       * for something that would never finish.
+       *
+       * After three identical failures the page stops being retried and says
+       * so. Nothing is hidden: the record stays, flagged, with a reason telling
+       * him to open the page himself - which is the honest state, and the one
+       * the app already renders. The moment the text changes it is a new
+       * question and the counter resets, so a page that starts publishing an
+       * announcement is judged like any other.
+       */
+      const failures = (snap.classifyFailures ?? 0) + 1;
+      snap.classifyFailures = failures;
+      if (failures >= MAX_CLASSIFY_FAILURES) {
+        snap.pendingClassification = false;
+        giveUps++;
+        reviewQueue.push(
+          `  ${snap.orgId.padEnd(14)} ${"gave up".padEnd(15)} failed ${failures} rounds running on unchanged text; it will be judged again if the page changes`,
+        );
+      } else {
+        snap.pendingClassification = true;
+      }
       reviewQueue.push(`  ${snap.orgId.padEnd(14)} ${result.stage.padEnd(15)} ${result.reason}`);
       continue;
     }
 
     snap.pendingClassification = false;
     delete snap.settledWithoutVerdict;
+    // A verdict answers the question, so the failure streak is over.
+    delete snap.classifyFailures;
     /*
      * One source, one current record.
      *

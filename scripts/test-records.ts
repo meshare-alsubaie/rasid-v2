@@ -323,13 +323,33 @@ console.log("\nthe deadline that replaces being killed");
    * passing test.
    */
   const LOCK = ".rasid/collect.lock";
+  /*
+   * A lock file is only a lock while its owner is alive.
+   *
+   * This waited on `existsSync` alone, and a lock left behind by a killed round
+   * is exactly the case `collect.ts` handles by taking it over - so the test
+   * failed on a file the code correctly ignores. It asks the same question the
+   * code asks.
+   */
+  const heldByAliveProcess = (): boolean => {
+    if (!existsSync(LOCK)) return false;
+    const pid = Number(readFileSync(LOCK, "utf8").trim());
+    if (!Number.isInteger(pid)) return false;
+    try {
+      process.kill(pid, 0);
+      return true;
+    } catch {
+      return false;
+    }
+  };
+
   const waitedFrom = Date.now();
-  while (existsSync(LOCK) && Date.now() - waitedFrom < 180_000) {
+  while (heldByAliveProcess() && Date.now() - waitedFrom < 180_000) {
     spawnSync(process.execPath, ["-e", "setTimeout(()=>{},2000)"], { timeout: 5_000 });
   }
   check(
-    "the collector lock was free within three minutes",
-    !existsSync(LOCK),
+    "the collector lock is not held by a live process",
+    !heldByAliveProcess(),
     "a lock nobody releases would stop collection entirely",
   );
 

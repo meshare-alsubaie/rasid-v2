@@ -91,6 +91,11 @@
           "no_training_word",
           "triaged_out"
         ]
+      },
+      "classifyFailures": {
+        "description": "How many rounds in a row the classifier has failed on this exact text. Cleared by a success or by the text changing. Past MAX_CLASSIFY_FAILURES the page stops being retried and says so.",
+        "type": "integer",
+        "minimum": 0
       }
     }
   }
