@@ -1,6 +1,6 @@
 {
   "model": "qwen3:8b",
-  "writtenISO": "2026-09-07T12:57:26.352Z",
+  "writtenISO": "2026-09-07T12:59:54.156Z",
   "verdicts": {
     "d3ed902d693a4c1d3b4fc1c6f9b85ea8": null,
     "cc97c142781ff3943c2ea2f9f38af7d8": null,
@@ -917,6 +917,28 @@
     "eee7e744809e5381216b6ef52bcd132e": null,
     "558d0d4e3d2127b543cc1f4242b92599": null,
     "11dd9fd01e3c0058b1e4d63f36794e4e": null,
-    "66ba6d96e131741960361e81c60714b7": null
+    "66ba6d96e131741960361e81c60714b7": null,
+    "bed7b47d8945b5437ca4ee72c2cc329f": {
+      "isTrainingAnnouncement": true,
+      "product": "coop",
+      "titleAr": "برنامج سدايا للتدريب التعاوني",
+      "opensISO": null,
+      "closesISO": null,
+      "opensRaw": null,
+      "closesRaw": null,
+      "moreOnPage": false,
+      "majors": [
+        "البيانات",
+        "الذكاء الاصطناعي",
+        "التقنيات الممكنة لها"
+      ],
+      "seats": null,
+      "stipendSAR": null,
+      "durationWeeks": 8,
+      "cities": [],
+      "statesZeroCoursesRule": false,
+      "zeroCoursesQuote": null,
+      "applyUrl": "https://cooptraining@sdaia.gov.sa"
+    }
   }
 }
