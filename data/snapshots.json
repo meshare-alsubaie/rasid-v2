@@ -7615,7 +7615,7 @@
   {
     "sourceUrl": "https://www.mim.gov.sa/ar/empower-training/cooperative-training",
     "orgId": "mim",
-    "contentHash": "a693dc7eb9898da8575d4e87fc9d45b294b871db8c1fb30608d34a0984db4256",
+    "contentHash": "e381123cd88bfd2fc412151e84fcecab2a5b0658f00b0e8e5d4afa7bfd6d4d22",
     "blockHashes": [
       "1cb91553dd3291a4",
       "5300d4cdd32a8d33"
@@ -7623,7 +7623,7 @@
     "extractedChars": 2495,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T02:22:33.828Z",
-    "lastChangedISO": "2026-09-07T07:47:58.104Z",
+    "lastChangedISO": "2026-09-07T08:37:17.072Z",
     "thinRuns": 0,
     "pendingClassification": true
   },
@@ -9217,7 +9217,7 @@
   {
     "sourceUrl": "https://www.rcrc.gov.sa/news-ar/",
     "orgId": "rcrc",
-    "contentHash": "4835283bb0c2b2a3d8746c662b49835f2f90af6e8ca7ae27d38079feee82c88f",
+    "contentHash": "49773bae297c6122c172aad8d45e03f29643f10e3bf5cf10fd9ffb6ff54c52f2",
     "blockHashes": [
       "dd62229c2f61fb42",
       "306db3646b8a6c73",
@@ -9232,13 +9232,12 @@
       "42d24dc3675b45a7",
       "2ebbd7048725e505"
     ],
-    "extractedChars": 3553,
+    "extractedChars": 3554,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-07T05:33:15.855Z",
+    "lastChangedISO": "2026-09-07T08:37:17.072Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://www.rcu.gov.sa/",
