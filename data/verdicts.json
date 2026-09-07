@@ -1,6 +1,6 @@
 {
   "model": "qwen3:8b",
-  "writtenISO": "2026-09-07T12:39:39.438Z",
+  "writtenISO": "2026-09-07T12:41:46.150Z",
   "verdicts": {
     "d3ed902d693a4c1d3b4fc1c6f9b85ea8": null,
     "cc97c142781ff3943c2ea2f9f38af7d8": null,
@@ -872,6 +872,24 @@
     "08b8dad29ea34fdae295a41ac4f83601": null,
     "cb4cb89ef254239982cb7bd7e364a5fa": null,
     "f69aa1c43983d8ce33ebbc224ffb558c": null,
-    "f8d38510ae06736be2dff06a989434b1": null
+    "f8d38510ae06736be2dff06a989434b1": null,
+    "2f0713a62e659953fb116babdf1f89ac": {
+      "isTrainingAnnouncement": true,
+      "product": "coop",
+      "titleAr": "برنامج التدريب التعاوني",
+      "opensISO": null,
+      "closesISO": null,
+      "opensRaw": null,
+      "closesRaw": null,
+      "moreOnPage": false,
+      "majors": [],
+      "seats": null,
+      "stipendSAR": null,
+      "durationWeeks": null,
+      "cities": [],
+      "statesZeroCoursesRule": false,
+      "zeroCoursesQuote": null,
+      "applyUrl": null
+    }
   }
 }
