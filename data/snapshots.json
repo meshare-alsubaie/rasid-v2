@@ -2289,7 +2289,7 @@
   {
     "sourceUrl": "https://gaca.gov.sa/news",
     "orgId": "gaca",
-    "contentHash": "ab0abc316c5f054ee318ebd4146b08903d69b2e5a79a90a89dd0efc15100a548",
+    "contentHash": "79a5f7bfed5eeec238487deb13e2094a9558a429b312ce4c8032d50d439305a1",
     "blockHashes": [
       "10e1a1d2ae278fe4",
       "b7e9fc0c697d7af6",
@@ -2364,13 +2364,12 @@
       "83a22e1f9fb245f8",
       "ac473f85e97b4d85"
     ],
-    "extractedChars": 21276,
+    "extractedChars": 21332,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-07T05:21:18.166Z",
+    "lastChangedISO": "2026-09-07T08:33:10.808Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://gaca.gov.sa/web/ar-sa/page/home",
@@ -3071,7 +3070,7 @@
   {
     "sourceUrl": "https://modon.gov.sa/ar/MediaCenter/Pages/default.aspx",
     "orgId": "modon",
-    "contentHash": "ece8992eede6f399e8442834e1647815c63c22c156c161716429b8a56c667ae9",
+    "contentHash": "773fcd43a9251fbc3e3b6874000aa48432c5595e8368e1703bdc056861f81435",
     "blockHashes": [
       "7257ccfdbf6b068b",
       "317f2772b9ef6210",
@@ -3081,10 +3080,9 @@
     "extractedChars": 306,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-07T05:21:18.166Z",
+    "lastChangedISO": "2026-09-07T08:33:10.808Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://momah.gov.sa/ar",
@@ -3165,7 +3163,7 @@
   {
     "sourceUrl": "https://momah.gov.sa/ar/form/partnerships-and-cooperation",
     "orgId": "housing",
-    "contentHash": "c3246f801d5981dd6c1792555577579c9b0363edc5420c25ceeb4880e75029f6",
+    "contentHash": "48553ee90fdc782e4ebaa58e4674990a2bd14aa1ae1edad567acb0809d2799a4",
     "blockHashes": [
       "bc22896c0dc046da",
       "d2009185b8a1a230",
@@ -3198,9 +3196,9 @@
     "extractedChars": 151367,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-07T05:21:18.166Z",
+    "lastChangedISO": "2026-09-07T08:33:10.808Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://momah.gov.sa/ar/menu/media-center",
@@ -5683,7 +5681,7 @@
   {
     "sourceUrl": "https://www.etec.gov.sa/ar/jobs",
     "orgId": "etec",
-    "contentHash": "42a91b95c90feff2a99d87349955d72f76f20e9799602abf2c5b250c61275ca9",
+    "contentHash": "2e1a1cdb8812ab4f159cf7c9fb948be8e2e6442e93bfa4f2e26f29fdbbea4a4e",
     "blockHashes": [
       "969f0f9d8129003d",
       "1928fdbb5b09339c",
@@ -5693,9 +5691,9 @@
     "extractedChars": 831,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-05T02:23:16.839Z",
+    "lastChangedISO": "2026-09-07T08:33:10.808Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://www.etec.gov.sa/ar/Pages/default.aspx",
@@ -6524,7 +6522,7 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/news?lang=ar",
     "orgId": "hrc",
-    "contentHash": "58357d61d759548007a132b28e48733f23db8a2914ba756723f3057fc2aca4e7",
+    "contentHash": "f3870e0ac995a8eb1108bb5c171df9aa677332e7e8e16d63ec39cd3e5940b9d4",
     "blockHashes": [
       "12e41a244a8a2984",
       "442182d73776180d",
@@ -6557,10 +6555,9 @@
     "extractedChars": 5431,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-07T05:21:18.166Z",
+    "lastChangedISO": "2026-09-07T08:33:10.808Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://www.hrdf.org.sa/products-and-services/programs/individuals/training/cooperative-training/",
@@ -9773,17 +9770,16 @@
   {
     "sourceUrl": "https://www.saip.gov.sa/ar/media-center/movables-platform",
     "orgId": "saip",
-    "contentHash": "288b299d10fae8164d93be3e8e324553406516b1ce110c97438c23329069065c",
+    "contentHash": "6a780fea9d2a30ff37bc6703a8253434a9aa09577f08b9e680a8caac5cde031a",
     "blockHashes": [
       "288b299d10fae816"
     ],
     "extractedChars": 242,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-07T05:21:18.166Z",
+    "lastChangedISO": "2026-09-07T08:33:10.808Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://www.sami.com.sa/",
@@ -10316,7 +10312,7 @@
   {
     "sourceUrl": "https://www.sfda.gov.sa/en/career-vision-and-mission",
     "orgId": "sfda",
-    "contentHash": "ffb1de8eb303e79e8dc7d8e6c3f7b5fb156cbcf1a7a55f2d37978214bb30da67",
+    "contentHash": "491e160a3d65b67076f0e2c931aff13ff387094da602596adc65f15daf2e1151",
     "blockHashes": [
       "4e3b1c94f76f8148",
       "eba48d47d7bc0f9e",
@@ -10335,9 +10331,9 @@
     "extractedChars": 997,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-07T05:40:09.557Z",
+    "lastChangedISO": "2026-09-07T08:33:10.808Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://www.sidf.gov.sa/ar/News",
@@ -10847,7 +10843,7 @@
   {
     "sourceUrl": "https://www.tadawulgroup.sa/wps/portal/tadawulgroup/joinus",
     "orgId": "tadawul",
-    "contentHash": "218af6789adae9d596633c79e9b359213a247d93501904bfc43eeae06fd8c680",
+    "contentHash": "d0d3b5ac169f1b73ab7aa83d70c779f4ee298b89ccc3b8284f83c6034148bac3",
     "blockHashes": [
       "dbfb7021493a5943",
       "4acb10188c67e120",
@@ -10859,10 +10855,10 @@
       "99045a67c833cd6b",
       "332ab17b1cccbd59"
     ],
-    "extractedChars": 1384,
+    "extractedChars": 1186,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-02T23:42:46.216Z",
-    "lastChangedISO": "2026-09-07T07:41:04.618Z",
+    "lastChangedISO": "2026-09-07T08:33:10.808Z",
     "thinRuns": 0,
     "pendingClassification": true
   },
