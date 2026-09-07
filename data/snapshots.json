@@ -3623,8 +3623,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-07T05:27:54.589Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://ndf.gov.sa/media-center/articles",
@@ -7717,18 +7716,18 @@
   {
     "sourceUrl": "https://www.moe.gov.sa/ar/mediacenter/MOEnews/Pages/default.aspx",
     "orgId": "moe",
-    "contentHash": "4949f4243f52ca6064e997d60335d8a9f755ff5ad9f54916a16af023383f98ef",
+    "contentHash": "0a3c776bcc4c82d98a2f4decd7ff4b7b682663ce12a17e4a45cf186fc6aba3a3",
     "blockHashes": [
       "88b5148b04637d49",
       "74e4c1d2a646a96e",
       "8f56071f87fdcaf5"
     ],
-    "extractedChars": 441,
+    "extractedChars": 232,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-08-31T00:02:49.563Z",
+    "lastChangedISO": "2026-09-07T08:35:34.922Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://www.moe.gov.sa/ar/mediacenter/multimedia/Pages/default.aspx",
@@ -9513,7 +9512,7 @@
   {
     "sourceUrl": "https://www.riyadbank.com/ar/personal-banking",
     "orgId": "riyadbank",
-    "contentHash": "29a8cadc39eef5713d228d9622218ca296b9c3e1c5782cb712abccb86364e3dc",
+    "contentHash": "7f6ffe85c9e2aabe9c3060b62e77d95ffcfb25a12d3550e1856451804158fe92",
     "blockHashes": [
       "c5fa97b84e96f11e",
       "a01ad1ea1a27690a",
@@ -9557,13 +9556,12 @@
       "27ab07a2e57dda34",
       "f2f0e16c376080f6"
     ],
-    "extractedChars": 10366,
+    "extractedChars": 10029,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
-    "lastChangedISO": "2026-09-07T05:27:54.589Z",
+    "lastChangedISO": "2026-09-07T08:35:34.922Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://www.sabic.com/ar/careers",
