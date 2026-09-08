@@ -3751,8 +3751,7 @@
     "firstSeenISO": "2026-08-29T22:03:35.383Z",
     "lastChangedISO": "2026-09-07T06:13:04.999Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://nour.net.sa/ar/news/",
@@ -9165,7 +9164,7 @@
   {
     "sourceUrl": "https://www.rcrc.gov.sa/",
     "orgId": "rcrc",
-    "contentHash": "a58d2f8ffe6d64f1972c95cc692f2c8ae80c53514ce89aaf4523f090c3faa9c4",
+    "contentHash": "024b7106949eed34f119f40e4714bedf04294e1a913f4e0418a64deba3f7e9cf",
     "blockHashes": [
       "dd62229c2f61fb42",
       "306db3646b8a6c73",
@@ -9183,9 +9182,9 @@
     "extractedChars": 1896,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
-    "lastChangedISO": "2026-09-08T06:26:49.336Z",
+    "lastChangedISO": "2026-09-08T12:41:02.016Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://www.rcrc.gov.sa/careers/?lang=ar",
@@ -10365,7 +10364,7 @@
   {
     "sourceUrl": "https://www.sidf.gov.sa/ar/Pages/Home.aspx",
     "orgId": "sidf",
-    "contentHash": "03363fc5773a176569c5ec722a8e2d03ff56b8006f631fa0c881c702ffc0b68c",
+    "contentHash": "754ab16c7349a00cfb7dfa65957029fd3ea32f835027648ccbddac662f0e64c8",
     "blockHashes": [
       "b4513eef12a8e364",
       "32817a481f13ddff",
@@ -10376,9 +10375,9 @@
     "extractedChars": 3878,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
-    "lastChangedISO": "2026-09-04T05:48:00.498Z",
+    "lastChangedISO": "2026-09-08T12:41:02.016Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://www.sidf.gov.sa/Coop",
