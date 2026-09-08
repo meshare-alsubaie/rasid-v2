@@ -1406,8 +1406,8 @@
   {
     "sourceUrl": "https://nca.gov.sa/en/news/",
     "orgId": "nca",
-    "lastAttemptISO": "2026-09-08T13:31:46.571Z",
-    "lastSuccessISO": "2026-09-08T13:31:46.571Z",
+    "lastAttemptISO": "2026-09-08T16:36:12.421Z",
+    "lastSuccessISO": "2026-09-08T16:36:12.421Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -3755,11 +3755,11 @@
   {
     "sourceUrl": "https://www.stats.gov.sa/en/cooperative-training",
     "orgId": "gastat",
-    "lastAttemptISO": "2026-09-08T15:44:16.414Z",
+    "lastAttemptISO": "2026-09-08T16:36:12.421Z",
     "lastSuccessISO": "2026-09-08T15:44:16.414Z",
-    "consecutiveFailures": 0,
-    "lastError": null,
-    "state": "healthy"
+    "consecutiveFailures": 1,
+    "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
+    "state": "degraded"
   },
   {
     "sourceUrl": "https://www.stats.gov.sa/en/news",
