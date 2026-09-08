@@ -1248,10 +1248,10 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/cookiesettings",
     "orgId": "maaden",
-    "contentHash": "0439329a33c3df53758b95cd899d611450bc2bc85877b72de64fdf890f99ae5c",
+    "contentHash": "995613bfa83dc2f93523b316a4d620e9b75c3d4f465b424f8eff98e31144de12",
     "blockHashes": [
       "5569201553604d03",
-      "f4979ecd6a2f2db6",
+      "4c196b7e3be1973c",
       "dd53e083dd4c4329",
       "5e2fc5a4da5c7871",
       "197c66a2b21d9654",
@@ -1316,12 +1316,12 @@
       "ee82ab94d7112a03",
       "60b7b15f81dc7749",
       "abf11bb520a3d451",
-      "8996e469b72fd04e"
+      "a3d1e19024a34684"
     ],
     "extractedChars": 8013,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-08T11:39:21.241Z",
+    "lastChangedISO": "2026-09-08T12:27:50.507Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -2151,7 +2151,7 @@
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T02:22:33.828Z",
     "lastChangedISO": "2026-08-29T02:36:21.032Z",
-    "thinRuns": 107,
+    "thinRuns": 108,
     "pendingClassification": false
   },
   {
@@ -8031,30 +8031,28 @@
   {
     "sourceUrl": "https://www.mofa.gov.sa/",
     "orgId": "mofa",
-    "contentHash": "17812d15f8d54d8aa45a250b66a07b9d7aebf21ef279ff922a700a526f738ef5",
+    "contentHash": "a5d0be0516c03affc1d804eebca685e378428d1ce7af9e73ec4260243caafb7e",
     "blockHashes": [
       "88b5148b04637d49",
       "74e4c1d2a646a96e",
-      "1dc83d650d74c3f4",
-      "b1256b33fe46ab7b",
-      "2a80c45cc7464fc5",
-      "eddc38dbaa198d15",
-      "4b6cf57647033811",
-      "eddc38dbaa198d15",
-      "315dd9bf97ebf6ba",
+      "46fca4ccd9523fd5",
+      "c94de4eb0071d083",
+      "66fc804303439886",
+      "26acfb45e8463c88",
+      "2d970c75b31ec48d",
       "e19538b18a4d942b",
       "212a542105ef57c5",
       "77c6c55a7134985c",
       "8448d23e87cb26c4",
       "0aed7bb91ea3cde8",
       "06538d757b5fb483",
-      "584b2b6cef0dabaa",
+      "2d09645bceba29b4",
       "782261474561a27a"
     ],
     "extractedChars": 1957,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
-    "lastChangedISO": "2026-09-08T06:23:23.326Z",
+    "lastChangedISO": "2026-09-08T12:27:50.507Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "triaged_out"
@@ -9957,8 +9955,7 @@
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
     "lastChangedISO": "2026-09-07T05:59:10.326Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.saso.gov.sa/ar/QualitySign/info/Pages/default.aspx",
