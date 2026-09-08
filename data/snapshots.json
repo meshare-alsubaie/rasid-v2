@@ -3681,14 +3681,14 @@
   {
     "sourceUrl": "https://ndf.gov.sa/media-center/newsletters",
     "orgId": "ndf",
-    "contentHash": "378bdad1afb2637565c94669287f8e68f0b527531d6069a18351ca42292b1fc6",
+    "contentHash": "a22a3bdec2df1ecaf5fb105eb5e6509abc604b74080d8aa624cd332e862cedd3",
     "blockHashes": [
-      "378bdad1afb26375"
+      "a22a3bdec2df1eca"
     ],
-    "extractedChars": 1212,
+    "extractedChars": 1213,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-07T06:13:04.999Z",
+    "lastChangedISO": "2026-09-08T06:37:46.831Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -3750,14 +3750,17 @@
       "76746f52976848b1",
       "73ea57f5d3f49927",
       "f113972f5bda8fba",
-      "62bf404445b0fa36"
+      "62bf404445b0fa36",
+      "d0e89f8b02ff9960",
+      "139546e1bb791f29"
     ],
     "extractedChars": 3805,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T22:03:35.383Z",
     "lastChangedISO": "2026-09-07T06:13:04.999Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://nour.net.sa/ar/news/",
