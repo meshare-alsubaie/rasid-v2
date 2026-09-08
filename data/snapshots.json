@@ -1329,18 +1329,18 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/search-results",
     "orgId": "maaden",
-    "contentHash": "609acb4c66267cfb7f35ba72462ae76e22bf7eefdd6326a4ae6cbab1eb405523",
+    "contentHash": "33124fab270cc11fcd4231294640ee0f76fcb2c396a78e82f12fe187db32c46e",
     "blockHashes": [
       "dab5a7f3801bc914",
       "11c469ed979f867f",
       "0b2602881d9437e4"
     ],
-    "extractedChars": 240,
+    "extractedChars": 265,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-08T11:21:49.100Z",
+    "lastChangedISO": "2026-09-08T12:08:44.115Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://careers.mcit.gov.sa/",
@@ -2095,8 +2095,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-08T06:04:12.875Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://e-services.hrc.gov.sa/ar/service/details/12",
@@ -2504,7 +2503,7 @@
   {
     "sourceUrl": "https://hrsd.gov.sa/",
     "orgId": "hrsd",
-    "contentHash": "7e345a7f5fbba51018383158410aaa1c230d7812641be871dbbe879020da7d24",
+    "contentHash": "7a26118542f11f2359eed03d49e6ef9e95e1d1bbf29dbe61480331accafcace9",
     "blockHashes": [
       "92ab7c84ae7e0913",
       "e512a8ae8e84e8ba",
@@ -2539,9 +2538,9 @@
     "extractedChars": 2995,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
-    "lastChangedISO": "2026-09-08T06:04:12.875Z",
+    "lastChangedISO": "2026-09-08T12:08:44.115Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://jobs.misa.gov.sa/ar/?locale=ar_SA",
@@ -4238,9 +4237,8 @@
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-08T06:04:12.875Z",
-    "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "thinRuns": 1,
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://takamolholding.com/ar/join-us",
@@ -5344,7 +5342,7 @@
   {
     "sourceUrl": "https://www.awqaf.gov.sa/ar",
     "orgId": "awqaf",
-    "contentHash": "a52b0a0d92ab394d91345c15d4048467b063fb319edb35156d20443ceca1e043",
+    "contentHash": "4e03a5422e5e085c4576d45eb9dc3ef60b64540801de27034e6aace07634589e",
     "blockHashes": [
       "7364f70c455dc78c",
       "c804732dd480d71a",
@@ -5364,10 +5362,9 @@
     "extractedChars": 3458,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
-    "lastChangedISO": "2026-09-08T06:04:12.875Z",
+    "lastChangedISO": "2026-09-08T12:08:44.115Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://www.bankalbilad.com.sa/en/about/pages/training.aspx",
@@ -6294,7 +6291,7 @@
   {
     "sourceUrl": "https://www.gaca.gov.sa/",
     "orgId": "gaca",
-    "contentHash": "7ac7fc2c3f3c60da6f4e0c4ff4c235ca076304c28b08e81e73b399294ce4d7a8",
+    "contentHash": "d17a6fd41d209ff17f849758f73f34a6a64e0e1a23e1db40fa96e51db7cb87a6",
     "blockHashes": [
       "7cf7598705f9da1e",
       "67ba147535885b5a",
@@ -6305,9 +6302,9 @@
     "extractedChars": 1866,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-08T06:04:12.875Z",
+    "lastChangedISO": "2026-09-08T12:08:44.115Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://www.gosi.gov.sa/",
@@ -9494,7 +9491,7 @@
   {
     "sourceUrl": "https://www.rega.gov.sa/",
     "orgId": "rega",
-    "contentHash": "3a1aa129f70570500d8f6622919ede5f2fa735a6d3d47db04a88abd5fdc94ca4",
+    "contentHash": "d66e325c33ef35af2c6690a7b545c7cab99ab75749e04849f542ccb2a1f20ddb",
     "blockHashes": [
       "2c2608753486ae3f",
       "74e4c1d2a646a96e",
@@ -9530,10 +9527,9 @@
     "extractedChars": 3169,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
-    "lastChangedISO": "2026-09-08T06:04:12.875Z",
+    "lastChangedISO": "2026-09-08T12:08:44.115Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://www.riyadbank.com/ar/personal-banking",
@@ -9871,7 +9867,7 @@
   {
     "sourceUrl": "https://www.sanabil.com/",
     "orgId": "sanabil",
-    "contentHash": "9aeab58b179b61e7e42eccfaf72228189db91dc9da28ddc4df1156560dc39a71",
+    "contentHash": "69bdcb7ace057efe7211022190523e31173e5b9f46351c6758a0baa968b6d647",
     "blockHashes": [
       "31cdfc6f8c640312",
       "7c41f59750ecf85e",
@@ -9883,9 +9879,9 @@
     "extractedChars": 666,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-06T10:24:20.770Z",
+    "lastChangedISO": "2026-09-08T12:08:44.115Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://www.sar.com.sa/",
@@ -11272,19 +11268,18 @@
   {
     "sourceUrl": "https://www.taifcity.gov.sa/#/ar",
     "orgId": "taif_amanah",
-    "contentHash": "72943c3a638d2befbb5d2fd3be704b6fa1f95ad3207f96b924c9663f1c43dd22",
+    "contentHash": "678597310c075cae304118ef82c48bfde7ad9edf7b89ee11d78c01704f28301b",
     "blockHashes": [
       "969f0f9d8129003d",
       "265e4175465befc8",
       "8554e1d0ca772440"
     ],
-    "extractedChars": 685,
+    "extractedChars": 537,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T23:54:26.779Z",
-    "lastChangedISO": "2026-09-08T06:04:12.875Z",
+    "lastChangedISO": "2026-09-08T12:08:44.115Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "triaged_out"
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://www.thiqah.sa/",
