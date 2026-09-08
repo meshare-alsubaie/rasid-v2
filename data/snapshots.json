@@ -896,16 +896,16 @@
   {
     "sourceUrl": "https://careers.alrajhibank.com.sa/",
     "orgId": "alrajhi",
-    "contentHash": "c8ac8657b0232361621f8fee13e65c2798ba26b464b3d8dbdceb15e90b705603",
+    "contentHash": "6c158da253f1a9cea360e9a472392f3d2ef936ea4930bbce1fe1bc12a584e8a1",
     "blockHashes": [
       "ae451bbd8eb1b291",
-      "d9d075cd5baeeb0b",
+      "99fd2574f2e9065b",
       "9329bf26b41969b1"
     ],
-    "extractedChars": 800,
+    "extractedChars": 802,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-02T15:06:22.771Z",
+    "lastChangedISO": "2026-09-08T06:26:49.336Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -7849,11 +7849,11 @@
   {
     "sourceUrl": "https://www.mof.gov.sa/docslibrary/TrainingManuals/Pages/default.aspx",
     "orgId": "mof",
-    "contentHash": "4f3ec6f43077829a095f3623b4c285fe7988501d0c644fd02900328818a0e326",
+    "contentHash": "d969b4d4d5764b1a42255ed84ac965c6cdb7e70b5208b4b4c59e760a671cb680",
     "blockHashes": [
       "7f625851cbbadbc6",
       "f7711325e2c4b301",
-      "cdb27ea2cf465bd3",
+      "aaed6a52738b11c6",
       "e84d677a03549107",
       "f4809815161554d5",
       "0129ceb5c2a3779e",
@@ -7864,10 +7864,10 @@
       "e449b5a351b550c3",
       "826105e2f57616e5"
     ],
-    "extractedChars": 16453,
+    "extractedChars": 16454,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-07T07:57:22.566Z",
+    "lastChangedISO": "2026-09-08T06:26:49.336Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -9187,12 +9187,12 @@
   {
     "sourceUrl": "https://www.rcrc.gov.sa/",
     "orgId": "rcrc",
-    "contentHash": "ec0fa905b775a4339771bea8b5513e24a6e7e7067ed12550233e1de7fe3cc91c",
+    "contentHash": "a58d2f8ffe6d64f1972c95cc692f2c8ae80c53514ce89aaf4523f090c3faa9c4",
     "blockHashes": [
       "dd62229c2f61fb42",
       "306db3646b8a6c73",
       "b28682d0a5fa37ed",
-      "77407c4049b11a42",
+      "9418ccd206a7c9cd",
       "423bcc1f5b3b7f33",
       "b32d68c4e5c2da0f",
       "b91cd7f4edfa88d2",
@@ -9205,9 +9205,9 @@
     "extractedChars": 1896,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
-    "lastChangedISO": "2026-09-07T12:13:21.186Z",
+    "lastChangedISO": "2026-09-08T06:26:49.336Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.rcrc.gov.sa/careers/?lang=ar",
@@ -10652,8 +10652,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-07T12:18:45.916Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.stats.gov.sa/ar",
