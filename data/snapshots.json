@@ -210,7 +210,7 @@
     "lastChangedISO": "2026-09-02T23:42:46.216Z",
     "thinRuns": 0,
     "pendingClassification": true,
-    "classifyFailures": 1
+    "classifyFailures": 2
   },
   {
     "sourceUrl": "https://adf.gov.sa/ar/Pages/training.aspx",
@@ -640,18 +640,17 @@
   {
     "sourceUrl": "https://athkax.sdaia.gov.sa/coop",
     "orgId": "sdaia",
-    "contentHash": "149dac3782e23b92d6292f77a69dc8697b9a8115e558dd26d5838bee370b30cb",
+    "contentHash": "a58f144950bb22de0c4667555dc3401317db3a7e9e0679e6a27c03768b15a660",
     "blockHashes": [
-      "8a2d7a67478fe052",
-      "7660ca09176ece0d"
+      "04ba8a3fca46514f",
+      "4bd08244050e9682"
     ],
     "extractedChars": 756,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-08T09:03:05.226Z",
+    "lastChangedISO": "2026-09-08T09:51:19.947Z",
     "thinRuns": 0,
-    "pendingClassification": true,
-    "classifyFailures": 1
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://awqaf.gov.sa/ar/ar/hiring/",
@@ -4121,7 +4120,7 @@
     "contentHash": "1e4955f4387ea3718890975ed666b2231bd2e34bc234fa8389db8c64d1ff7e6a",
     "blockHashes": [
       "371f3c795880dcbe",
-      "ec33e810cbf4a5ce",
+      "75851917cd09da18",
       "10c53fba5b14d8a4",
       "ce25221be76bbcb9",
       "c84b42fd891dbd16",
@@ -4148,8 +4147,8 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-08T06:12:14.081Z",
     "thinRuns": 0,
-    "pendingClassification": true,
-    "classifyFailures": 2
+    "pendingClassification": false,
+    "classifyFailures": 3
   },
   {
     "sourceUrl": "https://slccareers.kpmg.com/job/Riyadh-KPMG-Audit-COOP-Program-(Riyadh,-Jeddah,-and-Khobar)/857222523/",
@@ -7645,7 +7644,7 @@
   {
     "sourceUrl": "https://www.mim.gov.sa/ar/empower-training/cooperative-training",
     "orgId": "mim",
-    "contentHash": "c383d928a6aff3a33e91be613cafedc311da638c3f4d7e8d480469cab07d959f",
+    "contentHash": "474d1c4ea42ded15273261f7479f19cf258ef0fe21967206392793e74dd8f9e7",
     "blockHashes": [
       "1cb91553dd3291a4",
       "5300d4cdd32a8d33"
@@ -7653,7 +7652,7 @@
     "extractedChars": 2495,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T02:22:33.828Z",
-    "lastChangedISO": "2026-09-08T09:03:05.226Z",
+    "lastChangedISO": "2026-09-08T09:51:19.947Z",
     "thinRuns": 0,
     "pendingClassification": true,
     "classifyFailures": 1
@@ -8562,8 +8561,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-08T06:31:56.151Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.nazaha.gov.sa/News/Details?q=LDqaftYCK2agKydxrbY5fg==",
