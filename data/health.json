@@ -794,8 +794,8 @@
   {
     "sourceUrl": "https://careers.sdaia.gov.sa/jobs",
     "orgId": "sdaia",
-    "lastAttemptISO": "2026-09-08T12:00:26.459Z",
-    "lastSuccessISO": "2026-09-08T12:00:26.459Z",
+    "lastAttemptISO": "2026-09-08T12:48:02.331Z",
+    "lastSuccessISO": "2026-09-08T12:48:02.331Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -1433,8 +1433,8 @@
   {
     "sourceUrl": "https://ncvc.gov.sa/en/Pages/COOP-Training.aspx",
     "orgId": "ncvc",
-    "lastAttemptISO": "2026-09-08T12:00:26.459Z",
-    "lastSuccessISO": "2026-09-08T12:00:26.459Z",
+    "lastAttemptISO": "2026-09-08T12:48:02.331Z",
+    "lastSuccessISO": "2026-09-08T12:48:02.331Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -1802,11 +1802,11 @@
   {
     "sourceUrl": "https://training.moj.gov.sa/",
     "orgId": "moj",
-    "lastAttemptISO": "2026-09-08T12:00:26.459Z",
+    "lastAttemptISO": "2026-09-08T12:48:02.331Z",
     "lastSuccessISO": "2026-09-08T12:00:26.459Z",
-    "consecutiveFailures": 0,
-    "lastError": null,
-    "state": "healthy"
+    "consecutiveFailures": 1,
+    "lastError": "fetched 11101 bytes but extracted only 0 chars of text; the page is probably rendered by javascript and cannot be watched this way",
+    "state": "degraded"
   },
   {
     "sourceUrl": "https://tvtc.gov.sa/",
@@ -2720,8 +2720,8 @@
   {
     "sourceUrl": "https://www.mim.gov.sa/ar",
     "orgId": "mim",
-    "lastAttemptISO": "2026-09-08T06:23:23.326Z",
-    "lastSuccessISO": "2026-09-08T06:23:23.326Z",
+    "lastAttemptISO": "2026-09-08T12:48:02.331Z",
+    "lastSuccessISO": "2026-09-08T12:48:02.331Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -3476,8 +3476,8 @@
   {
     "sourceUrl": "https://www.saso.gov.sa/ar/QualitySign/info/Pages/default.aspx",
     "orgId": "saso",
-    "lastAttemptISO": "2026-09-08T12:00:26.459Z",
-    "lastSuccessISO": "2026-09-08T12:00:26.459Z",
+    "lastAttemptISO": "2026-09-08T12:48:02.331Z",
+    "lastSuccessISO": "2026-09-08T12:48:02.331Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -3800,8 +3800,8 @@
   {
     "sourceUrl": "https://www.tahakom.com/careers",
     "orgId": "tahakom",
-    "lastAttemptISO": "2026-09-08T12:00:26.459Z",
-    "lastSuccessISO": "2026-09-08T12:00:26.459Z",
+    "lastAttemptISO": "2026-09-08T12:48:02.331Z",
+    "lastSuccessISO": "2026-09-08T12:48:02.331Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
