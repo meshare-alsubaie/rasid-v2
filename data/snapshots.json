@@ -4112,7 +4112,7 @@
   {
     "sourceUrl": "https://slccareers.kpmg.com/job/Medina-KPMG-Audit-Internship-Program-Accounting-Graduates/1368374723/",
     "orgId": "kpmg_sa",
-    "contentHash": "e4eeade4dd589bc68b7051d341ca1406e161fa3e7e948686b1b77e3cee3f5fe4",
+    "contentHash": "1e4955f4387ea3718890975ed666b2231bd2e34bc234fa8389db8c64d1ff7e6a",
     "blockHashes": [
       "371f3c795880dcbe",
       "ec33e810cbf4a5ce",
@@ -4140,10 +4140,10 @@
     "extractedChars": 2485,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-08-31T00:02:49.563Z",
+    "lastChangedISO": "2026-09-08T06:12:14.081Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "classifyFailures": 3
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://slccareers.kpmg.com/job/Riyadh-KPMG-Audit-COOP-Program-(Riyadh,-Jeddah,-and-Khobar)/857222523/",
@@ -5473,18 +5473,18 @@
   {
     "sourceUrl": "https://www.bog.gov.sa/en/EServices/judiciaryHiring/Pages/Hiring.aspx",
     "orgId": "bog",
-    "contentHash": "991a6aba6915675d3432f1fa6317b1271691eedeb4f729a07b62fe0c0620b0a0",
+    "contentHash": "6635fa4c3d3bd50914f5da28c4c617ed4f7368cc92708f67e06332e4497360e5",
     "blockHashes": [
       "46d9575ec382a9d1",
       "96c63175498462d9",
       "f4b9821710ab784e",
-      "c56b263d910d820d",
+      "14a91afead641f0d",
       "ec5d6ba37d25b982"
     ],
     "extractedChars": 609,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-07T14:11:30.937Z",
+    "lastChangedISO": "2026-09-08T06:12:14.081Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -7992,11 +7992,11 @@
   {
     "sourceUrl": "https://www.mof.gov.sa/mediacenter/events/Pages/CalEvent.aspx",
     "orgId": "mof",
-    "contentHash": "51a1223957c01b14d16a4a7619a6e79bd084a4b820427f8be800a1f3b1f50ad7",
+    "contentHash": "733f5442345da5d7dc125754d82076961cf7dcc4dd8a43d5e9c54d40daa97b80",
     "blockHashes": [
       "7f625851cbbadbc6",
       "f7711325e2c4b301",
-      "46a1c4c130152e7f",
+      "28c4f685e05f18b3",
       "b1bec34b5330c702",
       "f4809815161554d5",
       "16ff3360390869f3",
@@ -8007,12 +8007,13 @@
       "e449b5a351b550c3",
       "4c2f7108a1879030"
     ],
-    "extractedChars": 10148,
+    "extractedChars": 10149,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-07T07:57:22.566Z",
+    "lastChangedISO": "2026-09-08T06:12:14.081Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://www.mof.gov.sa/Pages/default.aspx",
@@ -10594,11 +10595,11 @@
   {
     "sourceUrl": "https://www.srca.org.sa/news/",
     "orgId": "srca",
-    "contentHash": "05fdabf0871e6ffc29a52c2c586a8f92a8ef01f511434d0d38fafe5ba9fbbba5",
+    "contentHash": "2650043f25be3b698c054a842a837c3af520183cccf0e1ea106d85a2f7e6b071",
     "blockHashes": [
       "13f48669ebfa59aa",
       "74e4c1d2a646a96e",
-      "47f521657136ad35",
+      "1844d6ce06d9a46d",
       "911fe68415c8e04d",
       "73801acea2d59ad8",
       "fc34eb5a18d3701f",
@@ -10620,9 +10621,10 @@
     "extractedChars": 4958,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-07T05:48:49.736Z",
+    "lastChangedISO": "2026-09-08T06:12:14.081Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://www.srca.org.sa/newsletters/",
