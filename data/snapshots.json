@@ -640,7 +640,7 @@
   {
     "sourceUrl": "https://athkax.sdaia.gov.sa/coop",
     "orgId": "sdaia",
-    "contentHash": "34f471d1dd1e35502e8919a6b2d26b28a0f2b43ab454ab43ead2c024c2268d55",
+    "contentHash": "a58f144950bb22de0c4667555dc3401317db3a7e9e0679e6a27c03768b15a660",
     "blockHashes": [
       "04ba8a3fca46514f",
       "4bd08244050e9682"
@@ -648,9 +648,10 @@
     "extractedChars": 756,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-08T12:20:30.766Z",
+    "lastChangedISO": "2026-09-08T13:08:03.374Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://awqaf.gov.sa/ar/ar/hiring/",
@@ -7631,7 +7632,7 @@
   {
     "sourceUrl": "https://www.mim.gov.sa/ar/empower-training/cooperative-training",
     "orgId": "mim",
-    "contentHash": "d637a5084f131046a3fe62ce16c2562e1c28d59d89d8ebef9fddc01d415351ab",
+    "contentHash": "e3d45b707c1d1ee1de22cbc4c92eb089c0f6da6fd4ea83137c5ee84d2f46196b",
     "blockHashes": [
       "1cb91553dd3291a4",
       "5300d4cdd32a8d33"
@@ -7639,9 +7640,10 @@
     "extractedChars": 2495,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T02:22:33.828Z",
-    "lastChangedISO": "2026-09-08T12:20:30.766Z",
+    "lastChangedISO": "2026-09-08T13:08:03.374Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://www.mim.gov.sa/ar/media-center/news",
