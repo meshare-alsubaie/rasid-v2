@@ -1249,10 +1249,9 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/cookiesettings",
     "orgId": "maaden",
-    "contentHash": "c1e17c3574808f6d3b0c4af731b8c0b67ee77df4f657d0e8a9cd62ab1ba0eb8c",
+    "contentHash": "603481a127f8bfd23577060441501caa4f962627c25aef078667a1daacb1cb39",
     "blockHashes": [
-      "5569201553604d03",
-      "57c0b9ff0f5e8303",
+      "2fb28de24072d906",
       "dd53e083dd4c4329",
       "5e2fc5a4da5c7871",
       "197c66a2b21d9654",
@@ -1317,14 +1316,14 @@
       "ee82ab94d7112a03",
       "60b7b15f81dc7749",
       "abf11bb520a3d451",
-      "1f62cfc745c5ac4b"
+      "4dae185637fc8b17"
     ],
-    "extractedChars": 201,
+    "extractedChars": 8013,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-08T08:30:12.597Z",
+    "lastChangedISO": "2026-09-08T09:17:20.158Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/search-results",
@@ -2022,14 +2021,14 @@
     "contentHash": "26387150c055f705cf3118b5edeb1655b559004f795cd98f846d672b0b1374f9",
     "blockHashes": [
       "650a2ce183d63c69",
-      "f254f8958ece8b0e",
-      "36fe544e1baf0777",
+      "8456956ae77bc124",
+      "b564e431d0ea079e",
       "78be07dcda742780",
+      "e4dcc9b2c80785e3",
+      "1cf3a55e67fa4b5e",
       "97874d03024f07d0",
       "6bd1410694d9391e",
       "3b6df8fe790eb0bc",
-      "cc01164b53580b1a",
-      "5b6f45b047a1cbcf",
       "a954080d2ed9ccb1",
       "84fe59d621b2eb75",
       "84fe59d621b2eb75",
@@ -2041,7 +2040,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-08T07:43:49.781Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://cma.gov.sa/Pages/default.aspx",
@@ -2152,7 +2151,7 @@
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T02:22:33.828Z",
     "lastChangedISO": "2026-08-29T02:36:21.032Z",
-    "thinRuns": 103,
+    "thinRuns": 104,
     "pendingClassification": false
   },
   {
@@ -10323,26 +10322,27 @@
   {
     "sourceUrl": "https://www.sfda.gov.sa/ar/news",
     "orgId": "sfda",
-    "contentHash": "6f2e7911ee52e82cb9582d958ce4ccb3316d768cad66f17f7682ff5ad7d049e0",
+    "contentHash": "2badff70ecca2de48851c89bf091aaf9e7408ac514a4c27a1be13f76f4cfa8b9",
     "blockHashes": [
-      "4b34469999cc33b2",
+      "311913df0300287a",
+      "dcb0bfa500a2db83",
       "d3d710c7de3528d8",
       "5285052957cb0adc",
       "eacc9eac565fd066",
       "85c5d72cb41d7350",
-      "4cc5364898644f8d",
       "abbaebe56469a2c6",
-      "186ecd7506108857",
+      "01d8710c5862806f",
       "b69ab73ade473181",
       "fe04993c9918963a",
       "506fe5d55093ecae"
     ],
-    "extractedChars": 1481,
+    "extractedChars": 1514,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-07T05:59:10.326Z",
+    "lastChangedISO": "2026-09-08T09:17:20.158Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://www.sfda.gov.sa/en/career-vision-and-mission",
