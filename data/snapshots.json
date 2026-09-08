@@ -2207,7 +2207,7 @@
   {
     "sourceUrl": "https://gaca.gov.sa/ar/News",
     "orgId": "gaca",
-    "contentHash": "f66b65c7e9586eca1c3a344895b05c3058a6821ca485dadac51a0a3182a50bdd",
+    "contentHash": "199cdf7fc79b32aae6f58c29af69a4f1b9289b2b6cc4c377fe210c00a51a7420",
     "blockHashes": [
       "70e31394aec4dc52",
       "a9d6dc4cf2355a8e",
@@ -2282,13 +2282,12 @@
       "83a22e1f9fb245f8",
       "bc532942aaed49b7"
     ],
-    "extractedChars": 21327,
+    "extractedChars": 20737,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-08T09:36:38.911Z",
+    "lastChangedISO": "2026-09-08T12:39:14.957Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://gaca.gov.sa/news",
@@ -3204,7 +3203,7 @@
   {
     "sourceUrl": "https://momah.gov.sa/ar/menu/media-center",
     "orgId": "housing",
-    "contentHash": "437eb8724fa747b38aba16e11e663108a140851273d394661e016f41314b73ba",
+    "contentHash": "bab7cc0fc66455de634e7359648f6b5115d380e0ed9b92ac287b0bd8ae3f2700",
     "blockHashes": [
       "4c63522200199108",
       "7bc8965d992df69b",
@@ -3231,13 +3230,12 @@
       "131521963007f912",
       "68d57493404b3a15"
     ],
-    "extractedChars": 151282,
+    "extractedChars": 151323,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-08T09:36:38.911Z",
+    "lastChangedISO": "2026-09-08T12:39:14.957Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://momah.gov.sa/ar/news",
@@ -6431,7 +6429,7 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/careers/graduate-development-program",
     "orgId": "hrc",
-    "contentHash": "8c5c313a2c75816086758f69f7e76ec59e8f6607c567da63ab7ac8c983604a94",
+    "contentHash": "ebf7833c5c923572039bc851189caa935217d5186521c75db79992eaae277a0c",
     "blockHashes": [
       "12e41a244a8a2984",
       "a2f140014aa3a902",
@@ -6500,9 +6498,9 @@
     "extractedChars": 10689,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-08T09:36:38.911Z",
+    "lastChangedISO": "2026-09-08T12:39:14.957Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/cooperations?lang=ar",
@@ -8497,8 +8495,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-08T09:36:38.911Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "triaged_out"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.nazaha.gov.sa/News/Details?q=+ZUW2RPX/9RAyHyLvILpaw==",
@@ -11749,8 +11746,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-07T12:18:45.916Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://zatca.gov.sa/ar/MediaCenter/Elan/Pages/default.aspx",
