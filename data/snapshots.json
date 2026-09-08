@@ -640,15 +640,15 @@
   {
     "sourceUrl": "https://athkax.sdaia.gov.sa/coop",
     "orgId": "sdaia",
-    "contentHash": "149dac3782e23b92d6292f77a69dc8697b9a8115e558dd26d5838bee370b30cb",
+    "contentHash": "1d2982487a3d8b956872b2908f4d2375e0d5a2e1fc6c9216b0ac9e805078f7bf",
     "blockHashes": [
       "04ba8a3fca46514f",
       "4bd08244050e9682"
     ],
-    "extractedChars": 756,
+    "extractedChars": 798,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-08T16:24:21.685Z",
+    "lastChangedISO": "2026-09-08T17:10:03.574Z",
     "thinRuns": 0,
     "pendingClassification": true
   },
@@ -1248,15 +1248,15 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/cookiesettings",
     "orgId": "maaden",
-    "contentHash": "60a488c316bb2f26e73c868dd871b604ebe79d563495a26172c744a9733d691e",
+    "contentHash": "444b5d6e41573e9509c5ee7f34fa87414812ff6aa3f61369dae0c4cca636d9d1",
     "blockHashes": [
       "b4e5ec2fceaf5fd1",
       "f6a5caac3abbbdb7"
     ],
-    "extractedChars": 8013,
-    "extractionMethod": "readability",
+    "extractedChars": 55,
+    "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-08T16:24:21.685Z",
+    "lastChangedISO": "2026-09-08T17:10:03.574Z",
     "thinRuns": 0,
     "pendingClassification": true
   },
@@ -2089,7 +2089,7 @@
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T02:22:33.828Z",
     "lastChangedISO": "2026-08-29T02:36:21.032Z",
-    "thinRuns": 113,
+    "thinRuns": 114,
     "pendingClassification": false
   },
   {
@@ -7573,7 +7573,7 @@
   {
     "sourceUrl": "https://www.mim.gov.sa/ar/empower-training/cooperative-training",
     "orgId": "mim",
-    "contentHash": "fe0dfe060e8013e5497b7ef77a294c9a5e3aaecec311b74d933d1758cc3cf8de",
+    "contentHash": "43c2a08bd21724edfed1d26c51a9d3c0a4926f4afe7cc9c9ad2b91a36b239037",
     "blockHashes": [
       "1cb91553dd3291a4",
       "5300d4cdd32a8d33"
@@ -7581,7 +7581,7 @@
     "extractedChars": 2495,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T02:22:33.828Z",
-    "lastChangedISO": "2026-09-08T16:24:21.685Z",
+    "lastChangedISO": "2026-09-08T17:10:03.574Z",
     "thinRuns": 0,
     "pendingClassification": true
   },
