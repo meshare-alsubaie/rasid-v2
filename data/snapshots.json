@@ -755,7 +755,7 @@
   {
     "sourceUrl": "https://career.alinma.com/",
     "orgId": "alinma",
-    "contentHash": null,
+    "contentHash": "e245fd94c1ab59dcc6bad34af50ba34c224654b27d2f46834c18eef001143fa5",
     "blockHashes": [
       "d139e32e22028878",
       "24a16c9057a577bb",
@@ -764,7 +764,7 @@
     "extractedChars": 750,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-01T01:46:07.967Z",
-    "lastChangedISO": "2026-09-07T06:52:53.178Z",
+    "lastChangedISO": "2026-09-08T05:39:11.231Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -1329,18 +1329,18 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/search-results",
     "orgId": "maaden",
-    "contentHash": "1349f0adc258901f66f469a91daafd9263670e330e69b9fb156df7c154e0c133",
+    "contentHash": "419d14643e6ae3b9c078495f12fb81f7c2268cbdd949cd6e8813832dd8d36edb",
     "blockHashes": [
-      "5569201553604d03",
-      "6610997bc1f9b192",
+      "dab5a7f3801bc914",
+      "298a05ebe5a16280",
       "d6c0adacb353836a",
-      "a32c7c9bca582311",
-      "4df344deed64c66a"
+      "eb9614f978cd17d8",
+      "8703d253cdd7f439"
     ],
-    "extractedChars": 221,
+    "extractedChars": 240,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-07T15:15:35.588Z",
+    "lastChangedISO": "2026-09-08T05:39:11.231Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -4055,7 +4055,7 @@
   {
     "sourceUrl": "https://slccareers.kpmg.com/go/All-Jobs/7738123/",
     "orgId": "kpmg_sa",
-    "contentHash": "6f66370f95f8ad291c4d1147b671ee66df23aff1dd7c91e99508cc8e051f5856",
+    "contentHash": "17a04240e7e5128772b6f314fd69f8f40ce0296ca4e9be529a1dea0f665909ab",
     "blockHashes": [
       "aa19d4515674c079",
       "29400fb30e509541",
@@ -4070,9 +4070,10 @@
     "extractedChars": 520,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-05T02:23:16.839Z",
+    "lastChangedISO": "2026-09-08T05:39:11.231Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://slccareers.kpmg.com/job/Beirut-Experienced-External-Auditor/857312523/",
@@ -5448,19 +5449,19 @@
   {
     "sourceUrl": "https://www.bog.gov.sa/en/EServices/judiciaryHiring/Pages/default.aspx",
     "orgId": "bog",
-    "contentHash": "81f8d73206efba83e5dada32be755e3c79048f06382e97494defc16051c79dd9",
+    "contentHash": "153d2ebf4c752893fa58c0b53c075e12e71bb9ddc7503b77e9bfd42e68348877",
     "blockHashes": [
       "46d9575ec382a9d1",
       "96c63175498462d9",
       "f4b9821710ab784e",
-      "e24ca624e1e52d43",
+      "db96cc060fa0a333",
       "d9ac968863afb54d",
       "ec5d6ba37d25b982"
     ],
     "extractedChars": 756,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-07T15:15:35.588Z",
+    "lastChangedISO": "2026-09-08T05:39:11.231Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -7929,11 +7930,11 @@
   {
     "sourceUrl": "https://www.mof.gov.sa/GFS/TrainingProgram/Pages/TrainingManual.aspx",
     "orgId": "mof",
-    "contentHash": "7149e502eb680f05b08f3ee109cf64c7d765bdd6d99a8a50ed8cb598a76d8ebc",
+    "contentHash": "0941b5edd72eda4a80780a7c3e4218ddffd919c07ebbaed712faba419ceb9a70",
     "blockHashes": [
       "7f625851cbbadbc6",
       "f7711325e2c4b301",
-      "db36418a75c52879",
+      "045e5a9b128afd62",
       "ffd666e2720f42ef",
       "f4809815161554d5",
       "ec90d29b5d482b67",
@@ -7944,10 +7945,10 @@
       "e449b5a351b550c3",
       "cbefc4238a0555f8"
     ],
-    "extractedChars": 10414,
+    "extractedChars": 10415,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-07T07:57:22.566Z",
+    "lastChangedISO": "2026-09-08T05:39:11.231Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -10552,11 +10553,11 @@
   {
     "sourceUrl": "https://www.srca.org.sa/%d8%a7%d9%84%d8%aa%d9%88%d8%b8%d9%8a%d9%81/",
     "orgId": "srca",
-    "contentHash": "d819ef72bc94a6d0e240d7870494d4796c3eecb4bbba19be7096c7ee5c68a032",
+    "contentHash": "ceb4cf50a730f08593cf7945d1a5384e28638a159823e71e7e5a40e94c8bbc22",
     "blockHashes": [
       "13f48669ebfa59aa",
       "74e4c1d2a646a96e",
-      "2db26cf69c4a79b2",
+      "287ecba7cc01000d",
       "68c03d860d910c71",
       "782261474561a27a",
       "201de1784c4f3dae",
@@ -10570,7 +10571,7 @@
     "extractedChars": 3012,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-07T05:12:39.612Z",
+    "lastChangedISO": "2026-09-08T05:39:11.231Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
