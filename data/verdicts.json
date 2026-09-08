@@ -1,6 +1,6 @@
 {
   "model": "qwen3:8b",
-  "writtenISO": "2026-09-08T07:25:25.430Z",
+  "writtenISO": "2026-09-08T07:28:42.394Z",
   "verdicts": {
     "d3ed902d693a4c1d3b4fc1c6f9b85ea8": null,
     "cc97c142781ff3943c2ea2f9f38af7d8": null,
@@ -1120,6 +1120,24 @@
     "a553c8fd5916f279a4d1de9f59b87bcd": null,
     "fa37bc7238bfdbee12ba34f710924633": null,
     "028f5bb916df2e4bf50182bd508ab7c0": null,
-    "dabea16ff99ff876e465f37de481a35b": null
+    "dabea16ff99ff876e465f37de481a35b": null,
+    "aa82abfa475fc74212b12d7209c9a56f": {
+      "isTrainingAnnouncement": true,
+      "product": "coop",
+      "titleAr": "برنامج سدايا للتدريب التعاوني",
+      "opensISO": null,
+      "closesISO": null,
+      "opensRaw": null,
+      "closesRaw": null,
+      "moreOnPage": false,
+      "majors": [],
+      "seats": null,
+      "stipendSAR": null,
+      "durationWeeks": null,
+      "cities": [],
+      "statesZeroCoursesRule": false,
+      "zeroCoursesQuote": null,
+      "applyUrl": null
+    }
   }
 }
