@@ -2190,17 +2190,17 @@
   {
     "sourceUrl": "https://gaca.gov.sa/ar/announcements",
     "orgId": "gaca",
-    "contentHash": "38a7797820383106079be17c29ee1acc19726c3a4341bd81cf65bb855efe6f91",
+    "contentHash": "e86f2e680b3fce7ebfe19bd329dec53f412c04ffbfa82a58f6e3229de39a22d1",
     "blockHashes": [
-      "04ed1a151c622905",
+      "69c1b0ac44d9d047",
       "9c2a3967149440a8",
       "83a22e1f9fb245f8",
-      "7de1c156a36d0c38"
+      "bc532942aaed49b7"
     ],
-    "extractedChars": 1474,
+    "extractedChars": 1213,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-08T12:24:06.318Z",
+    "lastChangedISO": "2026-09-08T15:27:02.113Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -3244,7 +3244,7 @@
   {
     "sourceUrl": "https://momah.gov.sa/ar/news",
     "orgId": "housing",
-    "contentHash": "83980224077b57bede15f11c007d915817e270b2925e2bcdcf4bd331867bda67",
+    "contentHash": "1d264de0f2e01d14e398f46e29ac81d1796fadfc2b3df6686434bdf518877293",
     "blockHashes": [
       "c39d79399ac7deac",
       "6b73d0e4b83dedcb",
@@ -3254,34 +3254,34 @@
       "7c1f3ab99fcbbcad",
       "aa8e55eac5aea8cd",
       "09552ec2996654f9",
-      "ef76c1e646586dca",
+      "2dd74df83744777e",
+      "2de4bd8b2a2eb13f",
+      "29de985e2461eb67",
+      "874741d6727ea79a",
       "ff6f87e39638cb9b",
-      "5179de21c0b4b4bf",
-      "ac1405062719fb86",
-      "d504fa0a16ff95ce",
-      "e45efd5678e1565c",
-      "32b16cbc3c0a6dc0",
-      "f4e0d9bef95ac650",
-      "6590c7ac8d1cbaca",
-      "f073dc56fd3dacac",
+      "78e0c074e1fe7991",
+      "844448f1c17287aa",
+      "09b1bd561f62b68f",
+      "b954622877671c26",
+      "54797516da6c0d48",
+      "5d15152619ff887e",
+      "c62e10f6800ca16e",
+      "2d7bef02feb184d4",
       "560edfe1df9d8921",
       "23b97a8a93aba477",
       "9cd3abf7fd1573ff",
-      "6ee4e9bb73fb4c90",
-      "625a83c5567b379e",
-      "71a74288db45b056",
-      "09b1bd561f62b68f",
-      "045edcb182e98b52",
-      "5d15152619ff887e",
-      "483b0aac4e7212e1"
+      "42c41c65ad661a83",
+      "ac1405062719fb86",
+      "523eaed938f8dd6b",
+      "d2b555e1fcf1c2b7"
     ],
     "extractedChars": 151354,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-08T12:24:06.318Z",
+    "lastChangedISO": "2026-09-08T15:27:02.113Z",
     "thinRuns": 0,
     "pendingClassification": false,
-    "settledWithoutVerdict": "triaged_out"
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://momah.gov.sa/ar/node/14717",
@@ -5659,18 +5659,18 @@
   {
     "sourceUrl": "https://www.etec.gov.sa/ar/identity-guide",
     "orgId": "etec",
-    "contentHash": "1579f849a261082053d81be32ed2d9d20391ae3e9c35672ce223c27c92397a88",
+    "contentHash": "db56cde9284bd0254551532830dc55625a7987cc01d4f96bc473ebf9c39160bd",
     "blockHashes": [
       "969f0f9d8129003d",
       "1928fdbb5b09339c",
       "280f6822553a305a",
       "8aff2c2d73d3ee92",
-      "95ea475541d97914"
+      "df0106bfc636efb0"
     ],
     "extractedChars": 509,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-08T12:24:06.318Z",
+    "lastChangedISO": "2026-09-08T15:27:02.113Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -6506,10 +6506,10 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/cooperations?lang=ar",
     "orgId": "hrc",
-    "contentHash": "4ab82450fac938c92351422999c68ba8e4de23f7282eaa5567320b22bfc7b5e2",
+    "contentHash": "9c2473e21e95b1f571253d1ab44636ef7b0979e79351d711dfb33129cf130f65",
     "blockHashes": [
       "12e41a244a8a2984",
-      "ea4de221690142be",
+      "8710116a4877351a",
       "15c715928fc246c0",
       "9a4a215f8452ca45",
       "961639689d2c8819",
@@ -6530,7 +6530,7 @@
     "extractedChars": 6137,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-08T12:24:06.318Z",
+    "lastChangedISO": "2026-09-08T15:27:02.113Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
