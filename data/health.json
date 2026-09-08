@@ -767,8 +767,8 @@
   {
     "sourceUrl": "https://careers.scfhs.org.sa/ar/page/on-the-job-training/",
     "orgId": "scfhs",
-    "lastAttemptISO": "2026-09-08T06:44:34.331Z",
-    "lastSuccessISO": "2026-09-08T06:44:34.331Z",
+    "lastAttemptISO": "2026-09-08T07:39:18.585Z",
+    "lastSuccessISO": "2026-09-08T07:39:18.585Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -1775,8 +1775,8 @@
   {
     "sourceUrl": "https://tetco.sa/ar/digital-education-and-training",
     "orgId": "tetco",
-    "lastAttemptISO": "2026-09-08T06:44:34.331Z",
-    "lastSuccessISO": "2026-09-08T06:44:34.331Z",
+    "lastAttemptISO": "2026-09-08T07:39:18.585Z",
+    "lastSuccessISO": "2026-09-08T07:39:18.585Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -3251,11 +3251,11 @@
   {
     "sourceUrl": "https://www.rcrc.gov.sa/careers/?lang=ar",
     "orgId": "rcrc",
-    "lastAttemptISO": "2026-09-08T06:44:34.331Z",
+    "lastAttemptISO": "2026-09-08T07:39:18.585Z",
     "lastSuccessISO": "2026-09-08T06:44:34.331Z",
-    "consecutiveFailures": 0,
-    "lastError": null,
-    "state": "healthy"
+    "consecutiveFailures": 1,
+    "lastError": "HTTP 503",
+    "state": "degraded"
   },
   {
     "sourceUrl": "https://www.rcrc.gov.sa/media-center/",
@@ -3656,8 +3656,8 @@
   {
     "sourceUrl": "https://www.sidf.gov.sa/Coop",
     "orgId": "sidf",
-    "lastAttemptISO": "2026-09-08T06:44:34.331Z",
-    "lastSuccessISO": "2026-09-08T06:44:34.331Z",
+    "lastAttemptISO": "2026-09-08T07:39:18.585Z",
+    "lastSuccessISO": "2026-09-08T07:39:18.585Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
