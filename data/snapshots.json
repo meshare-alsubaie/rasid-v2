@@ -7518,12 +7518,12 @@
   {
     "sourceUrl": "https://www.mewa.gov.sa/ar/MediaCenter/News/Pages/Home.aspx",
     "orgId": "mewa",
-    "contentHash": "ee294dfe593770acdbd0d1f684b9d213a8357a4ef88afaaa18786e2c06c9b997",
+    "contentHash": "6fc7726208017ffbae142154af954bbdc6db6540e4460c19e5194c00afed6a9f",
     "blockHashes": [
       "12e41a244a8a2984",
       "c804732dd480d71a",
       "74e4c1d2a646a96e",
-      "a5eb694485a6fe62",
+      "905c65d27638b1b2",
       "b1078cbc02083d0c",
       "ecad9c739213e7d0",
       "b957f376a744a274",
@@ -7532,12 +7532,13 @@
       "e61f71e158b8fcbd",
       "c36ce57653eabf38"
     ],
-    "extractedChars": 2305,
+    "extractedChars": 2297,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-08T06:08:58.115Z",
+    "lastChangedISO": "2026-09-08T15:15:27.082Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "triaged_out"
   },
   {
     "sourceUrl": "https://www.mewa.gov.sa/ar/MediaCenter/PressReleases/Pages/home.aspx",
@@ -8083,12 +8084,21 @@
   {
     "sourceUrl": "https://www.mofa.gov.sa/ar/ministry/news/Pages/default.aspx",
     "orgId": "mofa",
-    "contentHash": "b56c770bb62fe60a82899320e0325fbac22dfd726156e7ca3fb5b9313ce01ca0",
+    "contentHash": "aa89b2a1cbd347706f6deb02cab5f7fbf189cf44261f27ed4879f45515c88c9b",
     "blockHashes": [
       "88b5148b04637d49",
       "74e4c1d2a646a96e",
       "b076309334a1eace",
-      "6f20c205fa2f232d",
+      "bfee5d82d67de66b",
+      "7a1e1068cf3b8be6",
+      "877e5c7bd27503b1",
+      "8c921178890d31a0",
+      "0c6b44f7e80f219d",
+      "50b2f4dc33fa2162",
+      "8420c864da8c3c6a",
+      "855aeba883a9c207",
+      "6202469a98a310f3",
+      "b1b2557fa96a14f2",
       "08ade47c08b13f17",
       "01c2d9c92f500728",
       "b8ae4881c9e5b151",
@@ -8194,24 +8204,18 @@
       "24a4c7739ace75b3",
       "0d6eae4850740f25",
       "0c276995aedaec0a",
-      "3bf190251760d75a",
-      "ba892f911401de56",
-      "1f7aa4dd8d3afc5d",
-      "cd9895dffe6df92a",
-      "aae2b9514c88045f",
-      "9984069ba3d8104b",
-      "52d6d061d03cb3bb",
-      "36a202187a6f76ff",
+      "f5cc3a7ee675a7ec",
       "06538d757b5fb483",
       "069f70ac6f783849",
       "782261474561a27a"
     ],
-    "extractedChars": 19619,
+    "extractedChars": 19762,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-08T12:13:05.504Z",
+    "lastChangedISO": "2026-09-08T15:15:27.082Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "triaged_out"
   },
   {
     "sourceUrl": "https://www.moh.gov.sa/ministry/mediacenter/ads/pages/default.aspx",
@@ -9234,12 +9238,12 @@
   {
     "sourceUrl": "https://www.rcrc.gov.sa/news-ar/",
     "orgId": "rcrc",
-    "contentHash": "904bf4446663fae9ef69ad477249dadd911f09d4784b238934e639a17a865d3a",
+    "contentHash": "665afe9c6aded378777bb0accde30de5d8bbbbb20a1b2ba80729f802ee75717c",
     "blockHashes": [
       "dd62229c2f61fb42",
       "306db3646b8a6c73",
       "b28682d0a5fa37ed",
-      "0069ddce8c0b4d0b",
+      "b167f5d9809013c3",
       "dd5bfb74e89dbbdd",
       "b32d68c4e5c2da0f",
       "b91cd7f4edfa88d2",
@@ -9252,9 +9256,10 @@
     "extractedChars": 3553,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-08T12:15:03.188Z",
+    "lastChangedISO": "2026-09-08T15:15:27.082Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://www.rcu.gov.sa/",
