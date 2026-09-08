@@ -9237,7 +9237,7 @@
   {
     "sourceUrl": "https://www.rcrc.gov.sa/news-ar/",
     "orgId": "rcrc",
-    "contentHash": "942f7448af65f561dfd7b2eec9e8e8e99a55aeb8f43f9cab4933b7d8097c55d8",
+    "contentHash": "904bf4446663fae9ef69ad477249dadd911f09d4784b238934e639a17a865d3a",
     "blockHashes": [
       "dd62229c2f61fb42",
       "306db3646b8a6c73",
@@ -9252,10 +9252,10 @@
       "42d24dc3675b45a7",
       "2ebbd7048725e505"
     ],
-    "extractedChars": 3554,
+    "extractedChars": 3553,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-08T09:00:47.500Z",
+    "lastChangedISO": "2026-09-08T12:15:03.188Z",
     "thinRuns": 0,
     "pendingClassification": true
   },
@@ -11228,7 +11228,7 @@
   {
     "sourceUrl": "https://www.tahakom.com/",
     "orgId": "tahakom",
-    "contentHash": "66a1b215d71b598e5c8f4def386779d5d875b8060e2f1e761d7fed159451f4b0",
+    "contentHash": "8d1d8b4a6a7bde78572d8fa562ea399be56c71b4f40b53a0139f8955994ae509",
     "blockHashes": [
       "d44217251213a019",
       "611753a8aea1ade1",
@@ -11239,10 +11239,9 @@
     "extractedChars": 838,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-03T05:13:40.059Z",
-    "lastChangedISO": "2026-09-08T06:00:56.358Z",
+    "lastChangedISO": "2026-09-08T12:15:03.188Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://www.tahakom.com/careers",
