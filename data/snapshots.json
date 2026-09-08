@@ -3881,7 +3881,7 @@
   {
     "sourceUrl": "https://rega.gov.sa/media-center/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%88%D8%A7%D9%84%D8%A5%D8%B9%D9%84%D8%A7%D9%86%D8%A7%D8%AA/",
     "orgId": "rega",
-    "contentHash": "04c1e497a95ba3a0c2b1843f46e40d64f9a0ffdc3e95d35ce916666191f11129",
+    "contentHash": "4b3e4295c224a2b39396ae6b945dae51c4949ef81de17a7454adb8276a28bc3e",
     "blockHashes": [
       "2c2608753486ae3f",
       "74e4c1d2a646a96e",
@@ -3901,12 +3901,12 @@
       "782261474561a27a",
       "f583729048a57f1a"
     ],
-    "extractedChars": 3144,
+    "extractedChars": 3130,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-04T05:54:13.865Z",
+    "lastChangedISO": "2026-09-08T12:33:53.716Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://rega.gov.sa/media-center/%D8%A7%D9%84%D8%AD%D9%82%D9%8A%D8%A8%D8%A9-%D8%A7%D9%84%D8%AA%D9%88%D8%B9%D9%88%D9%8A%D8%A9/",
@@ -7647,7 +7647,7 @@
   {
     "sourceUrl": "https://www.mim.gov.sa/ar/media-center/news",
     "orgId": "mim",
-    "contentHash": "3ae55d584c7036ec0b9683ae70edf6d7b3d33bfce1461f3f9b540a20529894a3",
+    "contentHash": "d5288774e9d0163df25fb03974efe985d856fb13b2eca4c1763e95057752d020",
     "blockHashes": [
       "00db3df48c53dd2b",
       "e6f6bf20c0c7405d",
@@ -7681,10 +7681,9 @@
     "extractedChars": 10700,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-08T09:19:35.863Z",
+    "lastChangedISO": "2026-09-08T12:33:53.716Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://www.moc.gov.sa/ar",
