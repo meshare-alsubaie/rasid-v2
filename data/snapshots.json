@@ -7588,9 +7588,9 @@
   {
     "sourceUrl": "https://www.mim.gov.sa/ar/media-center/news",
     "orgId": "mim",
-    "contentHash": "d5288774e9d0163df25fb03974efe985d856fb13b2eca4c1763e95057752d020",
+    "contentHash": "d150b76a4e7d29e46b9ca60778299b637c5ca6fc58d9eef74cc1b0f21bca86d6",
     "blockHashes": [
-      "00db3df48c53dd2b",
+      "dba3704f48e2451f",
       "e6f6bf20c0c7405d",
       "1463ce99001bf0a0",
       "47a950af7f4b0342",
@@ -7622,9 +7622,10 @@
     "extractedChars": 10700,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-08T12:33:53.716Z",
+    "lastChangedISO": "2026-09-08T15:48:39.488Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://www.moc.gov.sa/ar",
