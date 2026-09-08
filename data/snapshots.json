@@ -2047,13 +2047,17 @@
   {
     "sourceUrl": "https://cma.gov.sa/Pages/default.aspx",
     "orgId": "cma",
-    "contentHash": "7ef269662204d817908845d4f6de777716451eda012f2d2a90a7a46faa00a37c",
+    "contentHash": "84cbdbceb7c415bfad63e27a6f96bd9a669f84f8e59908b43127444f3abefa2a",
     "blockHashes": [
       "74fbc9af4b28d2d6",
       "74e4c1d2a646a96e",
       "480b43638df466ee",
       "a033604fe1e6160c",
-      "91f4185d4feb1d0a",
+      "a262e306b7b719a7",
+      "6105d8d3cd5a2e53",
+      "c27f09dd34af4a9c",
+      "982d7d3cbbd1732e",
+      "3ab2852dc814fa8c",
       "6c9e3c4884920b88",
       "3464ff12380ca036",
       "0bc174bc1329525c",
@@ -2064,9 +2068,7 @@
       "6105d8d3cd5a2e53",
       "c27f09dd34af4a9c",
       "982d7d3cbbd1732e",
-      "2285aadccffc4469",
-      "247252cf67da25b2",
-      "12e235235c085b03",
+      "5f939530ee42956d",
       "a7dd529366338547",
       "cd3c75b5a07e0dc8",
       "cf3583b4fe09c953",
@@ -2088,12 +2090,13 @@
       "3b5a8943dae3d475",
       "57967945306787f5"
     ],
-    "extractedChars": 8540,
+    "extractedChars": 8566,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-06T16:38:39.778Z",
+    "lastChangedISO": "2026-09-08T06:04:12.875Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://e-services.hrc.gov.sa/ar/service/details/12",
@@ -2501,23 +2504,19 @@
   {
     "sourceUrl": "https://hrsd.gov.sa/",
     "orgId": "hrsd",
-    "contentHash": "5d7baa8dded80e2c137dec5752bc4af151d1a957fd42d0b1f7a11a6d80fe92af",
+    "contentHash": "7e345a7f5fbba51018383158410aaa1c230d7812641be871dbbe879020da7d24",
     "blockHashes": [
       "92ab7c84ae7e0913",
       "e512a8ae8e84e8ba",
       "2b741ddae5e4b441",
       "8151ad5293111f98",
       "cca43091c26e3420",
-      "58980e78a2b8cf5a",
-      "445cdb17cf867f69",
-      "c7882ae662284be6",
-      "e41857b4d204b544",
-      "40ca3b78a7f4b5bb",
+      "312fe754b88e62ed",
+      "313615dbd450d011",
       "0c7962d52ab702bd",
       "d7c094ad71d980a7",
       "3566ffcb37e1e979",
-      "27d2a21e8c282cf2",
-      "2cc68073165af0c0",
+      "6d632248b130c108",
       "bd6f36e91096145d",
       "f7a86bf6a32ce19a",
       "608dc607871cb932",
@@ -2526,7 +2525,7 @@
       "9aec0c2b0eb907e6",
       "4c21e84fbc3e32b4",
       "047e3007aafa523e",
-      "2cfd639e3d96fcd7",
+      "afa1136118ae5868",
       "555a6e6871901722",
       "260eab032d2b54f3",
       "b1e298bfa9c1e0f2",
@@ -2540,7 +2539,7 @@
     "extractedChars": 2995,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
-    "lastChangedISO": "2026-09-04T05:29:27.985Z",
+    "lastChangedISO": "2026-09-08T06:04:12.875Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -4228,16 +4227,17 @@
   {
     "sourceUrl": "https://sta.gov.sa/",
     "orgId": "sta",
-    "contentHash": "b38f72feb3d56ef07910571668ff25247a63bc93336a4392b954400a09470ed6",
+    "contentHash": "e837e53880dd6d6accad57a83694e440c8d946d2a65c9b8cf1538079c8e22fb1",
     "blockHashes": [
       "e837e53880dd6d6a"
     ],
-    "extractedChars": 2102,
+    "extractedChars": 177,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-07T11:39:37.954Z",
+    "lastChangedISO": "2026-09-08T06:04:12.875Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://takamolholding.com/ar/join-us",
@@ -4356,10 +4356,13 @@
   {
     "sourceUrl": "https://thiqah.sa/",
     "orgId": "thiqah",
-    "contentHash": "bba18d1332d9277cfb6fa175f6984c62b16db98c935a6738a2b6a55c5b1d20bc",
+    "contentHash": "41585f247e073f7dfa50339963ead8d8387c9a1b752741091b485d74143c63b9",
     "blockHashes": [
-      "2badba214de43400",
-      "cff1ddff4e992236",
+      "56d61a024ef0c23a",
+      "988b9a8bf2486a9d",
+      "a4ad1af066840cba",
+      "2a753899ff945f72",
+      "0254baf3c601928d",
       "e6bf180d162757ed",
       "ce6b1d76c3fa0a8f",
       "5702aa0bdde53d7c",
@@ -4372,7 +4375,7 @@
     "extractedChars": 2087,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T23:03:32.200Z",
-    "lastChangedISO": "2026-09-07T05:37:31.051Z",
+    "lastChangedISO": "2026-09-08T06:04:12.875Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -5338,7 +5341,7 @@
   {
     "sourceUrl": "https://www.awqaf.gov.sa/ar",
     "orgId": "awqaf",
-    "contentHash": "1c812651a649ddc5a75aa5cf83517d232f0b4715ab626a247376861c997e9730",
+    "contentHash": "a52b0a0d92ab394d91345c15d4048467b063fb319edb35156d20443ceca1e043",
     "blockHashes": [
       "7364f70c455dc78c",
       "c804732dd480d71a",
@@ -5353,14 +5356,15 @@
       "bffb7f53bef89107",
       "cfc8030f4144577c",
       "82135fcbb4f61098",
-      "62bff3863a690d7e"
+      "e020ab98f801d050"
     ],
     "extractedChars": 3458,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
-    "lastChangedISO": "2026-09-07T11:39:37.954Z",
+    "lastChangedISO": "2026-09-08T06:04:12.875Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://www.bankalbilad.com.sa/en/about/pages/training.aspx",
@@ -6287,20 +6291,20 @@
   {
     "sourceUrl": "https://www.gaca.gov.sa/",
     "orgId": "gaca",
-    "contentHash": "7529b62f1ed5a5202e38f17dc49525be14d86308378353b5f33726c840d8f2a3",
+    "contentHash": "7ac7fc2c3f3c60da6f4e0c4ff4c235ca076304c28b08e81e73b399294ce4d7a8",
     "blockHashes": [
-      "0e04793a90380295",
+      "7cf7598705f9da1e",
       "67ba147535885b5a",
-      "cf711f2c92b5d380",
+      "74f104659dee95f9",
       "83a22e1f9fb245f8",
-      "bc532942aaed49b7"
+      "ac473f85e97b4d85"
     ],
     "extractedChars": 1866,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-07T11:39:37.954Z",
+    "lastChangedISO": "2026-09-08T06:04:12.875Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.gosi.gov.sa/",
@@ -9491,7 +9495,7 @@
   {
     "sourceUrl": "https://www.rega.gov.sa/",
     "orgId": "rega",
-    "contentHash": "ad88e821cf582868e20d5ffbdaca797117dc604db058070442dfe432e2271782",
+    "contentHash": "3a1aa129f70570500d8f6622919ede5f2fa735a6d3d47db04a88abd5fdc94ca4",
     "blockHashes": [
       "2c2608753486ae3f",
       "74e4c1d2a646a96e",
@@ -9515,21 +9519,22 @@
       "f066a01447d2d0f3",
       "7ec36c5e3fab8bfe",
       "55328b92d3d94843",
-      "fbee9758c9f9580f",
+      "19a3c97ab8c07325",
+      "96eb770823d0b4db",
       "68c04d5fdaac6ccf",
-      "746a0ad6b90b06c4",
       "55d607f9f7a2de50",
-      "be46a221555e7e2a",
-      "0c5b9849ded2a74c",
+      "6b5dec4b4f0a7c4a",
+      "c8aedda8eca54aff",
       "782261474561a27a",
       "f583729048a57f1a"
     ],
     "extractedChars": 3169,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
-    "lastChangedISO": "2026-09-07T07:57:22.566Z",
+    "lastChangedISO": "2026-09-08T06:04:12.875Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://www.riyadbank.com/ar/personal-banking",
@@ -11270,23 +11275,19 @@
   {
     "sourceUrl": "https://www.taifcity.gov.sa/#/ar",
     "orgId": "taif_amanah",
-    "contentHash": "83cde60bdd726a7257ece45b96587e8c479e4f1d75669e2fd3dd7309df0d5434",
+    "contentHash": "72943c3a638d2befbb5d2fd3be704b6fa1f95ad3207f96b924c9663f1c43dd22",
     "blockHashes": [
       "969f0f9d8129003d",
-      "b6911745d8940c74",
-      "f0f4a4262f40d108",
-      "f0f4a4262f40d108",
-      "f0f4a4262f40d108",
-      "f0f4a4262f40d108",
-      "64df7a90c572851b",
+      "265e4175465befc8",
       "8554e1d0ca772440"
     ],
-    "extractedChars": 5844,
+    "extractedChars": 685,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T23:54:26.779Z",
-    "lastChangedISO": "2026-09-07T11:39:37.954Z",
+    "lastChangedISO": "2026-09-08T06:04:12.875Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "triaged_out"
   },
   {
     "sourceUrl": "https://www.thiqah.sa/",
@@ -11687,7 +11688,7 @@
   {
     "sourceUrl": "https://yaqeen.sa/ar/",
     "orgId": "falcom",
-    "contentHash": "8ce9036120eb2f8fc1d1b9f00638bea2344a917e55b895657b4ee87a85722cf2",
+    "contentHash": "6ab26da8ff83b974b9631dec1f57a994592a81e374bca61bef8203a6524cd579",
     "blockHashes": [
       "a0eac9fd663141a9",
       "b7c33a988b2d9d3f",
@@ -11735,12 +11736,13 @@
       "6c34169b09a3fc92",
       "1b233cdcfecc1fd5"
     ],
-    "extractedChars": 11130,
-    "extractionMethod": "readability",
+    "extractedChars": 9970,
+    "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-07T11:39:37.954Z",
+    "lastChangedISO": "2026-09-08T06:04:12.875Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "triaged_out"
   },
   {
     "sourceUrl": "https://zatca.gov.sa/ar",
