@@ -461,8 +461,8 @@
   {
     "sourceUrl": "https://careers.alrajhibank.com.sa/en/page/coop-program/",
     "orgId": "alrajhi",
-    "lastAttemptISO": "2026-09-08T15:48:39.488Z",
-    "lastSuccessISO": "2026-09-08T15:48:39.488Z",
+    "lastAttemptISO": "2026-09-08T16:43:24.950Z",
+    "lastSuccessISO": "2026-09-08T16:43:24.950Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -515,8 +515,8 @@
   {
     "sourceUrl": "https://careers.cma.gov.sa/ar/page/coop-program/",
     "orgId": "cma",
-    "lastAttemptISO": "2026-09-08T15:48:39.488Z",
-    "lastSuccessISO": "2026-09-08T15:48:39.488Z",
+    "lastAttemptISO": "2026-09-08T16:43:24.950Z",
+    "lastSuccessISO": "2026-09-08T16:43:24.950Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -695,8 +695,8 @@
   {
     "sourceUrl": "https://careers.saib.com.sa/ar/page/coop-program/",
     "orgId": "saib",
-    "lastAttemptISO": "2026-09-08T15:48:39.488Z",
-    "lastSuccessISO": "2026-09-08T15:48:39.488Z",
+    "lastAttemptISO": "2026-09-08T16:43:24.950Z",
+    "lastSuccessISO": "2026-09-08T16:43:24.950Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -749,8 +749,8 @@
   {
     "sourceUrl": "https://careers.sama.gov.sa/search/",
     "orgId": "sama",
-    "lastAttemptISO": "2026-09-08T15:48:39.488Z",
-    "lastSuccessISO": "2026-09-08T15:48:39.488Z",
+    "lastAttemptISO": "2026-09-08T16:43:24.950Z",
+    "lastSuccessISO": "2026-09-08T16:43:24.950Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -794,8 +794,8 @@
   {
     "sourceUrl": "https://careers.sdaia.gov.sa/jobs",
     "orgId": "sdaia",
-    "lastAttemptISO": "2026-09-08T15:57:23.627Z",
-    "lastSuccessISO": "2026-09-08T15:57:23.627Z",
+    "lastAttemptISO": "2026-09-08T16:43:24.950Z",
+    "lastSuccessISO": "2026-09-08T16:43:24.950Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -857,8 +857,8 @@
   {
     "sourceUrl": "https://careers.stc.com.sa/go/Cooperative-Training/7736023/",
     "orgId": "stc",
-    "lastAttemptISO": "2026-09-08T15:33:08.838Z",
-    "lastSuccessISO": "2026-09-08T15:33:08.838Z",
+    "lastAttemptISO": "2026-09-08T16:43:24.950Z",
+    "lastSuccessISO": "2026-09-08T16:43:24.950Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -1433,8 +1433,8 @@
   {
     "sourceUrl": "https://ncvc.gov.sa/en/Pages/COOP-Training.aspx",
     "orgId": "ncvc",
-    "lastAttemptISO": "2026-09-08T15:57:23.627Z",
-    "lastSuccessISO": "2026-09-08T15:57:23.627Z",
+    "lastAttemptISO": "2026-09-08T16:43:24.950Z",
+    "lastSuccessISO": "2026-09-08T16:43:24.950Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -1667,8 +1667,8 @@
   {
     "sourceUrl": "https://slccareers.kpmg.com/job/Beirut-Experienced-External-Auditor/857312523/",
     "orgId": "kpmg_sa",
-    "lastAttemptISO": "2026-09-08T15:33:08.838Z",
-    "lastSuccessISO": "2026-09-08T15:33:08.838Z",
+    "lastAttemptISO": "2026-09-08T16:43:24.950Z",
+    "lastSuccessISO": "2026-09-08T16:43:24.950Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -1802,11 +1802,11 @@
   {
     "sourceUrl": "https://training.moj.gov.sa/",
     "orgId": "moj",
-    "lastAttemptISO": "2026-09-08T15:57:23.627Z",
+    "lastAttemptISO": "2026-09-08T16:43:24.950Z",
     "lastSuccessISO": "2026-09-08T15:57:23.627Z",
-    "consecutiveFailures": 0,
-    "lastError": null,
-    "state": "healthy"
+    "consecutiveFailures": 1,
+    "lastError": "fetched 11101 bytes but extracted only 0 chars of text; the page is probably rendered by javascript and cannot be watched this way",
+    "state": "degraded"
   },
   {
     "sourceUrl": "https://tvtc.gov.sa/",
@@ -2018,8 +2018,8 @@
   {
     "sourceUrl": "https://www.aramco.com/en/careers/for-saudi-applicants/student-opportunities/college-continuation-program",
     "orgId": "aramco",
-    "lastAttemptISO": "2026-09-08T15:03:31.135Z",
-    "lastSuccessISO": "2026-09-08T15:03:31.135Z",
+    "lastAttemptISO": "2026-09-08T16:43:24.950Z",
+    "lastSuccessISO": "2026-09-08T16:43:24.950Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -3332,11 +3332,11 @@
   {
     "sourceUrl": "https://www.sabic.com/ar/careers",
     "orgId": "sabic",
-    "lastAttemptISO": "2026-09-08T15:48:39.488Z",
-    "lastSuccessISO": "2026-09-08T14:48:50.776Z",
-    "consecutiveFailures": 1,
-    "lastError": "fetch failed",
-    "state": "degraded"
+    "lastAttemptISO": "2026-09-08T16:43:24.950Z",
+    "lastSuccessISO": "2026-09-08T16:43:24.950Z",
+    "consecutiveFailures": 0,
+    "lastError": null,
+    "state": "healthy"
   },
   {
     "sourceUrl": "https://www.sabic.com/ar/careers/americas",
@@ -3476,8 +3476,8 @@
   {
     "sourceUrl": "https://www.saso.gov.sa/ar/QualitySign/info/Pages/default.aspx",
     "orgId": "saso",
-    "lastAttemptISO": "2026-09-08T15:57:23.627Z",
-    "lastSuccessISO": "2026-09-08T15:57:23.627Z",
+    "lastAttemptISO": "2026-09-08T16:43:24.950Z",
+    "lastSuccessISO": "2026-09-08T16:43:24.950Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -3800,8 +3800,8 @@
   {
     "sourceUrl": "https://www.tahakom.com/careers",
     "orgId": "tahakom",
-    "lastAttemptISO": "2026-09-08T15:57:23.627Z",
-    "lastSuccessISO": "2026-09-08T15:57:23.627Z",
+    "lastAttemptISO": "2026-09-08T16:43:24.950Z",
+    "lastSuccessISO": "2026-09-08T16:43:24.950Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
