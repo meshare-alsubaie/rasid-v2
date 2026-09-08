@@ -2207,9 +2207,9 @@
   {
     "sourceUrl": "https://gaca.gov.sa/ar/News",
     "orgId": "gaca",
-    "contentHash": "86e76d8d1a17e3f59aeb498b27366239004ce64330acda2cdbac37c73e44c2d8",
+    "contentHash": "f66b65c7e9586eca1c3a344895b05c3058a6821ca485dadac51a0a3182a50bdd",
     "blockHashes": [
-      "6421451f20757096",
+      "70e31394aec4dc52",
       "a9d6dc4cf2355a8e",
       "3763b3c6e9329a1f",
       "b158712949778a33",
@@ -2285,7 +2285,7 @@
     "extractedChars": 21327,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-08T06:31:56.151Z",
+    "lastChangedISO": "2026-09-08T09:36:38.911Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -3207,37 +3207,37 @@
   {
     "sourceUrl": "https://momah.gov.sa/ar/menu/media-center",
     "orgId": "housing",
-    "contentHash": "3c075ae17b0abd5ad2ea5dc5532e2a5ac3e813debc214982c6691792c354b27c",
+    "contentHash": "437eb8724fa747b38aba16e11e663108a140851273d394661e016f41314b73ba",
     "blockHashes": [
       "4c63522200199108",
       "7bc8965d992df69b",
       "aa8e55eac5aea8cd",
       "09552ec2996654f9",
-      "5ba94d19198241d1",
-      "5d15152619ff887e",
-      "3ebfbf48e0031671",
+      "36da25005bc60340",
+      "09b1bd561f62b68f",
+      "b81fba96ba153cfc",
       "ff6f87e39638cb9b",
-      "3967993e4e424e3a",
+      "eee6375b01bb0a65",
+      "df8e7c0369137158",
+      "1f6516204f11e75b",
+      "406944bf771004f8",
+      "38b5f89eb04e698b",
       "560edfe1df9d8921",
       "23b97a8a93aba477",
       "9cd3abf7fd1573ff",
-      "4b8834d41188fb67",
-      "6b9c305be719c230",
-      "9a935caa67949c2a",
-      "2278b18e60b83ef0",
-      "09b1bd561f62b68f",
-      "71a0a2e4cfecbf0e",
-      "30abcb6d9ca32476",
-      "34aef0134669a6bf",
-      "c13c1a53e49d10b6",
-      "ede9f58cab51c578",
+      "37a146bc1f4958f7",
+      "f1534b8cd68cfd95",
+      "5d15152619ff887e",
+      "f864e399f13cb463",
       "ac1405062719fb86",
-      "c10d0af5277cb9dd"
+      "523eaed938f8dd6b",
+      "131521963007f912",
+      "68d57493404b3a15"
     ],
     "extractedChars": 151282,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-08T06:31:56.151Z",
+    "lastChangedISO": "2026-09-08T09:36:38.911Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -6440,10 +6440,10 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/careers/graduate-development-program",
     "orgId": "hrc",
-    "contentHash": "ff03014d7317e9ab84e2b18e445f83ce225408a0257e00101c6c070205a4b99b",
+    "contentHash": "8c5c313a2c75816086758f69f7e76ec59e8f6607c567da63ab7ac8c983604a94",
     "blockHashes": [
       "12e41a244a8a2984",
-      "d304526552881cb8",
+      "a2f140014aa3a902",
       "741386d322f274be",
       "40d7009856bbc81d",
       "2dd486d3d3cacb8b",
@@ -6509,7 +6509,7 @@
     "extractedChars": 10689,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-08T06:31:56.151Z",
+    "lastChangedISO": "2026-09-08T09:36:38.911Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -7021,8 +7021,8 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-08-31T00:02:49.563Z",
     "thinRuns": 0,
-    "pendingClassification": true,
-    "classifyFailures": 2
+    "pendingClassification": false,
+    "classifyFailures": 3
   },
   {
     "sourceUrl": "https://www.jadwa.com/en/internship",
@@ -8502,17 +8502,15 @@
   {
     "sourceUrl": "https://www.nazaha.gov.sa/News",
     "orgId": "nazaha",
-    "contentHash": "6357e6bddf7870ab5d055913316a32c1ac0f79d842a55230bce7f65e5e900b69",
+    "contentHash": "43c221924a102c5e2b594fcdec1bc6cf326e4ba24722df960d1ebf056f1a72db",
     "blockHashes": [
-      "b95094b73d4a09cd",
-      "ae788be0df385c72",
-      "ecfe196c74433ee8",
-      "c343d10cb0767689"
+      "ce9179941e6aeb2a",
+      "071be15c674c4a59"
     ],
     "extractedChars": 240,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-08T06:15:44.810Z",
+    "lastChangedISO": "2026-09-08T09:36:38.911Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "triaged_out"
