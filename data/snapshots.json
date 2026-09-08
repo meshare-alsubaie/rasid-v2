@@ -2379,20 +2379,19 @@
   {
     "sourceUrl": "https://gaca.gov.sa/web/ar-sa/page/home",
     "orgId": "gaca",
-    "contentHash": "1db1e2f62f78ac9f20957b79183f4962b848de2148297c125f4c2c6d039b8605",
+    "contentHash": "14565bbec001b9cb7a6fcca209d5782b8a9e06e95c8e7ff6a044615e01cd14a4",
     "blockHashes": [
       "cad69f1940c6991a",
       "b1a688d32a900310",
       "83a22e1f9fb245f8",
       "bc532942aaed49b7"
     ],
-    "extractedChars": 390,
+    "extractedChars": 389,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-08T09:07:10.799Z",
+    "lastChangedISO": "2026-09-08T12:11:22.440Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://gmedia.gov.sa/",
@@ -3054,7 +3053,7 @@
   {
     "sourceUrl": "https://modon.gov.sa/ar/MediaCenter/modon-news/News/Pages/default.aspx",
     "orgId": "modon",
-    "contentHash": "81c6faa9f15f9f7baea46dfcd8dde8aa30cf1347f53e631a3da4739fc7001358",
+    "contentHash": "6bb76865a230076a107aa95733a4697295108f4a924fe7f889ce1a7f5b71f04a",
     "blockHashes": [
       "8114f1642a788094",
       "8727cbb5dfea6170",
@@ -3065,10 +3064,9 @@
     "extractedChars": 1591,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-08T09:07:10.799Z",
+    "lastChangedISO": "2026-09-08T12:11:22.440Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://modon.gov.sa/ar/MediaCenter/Pages/default.aspx",
@@ -3129,7 +3127,7 @@
   {
     "sourceUrl": "https://momah.gov.sa/ar/announcements",
     "orgId": "housing",
-    "contentHash": "166b15aef648aa975d852c55b4f3637058925b5bac8c711ea5dbf57f4401fbc5",
+    "contentHash": "9ea2e70c81ef4f00c9ab602638b34285f23c4089a3cdfb766a6fa53276d64169",
     "blockHashes": [
       "b5d072cff912d21d",
       "83198c6586cd15b8",
@@ -3157,13 +3155,12 @@
       "9bd701232906f083",
       "b3189276993ef15a"
     ],
-    "extractedChars": 152454,
+    "extractedChars": 152495,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-08T09:07:10.799Z",
+    "lastChangedISO": "2026-09-08T12:11:22.440Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://momah.gov.sa/ar/form/partnerships-and-cooperation",
@@ -5648,18 +5645,18 @@
   {
     "sourceUrl": "https://www.etec.gov.sa/ar/centers/nctea",
     "orgId": "etec",
-    "contentHash": "faf63c757cfae61e3525a966febc0c440384325a052e78e76b233d75462389c7",
+    "contentHash": "f030911b3db7bdf155360b5f82a736453b18e4fc6921cf7af4dda461405a1935",
     "blockHashes": [
       "969f0f9d8129003d",
       "1928fdbb5b09339c",
       "9bebc378ce9ccf9b"
     ],
-    "extractedChars": 1405,
+    "extractedChars": 1398,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-07T11:48:16.208Z",
+    "lastChangedISO": "2026-09-08T12:11:22.440Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://www.etec.gov.sa/ar/identity-guide",
@@ -6331,7 +6328,7 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/all_branches_news?lang=ar",
     "orgId": "hrc",
-    "contentHash": "98b1674d41d0ebba49345fb7c7f5142e67980d527bfab14ed3db508dcc37726d",
+    "contentHash": "38758888adaab953ea35016136c2dc81decc59f236238860492eaf3bcf96af03",
     "blockHashes": [
       "12e41a244a8a2984",
       "e34ef2d16a7fd022",
@@ -6360,9 +6357,9 @@
     "extractedChars": 5039,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-08T09:07:10.799Z",
+    "lastChangedISO": "2026-09-08T12:11:22.440Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/careers",
@@ -6806,7 +6803,7 @@
   {
     "sourceUrl": "https://www.hrsd.gov.sa/contact-us/inquiries-about-employment-offices",
     "orgId": "hrsd",
-    "contentHash": "7a78bedf83f22ae657c6a3fc264c37e43828f67cbc7e63550d48e3f6bb9f602b",
+    "contentHash": "2cfffc93ff0a240c174a405be940e063a5cc98e65c6944380d8e4d5041c9bc6f",
     "blockHashes": [
       "92ab7c84ae7e0913",
       "0c78e22b2fe724ca",
@@ -6818,9 +6815,9 @@
     "extractedChars": 989,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-07T14:53:49.988Z",
+    "lastChangedISO": "2026-09-08T12:11:22.440Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://www.hrsd.gov.sa/media-center",
