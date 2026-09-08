@@ -45,15 +45,15 @@
       "3356b5969b2e99ad",
       "24ad63b011b39941",
       "c09255cabba72f03",
-      "d0a4bc64ccab4f21",
-      "7e05a3261164bbd0"
+      "c24c681a0e7da724",
+      "ab50894e15dffce5"
     ],
     "extractedChars": 9230,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T22:03:35.383Z",
     "lastChangedISO": "2026-09-07T12:33:00.840Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "http://www.wasatah.com.sa/index.php/ar/",
@@ -209,7 +209,8 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-02T23:42:46.216Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://adf.gov.sa/ar/Pages/training.aspx",
@@ -7875,11 +7876,11 @@
   {
     "sourceUrl": "https://www.mof.gov.sa/eservices/Loans/Pages/Lending_Educational_Projects.aspx",
     "orgId": "mof",
-    "contentHash": "cc0e9d7a6305efa6f9714554a310410a9a8758db8a0092d9b8853d73139c4e81",
+    "contentHash": "595a5d00353f1b553a4ebb69dab642c8a96293d229db2bd57750b62e0c0ae56d",
     "blockHashes": [
       "7f625851cbbadbc6",
       "f7711325e2c4b301",
-      "23b5ade28dc3dcda",
+      "356920b589db7786",
       "8e28a73c96909ff5",
       "9f6687b23d59fac0",
       "f48c3103130eeb1d",
@@ -7936,7 +7937,7 @@
     "extractedChars": 8294,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-07T07:57:22.566Z",
+    "lastChangedISO": "2026-09-08T06:44:34.331Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -9214,16 +9215,17 @@
   {
     "sourceUrl": "https://www.rcrc.gov.sa/careers/?lang=ar",
     "orgId": "rcrc",
-    "contentHash": "9e64c438cdc50fd2cbafe6c10d4558c15aa4b67e0272e08a85bb868636d2d2b4",
+    "contentHash": "7d607b06723c499a684525a06a5c5bbf0022ad1999567f1e482e5ec6c12e76b8",
     "blockHashes": [
       "83d50294a74d5317"
     ],
-    "extractedChars": 784,
+    "extractedChars": 1166,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-07T15:04:55.272Z",
+    "lastChangedISO": "2026-09-08T06:44:34.331Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://www.rcrc.gov.sa/media-center/",
