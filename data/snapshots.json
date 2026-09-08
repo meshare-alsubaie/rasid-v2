@@ -1328,16 +1328,15 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/search-results",
     "orgId": "maaden",
-    "contentHash": "88fa8533501ff7a62a7b1973320c9ea0b2c7c7eb5ba9ab1afefb07d0666cab1f",
+    "contentHash": "a446c6214624f4ac9eb84e895deca2a09117ef3eab8c0d22f8cbeb7a5d014224",
     "blockHashes": [
       "dab5a7f3801bc914",
-      "3e0b9d969889a149",
-      "5f0648fb1fa62d92"
+      "ee71efc224ef329e"
     ],
-    "extractedChars": 240,
-    "extractionMethod": "readability",
+    "extractedChars": 162,
+    "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-08T06:31:56.151Z",
+    "lastChangedISO": "2026-09-08T07:25:25.430Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -3598,15 +3597,15 @@
   {
     "sourceUrl": "https://ndf.gov.sa/",
     "orgId": "ndf",
-    "contentHash": "c15a9ba6029ce613cc49671da3f73fe216fda4f9b072ab874f888ad8d2ec9393",
+    "contentHash": "3be81f4ab485139502a0cc6a83a8f4394005645d95b13be02ba3e46862ee3c02",
     "blockHashes": [
-      "253f974cd7219521",
+      "ac955606e9a08ae1",
       "cea7fd3977a9c5c0"
     ],
-    "extractedChars": 3078,
+    "extractedChars": 3079,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-07T07:03:38.002Z",
+    "lastChangedISO": "2026-09-08T07:25:25.430Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -7050,7 +7049,7 @@
   {
     "sourceUrl": "https://www.kapsarc.org/",
     "orgId": "kapsarc",
-    "contentHash": "f5992b219b565ce6f0d4107b1882c9f0f65f7847e1c15076d09f787b380c951e",
+    "contentHash": "d1b67b01253142175f8aa6e618b9041123dc1cb225234051ae42eb2faa54af10",
     "blockHashes": [
       "dbad88ec8435b910",
       "11ed80f75ad0e89e",
@@ -7066,15 +7065,14 @@
       "1ca6bdcf58bdb906",
       "ce9368f230937fe6",
       "069cab84a35d09fa",
-      "75e4929a31254b28",
-      "70cd7b960fc7363c",
+      "566a64777e725985",
       "0a83eb39b7d98b65",
       "db7321e737c4067b"
     ],
     "extractedChars": 1443,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T22:03:35.383Z",
-    "lastChangedISO": "2026-09-07T13:10:25.881Z",
+    "lastChangedISO": "2026-09-08T07:25:25.430Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -8479,16 +8477,16 @@
   {
     "sourceUrl": "https://www.nazaha.gov.sa/",
     "orgId": "nazaha",
-    "contentHash": "fa8625a32e0dff90f2b46afa9f3d8df2bb41794be91818c5c4d0d008b7c77067",
+    "contentHash": "69f4668c6ef52318cf327993e05d732219390f13d05e7e858395c20d9de69a12",
     "blockHashes": [
-      "8112793f58d5130f",
+      "e79a139cdbc41fc7",
       "c3fc1cda7b3b3192",
-      "5ca983e6f0344343"
+      "6e57684a145062e2"
     ],
     "extractedChars": 877,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T22:03:35.383Z",
-    "lastChangedISO": "2026-09-07T07:03:38.002Z",
+    "lastChangedISO": "2026-09-08T07:25:25.430Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
