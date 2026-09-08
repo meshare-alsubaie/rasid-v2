@@ -2662,31 +2662,31 @@
   {
     "sourceUrl": "https://lcgpa.gov.sa/ar/Pages/default.aspx",
     "orgId": "lcgpa",
-    "contentHash": "357bb691454021961e116f06ba1def9d3f65130d19eeea86a7454bf8d9204318",
+    "contentHash": "c4fbc19d9404923e1657e74305dbedb892a9d7174c73c5829987db2dda318d3f",
     "blockHashes": [
       "ac6f4bc8da598f29",
       "beda84e843f95551"
     ],
-    "extractedChars": 218,
+    "extractedChars": 579,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-08T05:48:44.144Z",
+    "lastChangedISO": "2026-09-08T11:56:39.455Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://makkah-careers.health.sa/",
     "orgId": "mecca_health",
-    "contentHash": "99c987bdde03dcae21259aa8bb0ebff9d7d2f7680ec1fdd719427023870c1433",
+    "contentHash": "5fe6a78bfc56d55c944901df45007fdd53b03f3f49322249b6eef2fb5e4f0e16",
     "blockHashes": [
       "99c987bdde03dcae"
     ],
-    "extractedChars": 352,
+    "extractedChars": 420,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-08T05:48:44.144Z",
+    "lastChangedISO": "2026-09-08T11:56:39.455Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://master-works.sa/ar/Careers",
@@ -2766,7 +2766,7 @@
   {
     "sourceUrl": "https://mawhiba.org/",
     "orgId": "mawhiba",
-    "contentHash": "ab7adba1220c0dbf6d07529a24e00093251016f7672ba259a3d29e3a231287aa",
+    "contentHash": "ebf0bd220303ebda4300e730ae3515ecf15ec3846b10e56c57fd8b858e2decca",
     "blockHashes": [
       "cebaa0d7740345e0",
       "9c8f9dc120c0d201",
@@ -2794,12 +2794,12 @@
       "1f3c4598715a2661",
       "006216df3cce041d"
     ],
-    "extractedChars": 8611,
+    "extractedChars": 8315,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-08T05:48:44.144Z",
+    "lastChangedISO": "2026-09-08T11:56:39.455Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://mc.gov.sa/ar/mediacenter/News/pages/default.aspx",
@@ -3546,20 +3546,19 @@
   {
     "sourceUrl": "https://ncar.gov.sa/",
     "orgId": "ncar",
-    "contentHash": "27f62e05d69caa21d2ef14a491fc742e3f66a9631dbc823c03c1bc3aaf54ce90",
+    "contentHash": "8268b851218117739a1f315c2769fa4a617afdd6e4e9dcdb5939601327b53ee6",
     "blockHashes": [
       "c911502a32b8a6f9",
       "427998d73505aec3",
       "26b7600a224c8c65",
       "75c514565d626437"
     ],
-    "extractedChars": 1077,
+    "extractedChars": 987,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-07T11:36:36.614Z",
+    "lastChangedISO": "2026-09-08T11:56:39.455Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://ncdc.gov.sa/",
@@ -6314,7 +6313,7 @@
   {
     "sourceUrl": "https://www.gosi.gov.sa/",
     "orgId": "pension",
-    "contentHash": "5e6145e646acd2175f3308dddb601cffd60749673b1b1f60a9115b060f8457cd",
+    "contentHash": "8d0df78e24e0a39dcbe67d99b58eb4fdf3bbc1820aeaea22648527f67a6b9631",
     "blockHashes": [
       "6ca8f67a18987bc0",
       "d03cd1e8a4882e4f",
@@ -6326,13 +6325,12 @@
       "7134010ac5c834ed",
       "620082bc98ac18f2"
     ],
-    "extractedChars": 2614,
+    "extractedChars": 452,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-08T05:48:44.144Z",
+    "lastChangedISO": "2026-09-08T11:56:39.455Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "triaged_out"
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/all_branches_news?lang=ar",
@@ -7700,18 +7698,18 @@
   {
     "sourceUrl": "https://www.moc.gov.sa/ar",
     "orgId": "moc",
-    "contentHash": "020feea1792de20f4c6d5719fb35d617fc892cdaf42a379e65ff466ec5c6bca8",
+    "contentHash": "b0682b81fc1386a82faeace29434e415b59e6ae19752763077087266b6ad7f73",
     "blockHashes": [
       "88c122fdb76fc42f",
       "9f51a039dedbc05c",
       "c2578e9b892353cd"
     ],
-    "extractedChars": 6094,
+    "extractedChars": 6088,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-08T05:48:44.144Z",
+    "lastChangedISO": "2026-09-08T11:56:39.455Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://www.moe.gov.sa/ar/aboutus/nationaltransformation/Pages/employmentstrategy.aspx",
