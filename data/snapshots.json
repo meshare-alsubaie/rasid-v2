@@ -2190,19 +2190,20 @@
   {
     "sourceUrl": "https://gaca.gov.sa/ar/announcements",
     "orgId": "gaca",
-    "contentHash": "d281fd637bad4d2bab78e9ca62600f750967ca21d448d755c2b7496d3405a287",
+    "contentHash": "29aaf2067afa4471919d0d002db2e257088c417deeb2f01c8733e68c545d873d",
     "blockHashes": [
-      "69c1b0ac44d9d047",
+      "debaeb6258bde096",
       "9c2a3967149440a8",
       "83a22e1f9fb245f8",
-      "bc532942aaed49b7"
+      "7de1c156a36d0c38"
     ],
-    "extractedChars": 1213,
+    "extractedChars": 1474,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-09T11:39:58.691Z",
+    "lastChangedISO": "2026-09-09T14:41:57.771Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://gaca.gov.sa/ar/News",
@@ -3017,9 +3018,9 @@
   {
     "sourceUrl": "https://modon.gov.sa/",
     "orgId": "modon",
-    "contentHash": "4a133f77cb25c2030f45a3d62d83a1b131697147350997ec459bd5de2fb55c56",
+    "contentHash": "c6c71a752d5ba64a1c612f0d2a450d7986d11e03265b172fb56017a9832e4e4b",
     "blockHashes": [
-      "263b00592d0c6bb7",
+      "ca042de23a94adb9",
       "0edf2292f0637ccb",
       "c32ffa2c93fe0d09",
       "9066ce9805b0428c",
@@ -3041,9 +3042,10 @@
     "extractedChars": 5996,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-09T08:36:45.591Z",
+    "lastChangedISO": "2026-09-09T14:41:57.771Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://modon.gov.sa/ar/MediaCenter/modon-news/News/Pages/default.aspx",
@@ -5669,14 +5671,14 @@
       "1928fdbb5b09339c",
       "280f6822553a305a",
       "8aff2c2d73d3ee92",
-      "df0106bfc636efb0"
+      "942ceb6c35af77ea"
     ],
     "extractedChars": 509,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-09T08:36:45.591Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.etec.gov.sa/ar/institutions",
@@ -9198,16 +9200,17 @@
   {
     "sourceUrl": "https://www.rcrc.gov.sa/careers/?lang=ar",
     "orgId": "rcrc",
-    "contentHash": "62e41bdd987d4c34966a2de2d566b398a368d4655c9c9f8c990d0e536935f86d",
+    "contentHash": "75a0cfd00ac7d93e6cbb19b7f88d7c699bb0e18cde6b43d8045f211e86dbef29",
     "blockHashes": [
       "62e41bdd987d4c34"
     ],
-    "extractedChars": 784,
+    "extractedChars": 1166,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-09T13:47:28.079Z",
+    "lastChangedISO": "2026-09-09T14:41:57.771Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://www.rcrc.gov.sa/media-center/",
