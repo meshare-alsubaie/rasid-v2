@@ -755,7 +755,7 @@
   {
     "sourceUrl": "https://career.alinma.com/",
     "orgId": "alinma",
-    "contentHash": "e245fd94c1ab59dcc6bad34af50ba34c224654b27d2f46834c18eef001143fa5",
+    "contentHash": null,
     "blockHashes": [
       "d139e32e22028878",
       "24a16c9057a577bb",
@@ -2290,7 +2290,7 @@
   {
     "sourceUrl": "https://gaca.gov.sa/news",
     "orgId": "gaca",
-    "contentHash": "023824f981e5a6c4d10527a0bc021df9d93a43dbecd0e1691ea18cf65aad45b8",
+    "contentHash": "88e0a69e27e69e99c67871e9b8acddb77c23c5f9c59c17df7eec9626b435a511",
     "blockHashes": [
       "cc04c4b938c94fe0",
       "fd5b5b7f5cb4b0f4",
@@ -2367,10 +2367,9 @@
     "extractedChars": 20732,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-09T07:58:30.643Z",
+    "lastChangedISO": "2026-09-09T11:05:25.195Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://gaca.gov.sa/web/ar-sa/page/home",
@@ -3068,7 +3067,7 @@
   {
     "sourceUrl": "https://modon.gov.sa/ar/MediaCenter/Pages/default.aspx",
     "orgId": "modon",
-    "contentHash": "b6235efb8f6bc787b5900567090aa1d0d4e8d2bdc7588deff6c0eb3445702bd6",
+    "contentHash": "338f6eb76b81d4daa15eeb510baef74e83e2a33751fd9d475fd0e67e21f51274",
     "blockHashes": [
       "dbee3f2b47846110",
       "317f2772b9ef6210",
@@ -3078,10 +3077,9 @@
     "extractedChars": 306,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-09T10:57:26.898Z",
+    "lastChangedISO": "2026-09-09T11:05:25.195Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://momah.gov.sa/ar",
@@ -3163,7 +3161,7 @@
   {
     "sourceUrl": "https://momah.gov.sa/ar/form/partnerships-and-cooperation",
     "orgId": "housing",
-    "contentHash": "22ad8b80e1e94944565063ce275c83d355a7f14618d99db0bd340dee8623a7f1",
+    "contentHash": "280f038e73f48f9e4de8d1038d279a1d2aee66cd532d1392077bf096e002fd42",
     "blockHashes": [
       "bc22896c0dc046da",
       "d2009185b8a1a230",
@@ -3196,9 +3194,9 @@
     "extractedChars": 151367,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-09T10:57:26.898Z",
+    "lastChangedISO": "2026-09-09T11:05:25.195Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://momah.gov.sa/ar/menu/media-center",
@@ -6537,7 +6535,7 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/news?lang=ar",
     "orgId": "hrc",
-    "contentHash": "13666b2604f285200988de20417d2b529b9c29a1475a570ee0316bb490efa621",
+    "contentHash": "1b264769e29ad25c9b6e94e8f484f0fb28dcf6b37a2011911385240a08411691",
     "blockHashes": [
       "12e41a244a8a2984",
       "24b3a4200d1bebbd",
@@ -6570,10 +6568,9 @@
     "extractedChars": 5431,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-09T10:57:26.898Z",
+    "lastChangedISO": "2026-09-09T11:05:25.195Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://www.hrdf.org.sa/products-and-services/programs/individuals/training/cooperative-training/",
@@ -10133,17 +10130,17 @@
   {
     "sourceUrl": "https://www.se.com.sa/nh",
     "orgId": "sec",
-    "contentHash": "8ded396959e5ee36c601c335deb9f9ee779922f9bb74faf2daf3e45ba78991d0",
+    "contentHash": "d290ed5e964a6cd7a034c4ffa072a37897244459346603bcbcbce7f0cd6b78c8",
     "blockHashes": [
       "29ebacf6d27888a5",
       "33ac0ac2b2a350b8"
     ],
-    "extractedChars": 1173,
+    "extractedChars": 625,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-03T05:13:40.059Z",
-    "lastChangedISO": "2026-09-04T09:22:07.355Z",
+    "lastChangedISO": "2026-09-09T11:05:25.195Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://www.seec.gov.sa/",
