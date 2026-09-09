@@ -2394,14 +2394,14 @@
   {
     "sourceUrl": "https://gmedia.gov.sa/",
     "orgId": "gcam",
-    "contentHash": "049c513cbd28c02929e8c7abf99a36c10591beb0162033f629885f515b1f1664",
+    "contentHash": "9a1b3c9c66af83340aa859e898590b4221499011ba9a9e0888dd462b312c63df",
     "blockHashes": [
-      "049c513cbd28c029"
+      "9a1b3c9c66af8334"
     ],
     "extractedChars": 1118,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-08T13:19:06.659Z",
+    "lastChangedISO": "2026-09-09T09:21:40.276Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -3635,9 +3635,9 @@
   {
     "sourceUrl": "https://ndf.gov.sa/media-center/articles",
     "orgId": "ndf",
-    "contentHash": "3c24a36dcbf892fb136ec3416fe239e07b82cba0a9bf66a01315e387197f177c",
+    "contentHash": "515952c6565a6105e80d884b84ef22c452f02563ee8b6e31bf29159d4243b071",
     "blockHashes": [
-      "47e40ebccca4f771",
+      "bb62d144e3489ddc",
       "b4a5c7cd60560196",
       "4c268b289192e891",
       "d91f8453abc8bd97",
@@ -3646,9 +3646,10 @@
     "extractedChars": 4128,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-08T07:10:34.704Z",
+    "lastChangedISO": "2026-09-09T09:21:40.276Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://ndf.gov.sa/media-center/articles/article-human-resource-development",
@@ -5718,7 +5719,7 @@
       "1928fdbb5b09339c",
       "5cf7ef5e6f3bc94c"
     ],
-    "extractedChars": 1418,
+    "extractedChars": 1464,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
     "lastChangedISO": "2026-08-31T00:02:49.563Z",
@@ -8572,9 +8573,9 @@
   {
     "sourceUrl": "https://www.nazaha.gov.sa/News/Details?q=o2ojUlDL5mGosOuEoGXXeg==",
     "orgId": "nazaha",
-    "contentHash": "0472fc7cab54f157b4090110b0508765f39e0c31d44c5e7625f30b393c0ffaea",
+    "contentHash": "99d96e21287509977408aaa8123c5fd842f0fd77f03f4cf5703c3b0ba23a58e6",
     "blockHashes": [
-      "4ad052806a8ac5b1",
+      "5fca8d01002dc48d",
       "8d35c6dbfb6149bf",
       "934470dd7b84953f",
       "db91f83ef7359a6e"
@@ -8582,9 +8583,10 @@
     "extractedChars": 760,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-08T07:10:34.704Z",
+    "lastChangedISO": "2026-09-09T09:21:40.276Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "triaged_out"
   },
   {
     "sourceUrl": "https://www.ncc.gov.sa/ar/MediaCenter/Events/Pages/default.aspx",
