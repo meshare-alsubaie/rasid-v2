@@ -2086,7 +2086,7 @@
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T02:22:33.828Z",
     "lastChangedISO": "2026-08-29T02:36:21.032Z",
-    "thinRuns": 114,
+    "thinRuns": 115,
     "pendingClassification": false
   },
   {
@@ -3475,19 +3475,21 @@
   {
     "sourceUrl": "https://ncar.gov.sa/",
     "orgId": "ncar",
-    "contentHash": "8268b851218117739a1f315c2769fa4a617afdd6e4e9dcdb5939601327b53ee6",
+    "contentHash": "b8e69523eacf192b7622db50d4bcc0fc2703280e975549609d643d1f49a41f88",
     "blockHashes": [
       "c911502a32b8a6f9",
-      "427998d73505aec3",
-      "26b7600a224c8c65",
+      "299051b1d7c5abd3",
+      "cac9d76f9773b3e6",
+      "dfcda7d146975f64",
       "75c514565d626437"
     ],
-    "extractedChars": 987,
+    "extractedChars": 1023,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-08T11:56:39.455Z",
+    "lastChangedISO": "2026-09-09T00:11:28.214Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://ncdc.gov.sa/",
@@ -4313,7 +4315,7 @@
   {
     "sourceUrl": "https://training.moj.gov.sa/",
     "orgId": "moj",
-    "contentHash": "f4c6ef6b783b69d09a8f681ad1d80f1df35ef8cb8864917255879208cc305886",
+    "contentHash": null,
     "blockHashes": [
       "84a570379809f573",
       "ab443a0bbfda7883"
@@ -6239,7 +6241,7 @@
   {
     "sourceUrl": "https://www.gosi.gov.sa/",
     "orgId": "pension",
-    "contentHash": "8d0df78e24e0a39dcbe67d99b58eb4fdf3bbc1820aeaea22648527f67a6b9631",
+    "contentHash": "5e6145e646acd2175f3308dddb601cffd60749673b1b1f60a9115b060f8457cd",
     "blockHashes": [
       "6ca8f67a18987bc0",
       "d03cd1e8a4882e4f",
@@ -6251,12 +6253,13 @@
       "7134010ac5c834ed",
       "620082bc98ac18f2"
     ],
-    "extractedChars": 452,
+    "extractedChars": 2614,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-08T11:56:39.455Z",
+    "lastChangedISO": "2026-09-09T00:11:28.214Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "triaged_out"
   },
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/all_branches_news?lang=ar",
@@ -8412,16 +8415,16 @@
   {
     "sourceUrl": "https://www.nazaha.gov.sa/Jobs",
     "orgId": "nazaha",
-    "contentHash": "1eb0c810a7f5a259fa2d3f8f20350ba38cf766b7219635817e12d5bb9418631c",
+    "contentHash": "537753778bfb6d2c583618ddc6136652d29017fbed0594da615e9a38294c0990",
     "blockHashes": [
-      "7a48585492054015",
+      "990f910cb76171f0",
       "3ba73a370eb8ee9c",
       "5dda25defa0c4cdd"
     ],
     "extractedChars": 200,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-08T05:44:49.450Z",
+    "lastChangedISO": "2026-09-09T00:11:28.214Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -10489,11 +10492,11 @@
   {
     "sourceUrl": "https://www.srca.org.sa/%d8%a7%d9%84%d8%aa%d9%88%d8%b8%d9%8a%d9%81/",
     "orgId": "srca",
-    "contentHash": "ceb4cf50a730f08593cf7945d1a5384e28638a159823e71e7e5a40e94c8bbc22",
+    "contentHash": "786d6769f5bd1411f143874188d3756d8a839e07fc9cd51228fedca303dc5416",
     "blockHashes": [
       "13f48669ebfa59aa",
       "74e4c1d2a646a96e",
-      "287ecba7cc01000d",
+      "a9a7918df50d2543",
       "68c03d860d910c71",
       "782261474561a27a",
       "201de1784c4f3dae",
@@ -10507,7 +10510,7 @@
     "extractedChars": 3012,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-08T05:39:11.231Z",
+    "lastChangedISO": "2026-09-09T00:11:28.214Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
