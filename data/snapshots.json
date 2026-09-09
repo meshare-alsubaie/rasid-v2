@@ -651,7 +651,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-09T13:52:03.792Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://awqaf.gov.sa/ar/ar/hiring/",
@@ -3237,7 +3237,7 @@
   {
     "sourceUrl": "https://momah.gov.sa/ar/news",
     "orgId": "housing",
-    "contentHash": "33ab515e859414c0eb060cd7acaa85164651d96c060167bec11e8a4c843825d4",
+    "contentHash": "58ab1a1171806029a86a5b1da7647c2731d6e169b9453a3d8885efdeccf91146",
     "blockHashes": [
       "c39d79399ac7deac",
       "b852015d3f9e9c82",
@@ -3271,10 +3271,9 @@
     "extractedChars": 151354,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-09T11:35:05.376Z",
+    "lastChangedISO": "2026-09-09T14:37:54.583Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "triaged_out"
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://momah.gov.sa/ar/node/14717",
@@ -4381,7 +4380,7 @@
   {
     "sourceUrl": "https://training.moj.gov.sa/",
     "orgId": "moj",
-    "contentHash": null,
+    "contentHash": "f4c6ef6b783b69d09a8f681ad1d80f1df35ef8cb8864917255879208cc305886",
     "blockHashes": [
       "84a570379809f573",
       "ab443a0bbfda7883"
@@ -4389,7 +4388,7 @@
     "extractedChars": 481,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T02:31:49.455Z",
-    "lastChangedISO": "2026-09-09T11:59:59.072Z",
+    "lastChangedISO": "2026-09-09T14:40:11.317Z",
     "thinRuns": 0,
     "pendingClassification": true
   },
@@ -6510,7 +6509,7 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/cooperations?lang=ar",
     "orgId": "hrc",
-    "contentHash": "ccbe708ccc796e8a7208fc3b5e3b53fb9a8407feb1337513202a6c38fc58cc6a",
+    "contentHash": "318faef701340fa1b05de6cc4bc447d4232c0d62bc161daee7be7da596ce1528",
     "blockHashes": [
       "12e41a244a8a2984",
       "255d3904041e776c",
@@ -6534,9 +6533,9 @@
     "extractedChars": 6137,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-09T11:35:05.376Z",
+    "lastChangedISO": "2026-09-09T14:37:54.583Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/news?lang=ar",
