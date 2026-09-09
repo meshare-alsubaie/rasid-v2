@@ -1264,16 +1264,20 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/search-results",
     "orgId": "maaden",
-    "contentHash": "38869f950a807d00d41f858dbfe9c81f7d609a1abeff74f83004f211aa42cc65",
+    "contentHash": "73a4e74cfbea53aa948696903045947af11973f436c5e116ff4bcc9a7d6cca44",
     "blockHashes": [
-      "0593a1678d987760",
-      "df98d4d8c8226547",
-      "5d3a61cea93d1156"
+      "5569201553604d03",
+      "b856ff306f7f788a",
+      "6bf0ca67e0f069b4",
+      "d6c0adacb353836a",
+      "89f8839807ec24c1",
+      "3a041ac34e99b144",
+      "a020ce042e59a11c"
     ],
-    "extractedChars": 240,
+    "extractedChars": 373,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-09T11:56:26.607Z",
+    "lastChangedISO": "2026-09-09T13:22:20.804Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -3582,8 +3586,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-09T09:21:40.276Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://ndf.gov.sa/media-center/articles/article-human-resource-development",
@@ -6296,10 +6299,10 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/careers",
     "orgId": "hrc",
-    "contentHash": "554b454687a2b613e43178f6373092d73d665242dbe19d95e477eda1b2468dc9",
+    "contentHash": "61ff868732dced810432e0225b54a273b2c94500e1fbf7cc4a76d4bb62301df0",
     "blockHashes": [
       "12e41a244a8a2984",
-      "be71055a629c101a",
+      "7dd040d3922a96fa",
       "9bd6314e9bbc7375",
       "474d2dbb69aae30b",
       "84b2fc11813dc7e8",
@@ -6323,7 +6326,7 @@
     "extractedChars": 3794,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-09T09:18:26.794Z",
+    "lastChangedISO": "2026-09-09T13:17:17.802Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -6771,19 +6774,20 @@
   {
     "sourceUrl": "https://www.hrsd.gov.sa/media-center/events",
     "orgId": "hrsd",
-    "contentHash": "bfddbff11d5496bb699660663854b5856020bc69b3b8b5d1a89ecc989d537a36",
+    "contentHash": "5d5f51710ae7ebafdf69b51ed2ae7d04b58efa224d527b467c5c5e688317603f",
     "blockHashes": [
       "92ab7c84ae7e0913",
       "57660151857cb8ac",
       "f240ebfacade946d",
-      "ec5c0b9662921718"
+      "da342c88956df2fd"
     ],
     "extractedChars": 2913,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-06T14:46:26.825Z",
+    "lastChangedISO": "2026-09-09T13:17:17.802Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://www.hrsd.gov.sa/media-center/news",
@@ -10797,7 +10801,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-09T11:38:02.812Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.tadawulgroup.sa/wps/portal/tadawulgroup/joinus",
