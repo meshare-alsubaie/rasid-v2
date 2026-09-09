@@ -646,26 +646,31 @@
   {
     "id": "7825032df5f0113f",
     "orgId": "sdaia",
-    "titleAr": "لم يُصنَّف بعد",
+    "titleAr": "برنامج سدايا للتدريب التعاونينستثمر في القدرات الواعدة",
     "detectedISO": "2026-09-08T11:31:33.805Z",
     "firstSeenISO": "2026-09-08T11:31:33.805Z",
-    "lastConfirmedISO": "2026-09-09T08:57:48.383Z",
+    "lastConfirmedISO": "2026-09-09T09:44:59.973Z",
     "status": "unknown",
     "opensISO": null,
     "closesISO": null,
     "closesHijri": null,
-    "product": "unknown",
-    "majors": [],
+    "product": "coop",
+    "majors": [
+      "الطلاب الجامعيون"
+    ],
     "seats": null,
     "stipendSAR": null,
-    "durationWeeks": null,
-    "cities": [],
-    "relevanceScore": null,
-    "relevanceReason": "تعذّر التصنيف: جاء الردّ بصيغة غير متوقّعة، فلم يُقبل. الصفحة محفوظة وستُعاد قراءتها.",
+    "durationWeeks": 8,
+    "cities": [
+      "مدينة الرياض"
+    ],
+    "relevanceScore": 10,
+    "relevanceReason": "ذكر الإعلان تخصّصات ليس فيها ما يقارب تخصّصك.",
     "statesZeroCoursesRule": false,
     "zeroCoursesQuote": null,
     "flags": [
-      "needs_manual_review"
+      "no_course_condition",
+      "more_on_page"
     ],
     "sourceUrl": "https://athkax.sdaia.gov.sa/coop",
     "applyUrl": null,
