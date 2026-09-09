@@ -3251,9 +3251,9 @@
   {
     "sourceUrl": "https://www.rcrc.gov.sa/careers/?lang=ar",
     "orgId": "rcrc",
-    "lastAttemptISO": "2026-09-09T09:06:51.034Z",
+    "lastAttemptISO": "2026-09-09T09:58:33.627Z",
     "lastSuccessISO": "2026-09-09T07:50:35.423Z",
-    "consecutiveFailures": 1,
+    "consecutiveFailures": 2,
     "lastError": "page.goto: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.rcrc.gov.sa/careers/?lang=ar\", waiting until \"domcontentloaded\"\u001b[22m\n",
     "state": "degraded"
   },
@@ -3656,8 +3656,8 @@
   {
     "sourceUrl": "https://www.sidf.gov.sa/Coop",
     "orgId": "sidf",
-    "lastAttemptISO": "2026-09-09T09:06:51.034Z",
-    "lastSuccessISO": "2026-09-09T09:06:51.034Z",
+    "lastAttemptISO": "2026-09-09T09:58:33.627Z",
+    "lastSuccessISO": "2026-09-09T09:58:33.627Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -3764,8 +3764,8 @@
   {
     "sourceUrl": "https://www.stats.gov.sa/en/news",
     "orgId": "gastat",
-    "lastAttemptISO": "2026-09-09T09:06:51.034Z",
-    "lastSuccessISO": "2026-09-09T09:06:51.034Z",
+    "lastAttemptISO": "2026-09-09T09:58:33.627Z",
+    "lastSuccessISO": "2026-09-09T09:58:33.627Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
