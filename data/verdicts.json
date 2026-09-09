@@ -1,6 +1,6 @@
 {
   "model": "qwen3:8b",
-  "writtenISO": "2026-09-09T00:11:28.214Z",
+  "writtenISO": "2026-09-09T07:45:53.752Z",
   "verdicts": {
     "d3ed902d693a4c1d3b4fc1c6f9b85ea8": null,
     "cc97c142781ff3943c2ea2f9f38af7d8": null,
@@ -1247,6 +1247,28 @@
     },
     "f26596d23618c19e2483dfc1beb450e4": null,
     "7540af4a5c7a7a5e7e7875727fed6158": null,
-    "32f9258cae285cfb82de8f1a355b414c": null
+    "32f9258cae285cfb82de8f1a355b414c": null,
+    "4c01d1b23d95d6a645c6d64f11281393": {
+      "isTrainingAnnouncement": true,
+      "product": "coop",
+      "titleAr": "التدريب التعاوني",
+      "opensISO": null,
+      "closesISO": null,
+      "opensRaw": "06-May-2026",
+      "closesRaw": null,
+      "moreOnPage": true,
+      "majors": [
+        "التدريب التعاوني"
+      ],
+      "seats": null,
+      "stipendSAR": null,
+      "durationWeeks": null,
+      "cities": [
+        "الرياض"
+      ],
+      "statesZeroCoursesRule": false,
+      "zeroCoursesQuote": null,
+      "applyUrl": null
+    }
   }
 }
