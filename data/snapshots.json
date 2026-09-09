@@ -2227,9 +2227,9 @@
   {
     "sourceUrl": "https://gaca.gov.sa/news",
     "orgId": "gaca",
-    "contentHash": "a28af6b745be43723d5b8cff394b44cfc8933eaeef820392548a573795703abb",
+    "contentHash": "2960f4441c3b76c3765b734c7fe8ab0493f109650bcf0f16aa105c726e193dc9",
     "blockHashes": [
-      "7fc47504152e9fb5",
+      "f998c7f92ffdfb74",
       "fd5b5b7f5cb4b0f4",
       "2cb002184cd57547",
       "7dc7bd7c9daf6c0f",
@@ -2304,7 +2304,7 @@
     "extractedChars": 20732,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-08T14:51:43.628Z",
+    "lastChangedISO": "2026-09-09T00:04:30.559Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -2698,13 +2698,12 @@
   {
     "sourceUrl": "https://mawhiba.org/",
     "orgId": "mawhiba",
-    "contentHash": "ebf0bd220303ebda4300e730ae3515ecf15ec3846b10e56c57fd8b858e2decca",
+    "contentHash": "7fc844294c822832039be2aa197905209ebc435a52fd84502959278a6068e2d5",
     "blockHashes": [
       "cebaa0d7740345e0",
-      "9c8f9dc120c0d201",
       "b0a03231aea02dc9",
       "9e247bb4d52f951e",
-      "1706098164a21144",
+      "b9e3400ab1aa629d",
       "693582d5165ca823",
       "222b97e5d083913a",
       "7e04d94896965af4",
@@ -2721,7 +2720,7 @@
       "c4583f676c27517a",
       "4ea242e080578a16",
       "a4e4e1fbeaab5463",
-      "3dc6ef72de459d4d",
+      "f5775c6a25679308",
       "b518044d0e3ef109",
       "1f3c4598715a2661",
       "006216df3cce041d"
@@ -2729,9 +2728,9 @@
     "extractedChars": 8315,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-08T11:56:39.455Z",
+    "lastChangedISO": "2026-09-09T00:04:30.559Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://mc.gov.sa/ar/mediacenter/News/pages/default.aspx",
@@ -3507,33 +3506,33 @@
   {
     "sourceUrl": "https://ncvc.gov.sa/en/Pages/COOP-Training.aspx",
     "orgId": "ncvc",
-    "contentHash": "fe04ef72e1e16c5286807e1e7cee4d1b8a0766626b0efec74bef3a58ae6f6f9d",
+    "contentHash": "0b6e209f0d2e38bbac15bab23e93f229aae20f752289f5b4ea6b72fef6fb851e",
     "blockHashes": [
       "6704e0fff9389b39",
       "4d9c65777643b502",
       "270633c3f308ab38",
       "e71595095aea4f26"
     ],
-    "extractedChars": 1114,
+    "extractedChars": 1856,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-03T01:18:25.099Z",
-    "lastChangedISO": "2026-09-03T01:18:25.099Z",
+    "lastChangedISO": "2026-09-09T00:04:30.559Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "classifyFailures": 3
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://ndf.gov.sa/",
     "orgId": "ndf",
-    "contentHash": "3be81f4ab485139502a0cc6a83a8f4394005645d95b13be02ba3e46862ee3c02",
+    "contentHash": "5952ff6d4a9a0b42687edc01740c63fbdcf85b552bb4666ffe8cfd89b5c5557a",
     "blockHashes": [
-      "ac955606e9a08ae1",
+      "235e372f5ec87d81",
       "cea7fd3977a9c5c0"
     ],
     "extractedChars": 3079,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-08T07:25:25.430Z",
+    "lastChangedISO": "2026-09-09T00:04:30.559Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -6514,11 +6513,11 @@
   {
     "sourceUrl": "https://www.hrdf.org.sa/products-and-services/programs/individuals/training/cooperative-training/",
     "orgId": "hrdf_coop",
-    "contentHash": "3f641698a5d4c28fdfd4fd4bea266dad6929ee2e990f60d68e4cc226ace1ba21",
+    "contentHash": "1a3e5cca454b4825ee671955dd0d3c21105ab66ecdf3dfa508cd7c2b2da18900",
     "blockHashes": [
       "45526a3a724650be",
       "74e4c1d2a646a96e",
-      "db7b352179c69b9e",
+      "75b952c83d7d776e",
       "0bbb8684587712ce",
       "708fe6c77bb05acc",
       "8b7e6b90d8c89aa7",
@@ -6688,7 +6687,7 @@
     "extractedChars": 8563,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-03T01:25:25.661Z",
-    "lastChangedISO": "2026-09-08T05:48:44.144Z",
+    "lastChangedISO": "2026-09-09T00:04:30.559Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -7627,18 +7626,18 @@
   {
     "sourceUrl": "https://www.moc.gov.sa/ar",
     "orgId": "moc",
-    "contentHash": "b0682b81fc1386a82faeace29434e415b59e6ae19752763077087266b6ad7f73",
+    "contentHash": "627834030eed871b2bc0d5e8cb495f52043cfcfaf8c135dc96be2a492b98cbaf",
     "blockHashes": [
       "88c122fdb76fc42f",
-      "9f51a039dedbc05c",
-      "c2578e9b892353cd"
+      "13dc5b0ce48ab9a2",
+      "ca8d6123c6de06cd"
     ],
     "extractedChars": 6088,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-08T11:56:39.455Z",
+    "lastChangedISO": "2026-09-09T00:04:30.559Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.moe.gov.sa/ar/aboutus/nationaltransformation/Pages/employmentstrategy.aspx",
@@ -9733,8 +9732,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-08T08:48:38.338Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.sami.com.sa/",
@@ -10827,20 +10825,21 @@
   {
     "sourceUrl": "https://www.tahakom.com/",
     "orgId": "tahakom",
-    "contentHash": "8d1d8b4a6a7bde78572d8fa562ea399be56c71b4f40b53a0139f8955994ae509",
+    "contentHash": "939897803294088daefb9dc12c103ecc4a2745f0c3ecfc6e4f2b882d4aa1b679",
     "blockHashes": [
-      "d44217251213a019",
+      "31adad521756d062",
       "611753a8aea1ade1",
       "0cea4d38306888dc",
       "1a5263a5a2541c46",
-      "264d6b3abc2256d1"
+      "91dc73cfa5379947"
     ],
-    "extractedChars": 838,
+    "extractedChars": 822,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-03T05:13:40.059Z",
-    "lastChangedISO": "2026-09-08T12:15:03.188Z",
+    "lastChangedISO": "2026-09-09T00:04:30.559Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://www.tahakom.com/careers",
