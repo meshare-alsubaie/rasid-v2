@@ -650,7 +650,8 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-09T13:52:03.792Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://awqaf.gov.sa/ar/ar/hiring/",
@@ -899,7 +900,7 @@
     "orgId": "alrajhi",
     "contentHash": "a865968f7c5a1267e3ab4b09c0e1bda4b4edf9d1a9d228f2d3ab953912223928",
     "blockHashes": [
-      "ae451bbd8eb1b291",
+      "481ecb5edc2c68e9",
       "99fd2574f2e9065b",
       "9329bf26b41969b1"
     ],
@@ -908,7 +909,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-09T15:12:49.225Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://careers.alrajhibank.com.sa/ar/page/coop-program/",
@@ -2170,17 +2171,17 @@
   {
     "sourceUrl": "https://gaca.gov.sa/announcements",
     "orgId": "gaca",
-    "contentHash": "78cd1cfcc1fb6fd2f1644daa24a619ca6ee72ddbb33dbfb9278397c82de05205",
+    "contentHash": "9d39203cae50e6650bee86451cd62947ce3603344e451f7f7552eaba40a3768b",
     "blockHashes": [
-      "ac955d371a233884",
+      "685cf4f325dc3605",
       "9c2a3967149440a8",
       "83a22e1f9fb245f8",
-      "7de1c156a36d0c38"
+      "bc532942aaed49b7"
     ],
-    "extractedChars": 1474,
+    "extractedChars": 1213,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-09T12:58:09.906Z",
+    "lastChangedISO": "2026-09-09T16:07:07.178Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -3278,38 +3279,38 @@
   {
     "sourceUrl": "https://momah.gov.sa/ar/node/14717",
     "orgId": "housing",
-    "contentHash": "d66b2c6e0e87ea03fe3ff538b9d371f002d68100cb2827abedd5ac1a2addbbc1",
+    "contentHash": "4e3935627e6b35a69ae9fc927395ac5aedb2b2bcf2f8800abb6d1580b724134d",
     "blockHashes": [
       "cb4161ba67cbcfe8",
       "075ae909c8ed1c08",
       "a9b825825b3c6e51",
       "aa8e55eac5aea8cd",
       "09552ec2996654f9",
-      "38a01cc8091ac915",
-      "b704e27ed21ffd46",
-      "75481ce60858e8be",
+      "fcb793837958e422",
+      "8273aadc4023b70e",
+      "da4e35a9d6ddc721",
+      "ff6f87e39638cb9b",
+      "0d3333cde52cdd77",
+      "5d15152619ff887e",
+      "ff94364a99f07982",
+      "9bca55bbacffc0ae",
       "ac1405062719fb86",
-      "1f00606e9578d52c",
-      "b59ddea3810042b0",
+      "ad816ad96c57d308",
+      "d46e1b0483f7f909",
       "09b1bd561f62b68f",
-      "cfac64634190f49a",
+      "5a4d6402c3c7cb52",
+      "dd9e41c65ee6854e",
+      "61914898cca4a6b8",
+      "3bd341e88d3c15b2",
       "560edfe1df9d8921",
       "23b97a8a93aba477",
       "9cd3abf7fd1573ff",
-      "a335630ce128daa2",
-      "531028c903be3d8c",
-      "bf688d95dbf3b459",
-      "c6ea31a913c9dbda",
-      "5d15152619ff887e",
-      "6c0ec184b7a44e21",
-      "ff6f87e39638cb9b",
-      "a0a74db193fe09c7",
-      "eba7bdc1b2f11b65"
+      "0d62bf4becd47488"
     ],
     "extractedChars": 152144,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-09T12:58:09.906Z",
+    "lastChangedISO": "2026-09-09T16:07:07.178Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -4380,7 +4381,7 @@
   {
     "sourceUrl": "https://training.moj.gov.sa/",
     "orgId": "moj",
-    "contentHash": null,
+    "contentHash": "f4c6ef6b783b69d09a8f681ad1d80f1df35ef8cb8864917255879208cc305886",
     "blockHashes": [
       "84a570379809f573",
       "ab443a0bbfda7883"
@@ -4388,9 +4389,9 @@
     "extractedChars": 481,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T02:31:49.455Z",
-    "lastChangedISO": "2026-09-09T14:40:11.317Z",
+    "lastChangedISO": "2026-09-09T16:13:07.026Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://tvtc.gov.sa/",
@@ -6399,10 +6400,10 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/careers?lang=ar",
     "orgId": "hrc",
-    "contentHash": "1dd51a58dd31cb2dc3bf26edb7591e5a97e52881c44a0569e6a30bf6a7a7cd7b",
+    "contentHash": "e7fe3aa303ea6c7343fe94f555c7c90b30445c81ba153378f747c64a6815a7d6",
     "blockHashes": [
       "12e41a244a8a2984",
-      "04a217c9192755a1",
+      "abdfc84ee0fef499",
       "9bd6314e9bbc7375",
       "474d2dbb69aae30b",
       "84b2fc11813dc7e8",
@@ -6426,7 +6427,7 @@
     "extractedChars": 3794,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-09T12:58:09.906Z",
+    "lastChangedISO": "2026-09-09T16:07:07.178Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -11213,23 +11214,19 @@
     "orgId": "tadawul",
     "contentHash": "d0d3b5ac169f1b73ab7aa83d70c779f4ee298b89ccc3b8284f83c6034148bac3",
     "blockHashes": [
-      "dbfb7021493a5943",
-      "4acb10188c67e120",
-      "9b405996eceb74cf",
-      "5b4fe1a76867e3dc",
-      "4cacbd860b3b4c52",
-      "a888c2eda107d142",
-      "a8f106c1cf7430a5",
-      "99045a67c833cd6b",
-      "332ab17b1cccbd59"
+      "0cfcdfa727221d00",
+      "689f707057688943",
+      "50a3cca530113406",
+      "a3435878c6033280",
+      "b2cab4da26050ee9"
     ],
     "extractedChars": 1186,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-02T23:42:46.216Z",
     "lastChangedISO": "2026-09-09T12:58:09.906Z",
     "thinRuns": 0,
-    "pendingClassification": true,
-    "classifyFailures": 2
+    "pendingClassification": false,
+    "classifyFailures": 3
   },
   {
     "sourceUrl": "https://www.tahakom.com/",
