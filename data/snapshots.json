@@ -2125,20 +2125,19 @@
   {
     "sourceUrl": "https://gaca.gov.sa/ar/announcements",
     "orgId": "gaca",
-    "contentHash": "e86f2e680b3fce7ebfe19bd329dec53f412c04ffbfa82a58f6e3229de39a22d1",
+    "contentHash": "22cd493097f261a9db7d1886351e009c338fb164b01c286e46dec694a8907f45",
     "blockHashes": [
       "69c1b0ac44d9d047",
       "9c2a3967149440a8",
       "83a22e1f9fb245f8",
       "bc532942aaed49b7"
     ],
-    "extractedChars": 1213,
+    "extractedChars": 1475,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-08T15:27:02.113Z",
+    "lastChangedISO": "2026-09-09T08:36:45.591Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://gaca.gov.sa/ar/News",
@@ -2956,7 +2955,7 @@
   {
     "sourceUrl": "https://modon.gov.sa/",
     "orgId": "modon",
-    "contentHash": "f6563c92708cf1bfb444cf18b0f6956fd0360e5c049572515e4729d62d3e68b4",
+    "contentHash": "4a133f77cb25c2030f45a3d62d83a1b131697147350997ec459bd5de2fb55c56",
     "blockHashes": [
       "263b00592d0c6bb7",
       "0edf2292f0637ccb",
@@ -2980,10 +2979,9 @@
     "extractedChars": 5996,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-08T12:24:06.318Z",
+    "lastChangedISO": "2026-09-09T08:36:45.591Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://modon.gov.sa/ar/MediaCenter/modon-news/News/Pages/default.aspx",
@@ -3592,7 +3590,7 @@
   {
     "sourceUrl": "https://ndf.gov.sa/media-center/articles/article-human-resource-development",
     "orgId": "ndf",
-    "contentHash": "398b121c31e2bb9a613f9a19d2473da9560a1463d2e8b0d44043935f5eb1dde6",
+    "contentHash": "04922024012b8ddb5aa1719ed8375d03d34c034876edbe7847a1f730d54f9dd2",
     "blockHashes": [
       "42cad73794bc0075",
       "2e431a1caf07dcca",
@@ -3606,9 +3604,9 @@
     "extractedChars": 4224,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-08T06:23:23.326Z",
+    "lastChangedISO": "2026-09-09T08:36:45.591Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://ndf.gov.sa/media-center/newsletters",
@@ -5601,7 +5599,7 @@
   {
     "sourceUrl": "https://www.etec.gov.sa/ar/identity-guide",
     "orgId": "etec",
-    "contentHash": "db56cde9284bd0254551532830dc55625a7987cc01d4f96bc473ebf9c39160bd",
+    "contentHash": "e43ef53f81bd1cc2b379f9d817f2f4bbab1538d34a703bce80c72d3ae7507b69",
     "blockHashes": [
       "969f0f9d8129003d",
       "1928fdbb5b09339c",
@@ -5612,9 +5610,9 @@
     "extractedChars": 509,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-08T15:27:02.113Z",
+    "lastChangedISO": "2026-09-09T08:36:45.591Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://www.etec.gov.sa/ar/institutions",
@@ -7588,7 +7586,7 @@
   {
     "sourceUrl": "https://www.mim.gov.sa/ar/media-center/news",
     "orgId": "mim",
-    "contentHash": "d150b76a4e7d29e46b9ca60778299b637c5ca6fc58d9eef74cc1b0f21bca86d6",
+    "contentHash": "3f77f00c8a9dcd3a3820bac14f906a7ba929485b7c123627f2b8d99d2e637d89",
     "blockHashes": [
       "dba3704f48e2451f",
       "e6f6bf20c0c7405d",
@@ -7622,10 +7620,9 @@
     "extractedChars": 10700,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-08T15:48:39.488Z",
+    "lastChangedISO": "2026-09-09T08:36:45.591Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://www.moc.gov.sa/ar",
@@ -8430,7 +8427,7 @@
   {
     "sourceUrl": "https://www.nazaha.gov.sa/News",
     "orgId": "nazaha",
-    "contentHash": "43c221924a102c5e2b594fcdec1bc6cf326e4ba24722df960d1ebf056f1a72db",
+    "contentHash": "cf677e35ff9bb8e77f610e6970067839fdf908ce8ac679588be4007efb0a1c11",
     "blockHashes": [
       "ce9179941e6aeb2a",
       "071be15c674c4a59"
@@ -8438,9 +8435,9 @@
     "extractedChars": 240,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-08T09:36:38.911Z",
+    "lastChangedISO": "2026-09-09T08:36:45.591Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://www.nazaha.gov.sa/News/Details?q=+ZUW2RPX/9RAyHyLvILpaw==",
@@ -10269,7 +10266,7 @@
   {
     "sourceUrl": "https://www.sfda.gov.sa/en/career-vision-and-mission",
     "orgId": "sfda",
-    "contentHash": "95b64a687764cbcdb18f5c6b5b713e8275ba7c2a8dc30f2d4af6c8b9bbab1653",
+    "contentHash": "69ef55c4b3ad4c895f7895a6ccfa116d73ba135a4991ced148e01ddcfab16be6",
     "blockHashes": [
       "4e3b1c94f76f8148",
       "eba48d47d7bc0f9e",
@@ -10288,9 +10285,9 @@
     "extractedChars": 997,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-08T14:02:58.730Z",
+    "lastChangedISO": "2026-09-09T08:36:45.591Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://www.sidf.gov.sa/ar/News",
@@ -10517,7 +10514,7 @@
   {
     "sourceUrl": "https://www.srca.org.sa/news/",
     "orgId": "srca",
-    "contentHash": "2650043f25be3b698c054a842a837c3af520183cccf0e1ea106d85a2f7e6b071",
+    "contentHash": "75a04c878dda17f00f7fbd99a1ba974dcb2259c61e867bfee1033c787c97aabd",
     "blockHashes": [
       "13f48669ebfa59aa",
       "74e4c1d2a646a96e",
@@ -10543,9 +10540,9 @@
     "extractedChars": 4958,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-08T06:12:14.081Z",
+    "lastChangedISO": "2026-09-09T08:36:45.591Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://www.srca.org.sa/newsletters/",
