@@ -1328,18 +1328,21 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/search-results",
     "orgId": "maaden",
-    "contentHash": "c74cae0538bdfcf1565f67030944cccb0958f6916ca1317992e8c9dd45d1594c",
+    "contentHash": "d8466c2bf1882c9fc5b119a684a9ad06e59510f5cdf835ed11b0a0b83271f7e1",
     "blockHashes": [
-      "0593a1678d987760",
-      "76328c16b441c903",
-      "b36d30d059f98819"
+      "5569201553604d03",
+      "6e3cceb54e777f64",
+      "6bf0ca67e0f069b4",
+      "d6c0adacb353836a",
+      "3ec1b5c555fff8f6",
+      "635117171a01be1e"
     ],
-    "extractedChars": 240,
+    "extractedChars": 201,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-09T08:45:14.055Z",
+    "lastChangedISO": "2026-09-09T09:35:14.680Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://careers.mcit.gov.sa/",
@@ -3582,7 +3585,8 @@
     "firstSeenISO": "2026-09-03T01:18:25.099Z",
     "lastChangedISO": "2026-09-09T07:58:30.643Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://ndf.gov.sa/",
@@ -7063,8 +7067,7 @@
     "firstSeenISO": "2026-08-29T22:03:35.383Z",
     "lastChangedISO": "2026-09-08T13:31:46.571Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.kapsarc.org/newsroom/events/",
@@ -8460,18 +8463,19 @@
   {
     "sourceUrl": "https://www.nazaha.gov.sa/",
     "orgId": "nazaha",
-    "contentHash": "69f4668c6ef52318cf327993e05d732219390f13d05e7e858395c20d9de69a12",
+    "contentHash": "6e0848ac25ab9c62daa4c261ee2cc84573f9d39ef30aa7afa3e53cfae4c76897",
     "blockHashes": [
-      "e79a139cdbc41fc7",
+      "7edd235144d44e0f",
       "c3fc1cda7b3b3192",
       "6e57684a145062e2"
     ],
     "extractedChars": 877,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T22:03:35.383Z",
-    "lastChangedISO": "2026-09-08T07:25:25.430Z",
+    "lastChangedISO": "2026-09-09T09:35:14.680Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://www.nazaha.gov.sa/Jobs",
