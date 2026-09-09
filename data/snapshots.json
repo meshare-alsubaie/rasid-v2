@@ -3087,40 +3087,40 @@
   {
     "sourceUrl": "https://momah.gov.sa/ar",
     "orgId": "housing",
-    "contentHash": "c3490b768b04af5dc72228c8053a7c1b63db02418adff3566ac4b15d04c1c69c",
+    "contentHash": "284880dac1fc67e9d7d768158382cacb4055d2f941d40ba79b73b5c8b0d5e4a7",
     "blockHashes": [
       "390ea394b03ad064",
       "0cae66fd6419120a",
       "b620acda1086c89e",
       "ee7adc04a9f9f531",
-      "ea12c0dd5b30c007",
-      "7835eed4c7218d1b",
-      "b22f1f648369caf1",
-      "09b1bd561f62b68f",
-      "641a3e07669f02bd",
-      "cb15aaa24f9fda2f",
-      "ac1405062719fb86",
-      "e5cd26e484f3563e",
-      "5d15152619ff887e",
-      "df58a2d0cb199cbf",
-      "b6f1c3d78e55e061",
+      "9573d6ac1ac26912",
+      "baa8d8af6a661163",
+      "89bf82bde50f08dd",
+      "d2c0e9795857c7b5",
+      "0f1d860e62322cc3",
+      "ae7b3beef14befc0",
       "ff6f87e39638cb9b",
-      "469057c8ed5d3100",
+      "deb226da33902752",
+      "5d15152619ff887e",
+      "d4057f36e68f7179",
+      "09b1bd561f62b68f",
+      "432f7aa5071ea26c",
       "560edfe1df9d8921",
       "23b97a8a93aba477",
       "9cd3abf7fd1573ff",
-      "7f6ce128e41534f0",
-      "efdca36ad5e108a1",
-      "18d3b4a809a81c59",
-      "a522c0e9b9414998"
+      "5f33c56da8bc645e",
+      "ac1405062719fb86",
+      "849b8114cf7f31d1",
+      "330b015f3497cf0c",
+      "920bc527de892e0c"
     ],
     "extractedChars": 153839,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-08T13:19:06.659Z",
+    "lastChangedISO": "2026-09-09T09:18:26.794Z",
     "thinRuns": 0,
     "pendingClassification": false,
-    "settledWithoutVerdict": "triaged_out"
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://momah.gov.sa/ar/announcements",
@@ -3522,15 +3522,15 @@
   {
     "sourceUrl": "https://nca.gov.sa/en/news/",
     "orgId": "nca",
-    "contentHash": "0b1ceb825f690b351776e84ac14df14d13866caa44b27131e945e8b25219d47f",
+    "contentHash": "8b49ba426b910750c01faa3731a40a2dd366da53c79822996057c118101c013d",
     "blockHashes": [
       "ada70e1494ec7db5",
-      "a909a457412ac836"
+      "6a5938c43115d312"
     ],
     "extractedChars": 822,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-08-31T00:02:49.563Z",
+    "lastChangedISO": "2026-09-09T09:18:26.794Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -6361,10 +6361,10 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/careers",
     "orgId": "hrc",
-    "contentHash": "08890a8232351824ad9f4f9a041c884a3131f5d9a08f86ac0510017d34285c88",
+    "contentHash": "554b454687a2b613e43178f6373092d73d665242dbe19d95e477eda1b2468dc9",
     "blockHashes": [
       "12e41a244a8a2984",
-      "df7c48315f46c928",
+      "be71055a629c101a",
       "9bd6314e9bbc7375",
       "474d2dbb69aae30b",
       "84b2fc11813dc7e8",
@@ -6388,7 +6388,7 @@
     "extractedChars": 3794,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-08T16:20:15.484Z",
+    "lastChangedISO": "2026-09-09T09:18:26.794Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -8010,11 +8010,11 @@
   {
     "sourceUrl": "https://www.mof.gov.sa/Pages/default.aspx",
     "orgId": "mof",
-    "contentHash": "7e71a5efee6741abe8b71acc4790c1adaf410b96dd5a981ef8fa0560d51d559c",
+    "contentHash": "aa1610283197f7638b2e598c1183f06a5f158b6a596fde42570f8e4ebe34f925",
     "blockHashes": [
       "7f625851cbbadbc6",
       "f7711325e2c4b301",
-      "9030bafdd7f91fce",
+      "5737de33ec2b1f1b",
       "a4421c0a80a8433c",
       "589c637db8545e12",
       "d6925423217a99ca",
@@ -8025,9 +8025,10 @@
     "extractedChars": 467,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
-    "lastChangedISO": "2026-09-08T07:02:42.351Z",
+    "lastChangedISO": "2026-09-09T09:18:26.794Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://www.mofa.gov.sa/",
