@@ -1329,18 +1329,18 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/search-results",
     "orgId": "maaden",
-    "contentHash": "342df9a2a8dcf6a575a8bddf70e803be1fa41278e8f47eb9899a7f50fddf810f",
+    "contentHash": "38869f950a807d00d41f858dbfe9c81f7d609a1abeff74f83004f211aa42cc65",
     "blockHashes": [
-      "dab5a7f3801bc914",
-      "ae22ec496fd44f12",
-      "f13fc9312189675e"
+      "0593a1678d987760",
+      "df98d4d8c8226547",
+      "5d3a61cea93d1156"
     ],
     "extractedChars": 240,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-09T11:10:59.777Z",
+    "lastChangedISO": "2026-09-09T11:56:26.607Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://careers.mcit.gov.sa/",
@@ -3581,8 +3581,8 @@
     "firstSeenISO": "2026-09-03T01:18:25.099Z",
     "lastChangedISO": "2026-09-09T07:58:30.643Z",
     "thinRuns": 0,
-    "pendingClassification": true,
-    "classifyFailures": 2
+    "pendingClassification": false,
+    "classifyFailures": 3
   },
   {
     "sourceUrl": "https://ndf.gov.sa/",
@@ -10872,18 +10872,22 @@
     "orgId": "tadawul",
     "contentHash": "218af6789adae9d596633c79e9b359213a247d93501904bfc43eeae06fd8c680",
     "blockHashes": [
-      "0cfcdfa727221d00",
-      "689f707057688943",
-      "50a3cca530113406",
-      "a3435878c6033280",
-      "b2cab4da26050ee9"
+      "dbfb7021493a5943",
+      "4acb10188c67e120",
+      "9b405996eceb74cf",
+      "5b4fe1a76867e3dc",
+      "4cacbd860b3b4c52",
+      "a888c2eda107d142",
+      "a8f106c1cf7430a5",
+      "99045a67c833cd6b",
+      "332ab17b1cccbd59"
     ],
     "extractedChars": 1384,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-02T23:42:46.216Z",
     "lastChangedISO": "2026-09-09T11:10:59.777Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.tahakom.com/",
