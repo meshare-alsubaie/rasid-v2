@@ -326,8 +326,8 @@
   {
     "sourceUrl": "https://athkax.sdaia.gov.sa/coop",
     "orgId": "sdaia",
-    "lastAttemptISO": "2026-09-09T17:48:15.837Z",
-    "lastSuccessISO": "2026-09-09T17:48:15.837Z",
+    "lastAttemptISO": "2026-09-09T18:36:28.342Z",
+    "lastSuccessISO": "2026-09-09T18:36:28.342Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -371,8 +371,8 @@
   {
     "sourceUrl": "https://bankalbilad.com/ar/about/Pages/Training.aspx",
     "orgId": "albilad",
-    "lastAttemptISO": "2026-09-09T17:48:15.837Z",
-    "lastSuccessISO": "2026-09-09T17:48:15.837Z",
+    "lastAttemptISO": "2026-09-09T18:36:28.342Z",
+    "lastSuccessISO": "2026-09-09T18:36:28.342Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -614,9 +614,9 @@
   {
     "sourceUrl": "https://careers.mobily.com.sa/ar/sites/opportunities/pages/Coop",
     "orgId": "mobily",
-    "lastAttemptISO": "2026-09-09T17:48:15.837Z",
+    "lastAttemptISO": "2026-09-09T18:36:28.342Z",
     "lastSuccessISO": "2026-08-30T00:02:43.835Z",
-    "consecutiveFailures": 121,
+    "consecutiveFailures": 122,
     "lastError": "page.evaluate: Target crashed ",
     "state": "broken"
   },
@@ -812,8 +812,8 @@
   {
     "sourceUrl": "https://careers.stats.gov.sa/",
     "orgId": "gastat",
-    "lastAttemptISO": "2026-09-09T17:48:15.837Z",
-    "lastSuccessISO": "2026-09-09T17:48:15.837Z",
+    "lastAttemptISO": "2026-09-09T18:36:28.342Z",
+    "lastSuccessISO": "2026-09-09T18:36:28.342Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -1082,8 +1082,8 @@
   {
     "sourceUrl": "https://jobs.sabic.com/",
     "orgId": "sabic",
-    "lastAttemptISO": "2026-09-09T17:48:15.837Z",
-    "lastSuccessISO": "2026-09-09T17:48:15.837Z",
+    "lastAttemptISO": "2026-09-09T18:36:28.342Z",
+    "lastSuccessISO": "2026-09-09T18:36:28.342Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -1091,8 +1091,8 @@
   {
     "sourceUrl": "https://khabeer.bog.gov.sa/cotraining/index",
     "orgId": "bog",
-    "lastAttemptISO": "2026-09-09T17:48:15.837Z",
-    "lastSuccessISO": "2026-09-09T17:48:15.837Z",
+    "lastAttemptISO": "2026-09-09T18:36:28.342Z",
+    "lastSuccessISO": "2026-09-09T18:36:28.342Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -1433,8 +1433,8 @@
   {
     "sourceUrl": "https://ncvc.gov.sa/en/Pages/COOP-Training.aspx",
     "orgId": "ncvc",
-    "lastAttemptISO": "2026-09-09T17:48:15.837Z",
-    "lastSuccessISO": "2026-09-09T17:48:15.837Z",
+    "lastAttemptISO": "2026-09-09T18:36:28.342Z",
+    "lastSuccessISO": "2026-09-09T18:36:28.342Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -1802,11 +1802,11 @@
   {
     "sourceUrl": "https://training.moj.gov.sa/",
     "orgId": "moj",
-    "lastAttemptISO": "2026-09-09T17:48:15.837Z",
+    "lastAttemptISO": "2026-09-09T18:36:28.342Z",
     "lastSuccessISO": "2026-09-09T17:48:15.837Z",
-    "consecutiveFailures": 0,
-    "lastError": null,
-    "state": "healthy"
+    "consecutiveFailures": 1,
+    "lastError": "fetched 11101 bytes but extracted only 0 chars of text; the page is probably rendered by javascript and cannot be watched this way",
+    "state": "degraded"
   },
   {
     "sourceUrl": "https://tvtc.gov.sa/",
@@ -1928,8 +1928,8 @@
   {
     "sourceUrl": "https://www.alahli.com/ar/pages/about-us/careers",
     "orgId": "snb",
-    "lastAttemptISO": "2026-09-09T17:35:06.149Z",
-    "lastSuccessISO": "2026-09-09T17:35:06.149Z",
+    "lastAttemptISO": "2026-09-09T18:36:28.342Z",
+    "lastSuccessISO": "2026-09-09T18:36:28.342Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -3755,8 +3755,8 @@
   {
     "sourceUrl": "https://www.stats.gov.sa/en/cooperative-training",
     "orgId": "gastat",
-    "lastAttemptISO": "2026-09-09T17:45:41.329Z",
-    "lastSuccessISO": "2026-09-09T17:45:41.329Z",
+    "lastAttemptISO": "2026-09-09T18:34:25.893Z",
+    "lastSuccessISO": "2026-09-09T18:34:25.893Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -3782,8 +3782,8 @@
   {
     "sourceUrl": "https://www.tadawulgroup.sa/wps/portal/tadawulgroup/joinus",
     "orgId": "tadawul",
-    "lastAttemptISO": "2026-09-09T17:48:15.837Z",
-    "lastSuccessISO": "2026-09-09T17:48:15.837Z",
+    "lastAttemptISO": "2026-09-09T18:36:28.342Z",
+    "lastSuccessISO": "2026-09-09T18:36:28.342Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
