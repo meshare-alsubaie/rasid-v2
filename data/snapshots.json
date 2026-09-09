@@ -2227,9 +2227,9 @@
   {
     "sourceUrl": "https://gaca.gov.sa/news",
     "orgId": "gaca",
-    "contentHash": "2960f4441c3b76c3765b734c7fe8ab0493f109650bcf0f16aa105c726e193dc9",
+    "contentHash": "023824f981e5a6c4d10527a0bc021df9d93a43dbecd0e1691ea18cf65aad45b8",
     "blockHashes": [
-      "f998c7f92ffdfb74",
+      "cc04c4b938c94fe0",
       "fd5b5b7f5cb4b0f4",
       "2cb002184cd57547",
       "7dc7bd7c9daf6c0f",
@@ -2304,7 +2304,7 @@
     "extractedChars": 20732,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-09T00:04:30.559Z",
+    "lastChangedISO": "2026-09-09T07:58:30.643Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -2698,7 +2698,7 @@
   {
     "sourceUrl": "https://mawhiba.org/",
     "orgId": "mawhiba",
-    "contentHash": "7fc844294c822832039be2aa197905209ebc435a52fd84502959278a6068e2d5",
+    "contentHash": "615ebfa3897593fb9bdb37cac45253f8c0966e29ae80eff1b5c227c5f2f73797",
     "blockHashes": [
       "cebaa0d7740345e0",
       "b0a03231aea02dc9",
@@ -2720,7 +2720,7 @@
       "c4583f676c27517a",
       "4ea242e080578a16",
       "a4e4e1fbeaab5463",
-      "f5775c6a25679308",
+      "502e6959874e9d12",
       "b518044d0e3ef109",
       "1f3c4598715a2661",
       "006216df3cce041d"
@@ -2728,7 +2728,7 @@
     "extractedChars": 8315,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-09T00:04:30.559Z",
+    "lastChangedISO": "2026-09-09T07:58:30.643Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -3508,20 +3508,19 @@
   {
     "sourceUrl": "https://ncvc.gov.sa/en/Pages/COOP-Training.aspx",
     "orgId": "ncvc",
-    "contentHash": "0b6e209f0d2e38bbac15bab23e93f229aae20f752289f5b4ea6b72fef6fb851e",
+    "contentHash": "dfcc0016667b31cc081e41fd445774ccf7e3ee998c70081c646def7498154ad2",
     "blockHashes": [
-      "6704e0fff9389b39",
+      "89cafea980e1c421",
       "4d9c65777643b502",
       "270633c3f308ab38",
       "e71595095aea4f26"
     ],
-    "extractedChars": 1856,
+    "extractedChars": 1114,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-03T01:18:25.099Z",
-    "lastChangedISO": "2026-09-09T00:04:30.559Z",
+    "lastChangedISO": "2026-09-09T07:58:30.643Z",
     "thinRuns": 0,
-    "pendingClassification": true,
-    "classifyFailures": 1
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://ndf.gov.sa/",
@@ -8324,24 +8323,24 @@
   {
     "sourceUrl": "https://www.monshaat.gov.sa/ar/news-posts-list",
     "orgId": "monshaat",
-    "contentHash": "c1668de13326df8d03454e2cc393047db252083ad24ae706248845ffb7b61350",
+    "contentHash": "eff18699c67f4fc84584ffabf1cef4bcfd4909e40a2aa371afdf56477b4ffe1e",
     "blockHashes": [
       "f3c3bc418548abc0",
-      "45bedc0f5696c4f4",
+      "d9eaa95942cc646a",
+      "f7ac009056e3e7af",
       "b0b92615e571c89f",
       "3d49975526ea5997",
       "c6df2690d2dbf536",
       "652049749a809461",
       "0edad9b323f43a69",
-      "4211a501a425afc7",
-      "158fc53dd53c1959",
+      "d923d87088c05f2b",
       "ac7a8b59f1cbcd62",
       "a299a967b3bedb55"
     ],
-    "extractedChars": 1795,
+    "extractedChars": 1790,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-06T13:14:13.278Z",
+    "lastChangedISO": "2026-09-09T07:58:30.643Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -10574,19 +10573,19 @@
   {
     "sourceUrl": "https://www.stats.gov.sa/ar",
     "orgId": "gastat",
-    "contentHash": "d8f7bb5c6c9cd179ed7421959762969e93523ed88f76fa6b1eb3a4217da12b56",
+    "contentHash": "06c10c10e616c8047012fe2e970d47ecc06e60fbd8ddd0c810146ce3df278f2f",
     "blockHashes": [
       "b618107f43bd2daf",
       "2fec6d796296a0f8",
-      "fb7dc3f9c91b4100",
+      "6d872cbe5020f078",
       "eee46ad1abd665a1",
       "dc84e74cdce35fa3",
       "9214de5f4ec23c78"
     ],
-    "extractedChars": 4961,
+    "extractedChars": 4967,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-08T23:59:49.993Z",
+    "lastChangedISO": "2026-09-09T07:58:30.643Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
