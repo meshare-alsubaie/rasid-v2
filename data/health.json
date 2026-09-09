@@ -794,8 +794,8 @@
   {
     "sourceUrl": "https://careers.sdaia.gov.sa/jobs",
     "orgId": "sdaia",
-    "lastAttemptISO": "2026-09-09T09:38:33.793Z",
-    "lastSuccessISO": "2026-09-09T09:38:33.793Z",
+    "lastAttemptISO": "2026-09-09T10:26:21.191Z",
+    "lastSuccessISO": "2026-09-09T10:26:21.191Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -1802,10 +1802,10 @@
   {
     "sourceUrl": "https://training.moj.gov.sa/",
     "orgId": "moj",
-    "lastAttemptISO": "2026-09-09T09:38:33.793Z",
+    "lastAttemptISO": "2026-09-09T10:26:21.191Z",
     "lastSuccessISO": "2026-09-09T08:52:27.533Z",
-    "consecutiveFailures": 1,
-    "lastError": "fetched 11101 bytes but extracted only 0 chars of text; the page is probably rendered by javascript and cannot be watched this way",
+    "consecutiveFailures": 2,
+    "lastError": "fetched 10402 bytes but extracted only 0 chars of text; the page is probably rendered by javascript and cannot be watched this way",
     "state": "degraded"
   },
   {
