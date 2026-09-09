@@ -25,6 +25,22 @@ $name = "RASID v2 watcher"
 $log = Join-Path $PSScriptRoot "..\watchdog.log"
 $intervalSeconds = 600
 
+# A way to stop the watcher and have it stay stopped, for as long as it takes to
+# edit data/ by hand.
+#
+# CLAUDE.md says to stop the watcher before touching data/, because a round in
+# flight reads those files at its start and writes them at its end, silently
+# erasing anything written in between. That instruction was true and impossible
+# to follow: this loop started the task again within ten minutes, so any edit
+# taking longer than that was overwritten anyway.
+#
+# So: touch the pause file, work, delete it. The pause EXPIRES on its own after
+# an hour, because the failure this whole file exists to prevent is a watcher
+# that is dead and nobody notices - and a pause file forgotten in a directory
+# nobody looks at is exactly that failure wearing a different hat.
+$pause = Join-Path $PSScriptRoot "..\.rasid\watchdog.paused"
+$pauseMinutes = 60
+
 function Say($msg) {
     $line = "[{0}] {1}" -f (Get-Date -Format "yyyy-MM-dd HH:mm"), $msg
     try { Add-Content -Path $log -Value $line -Encoding utf8 } catch { }
@@ -37,9 +53,21 @@ if (-not $mutex.WaitOne(0)) { exit 0 }
 Say "watchdog started"
 
 while ($true) {
+    $held = $false
+    if (Test-Path $pause) {
+        $age = (New-TimeSpan -Start (Get-Item $pause).LastWriteTime -End (Get-Date)).TotalMinutes
+        if ($age -lt $pauseMinutes) {
+            $held = $true
+            Say ("paused by hand for {0:N0} more minute(s)" -f ($pauseMinutes - $age))
+        } else {
+            Say ("the pause file is {0:N0} minutes old; ignoring it and removing it" -f $age)
+            try { Remove-Item $pause -Force -ErrorAction Stop } catch { }
+        }
+    }
+
     try {
         $task = Get-ScheduledTask -TaskName $name -ErrorAction Stop
-        if ($task.State -ne "Running") {
+        if (-not $held -and $task.State -ne "Running") {
             Say ("watcher was {0}; starting it" -f $task.State)
             try {
                 Start-ScheduledTask -TaskName $name -ErrorAction Stop

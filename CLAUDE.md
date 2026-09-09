@@ -54,11 +54,25 @@
 Stop-ScheduledTask -TaskName "RASID v2 watcher"
 ```
 
+لكن الإيقاف وحده لا يكفي: الحارس (`watchdog.ps1`) يعيد تشغيل المراقب خلال
+عشر دقائق، فأي تعديل يطول أكثر من ذلك يُمحى كما لو أنك لم توقفه. لذلك أوقف
+الحارس أوّلاً:
+
+```powershell
+New-Item -ItemType File -Force ".rasid\watchdog.paused" | Out-Null
+Stop-ScheduledTask -TaskName "RASID v2 watcher"
+```
+
 وبعد أن تنتهي:
 
 ```powershell
+Remove-Item ".rasid\watchdog.paused" -ErrorAction SilentlyContinue
 Start-ScheduledTask -TaskName "RASID v2 watcher"
 ```
+
+ملفّ الإيقاف ينتهي مفعوله وحده بعد ساعة. هذا مقصود: مراقب ميّت لا أحد يعرف
+أنه ميّت هو العطب الذي وُجد الحارس أصلاً لمنعه، وملفّ إيقاف منسيّ في مجلّد لا
+يفتحه أحد هو ذلك العطب نفسه بثوب آخر.
 
 تعديل الشيفرة وحدها (`src/`, `scripts/`) لا يحتاج هذا. تعديل `data/` يحتاجه.
 
@@ -76,7 +90,13 @@ npm run status
 npm run gates
 ```
 
-٢١ بوّابة. يجب أن تخرج بـ٠. تأخذ نحو عشر دقائق.
+٢١ بوّابة. يجب أن تخرج بـ٠. تأخذ نحو ثلاث دقائق.
+
+**كلّها تعمل، ولو سقطت واحدة.** كانت سلسلة `&&`، فأوّل بوّابة تحمرّ تخفي كلّ ما
+بعدها: في ٢٠٢٦‑٠٩‑٠٩ حمرّت `audit:privacy` في المرتبة الثالثة فلم تعمل ثماني
+عشرة بوّابة أصلاً، والمخرَج بدا كمشكلة واحدة وهو مشكلة وثمانية عشر مجهولاً.
+`npm run gates:chain` ما زالت السلسلة القديمة لمن أراد التوقّف عند أوّل حمراء،
+و`npm run gates -- test:hijri test:arabic` يشغّل بوّابات بعينها.
 
 ```bash
 npm run gates:local

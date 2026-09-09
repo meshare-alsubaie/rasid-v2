@@ -61,6 +61,15 @@ const DUE_FILE = join(STATE_DIR, "due.txt");
 const MAX_PER_CYCLE = Number(process.env.RASID_MAX_PER_CYCLE ?? 40);
 /** How long to wait when nothing is due. */
 const IDLE_MS = 60_000;
+/**
+ * How long bookkeeping-only changes wait before they are pushed.
+ *
+ * An opening never waits: see `publish`. This bounds the churn from health and
+ * snapshot timestamps, which used to produce a commit, a push and a CI run
+ * every single minute.
+ */
+const PUBLISH_GAP_MS = 15 * 60_000;
+let lastPushAt = 0;
 
 const read = <T>(p: string): T[] => JSON.parse(readFileSync(p, "utf8").replace(/^﻿/, "")) as T[];
 
@@ -499,6 +508,31 @@ function publish(): void {
     return;
   }
 
+  /*
+   * Push when a reader would notice, or at most once a quarter of an hour.
+   *
+   * The watcher wakes every minute, and any round that fetches anything moves a
+   * timestamp in `health.json` - so `data/` was dirty on almost every wake and
+   * this pushed every time. On 2026-09-09 that was twenty-five commits in one
+   * hour, twenty-five CI runs, and a failure email for each of them. The repo
+   * history became a minute-by-minute log of nothing.
+   *
+   * What a reader actually cares about is `opportunities.json` and
+   * `organisations.json`: an opening appearing, a score changing, a source
+   * being added. Those go up immediately, because the whole promise is six
+   * hours. Health and snapshot churn is bookkeeping, and it can wait for the
+   * quarter hour - it still gets pushed, just not sixty times a day.
+   */
+  const READER_FILES = /^..\s+data\/(opportunities|organisations)\.json$/m;
+  const readerVisible = READER_FILES.test(dirty.out);
+  const sinceLastPush = Date.now() - lastPushAt;
+  if (!readerVisible && sinceLastPush < PUBLISH_GAP_MS) {
+    say(
+      `publish: only bookkeeping changed and the last push was ${Math.round(sinceLastPush / 60_000)} min ago, so it waits`,
+    );
+    return;
+  }
+
   if (!git(["add", "--", "data"]).ok) {
     say("publish: could not stage data/");
     return;
@@ -512,6 +546,7 @@ function publish(): void {
 
   const pushed = git(["push", "--quiet", "origin", "HEAD"]);
   if (pushed.ok) {
+    lastPushAt = Date.now();
     say("publish: pushed; the site will rebuild");
   } else {
     /*

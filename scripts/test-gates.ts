@@ -15,7 +15,7 @@
  *   npm run test:gates
  */
 import { execFileSync } from "node:child_process";
-import { existsSync, mkdirSync, readFileSync, rmSync, writeFileSync } from "node:fs";
+import { existsSync, readFileSync, rmSync, writeFileSync } from "node:fs";
 
 let failures = 0;
 const check = (label: string, ok: boolean, detail = ""): void => {
@@ -35,9 +35,20 @@ const npm = process.platform === "win32" ? "npm.cmd" : "npm";
  * tell a caught fault from a failed launch is the same bug it was written to
  * prevent, which is why each case below also asserts the clean state passes.
  */
-function run(script: string): { code: number; out: string } {
+/*
+ * `args` is separate from `script`, and that is not tidiness.
+ *
+ * It used to take one string and hand it to npm whole, so a call needing flags
+ * was written `run("audit:domains -- --file data/gate-probe-orgs.json")`. On
+ * Windows `shell: true` lets cmd split that into words and it worked. On Linux
+ * there is no shell to split it, so npm received one script name with spaces in
+ * it and answered `Missing script`. The gate passed on this machine and failed
+ * in CI, every push, for two days - which is the worst way for a test to be
+ * wrong, because the machine that runs it before a commit says it is fine.
+ */
+function run(script: string, args: string[] = []): { code: number; out: string } {
   try {
-    const out = execFileSync(npm, ["run", script], {
+    const out = execFileSync(npm, ["run", script, ...(args.length > 0 ? ["--", ...args] : [])], {
       encoding: "utf8",
       stdio: ["ignore", "pipe", "pipe"],
       // Node refuses to execute a .cmd shim without a shell, and every npm on
@@ -80,8 +91,22 @@ console.log("\nthe privacy scanner reaches a file that is not committed yet");
    * only, so anything newly generated was invisible until after it had been
    * committed — which is the one moment when catching it still costs nothing.
    */
-  if (!existsSync("data")) mkdirSync("data");
-  const probe = "data/gate-probe.json";
+  /*
+   * The probe lives at the repo root, not in `data/`.
+   *
+   * It was `data/gate-probe.json`, and the watcher commits `data/` at the end of
+   * every round. On 2026-09-09 a round landed between this file being written
+   * and being deleted, and `{"note":"First Class Honours"}` - the planted
+   * personal detail this very test uses - was committed and pushed to a public
+   * repository, twice. The string is a fixture and not his, so nothing real
+   * leaked; the mechanism that let it through is the point.
+   *
+   * The scan still has to find it, which means it has to be inside the
+   * repository and untracked - that is the hole this test exists to prove is
+   * closed. The root satisfies both and is somewhere `git add -- data` can never
+   * reach.
+   */
+  const probe = "gate-probe.json";
   writeFileSync(probe, JSON.stringify({ note: "First Class Honours" }) + "\n", "utf8");
   const untracked = run("audit:privacy");
   rmSync(probe);
@@ -157,7 +182,7 @@ console.log("\nthe domain audit catches an organisation watched on somebody else
    * `data/organisations.json` would mean rewriting half a megabyte that a
    * collection round may be holding open, to test a rule about correctness.
    */
-  const probe = "data/gate-probe-orgs.json";
+  const probe = "gate-probe-orgs.json";
   const src = (url: string) => ({
     url,
     provenance: "manual" as const,
@@ -186,7 +211,7 @@ console.log("\nthe domain audit catches an organisation watched on somebody else
     ) + "\n",
     "utf8",
   );
-  const seeded = run("audit:domains -- --file data/gate-probe-orgs.json");
+  const seeded = run("audit:domains", ["--file", "gate-probe-orgs.json"]);
   rmSync(probe);
   const clean = run("audit:domains");
 
@@ -214,12 +239,50 @@ console.log("\nthe domain audit catches an organisation watched on somebody else
  * non-zero exit path and a failure counter feeding it. Cheap, static, and it
  * catches the shape of the bug rather than one instance of it.
  */
+console.log("\nthe runner reports a red gate instead of swallowing it");
+{
+  /*
+   * The runner is now the thing that decides whether `npm run gates` is green,
+   * so it needs the same treatment as the gates it walks: plant a fault in one
+   * member and assert the whole run goes red and names it.
+   *
+   * It replaced a chain of `&&`, whose failure mode was the opposite and worse:
+   * a red gate at position three meant eighteen gates did not run, and nothing
+   * in the output said so.
+   */
+  const probe = "src/app/gate-probe.ts";
+  writeFileSync(probe, 'export const wrong: number = "a string, deliberately";\n', "utf8");
+  const seeded = run("gates", ["typecheck"]);
+  rmSync(probe);
+  const clean = run("gates", ["typecheck"]);
+
+  check(
+    "one failing member fails the whole run",
+    seeded.code !== 0,
+    seeded.code === 0 ? "IT PASSED — a red gate would be reported as green" : "",
+  );
+  check(
+    "and the summary names which one",
+    /1 of 1 gates failed[^\n]*: typecheck/.test(seeded.out),
+    seeded.out.split("\n").filter((l) => /gates failed/.test(l))[0] ?? "no summary line",
+  );
+  check("a clean member passes", clean.code === 0);
+  check(
+    "and a name that is not in the chain is refused rather than skipped quietly",
+    run("gates", ["test:nonexistent"]).code !== 0,
+  );
+}
+
 console.log("\nevery gate in the chain can go red at all");
 {
   const pkg = JSON.parse(readFileSync("package.json", "utf8")) as {
     scripts: Record<string, string>;
   };
-  const chain = [...(pkg.scripts.gates ?? "").matchAll(/npm run ([\w:-]+)/g)].map((m) => m[1]!);
+  // `gates:chain` is the ordered list; `gates` is the runner that walks it and
+  // keeps one red gate from hiding the twenty behind it.
+  const chain = [...(pkg.scripts["gates:chain"] ?? "").matchAll(/npm run ([\w:-]+)/g)].map(
+    (m) => m[1]!,
+  );
   check("the chain was read from package.json", chain.length > 10, `${chain.length} gates`);
 
   const NO_SOURCE = new Set(["typecheck"]); // tsc's own exit code, not ours

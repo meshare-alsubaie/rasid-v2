@@ -276,5 +276,48 @@ console.log("\ndiscovery runs from the watcher that is actually running");
   );
 }
 
+
+console.log("\nan opening is pushed at once, bookkeeping waits");
+{
+  /*
+   * The watcher wakes every minute, and any round that fetches anything moves a
+   * timestamp in health.json - so `data/` was dirty on almost every wake and it
+   * pushed every time. On 2026-09-09 that was twenty-five commits in one hour,
+   * twenty-five CI runs, and a failure email for each. The history became a
+   * minute-by-minute log of nothing.
+   *
+   * The rule cannot be allowed to drift in the direction that matters: an
+   * opening must never wait, because the whole promise is six hours.
+   */
+  const src = readFileSync("scripts/watch.ts", "utf8");
+  check(
+    "the rule names the two files a reader would notice",
+    /READER_FILES[\s\S]{0,120}opportunities[\s\S]{0,40}organisations/.test(src),
+    "if this drifts, an opening could start waiting for the quarter hour",
+  );
+
+  /*
+   * The behaviour, written out here rather than parsed out of the source: a
+   * test that re-derives the rule from the code it is testing proves only that
+   * the code agrees with itself.
+   */
+  const pushesNow = (porcelain: string): boolean =>
+    /^..\s+data\/(opportunities|organisations)\.json$/m.test(porcelain);
+  const cases: [string, string, boolean][] = [
+    ["only health and snapshots", " M data/health.json\n M data/snapshots.json", false],
+    ["an opening changed", " M data/health.json\n M data/opportunities.json", true],
+    ["a source was added", " M data/organisations.json", true],
+    ["only the verdict memory", " M data/verdicts.json", false],
+  ];
+  for (const [label, porcelain, want] of cases) {
+    check(`${label}: pushed immediately = ${want}`, pushesNow(porcelain) === want);
+  }
+
+  check(
+    "and bookkeeping is bounded by a gap rather than never sent",
+    /PUBLISH_GAP_MS/.test(src) && /sinceLastPush/.test(src),
+  );
+}
+
 console.log(`\n${failures === 0 ? "all checks passed" : `${failures} CHECK(S) FAILED`}`);
 process.exit(failures === 0 ? 0 : 1);
