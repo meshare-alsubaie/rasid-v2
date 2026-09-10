@@ -1,6 +1,6 @@
 {
   "model": "qwen3:8b",
-  "writtenISO": "2026-09-10T17:51:04.666Z",
+  "writtenISO": "2026-09-10T18:01:03.604Z",
   "verdicts": {
     "d3ed902d693a4c1d3b4fc1c6f9b85ea8": null,
     "cc97c142781ff3943c2ea2f9f38af7d8": null,
@@ -1538,6 +1538,27 @@
     "b1d40d13efb66e52592457527d53e5dc": null,
     "27d3a12cc8c68b9735fd3a852dbd328d": null,
     "ca407d5fb5f86d2502acb9487914a657": null,
-    "55328ace46ea779b6cb5a8f3c2cdb4fb": null
+    "55328ace46ea779b6cb5a8f3c2cdb4fb": null,
+    "99be31ce08d7a8382df4a90ee17e847e": {
+      "isTrainingAnnouncement": true,
+      "product": "coop",
+      "titleAr": "برنامج سدايا للتدريب التعاوني",
+      "opensISO": null,
+      "closesISO": null,
+      "opensRaw": null,
+      "closesRaw": null,
+      "moreOnPage": false,
+      "majors": [
+        "التعلم الذاتي",
+        "بحث"
+      ],
+      "seats": null,
+      "stipendSAR": null,
+      "durationWeeks": null,
+      "cities": [],
+      "statesZeroCoursesRule": false,
+      "zeroCoursesQuote": null,
+      "applyUrl": "https://academy.sudaya.gov.sa/self-learning"
+    }
   }
 }
