@@ -5457,18 +5457,18 @@
   {
     "sourceUrl": "https://www.bog.gov.sa/en/EServices/judiciaryHiring/Pages/Hiring.aspx",
     "orgId": "bog",
-    "contentHash": "6635fa4c3d3bd50914f5da28c4c617ed4f7368cc92708f67e06332e4497360e5",
+    "contentHash": "991a6aba6915675d3432f1fa6317b1271691eedeb4f729a07b62fe0c0620b0a0",
     "blockHashes": [
       "46d9575ec382a9d1",
       "96c63175498462d9",
       "f4b9821710ab784e",
-      "14a91afead641f0d",
+      "c56b263d910d820d",
       "ec5d6ba37d25b982"
     ],
     "extractedChars": 609,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-10T17:30:13.597Z",
+    "lastChangedISO": "2026-09-10T19:58:57.063Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -7620,7 +7620,7 @@
   {
     "sourceUrl": "https://www.mim.gov.sa/ar/empower-training/cooperative-training",
     "orgId": "mim",
-    "contentHash": "8670a7688032e5d8bfcadc4bb03d56f53ee3bc9c300e3b2c312fa871efc04eca",
+    "contentHash": "d7046407d76995301bebb4094405f818cf5934d82c24cc5b90357ce52079bf81",
     "blockHashes": [
       "1cb91553dd3291a4",
       "5300d4cdd32a8d33"
@@ -7628,7 +7628,7 @@
     "extractedChars": 2495,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T02:22:33.828Z",
-    "lastChangedISO": "2026-09-10T19:00:56.691Z",
+    "lastChangedISO": "2026-09-10T19:58:57.063Z",
     "thinRuns": 0,
     "pendingClassification": true,
     "classifyFailures": 1
@@ -10278,19 +10278,19 @@
   {
     "sourceUrl": "https://www.sfda.gov.sa/ar/career-vision-and-mission",
     "orgId": "sfda",
-    "contentHash": "eb3f14b52f7907725ff04c45cdde0875b320853921224e62883b1389b489181f",
+    "contentHash": "fc7b6ee7876b1612f4d9a5b317320785ab32b31dffa08b185041c90b3d59d7b8",
     "blockHashes": [
       "9f0d7edcae8bb52a",
       "60b6afb763e71c83",
       "074367ffe7536568",
       "b69ab73ade473181",
       "fe04993c9918963a",
-      "119aacd082b2de5a"
+      "dfa4fe53e8970d12"
     ],
     "extractedChars": 806,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-10T16:23:50.353Z",
+    "lastChangedISO": "2026-09-10T19:58:57.063Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -10875,7 +10875,8 @@
     "firstSeenISO": "2026-09-02T23:42:46.216Z",
     "lastChangedISO": "2026-09-10T19:08:31.370Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://www.tahakom.com/",
