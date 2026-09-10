@@ -8498,9 +8498,9 @@
   {
     "sourceUrl": "https://www.nazaha.gov.sa/News/Details?q=o2ojUlDL5mGosOuEoGXXeg==",
     "orgId": "nazaha",
-    "contentHash": "a3abb943a59a79249f1b19f875fe04a7749d589de10a971579b39a0aa07ae6b9",
+    "contentHash": "17526b034d0d5510af9080002bebc4d6b4327ba2c1695bbe685c41565694f003",
     "blockHashes": [
-      "ed06483dccdb2a55",
+      "5543a5897b7deff8",
       "8d35c6dbfb6149bf",
       "934470dd7b84953f",
       "db91f83ef7359a6e"
@@ -8508,9 +8508,10 @@
     "extractedChars": 760,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-10T10:22:53.696Z",
+    "lastChangedISO": "2026-09-10T23:03:26.180Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "triaged_out"
   },
   {
     "sourceUrl": "https://www.ncc.gov.sa/ar/MediaCenter/Events/Pages/default.aspx",
@@ -9126,16 +9127,17 @@
   {
     "sourceUrl": "https://www.rcrc.gov.sa/careers/?lang=ar",
     "orgId": "rcrc",
-    "contentHash": "400a0469f71f867827c60f7d34cd5d61c333c23294e0a673eb5b3c082e58e234",
+    "contentHash": "29ccbcc6e50ad12dddef2042b089449868bb265f0ef60ccfb4cd2f5369d1c3e5",
     "blockHashes": [
       "400a0469f71f8678"
     ],
-    "extractedChars": 784,
+    "extractedChars": 1166,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-10T22:14:17.679Z",
+    "lastChangedISO": "2026-09-10T23:04:44.324Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://www.rcrc.gov.sa/media-center/",
