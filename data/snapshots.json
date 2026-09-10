@@ -650,8 +650,8 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-10T09:05:15.071Z",
     "thinRuns": 0,
-    "pendingClassification": true,
-    "classifyFailures": 2
+    "pendingClassification": false,
+    "classifyFailures": 3
   },
   {
     "sourceUrl": "https://awqaf.gov.sa/ar/ar/hiring/",
@@ -7626,7 +7626,7 @@
   {
     "sourceUrl": "https://www.mim.gov.sa/ar/empower-training/cooperative-training",
     "orgId": "mim",
-    "contentHash": "084b33b753c7db0a73357f6e645223081468ab16e3563c0bac8e5f7301d65f39",
+    "contentHash": "d94dbe2097eb51a11fbba86fb10055df3125960424f3460992d307770280c18c",
     "blockHashes": [
       "1cb91553dd3291a4",
       "5300d4cdd32a8d33"
@@ -7634,7 +7634,7 @@
     "extractedChars": 2495,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T02:22:33.828Z",
-    "lastChangedISO": "2026-09-10T09:56:54.402Z",
+    "lastChangedISO": "2026-09-10T10:46:04.963Z",
     "thinRuns": 0,
     "pendingClassification": true,
     "classifyFailures": 1
