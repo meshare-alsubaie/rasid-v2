@@ -651,7 +651,8 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-10T19:36:38.888Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://awqaf.gov.sa/ar/ar/hiring/",
@@ -9185,16 +9186,17 @@
   {
     "sourceUrl": "https://www.rcrc.gov.sa/careers/?lang=ar",
     "orgId": "rcrc",
-    "contentHash": "14430f0c61d18eb283101b5201e9e8d0f9e175834d84d045d39af9e0e3a56190",
+    "contentHash": "3490a51f84865a710e127b1756cc122c877a7f34825afca33bd9339ed6a4ed05",
     "blockHashes": [
       "952f1f603961541a"
     ],
-    "extractedChars": 785,
+    "extractedChars": 1167,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-10T19:33:19.912Z",
+    "lastChangedISO": "2026-09-10T20:22:15.684Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://www.rcrc.gov.sa/media-center/",
