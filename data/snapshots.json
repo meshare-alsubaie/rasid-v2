@@ -135,7 +135,7 @@
   {
     "sourceUrl": "https://adf.gov.sa/ar/Pages/default.aspx",
     "orgId": "adf",
-    "contentHash": "bcd6209b4fdfa28de6b42673c1434b100d27e51d067d4fb0b30662c697ee6f26",
+    "contentHash": "024668d32dccdb23092d1413f11a7c3747c88b0b945f339096125303746cb1ff",
     "blockHashes": [
       "1ce798e0ca5f6070",
       "9e8708f46644e878",
@@ -144,7 +144,7 @@
       "b7a4f19178b3b8a1",
       "0514128baf9c79f1",
       "9185920f2483a42d",
-      "884d01bd6ca2747b",
+      "7ccb5bf2b4509b3e",
       "4838bf63eca38706",
       "d380a83380c07da6",
       "2c2b159c69b9c652",
@@ -155,12 +155,13 @@
       "782261474561a27a",
       "74b06ac36e5c75b0"
     ],
-    "extractedChars": 1663,
+    "extractedChars": 1665,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
-    "lastChangedISO": "2026-09-09T15:35:31.962Z",
+    "lastChangedISO": "2026-09-10T10:30:20.209Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "triaged_out"
   },
   {
     "sourceUrl": "https://adf.gov.sa/ar/Pages/employment.aspx",
@@ -1329,18 +1330,18 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/search-results",
     "orgId": "maaden",
-    "contentHash": "a194dd1e2281b1434f1a7260e5898fd46893f548c7a268caf3485a18fda2428b",
+    "contentHash": "7e5c7e99537f8e8fcbc490929115dc0ba0861250ee364d83e38696109b6f8fe1",
     "blockHashes": [
       "5569201553604d03",
-      "b856ff306f7f788a",
-      "6bf0ca67e0f069b4",
+      "6e3cceb54e777f64",
       "d6c0adacb353836a",
-      "1fde01d7ffc30739"
+      "9109a810ffc0e202",
+      "c025b7bcbf85f6f7"
     ],
-    "extractedChars": 201,
+    "extractedChars": 240,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-10T09:48:39.074Z",
+    "lastChangedISO": "2026-09-10T10:38:26.952Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -2399,14 +2400,14 @@
   {
     "sourceUrl": "https://gmedia.gov.sa/",
     "orgId": "gcam",
-    "contentHash": "aed4e51ee508d2f57d686c60d72943d01d1aed55e168fea96f8c316be4c80cc5",
+    "contentHash": "a7f2c6dfa9db1fd10c9f7829a1d966f250084de0285e411ade8d7f812e8f604c",
     "blockHashes": [
-      "aed4e51ee508d2f5"
+      "a7f2c6dfa9db1fd1"
     ],
     "extractedChars": 1118,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-09T15:22:48.910Z",
+    "lastChangedISO": "2026-09-10T10:26:15.725Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -3571,15 +3572,15 @@
   {
     "sourceUrl": "https://ndf.gov.sa/",
     "orgId": "ndf",
-    "contentHash": "5952ff6d4a9a0b42687edc01740c63fbdcf85b552bb4666ffe8cfd89b5c5557a",
+    "contentHash": "3d795b7a2ab855f98070431e44e76f37e3d6d3127af9184c16b7dc1486b7ff7d",
     "blockHashes": [
-      "235e372f5ec87d81",
+      "b9f2758850c499e3",
       "cea7fd3977a9c5c0"
     ],
-    "extractedChars": 3079,
+    "extractedChars": 3078,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-09T00:04:30.559Z",
+    "lastChangedISO": "2026-09-10T10:38:26.952Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -3619,20 +3620,21 @@
   {
     "sourceUrl": "https://ndf.gov.sa/media-center/articles",
     "orgId": "ndf",
-    "contentHash": "515952c6565a6105e80d884b84ef22c452f02563ee8b6e31bf29159d4243b071",
+    "contentHash": "8cdb2a2f116741c3f1c105a3a3d40c631e9ce5510c268ed350976f55f66a53db",
     "blockHashes": [
-      "bb62d144e3489ddc",
+      "c0279c5b0be1718a",
       "b4a5c7cd60560196",
       "4c268b289192e891",
       "d91f8453abc8bd97",
       "0e33f45837a3e364"
     ],
-    "extractedChars": 4128,
+    "extractedChars": 4127,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-09T09:21:40.276Z",
+    "lastChangedISO": "2026-09-10T10:26:15.725Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://ndf.gov.sa/media-center/articles/article-human-resource-development",
@@ -5441,19 +5443,19 @@
   {
     "sourceUrl": "https://www.bog.gov.sa/en/EServices/judiciaryHiring/Pages/default.aspx",
     "orgId": "bog",
-    "contentHash": "153d2ebf4c752893fa58c0b53c075e12e71bb9ddc7503b77e9bfd42e68348877",
+    "contentHash": "81f8d73206efba83e5dada32be755e3c79048f06382e97494defc16051c79dd9",
     "blockHashes": [
       "46d9575ec382a9d1",
       "96c63175498462d9",
       "f4b9821710ab784e",
-      "db96cc060fa0a333",
+      "e24ca624e1e52d43",
       "d9ac968863afb54d",
       "ec5d6ba37d25b982"
     ],
     "extractedChars": 756,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-08T05:39:11.231Z",
+    "lastChangedISO": "2026-09-10T10:38:26.952Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -7576,7 +7578,7 @@
   {
     "sourceUrl": "https://www.mewa.gov.sa/ar/Pages/default.aspx",
     "orgId": "mewa",
-    "contentHash": "ebd6c3e77846d9ab1cd9977ba85e372fdcb16093332b0da775c99fad2e092fd5",
+    "contentHash": "12fe1c5d4304587b4c1fe359f5c00e1f3d19ce92d6ffda3ecb83b9da6216c0f4",
     "blockHashes": [
       "df773046de6f0b5f",
       "c804732dd480d71a",
@@ -7585,9 +7587,9 @@
       "d88510f2caacb2dc",
       "8dc2d50d3a76ea01",
       "df1cb77a443dfd6f",
-      "69063d4f3719d436",
+      "65a1779b0717828f",
       "b957f376a744a274",
-      "1446367bd4e69896",
+      "8be1c05e5963f856",
       "94a24ba56b39a8e4",
       "deec0c4811cef5b6",
       "c36ce57653eabf38"
@@ -7595,9 +7597,10 @@
     "extractedChars": 1614,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
-    "lastChangedISO": "2026-09-06T11:59:20.285Z",
+    "lastChangedISO": "2026-09-10T10:38:26.952Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://www.mim.gov.sa/ar",
@@ -8455,18 +8458,19 @@
   {
     "sourceUrl": "https://www.nazaha.gov.sa/",
     "orgId": "nazaha",
-    "contentHash": "6e0848ac25ab9c62daa4c261ee2cc84573f9d39ef30aa7afa3e53cfae4c76897",
+    "contentHash": "8d7be61eaaba17d8e9291574cb22a200fbb604dc68be53e3aaec139b6525fb6f",
     "blockHashes": [
-      "7edd235144d44e0f",
+      "4e8db7afc00b3bad",
       "c3fc1cda7b3b3192",
       "6e57684a145062e2"
     ],
     "extractedChars": 877,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T22:03:35.383Z",
-    "lastChangedISO": "2026-09-09T09:35:14.680Z",
+    "lastChangedISO": "2026-09-10T10:38:26.952Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://www.nazaha.gov.sa/Jobs",
@@ -10913,18 +10917,18 @@
   {
     "sourceUrl": "https://www.tahakom.com/careers",
     "orgId": "tahakom",
-    "contentHash": "457f65df725621cf1ff8df157d2d7ad5927ef366ef94aa5e45fdfae4dd6d3b3f",
+    "contentHash": "c6cc57c0f16594942f48318c12f633c350c76a44473935a33fe25d3b4b404684",
     "blockHashes": [
       "d44217251213a019",
       "611753a8aea1ade1",
       "0cea4d38306888dc",
       "1a5263a5a2541c46",
-      "a937a81f39e1b5a8"
+      "b94e9ce7eac243c4"
     ],
-    "extractedChars": 838,
+    "extractedChars": 833,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-03T05:13:40.059Z",
-    "lastChangedISO": "2026-09-10T09:52:12.268Z",
+    "lastChangedISO": "2026-09-10T10:38:26.952Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
