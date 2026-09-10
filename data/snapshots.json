@@ -1254,10 +1254,9 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/cookiesettings",
     "orgId": "maaden",
-    "contentHash": "fb3b01d7e14f1d4bbdb7b150d9fb1d4058dc95c6400186c998d6111870327fd2",
+    "contentHash": "f358af9596f96e755a5d33579103b8671b04fd1d402fd32a102f9b6da4d36a79",
     "blockHashes": [
-      "5569201553604d03",
-      "f4979ecd6a2f2db6",
+      "2fb28de24072d906",
       "dd53e083dd4c4329",
       "5e2fc5a4da5c7871",
       "197c66a2b21d9654",
@@ -1322,13 +1321,12 @@
       "ee82ab94d7112a03",
       "60b7b15f81dc7749",
       "abf11bb520a3d451",
-      "3b80e34c02ee90ae",
-      "c7f170d8d4e25f02"
+      "fa42d51c36d47c99"
     ],
     "extractedChars": 8013,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-10T21:18:50.697Z",
+    "lastChangedISO": "2026-09-10T22:08:41.296Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -2160,7 +2158,7 @@
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T02:22:33.828Z",
     "lastChangedISO": "2026-08-29T02:36:21.032Z",
-    "thinRuns": 144,
+    "thinRuns": 145,
     "pendingClassification": false
   },
   {
@@ -3663,16 +3661,17 @@
   {
     "sourceUrl": "https://ndf.gov.sa/media-center/newsletters",
     "orgId": "ndf",
-    "contentHash": "ab9f60f98dfada66b1e01e99de79c0f74df923c303a9528118a735ea85ad7314",
+    "contentHash": "1711f01cd60f614a1fe177d6a7eceb2357d431da5c38904b1a263871a61373d3",
     "blockHashes": [
-      "ab9f60f98dfada66"
+      "1711f01cd60f614a"
     ],
     "extractedChars": 1212,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-10T09:54:32.288Z",
+    "lastChangedISO": "2026-09-10T22:03:07.759Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://ndf.gov.sa/media-center/press-news",
@@ -7973,11 +7972,11 @@
   {
     "sourceUrl": "https://www.mof.gov.sa/mediacenter/events/Pages/CalEvent.aspx",
     "orgId": "mof",
-    "contentHash": "78ff5786a2514560c4fd3aa8a14c488b72b23bb4e469efde89037040589ccaec",
+    "contentHash": "dc6f1392539b0954384f717f62d7ea863b4d87c9803e4ff061868d36b693b1b8",
     "blockHashes": [
       "7f625851cbbadbc6",
       "f7711325e2c4b301",
-      "b8275dcdec3afbb1",
+      "2755e1b2596766b4",
       "b1bec34b5330c702",
       "f4809815161554d5",
       "16ff3360390869f3",
@@ -7991,9 +7990,10 @@
     "extractedChars": 10147,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-10T09:27:45.490Z",
+    "lastChangedISO": "2026-09-10T22:03:07.759Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://www.mof.gov.sa/Pages/default.aspx",
