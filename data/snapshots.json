@@ -29,7 +29,7 @@
   {
     "sourceUrl": "http://www.moenergy.gov.sa/",
     "orgId": "moenergy",
-    "contentHash": "99e1b77513556dcf91f7c9b5bb15b54c580411123c6a0131b167c5ffcc1552fe",
+    "contentHash": "0b6dc3b080836377f74bf0afecd8b138f27272127096bfdbf2f13a2d74e09690",
     "blockHashes": [
       "0b2ac86368433619",
       "bad1561953eacbf3",
@@ -45,13 +45,13 @@
       "3356b5969b2e99ad",
       "24ad63b011b39941",
       "c09255cabba72f03",
-      "c24c681a0e7da724",
-      "ab50894e15dffce5"
+      "23239b9b4c741244",
+      "2c61159be6c665d1"
     ],
-    "extractedChars": 9230,
+    "extractedChars": 9218,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T22:03:35.383Z",
-    "lastChangedISO": "2026-09-07T12:33:00.840Z",
+    "lastChangedISO": "2026-09-10T10:00:24.088Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -7856,11 +7856,11 @@
   {
     "sourceUrl": "https://www.mof.gov.sa/eservices/Loans/Pages/Lending_Educational_Projects.aspx",
     "orgId": "mof",
-    "contentHash": "b9224a844d0d6ae3f65c90c16ae07433d0c7cf64435b1af5ff134dc0b8437d01",
+    "contentHash": "a5fc41c1be9bd18b7104f4b4823175514aac4d16bf6dc4dfe6acafb537f7ce5d",
     "blockHashes": [
       "7f625851cbbadbc6",
       "f7711325e2c4b301",
-      "2dfc8ed31fdece7f",
+      "450242cace200d46",
       "8e28a73c96909ff5",
       "9f6687b23d59fac0",
       "f48c3103130eeb1d",
@@ -7917,7 +7917,7 @@
     "extractedChars": 8294,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-09T09:00:48.549Z",
+    "lastChangedISO": "2026-09-10T10:00:24.088Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -9194,16 +9194,17 @@
   {
     "sourceUrl": "https://www.rcrc.gov.sa/careers/?lang=ar",
     "orgId": "rcrc",
-    "contentHash": "fee01ddab5aebcc7e002b8cf41be414a72bbca63c158c30af5536454fe2a9fb8",
+    "contentHash": "52793642ddfa6b87304433c8e87a2e6f17ce02af26c2b3dedd953cb4f241a4b0",
     "blockHashes": [
       "fee01ddab5aebcc7"
     ],
-    "extractedChars": 785,
+    "extractedChars": 1166,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-10T08:53:07.931Z",
+    "lastChangedISO": "2026-09-10T10:00:24.088Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://www.rcrc.gov.sa/media-center/",
