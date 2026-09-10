@@ -643,18 +643,20 @@
   {
     "sourceUrl": "https://athkax.sdaia.gov.sa/coop",
     "orgId": "sdaia",
-    "contentHash": "149dac3782e23b92d6292f77a69dc8697b9a8115e558dd26d5838bee370b30cb",
+    "contentHash": "650c933e19fdda12a6c2eac7adb67a62a676630ab898154a6f421a37ac0b5674",
     "blockHashes": [
-      "04ba8a3fca46514f",
-      "4bd08244050e9682"
+      "8a2d7a67478fe052",
+      "2b1dd48ae6354db8",
+      "52d4c1d9758f1c82",
+      "5231f218b717a773",
+      "16afbe2123813e3e"
     ],
-    "extractedChars": 756,
+    "extractedChars": 2900,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-10T21:10:55.243Z",
+    "lastChangedISO": "2026-09-10T21:59:42.054Z",
     "thinRuns": 0,
-    "pendingClassification": true,
-    "classifyFailures": 1
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://awqaf.gov.sa/ar/ar/hiring/",
@@ -2026,17 +2028,17 @@
   {
     "sourceUrl": "https://careers.zatca.gov.sa/search/?createNewAlert=false&q=&locationsearch=",
     "orgId": "zatca",
-    "contentHash": "57028508df530251982b99d92af439ecce8f7abc32c50244e0f77b75c52867ce",
+    "contentHash": "e3f6e638d8d4e22d0eca6d0c48ea3f10f66ceeebfabac4cbcc541d0c1bbde8cf",
     "blockHashes": [
       "650a2ce183d63c69",
-      "b731f140ea3e962e",
-      "2d4f232864a81923",
+      "7e89a0c360b6e674",
+      "aeaf1cca1e2a71ed",
       "78be07dcda742780",
       "9f4d777290d5c715",
       "e4dcc9b2c80785e3",
       "1cf3a55e67fa4b5e",
       "47425f877e5c3d17",
-      "97874d03024f07d0",
+      "6bd1410694d9391e",
       "a954080d2ed9ccb1",
       "84fe59d621b2eb75",
       "84fe59d621b2eb75",
@@ -2046,7 +2048,7 @@
     "extractedChars": 571,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-10T12:29:04.456Z",
+    "lastChangedISO": "2026-09-10T21:59:42.054Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -2213,9 +2215,9 @@
   {
     "sourceUrl": "https://gaca.gov.sa/ar/News",
     "orgId": "gaca",
-    "contentHash": "5070d46cf7422a4a3066312e655d0de8c3326c4601b2ed8ca5a7429520344bdb",
+    "contentHash": "f80c92d69d24209fe91968d45059b62148ff90dba8aa0238f80d7fb55c6977a4",
     "blockHashes": [
-      "efa5f623a5ecb56b",
+      "76af0c0add4b0107",
       "1200a7dc3cdab6ad",
       "215ea8106ce70d3a",
       "594a80b012af5993",
@@ -2291,7 +2293,7 @@
     "extractedChars": 21367,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-10T18:56:45.558Z",
+    "lastChangedISO": "2026-09-10T21:59:42.054Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -3222,8 +3224,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-10T18:56:45.558Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://momah.gov.sa/ar/news",
@@ -6418,10 +6419,10 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/careers/graduate-development-program",
     "orgId": "hrc",
-    "contentHash": "b2beb0ff12a3e7d85a8d94a8ce89f46d1bf71cb2a790b7319af6444ba36e7814",
+    "contentHash": "c6cc7e7daff6ab4543c55c592792f75989c648e5738b77aeab9ca444f90e7ba6",
     "blockHashes": [
       "12e41a244a8a2984",
-      "cdb447c768ab27b3",
+      "4d583334151e4720",
       "741386d322f274be",
       "40d7009856bbc81d",
       "2dd486d3d3cacb8b",
@@ -6487,7 +6488,7 @@
     "extractedChars": 10689,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-10T18:56:45.558Z",
+    "lastChangedISO": "2026-09-10T21:59:42.054Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
