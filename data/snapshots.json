@@ -259,15 +259,15 @@
   {
     "sourceUrl": "https://alinma.com/About-the-Bank/The-Bank/News",
     "orgId": "alinma",
-    "contentHash": "88157b4408c36faf4ed8c844c3cbb64a4e8f98242bc70983f1f53848245ec678",
+    "contentHash": "98d990d017433cf6ce9a35c0bd53404ffb3ca8a182c4d2622ffb77a3870539b7",
     "blockHashes": [
       "cd7fc326454450e2",
-      "a42bd3759d4b4a05"
+      "139a3a3e1c31d780"
     ],
-    "extractedChars": 3682,
+    "extractedChars": 3689,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-10T11:33:22.687Z",
+    "lastChangedISO": "2026-09-10T17:07:09.319Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -642,18 +642,17 @@
   {
     "sourceUrl": "https://athkax.sdaia.gov.sa/coop",
     "orgId": "sdaia",
-    "contentHash": "a58f144950bb22de0c4667555dc3401317db3a7e9e0679e6a27c03768b15a660",
+    "contentHash": "b4056e38e0d223113d4abd13b7f94f0b0b5769a6fe66b2ed05656996f9e2317a",
     "blockHashes": [
-      "04ba8a3fca46514f",
+      "8a2d7a67478fe052",
       "4bd08244050e9682"
     ],
     "extractedChars": 756,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-10T16:23:50.353Z",
+    "lastChangedISO": "2026-09-10T17:13:28.504Z",
     "thinRuns": 0,
-    "pendingClassification": true,
-    "classifyFailures": 1
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://awqaf.gov.sa/ar/ar/hiring/",
@@ -7621,7 +7620,7 @@
   {
     "sourceUrl": "https://www.mim.gov.sa/ar/empower-training/cooperative-training",
     "orgId": "mim",
-    "contentHash": "d9e1f7bb3f3ecf469665d2ee45595684e30f4ecb7eea7087c6561f9726153cf7",
+    "contentHash": "a1908b9a1c7740c44029094324ad85124492e057827721e591eb05d9000154f5",
     "blockHashes": [
       "1cb91553dd3291a4",
       "5300d4cdd32a8d33"
@@ -7629,7 +7628,7 @@
     "extractedChars": 2495,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T02:22:33.828Z",
-    "lastChangedISO": "2026-09-10T16:23:50.353Z",
+    "lastChangedISO": "2026-09-10T17:13:28.504Z",
     "thinRuns": 0,
     "pendingClassification": true,
     "classifyFailures": 1
@@ -8460,8 +8459,7 @@
     "firstSeenISO": "2026-08-29T22:03:35.383Z",
     "lastChangedISO": "2026-09-10T10:38:26.952Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.nazaha.gov.sa/Jobs",
