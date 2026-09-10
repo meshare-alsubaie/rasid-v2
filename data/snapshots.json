@@ -2142,7 +2142,7 @@
   {
     "sourceUrl": "https://gaca.gov.sa/ar/News",
     "orgId": "gaca",
-    "contentHash": "653ff5e7a325e82f86227627a69f5cf3278b1298b0e21ffba51adcde3bb071c9",
+    "contentHash": "6f044221d2ef7ff6eb176e2a723aa489c2f03bd201008ee7e9e598b9704eb95d",
     "blockHashes": [
       "faeeb70dc11dca8e",
       "1200a7dc3cdab6ad",
@@ -2220,10 +2220,9 @@
     "extractedChars": 21367,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-10T09:48:39.074Z",
+    "lastChangedISO": "2026-09-10T12:52:01.888Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "triaged_out"
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://gaca.gov.sa/news",
@@ -3115,7 +3114,7 @@
   {
     "sourceUrl": "https://momah.gov.sa/ar/menu/media-center",
     "orgId": "housing",
-    "contentHash": "7ad9a254ff1b4e9739f87b4ae098a23a6a6b4216cbf351dc30a06d19d9ca6adb",
+    "contentHash": "7746e0da0081f3f55a2d62e642a59cf297d034a261c390d1548b8f73e674e783",
     "blockHashes": [
       "4c63522200199108",
       "7bc8965d992df69b",
@@ -3142,13 +3141,12 @@
       "ff6f87e39638cb9b",
       "7204856126356fe4"
     ],
-    "extractedChars": 151322,
+    "extractedChars": 151282,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-09T17:57:17.255Z",
+    "lastChangedISO": "2026-09-10T12:52:01.888Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://momah.gov.sa/ar/news",
@@ -6347,7 +6345,7 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/careers/graduate-development-program",
     "orgId": "hrc",
-    "contentHash": "9d666e40625133ab8451f33997d3deaa4f9f54876e2603f732fb2fad9bebc795",
+    "contentHash": "ca702152dca39d3e2c2a5f579e7f93f671dcba7f749a15be60fe89b049f8a975",
     "blockHashes": [
       "12e41a244a8a2984",
       "df35edc3a9cfa585",
@@ -6416,9 +6414,9 @@
     "extractedChars": 10689,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-10T09:48:39.074Z",
+    "lastChangedISO": "2026-09-10T12:52:01.888Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/cooperations?lang=ar",
@@ -8419,8 +8417,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-10T09:32:09.944Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "triaged_out"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.nazaha.gov.sa/News/Details?q=+ZUW2RPX/9RAyHyLvILpaw==",
@@ -10532,7 +10529,7 @@
   {
     "sourceUrl": "https://www.srca.org.sa/newsletters/",
     "orgId": "srca",
-    "contentHash": "263e8e4ff4bf02df9f60fd7d161977a283859ff9402be705476cf7cebb5bc7d3",
+    "contentHash": "5ab5ab6c0da8c480b04fcc1a90b264fa184588618693ef9fa8859b2a5271a8f4",
     "blockHashes": [
       "13f48669ebfa59aa",
       "74e4c1d2a646a96e",
@@ -10546,13 +10543,12 @@
       "a3663086b31e5fba",
       "de58120500a8958a"
     ],
-    "extractedChars": 3064,
+    "extractedChars": 3065,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-09T11:51:56.018Z",
+    "lastChangedISO": "2026-09-10T12:47:52.898Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://www.stats.gov.sa/ar",
@@ -11128,7 +11124,7 @@
   {
     "sourceUrl": "https://www.tadawulgroup.sa/wps/portal/tadawulgroup/joinus",
     "orgId": "tadawul",
-    "contentHash": "218af6789adae9d596633c79e9b359213a247d93501904bfc43eeae06fd8c680",
+    "contentHash": "d0d3b5ac169f1b73ab7aa83d70c779f4ee298b89ccc3b8284f83c6034148bac3",
     "blockHashes": [
       "dbfb7021493a5943",
       "4acb10188c67e120",
@@ -11140,12 +11136,13 @@
       "99045a67c833cd6b",
       "332ab17b1cccbd59"
     ],
-    "extractedChars": 1384,
+    "extractedChars": 1186,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-02T23:42:46.216Z",
-    "lastChangedISO": "2026-09-10T12:08:52.477Z",
+    "lastChangedISO": "2026-09-10T12:54:29.471Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://www.tahakom.com/",
