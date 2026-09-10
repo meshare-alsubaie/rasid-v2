@@ -936,8 +936,8 @@
     "firstSeenISO": "2026-08-29T02:22:33.828Z",
     "lastChangedISO": "2026-09-09T14:31:27.491Z",
     "thinRuns": 0,
-    "pendingClassification": true,
-    "classifyFailures": 2
+    "pendingClassification": false,
+    "classifyFailures": 3
   },
   {
     "sourceUrl": "https://careers.alrajhibank.com.sa/ar/saudi-arabia/jobs/coop-training-%D8%A7%D9%84%D8%AA%D8%AF%D8%B1%D9%8A%D8%A8-%D8%A7%D9%84%D8%AA%D8%B9%D8%A7%D9%88%D9%86%D9%8A-1100037814/",
@@ -1330,17 +1330,16 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/search-results",
     "orgId": "maaden",
-    "contentHash": "37725b40127fac627f02e3242d37da1166304e95a41e293438cec88a92f0295c",
+    "contentHash": "398e11f70d99405b64b694e9e5c47165b11a128072dcb09815912939d1c09a2a",
     "blockHashes": [
       "dab5a7f3801bc914",
-      "d6c0adacb353836a",
-      "6ddca0f35164cb3d",
-      "df483b9cb1a5da67"
+      "e241452b10705abc",
+      "b36a226ce5ce1ca5"
     ],
     "extractedChars": 240,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-09T18:55:40.964Z",
+    "lastChangedISO": "2026-09-10T08:53:07.931Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -7801,17 +7800,18 @@
   {
     "sourceUrl": "https://www.moenergy.gov.sa/ar/media-center/news",
     "orgId": "moenergy",
-    "contentHash": "50b34c2c18ef8ef88d6938ac42838ed7411e058f21c41aa6cd0079f7a1c9138d",
+    "contentHash": "cf59de46196d6c473fe5313f7c7468d44fb0b75156d18131f89c0d5fc745e448",
     "blockHashes": [
-      "dd5d4708a366cd73",
-      "90b2fcd3302f6a55"
+      "24d4075b60cf6e41",
+      "5acbf825e1f9a08b"
     ],
-    "extractedChars": 3767,
+    "extractedChars": 3739,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-07T11:23:07.993Z",
+    "lastChangedISO": "2026-09-10T08:53:07.931Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "triaged_out"
   },
   {
     "sourceUrl": "https://www.moenergy.gov.sa/ar/media-center/news/first-energy-hackathon",
@@ -7938,11 +7938,11 @@
   {
     "sourceUrl": "https://www.mof.gov.sa/GFS/TrainingProgram/Pages/TrainingManual.aspx",
     "orgId": "mof",
-    "contentHash": "10cdfecf2cd7b8855a940669f6aeff40cefcaeaadfc28cadaeee97376a37a0c4",
+    "contentHash": "49ec0c0c4db297bc1548683cb1e76fac157b8a9cae82d5a4c1b226c42f2e1074",
     "blockHashes": [
       "7f625851cbbadbc6",
       "f7711325e2c4b301",
-      "ebbeaed0ff1713e9",
+      "a165e17c4ba57e14",
       "ffd666e2720f42ef",
       "f4809815161554d5",
       "ec90d29b5d482b67",
@@ -7953,10 +7953,10 @@
       "e449b5a351b550c3",
       "cbefc4238a0555f8"
     ],
-    "extractedChars": 10415,
+    "extractedChars": 10413,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-09T08:14:46.637Z",
+    "lastChangedISO": "2026-09-10T08:53:07.931Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -9202,17 +9202,16 @@
   {
     "sourceUrl": "https://www.rcrc.gov.sa/careers/?lang=ar",
     "orgId": "rcrc",
-    "contentHash": "769d8548d5d3ec3737d922678e6e3d6b8ad891f7dbb60ab89b9e3de17bf5f57d",
+    "contentHash": "fee01ddab5aebcc7e002b8cf41be414a72bbca63c158c30af5536454fe2a9fb8",
     "blockHashes": [
-      "f62c9bf6ba992cc4"
+      "fee01ddab5aebcc7"
     ],
-    "extractedChars": 1166,
+    "extractedChars": 785,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-09T18:48:10.493Z",
+    "lastChangedISO": "2026-09-10T08:53:07.931Z",
     "thinRuns": 0,
-    "pendingClassification": true,
-    "classifyFailures": 1
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.rcrc.gov.sa/media-center/",
@@ -10560,11 +10559,11 @@
   {
     "sourceUrl": "https://www.srca.org.sa/%d8%a7%d9%84%d8%aa%d9%88%d8%b8%d9%8a%d9%81/",
     "orgId": "srca",
-    "contentHash": "786d6769f5bd1411f143874188d3756d8a839e07fc9cd51228fedca303dc5416",
+    "contentHash": "d48cb7b7d8f534c91f8378e328382416b8e3bd045e001c5c05e6d8d0903bf6a8",
     "blockHashes": [
       "13f48669ebfa59aa",
       "74e4c1d2a646a96e",
-      "a9a7918df50d2543",
+      "b0d725091ecc5c4a",
       "68c03d860d910c71",
       "782261474561a27a",
       "201de1784c4f3dae",
@@ -10575,10 +10574,10 @@
       "a3663086b31e5fba",
       "de58120500a8958a"
     ],
-    "extractedChars": 3012,
+    "extractedChars": 3013,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-09T00:11:28.214Z",
+    "lastChangedISO": "2026-09-10T08:53:07.931Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
