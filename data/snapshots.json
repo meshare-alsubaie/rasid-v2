@@ -8329,13 +8329,13 @@
   {
     "sourceUrl": "https://www.monshaat.gov.sa/",
     "orgId": "monshaat",
-    "contentHash": "33424afa1565e6268b1b70891e0ab17e4022ffa2352eac4708c21933e95fe4de",
+    "contentHash": "28739e2ec1c8893ebe9c21a0f3c16d0d4921cd5604f6c2692dbc1666f3f1fde2",
     "blockHashes": [
       "f3c3bc418548abc0",
       "d50dd161f6f86a1e",
       "0e162f7ef75767ee",
-      "b4f28c8c8e708b05",
-      "c21b55f854e838bc",
+      "e4ecec5f10d5a577",
+      "dd5e96dcf2731c3e",
       "5c69506a3d5f7a48",
       "399508eebde112fd",
       "be154d8cd7ade2c5",
@@ -8349,7 +8349,7 @@
     "extractedChars": 4318,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
-    "lastChangedISO": "2026-09-09T15:06:23.176Z",
+    "lastChangedISO": "2026-09-10T22:14:17.679Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -8513,9 +8513,9 @@
   {
     "sourceUrl": "https://www.nazaha.gov.sa/News/Details?q=HNQU9DHVnwVHan0Mf562ug==",
     "orgId": "nazaha",
-    "contentHash": "44eb37ef61732024c346b0e49f7a712312e4c52ad8e7f465eeb589babc01abdc",
+    "contentHash": "f16291e9f202efe4dda4c78001ec94ef701769749f24f34e1c9c4c19b5a34e70",
     "blockHashes": [
-      "7d3ec6e724c3de19",
+      "0530f91b58d8414b",
       "366f824a751bf3bd",
       "a96b8a7b6f568013",
       "4d9af472ef4907d3",
@@ -8536,9 +8536,10 @@
     "extractedChars": 3927,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-10T09:48:39.074Z",
+    "lastChangedISO": "2026-09-10T22:11:30.739Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://www.nazaha.gov.sa/News/Details?q=LDqaftYCK2agKydxrbY5fg==",
@@ -9188,17 +9189,16 @@
   {
     "sourceUrl": "https://www.rcrc.gov.sa/careers/?lang=ar",
     "orgId": "rcrc",
-    "contentHash": "6abf591b5ef1e89f81efedae5dbd8f5cc86eebd734d5a907ed446c5e4937b628",
+    "contentHash": "400a0469f71f867827c60f7d34cd5d61c333c23294e0a673eb5b3c082e58e234",
     "blockHashes": [
-      "952f1f603961541a"
+      "400a0469f71f8678"
     ],
-    "extractedChars": 1167,
+    "extractedChars": 784,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-10T21:14:15.711Z",
+    "lastChangedISO": "2026-09-10T22:14:17.679Z",
     "thinRuns": 0,
-    "pendingClassification": true,
-    "classifyFailures": 1
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.rcrc.gov.sa/media-center/",
