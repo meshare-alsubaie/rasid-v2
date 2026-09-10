@@ -1252,9 +1252,10 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/cookiesettings",
     "orgId": "maaden",
-    "contentHash": "bd547877f47c68fe7579c87ad6abfdf31e308507a0571cd0ffce607c0fdfcf57",
+    "contentHash": "fb3b01d7e14f1d4bbdb7b150d9fb1d4058dc95c6400186c998d6111870327fd2",
     "blockHashes": [
-      "2fb28de24072d906",
+      "5569201553604d03",
+      "f4979ecd6a2f2db6",
       "dd53e083dd4c4329",
       "5e2fc5a4da5c7871",
       "197c66a2b21d9654",
@@ -1319,13 +1320,13 @@
       "ee82ab94d7112a03",
       "60b7b15f81dc7749",
       "abf11bb520a3d451",
-      "a18898f5626b13ac",
-      "7069e685a5da8a38"
+      "3b80e34c02ee90ae",
+      "c7f170d8d4e25f02"
     ],
     "extractedChars": 8013,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-10T20:30:07.832Z",
+    "lastChangedISO": "2026-09-10T21:18:50.697Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -2155,7 +2156,7 @@
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T02:22:33.828Z",
     "lastChangedISO": "2026-08-29T02:36:21.032Z",
-    "thinRuns": 143,
+    "thinRuns": 144,
     "pendingClassification": false
   },
   {
@@ -2667,29 +2668,29 @@
   {
     "sourceUrl": "https://lcgpa.gov.sa/ar/Pages/default.aspx",
     "orgId": "lcgpa",
-    "contentHash": null,
+    "contentHash": "40d466783d74ef0ad82a6cdc95dfc26fcabcbf6b61668c1439917bd6c601c3bd",
     "blockHashes": [
-      "fbc41541b3ebef9f",
+      "880c39e968fbb926",
       "beda84e843f95551"
     ],
-    "extractedChars": 358,
+    "extractedChars": 218,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-09T13:57:38.750Z",
+    "lastChangedISO": "2026-09-10T21:18:50.697Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
   {
     "sourceUrl": "https://makkah-careers.health.sa/",
     "orgId": "mecca_health",
-    "contentHash": "1feba0baa472758c9e4c8d51a6758ad5bc6817e9372edb5b8d795f85fd2d7480",
+    "contentHash": "99c987bdde03dcae21259aa8bb0ebff9d7d2f7680ec1fdd719427023870c1433",
     "blockHashes": [
-      "1feba0baa472758c"
+      "99c987bdde03dcae"
     ],
-    "extractedChars": 419,
+    "extractedChars": 352,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-10T15:12:00.396Z",
+    "lastChangedISO": "2026-09-10T21:18:50.697Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -2771,7 +2772,7 @@
   {
     "sourceUrl": "https://mawhiba.org/",
     "orgId": "mawhiba",
-    "contentHash": "7fdffea498abfe842e7d6722e94460ff5e4fc5ec22dd4db5c7a87ed9367ae552",
+    "contentHash": "356041961be3afb25316987a00735077a072b2e1d74b6bf66329e0473683b5aa",
     "blockHashes": [
       "cebaa0d7740345e0",
       "b0a03231aea02dc9",
@@ -2793,7 +2794,7 @@
       "c4583f676c27517a",
       "4ea242e080578a16",
       "a4e4e1fbeaab5463",
-      "2af9ca2ed22abbef",
+      "f85bb8513d63dcee",
       "b518044d0e3ef109",
       "1f3c4598715a2661",
       "006216df3cce041d"
@@ -2801,7 +2802,7 @@
     "extractedChars": 8315,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-10T09:05:15.071Z",
+    "lastChangedISO": "2026-09-10T21:18:50.697Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -3524,18 +3525,17 @@
   {
     "sourceUrl": "https://ncar.gov.sa/",
     "orgId": "ncar",
-    "contentHash": "bf55d532873bc7e812e99644e83e526f3c5f0f144bb61c1f37739a24730b403f",
+    "contentHash": "27f62e05d69caa21d2ef14a491fc742e3f66a9631dbc823c03c1bc3aaf54ce90",
     "blockHashes": [
       "c911502a32b8a6f9",
-      "299051b1d7c5abd3",
-      "8647c1ccff9cbc17",
+      "427998d73505aec3",
       "26b7600a224c8c65",
       "75c514565d626437"
     ],
-    "extractedChars": 1250,
+    "extractedChars": 1077,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-10T15:12:00.396Z",
+    "lastChangedISO": "2026-09-10T21:18:50.697Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -3608,16 +3608,17 @@
   {
     "sourceUrl": "https://ndf.gov.sa/media-center/annual-reports",
     "orgId": "ndf",
-    "contentHash": "814c9ab5385b73de2c2fb3fbf2306918bb150765b3d0d7da653663e3662bad3a",
+    "contentHash": "6e7de780d60fc7cf4bb30412785b514ee53b561a082e0c73fad6edf1481ae3bb",
     "blockHashes": [
-      "814c9ab5385b73de"
+      "6e7de780d60fc7cf"
     ],
     "extractedChars": 1284,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-10T09:05:15.071Z",
+    "lastChangedISO": "2026-09-10T21:18:50.697Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://ndf.gov.sa/media-center/articles",
@@ -4894,8 +4895,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-10T15:12:00.396Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "triaged_out"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.alrajhibank.com.sa/",
@@ -5478,19 +5478,19 @@
   {
     "sourceUrl": "https://www.bog.gov.sa/en/EServices/Pages/khabeer.aspx",
     "orgId": "bog",
-    "contentHash": "f8d2d622ddbc33cd4dcfa8d45e7af8c704be1a46d6d6f5b20181b76dc676389e",
+    "contentHash": "1698df7fdc1b450da026c371cbf984ee0e5b7103852cc0cf1123d5b7f38d3f48",
     "blockHashes": [
       "46d9575ec382a9d1",
       "96c63175498462d9",
       "f4b9821710ab784e",
-      "90a333d48dbc2607",
+      "be5ee0faff2db00f",
       "6bbd6187086df04b",
       "ec5d6ba37d25b982"
     ],
     "extractedChars": 1229,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T02:22:33.828Z",
-    "lastChangedISO": "2026-09-10T20:30:07.832Z",
+    "lastChangedISO": "2026-09-10T21:18:50.697Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -6569,11 +6569,11 @@
   {
     "sourceUrl": "https://www.hrdf.org.sa/products-and-services/programs/individuals/training/cooperative-training/",
     "orgId": "hrdf_coop",
-    "contentHash": "06a573937b2791d426d151252a5dd4d9c46201bcd03164fa3b44e6481a790030",
+    "contentHash": "a648baf999f17e53a2681d25fb38ca3d7751e4688c442bed0d3d5733010208ce",
     "blockHashes": [
       "45526a3a724650be",
       "74e4c1d2a646a96e",
-      "1623220c4710bcbd",
+      "a50c0c3ea539f63c",
       "0bbb8684587712ce",
       "708fe6c77bb05acc",
       "8b7e6b90d8c89aa7",
@@ -6743,7 +6743,7 @@
     "extractedChars": 8563,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-03T01:25:25.661Z",
-    "lastChangedISO": "2026-09-10T09:05:15.071Z",
+    "lastChangedISO": "2026-09-10T21:18:50.697Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -7681,16 +7681,16 @@
   {
     "sourceUrl": "https://www.moc.gov.sa/ar",
     "orgId": "moc",
-    "contentHash": "8583a403d49d658402c0046517f167c00c302a7309a05cdaea0d692892e77ff0",
+    "contentHash": "c152afcdf5975e11a05809c919da3ce25f31ee2aabd79cc638d04b8ff4198261",
     "blockHashes": [
       "88c122fdb76fc42f",
-      "fd3964bfc6d847fb",
+      "ad8875cb26550207",
       "41f62cd091425d1d"
     ],
-    "extractedChars": 6095,
+    "extractedChars": 6096,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-10T15:12:00.396Z",
+    "lastChangedISO": "2026-09-10T21:18:50.697Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -9524,7 +9524,7 @@
   {
     "sourceUrl": "https://www.riyadbank.com/ar/personal-banking",
     "orgId": "riyadbank",
-    "contentHash": "29a8cadc39eef5713d228d9622218ca296b9c3e1c5782cb712abccb86364e3dc",
+    "contentHash": "7f6ffe85c9e2aabe9c3060b62e77d95ffcfb25a12d3550e1856451804158fe92",
     "blockHashes": [
       "c5fa97b84e96f11e",
       "a01ad1ea1a27690a",
@@ -9549,13 +9549,15 @@
       "dd09a93c19a5b408",
       "fc0a22cc81c08834",
       "5ca46b716e2fe884",
-      "1d775fb08011859c",
+      "5b89998625f6c35a",
+      "4f9d3db32b80f12b",
       "303fe28588764a9b",
       "7a8a143470365dc2",
-      "960919b7fb63409c",
+      "3da50cd1c3c80f72",
+      "75ad41c21fa9b0e1",
       "c845d371bfc055e6",
       "e91a2dc79c3ef7ff",
-      "75701b4b0c077673",
+      "d22dd1cc9b5516ee",
       "0b4f6c1a982c9472",
       "cb4329c80213103c",
       "853e155161611ffc",
@@ -9568,10 +9570,10 @@
       "27ab07a2e57dda34",
       "f2f0e16c376080f6"
     ],
-    "extractedChars": 10366,
+    "extractedChars": 10029,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
-    "lastChangedISO": "2026-09-10T18:16:29.212Z",
+    "lastChangedISO": "2026-09-10T21:18:50.697Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
