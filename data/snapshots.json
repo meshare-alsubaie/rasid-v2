@@ -12,8 +12,7 @@
     "firstSeenISO": "2026-08-29T22:03:35.383Z",
     "lastChangedISO": "2026-09-09T14:08:07.829Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "http://www.ecza.gov.sa/360/pages/ar/home",
@@ -640,7 +639,7 @@
   {
     "sourceUrl": "https://athkax.sdaia.gov.sa/coop",
     "orgId": "sdaia",
-    "contentHash": "149dac3782e23b92d6292f77a69dc8697b9a8115e558dd26d5838bee370b30cb",
+    "contentHash": "a58f144950bb22de0c4667555dc3401317db3a7e9e0679e6a27c03768b15a660",
     "blockHashes": [
       "04ba8a3fca46514f",
       "4bd08244050e9682"
@@ -648,10 +647,10 @@
     "extractedChars": 756,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-09T17:48:15.837Z",
+    "lastChangedISO": "2026-09-10T09:05:15.071Z",
     "thinRuns": 0,
     "pendingClassification": true,
-    "classifyFailures": 2
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://awqaf.gov.sa/ar/ar/hiring/",
@@ -2662,7 +2661,7 @@
   {
     "sourceUrl": "https://lcgpa.gov.sa/ar/Pages/default.aspx",
     "orgId": "lcgpa",
-    "contentHash": "7d01d071243c9f675c6674c1d2d5c86ea432a872386d4aba2eadfecc860a3576",
+    "contentHash": null,
     "blockHashes": [
       "fbc41541b3ebef9f",
       "beda84e843f95551"
@@ -2766,7 +2765,7 @@
   {
     "sourceUrl": "https://mawhiba.org/",
     "orgId": "mawhiba",
-    "contentHash": "615ebfa3897593fb9bdb37cac45253f8c0966e29ae80eff1b5c227c5f2f73797",
+    "contentHash": "7fdffea498abfe842e7d6722e94460ff5e4fc5ec22dd4db5c7a87ed9367ae552",
     "blockHashes": [
       "cebaa0d7740345e0",
       "b0a03231aea02dc9",
@@ -2788,7 +2787,7 @@
       "c4583f676c27517a",
       "4ea242e080578a16",
       "a4e4e1fbeaab5463",
-      "502e6959874e9d12",
+      "2af9ca2ed22abbef",
       "b518044d0e3ef109",
       "1f3c4598715a2661",
       "006216df3cce041d"
@@ -2796,7 +2795,7 @@
     "extractedChars": 8315,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-09T07:58:30.643Z",
+    "lastChangedISO": "2026-09-10T09:05:15.071Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -3535,25 +3534,20 @@
   {
     "sourceUrl": "https://ncar.gov.sa/",
     "orgId": "ncar",
-    "contentHash": "4e9e6a68de4b627c2becc39a34fb75ea16a3943e0b27e544c60071a5ab79ec1e",
+    "contentHash": "27f62e05d69caa21d2ef14a491fc742e3f66a9631dbc823c03c1bc3aaf54ce90",
     "blockHashes": [
       "c911502a32b8a6f9",
-      "299051b1d7c5abd3",
-      "d4f2a4e4522783d9",
-      "ca80e9da341f647b",
-      "4b4956634b18a910",
-      "5e066b1f02a22686",
-      "04f75abc86aec322",
-      "dfcda7d146975f64",
+      "427998d73505aec3",
+      "26b7600a224c8c65",
       "75c514565d626437"
     ],
-    "extractedChars": 1993,
+    "extractedChars": 1077,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-09T14:12:55.623Z",
+    "lastChangedISO": "2026-09-10T09:05:15.071Z",
     "thinRuns": 0,
     "pendingClassification": false,
-    "settledWithoutVerdict": "triaged_out"
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://ncdc.gov.sa/",
@@ -3623,16 +3617,17 @@
   {
     "sourceUrl": "https://ndf.gov.sa/media-center/annual-reports",
     "orgId": "ndf",
-    "contentHash": "02daca82e4b8e97c8e36f2eab22e75999c5e4fc86124d77858f3f18e8bce6a5b",
+    "contentHash": "814c9ab5385b73de2c2fb3fbf2306918bb150765b3d0d7da653663e3662bad3a",
     "blockHashes": [
-      "02daca82e4b8e97c"
+      "814c9ab5385b73de"
     ],
-    "extractedChars": 1285,
+    "extractedChars": 1284,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-09T08:03:15.525Z",
+    "lastChangedISO": "2026-09-10T09:05:15.071Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://ndf.gov.sa/media-center/articles",
@@ -4039,16 +4034,17 @@
   {
     "sourceUrl": "https://site.sa/",
     "orgId": "site",
-    "contentHash": "a200c2d13ea06f1e2c64a3ada66c5ee448697431b52b9efb0743dc286fa3e30d",
+    "contentHash": "83cf2b18ec99a0c9fe3d3a6fe207be05d3c7920b0e5ea15ca2f35464f4ce2886",
     "blockHashes": [
-      "a200c2d13ea06f1e"
+      "83cf2b18ec99a0c9"
     ],
-    "extractedChars": 598,
+    "extractedChars": 800,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-06T04:07:14.985Z",
+    "lastChangedISO": "2026-09-10T09:05:15.071Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://slccareers.kpmg.com/go/All-Jobs/7738123/",
@@ -4922,8 +4918,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-09T14:08:07.829Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "triaged_out"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.aramco.com/en/careers/for-saudi-applicants/student-opportunities",
@@ -6325,8 +6320,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-09T14:12:55.623Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/all_branches_news?lang=ar",
@@ -6582,11 +6576,11 @@
   {
     "sourceUrl": "https://www.hrdf.org.sa/products-and-services/programs/individuals/training/cooperative-training/",
     "orgId": "hrdf_coop",
-    "contentHash": "1a3e5cca454b4825ee671955dd0d3c21105ab66ecdf3dfa508cd7c2b2da18900",
+    "contentHash": "06a573937b2791d426d151252a5dd4d9c46201bcd03164fa3b44e6481a790030",
     "blockHashes": [
       "45526a3a724650be",
       "74e4c1d2a646a96e",
-      "75b952c83d7d776e",
+      "1623220c4710bcbd",
       "0bbb8684587712ce",
       "708fe6c77bb05acc",
       "8b7e6b90d8c89aa7",
@@ -6756,7 +6750,7 @@
     "extractedChars": 8563,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-03T01:25:25.661Z",
-    "lastChangedISO": "2026-09-09T00:04:30.559Z",
+    "lastChangedISO": "2026-09-10T09:05:15.071Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -7636,7 +7630,7 @@
   {
     "sourceUrl": "https://www.mim.gov.sa/ar/empower-training/cooperative-training",
     "orgId": "mim",
-    "contentHash": "0d1fb6ea538bae83b9b3e84c16a1bef79c6f9edd46408d4774102df3b9a40af0",
+    "contentHash": "1ac9a7bc0b4a4f17d0ceec87bbdc672953ff58085b1792e1bf2cc8f8f3920392",
     "blockHashes": [
       "1cb91553dd3291a4",
       "5300d4cdd32a8d33"
@@ -7644,7 +7638,7 @@
     "extractedChars": 2495,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T02:22:33.828Z",
-    "lastChangedISO": "2026-09-09T18:24:25.812Z",
+    "lastChangedISO": "2026-09-10T09:05:15.071Z",
     "thinRuns": 0,
     "pendingClassification": true,
     "classifyFailures": 1
@@ -7693,16 +7687,16 @@
   {
     "sourceUrl": "https://www.moc.gov.sa/ar",
     "orgId": "moc",
-    "contentHash": "cbc706cf4697799187ec4217152109f1f10af1af29e87372b68e91770b3b6c50",
+    "contentHash": "f11428564231e4f5ee1abc570120c7abb22779d2640876180a960791efef4b98",
     "blockHashes": [
       "88c122fdb76fc42f",
-      "2c6fdcd3a119d0b6",
-      "ca8d6123c6de06cd"
+      "f4a03fabe6aaa887",
+      "c2578e9b892353cd"
     ],
-    "extractedChars": 6088,
+    "extractedChars": 6096,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-09T14:12:55.623Z",
+    "lastChangedISO": "2026-09-10T09:05:15.071Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -9584,8 +9578,7 @@
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
     "lastChangedISO": "2026-09-09T17:17:13.420Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.sabic.com/ar/careers",
