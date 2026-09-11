@@ -2109,9 +2109,9 @@
   {
     "sourceUrl": "https://gaca.gov.sa/announcements",
     "orgId": "gaca",
-    "contentHash": "6ddee38e8c9108c6fdf8ca56bc017a9043e249653300b220e8e4ccf5ac841ca3",
+    "contentHash": "ad15ce6cb6b88eb845eea194c63a92063f7e80724104997ea04ca6e797f827b4",
     "blockHashes": [
-      "e4da40d8b28360cd",
+      "87c2976c01c4c016",
       "9c2a3967149440a8",
       "83a22e1f9fb245f8",
       "bc532942aaed49b7"
@@ -2119,7 +2119,7 @@
     "extractedChars": 1212,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-10T22:24:43.580Z",
+    "lastChangedISO": "2026-09-11T01:29:08.275Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -6314,10 +6314,10 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/careers?lang=ar",
     "orgId": "hrc",
-    "contentHash": "8b8c6822ec97085464ca894d9feaba577d56a216c909bd0d16fe06ddd7132b5c",
+    "contentHash": "2359255ca1b96ce89c819dd8658d264e688f50645a7f8118638152206aa08b57",
     "blockHashes": [
       "12e41a244a8a2984",
-      "7d9c29c3a00e5773",
+      "6b283685587ba762",
       "9bd6314e9bbc7375",
       "474d2dbb69aae30b",
       "84b2fc11813dc7e8",
@@ -6341,7 +6341,7 @@
     "extractedChars": 3794,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-10T22:24:43.580Z",
+    "lastChangedISO": "2026-09-11T01:29:08.275Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -7475,8 +7475,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-10T22:24:43.580Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.mewa.gov.sa/ar/MediaCenter/VisualIdentityGuide/Pages/default.aspx",
@@ -9119,17 +9118,16 @@
   {
     "sourceUrl": "https://www.rcrc.gov.sa/careers/?lang=ar",
     "orgId": "rcrc",
-    "contentHash": "a95f4042e2f3cadc86600d0a72d7853b6515e9ac275019801ac074c77e2db51e",
+    "contentHash": "313cc37254db42139a759ed4301cc6a05bcbd8634d326ebf792810d2aaeac25b",
     "blockHashes": [
-      "1a8e416cfa58bf67"
+      "313cc37254db4213"
     ],
-    "extractedChars": 1166,
+    "extractedChars": 784,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-11T00:49:15.180Z",
+    "lastChangedISO": "2026-09-11T01:39:06.746Z",
     "thinRuns": 0,
-    "pendingClassification": true,
-    "classifyFailures": 1
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.rcrc.gov.sa/media-center/",
