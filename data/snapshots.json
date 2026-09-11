@@ -653,7 +653,7 @@
     "lastChangedISO": "2026-09-11T16:38:32.185Z",
     "thinRuns": 0,
     "pendingClassification": true,
-    "classifyFailures": 1
+    "classifyFailures": 2
   },
   {
     "sourceUrl": "https://awqaf.gov.sa/ar/ar/hiring/",
@@ -2280,9 +2280,9 @@
   {
     "sourceUrl": "https://gaca.gov.sa/web/ar-sa/page/home",
     "orgId": "gaca",
-    "contentHash": "b4be04419b4a32fdb627f4acc0c6e797f2b60eba02579edf316b462348b5fda8",
+    "contentHash": "3034a157d31db15107a856a446a79381b8d74c39acb9722069b2a92804faa7ac",
     "blockHashes": [
-      "eb4a63f34d316223",
+      "a53ecba1f856ca35",
       "67ba147535885b5a",
       "7ec1a3314ada8252",
       "83a22e1f9fb245f8",
@@ -2291,7 +2291,7 @@
     "extractedChars": 1866,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-11T15:07:22.852Z",
+    "lastChangedISO": "2026-09-11T18:10:52.018Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -2932,9 +2932,9 @@
   {
     "sourceUrl": "https://modon.gov.sa/ar/MediaCenter/modon-news/News/Pages/default.aspx",
     "orgId": "modon",
-    "contentHash": "f5ac7d8cda4131675ffa3c22070979c6beb0f2af7cecfafe9d94f852e632473a",
+    "contentHash": "7942b8bab0d121cbedc86c35da49193cabdca5633f910ac8baed6ea0935b1c22",
     "blockHashes": [
-      "3d2de4539b9170b9",
+      "d883eee27dc1c509",
       "8727cbb5dfea6170",
       "bdfe2a112c399ccd",
       "8ae17958586c8a8c",
@@ -2943,7 +2943,7 @@
     "extractedChars": 1591,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-11T15:07:22.852Z",
+    "lastChangedISO": "2026-09-11T18:10:52.018Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -6207,10 +6207,10 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/all_branches_news?lang=ar",
     "orgId": "hrc",
-    "contentHash": "a1c840cf915efc590555064e9e87765aee68515bfe9fdfc300b7e7fca230eb6b",
+    "contentHash": "e58a01ff12f915a7df813a4c1dd74d29f1bdfd052b0d0cdf55215fbd110112df",
     "blockHashes": [
       "12e41a244a8a2984",
-      "d25dca0536bf128c",
+      "4ce409bf0181c685",
       "f5f8d6443e8e9010",
       "02fd91be7253d9e4",
       "6cd077b5b02f6b16",
@@ -6236,7 +6236,7 @@
     "extractedChars": 5039,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-11T15:07:22.852Z",
+    "lastChangedISO": "2026-09-11T18:10:52.018Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -7512,7 +7512,7 @@
   {
     "sourceUrl": "https://www.mim.gov.sa/ar/empower-training/cooperative-training",
     "orgId": "mim",
-    "contentHash": "676bfcc25aca0d0b2d4501ffd3eb491e05291f378116d03f893bb6b3b007cd1f",
+    "contentHash": "477f601c7e6b532a80734d2b73776bbb81a151454871d4d959336ebf16b4287f",
     "blockHashes": [
       "1cb91553dd3291a4",
       "5300d4cdd32a8d33"
@@ -7520,7 +7520,7 @@
     "extractedChars": 2495,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T02:22:33.828Z",
-    "lastChangedISO": "2026-09-11T17:25:00.052Z",
+    "lastChangedISO": "2026-09-11T18:13:20.775Z",
     "thinRuns": 0,
     "pendingClassification": true,
     "classifyFailures": 1
@@ -8301,8 +8301,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-11T08:50:13.934Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.monshaat.gov.sa/ar/node/5257",
