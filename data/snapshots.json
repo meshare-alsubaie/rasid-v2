@@ -2128,20 +2128,19 @@
   {
     "sourceUrl": "https://gaca.gov.sa/ar/announcements",
     "orgId": "gaca",
-    "contentHash": "4888fa1b04523ef66b7fc0c885b5587d2a824f37050534d420f9a84a6b5ab127",
+    "contentHash": "f885fbf1e96112e062c6cfe94e2e207ab2eb53b0981db185d611af293a5bb661",
     "blockHashes": [
       "d32b418b8143e049",
       "9c2a3967149440a8",
       "83a22e1f9fb245f8",
       "bc532942aaed49b7"
     ],
-    "extractedChars": 1212,
+    "extractedChars": 1213,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-11T00:47:10.701Z",
+    "lastChangedISO": "2026-09-11T09:03:26.906Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://gaca.gov.sa/ar/News",
@@ -2937,7 +2936,7 @@
   {
     "sourceUrl": "https://modon.gov.sa/",
     "orgId": "modon",
-    "contentHash": "533ee01d4aa473ebfbd608c382a499d9533e11895d02e5f887f525d895b4659d",
+    "contentHash": "622d54e4d7e1fe218e528fcfe63e26b4181209d466464c73bbc786ca9037ac4c",
     "blockHashes": [
       "69887644662e733d",
       "0edf2292f0637ccb",
@@ -2961,10 +2960,9 @@
     "extractedChars": 5996,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-10T21:45:04.432Z",
+    "lastChangedISO": "2026-09-11T09:03:26.906Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://modon.gov.sa/ar/MediaCenter/modon-news/News/Pages/default.aspx",
@@ -6418,7 +6416,7 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/cooperations?lang=ar",
     "orgId": "hrc",
-    "contentHash": "7af27373586af46d05b7a9d6031fb13af165d23d00fa5c26c50a0d79d89723da",
+    "contentHash": "d6eb4b3dfcae68b25531fb0f302417cf3b7bbad343fad7ec97d62ea61fea0baf",
     "blockHashes": [
       "12e41a244a8a2984",
       "33aa4444b1dd7cc9",
@@ -6442,9 +6440,9 @@
     "extractedChars": 6137,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-11T00:47:10.701Z",
+    "lastChangedISO": "2026-09-11T09:03:26.906Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/news?lang=ar",
@@ -8278,7 +8276,7 @@
   {
     "sourceUrl": "https://www.monshaat.gov.sa/ar/media-center",
     "orgId": "monshaat",
-    "contentHash": "d512b4ffbb91d19a16c6a9058b5534e848d5c09c6b8c18c26d29b06263a31beb",
+    "contentHash": "71dcf82450e021a807012f437f233b8e15dda62b2eff4b67a338493f7877152a",
     "blockHashes": [
       "f3c3bc418548abc0",
       "908b3e8539f27d93",
@@ -8288,9 +8286,9 @@
     "extractedChars": 1067,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-08-31T00:02:49.563Z",
+    "lastChangedISO": "2026-09-11T09:03:26.906Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://www.monshaat.gov.sa/ar/news-posts-list",
@@ -9105,8 +9103,7 @@
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
     "lastChangedISO": "2026-09-10T22:29:42.485Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "triaged_out"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.rcrc.gov.sa/careers/?lang=ar",
