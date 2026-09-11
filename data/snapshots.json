@@ -135,7 +135,7 @@
   {
     "sourceUrl": "https://adf.gov.sa/ar/Pages/default.aspx",
     "orgId": "adf",
-    "contentHash": "cdde6d4cef051e447d4a2985164f2647f78c8c7c9b3c7efe6763cde80393ed4f",
+    "contentHash": "8e4a54f3c4e62f7485c62594779b5744dc2e03d125e5fb06869f90243219bad0",
     "blockHashes": [
       "1ce798e0ca5f6070",
       "9e8708f46644e878",
@@ -155,13 +155,12 @@
       "782261474561a27a",
       "74b06ac36e5c75b0"
     ],
-    "extractedChars": 1665,
+    "extractedChars": 1663,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
-    "lastChangedISO": "2026-09-10T22:47:13.292Z",
+    "lastChangedISO": "2026-09-11T09:56:02.292Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "triaged_out"
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://adf.gov.sa/ar/Pages/employment.aspx",
@@ -2401,14 +2400,14 @@
   {
     "sourceUrl": "https://gmedia.gov.sa/",
     "orgId": "gcam",
-    "contentHash": "464a17eaba61821084bc9b5a3c00280b91b07a62c5449a61335afb636a36b71d",
+    "contentHash": "5f8c20dbdb12e626e84ed2da114143c84b445f076d6d02d16538ae576389919b",
     "blockHashes": [
-      "464a17eaba618210"
+      "5f8c20dbdb12e626"
     ],
     "extractedChars": 1118,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-10T22:41:22.260Z",
+    "lastChangedISO": "2026-09-11T09:46:54.979Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -8445,8 +8444,7 @@
     "firstSeenISO": "2026-08-29T22:03:35.383Z",
     "lastChangedISO": "2026-09-10T23:16:11.220Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.nazaha.gov.sa/Jobs",
