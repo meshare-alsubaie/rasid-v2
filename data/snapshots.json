@@ -2175,20 +2175,19 @@
   {
     "sourceUrl": "https://gaca.gov.sa/announcements",
     "orgId": "gaca",
-    "contentHash": "75cb90bedd8701c64e43c49860f6eaf7e2623027d82e123985c02d66a89cbc79",
+    "contentHash": "b65689aed3094bfd147828abf6faf5de514a70a893ff6c061afe070dd11dec74",
     "blockHashes": [
       "0369496e905375b8",
       "9c2a3967149440a8",
       "83a22e1f9fb245f8",
       "bc532942aaed49b7"
     ],
-    "extractedChars": 1213,
+    "extractedChars": 1212,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-11T09:31:34.747Z",
+    "lastChangedISO": "2026-09-11T12:41:21.619Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://gaca.gov.sa/ar/announcements",
@@ -6335,10 +6334,10 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/careers",
     "orgId": "hrc",
-    "contentHash": "2eff867b1edfba8104adaf8206840c71e9bcf60a564e3ab1c6327a59c95eb8b9",
+    "contentHash": "c1baf774665a47bcea8378188132f5730d2876a977a7382c285ea0a588e70b85",
     "blockHashes": [
       "12e41a244a8a2984",
-      "6db69558a7b0e24f",
+      "6ee579fa664491d6",
       "9bd6314e9bbc7375",
       "474d2dbb69aae30b",
       "84b2fc11813dc7e8",
@@ -6362,14 +6361,14 @@
     "extractedChars": 3794,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-11T09:45:00.986Z",
+    "lastChangedISO": "2026-09-11T12:54:24.763Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/careers?lang=ar",
     "orgId": "hrc",
-    "contentHash": "976bd1ff88b88774aa58156a9f031e47afdd45db6d3fb1fdd8b1fcfc343cebc1",
+    "contentHash": "6147caf5258c61e3a0da1990dbeec25ca54c55afaec3728e64ea6464c0daaa2e",
     "blockHashes": [
       "12e41a244a8a2984",
       "d3d75e41a271597c",
@@ -6396,9 +6395,9 @@
     "extractedChars": 3794,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-11T09:31:34.747Z",
+    "lastChangedISO": "2026-09-11T12:41:21.619Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/careers/graduate-development-program",
@@ -7530,8 +7529,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-11T09:33:46.129Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.mewa.gov.sa/ar/MediaCenter/VisualIdentityGuide/Pages/default.aspx",
@@ -10674,7 +10672,7 @@
   {
     "sourceUrl": "https://www.stats.gov.sa/en/news",
     "orgId": "gastat",
-    "contentHash": "b701f817faff462fe5b4b42ed550064921c37aadae9d3aac1cf2ce07cd2b8f0b",
+    "contentHash": "ee8ac9be687d3a2b86e569b422aeea354320a44dae7f55dc02681af74bb22ae7",
     "blockHashes": [
       "b7ce6498ecbc7c40",
       "c76bf99f8551a732",
@@ -10827,12 +10825,12 @@
       "00f2cdb2123b002f",
       "130941fb4f3fdf0d"
     ],
-    "extractedChars": 131880,
+    "extractedChars": 56265,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-11T12:01:00.360Z",
+    "lastChangedISO": "2026-09-11T12:49:59.902Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.tadawulgroup.sa/wps/portal/tadawulgroup/joinus",
