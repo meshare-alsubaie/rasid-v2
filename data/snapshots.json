@@ -6309,10 +6309,10 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/careers",
     "orgId": "hrc",
-    "contentHash": "25fae350eca040ca2c6d0ad7247ec25f782ac076a520e223da8010042475de20",
+    "contentHash": "8bddff5da583952c91e7bd91d7170930d02cb65c4734ff99d695c5c46981e9fc",
     "blockHashes": [
       "12e41a244a8a2984",
-      "1a9995fb60b14c1b",
+      "859932d30980445f",
       "9bd6314e9bbc7375",
       "474d2dbb69aae30b",
       "84b2fc11813dc7e8",
@@ -6336,7 +6336,7 @@
     "extractedChars": 3794,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-11T16:02:13.133Z",
+    "lastChangedISO": "2026-09-11T19:45:09.913Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -10813,7 +10813,7 @@
   {
     "sourceUrl": "https://www.tadawulgroup.sa/wps/portal/tadawulgroup/joinus",
     "orgId": "tadawul",
-    "contentHash": "218af6789adae9d596633c79e9b359213a247d93501904bfc43eeae06fd8c680",
+    "contentHash": "d0d3b5ac169f1b73ab7aa83d70c779f4ee298b89ccc3b8284f83c6034148bac3",
     "blockHashes": [
       "dbfb7021493a5943",
       "4acb10188c67e120",
@@ -10825,12 +10825,13 @@
       "99045a67c833cd6b",
       "332ab17b1cccbd59"
     ],
-    "extractedChars": 1384,
+    "extractedChars": 1186,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-02T23:42:46.216Z",
-    "lastChangedISO": "2026-09-11T19:11:46.029Z",
+    "lastChangedISO": "2026-09-11T20:00:05.921Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://www.tahakom.com/",
