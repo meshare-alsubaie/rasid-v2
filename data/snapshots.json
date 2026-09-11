@@ -758,7 +758,7 @@
   {
     "sourceUrl": "https://career.alinma.com/",
     "orgId": "alinma",
-    "contentHash": null,
+    "contentHash": "e245fd94c1ab59dcc6bad34af50ba34c224654b27d2f46834c18eef001143fa5",
     "blockHashes": [
       "d139e32e22028878",
       "24a16c9057a577bb",
@@ -767,7 +767,7 @@
     "extractedChars": 750,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-01T01:46:07.967Z",
-    "lastChangedISO": "2026-09-10T15:17:30.018Z",
+    "lastChangedISO": "2026-09-11T08:25:27.692Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -1266,16 +1266,16 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/search-results",
     "orgId": "maaden",
-    "contentHash": "f17a87a48b6b979ba553ecf21485ecd2c3f824157fe14e273e382db9f9c276a7",
+    "contentHash": "0e89ead7f32221a6aa769efc48d8ec45972897b5878d48f30ce85b27bc5ca02b",
     "blockHashes": [
       "dab5a7f3801bc914",
-      "f3a30bd941b0bdce",
-      "4d8ce51f2362fc86"
+      "05ca4543697f2cba",
+      "115911b5d3ba1b25"
     ],
     "extractedChars": 240,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-11T01:09:34.085Z",
+    "lastChangedISO": "2026-09-11T08:25:27.692Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -9116,16 +9116,17 @@
   {
     "sourceUrl": "https://www.rcrc.gov.sa/careers/?lang=ar",
     "orgId": "rcrc",
-    "contentHash": "313cc37254db42139a759ed4301cc6a05bcbd8634d326ebf792810d2aaeac25b",
+    "contentHash": "b0bd69025622c710467a5162bb908044aa9988def36e9e8c3dad3f901fd90d4f",
     "blockHashes": [
       "313cc37254db4213"
     ],
-    "extractedChars": 784,
+    "extractedChars": 1167,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-11T01:39:06.746Z",
+    "lastChangedISO": "2026-09-11T08:25:27.692Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://www.rcrc.gov.sa/media-center/",
@@ -10310,7 +10311,7 @@
   {
     "sourceUrl": "https://www.sidf.gov.sa/Coop",
     "orgId": "sidf",
-    "contentHash": "f4f78ec4a4336dabecf15dbc9c3ce4d436eb85a8dd256cd721df75f7246e4ad7",
+    "contentHash": "ed39f721e3d19575c5b277613b222fa12ca7ee2e88cdfd6c44bddfd41f87ab02",
     "blockHashes": [
       "b2f8402cbf414c94",
       "19799f9a1ecc3c57",
@@ -10325,10 +10326,10 @@
     "extractedChars": 1040,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-02T23:42:46.216Z",
-    "lastChangedISO": "2026-09-08T07:39:18.585Z",
+    "lastChangedISO": "2026-09-11T08:25:27.692Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "classifyFailures": 3
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://www.sidf.gov.sa/News",
