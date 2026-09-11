@@ -1330,19 +1330,20 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/search-results",
     "orgId": "maaden",
-    "contentHash": "2ec7ccc7fe3e686c16d4b1c6d69d78973d2eebd398f3472575075d3d32b58ab2",
+    "contentHash": "8aeb44e7e7ec181b7b592e7efd98a98714d5cf697acf36da41c2719237ae4160",
     "blockHashes": [
-      "5569201553604d03",
-      "6e3cceb54e777f64",
-      "ec4924c3f2e14960",
-      "79f2d5d5d8e21cb4"
+      "0593a1678d987760",
+      "298a05ebe5a16280",
+      "d6c0adacb353836a",
+      "6777a859e0dd5a5e",
+      "9551308b10dafa1d"
     ],
-    "extractedChars": 4852,
+    "extractedChars": 240,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-11T10:50:00.423Z",
+    "lastChangedISO": "2026-09-11T11:37:08.814Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://careers.mcit.gov.sa/",
@@ -10856,7 +10857,8 @@
     "firstSeenISO": "2026-09-02T23:42:46.216Z",
     "lastChangedISO": "2026-09-11T10:04:14.774Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://www.tahakom.com/",
