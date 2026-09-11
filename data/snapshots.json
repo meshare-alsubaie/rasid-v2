@@ -1251,7 +1251,7 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/cookiesettings",
     "orgId": "maaden",
-    "contentHash": "dc53cdf518067e38d820e199fb9db55ad940b9f5146e2c675413d21cab87da2f",
+    "contentHash": "0e9514aa16c66c0e9dc07e3f4a6baaa0494abb98a3c316a3362025f983c594a4",
     "blockHashes": [
       "2fb28de24072d906",
       "dd53e083dd4c4329",
@@ -1318,15 +1318,14 @@
       "ee82ab94d7112a03",
       "60b7b15f81dc7749",
       "abf11bb520a3d451",
-      "d53472b0e61f504f",
-      "2a445cba9e0d7023"
+      "eaa883a6c0d741d7"
     ],
     "extractedChars": 8013,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-11T10:18:02.495Z",
+    "lastChangedISO": "2026-09-11T11:04:59.718Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/search-results",
@@ -2155,7 +2154,7 @@
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T02:22:33.828Z",
     "lastChangedISO": "2026-08-29T02:36:21.032Z",
-    "thinRuns": 152,
+    "thinRuns": 153,
     "pendingClassification": false
   },
   {
@@ -9171,16 +9170,17 @@
   {
     "sourceUrl": "https://www.rcrc.gov.sa/careers/?lang=ar",
     "orgId": "rcrc",
-    "contentHash": "49bb927e448f72d1d16cad66ce3111c12582104142216f29d7ec2508b5878897",
+    "contentHash": "c7b640c67fbc71dba678ede1cdc275eaf386f8b632b2ed62ddc6e2d8d9e607a5",
     "blockHashes": [
       "52a09084c0cc99bf"
     ],
-    "extractedChars": 784,
+    "extractedChars": 1166,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-11T10:19:17.318Z",
+    "lastChangedISO": "2026-09-11T11:08:05.215Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://www.rcrc.gov.sa/media-center/",
@@ -10372,7 +10372,7 @@
       "69712b563e846237",
       "d842aa2993bdbb38",
       "6ce0bb6fceb85cb0",
-      "0e136ee5d971c364",
+      "0f00b9d8616c9c6b",
       "25b3bc91b9810520"
     ],
     "extractedChars": 1040,
@@ -10380,8 +10380,8 @@
     "firstSeenISO": "2026-09-02T23:42:46.216Z",
     "lastChangedISO": "2026-09-11T08:25:27.692Z",
     "thinRuns": 0,
-    "pendingClassification": true,
-    "classifyFailures": 2
+    "pendingClassification": false,
+    "classifyFailures": 3
   },
   {
     "sourceUrl": "https://www.sidf.gov.sa/News",
