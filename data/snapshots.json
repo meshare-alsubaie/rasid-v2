@@ -1330,18 +1330,15 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/search-results",
     "orgId": "maaden",
-    "contentHash": "1dc23d7de2930f7bfaf11ee2b45b298358a5e2887b6ab97c35047b5ba68730e0",
+    "contentHash": "5779df70b7f12169ce4554de492c1156909916b37352066f076a0a6421546b8f",
     "blockHashes": [
       "0593a1678d987760",
-      "298a05ebe5a16280",
-      "d6c0adacb353836a",
-      "12dad14c5d3f6047",
-      "72f9fe5163d49fa7"
+      "5b8a87df786d800f"
     ],
-    "extractedChars": 240,
-    "extractionMethod": "readability",
+    "extractedChars": 177,
+    "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-11T12:24:29.042Z",
+    "lastChangedISO": "2026-09-11T13:12:36.603Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -10837,23 +10834,19 @@
     "orgId": "tadawul",
     "contentHash": "d0d3b5ac169f1b73ab7aa83d70c779f4ee298b89ccc3b8284f83c6034148bac3",
     "blockHashes": [
-      "dbfb7021493a5943",
-      "4acb10188c67e120",
-      "9b405996eceb74cf",
-      "5b4fe1a76867e3dc",
-      "4cacbd860b3b4c52",
-      "a888c2eda107d142",
-      "a8f106c1cf7430a5",
-      "99045a67c833cd6b",
-      "332ab17b1cccbd59"
+      "0cfcdfa727221d00",
+      "689f707057688943",
+      "50a3cca530113406",
+      "a3435878c6033280",
+      "b2cab4da26050ee9"
     ],
     "extractedChars": 1186,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-02T23:42:46.216Z",
     "lastChangedISO": "2026-09-11T10:04:14.774Z",
     "thinRuns": 0,
-    "pendingClassification": true,
-    "classifyFailures": 2
+    "pendingClassification": false,
+    "classifyFailures": 3
   },
   {
     "sourceUrl": "https://www.tahakom.com/",
