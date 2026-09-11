@@ -2192,17 +2192,17 @@
   {
     "sourceUrl": "https://gaca.gov.sa/ar/announcements",
     "orgId": "gaca",
-    "contentHash": "bbdd406ecc0c4e2bee5eb661d38a1319557c26b887b76b0c44ce401bd8e1d785",
+    "contentHash": "4888fa1b04523ef66b7fc0c885b5587d2a824f37050534d420f9a84a6b5ab127",
     "blockHashes": [
-      "21195714ca783411",
+      "d32b418b8143e049",
       "9c2a3967149440a8",
       "83a22e1f9fb245f8",
       "bc532942aaed49b7"
     ],
-    "extractedChars": 1213,
+    "extractedChars": 1212,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-10T21:45:04.432Z",
+    "lastChangedISO": "2026-09-11T00:47:10.701Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -6490,10 +6490,10 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/cooperations?lang=ar",
     "orgId": "hrc",
-    "contentHash": "11d364843e6abd6a69b41a10340bf749299105a85ea95be63d0094e8263b01e1",
+    "contentHash": "7af27373586af46d05b7a9d6031fb13af165d23d00fa5c26c50a0d79d89723da",
     "blockHashes": [
       "12e41a244a8a2984",
-      "2e01d7207f0a5453",
+      "33aa4444b1dd7cc9",
       "15c715928fc246c0",
       "9a4a215f8452ca45",
       "961639689d2c8819",
@@ -6514,7 +6514,7 @@
     "extractedChars": 6137,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-10T21:45:04.432Z",
+    "lastChangedISO": "2026-09-11T00:47:10.701Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -8505,8 +8505,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-10T21:42:01.013Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "triaged_out"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.nazaha.gov.sa/News/Details?q=HNQU9DHVnwVHan0Mf562ug==",
@@ -9189,16 +9188,17 @@
   {
     "sourceUrl": "https://www.rcrc.gov.sa/careers/?lang=ar",
     "orgId": "rcrc",
-    "contentHash": "1a8e416cfa58bf67a083c0852f95245bc45b0c1429ef479fb318861cae2787b6",
+    "contentHash": "a95f4042e2f3cadc86600d0a72d7853b6515e9ac275019801ac074c77e2db51e",
     "blockHashes": [
       "1a8e416cfa58bf67"
     ],
-    "extractedChars": 784,
+    "extractedChars": 1166,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-10T23:54:35.083Z",
+    "lastChangedISO": "2026-09-11T00:49:15.180Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://www.rcrc.gov.sa/media-center/",
@@ -10596,8 +10596,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-10T21:42:01.013Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.srca.org.sa/newsletters/",
