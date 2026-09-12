@@ -1697,7 +1697,7 @@
   {
     "sourceUrl": "https://careers.sdaia.gov.sa/training",
     "orgId": "sdaia",
-    "contentHash": "6d46074f1938763f0a9245a2aa1b013633c7a37add8a82be35a0ab6acd37be64",
+    "contentHash": "c85f5e138b5c65644cc36a9b0c5e9718da8d17a96fc8f6de56c2a65e79a3e09a",
     "blockHashes": [
       "a3638bfcc93928a2",
       "5a2ea8a7bc8ff607",
@@ -1708,12 +1708,12 @@
       "9c07884d4ed44032",
       "c4aabeebd58258d2",
       "6dc60fec12c030a8",
-      "8f0732c7043be9ff"
+      "7d2db2ddafbe589d"
     ],
     "extractedChars": 1605,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-12T16:08:48.807Z",
+    "lastChangedISO": "2026-09-12T17:45:48.297Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -2336,14 +2336,15 @@
     "orgId": "gcam",
     "contentHash": "20f9051822224c86889cae6aff292bfee967d70cc8b121fe463a86419b118331",
     "blockHashes": [
-      "5f8c20dbdb12e626"
+      "20f9051822224c86"
     ],
     "extractedChars": 1118,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-12T11:35:11.717Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://gmedia.gov.sa/ar/hiring",
@@ -3002,39 +3003,40 @@
   {
     "sourceUrl": "https://momah.gov.sa/ar",
     "orgId": "housing",
-    "contentHash": "b086251dab7bb106e748b4c31c1dbb068bd0af35e24395ed112dcf07e39056d1",
+    "contentHash": "54f3a760c0c5a4eb52915337e2335849a6682ca04f6ac7264145af89eb12b9eb",
     "blockHashes": [
       "390ea394b03ad064",
       "0cae66fd6419120a",
       "464c20d78ff9b8fe",
       "d0d450e2c5f70fc2",
-      "5ec7f6dc27d60467",
-      "09b1bd561f62b68f",
-      "2874cad8b79b4faa",
-      "e90ba194e149d852",
-      "1e9c94c3579257f1",
-      "5d15152619ff887e",
-      "d2cc379c3cb5080d",
-      "cb1d7ca46b68e530",
-      "edd5cf42b48f83ae",
-      "5a71e35ef89f084d",
-      "ac1405062719fb86",
-      "bb9812a17ee27c83",
+      "8ff9d1ebce4c2ea1",
+      "fa71d40c26d03607",
       "560edfe1df9d8921",
       "23b97a8a93aba477",
       "9cd3abf7fd1573ff",
-      "602dc641af9bd8e0",
-      "5c17c9c029772984",
+      "a45e579b4c4fc63b",
+      "7a3bf8acea89793e",
+      "84d0c71c9c40bb31",
+      "d3ae049b2b713081",
+      "5d15152619ff887e",
+      "465943bebe82f0cc",
+      "09b1bd561f62b68f",
+      "c4f5173f2488faa3",
       "ff6f87e39638cb9b",
-      "92bc2c5be22adbbc",
-      "f829ecdfd2036d67"
+      "38bbebd9a6406e36",
+      "c2b5aad157cb443c",
+      "93616e06c98e317a",
+      "5e2508d59ad13042",
+      "ac1405062719fb86",
+      "0002841ba30a66d0"
     ],
     "extractedChars": 153839,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-10T22:41:22.260Z",
+    "lastChangedISO": "2026-09-12T17:42:29.177Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://momah.gov.sa/ar/announcements",
@@ -3555,7 +3557,7 @@
     "orgId": "ndf",
     "contentHash": "d57e50e8d140e427a1bf820d9ec698b04c9134383707a25a6b57b9180cd1293d",
     "blockHashes": [
-      "713b624525678b0a",
+      "26cc1034ca442a11",
       "b4a5c7cd60560196",
       "4c268b289192e891",
       "d91f8453abc8bd97",
@@ -3566,7 +3568,8 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-12T11:35:11.717Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://ndf.gov.sa/media-center/articles/article-human-resource-development",
@@ -6279,10 +6282,10 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/careers",
     "orgId": "hrc",
-    "contentHash": "33df9cd1cd86eea243a16648d26e5888336fff42506d129b91d0ce2772a3413d",
+    "contentHash": "be4dc15d04cd1143c3308c59a9e8559bdb12e790388750e2586590a55f3223e1",
     "blockHashes": [
       "12e41a244a8a2984",
-      "ade4e7e095dc1b6d",
+      "9fb5b1786183c175",
       "9bd6314e9bbc7375",
       "474d2dbb69aae30b",
       "84b2fc11813dc7e8",
@@ -6306,9 +6309,9 @@
     "extractedChars": 3794,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-12T14:33:55.253Z",
+    "lastChangedISO": "2026-09-12T17:42:29.177Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/careers?lang=ar",
@@ -7548,7 +7551,7 @@
   {
     "sourceUrl": "https://www.mim.gov.sa/ar/empower-training/cooperative-training",
     "orgId": "mim",
-    "contentHash": "c873243101f21fd1b763eaac184e13f41b095978a4b5838c88e4911cbbf34064",
+    "contentHash": "4be192564072f4c5c0096008ab67e93133cb739f91b18230cb911f521b224beb",
     "blockHashes": [
       "1cb91553dd3291a4",
       "5300d4cdd32a8d33"
@@ -7556,7 +7559,7 @@
     "extractedChars": 2495,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T02:22:33.828Z",
-    "lastChangedISO": "2026-09-12T16:54:00.279Z",
+    "lastChangedISO": "2026-09-12T17:42:29.177Z",
     "thinRuns": 0,
     "pendingClassification": true,
     "classifyFailures": 1
@@ -11158,18 +11161,18 @@
   {
     "sourceUrl": "https://www.tahakom.com/careers",
     "orgId": "tahakom",
-    "contentHash": "66a1b215d71b598e5c8f4def386779d5d875b8060e2f1e761d7fed159451f4b0",
+    "contentHash": "457f65df725621cf1ff8df157d2d7ad5927ef366ef94aa5e45fdfae4dd6d3b3f",
     "blockHashes": [
       "d44217251213a019",
       "611753a8aea1ade1",
       "0cea4d38306888dc",
       "1a5263a5a2541c46",
-      "264d6b3abc2256d1"
+      "a937a81f39e1b5a8"
     ],
     "extractedChars": 838,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-03T05:13:40.059Z",
-    "lastChangedISO": "2026-09-12T16:54:00.279Z",
+    "lastChangedISO": "2026-09-12T17:42:29.177Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
