@@ -1265,19 +1265,16 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/search-results",
     "orgId": "maaden",
-    "contentHash": "7a614c1f1f5417ac442bee6cf12ada85d674939bfad79d4663223085f4211edb",
+    "contentHash": "57eec21024cb1d621a5f60b061aced6fa94af4b18486a7921210e07a38b637bd",
     "blockHashes": [
-      "5569201553604d03",
-      "6e3cceb54e777f64",
-      "d6c0adacb353836a",
-      "0c1f7e81ceff4b10",
-      "8b44506024512ef8",
-      "1c0a46461a750a67"
+      "dab5a7f3801bc914",
+      "dd1335e78a34bb40",
+      "5a58ef19e4621cc2"
     ],
     "extractedChars": 240,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-12T17:15:35.168Z",
+    "lastChangedISO": "2026-09-12T18:03:06.882Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -3504,7 +3501,7 @@
     "lastChangedISO": "2026-09-12T16:28:32.243Z",
     "thinRuns": 0,
     "pendingClassification": true,
-    "classifyFailures": 1
+    "classifyFailures": 2
   },
   {
     "sourceUrl": "https://ndf.gov.sa/",
@@ -5373,19 +5370,19 @@
   {
     "sourceUrl": "https://www.bog.gov.sa/en/EServices/judiciaryHiring/Pages/default.aspx",
     "orgId": "bog",
-    "contentHash": "153d2ebf4c752893fa58c0b53c075e12e71bb9ddc7503b77e9bfd42e68348877",
+    "contentHash": "81f8d73206efba83e5dada32be755e3c79048f06382e97494defc16051c79dd9",
     "blockHashes": [
       "46d9575ec382a9d1",
       "96c63175498462d9",
       "f4b9821710ab784e",
-      "db96cc060fa0a333",
+      "e24ca624e1e52d43",
       "d9ac968863afb54d",
       "ec5d6ba37d25b982"
     ],
     "extractedChars": 756,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-10T23:32:41.348Z",
+    "lastChangedISO": "2026-09-12T18:03:06.882Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -9116,16 +9113,17 @@
   {
     "sourceUrl": "https://www.rcrc.gov.sa/careers/?lang=ar",
     "orgId": "rcrc",
-    "contentHash": "c09e3d195f88f6a94798ccfd3fa86756a41c5da4fe6d850e2f6c906b3ab2af70",
+    "contentHash": "7636ba214ca9b7301edc5e8f6a6fe564400039e180caa12abf56d54a504018a1",
     "blockHashes": [
       "c09e3d195f88f6a9"
     ],
-    "extractedChars": 784,
+    "extractedChars": 1166,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-12T17:12:55.322Z",
+    "lastChangedISO": "2026-09-12T18:03:06.882Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://www.rcrc.gov.sa/media-center/",
@@ -11122,23 +11120,19 @@
     "orgId": "tadawul",
     "contentHash": "d0d3b5ac169f1b73ab7aa83d70c779f4ee298b89ccc3b8284f83c6034148bac3",
     "blockHashes": [
-      "dbfb7021493a5943",
-      "4acb10188c67e120",
-      "9b405996eceb74cf",
-      "5b4fe1a76867e3dc",
-      "4cacbd860b3b4c52",
-      "a888c2eda107d142",
-      "a8f106c1cf7430a5",
-      "99045a67c833cd6b",
-      "332ab17b1cccbd59"
+      "0cfcdfa727221d00",
+      "689f707057688943",
+      "50a3cca530113406",
+      "a3435878c6033280",
+      "b2cab4da26050ee9"
     ],
     "extractedChars": 1186,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-02T23:42:46.216Z",
     "lastChangedISO": "2026-09-12T15:40:24.568Z",
     "thinRuns": 0,
-    "pendingClassification": true,
-    "classifyFailures": 2
+    "pendingClassification": false,
+    "classifyFailures": 3
   },
   {
     "sourceUrl": "https://www.tahakom.com/",
