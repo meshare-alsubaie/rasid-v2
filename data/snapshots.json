@@ -2175,9 +2175,9 @@
   {
     "sourceUrl": "https://gaca.gov.sa/announcements",
     "orgId": "gaca",
-    "contentHash": "e8ae2a6edf67fd9405cf9be78d3f847a50b838bfab1ab5eb78728c673aca8985",
+    "contentHash": "3667ac3e0d2d06ba05557f3fb3ef97f083bdd4330df443e89d8438396e8bf45b",
     "blockHashes": [
-      "c9df473ac74ecfd9",
+      "e2031995418a42d8",
       "9c2a3967149440a8",
       "83a22e1f9fb245f8",
       "bc532942aaed49b7"
@@ -2185,9 +2185,10 @@
     "extractedChars": 1211,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-12T14:19:45.022Z",
+    "lastChangedISO": "2026-09-12T17:24:12.265Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://gaca.gov.sa/ar/announcements",
@@ -3262,40 +3263,40 @@
   {
     "sourceUrl": "https://momah.gov.sa/ar/node/14717",
     "orgId": "housing",
-    "contentHash": "9e6d1bc309ace582db9c3ddf8d035ddbc5a9a18f6e4a6dd92945063586a219e7",
+    "contentHash": "5268418b8b01f1d7ce420eec90361b2c6321a4719c2e7ace865af94dd2d34b40",
     "blockHashes": [
       "cb4161ba67cbcfe8",
       "075ae909c8ed1c08",
       "a9b825825b3c6e51",
       "aa8e55eac5aea8cd",
       "09552ec2996654f9",
-      "b0b1bafc39484948",
+      "84ce0dc5b3b63ab7",
+      "25953be68955daec",
+      "ac1405062719fb86",
+      "85e8268cc31b0ddb",
+      "ff6f87e39638cb9b",
+      "903b74bd2581b562",
+      "723d33d8be9b1c30",
+      "09b1bd561f62b68f",
+      "050625b14b33fb74",
+      "5c74bb99afb017cf",
+      "4754b56e91b842fc",
+      "1ad08b6a9a5dbab4",
       "560edfe1df9d8921",
       "23b97a8a93aba477",
       "9cd3abf7fd1573ff",
-      "6d0ec445716234b8",
-      "36fc952302d29eef",
-      "8f1b4d9e38bc771d",
-      "09b1bd561f62b68f",
-      "eb1c9aee93955176",
-      "59b088f47ef23c05",
+      "01ba5d7a12d298d4",
+      "6f6d53956a13fc93",
+      "7499f47ab10a4f18",
       "5d15152619ff887e",
-      "be011bce41c4a941",
-      "7b6f41297f78eeb4",
-      "287d7bbbbb2e2206",
-      "2eda0bd26fc3a8d4",
-      "ac1405062719fb86",
-      "38cacc6493384f50",
-      "131071c625f4bc5d",
-      "ff6f87e39638cb9b",
-      "2693ae6d145adfe1"
+      "6866c7a5f916ea81"
     ],
     "extractedChars": 152144,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-12T14:19:45.022Z",
+    "lastChangedISO": "2026-09-12T17:26:57.736Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://mot.gov.sa/ar/employment1",
@@ -4361,7 +4362,7 @@
   {
     "sourceUrl": "https://training.moj.gov.sa/",
     "orgId": "moj",
-    "contentHash": null,
+    "contentHash": "f4c6ef6b783b69d09a8f681ad1d80f1df35ef8cb8864917255879208cc305886",
     "blockHashes": [
       "84a570379809f573",
       "ab443a0bbfda7883"
@@ -4369,7 +4370,7 @@
     "extractedChars": 481,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T02:31:49.455Z",
-    "lastChangedISO": "2026-09-12T15:06:12.287Z",
+    "lastChangedISO": "2026-09-12T17:30:46.844Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -6378,10 +6379,10 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/careers?lang=ar",
     "orgId": "hrc",
-    "contentHash": "225bf3b30fb468cebcc44935f7e6788cd25d3f19b3d1e8a84a1c1e9626826ae8",
+    "contentHash": "4ec8c6e3cd6871702c1b62eacb5dcb8d526b0710402aaa46d56ff43a4d12a58c",
     "blockHashes": [
       "12e41a244a8a2984",
-      "e27f6d27f81fce6e",
+      "29eaa297e8f3b780",
       "9bd6314e9bbc7375",
       "474d2dbb69aae30b",
       "84b2fc11813dc7e8",
@@ -6405,9 +6406,9 @@
     "extractedChars": 3794,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-12T14:19:45.022Z",
+    "lastChangedISO": "2026-09-12T17:26:57.736Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/careers/graduate-development-program",
@@ -7525,7 +7526,7 @@
       "12e41a244a8a2984",
       "c804732dd480d71a",
       "74e4c1d2a646a96e",
-      "8ca7969bfe89caa8",
+      "39fe4377dbf3a081",
       "eaca30400015cdec",
       "b957f376a744a274",
       "0116fe72794c37b1",
@@ -7538,7 +7539,8 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-12T14:23:13.826Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://www.mewa.gov.sa/ar/MediaCenter/VisualIdentityGuide/Pages/default.aspx",
