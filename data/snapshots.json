@@ -2189,9 +2189,9 @@
   {
     "sourceUrl": "https://gaca.gov.sa/ar/announcements",
     "orgId": "gaca",
-    "contentHash": "08caac6ad8655a9c08aa92f153cf0c2c516f5775a246645aebe10fbba5b49a86",
+    "contentHash": "b4a4ec7f656db34b875c5b2c0b4e65c17f3968e36e2c32b7e2b03cdd8a2beb7e",
     "blockHashes": [
-      "eaff99ed8b5498fe",
+      "fabe94cf9202b6d8",
       "9c2a3967149440a8",
       "83a22e1f9fb245f8",
       "bc532942aaed49b7"
@@ -2199,9 +2199,10 @@
     "extractedChars": 1211,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-12T13:53:15.830Z",
+    "lastChangedISO": "2026-09-12T16:54:00.279Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://gaca.gov.sa/ar/News",
@@ -2996,9 +2997,9 @@
   {
     "sourceUrl": "https://modon.gov.sa/",
     "orgId": "modon",
-    "contentHash": "b43d45145ad373396518500d6a89f09f3064ab54119cac2477ac5a17f41fb69e",
+    "contentHash": "1c10b546b0dfe31e8c13a81be8bfff68f8e708fec208f5f7adc0c6b3d01ddc0e",
     "blockHashes": [
-      "d9e239ff754f2c6e",
+      "496ada1f88852f04",
       "0edf2292f0637ccb",
       "c32ffa2c93fe0d09",
       "9066ce9805b0428c",
@@ -3020,7 +3021,7 @@
     "extractedChars": 5996,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-12T10:49:45.459Z",
+    "lastChangedISO": "2026-09-12T16:54:00.279Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -7606,7 +7607,7 @@
   {
     "sourceUrl": "https://www.mim.gov.sa/ar/empower-training/cooperative-training",
     "orgId": "mim",
-    "contentHash": "42d2fb8a3cb390e00d4c5cda1f33f178a58c6d633d537b9e123ee031615875ef",
+    "contentHash": "c873243101f21fd1b763eaac184e13f41b095978a4b5838c88e4911cbbf34064",
     "blockHashes": [
       "1cb91553dd3291a4",
       "5300d4cdd32a8d33"
@@ -7614,7 +7615,7 @@
     "extractedChars": 2495,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T02:22:33.828Z",
-    "lastChangedISO": "2026-09-12T15:53:49.275Z",
+    "lastChangedISO": "2026-09-12T16:54:00.279Z",
     "thinRuns": 0,
     "pendingClassification": true,
     "classifyFailures": 1
@@ -10880,18 +10881,18 @@
   {
     "sourceUrl": "https://www.tahakom.com/careers",
     "orgId": "tahakom",
-    "contentHash": "8d1d8b4a6a7bde78572d8fa562ea399be56c71b4f40b53a0139f8955994ae509",
+    "contentHash": "66a1b215d71b598e5c8f4def386779d5d875b8060e2f1e761d7fed159451f4b0",
     "blockHashes": [
       "d44217251213a019",
       "611753a8aea1ade1",
       "0cea4d38306888dc",
       "1a5263a5a2541c46",
-      "f3829db208838eb8"
+      "264d6b3abc2256d1"
     ],
     "extractedChars": 838,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-03T05:13:40.059Z",
-    "lastChangedISO": "2026-09-12T15:53:49.275Z",
+    "lastChangedISO": "2026-09-12T16:54:00.279Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
