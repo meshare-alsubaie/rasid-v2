@@ -1332,19 +1332,20 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/search-results",
     "orgId": "maaden",
-    "contentHash": "071c99714e834f05eaf759bbb3236a63577e49d739af1c0241bdebdd161d9900",
+    "contentHash": "f793d95995ffae2106f7f492e638f1aa7f45b6e771d7819d5bee67578808736f",
     "blockHashes": [
-      "0593a1678d987760",
-      "3ec1b5c555fff8f6",
-      "25a20b4593d5e3b4",
-      "e81fc8ea233bb494"
+      "5569201553604d03",
+      "6e3cceb54e777f64",
+      "298a05ebe5a16280",
+      "d6c0adacb353836a",
+      "368e34fd8de43f75"
     ],
-    "extractedChars": 240,
-    "extractionMethod": "readability",
+    "extractedChars": 766,
+    "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-11T20:15:03.257Z",
+    "lastChangedISO": "2026-09-12T10:09:22.031Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://careers.mcit.gov.sa/",
@@ -7874,11 +7875,11 @@
   {
     "sourceUrl": "https://www.mof.gov.sa/GFS/TrainingProgram/Pages/TrainingManual.aspx",
     "orgId": "mof",
-    "contentHash": "81d74fbeb86b83ef0a77c107a01024dd3138341ab7adcb57f51d76206145272e",
+    "contentHash": "a44a7232fc8360b3f1c87228464bb626d472915c83db4d0428de80f9a52d2e50",
     "blockHashes": [
       "7f625851cbbadbc6",
       "f7711325e2c4b301",
-      "1f942f2f09d138b2",
+      "227d7291f0f31bbe",
       "ffd666e2720f42ef",
       "f4809815161554d5",
       "ec90d29b5d482b67",
@@ -7889,10 +7890,10 @@
       "e449b5a351b550c3",
       "cbefc4238a0555f8"
     ],
-    "extractedChars": 10413,
+    "extractedChars": 10412,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-10T21:48:07.777Z",
+    "lastChangedISO": "2026-09-12T10:09:22.031Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -9135,14 +9136,14 @@
   {
     "sourceUrl": "https://www.rcrc.gov.sa/careers/?lang=ar",
     "orgId": "rcrc",
-    "contentHash": "4dbc09b868525ce6d5d75743f20101061b6dedf1fdb9a5c6734e030c47a90d08",
+    "contentHash": "1ef258541ae869e417eca843e84a750dba4201459507f55293dad6d9fe143ed5",
     "blockHashes": [
       "f7a5719b47766564"
     ],
-    "extractedChars": 1167,
+    "extractedChars": 1166,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-11T19:11:46.029Z",
+    "lastChangedISO": "2026-09-12T10:09:22.031Z",
     "thinRuns": 0,
     "pendingClassification": true,
     "classifyFailures": 1
@@ -10490,11 +10491,11 @@
   {
     "sourceUrl": "https://www.srca.org.sa/%d8%a7%d9%84%d8%aa%d9%88%d8%b8%d9%8a%d9%81/",
     "orgId": "srca",
-    "contentHash": "190cdce17522ecf8a855db0188bbc8f112fdbffe0a829447e71b46e56b112480",
+    "contentHash": "716223c0e139ae5828ba0cedcbe64c55440212192a9aa22b57097030b1be3ded",
     "blockHashes": [
       "13f48669ebfa59aa",
       "74e4c1d2a646a96e",
-      "fc975290440effec",
+      "83da1cefd8fe3685",
       "68c03d860d910c71",
       "782261474561a27a",
       "201de1784c4f3dae",
@@ -10508,7 +10509,7 @@
     "extractedChars": 3013,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-10T21:08:11.595Z",
+    "lastChangedISO": "2026-09-12T10:09:22.031Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -10824,7 +10825,7 @@
     "lastChangedISO": "2026-09-11T20:00:05.921Z",
     "thinRuns": 0,
     "pendingClassification": true,
-    "classifyFailures": 1
+    "classifyFailures": 2
   },
   {
     "sourceUrl": "https://www.tahakom.com/",
