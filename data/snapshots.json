@@ -135,7 +135,7 @@
   {
     "sourceUrl": "https://adf.gov.sa/ar/Pages/default.aspx",
     "orgId": "adf",
-    "contentHash": "316509b624ef0e6f411563b8d5ceccaa579d9d3d98de991e35dec22c56ce76c2",
+    "contentHash": "4fc98dd579f48f8f7175e2451b9296be7db0197ef5e17e47388a348b9f239abc",
     "blockHashes": [
       "1ce798e0ca5f6070",
       "9e8708f46644e878",
@@ -144,7 +144,7 @@
       "b7a4f19178b3b8a1",
       "0514128baf9c79f1",
       "9185920f2483a42d",
-      "cbf5881a7bd29773",
+      "c799400b10fae9dc",
       "4838bf63eca38706",
       "d380a83380c07da6",
       "2c2b159c69b9c652",
@@ -155,12 +155,13 @@
       "782261474561a27a",
       "74b06ac36e5c75b0"
     ],
-    "extractedChars": 1663,
+    "extractedChars": 1661,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
-    "lastChangedISO": "2026-09-12T11:43:35.891Z",
+    "lastChangedISO": "2026-09-12T17:51:05.809Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "triaged_out"
   },
   {
     "sourceUrl": "https://adf.gov.sa/ar/Pages/employment.aspx",
@@ -3510,7 +3511,7 @@
     "orgId": "ndf",
     "contentHash": "59e0bbd539dfb74198607b2e7fada03aca86113b7c28b32155aa8291751c3509",
     "blockHashes": [
-      "c9f12bfafedce189",
+      "e3cdc0fa819cb7a5",
       "cea7fd3977a9c5c0"
     ],
     "extractedChars": 3077,
@@ -3518,7 +3519,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-12T11:47:31.135Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://ndf.gov.sa/media-center",
@@ -7945,8 +7946,7 @@
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
     "lastChangedISO": "2026-09-12T11:30:09.459Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.mofa.gov.sa/",
