@@ -757,7 +757,7 @@
   {
     "sourceUrl": "https://career.alinma.com/",
     "orgId": "alinma",
-    "contentHash": null,
+    "contentHash": "e245fd94c1ab59dcc6bad34af50ba34c224654b27d2f46834c18eef001143fa5",
     "blockHashes": [
       "d139e32e22028878",
       "24a16c9057a577bb",
@@ -766,7 +766,7 @@
     "extractedChars": 750,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-01T01:46:07.967Z",
-    "lastChangedISO": "2026-09-11T14:47:10.635Z",
+    "lastChangedISO": "2026-09-12T18:52:32.990Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -1265,16 +1265,16 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/search-results",
     "orgId": "maaden",
-    "contentHash": "57eec21024cb1d621a5f60b061aced6fa94af4b18486a7921210e07a38b637bd",
+    "contentHash": "399d7bc24f715e0341e702ea24f93f90f4c19544b8c0c23c3b0071f5d604ca34",
     "blockHashes": [
       "dab5a7f3801bc914",
-      "dd1335e78a34bb40",
-      "5a58ef19e4621cc2"
+      "0eab0e53dba4fb7b",
+      "dc71af0b75173146"
     ],
     "extractedChars": 240,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-12T18:03:06.882Z",
+    "lastChangedISO": "2026-09-12T18:52:32.990Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -3490,18 +3490,25 @@
     "orgId": "ncvc",
     "contentHash": "0b6e209f0d2e38bbac15bab23e93f229aae20f752289f5b4ea6b72fef6fb851e",
     "blockHashes": [
-      "89cafea980e1c421",
+      "12e41a244a8a2984",
+      "c804732dd480d71a",
+      "74e4c1d2a646a96e",
+      "7ed2a34686c166f8",
       "4d9c65777643b502",
       "270633c3f308ab38",
-      "e71595095aea4f26"
+      "748d3b494a49bc29",
+      "a66b23d9ca2dfa64",
+      "529400c8416fcdf1",
+      "e2a2eb95eb39c51f",
+      "a08d2755ae20fd18"
     ],
     "extractedChars": 1856,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-03T01:18:25.099Z",
     "lastChangedISO": "2026-09-12T16:28:32.243Z",
     "thinRuns": 0,
-    "pendingClassification": true,
-    "classifyFailures": 2
+    "pendingClassification": false,
+    "classifyFailures": 3
   },
   {
     "sourceUrl": "https://ndf.gov.sa/",
@@ -5370,19 +5377,19 @@
   {
     "sourceUrl": "https://www.bog.gov.sa/en/EServices/judiciaryHiring/Pages/default.aspx",
     "orgId": "bog",
-    "contentHash": "81f8d73206efba83e5dada32be755e3c79048f06382e97494defc16051c79dd9",
+    "contentHash": "153d2ebf4c752893fa58c0b53c075e12e71bb9ddc7503b77e9bfd42e68348877",
     "blockHashes": [
       "46d9575ec382a9d1",
       "96c63175498462d9",
       "f4b9821710ab784e",
-      "e24ca624e1e52d43",
+      "db96cc060fa0a333",
       "d9ac968863afb54d",
       "ec5d6ba37d25b982"
     ],
     "extractedChars": 756,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-12T18:03:06.882Z",
+    "lastChangedISO": "2026-09-12T18:52:32.990Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
