@@ -135,7 +135,7 @@
   {
     "sourceUrl": "https://adf.gov.sa/ar/Pages/default.aspx",
     "orgId": "adf",
-    "contentHash": "1b720f089aca49d3d37cce109a8a55292e464e3a18fe48876e30fa6de1c19368",
+    "contentHash": "316509b624ef0e6f411563b8d5ceccaa579d9d3d98de991e35dec22c56ce76c2",
     "blockHashes": [
       "1ce798e0ca5f6070",
       "9e8708f46644e878",
@@ -158,10 +158,9 @@
     "extractedChars": 1663,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
-    "lastChangedISO": "2026-09-11T16:08:02.219Z",
+    "lastChangedISO": "2026-09-12T11:43:35.891Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "triaged_out"
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://adf.gov.sa/ar/Pages/employment.aspx",
@@ -1331,7 +1330,7 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/search-results",
     "orgId": "maaden",
-    "contentHash": "a851be6a6f3c82f4f6932bda2c2d18ebbedfb4866df2590f68ceaa1720ef5edc",
+    "contentHash": "91df94c3e5834f791c6cc1d3b634d26329c720103efa577547f87761b577fee7",
     "blockHashes": [
       "5569201553604d03",
       "6e3cceb54e777f64",
@@ -1343,9 +1342,9 @@
     "extractedChars": 240,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-12T11:01:05.852Z",
+    "lastChangedISO": "2026-09-12T11:48:35.389Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://careers.mcit.gov.sa/",
@@ -3578,17 +3577,17 @@
   {
     "sourceUrl": "https://ndf.gov.sa/",
     "orgId": "ndf",
-    "contentHash": "a459ef770ffcd5365f7a36496136ebb8cc9fce8448baa423115e3613ecb12f6d",
+    "contentHash": "59e0bbd539dfb74198607b2e7fada03aca86113b7c28b32155aa8291751c3509",
     "blockHashes": [
       "c9f12bfafedce189",
       "cea7fd3977a9c5c0"
     ],
-    "extractedChars": 3078,
+    "extractedChars": 3077,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-10T22:54:09.908Z",
+    "lastChangedISO": "2026-09-12T11:47:31.135Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://ndf.gov.sa/media-center",
@@ -7626,7 +7625,7 @@
   {
     "sourceUrl": "https://www.mim.gov.sa/ar/empower-training/cooperative-training",
     "orgId": "mim",
-    "contentHash": "05def09ca55d91d0da8f19da1e560ec8301f9a814ab88e4ae433d7583af847a1",
+    "contentHash": "d50c342f1f60ba942c0ed08ea520158554d3dcbdc2b7c347212a7a59e31785d5",
     "blockHashes": [
       "1cb91553dd3291a4",
       "5300d4cdd32a8d33"
@@ -7634,7 +7633,7 @@
     "extractedChars": 2495,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T02:22:33.828Z",
-    "lastChangedISO": "2026-09-12T11:07:08.457Z",
+    "lastChangedISO": "2026-09-12T11:54:04.724Z",
     "thinRuns": 0,
     "pendingClassification": true,
     "classifyFailures": 1
@@ -8454,7 +8453,7 @@
   {
     "sourceUrl": "https://www.nazaha.gov.sa/",
     "orgId": "nazaha",
-    "contentHash": "1249ed6d54e3e460a28e9fc292eb3e96f514901619af873a5d130fb06169cf48",
+    "contentHash": "92ce36d9b6ad3a6118c2b62e0fd13ab5a236cf6f4020425dfb45793c3c8e2c8d",
     "blockHashes": [
       "0448f401a73d8d69",
       "c3fc1cda7b3b3192",
@@ -8463,9 +8462,9 @@
     "extractedChars": 877,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T22:03:35.383Z",
-    "lastChangedISO": "2026-09-10T23:16:11.220Z",
+    "lastChangedISO": "2026-09-12T11:45:13.968Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://www.nazaha.gov.sa/Jobs",
@@ -10873,7 +10872,7 @@
   {
     "sourceUrl": "https://www.tadawulgroup.sa/wps/portal/tadawulgroup/joinus",
     "orgId": "tadawul",
-    "contentHash": "d0d3b5ac169f1b73ab7aa83d70c779f4ee298b89ccc3b8284f83c6034148bac3",
+    "contentHash": "218af6789adae9d596633c79e9b359213a247d93501904bfc43eeae06fd8c680",
     "blockHashes": [
       "0cfcdfa727221d00",
       "689f707057688943",
@@ -10881,13 +10880,12 @@
       "a3435878c6033280",
       "b2cab4da26050ee9"
     ],
-    "extractedChars": 1186,
+    "extractedChars": 1384,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-02T23:42:46.216Z",
-    "lastChangedISO": "2026-09-11T20:00:05.921Z",
+    "lastChangedISO": "2026-09-12T11:48:35.389Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "classifyFailures": 3
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://www.tahakom.com/",
@@ -10911,18 +10909,18 @@
   {
     "sourceUrl": "https://www.tahakom.com/careers",
     "orgId": "tahakom",
-    "contentHash": "b7b320ab3c337aeecb9e37464095a96d51bb5983c01dda8f6681582a73d6758d",
+    "contentHash": "66a1b215d71b598e5c8f4def386779d5d875b8060e2f1e761d7fed159451f4b0",
     "blockHashes": [
-      "31adad521756d062",
+      "d44217251213a019",
       "611753a8aea1ade1",
       "0cea4d38306888dc",
       "1a5263a5a2541c46",
-      "66314e4675e8f143"
+      "264d6b3abc2256d1"
     ],
-    "extractedChars": 819,
+    "extractedChars": 838,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-03T05:13:40.059Z",
-    "lastChangedISO": "2026-09-12T11:07:08.457Z",
+    "lastChangedISO": "2026-09-12T11:54:04.724Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
