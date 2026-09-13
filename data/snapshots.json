@@ -135,7 +135,7 @@
   {
     "sourceUrl": "https://adf.gov.sa/ar/Pages/default.aspx",
     "orgId": "adf",
-    "contentHash": "6a8d9be620a97f818873872c7c959e19243d442904839bfb3ec03928bdc360e2",
+    "contentHash": "0499b397526f327ab1449de28212bc2fe7e2c0da3f5c8aec7bb20cac4d86ead7",
     "blockHashes": [
       "1ce798e0ca5f6070",
       "9e8708f46644e878",
@@ -144,7 +144,7 @@
       "b7a4f19178b3b8a1",
       "0514128baf9c79f1",
       "9185920f2483a42d",
-      "e841630c7331f307",
+      "53f936c59c753c48",
       "4838bf63eca38706",
       "d380a83380c07da6",
       "2c2b159c69b9c652",
@@ -155,10 +155,10 @@
       "782261474561a27a",
       "74b06ac36e5c75b0"
     ],
-    "extractedChars": 1661,
+    "extractedChars": 1663,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
-    "lastChangedISO": "2026-09-13T11:58:50.806Z",
+    "lastChangedISO": "2026-09-13T18:04:05.064Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "triaged_out"
@@ -758,7 +758,7 @@
   {
     "sourceUrl": "https://career.alinma.com/",
     "orgId": "alinma",
-    "contentHash": "e245fd94c1ab59dcc6bad34af50ba34c224654b27d2f46834c18eef001143fa5",
+    "contentHash": null,
     "blockHashes": [
       "d139e32e22028878",
       "24a16c9057a577bb",
@@ -3333,14 +3333,14 @@
     "orgId": "nca",
     "contentHash": "5da435dd0384013389608de5fb85fc76dc5433cca5cac0fcbf1295df539936d1",
     "blockHashes": [
-      "6bbe7d2f555beb6b"
+      "5da435dd03840133"
     ],
     "extractedChars": 606,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-13T16:24:51.966Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://nca.gov.sa/ar/cyber-training-and-qualifications/",
@@ -3535,7 +3535,7 @@
     "orgId": "ndf",
     "contentHash": "4e5935ede3db61b2fc16c2257378dba9c5870d1ecc7b11e68f99ceabdc54ccae",
     "blockHashes": [
-      "e3cdc0fa819cb7a5",
+      "be354ca866d2f332",
       "cea7fd3977a9c5c0"
     ],
     "extractedChars": 3077,
@@ -3543,7 +3543,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-13T12:03:33.694Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://ndf.gov.sa/media-center",
@@ -7980,8 +7980,7 @@
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
     "lastChangedISO": "2026-09-13T11:44:24.095Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.mofa.gov.sa/",
