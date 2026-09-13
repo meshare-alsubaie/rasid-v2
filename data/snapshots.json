@@ -7718,12 +7718,16 @@
   {
     "sourceUrl": "https://www.moe.gov.sa/ar/aboutus/nationaltransformation/Pages/employmentstrategy.aspx",
     "orgId": "moe",
-    "contentHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-    "blockHashes": [],
-    "extractedChars": 1311,
+    "contentHash": "8edd35314cebeccabfe3f9725503b8397f0a9481f63ff46d3d4b68ac8c094754",
+    "blockHashes": [
+      "e2f1613193efaa12",
+      "04852562c90d5b24",
+      "1fb65b484f980d98"
+    ],
+    "extractedChars": 560,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-08-31T00:02:49.563Z",
+    "lastChangedISO": "2026-09-13T13:09:29.709Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -9212,16 +9216,17 @@
   {
     "sourceUrl": "https://www.rcrc.gov.sa/careers/?lang=ar",
     "orgId": "rcrc",
-    "contentHash": "66a10afea73a36c45c197fda9af9cc7b5d3994def1bc8c9f9eb4215ccb6091a0",
+    "contentHash": "c928a855cd7fa30651dbee449a0ae49bfee99180f9bb4ab4299b9ecc823afe62",
     "blockHashes": [
       "c09e3d195f88f6a9"
     ],
     "extractedChars": 1166,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-13T12:20:36.187Z",
+    "lastChangedISO": "2026-09-13T13:09:29.709Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://www.rcrc.gov.sa/media-center/",
