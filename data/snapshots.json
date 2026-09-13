@@ -642,7 +642,7 @@
   {
     "sourceUrl": "https://athkax.sdaia.gov.sa/coop",
     "orgId": "sdaia",
-    "contentHash": "a58f144950bb22de0c4667555dc3401317db3a7e9e0679e6a27c03768b15a660",
+    "contentHash": "149dac3782e23b92d6292f77a69dc8697b9a8115e558dd26d5838bee370b30cb",
     "blockHashes": [
       "94001700b02beb00",
       "776077957e194bed"
@@ -650,9 +650,10 @@
     "extractedChars": 756,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-13T16:07:54.852Z",
+    "lastChangedISO": "2026-09-13T16:53:25.044Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://awqaf.gov.sa/ar/ar/hiring/",
@@ -3536,25 +3537,21 @@
   {
     "sourceUrl": "https://ncar.gov.sa/",
     "orgId": "ncar",
-    "contentHash": "f45d603619d9e0cdf9fbad43f32ab59f0da821b3b64c1c8ef502172a1d968fa8",
+    "contentHash": "fdb3f95792adda80e4645e7abcd0dccdf9eae2dbb1d3b3183b9af76976ca9e74",
     "blockHashes": [
       "c911502a32b8a6f9",
       "299051b1d7c5abd3",
-      "6ac319aeb0d4d4c8",
-      "ca80e9da341f647b",
-      "4b4956634b18a910",
-      "5e066b1f02a22686",
-      "04f75abc86aec322",
+      "cac9d76f9773b3e6",
       "351df1c5a68ce532",
       "75c514565d626437"
     ],
-    "extractedChars": 1993,
+    "extractedChars": 1019,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-13T10:48:19.656Z",
+    "lastChangedISO": "2026-09-13T16:53:25.044Z",
     "thinRuns": 0,
     "pendingClassification": false,
-    "settledWithoutVerdict": "triaged_out"
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://ncdc.gov.sa/",
@@ -5546,8 +5543,7 @@
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
     "lastChangedISO": "2026-09-13T10:44:25.945Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.cst.gov.sa/",
@@ -9269,12 +9265,12 @@
   {
     "sourceUrl": "https://www.rcrc.gov.sa/news-ar/",
     "orgId": "rcrc",
-    "contentHash": "2f5e27cebf70af3fb68d08543486c1a46ec915f8be365a3714cac67df9be9e6f",
+    "contentHash": "ff997e3881502e98d1c70b8582a4b4afb6bcb058013c739fd6d9e05e445cfce9",
     "blockHashes": [
       "dd62229c2f61fb42",
       "306db3646b8a6c73",
       "b28682d0a5fa37ed",
-      "b6ca45a57e206269",
+      "93edeaf5a867806f",
       "dd5bfb74e89dbbdd",
       "b32d68c4e5c2da0f",
       "b91cd7f4edfa88d2",
@@ -9287,9 +9283,10 @@
     "extractedChars": 3551,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-13T13:47:47.094Z",
+    "lastChangedISO": "2026-09-13T16:53:25.044Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://www.rcu.gov.sa/",
@@ -10545,7 +10542,7 @@
   {
     "sourceUrl": "https://www.srca.org.sa/",
     "orgId": "srca",
-    "contentHash": "78756cdb45379026bf9a23a8eecc11eb2efcaf5b9e70d645034923e2b24743fd",
+    "contentHash": "16669d804b5f7a809fe89fc31a52ac3074aaee2d8118d9e086b18235501b0dc2",
     "blockHashes": [
       "13f48669ebfa59aa",
       "74e4c1d2a646a96e",
@@ -10559,9 +10556,9 @@
       "624b98a43b1d5d7e",
       "81cf5fbbbc172e2b",
       "0ad53e4085371914",
-      "2798ed99c3c5cdab",
+      "04244c797faa9e6d",
+      "bc4261c4b40a98f2",
       "911fe68415c8e04d",
-      "73801acea2d59ad8",
       "79a8248746e6d6d9",
       "782261474561a27a",
       "201de1784c4f3dae",
@@ -10572,13 +10569,12 @@
       "a3663086b31e5fba",
       "de58120500a8958a"
     ],
-    "extractedChars": 7570,
+    "extractedChars": 7614,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
-    "lastChangedISO": "2026-09-13T10:44:25.945Z",
+    "lastChangedISO": "2026-09-13T16:53:25.044Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.srca.org.sa/%d8%a7%d9%84%d8%aa%d9%88%d8%b8%d9%8a%d9%81/",
