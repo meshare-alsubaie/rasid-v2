@@ -4016,7 +4016,7 @@
     "lastChangedISO": "2026-09-13T11:44:24.095Z",
     "thinRuns": 0,
     "pendingClassification": true,
-    "classifyFailures": 1
+    "classifyFailures": 2
   },
   {
     "sourceUrl": "https://slccareers.kpmg.com/job/Beirut-Experienced-External-Auditor/857312523/",
@@ -8033,12 +8033,22 @@
   {
     "sourceUrl": "https://www.mofa.gov.sa/ar/ministry/news/Pages/default.aspx",
     "orgId": "mofa",
-    "contentHash": "15f75d91302ee934f46387c3630b4517c539673c3e0630343c2e4159177e63b2",
+    "contentHash": "fcd0823566e2bc5fb8da68153e5f80719c95e5cb8b5136387caf4d812febed5e",
     "blockHashes": [
       "88b5148b04637d49",
       "74e4c1d2a646a96e",
       "b076309334a1eace",
-      "ac1115804b4b3869",
+      "3ba8669d0d9a2aa4",
+      "61cc64f9a544ad6c",
+      "c33ae74e931f8c85",
+      "5c329e976bb50621",
+      "6694f432d4807bc1",
+      "dd6ad6800c5e6fb8",
+      "50f06b820a12dcf7",
+      "60de065e02ef3e26",
+      "e1f18149aef33d28",
+      "225c84314b49042f",
+      "ec6855ff7c07b8c7",
       "513cf85c6e3e28f8",
       "851e0752b60e06b5",
       "69d3700bcf3cdc27",
@@ -8146,24 +8156,18 @@
       "aa433561b1e02c1b",
       "a1ca12dee732408c",
       "93bdd0d2a0a21532",
-      "b28d268be42cba12",
-      "c208b8ad77d2d95c",
-      "7f415f86bc69ca61",
-      "06b640f759f965dc",
-      "3787bd502c00444a",
-      "83b4abf33b5a651e",
-      "b6d5f7678039dc2e",
-      "7a02651fe26f2e5c",
+      "ea2078e3de7dc790",
       "06538d757b5fb483",
       "7ca45dfa7d2dab45",
       "782261474561a27a"
     ],
-    "extractedChars": 19970,
+    "extractedChars": 19924,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-13T10:56:37.689Z",
+    "lastChangedISO": "2026-09-13T13:59:13.578Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://www.moh.gov.sa/ministry/mediacenter/ads/pages/default.aspx",
