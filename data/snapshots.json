@@ -644,15 +644,15 @@
     "orgId": "sdaia",
     "contentHash": "d987d14297201e37a2354638e0918a77cf0d998d3105edcbeb8a028ca425b19e",
     "blockHashes": [
-      "04ba8a3fca46514f",
-      "4bd08244050e9682"
+      "94001700b02beb00",
+      "03026def36138340"
     ],
     "extractedChars": 155,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-13T11:28:52.165Z",
-    "thinRuns": 0,
-    "pendingClassification": true
+    "thinRuns": 1,
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://awqaf.gov.sa/ar/ar/hiring/",
@@ -3454,7 +3454,7 @@
   {
     "sourceUrl": "https://nca.gov.sa/ar/education-program/",
     "orgId": "ncac",
-    "contentHash": "198029208a208b3b595f78a31254215ce1b2a345618a1a04fb2729b5dff63af9",
+    "contentHash": "4a453c6d10924755aae30ed31b3afda566925aa278bf32eb1a37154a1a5473ce",
     "blockHashes": [
       "d5ca92ea742fdb6f",
       "2c957c09f7e685a0",
@@ -3466,9 +3466,9 @@
     "extractedChars": 807,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
-    "lastChangedISO": "2026-09-10T17:16:40.989Z",
+    "lastChangedISO": "2026-09-13T12:11:59.592Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://nca.gov.sa/ar/nca-academy/",
@@ -3595,7 +3595,7 @@
   {
     "sourceUrl": "https://ndf.gov.sa/",
     "orgId": "ndf",
-    "contentHash": "59e0bbd539dfb74198607b2e7fada03aca86113b7c28b32155aa8291751c3509",
+    "contentHash": "4e5935ede3db61b2fc16c2257378dba9c5870d1ecc7b11e68f99ceabdc54ccae",
     "blockHashes": [
       "e3cdc0fa819cb7a5",
       "cea7fd3977a9c5c0"
@@ -3603,9 +3603,9 @@
     "extractedChars": 3077,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-12T11:47:31.135Z",
+    "lastChangedISO": "2026-09-13T12:03:33.694Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://ndf.gov.sa/media-center",
@@ -4122,7 +4122,7 @@
   {
     "sourceUrl": "https://slccareers.kpmg.com/job/Medina-KPMG-Audit-Internship-Program-Accounting-Graduates/1368374723/",
     "orgId": "kpmg_sa",
-    "contentHash": "1e4955f4387ea3718890975ed666b2231bd2e34bc234fa8389db8c64d1ff7e6a",
+    "contentHash": "b74ab73ce000007d59c21fb8fc1a173d0cfb0bf49fc868ddbb38ee42538b8921",
     "blockHashes": [
       "371f3c795880dcbe",
       "75851917cd09da18",
@@ -4150,10 +4150,9 @@
     "extractedChars": 2485,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-08T06:12:14.081Z",
+    "lastChangedISO": "2026-09-13T12:11:59.592Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "classifyFailures": 3
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://slccareers.kpmg.com/job/Riyadh-KPMG-Audit-COOP-Program-(Riyadh,-Jeddah,-and-Khobar)/857222523/",
@@ -4391,7 +4390,7 @@
   {
     "sourceUrl": "https://training.moj.gov.sa/",
     "orgId": "moj",
-    "contentHash": "f4c6ef6b783b69d09a8f681ad1d80f1df35ef8cb8864917255879208cc305886",
+    "contentHash": null,
     "blockHashes": [
       "84a570379809f573",
       "ab443a0bbfda7883"
@@ -7648,7 +7647,7 @@
   {
     "sourceUrl": "https://www.mim.gov.sa/ar/empower-training/cooperative-training",
     "orgId": "mim",
-    "contentHash": "27ba13dac086c4988590ae27a85da790fdc6f94da17445abe286cbe9f0c4f8f9",
+    "contentHash": "917ee2e8b45384df6471756a351cf520dbf15245eb97afb03dd42a0be3955bcb",
     "blockHashes": [
       "1cb91553dd3291a4",
       "5300d4cdd32a8d33"
@@ -7656,7 +7655,7 @@
     "extractedChars": 2495,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T02:22:33.828Z",
-    "lastChangedISO": "2026-09-13T11:21:24.685Z",
+    "lastChangedISO": "2026-09-13T12:07:38.409Z",
     "thinRuns": 0,
     "pendingClassification": true
   },
@@ -10919,7 +10918,7 @@
   {
     "sourceUrl": "https://www.tahakom.com/careers",
     "orgId": "tahakom",
-    "contentHash": "457f65df725621cf1ff8df157d2d7ad5927ef366ef94aa5e45fdfae4dd6d3b3f",
+    "contentHash": "8d1d8b4a6a7bde78572d8fa562ea399be56c71b4f40b53a0139f8955994ae509",
     "blockHashes": [
       "d44217251213a019",
       "611753a8aea1ade1",
@@ -10930,7 +10929,7 @@
     "extractedChars": 838,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-03T05:13:40.059Z",
-    "lastChangedISO": "2026-09-13T11:21:24.685Z",
+    "lastChangedISO": "2026-09-13T12:07:38.409Z",
     "thinRuns": 0,
     "pendingClassification": true
   },
