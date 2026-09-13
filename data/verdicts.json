@@ -1,6 +1,6 @@
 {
   "model": "qwen3:8b",
-  "writtenISO": "2026-09-13T15:38:23.446Z",
+  "writtenISO": "2026-09-13T15:41:30.553Z",
   "verdicts": {
     "d3ed902d693a4c1d3b4fc1c6f9b85ea8": null,
     "cc97c142781ff3943c2ea2f9f38af7d8": null,
@@ -1920,6 +1920,28 @@
     "af23640f8552d3dc79923e6649deb10e": null,
     "5575085cd12963bf84ddd085169dbb27": null,
     "b7ae96bbe3a16e462ae0a36a8ba3d283": null,
-    "86f38173a8f80488c1f248bcd22ba1b0": null
+    "86f38173a8f80488c1f248bcd22ba1b0": null,
+    "67f4a784e1fb7af702bbd54930f6613e": {
+      "isTrainingAnnouncement": true,
+      "product": "graduate_dev",
+      "titleAr": "البرنامج التدريبي لحديثي التخرج في مجال الأمن السيبراني في نسخته الثانية",
+      "opensISO": null,
+      "closesISO": null,
+      "opensRaw": "13/07/2025",
+      "closesRaw": null,
+      "moreOnPage": true,
+      "majors": [
+        "المرحلة الجامعية المتخصصين في الأمن السيبراني",
+        "مختصي تقنية المعلومات في مجال الأمن السيبراني",
+        "موظفي الجهات الوطنية في مجال الأمن السيبراني"
+      ],
+      "seats": null,
+      "stipendSAR": null,
+      "durationWeeks": null,
+      "cities": [],
+      "statesZeroCoursesRule": false,
+      "zeroCoursesQuote": null,
+      "applyUrl": null
+    }
   }
 }
