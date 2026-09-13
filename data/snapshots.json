@@ -3515,12 +3515,12 @@
       "12e41a244a8a2984",
       "c804732dd480d71a",
       "74e4c1d2a646a96e",
-      "7ed2a34686c166f8",
+      "264ad7228cb8aaa3",
       "4d9c65777643b502",
       "270633c3f308ab38",
       "748d3b494a49bc29",
       "a66b23d9ca2dfa64",
-      "529400c8416fcdf1",
+      "993933d019d2a223",
       "e2a2eb95eb39c51f",
       "a08d2755ae20fd18"
     ],
@@ -3529,8 +3529,8 @@
     "firstSeenISO": "2026-09-03T01:18:25.099Z",
     "lastChangedISO": "2026-09-13T10:22:01.195Z",
     "thinRuns": 0,
-    "pendingClassification": true,
-    "classifyFailures": 2
+    "pendingClassification": false,
+    "classifyFailures": 3
   },
   {
     "sourceUrl": "https://ndf.gov.sa/",
@@ -3595,8 +3595,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-13T11:50:33.688Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://ndf.gov.sa/media-center/articles/article-human-resource-development",
@@ -5424,18 +5423,18 @@
   {
     "sourceUrl": "https://www.bog.gov.sa/en/EServices/judiciaryHiring/Pages/Hiring.aspx",
     "orgId": "bog",
-    "contentHash": "6635fa4c3d3bd50914f5da28c4c617ed4f7368cc92708f67e06332e4497360e5",
+    "contentHash": "991a6aba6915675d3432f1fa6317b1271691eedeb4f729a07b62fe0c0620b0a0",
     "blockHashes": [
       "46d9575ec382a9d1",
       "96c63175498462d9",
       "f4b9821710ab784e",
-      "14a91afead641f0d",
+      "c56b263d910d820d",
       "ec5d6ba37d25b982"
     ],
     "extractedChars": 609,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-13T14:10:13.922Z",
+    "lastChangedISO": "2026-09-13T14:56:58.158Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -8553,8 +8552,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-13T11:48:38.499Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "triaged_out"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.ncc.gov.sa/ar/MediaCenter/Events/Pages/default.aspx",
