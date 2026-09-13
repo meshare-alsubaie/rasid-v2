@@ -7938,7 +7938,7 @@
     "blockHashes": [
       "7f625851cbbadbc6",
       "f7711325e2c4b301",
-      "dd86c49a7aa3c660",
+      "0096462f68909a43",
       "b1bec34b5330c702",
       "f4809815161554d5",
       "16ff3360390869f3",
@@ -7954,7 +7954,8 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-13T11:00:08.621Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://www.mof.gov.sa/Pages/default.aspx",
@@ -9152,14 +9153,14 @@
   {
     "sourceUrl": "https://www.rcrc.gov.sa/careers/?lang=ar",
     "orgId": "rcrc",
-    "contentHash": "c928a855cd7fa30651dbee449a0ae49bfee99180f9bb4ab4299b9ecc823afe62",
+    "contentHash": "8b0531385fb4e1aae73e79e2d2f804935297e87a14f0c806446f91ccab26f2b5",
     "blockHashes": [
       "c09e3d195f88f6a9"
     ],
     "extractedChars": 1166,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-13T13:09:29.709Z",
+    "lastChangedISO": "2026-09-13T14:02:09.123Z",
     "thinRuns": 0,
     "pendingClassification": true,
     "classifyFailures": 1
@@ -10532,7 +10533,7 @@
     "blockHashes": [
       "13f48669ebfa59aa",
       "74e4c1d2a646a96e",
-      "69fe8b92e88f03ab",
+      "eb11998f7a6dcf67",
       "911fe68415c8e04d",
       "73801acea2d59ad8",
       "fc34eb5a18d3701f",
@@ -10556,7 +10557,8 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-13T11:00:08.621Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://www.srca.org.sa/newsletters/",
