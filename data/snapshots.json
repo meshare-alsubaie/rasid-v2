@@ -3518,15 +3518,15 @@
   {
     "sourceUrl": "https://nca.gov.sa/en/news/",
     "orgId": "nca",
-    "contentHash": "8b49ba426b910750c01faa3731a40a2dd366da53c79822996057c118101c013d",
+    "contentHash": "c8aae294b8160d5c50a7d99f8524edda677c0b75f84b3d69a1abce86d4108bf2",
     "blockHashes": [
       "ada70e1494ec7db5",
-      "6a5938c43115d312"
+      "24211ab3dd75a0ec"
     ],
     "extractedChars": 822,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-09T09:18:26.794Z",
+    "lastChangedISO": "2026-09-13T11:44:24.095Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -4062,7 +4062,7 @@
   {
     "sourceUrl": "https://slccareers.kpmg.com/go/All-Jobs/7738123/",
     "orgId": "kpmg_sa",
-    "contentHash": "17a04240e7e5128772b6f314fd69f8f40ce0296ca4e9be529a1dea0f665909ab",
+    "contentHash": "dfcbe26fcc96db4a41141872a56d57076c133e7a5f8b07585bcfa1c75de73bb0",
     "blockHashes": [
       "aa19d4515674c079",
       "29400fb30e509541",
@@ -4080,10 +4080,10 @@
     "extractedChars": 520,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-08T05:39:11.231Z",
+    "lastChangedISO": "2026-09-13T11:44:24.095Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "classifyFailures": 3
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://slccareers.kpmg.com/job/Beirut-Experienced-External-Auditor/857312523/",
@@ -8024,11 +8024,11 @@
   {
     "sourceUrl": "https://www.mof.gov.sa/Pages/default.aspx",
     "orgId": "mof",
-    "contentHash": "0c2e87716f5978b95396c342b5a9798f68e3c8765b2f57f79fb259f47cb5d126",
+    "contentHash": "1d7ceaa8733bd30925d25c2bcf73e6842c445a1ac26481f1ae0795eaf5354ef5",
     "blockHashes": [
       "7f625851cbbadbc6",
       "f7711325e2c4b301",
-      "012d963521f5436c",
+      "2ac20732dde62979",
       "a4421c0a80a8433c",
       "589c637db8545e12",
       "d6925423217a99ca",
@@ -8039,9 +8039,10 @@
     "extractedChars": 467,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
-    "lastChangedISO": "2026-09-12T11:30:09.459Z",
+    "lastChangedISO": "2026-09-13T11:44:24.095Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://www.mofa.gov.sa/",
