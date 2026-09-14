@@ -3046,9 +3046,9 @@
   {
     "sourceUrl": "https://modon.gov.sa/ar/MediaCenter/modon-news/News/Pages/default.aspx",
     "orgId": "modon",
-    "contentHash": "1df56e4ddb228702db88941454388a98f59c26d3b0829918a03e112b39427888",
+    "contentHash": "8296ecd4c2d40b11d2fcafc65676a3beb457dea93721283144f8f8c32edf9fea",
     "blockHashes": [
-      "5c55c79ecf1c0fb7",
+      "42bca84b03b98503",
       "8727cbb5dfea6170",
       "bdfe2a112c399ccd",
       "8ae17958586c8a8c",
@@ -3057,7 +3057,7 @@
     "extractedChars": 1591,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-14T13:59:17.829Z",
+    "lastChangedISO": "2026-09-14T17:02:57.445Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -3536,18 +3536,17 @@
   {
     "sourceUrl": "https://ncar.gov.sa/",
     "orgId": "ncar",
-    "contentHash": "40d149192289e3a059e351112a98b4640b30c0ad638b0ad80ab2056fd9aa10f5",
+    "contentHash": "b16701789675fb968a8f1dc1f00781c03d1bf3c6a3fef15a49250ad11580873d",
     "blockHashes": [
       "c911502a32b8a6f9",
-      "299051b1d7c5abd3",
-      "8647c1ccff9cbc17",
-      "51581cf0e4526b65",
+      "3bbc688063cf81ae",
+      "26b7600a224c8c65",
       "75c514565d626437"
     ],
-    "extractedChars": 1358,
+    "extractedChars": 536,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-14T10:57:05.659Z",
+    "lastChangedISO": "2026-09-14T17:02:57.445Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -4252,15 +4251,15 @@
   {
     "sourceUrl": "https://takamolholding.com/ar/join-us",
     "orgId": "takamol",
-    "contentHash": "354b9cbb3c75d6836d8da8390fc045bc451417714dd09c80a7a92315604264af",
+    "contentHash": "1c01152219e081fd2e5cf9889b6fc4f06f224546f858c042d3327db61d61bbc2",
     "blockHashes": [
-      "a269bc0fd2159f46",
-      "800e20741a20daa7"
+      "7fe60a979f147da5",
+      "451e371814b7cbdb"
     ],
-    "extractedChars": 707,
-    "extractionMethod": "body_fallback",
+    "extractedChars": 306,
+    "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
-    "lastChangedISO": "2026-09-14T13:59:17.829Z",
+    "lastChangedISO": "2026-09-14T17:02:57.445Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -6326,25 +6325,22 @@
   {
     "sourceUrl": "https://www.gosi.gov.sa/",
     "orgId": "pension",
-    "contentHash": "854c1bba7d763a1a6c6e27c4297693c328e252f9aceb802a65324b94c7f38e69",
+    "contentHash": "8d0df78e24e0a39dcbe67d99b58eb4fdf3bbc1820aeaea22648527f67a6b9631",
     "blockHashes": [
-      "6ca8f67a18987bc0",
-      "d03cd1e8a4882e4f",
-      "f1c67a357a9f4117",
-      "21d473d26cc211c7",
-      "3ac4620ff682c1c1",
-      "d1422407227aed32",
-      "d9984f7aaa98a0a5",
-      "7134010ac5c834ed",
-      "2cb6d76c0b10b54c"
+      "f315151abb50f513",
+      "c69d076cda663999",
+      "7e3f6bf3042967a9",
+      "0d4ce59c18e70bdd",
+      "7a73f49a85e2e36b",
+      "86c5f00a1fde784a"
     ],
-    "extractedChars": 3549,
+    "extractedChars": 452,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-14T10:57:05.659Z",
+    "lastChangedISO": "2026-09-14T17:02:57.445Z",
     "thinRuns": 0,
     "pendingClassification": false,
-    "settledWithoutVerdict": "triaged_out"
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/all_branches_news?lang=ar",
@@ -9572,7 +9568,7 @@
   {
     "sourceUrl": "https://www.riyadbank.com/ar/personal-banking",
     "orgId": "riyadbank",
-    "contentHash": "7f6ffe85c9e2aabe9c3060b62e77d95ffcfb25a12d3550e1856451804158fe92",
+    "contentHash": "29a8cadc39eef5713d228d9622218ca296b9c3e1c5782cb712abccb86364e3dc",
     "blockHashes": [
       "c5fa97b84e96f11e",
       "a01ad1ea1a27690a",
@@ -9597,15 +9593,13 @@
       "dd09a93c19a5b408",
       "fc0a22cc81c08834",
       "5ca46b716e2fe884",
-      "5b89998625f6c35a",
-      "4f9d3db32b80f12b",
+      "1d775fb08011859c",
       "303fe28588764a9b",
       "7a8a143470365dc2",
-      "3da50cd1c3c80f72",
-      "75ad41c21fa9b0e1",
+      "960919b7fb63409c",
       "c845d371bfc055e6",
       "e91a2dc79c3ef7ff",
-      "d22dd1cc9b5516ee",
+      "75701b4b0c077673",
       "0b4f6c1a982c9472",
       "cb4329c80213103c",
       "853e155161611ffc",
@@ -9618,12 +9612,13 @@
       "27ab07a2e57dda34",
       "f2f0e16c376080f6"
     ],
-    "extractedChars": 10029,
+    "extractedChars": 10366,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
-    "lastChangedISO": "2026-09-14T10:49:54.109Z",
+    "lastChangedISO": "2026-09-14T17:02:57.445Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://www.sabic.com/ar/careers",
@@ -11266,18 +11261,18 @@
   {
     "sourceUrl": "https://www.tahakom.com/",
     "orgId": "tahakom",
-    "contentHash": "457f65df725621cf1ff8df157d2d7ad5927ef366ef94aa5e45fdfae4dd6d3b3f",
+    "contentHash": "c6cc57c0f16594942f48318c12f633c350c76a44473935a33fe25d3b4b404684",
     "blockHashes": [
       "d44217251213a019",
       "611753a8aea1ade1",
       "0cea4d38306888dc",
       "1a5263a5a2541c46",
-      "a937a81f39e1b5a8"
+      "b94e9ce7eac243c4"
     ],
-    "extractedChars": 838,
+    "extractedChars": 833,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-03T05:13:40.059Z",
-    "lastChangedISO": "2026-09-14T10:57:05.659Z",
+    "lastChangedISO": "2026-09-14T17:02:57.445Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
