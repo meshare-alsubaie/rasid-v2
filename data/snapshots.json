@@ -2664,30 +2664,29 @@
   {
     "sourceUrl": "https://lcgpa.gov.sa/ar/Pages/default.aspx",
     "orgId": "lcgpa",
-    "contentHash": "4498d08b6e3528cc5aa8d7c68195d83038b3e6ad2441a5cf4977a4cf9c1be9fc",
+    "contentHash": "24246651f6a031d6ddab008a9d5bb7d6dbf2ed8bc8e03dce8e79dc8481b8e011",
     "blockHashes": [
-      "2c705d38fd265342",
-      "922bdc74920175ef",
+      "cb6ee857de8b6241",
       "beda84e843f95551"
     ],
-    "extractedChars": 610,
+    "extractedChars": 218,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-14T10:49:54.109Z",
+    "lastChangedISO": "2026-09-14T16:56:56.257Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
   {
     "sourceUrl": "https://makkah-careers.health.sa/",
     "orgId": "mecca_health",
-    "contentHash": "1feba0baa472758c9e4c8d51a6758ad5bc6817e9372edb5b8d795f85fd2d7480",
+    "contentHash": "99c987bdde03dcae21259aa8bb0ebff9d7d2f7680ec1fdd719427023870c1433",
     "blockHashes": [
-      "1feba0baa472758c"
+      "99c987bdde03dcae"
     ],
-    "extractedChars": 419,
+    "extractedChars": 352,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-14T10:49:54.109Z",
+    "lastChangedISO": "2026-09-14T16:56:56.257Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -2804,7 +2803,7 @@
     "lastChangedISO": "2026-09-14T10:49:54.109Z",
     "thinRuns": 0,
     "pendingClassification": true,
-    "classifyFailures": 1
+    "classifyFailures": 2
   },
   {
     "sourceUrl": "https://mc.gov.sa/ar/mediacenter/News/pages/default.aspx",
@@ -4044,17 +4043,16 @@
   {
     "sourceUrl": "https://site.sa/",
     "orgId": "site",
-    "contentHash": "fa6f14b7a2bf8c8b7dc9db94039fe6cbd96259288cc0a438d479ff47097548f1",
+    "contentHash": "a200c2d13ea06f1e2c64a3ada66c5ee448697431b52b9efb0743dc286fa3e30d",
     "blockHashes": [
-      "fa6f14b7a2bf8c8b"
+      "a200c2d13ea06f1e"
     ],
-    "extractedChars": 574,
+    "extractedChars": 598,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-14T10:49:54.109Z",
+    "lastChangedISO": "2026-09-14T16:56:56.257Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://slccareers.kpmg.com/go/All-Jobs/7738123/",
@@ -6602,7 +6600,7 @@
   {
     "sourceUrl": "https://www.hrdf.org.sa/products-and-services/programs/individuals/training/cooperative-training/",
     "orgId": "hrdf_coop",
-    "contentHash": "d02cd3576c961f11a66e5c4d29b7697f901d590655d63a09e526e31c7673d51e",
+    "contentHash": "d0b04ea92551ab8a3117d48440a63eed698d516b187534aa7fba8d91207282cb",
     "blockHashes": [
       "45526a3a724650be",
       "74e4c1d2a646a96e",
@@ -6770,13 +6768,13 @@
       "7322ea2a4a2f673d",
       "4f5c4daa4846a213",
       "3865a8d344da9ea2",
-      "1d1b4a8519ffb4fa",
+      "cac3c90dafccf651",
       "6e4abb292687404c"
     ],
     "extractedChars": 8563,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-03T01:25:25.661Z",
-    "lastChangedISO": "2026-09-14T10:49:54.109Z",
+    "lastChangedISO": "2026-09-14T16:56:56.257Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -7715,16 +7713,16 @@
   {
     "sourceUrl": "https://www.moc.gov.sa/ar",
     "orgId": "moc",
-    "contentHash": "150353147eb4263f814715d41c8943497ee18a3147ce09f65d84b082e4e0c71f",
+    "contentHash": "7a3ea5e9a0cbe8287b1956f293e09ffe88f0a723f33869320f133188ec2c185d",
     "blockHashes": [
       "88c122fdb76fc42f",
-      "50421cc92b28b345",
-      "40afbeed6bf18a77"
+      "7d4bd12b15a022a4",
+      "ca8d6123c6de06cd"
     ],
-    "extractedChars": 6095,
+    "extractedChars": 6089,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-14T10:49:54.109Z",
+    "lastChangedISO": "2026-09-14T16:56:56.257Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
