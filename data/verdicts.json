@@ -1,6 +1,6 @@
 {
   "model": "qwen3:8b",
-  "writtenISO": "2026-09-14T12:00:46.981Z",
+  "writtenISO": "2026-09-14T12:06:43.309Z",
   "verdicts": {
     "d3ed902d693a4c1d3b4fc1c6f9b85ea8": null,
     "cc97c142781ff3943c2ea2f9f38af7d8": null,
@@ -2007,6 +2007,27 @@
     "156684cc9d7ca1daa55cd286600fced6": null,
     "eb9cbcc0945a130e84392043eb9555c9": null,
     "207350f76ec297bb03e86d2c8b33fccd": null,
-    "a907c610980db982819a551adfbdc180": null
+    "a907c610980db982819a551adfbdc180": null,
+    "cd7e8cfafcf2f588f6abff690dab0906": {
+      "isTrainingAnnouncement": true,
+      "product": "graduate_dev",
+      "titleAr": "النسخة الأولى من البرنامج التدريبي للطلاب والطالبات في المرحلة الجامعية المتخصصين في الأمن السيبراني",
+      "opensISO": null,
+      "closesISO": null,
+      "opensRaw": null,
+      "closesRaw": null,
+      "moreOnPage": true,
+      "majors": [
+        "الأمن السيبراني",
+        "التخصصات ذات العلاقة"
+      ],
+      "seats": null,
+      "stipendSAR": null,
+      "durationWeeks": null,
+      "cities": [],
+      "statesZeroCoursesRule": false,
+      "zeroCoursesQuote": null,
+      "applyUrl": null
+    }
   }
 }

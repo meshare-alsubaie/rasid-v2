@@ -2332,14 +2332,14 @@
   {
     "sourceUrl": "https://gmedia.gov.sa/",
     "orgId": "gcam",
-    "contentHash": "0be9b153f3d26d7a6c0a93ba86afb95a2140e6662aab039128dfc9097a491a02",
+    "contentHash": "1fd2c02ae3137d91683c616e77d7be56be9d7d7e845c61d13faa687e78b625da",
     "blockHashes": [
-      "0be9b153f3d26d7a"
+      "1fd2c02ae3137d91"
     ],
     "extractedChars": 1118,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-13T18:00:50.137Z",
+    "lastChangedISO": "2026-09-14T12:02:38.341Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -3397,14 +3397,14 @@
       "d433bb08ba08d5fe",
       "016bfbf205b30acc",
       "4ec6ffe793eacb33",
-      "4c44ec22a5740569"
+      "e5daa3f279466636"
     ],
     "extractedChars": 807,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
     "lastChangedISO": "2026-09-13T15:26:28.878Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://nca.gov.sa/ar/nca-academy/",
@@ -3575,20 +3575,21 @@
   {
     "sourceUrl": "https://ndf.gov.sa/media-center/articles",
     "orgId": "ndf",
-    "contentHash": "b86b95bbdbc1a88bb7cc99e8f0825440fdf26a3a48b5f91e9989a204936484ec",
+    "contentHash": "665fb71010af311375aff77397aeeb814c0c75c41a12a84a697442d827f24af1",
     "blockHashes": [
-      "8ffb6b2cdbf589a8",
+      "e5202dd96f62a6a4",
       "b4a5c7cd60560196",
       "4c268b289192e891",
       "d91f8453abc8bd97",
       "0e33f45837a3e364"
     ],
-    "extractedChars": 4126,
+    "extractedChars": 4128,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-13T11:50:33.688Z",
+    "lastChangedISO": "2026-09-14T12:02:38.341Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://ndf.gov.sa/media-center/articles/article-human-resource-development",
@@ -8425,18 +8426,19 @@
   {
     "sourceUrl": "https://www.nazaha.gov.sa/",
     "orgId": "nazaha",
-    "contentHash": "11b71d3e3ed0c91fa22f2301cee36914aa15d4d63adb9b878a95b96a79e7ca4d",
+    "contentHash": "2a23439b1f7dcdceb1937a20382238398770835785f0bb29eaf3ac9f87def1e5",
     "blockHashes": [
-      "4cfb67e51bdb120a",
+      "aa47ff93014d49e2",
       "c3fc1cda7b3b3192",
       "6e57684a145062e2"
     ],
     "extractedChars": 877,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T22:03:35.383Z",
-    "lastChangedISO": "2026-09-13T12:02:09.299Z",
+    "lastChangedISO": "2026-09-14T12:06:43.309Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://www.nazaha.gov.sa/Jobs",
