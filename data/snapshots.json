@@ -3994,8 +3994,8 @@
     "orgId": "kpmg_sa",
     "contentHash": "f066aaf192ca13901d6d461b21cc085869f86f21aaeda4616066bde378134864",
     "blockHashes": [
-      "aa19d4515674c079",
-      "29400fb30e509541",
+      "a08768df98d7ceb4",
+      "ab9506bccb791170",
       "1d422c5f89e5d543",
       "da4ba24cb3dff2c4",
       "a447cea16f85cb68",
@@ -4003,8 +4003,8 @@
       "3fa18d7becac7ba1",
       "27e4d328c168570b",
       "754f9ae5941e20ca",
-      "0f96afd473240237",
       "ef6634b01e699791",
+      "4a5001bd484ad62c",
       "1acb280e4ad34ff3"
     ],
     "extractedChars": 518,
@@ -4012,7 +4012,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-14T11:39:08.924Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://slccareers.kpmg.com/job/Beirut-Experienced-External-Auditor/857312523/",
@@ -9167,16 +9167,17 @@
   {
     "sourceUrl": "https://www.rcrc.gov.sa/careers/?lang=ar",
     "orgId": "rcrc",
-    "contentHash": "32a78e722d996820d915617b432b80a58fa6a120e5ae29a9070cd46fc6d0e8c1",
+    "contentHash": "15978b080638edeb823d2d0ab9d46c9146e0809e5fc10a9e9c381f89e2009fb4",
     "blockHashes": [
       "ecbc415d4b9e9822"
     ],
-    "extractedChars": 784,
+    "extractedChars": 1166,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-14T12:11:04.168Z",
+    "lastChangedISO": "2026-09-14T12:59:35.454Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://www.rcrc.gov.sa/media-center/",
