@@ -655,7 +655,7 @@
     "lastChangedISO": "2026-09-14T19:45:46.846Z",
     "thinRuns": 0,
     "pendingClassification": true,
-    "classifyFailures": 1
+    "classifyFailures": 2
   },
   {
     "sourceUrl": "https://awqaf.gov.sa/ar/ar/hiring/",
@@ -3175,7 +3175,7 @@
   {
     "sourceUrl": "https://momah.gov.sa/ar/news",
     "orgId": "housing",
-    "contentHash": "d03d4accb1c349adc7c1bcfa2112db28974fdbb42b45339f3ee6cad1c1366d1d",
+    "contentHash": "ca8b66a8b09f4f1233e9f5e4109904670c337c014b562c011d0e3d7a545a111c",
     "blockHashes": [
       "c39d79399ac7deac",
       "6dd936dd3894b0a4",
@@ -3185,31 +3185,31 @@
       "066ae42109053cb0",
       "aa8e55eac5aea8cd",
       "09552ec2996654f9",
-      "7e5164704fc2d8f3",
-      "64d17f8e28b04cac",
+      "92d8dda6186fa7f4",
+      "6c602a38d3b91438",
+      "5d15152619ff887e",
+      "62326dc19dc33945",
       "560edfe1df9d8921",
       "23b97a8a93aba477",
       "9cd3abf7fd1573ff",
-      "4c521d313b828171",
-      "15927488e7a2f2f6",
-      "2fc8ae27d112a165",
-      "178dde6970492d98",
-      "1c480f0fccd663c7",
-      "09b1bd561f62b68f",
-      "46c0948f535963c3",
-      "5d15152619ff887e",
-      "67fa03341ed07440",
-      "6384bc54efd05bfb",
+      "79d00a75eedd8d21",
+      "28949998667c4f93",
+      "d1f904d7d1691973",
+      "319f4693e0d7445f",
       "ac1405062719fb86",
-      "866a4a41acdd05d9",
-      "0d9de42243c1816f",
+      "c540c38452dd188b",
+      "723d33d8be9b1c30",
+      "09b1bd561f62b68f",
+      "c635bf63b4a75eaa",
+      "7e9b4720383552d6",
       "ff6f87e39638cb9b",
-      "c953375595c13ffc"
+      "8d718d3d9dd0bf28",
+      "d57bb064b44f01b3"
     ],
-    "extractedChars": 151354,
+    "extractedChars": 151394,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-14T17:13:06.798Z",
+    "lastChangedISO": "2026-09-14T20:22:50.343Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -6270,10 +6270,10 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/all_branches_news?lang=ar",
     "orgId": "hrc",
-    "contentHash": "e3ac6943eee4e84ea48229659cf423d43e2412af9b8e7fb0ff6edb10eca55d8b",
+    "contentHash": "7315f9e7ae6470b0a36e1958a3a4be08b67879b0fd1b496ddadd083fe0e766d6",
     "blockHashes": [
       "12e41a244a8a2984",
-      "e56674cd6b8458d8",
+      "e6974fd4f2b732d0",
       "f5f8d6443e8e9010",
       "02fd91be7253d9e4",
       "6cd077b5b02f6b16",
@@ -6299,7 +6299,7 @@
     "extractedChars": 5039,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-14T17:13:06.798Z",
+    "lastChangedISO": "2026-09-14T20:22:50.343Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -10265,14 +10265,14 @@
     "orgId": "sfda",
     "contentHash": "2f22d7a3ce76188bdb3cbe7ca239bd7758c8d659c8d32a2f7e765ffb62cf8cc6",
     "blockHashes": [
-      "99b5acf0d53968b8",
+      "53eb1dfdc7d7ab18",
+      "41462cc4f062e974",
       "5a5d9058e45e5ecd",
       "e86fa7ae3604f512",
       "dcb0bfa500a2db83",
       "d3d710c7de3528d8",
-      "5285052957cb0adc",
       "abbaebe56469a2c6",
-      "e512ca795c2c7a48",
+      "b60eeaa1bae23373",
       "b69ab73ade473181",
       "fe04993c9918963a",
       "506fe5d55093ecae"
@@ -10282,7 +10282,8 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-14T17:21:02.291Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://www.sfda.gov.sa/en/career-vision-and-mission",
