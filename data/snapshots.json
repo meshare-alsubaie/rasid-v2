@@ -758,7 +758,7 @@
   {
     "sourceUrl": "https://career.alinma.com/",
     "orgId": "alinma",
-    "contentHash": null,
+    "contentHash": "e245fd94c1ab59dcc6bad34af50ba34c224654b27d2f46834c18eef001143fa5",
     "blockHashes": [
       "d139e32e22028878",
       "24a16c9057a577bb",
@@ -767,7 +767,7 @@
     "extractedChars": 750,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-01T01:46:07.967Z",
-    "lastChangedISO": "2026-09-13T17:28:35.387Z",
+    "lastChangedISO": "2026-09-14T13:30:10.905Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -1331,16 +1331,15 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/search-results",
     "orgId": "maaden",
-    "contentHash": "b4a3881ddd2e503af4be3a34d55339f9912bda6829d114defe2f1818545b000b",
+    "contentHash": "f77ee2a15560818fe9a2eecb8f37128c049063868d9434aefcdc2d8ea8bff234",
     "blockHashes": [
-      "442b839cee8c46f3",
-      "ec625530ab09e5e5",
-      "98f19b2c66e5023d"
+      "dab5a7f3801bc914",
+      "b1fdacd67118a6ef"
     ],
-    "extractedChars": 240,
-    "extractionMethod": "readability",
+    "extractedChars": 606,
+    "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-14T12:45:05.629Z",
+    "lastChangedISO": "2026-09-14T13:33:14.481Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -3067,9 +3066,9 @@
   {
     "sourceUrl": "https://modon.gov.sa/ar/MediaCenter/Pages/default.aspx",
     "orgId": "modon",
-    "contentHash": "8de6e62669bd5e32f3f2b459d8d19b4733d4b313d81e9953dd9d898d1d90dc3b",
+    "contentHash": "7e1c5527a9d83c050f31975e8abda2d351e4430b53a4eba464a9808bf823a885",
     "blockHashes": [
-      "e75bf4a875f8039a",
+      "7371e835e5a9cff2",
       "317f2772b9ef6210",
       "8ae17958586c8a8c",
       "a052fcd3e0ca047c"
@@ -3077,7 +3076,7 @@
     "extractedChars": 306,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-14T10:19:04.237Z",
+    "lastChangedISO": "2026-09-14T13:25:35.898Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -3162,7 +3161,7 @@
   {
     "sourceUrl": "https://momah.gov.sa/ar/form/partnerships-and-cooperation",
     "orgId": "housing",
-    "contentHash": "968e16152689e0936b2973b3719bbfa0be640358c150ff47d4f3257918115d10",
+    "contentHash": "7c886e0f5fbcbeeac1271ba62c5ca1dc755834e0c59c626ff956d68e7619de8d",
     "blockHashes": [
       "bc22896c0dc046da",
       "d2009185b8a1a230",
@@ -3171,31 +3170,31 @@
       "066ae42109053cb0",
       "aa8e55eac5aea8cd",
       "09552ec2996654f9",
-      "d5c85be0fc517a2b",
-      "6d47b6de7c7c74b7",
+      "a55d69cbda039d33",
+      "ff6f87e39638cb9b",
+      "148fd9e37ecb37fa",
+      "e1bb4d8f121c3a22",
+      "93b016506382cad5",
+      "e67f35fb45c47e91",
       "ac1405062719fb86",
-      "39f1e67b84c392c3",
-      "d5fcf9af64010b63",
-      "7acf103f2d739f49",
+      "9a3b60db6c4460b2",
+      "09b1bd561f62b68f",
+      "c9a9a9e54225838c",
+      "c9463ca10652be13",
+      "86b671558b5821a8",
+      "c479464db81ef205",
       "560edfe1df9d8921",
       "23b97a8a93aba477",
       "9cd3abf7fd1573ff",
-      "28d0fb3354f22cf1",
+      "2378efdc0abd0587",
+      "6bac8ab333d78724",
       "5d15152619ff887e",
-      "ab460d33ec155ccf",
-      "dd2f9fe93a996319",
-      "ff6f87e39638cb9b",
-      "e651ad180388addc",
-      "b3585bc7dfce669e",
-      "fb946ec01497ce4a",
-      "8fc47ad745103ec3",
-      "09b1bd561f62b68f",
-      "12b542fdffdd9432"
+      "de63190efe591a1c"
     ],
     "extractedChars": 151367,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-14T10:19:04.237Z",
+    "lastChangedISO": "2026-09-14T13:25:35.898Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -7826,17 +7825,20 @@
   {
     "sourceUrl": "https://www.moenergy.gov.sa/ar/media-center/news",
     "orgId": "moenergy",
-    "contentHash": "a5accc5cb51a44f1d16b0500bd55fdae99e9de46dba535fde0b31ef8b6d79d76",
+    "contentHash": "da49bda04268e9bab10f1951803a51708742cffaf75e5e1de95236b3eb2ee33c",
     "blockHashes": [
-      "c0e7c5ddcf937b3f",
-      "3e4e96b3f218498d"
+      "04baf5e9a880981b",
+      "e088549dca9d4b86",
+      "99abad72305d2dad",
+      "b70bec48b1de9f14"
     ],
-    "extractedChars": 3693,
+    "extractedChars": 3526,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-13T13:28:34.205Z",
+    "lastChangedISO": "2026-09-14T13:25:35.898Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "triaged_out"
   },
   {
     "sourceUrl": "https://www.moenergy.gov.sa/ar/media-center/news/first-energy-hackathon",
@@ -8008,8 +8010,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-14T10:19:04.237Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.mof.gov.sa/mediacenter/events/Pages/CalEvent.aspx",
