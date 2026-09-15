@@ -570,9 +570,9 @@
   {
     "sourceUrl": "https://alinma.com/en/About-the-Bank/The-Bank/News/2013/05/alinmajobandcareerdayattractsgraduatesoftheinstituteofpublicadministration",
     "orgId": "alinma",
-    "contentHash": "9a1d11c0444e045175cb9b1b603adec74f0a9c8a8bc1ce04d699dee9336d3e50",
+    "contentHash": "c1c2515c0fb59d800a983527f3779b85efb8d2614ba11f52433c9b64e30b267b",
     "blockHashes": [
-      "5b5452c61dbee3a2",
+      "a3bd9f028ed43cfa",
       "5a64d61d345149cf",
       "e37c5b10115110f5",
       "125a9de23496213a",
@@ -582,7 +582,7 @@
     "extractedChars": 961,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T23:54:26.779Z",
-    "lastChangedISO": "2026-08-31T23:54:26.779Z",
+    "lastChangedISO": "2026-09-15T23:38:37.331Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -1339,16 +1339,19 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/search-results",
     "orgId": "maaden",
-    "contentHash": "45b8c396039c5152e33ed1901c2f205cc99d3e7c8d52df2f3da1c76817634bc2",
+    "contentHash": "cbbac43bd92ab568f8fbef2867be352760d3a0b280623b2157b33bb8c73e72db",
     "blockHashes": [
-      "dab5a7f3801bc914",
-      "8a5c990ec86635c2",
-      "619ccab18a8c172d"
+      "5569201553604d03",
+      "6e3cceb54e777f64",
+      "6bf0ca67e0f069b4",
+      "d6c0adacb353836a",
+      "f2ea887cc865dd2e",
+      "91c217c122e1a09a"
     ],
-    "extractedChars": 240,
-    "extractionMethod": "readability",
+    "extractedChars": 1247,
+    "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-15T22:43:12.488Z",
+    "lastChangedISO": "2026-09-15T23:29:36.955Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -9188,14 +9191,14 @@
   {
     "sourceUrl": "https://www.rcrc.gov.sa/careers/?lang=ar",
     "orgId": "rcrc",
-    "contentHash": "7603b14e41aab24d06d359a1cda3a23db05f4c177c24a096dbe38d6ca0a17049",
+    "contentHash": "f4771577cb5d58f38c34024e9de66582dbbd652084e6bd847511c541c588b958",
     "blockHashes": [
       "6987e35db5b6e60d"
     ],
     "extractedChars": 1166,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-15T22:48:47.779Z",
+    "lastChangedISO": "2026-09-15T23:38:37.331Z",
     "thinRuns": 0,
     "pendingClassification": true,
     "classifyFailures": 1
