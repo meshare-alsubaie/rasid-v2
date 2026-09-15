@@ -2997,9 +2997,9 @@
   {
     "sourceUrl": "https://modon.gov.sa/ar/MediaCenter/Pages/default.aspx",
     "orgId": "modon",
-    "contentHash": "0ce6e409f839f1a83fe652cac70435855636f902206a30a996904872450baa66",
+    "contentHash": "e21be3b92ac9f0b1a846251833fa129d24b0ec95c0c185294ad3d008f82746ec",
     "blockHashes": [
-      "d01be8fbe8ee8752",
+      "12be3fc6675a6669",
       "317f2772b9ef6210",
       "8ae17958586c8a8c",
       "a052fcd3e0ca047c"
@@ -3007,7 +3007,7 @@
     "extractedChars": 306,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-14T19:35:06.198Z",
+    "lastChangedISO": "2026-09-14T22:38:33.682Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -3092,7 +3092,7 @@
   {
     "sourceUrl": "https://momah.gov.sa/ar/form/partnerships-and-cooperation",
     "orgId": "housing",
-    "contentHash": "b40f4c8976c0d7ffb31c473a14737e466f6465e08564c9f1d3ae0eef47e3e259",
+    "contentHash": "286878107dd0b2e21976bed64b76e68bf69fb74b6def25f58a105a1a1f4a7435",
     "blockHashes": [
       "bc22896c0dc046da",
       "d2009185b8a1a230",
@@ -3101,31 +3101,31 @@
       "066ae42109053cb0",
       "aa8e55eac5aea8cd",
       "09552ec2996654f9",
-      "6abbe72bea79b4a7",
+      "1057999137a224d1",
+      "09b1bd561f62b68f",
+      "5fb9351a0a32b963",
+      "df4e371bb57049f5",
+      "cc1255ef33e19529",
+      "ac1405062719fb86",
+      "7306edbf90df3c6f",
+      "045fe0292ae6b233",
       "560edfe1df9d8921",
       "23b97a8a93aba477",
       "9cd3abf7fd1573ff",
-      "576538484a87f88b",
-      "5b2b92be0a7b3fe8",
-      "7e84d0c7ecda610f",
-      "a6e76a80efc30a44",
+      "61af22e19a65f469",
       "5d15152619ff887e",
-      "f3b9178c81663ea0",
-      "c40b0f799e41e5a3",
-      "ac1405062719fb86",
-      "c990afc83d64cc2e",
-      "005c2ce8cee4fc9b",
+      "3ad23a397d796e77",
       "ff6f87e39638cb9b",
-      "8648025d23b492bf",
-      "09b1bd561f62b68f",
-      "58bbc5922b89e2cd",
-      "381e111859f0c2e1",
-      "cdf3bae8ed029f66"
+      "c42ebfff078f324f",
+      "15927488e7a2f2f6",
+      "3a19d672dcd29987",
+      "b4450934d5ff640f",
+      "2b2ceff017710b0f"
     ],
-    "extractedChars": 151407,
+    "extractedChars": 151408,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-14T19:35:06.198Z",
+    "lastChangedISO": "2026-09-14T22:38:33.682Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -3759,14 +3759,14 @@
   {
     "sourceUrl": "https://redf.gov.sa/ar/careers",
     "orgId": "redf",
-    "contentHash": "75bc993747db09c44b06d9b3be2d12a7b625305da67e17ec1d43a450d82ae160",
+    "contentHash": "f8defd83a95fdacc6d97cab65fcfe40bc18bd160220409f6c66378f69dc74e4b",
     "blockHashes": [
-      "75bc993747db09c4"
+      "f8defd83a95fdacc"
     ],
     "extractedChars": 500,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-02T23:42:46.216Z",
-    "lastChangedISO": "2026-09-14T10:10:30.335Z",
+    "lastChangedISO": "2026-09-14T22:38:33.682Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -7902,11 +7902,11 @@
   {
     "sourceUrl": "https://www.mof.gov.sa/mediacenter/circulars/Pages/default.aspx",
     "orgId": "mof",
-    "contentHash": "02e1d7f142f50c50e33209f22fc4cd7d05dd85272951f3547fd0cf7c98a6b3ba",
+    "contentHash": "aeb5f68d25da335e63529a2eac8cb4afa07cf66c20c82dc64b269096bba184c8",
     "blockHashes": [
       "7f625851cbbadbc6",
       "f7711325e2c4b301",
-      "9bd1b52e3dedb2ff",
+      "6cc6d66a98efc78e",
       "8f20eb8846ead05b",
       "f4809815161554d5",
       "16ff3360390869f3",
@@ -7917,12 +7917,13 @@
       "e449b5a351b550c3",
       "3942beff5570c1da"
     ],
-    "extractedChars": 10163,
+    "extractedChars": 10164,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-14T10:19:04.237Z",
+    "lastChangedISO": "2026-09-14T22:38:33.682Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://www.mof.gov.sa/mediacenter/events/Pages/CalEvent.aspx",
@@ -10282,7 +10283,7 @@
   {
     "sourceUrl": "https://www.sfda.gov.sa/en/career-vision-and-mission",
     "orgId": "sfda",
-    "contentHash": "36d607ccb7bad0e69fd9995adb9c5285abfbd59b7ee58c7573721640970d2b44",
+    "contentHash": "2667342bf4960a62f5d4d6e1fb103dcd1d90539912fc5dc6d690f6c24392802a",
     "blockHashes": [
       "4e3b1c94f76f8148",
       "eba48d47d7bc0f9e",
@@ -10296,12 +10297,12 @@
       "a0466ff116c86d28",
       "4b81d1c31f1f9c59",
       "02085740ec4421fd",
-      "8e89830724bc2318"
+      "0821fc76dfd7c9e4"
     ],
     "extractedChars": 997,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-14T16:08:47.017Z",
+    "lastChangedISO": "2026-09-14T22:35:03.439Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -10502,11 +10503,11 @@
   {
     "sourceUrl": "https://www.srca.org.sa/%d8%a7%d9%84%d8%aa%d9%88%d8%b8%d9%8a%d9%81/",
     "orgId": "srca",
-    "contentHash": "e1df624690142dea89d142f26b79e1ff7bfc4b6efbb1c3feb3a8823098aee1ff",
+    "contentHash": "6533440555b1b1acbab784af4dec45640573f899b04ca98085b6af7c65ec70e3",
     "blockHashes": [
       "13f48669ebfa59aa",
       "74e4c1d2a646a96e",
-      "cd64c4005b9e14b8",
+      "07b38274cb59e3b7",
       "68c03d860d910c71",
       "782261474561a27a",
       "201de1784c4f3dae",
@@ -10520,7 +10521,7 @@
     "extractedChars": 3013,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-14T10:19:04.237Z",
+    "lastChangedISO": "2026-09-14T22:38:33.682Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
