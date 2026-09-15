@@ -1388,11 +1388,11 @@
   {
     "sourceUrl": "https://nca.gov.sa/ar/news/",
     "orgId": "nca",
-    "lastAttemptISO": "2026-09-15T15:19:20.574Z",
+    "lastAttemptISO": "2026-09-15T18:27:58.698Z",
     "lastSuccessISO": "2026-09-15T15:19:20.574Z",
-    "consecutiveFailures": 0,
-    "lastError": null,
-    "state": "healthy"
+    "consecutiveFailures": 1,
+    "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
+    "state": "degraded"
   },
   {
     "sourceUrl": "https://nca.gov.sa/en/careers/",
@@ -1775,11 +1775,11 @@
   {
     "sourceUrl": "https://tetco.sa/ar/digital-education-and-training",
     "orgId": "tetco",
-    "lastAttemptISO": "2026-09-15T17:37:10.904Z",
+    "lastAttemptISO": "2026-09-15T18:27:58.698Z",
     "lastSuccessISO": "2026-09-15T17:37:10.904Z",
-    "consecutiveFailures": 0,
-    "lastError": null,
-    "state": "healthy"
+    "consecutiveFailures": 1,
+    "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
+    "state": "degraded"
   },
   {
     "sourceUrl": "https://tetco.sa/ar/latest-news",
@@ -3251,11 +3251,11 @@
   {
     "sourceUrl": "https://www.rcrc.gov.sa/careers/?lang=ar",
     "orgId": "rcrc",
-    "lastAttemptISO": "2026-09-15T17:37:10.904Z",
+    "lastAttemptISO": "2026-09-15T18:27:58.698Z",
     "lastSuccessISO": "2026-09-15T17:37:10.904Z",
-    "consecutiveFailures": 0,
-    "lastError": null,
-    "state": "healthy"
+    "consecutiveFailures": 1,
+    "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
+    "state": "degraded"
   },
   {
     "sourceUrl": "https://www.rcrc.gov.sa/media-center/",
@@ -3512,10 +3512,10 @@
   {
     "sourceUrl": "https://www.saudiexchange.sa/wps/portal/saudiexchange/newsandreports/issuer-financial-calendars/general-assembly-meetings?locale=ar",
     "orgId": "tadawul",
-    "lastAttemptISO": "2026-09-15T15:26:58.373Z",
+    "lastAttemptISO": "2026-09-15T18:27:58.698Z",
     "lastSuccessISO": "2026-09-02T23:42:46.216Z",
-    "consecutiveFailures": 53,
-    "lastError": "HTTP 403",
+    "consecutiveFailures": 54,
+    "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
     "state": "broken"
   },
   {
