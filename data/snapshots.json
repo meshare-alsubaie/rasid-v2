@@ -537,16 +537,17 @@
   {
     "sourceUrl": "https://alinma.com/en/About-the-Bank/The-Bank/News/2011/12/alinma-bank-hosts-training-course-on-corporate-business-services-and-e-banking",
     "orgId": "alinma",
-    "contentHash": "4681ced66003d0ea7fff0390b9bbae7cf69e3c2c948b5c0372546bf0299c2754",
+    "contentHash": "22cdac02b5000cf19eb60e4c35d3f1843e71aa069cf0014a148ad577e88cc2da",
     "blockHashes": [
       "4681ced66003d0ea"
     ],
     "extractedChars": 284,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T23:54:26.779Z",
-    "lastChangedISO": "2026-08-31T23:54:26.779Z",
+    "lastChangedISO": "2026-09-15T20:43:42.393Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://alinma.com/en/About-the-Bank/The-Bank/News/2011/12/alinmabankhoststrainingcourseoncorporatebusinessservicesandebanking",
@@ -3391,7 +3392,8 @@
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
     "lastChangedISO": "2026-09-15T14:10:14.697Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "triaged_out"
   },
   {
     "sourceUrl": "https://nca.gov.sa/ar/nca-academy/",
