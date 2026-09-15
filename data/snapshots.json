@@ -1268,16 +1268,18 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/search-results",
     "orgId": "maaden",
-    "contentHash": "a35f8f73c3eb0e0f5e19cfd5db7b8378e5ac1e0aa915edc8c7443811320e33d6",
+    "contentHash": "9413ac355ac91815c5f0e1b161ddd6f2bfa4c6be0734ada54ffec1a72046b79b",
     "blockHashes": [
-      "5569201553604d03",
-      "6e3cceb54e777f64",
-      "7af59c38aa4c71db"
+      "0593a1678d987760",
+      "298a05ebe5a16280",
+      "d6c0adacb353836a",
+      "343c6c44def29d24",
+      "069c940627af47e8"
     ],
-    "extractedChars": 201,
+    "extractedChars": 240,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-14T22:00:01.297Z",
+    "lastChangedISO": "2026-09-15T12:14:13.380Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -1419,23 +1421,22 @@
   {
     "sourceUrl": "https://careers.riyadbank.com/ar/",
     "orgId": "riyadbank",
-    "contentHash": "60653c6a617de39f40653c6302c8a550040dab220e037470fb56c2afc6e76e50",
+    "contentHash": "ee0e82638ce7165d233b58ce0cc67a87e0121354b161f9b59eea310ccecd2e29",
     "blockHashes": [
       "2ad761d0def59116",
       "964def2d17e5d192",
       "bd6eb128bd45648e",
-      "6bc60a3a2e163109",
-      "60d3576466b8c330",
+      "d8359f3e59119b03",
       "931249f4583b8ebf",
       "8a4154243a063008",
       "6c1f4fe03943127a",
       "c0befaa6e959676a",
       "e39f2deb3eb72dc0"
     ],
-    "extractedChars": 2628,
+    "extractedChars": 1944,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-02T15:24:48.978Z",
+    "lastChangedISO": "2026-09-15T12:14:13.380Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -9146,16 +9147,17 @@
   {
     "sourceUrl": "https://www.rcrc.gov.sa/careers/?lang=ar",
     "orgId": "rcrc",
-    "contentHash": "22ab2e6b0a32ed533522707123b7bc53092dad351440f27a54a9eb79abb6b36a",
+    "contentHash": "2a0dcbc8b26c771bd05ea4b17fabe5ebf364f22a5a839aa7d4f71ccd333b407d",
     "blockHashes": [
       "22ab2e6b0a32ed53"
     ],
-    "extractedChars": 784,
+    "extractedChars": 1166,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-14T22:23:21.728Z",
+    "lastChangedISO": "2026-09-15T12:14:13.380Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://www.rcrc.gov.sa/media-center/",
