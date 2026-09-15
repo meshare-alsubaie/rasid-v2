@@ -319,14 +319,14 @@
   {
     "sourceUrl": "https://alinma.com/About-the-Bank/The-Bank/News/2011/05/alinma-bank-participates-at-university-career-fairs",
     "orgId": "alinma",
-    "contentHash": "4c36a23229df7668bbd3d4507757f3c873a7b2d6a4671116a59fcb61a11c190d",
+    "contentHash": "1c655e067b0e785f07764af29ef756230f00eced8fa5acf3587f0a033871ca80",
     "blockHashes": [
-      "4c36a23229df7668"
+      "1c655e067b0e785f"
     ],
     "extractedChars": 281,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T23:54:26.779Z",
-    "lastChangedISO": "2026-08-31T23:54:26.779Z",
+    "lastChangedISO": "2026-09-15T21:12:18.956Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -1270,17 +1270,18 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/search-results",
     "orgId": "maaden",
-    "contentHash": "bf0b34ed06448bef0f906c7e3f3dd19e7b0cdc6897864173d73a1726e3fff8d7",
+    "contentHash": "7adcaf2fcc83c1ae2a7ce059ccf0587944303e309ac4e35d77355baed20035e4",
     "blockHashes": [
-      "0593a1678d987760",
-      "8700503abf7a7e9c"
+      "dab5a7f3801bc914",
+      "3095895b08a13e91",
+      "a31b30219076bca7"
     ],
-    "extractedChars": 221,
+    "extractedChars": 240,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-15T20:21:13.380Z",
+    "lastChangedISO": "2026-09-15T21:06:42.606Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://careers.mcit.gov.sa/",
@@ -3753,14 +3754,14 @@
   {
     "sourceUrl": "https://redf.gov.sa/ar/careers",
     "orgId": "redf",
-    "contentHash": "f8defd83a95fdacc6d97cab65fcfe40bc18bd160220409f6c66378f69dc74e4b",
+    "contentHash": "2c23fa9b19af07850ac39d27f1b2a714bc30f112a3c5c01e2fdeb6044c07f232",
     "blockHashes": [
-      "f8defd83a95fdacc"
+      "2c23fa9b19af0785"
     ],
     "extractedChars": 500,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-02T23:42:46.216Z",
-    "lastChangedISO": "2026-09-14T22:38:33.682Z",
+    "lastChangedISO": "2026-09-15T21:05:09.935Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -5376,7 +5377,7 @@
   {
     "sourceUrl": "https://www.bog.gov.sa/en/EServices/judiciaryHiring/Pages/default.aspx",
     "orgId": "bog",
-    "contentHash": "81f8d73206efba83e5dada32be755e3c79048f06382e97494defc16051c79dd9",
+    "contentHash": "153d2ebf4c752893fa58c0b53c075e12e71bb9ddc7503b77e9bfd42e68348877",
     "blockHashes": [
       "46d9575ec382a9d1",
       "96c63175498462d9",
@@ -5388,9 +5389,9 @@
     "extractedChars": 756,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-15T20:21:13.380Z",
+    "lastChangedISO": "2026-09-15T21:06:42.606Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.bog.gov.sa/en/EServices/judiciaryHiring/Pages/Hiring.aspx",
@@ -10499,11 +10500,11 @@
   {
     "sourceUrl": "https://www.srca.org.sa/%d8%a7%d9%84%d8%aa%d9%88%d8%b8%d9%8a%d9%81/",
     "orgId": "srca",
-    "contentHash": "6533440555b1b1acbab784af4dec45640573f899b04ca98085b6af7c65ec70e3",
+    "contentHash": "4c6de891b7e92aa0a0d182cff63ebf96b9ee618ccf39a2fb105a7d1c95cd5d79",
     "blockHashes": [
       "13f48669ebfa59aa",
       "74e4c1d2a646a96e",
-      "07b38274cb59e3b7",
+      "1970e09ad9cae068",
       "68c03d860d910c71",
       "782261474561a27a",
       "201de1784c4f3dae",
@@ -10517,7 +10518,7 @@
     "extractedChars": 3013,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-14T22:38:33.682Z",
+    "lastChangedISO": "2026-09-15T21:23:18.293Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
