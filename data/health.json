@@ -1775,11 +1775,11 @@
   {
     "sourceUrl": "https://tetco.sa/ar/digital-education-and-training",
     "orgId": "tetco",
-    "lastAttemptISO": "2026-09-15T20:13:49.362Z",
+    "lastAttemptISO": "2026-09-15T21:02:04.942Z",
     "lastSuccessISO": "2026-09-15T20:13:49.362Z",
-    "consecutiveFailures": 0,
-    "lastError": null,
-    "state": "healthy"
+    "consecutiveFailures": 1,
+    "lastError": "HTTP 520",
+    "state": "degraded"
   },
   {
     "sourceUrl": "https://tetco.sa/ar/latest-news",
@@ -2297,8 +2297,8 @@
   {
     "sourceUrl": "https://www.ey.com/en_sa/careers/technology",
     "orgId": "ey_sa",
-    "lastAttemptISO": "2026-09-15T19:28:02.502Z",
-    "lastSuccessISO": "2026-09-15T19:28:02.502Z",
+    "lastAttemptISO": "2026-09-15T21:01:00.039Z",
+    "lastSuccessISO": "2026-09-15T21:01:00.039Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -3251,8 +3251,8 @@
   {
     "sourceUrl": "https://www.rcrc.gov.sa/careers/?lang=ar",
     "orgId": "rcrc",
-    "lastAttemptISO": "2026-09-15T20:13:49.362Z",
-    "lastSuccessISO": "2026-09-15T20:13:49.362Z",
+    "lastAttemptISO": "2026-09-15T21:02:04.942Z",
+    "lastSuccessISO": "2026-09-15T21:02:04.942Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
