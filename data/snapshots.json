@@ -551,16 +551,17 @@
   {
     "sourceUrl": "https://alinma.com/en/About-the-Bank/The-Bank/News/2011/12/alinmabankhoststrainingcourseoncorporatebusinessservicesandebanking",
     "orgId": "alinma",
-    "contentHash": "dcb3606a9bb54336e83db5feb638ef73a7291b2934ecd83a079b3a06bdcbff2f",
+    "contentHash": "0f70eda86e6c5883f5a3bbfb16cf3b49be9b3500a861f5f80811da3ef2f72fa6",
     "blockHashes": [
       "dcb3606a9bb54336"
     ],
     "extractedChars": 284,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T23:54:26.779Z",
-    "lastChangedISO": "2026-08-31T23:54:26.779Z",
+    "lastChangedISO": "2026-09-15T19:33:24.572Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://alinma.com/en/About-the-Bank/The-Bank/News/2013/05/alinmajobandcareerdayattractsgraduatesoftheinstituteofpublicadministration",
@@ -1331,15 +1332,15 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/search-results",
     "orgId": "maaden",
-    "contentHash": "7999a4108a4b1a6d9a3c7218b53543e65c9daa0aaa7da1141883238453c4cf8e",
+    "contentHash": "6b4444fbf8890fa911874c2af4d49aa3c6b4d1a6107abac5bd49a1238623569b",
     "blockHashes": [
-      "dab5a7f3801bc914",
-      "a5e3222dd0ed5d7c"
+      "0593a1678d987760",
+      "8700503abf7a7e9c"
     ],
-    "extractedChars": 162,
+    "extractedChars": 226,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-15T17:59:06.521Z",
+    "lastChangedISO": "2026-09-15T19:33:24.572Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
