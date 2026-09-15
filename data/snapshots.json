@@ -347,16 +347,16 @@
   {
     "sourceUrl": "https://alinma.com/About-the-Bank/The-Bank/News/2011/10/alinma-bank-hosts-training-course-on-corporate-business-services-and-e-banking-2011",
     "orgId": "alinma",
-    "contentHash": "098b0e6dcc2e488ddda67c147bb27ff492ac14160d548fddc554207b9a64b60c",
+    "contentHash": "c373ea00e6ad5ae422fbf768bcd540d03f51d1f69fb7a6b2782a2cfc9cc66f1a",
     "blockHashes": [
       "098b0e6dcc2e488d"
     ],
     "extractedChars": 281,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T23:54:26.779Z",
-    "lastChangedISO": "2026-08-31T23:54:26.779Z",
+    "lastChangedISO": "2026-09-15T19:51:07.058Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://alinma.com/About-the-Bank/The-Bank/News/2011/12/alinma-bank-hosts-training-course-on-corporate-business-services-and-e-banking",
@@ -2167,17 +2167,17 @@
   {
     "sourceUrl": "https://gaca.gov.sa/announcements",
     "orgId": "gaca",
-    "contentHash": "43d56aafa75c5fdc6eecd4df4980c6c11fd5f0591f3437bc7d122409ebf6cbcb",
+    "contentHash": "565719dfa5e05f2ab695bfda9c37cb92f640680e2503edebb62787730a955ef4",
     "blockHashes": [
-      "3dc602b3d08b9131",
+      "b90baa95a98f9ef2",
       "9c2a3967149440a8",
       "83a22e1f9fb245f8",
       "bc532942aaed49b7"
     ],
-    "extractedChars": 1214,
+    "extractedChars": 1215,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-15T16:38:39.136Z",
+    "lastChangedISO": "2026-09-15T19:42:50.365Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -3265,38 +3265,38 @@
   {
     "sourceUrl": "https://momah.gov.sa/ar/node/14717",
     "orgId": "housing",
-    "contentHash": "c44f99e8bb373266215a1bd3e1b1ed81c1d39c689fca383de0cd7ef55594411f",
+    "contentHash": "7a72f6718a51132a28640b32aa7cc28752fb74574cb9fc9bca8efa47a98fbd81",
     "blockHashes": [
       "cb4161ba67cbcfe8",
       "075ae909c8ed1c08",
       "a9b825825b3c6e51",
       "aa8e55eac5aea8cd",
       "09552ec2996654f9",
-      "bd523f455d557900",
+      "2b229b5c539fe5d9",
+      "c9463ca10652be13",
+      "b6630f028e50641a",
+      "c1e084206c7ae306",
       "ac1405062719fb86",
-      "75ab08590b37bfe0",
-      "8768599b4e548b94",
-      "fa3607fbd661b1cd",
-      "7963a097b94d9454",
+      "0c9756258dde3fd1",
+      "b9378a571f22f358",
+      "ff6f87e39638cb9b",
+      "2e1a84a1a945a9e1",
+      "09b1bd561f62b68f",
+      "bd134b036da83d9d",
+      "69739c17c9800808",
+      "5d15152619ff887e",
+      "2adf30717e55c493",
+      "5693cc6c780b2ae9",
+      "1d6d9ead3f0bec58",
       "560edfe1df9d8921",
       "23b97a8a93aba477",
       "9cd3abf7fd1573ff",
-      "71286db2154ea620",
-      "f65ff12f8216d040",
-      "20ddfe7d6280e52a",
-      "5d15152619ff887e",
-      "dcc9306105996f52",
-      "ff6f87e39638cb9b",
-      "7df68afb43e7917e",
-      "08dd52c1b874fcc0",
-      "623b90b0c86607c9",
-      "09b1bd561f62b68f",
-      "5836e3464c94d390"
+      "b8b6121a97b03144"
     ],
     "extractedChars": 152144,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-15T16:38:39.136Z",
+    "lastChangedISO": "2026-09-15T19:42:50.365Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -6388,10 +6388,10 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/careers?lang=ar",
     "orgId": "hrc",
-    "contentHash": "33c9b15bd991dc9f538d6575c65d34b2665e27e093e6e0c63b62e15fab978825",
+    "contentHash": "2909c3b80e3ef749da6531a4235c418729a4b24798efe8c2a65fc707d1958620",
     "blockHashes": [
       "12e41a244a8a2984",
-      "33cf57cc4321d36d",
+      "78d74f3e49bbd3b0",
       "9bd6314e9bbc7375",
       "474d2dbb69aae30b",
       "84b2fc11813dc7e8",
@@ -6415,7 +6415,7 @@
     "extractedChars": 3794,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-15T16:38:39.136Z",
+    "lastChangedISO": "2026-09-15T19:42:50.365Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -7623,7 +7623,7 @@
   {
     "sourceUrl": "https://www.mim.gov.sa/ar/empower-training/cooperative-training",
     "orgId": "mim",
-    "contentHash": "65e9f7f265f413a32488cdf5deef14f6b2400abc45e0601e6de05604d728f3f4",
+    "contentHash": "d1e938da8b55c592b07fd51f638cbc2ba47705f3a269f7ef9aa64db3703deed3",
     "blockHashes": [
       "1cb91553dd3291a4",
       "5300d4cdd32a8d33"
@@ -7631,7 +7631,7 @@
     "extractedChars": 2495,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T02:22:33.828Z",
-    "lastChangedISO": "2026-09-15T17:22:44.602Z",
+    "lastChangedISO": "2026-09-15T19:42:50.365Z",
     "thinRuns": 0,
     "pendingClassification": true,
     "classifyFailures": 1
@@ -8340,10 +8340,10 @@
   {
     "sourceUrl": "https://www.monshaat.gov.sa/",
     "orgId": "monshaat",
-    "contentHash": "bdbec7932422c0b0cc0c9e60efae748e34c2c6bc850912956641dc083b466d64",
+    "contentHash": "faa85a8a3b39be48e9724b12524064573e5a33097a3d98ea130afc02f72f0836",
     "blockHashes": [
       "67b4a7f14ee52f1b",
-      "d50dd161f6f86a1e",
+      "f3485b5d7cc19e61",
       "0e162f7ef75767ee",
       "e4ecec5f10d5a577",
       "dd5e96dcf2731c3e",
@@ -8357,10 +8357,10 @@
       "a63fbbd0d32a5cec",
       "20ba520b6f6ead91"
     ],
-    "extractedChars": 4318,
+    "extractedChars": 4384,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
-    "lastChangedISO": "2026-09-11T09:31:34.747Z",
+    "lastChangedISO": "2026-09-15T19:36:32.100Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -8557,19 +8557,22 @@
   {
     "sourceUrl": "https://www.nazaha.gov.sa/News/Details?q=LDqaftYCK2agKydxrbY5fg==",
     "orgId": "nazaha",
-    "contentHash": "7b164c47f2a4bf46d98d48c672ba0f488529533da1e1a6a0ecf8a13768c2a78f",
+    "contentHash": "afc0cf89c8af531be0e521f8000eb31601fb7b426c86eb3a2a399763893ff322",
     "blockHashes": [
-      "f88bab825da54de5",
+      "a167b0dd9b0e3e1c",
+      "74e4c1d2a646a96e",
+      "91154a03b001f94f",
       "6eca9a7e8f445a2e",
       "fcc9ab0ce14a3013",
-      "687dc7a896984645"
+      "b66c27af464bcada"
     ],
-    "extractedChars": 1117,
+    "extractedChars": 1140,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-14T21:10:10.715Z",
+    "lastChangedISO": "2026-09-15T19:42:50.365Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://www.nazaha.gov.sa/News/Details?q=o2ojUlDL5mGosOuEoGXXeg==",
@@ -9197,8 +9200,7 @@
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
     "lastChangedISO": "2026-09-15T13:08:42.574Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "triaged_out"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.rcrc.gov.sa/careers/?lang=ar",
@@ -10335,8 +10337,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-15T16:19:21.398Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.sfda.gov.sa/en/career-vision-and-mission",
@@ -10949,13 +10950,10 @@
   {
     "sourceUrl": "https://www.thiqah.sa/",
     "orgId": "thiqah",
-    "contentHash": "41585f247e073f7dfa50339963ead8d8387c9a1b752741091b485d74143c63b9",
+    "contentHash": "bba18d1332d9277cfb6fa175f6984c62b16db98c935a6738a2b6a55c5b1d20bc",
     "blockHashes": [
-      "56d61a024ef0c23a",
-      "988b9a8bf2486a9d",
-      "a4ad1af066840cba",
-      "2a753899ff945f72",
-      "0254baf3c601928d",
+      "2badba214de43400",
+      "cff1ddff4e992236",
       "e6bf180d162757ed",
       "ce6b1d76c3fa0a8f",
       "5702aa0bdde53d7c",
@@ -10968,7 +10966,7 @@
     "extractedChars": 2087,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-15T13:29:12.727Z",
+    "lastChangedISO": "2026-09-15T19:36:32.100Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
