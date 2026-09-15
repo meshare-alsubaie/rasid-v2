@@ -483,16 +483,17 @@
   {
     "sourceUrl": "https://alinma.com/en/About-the-Bank/The-Bank/News/2011/02/alinma-bank-and-al-khaleej-training-and-education-company-sign-education-financing-agreement",
     "orgId": "alinma",
-    "contentHash": "70a74a1f089753e696eeddf70fad8dc37077fa5ccfc5a3a8b2aca0acda0bcc62",
+    "contentHash": "852e09ff50c12673b90ef6af4ea3f78a53d35dcbde38429d65ecb0aa9c6b2dbc",
     "blockHashes": [
-      "70a74a1f089753e6"
+      "852e09ff50c12673"
     ],
     "extractedChars": 284,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T23:54:26.779Z",
-    "lastChangedISO": "2026-08-31T23:54:26.779Z",
+    "lastChangedISO": "2026-09-15T23:11:17.825Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "triaged_out"
   },
   {
     "sourceUrl": "https://alinma.com/en/About-the-Bank/The-Bank/News/2011/05/alinma-bank-participates-at-university-career-fairs",
@@ -3631,39 +3632,29 @@
   {
     "sourceUrl": "https://ndf.gov.sa/media-center/articles",
     "orgId": "ndf",
-    "contentHash": "0749b538208373065c38ff5d392e81c6b78b1b74764717fc543ab81c75b23464",
+    "contentHash": "39c7267104c1c95b9ea62c0979c33ad16a51ac67957296b5d429b95fe46aab44",
     "blockHashes": [
-      "e3916f2c792688c0",
-      "b4a5c7cd60560196",
-      "4c268b289192e891",
-      "d91f8453abc8bd97",
-      "0e33f45837a3e364"
+      "39c7267104c1c95b"
     ],
-    "extractedChars": 4129,
+    "extractedChars": 122,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-14T21:28:38.427Z",
+    "lastChangedISO": "2026-09-15T23:08:29.047Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://ndf.gov.sa/media-center/articles/article-human-resource-development",
     "orgId": "ndf",
-    "contentHash": "2435548acec0000d0f0bc8f20c60057ae1c616e53fa196d5dc7643dbf7255224",
+    "contentHash": "a8da2a7966a97847026219a85702cf38c5c7f4ff32a3ca55a71f24a27a2c593b",
     "blockHashes": [
-      "ec3691ed7bf354de",
-      "2e431a1caf07dcca",
-      "7a4afe45d7b2cb37",
-      "a16ea57600a8a4dd",
-      "2e1ebd364e8df9ef",
-      "d48f6957bf0d435d",
-      "e13becff422fb79f",
-      "2dce6a68bcf7278f"
+      "a8da2a7966a97847"
     ],
-    "extractedChars": 4225,
+    "extractedChars": 122,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-15T21:53:03.168Z",
+    "lastChangedISO": "2026-09-15T23:21:33.468Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -6363,10 +6354,10 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/careers",
     "orgId": "hrc",
-    "contentHash": "c25c1af8f6f6403b15d4b7d349057dc9c5977e9de31401636e8bd82e6314e83c",
+    "contentHash": "34166de833f9a79815dad1e38604495aa23d38729113047b8761337b0388657a",
     "blockHashes": [
       "12e41a244a8a2984",
-      "09dca427eea6d181",
+      "e1f3df1e254c7970",
       "9bd6314e9bbc7375",
       "474d2dbb69aae30b",
       "84b2fc11813dc7e8",
@@ -6390,9 +6381,9 @@
     "extractedChars": 3794,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-15T20:02:46.984Z",
+    "lastChangedISO": "2026-09-15T23:08:29.047Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/careers?lang=ar",
@@ -7634,7 +7625,7 @@
   {
     "sourceUrl": "https://www.mim.gov.sa/ar/empower-training/cooperative-training",
     "orgId": "mim",
-    "contentHash": "5b194c6e5cf856a93c33686013d6b275f477448c5d055aea781a4879e4cf6e90",
+    "contentHash": "ac633b194326cb409c7802172daa7d423582b6dcb98e2566e22c943d5d533e84",
     "blockHashes": [
       "1cb91553dd3291a4",
       "5300d4cdd32a8d33"
@@ -7642,7 +7633,7 @@
     "extractedChars": 2495,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T02:22:33.828Z",
-    "lastChangedISO": "2026-09-15T22:26:54.932Z",
+    "lastChangedISO": "2026-09-15T23:14:15.815Z",
     "thinRuns": 0,
     "pendingClassification": true,
     "classifyFailures": 1
@@ -8596,19 +8587,22 @@
   {
     "sourceUrl": "https://www.nazaha.gov.sa/News/Details?q=o2ojUlDL5mGosOuEoGXXeg==",
     "orgId": "nazaha",
-    "contentHash": "aef759734e840de2ff1229a1b6bb0cb5be74b8fe2ab0195d386b3e4c2438cdd1",
+    "contentHash": "9e5af03aae54093b916eeb69598f38191d69cc5f729a97454555b193b827523c",
     "blockHashes": [
-      "6bb0852817b74fc6",
+      "a167b0dd9b0e3e1c",
+      "74e4c1d2a646a96e",
+      "22bf61233156e10c",
       "8d35c6dbfb6149bf",
       "934470dd7b84953f",
-      "db91f83ef7359a6e"
+      "b97ad38f7d56bff9"
     ],
     "extractedChars": 783,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-15T20:16:17.855Z",
+    "lastChangedISO": "2026-09-15T23:21:33.468Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "triaged_out"
   },
   {
     "sourceUrl": "https://www.ncc.gov.sa/ar/MediaCenter/Events/Pages/default.aspx",
