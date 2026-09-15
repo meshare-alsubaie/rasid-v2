@@ -471,7 +471,7 @@
     "blockHashes": [
       "2ea369c767fdd2b5"
     ],
-    "extractedChars": 285,
+    "extractedChars": 284,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T23:54:26.779Z",
     "lastChangedISO": "2026-08-31T23:54:26.779Z",
@@ -2187,19 +2187,20 @@
   {
     "sourceUrl": "https://gaca.gov.sa/ar/announcements",
     "orgId": "gaca",
-    "contentHash": "ad19e57e0ff2ecbe442036a3a1227181584fbabaad022a948b095bb635754ce6",
+    "contentHash": "eb3d38755641b303814e26635b6d9ba739df2dcd97ae6d1884dc21684487870d",
     "blockHashes": [
-      "93a5f3b77e53b7c4",
+      "e0a4d8782d150996",
       "9c2a3967149440a8",
       "83a22e1f9fb245f8",
-      "bc532942aaed49b7"
+      "ac473f85e97b4d85"
     ],
-    "extractedChars": 1214,
+    "extractedChars": 1470,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-14T20:46:39.718Z",
+    "lastChangedISO": "2026-09-15T12:56:59.192Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://gaca.gov.sa/ar/News",
@@ -3008,9 +3009,9 @@
   {
     "sourceUrl": "https://modon.gov.sa/",
     "orgId": "modon",
-    "contentHash": "ef86eb00ffb99ed7896f875d35dc5094f6e4a99b758be60e1d47e8c05ccc9880",
+    "contentHash": "bbd4d3df29892389b566a9424e0d23ecb70e8ef0c2ce3cc7803f95270b0d783a",
     "blockHashes": [
-      "4b41248b400db067",
+      "03682b75db6ebe96",
       "0edf2292f0637ccb",
       "c32ffa2c93fe0d09",
       "9066ce9805b0428c",
@@ -3032,9 +3033,10 @@
     "extractedChars": 5996,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-14T17:21:02.291Z",
+    "lastChangedISO": "2026-09-15T12:56:59.192Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://modon.gov.sa/ar/MediaCenter/modon-news/News/Pages/default.aspx",
@@ -3230,7 +3232,7 @@
   {
     "sourceUrl": "https://momah.gov.sa/ar/news",
     "orgId": "housing",
-    "contentHash": "ca8b66a8b09f4f1233e9f5e4109904670c337c014b562c011d0e3d7a545a111c",
+    "contentHash": "f0d401e8449d7f129f0dd62fe97689060600debde58bc86f166a2c8ae35a58f3",
     "blockHashes": [
       "c39d79399ac7deac",
       "6dd936dd3894b0a4",
@@ -3240,31 +3242,31 @@
       "066ae42109053cb0",
       "aa8e55eac5aea8cd",
       "09552ec2996654f9",
-      "92d8dda6186fa7f4",
-      "6c602a38d3b91438",
-      "5d15152619ff887e",
-      "62326dc19dc33945",
+      "16c383427665e965",
+      "00f30fc16c0757ac",
+      "a9974bffd494fe90",
+      "0155f3469fd8e414",
+      "ff6f87e39638cb9b",
+      "4b0b13b0786f5162",
+      "467706bf88d9b2a4",
       "560edfe1df9d8921",
       "23b97a8a93aba477",
       "9cd3abf7fd1573ff",
-      "79d00a75eedd8d21",
-      "28949998667c4f93",
-      "d1f904d7d1691973",
-      "319f4693e0d7445f",
-      "ac1405062719fb86",
-      "c540c38452dd188b",
-      "723d33d8be9b1c30",
+      "ddfbc137f1caac30",
       "09b1bd561f62b68f",
-      "c635bf63b4a75eaa",
-      "7e9b4720383552d6",
-      "ff6f87e39638cb9b",
-      "8d718d3d9dd0bf28",
-      "d57bb064b44f01b3"
+      "b1f2d409b757c95d",
+      "f1534b8cd68cfd95",
+      "5d15152619ff887e",
+      "55bfe86a4583321c",
+      "5a89097ff7bab8be",
+      "ac1405062719fb86",
+      "6e0e7c5b823a7bbb",
+      "2fb681c9806bb032"
     ],
-    "extractedChars": 151394,
+    "extractedChars": 151354,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-14T20:22:50.343Z",
+    "lastChangedISO": "2026-09-15T12:56:59.192Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -6240,7 +6242,8 @@
     "firstSeenISO": "2026-08-29T22:03:35.383Z",
     "lastChangedISO": "2026-09-14T11:19:06.828Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://www.fakeeh.care/news-and-media",
@@ -6504,10 +6507,10 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/cooperations?lang=ar",
     "orgId": "hrc",
-    "contentHash": "111a52b8d8dfc77cd43feadea65cae92586f5810e63143baa0a60cf6f5e9f8c1",
+    "contentHash": "9f8d893fa031690178db5ce908d788eefa536be381556f201a2a437ac49e4ad5",
     "blockHashes": [
       "12e41a244a8a2984",
-      "b17f33a0ee84a0ef",
+      "e986a433a1d79fbb",
       "15c715928fc246c0",
       "9a4a215f8452ca45",
       "961639689d2c8819",
@@ -6528,9 +6531,9 @@
     "extractedChars": 6137,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-14T20:46:39.718Z",
+    "lastChangedISO": "2026-09-15T12:56:59.192Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/news?lang=ar",
@@ -8500,17 +8503,18 @@
   {
     "sourceUrl": "https://www.nazaha.gov.sa/News",
     "orgId": "nazaha",
-    "contentHash": "b59e6de4c936089d27223090a5b4ff49ee3ce85cffcc199a8773b77b0280f08b",
+    "contentHash": "cb75e0b8493c14261b314c19a64fd1157f681818872bb2279f216ac7ca0ced78",
     "blockHashes": [
-      "295f8b507edd14f1",
+      "b15efe9d67dd86a1",
       "071be15c674c4a59"
     ],
     "extractedChars": 240,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-14T11:11:46.026Z",
+    "lastChangedISO": "2026-09-15T12:56:59.192Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "triaged_out"
   },
   {
     "sourceUrl": "https://www.nazaha.gov.sa/News/Details?q=+ZUW2RPX/9RAyHyLvILpaw==",
@@ -9973,8 +9977,7 @@
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
     "lastChangedISO": "2026-09-14T11:11:46.026Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.saso.gov.sa/ar/QualitySign/info/Pages/default.aspx",
