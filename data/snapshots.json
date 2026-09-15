@@ -3737,8 +3737,7 @@
     "firstSeenISO": "2026-08-29T22:03:35.383Z",
     "lastChangedISO": "2026-09-15T13:16:46.481Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://nour.net.sa/ar/news/",
@@ -8524,9 +8523,11 @@
   {
     "sourceUrl": "https://www.nazaha.gov.sa/News/Details?q=HNQU9DHVnwVHan0Mf562ug==",
     "orgId": "nazaha",
-    "contentHash": "eb6f77afdb7c3e4f911af16d1f814606d616e530ff7204967b10889ba5d6ed37",
+    "contentHash": "340db3908f6dff56ec820b913e99608751bd54574184806dd4dd95e7c0c4e3bb",
     "blockHashes": [
-      "da6549b0ee568dc8",
+      "a167b0dd9b0e3e1c",
+      "74e4c1d2a646a96e",
+      "c1b1eb942fb70479",
       "366f824a751bf3bd",
       "a96b8a7b6f568013",
       "4d9af472ef4907d3",
@@ -8542,14 +8543,15 @@
       "b4fad455ecb46d87",
       "e52b91073cbf6bc1",
       "41022e960359c13b",
-      "687dc7a896984645"
+      "b66c27af464bcada"
     ],
-    "extractedChars": 3927,
+    "extractedChars": 4010,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-15T13:13:51.902Z",
+    "lastChangedISO": "2026-09-15T19:22:15.318Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://www.nazaha.gov.sa/News/Details?q=LDqaftYCK2agKydxrbY5fg==",
@@ -9200,17 +9202,16 @@
   {
     "sourceUrl": "https://www.rcrc.gov.sa/careers/?lang=ar",
     "orgId": "rcrc",
-    "contentHash": "1add36c44ac2189829ba9e2525f5cb3eb0802a4ce57ae7a929644fea85cff29e",
+    "contentHash": "6987e35db5b6e60d8bc523337002d80b1c42cc98cb19f0812ca915bff9edd2d1",
     "blockHashes": [
-      "8434180539cdc9ee"
+      "6987e35db5b6e60d"
     ],
-    "extractedChars": 1166,
+    "extractedChars": 785,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-15T17:37:10.904Z",
+    "lastChangedISO": "2026-09-15T19:24:54.675Z",
     "thinRuns": 0,
-    "pendingClassification": true,
-    "classifyFailures": 1
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.rcrc.gov.sa/media-center/",
@@ -9265,10 +9266,10 @@
   {
     "sourceUrl": "https://www.rcu.gov.sa/",
     "orgId": "rcu",
-    "contentHash": "af7760bf354dfba64e21285241c88cf2a5a063310ab43f8cf928cc70d10f5d68",
+    "contentHash": "5cc8dcf42640ff854c3dae1f0f8e4a1e040cda9106ca5e3a392e08bade8f425e",
     "blockHashes": [
       "1ce798e0ca5f6070",
-      "90ac8dcf32215a9e",
+      "b6dc82c7de7cdaff",
       "a798bbb74bbfb300",
       "447341e6c7a8cdbe",
       "b063cbda5953f880",
@@ -9383,9 +9384,10 @@
     "extractedChars": 21705,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
-    "lastChangedISO": "2026-08-31T00:02:49.563Z",
+    "lastChangedISO": "2026-09-15T19:22:15.318Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://www.rcu.gov.sa/contact/careers",
@@ -10167,7 +10169,7 @@
   {
     "sourceUrl": "https://www.sfd.gov.sa/",
     "orgId": "sfd",
-    "contentHash": "268cf59c8c3a98b31e33c2a6dec5ec59d1689ec866137ab2027a9da165a78490",
+    "contentHash": "a6495df32e11ef62a6ca4c6dfeed0f935f2ec3543ad14870f169e45c2d1ce0a4",
     "blockHashes": [
       "90f1beb499c78f2f",
       "44057a585ad0ab08",
@@ -10190,16 +10192,17 @@
       "6ccd783aad1e8081",
       "60ce1b371873803a",
       "1b1de0c77182cf74",
-      "97d9316c32096be6",
-      "caec02b1ba3475b9",
-      "efc5afe33b0063f8"
+      "ad9acf9f1c38da24",
+      "1ffe576b2b804bd8",
+      "caec02b1ba3475b9"
     ],
-    "extractedChars": 8505,
+    "extractedChars": 8425,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
-    "lastChangedISO": "2026-09-01T22:47:39.955Z",
+    "lastChangedISO": "2026-09-15T19:22:15.318Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "triaged_out"
   },
   {
     "sourceUrl": "https://www.sfd.gov.sa/ar/50years-news",
@@ -10247,7 +10250,7 @@
   {
     "sourceUrl": "https://www.sfda.gov.sa/ar",
     "orgId": "sfda",
-    "contentHash": "c90e8b97137ab685fbd0f0a8065fa48e5890a166fd6d6f71985ae9f6cddda35c",
+    "contentHash": "d729946fb26f7eec0c0eda2b394dda4a350501402c3f3fd8fe667a9dfa7f02ca",
     "blockHashes": [
       "453064c4c6654ab4",
       "6ecc1b58c61ff1cd",
@@ -10277,7 +10280,7 @@
       "3b931cad7ef53a13",
       "658b43d0993d5397",
       "60b6afb763e71c83",
-      "b60eeaa1bae23373",
+      "8450610a87e81797",
       "b69ab73ade473181",
       "fe04993c9918963a",
       "c34e7809d5a8fb66"
@@ -10285,7 +10288,7 @@
     "extractedChars": 6292,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-15T13:16:46.481Z",
+    "lastChangedISO": "2026-09-15T19:22:15.318Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -10654,8 +10657,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-15T13:13:51.902Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.stats.gov.sa/ar/cooperative-training",
