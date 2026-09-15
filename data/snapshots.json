@@ -350,7 +350,7 @@
     "blockHashes": [
       "098b0e6dcc2e488d"
     ],
-    "extractedChars": 305,
+    "extractedChars": 281,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T23:54:26.779Z",
     "lastChangedISO": "2026-08-31T23:54:26.779Z",
@@ -3381,7 +3381,7 @@
   {
     "sourceUrl": "https://nca.gov.sa/ar/education-program/",
     "orgId": "ncac",
-    "contentHash": "a0d53a986f0eb4a1207679081b9721ab83e1253632be5e1026aac9d7e8bda3bb",
+    "contentHash": "4be4864a50f947be07cee47f9e65c9204f5286d526e0ee26426da2d15ecc632a",
     "blockHashes": [
       "d5ca92ea742fdb6f",
       "2c957c09f7e685a0",
@@ -3393,9 +3393,9 @@
     "extractedChars": 807,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
-    "lastChangedISO": "2026-09-13T15:26:28.878Z",
+    "lastChangedISO": "2026-09-15T14:10:14.697Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://nca.gov.sa/ar/nca-academy/",
@@ -9150,17 +9150,16 @@
   {
     "sourceUrl": "https://www.rcrc.gov.sa/careers/?lang=ar",
     "orgId": "rcrc",
-    "contentHash": "a3970731a6954a0289150c7b7422428136abc4e8540260aa680303be4c6e4693",
+    "contentHash": "8915d7cf5ad7f7e12332fbf54d9b2f8b177977f79edebc86476e49cb75ec005a",
     "blockHashes": [
-      "22ab2e6b0a32ed53"
+      "8915d7cf5ad7f7e1"
     ],
-    "extractedChars": 1166,
+    "extractedChars": 784,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-15T13:24:59.158Z",
+    "lastChangedISO": "2026-09-15T14:17:05.543Z",
     "thinRuns": 0,
-    "pendingClassification": true,
-    "classifyFailures": 1
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.rcrc.gov.sa/media-center/",
