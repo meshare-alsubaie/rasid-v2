@@ -644,7 +644,7 @@
   {
     "sourceUrl": "https://athkax.sdaia.gov.sa/coop",
     "orgId": "sdaia",
-    "contentHash": "149dac3782e23b92d6292f77a69dc8697b9a8115e558dd26d5838bee370b30cb",
+    "contentHash": "a58f144950bb22de0c4667555dc3401317db3a7e9e0679e6a27c03768b15a660",
     "blockHashes": [
       "04ba8a3fca46514f",
       "4bd08244050e9682"
@@ -652,7 +652,7 @@
     "extractedChars": 756,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-15T12:25:30.195Z",
+    "lastChangedISO": "2026-09-15T13:20:09.910Z",
     "thinRuns": 0,
     "pendingClassification": true,
     "classifyFailures": 1
@@ -3671,14 +3671,15 @@
     "orgId": "ndf",
     "contentHash": "869f0f781b1635668e1cd57c622fd1256419452d54313163205ce5eff3f671c3",
     "blockHashes": [
-      "79f92287b8ec69f9"
+      "869f0f781b163566"
     ],
     "extractedChars": 1214,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-14T21:00:37.129Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://ndf.gov.sa/media-center/press-news",
@@ -3713,7 +3714,7 @@
   {
     "sourceUrl": "https://nour.net.sa/ar/",
     "orgId": "nournet",
-    "contentHash": "7ff3edfcee431138a48b915ecbf2bc2c15a949fd8988e78e7808078de5273e8a",
+    "contentHash": "ccece23935df3cac7a223211e2f7b45f98fc9caee364648dc4c1521b481f5368",
     "blockHashes": [
       "d273f51ab1fc8358",
       "c7d4cc00704cdb7c",
@@ -3737,15 +3738,17 @@
       "76746f52976848b1",
       "73ea57f5d3f49927",
       "f113972f5bda8fba",
-      "62bf404445b0fa36"
+      "62bf404445b0fa36",
+      "d0e89f8b02ff9960",
+      "139546e1bb791f29"
     ],
     "extractedChars": 3805,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T22:03:35.383Z",
-    "lastChangedISO": "2026-09-14T17:53:25.611Z",
+    "lastChangedISO": "2026-09-15T13:16:46.481Z",
     "thinRuns": 0,
     "pendingClassification": false,
-    "settledWithoutVerdict": "triaged_out"
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://nour.net.sa/ar/news/",
@@ -7635,7 +7638,7 @@
   {
     "sourceUrl": "https://www.mim.gov.sa/ar/empower-training/cooperative-training",
     "orgId": "mim",
-    "contentHash": "5fe4e5596f674180bed11463a530f9d3bc12261926b65c786f69e49a8caffd2e",
+    "contentHash": "31b6e5b4e2eea2c60258f4370356107b30d867a52c315ed66b6685bc2b7918b0",
     "blockHashes": [
       "1cb91553dd3291a4",
       "5300d4cdd32a8d33"
@@ -7643,7 +7646,7 @@
     "extractedChars": 2495,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T02:22:33.828Z",
-    "lastChangedISO": "2026-09-15T12:25:30.195Z",
+    "lastChangedISO": "2026-09-15T13:20:09.910Z",
     "thinRuns": 0,
     "pendingClassification": true,
     "classifyFailures": 1
@@ -10262,7 +10265,7 @@
   {
     "sourceUrl": "https://www.sfda.gov.sa/ar",
     "orgId": "sfda",
-    "contentHash": "0ef9fc1bf12b5c64fd2ccf394c88789e0662dffc6438af69b89158662f9e6770",
+    "contentHash": "c90e8b97137ab685fbd0f0a8065fa48e5890a166fd6d6f71985ae9f6cddda35c",
     "blockHashes": [
       "453064c4c6654ab4",
       "6ecc1b58c61ff1cd",
@@ -10295,12 +10298,12 @@
       "b60eeaa1bae23373",
       "b69ab73ade473181",
       "fe04993c9918963a",
-      "79ab21cd8cc2bc78"
+      "c34e7809d5a8fb66"
     ],
     "extractedChars": 6292,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-14T17:53:25.611Z",
+    "lastChangedISO": "2026-09-15T13:16:46.481Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -10920,18 +10923,18 @@
   {
     "sourceUrl": "https://www.tahakom.com/careers",
     "orgId": "tahakom",
-    "contentHash": "457f65df725621cf1ff8df157d2d7ad5927ef366ef94aa5e45fdfae4dd6d3b3f",
+    "contentHash": "66a1b215d71b598e5c8f4def386779d5d875b8060e2f1e761d7fed159451f4b0",
     "blockHashes": [
       "d44217251213a019",
       "611753a8aea1ade1",
       "0cea4d38306888dc",
       "1a5263a5a2541c46",
-      "a937a81f39e1b5a8"
+      "264d6b3abc2256d1"
     ],
     "extractedChars": 838,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-03T05:13:40.059Z",
-    "lastChangedISO": "2026-09-15T12:25:30.195Z",
+    "lastChangedISO": "2026-09-15T13:20:09.910Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
