@@ -239,24 +239,25 @@
   {
     "sourceUrl": "https://alinma.com/",
     "orgId": "alinma",
-    "contentHash": "e3e15acc061efe3b586f524927d5a77156548f0c6a026f569120d0846e72617f",
+    "contentHash": "821ffd6ba28ac2569d5b6ff8bb873f6e26fd2a03bfc6f504709d60470226efad",
     "blockHashes": [
-      "70160dbe093ae49d",
+      "26af33ae09db9279",
       "0a14ab6988360391",
       "eee691e668c36a27",
       "7472f35a35d5be62",
       "5a893dabed2d6dcf",
       "cfc4a6c7d4a4fcdc",
       "d7e8cb14f77516db",
-      "4a0a0dae21010195",
+      "17e1088372d55e5e",
       "fcdc707f0342be1e"
     ],
-    "extractedChars": 1260,
+    "extractedChars": 1479,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T22:03:35.383Z",
-    "lastChangedISO": "2026-09-10T21:10:55.243Z",
+    "lastChangedISO": "2026-09-15T17:41:25.412Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "triaged_out"
   },
   {
     "sourceUrl": "https://alinma.com/About-the-Bank/The-Bank/News",
@@ -4369,7 +4370,7 @@
   {
     "sourceUrl": "https://training.moj.gov.sa/",
     "orgId": "moj",
-    "contentHash": "f4c6ef6b783b69d09a8f681ad1d80f1df35ef8cb8864917255879208cc305886",
+    "contentHash": null,
     "blockHashes": [
       "84a570379809f573",
       "ab443a0bbfda7883"
@@ -5463,18 +5464,18 @@
   {
     "sourceUrl": "https://www.bog.gov.sa/en/EServices/judiciaryHiring/Pages/Hiring.aspx",
     "orgId": "bog",
-    "contentHash": "991a6aba6915675d3432f1fa6317b1271691eedeb4f729a07b62fe0c0620b0a0",
+    "contentHash": "6635fa4c3d3bd50914f5da28c4c617ed4f7368cc92708f67e06332e4497360e5",
     "blockHashes": [
       "46d9575ec382a9d1",
       "96c63175498462d9",
       "f4b9821710ab784e",
-      "c56b263d910d820d",
+      "14a91afead641f0d",
       "ec5d6ba37d25b982"
     ],
     "extractedChars": 609,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-15T13:47:55.429Z",
+    "lastChangedISO": "2026-09-15T17:44:29.413Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
