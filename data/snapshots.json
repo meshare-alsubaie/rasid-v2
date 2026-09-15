@@ -655,8 +655,8 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-15T16:29:27.862Z",
     "thinRuns": 0,
-    "pendingClassification": true,
-    "classifyFailures": 2
+    "pendingClassification": false,
+    "classifyFailures": 3
   },
   {
     "sourceUrl": "https://awqaf.gov.sa/ar/ar/hiring/",
@@ -7621,7 +7621,7 @@
   {
     "sourceUrl": "https://www.mim.gov.sa/ar/empower-training/cooperative-training",
     "orgId": "mim",
-    "contentHash": "d1e938da8b55c592b07fd51f638cbc2ba47705f3a269f7ef9aa64db3703deed3",
+    "contentHash": "995afb136e2535a9f7384d051c01dd456c48bf372c17f4fbc17dd71f77bd8be9",
     "blockHashes": [
       "1cb91553dd3291a4",
       "5300d4cdd32a8d33"
@@ -7629,7 +7629,7 @@
     "extractedChars": 2495,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T02:22:33.828Z",
-    "lastChangedISO": "2026-09-15T19:42:50.365Z",
+    "lastChangedISO": "2026-09-15T20:35:37.349Z",
     "thinRuns": 0,
     "pendingClassification": true,
     "classifyFailures": 1
@@ -8454,16 +8454,16 @@
   {
     "sourceUrl": "https://www.nazaha.gov.sa/",
     "orgId": "nazaha",
-    "contentHash": "7b95688b2da885ba3718896e8ebe7b7edf194bdd33d629d6d858dc3309bd61b1",
+    "contentHash": "517884fa6f4184101fd4031953fed4d20e6f840e4266d686154d2e59bf08e728",
     "blockHashes": [
       "aa47ff93014d49e2",
       "c3fc1cda7b3b3192",
       "6e57684a145062e2"
     ],
-    "extractedChars": 877,
+    "extractedChars": 506,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T22:03:35.383Z",
-    "lastChangedISO": "2026-09-15T14:00:42.200Z",
+    "lastChangedISO": "2026-09-15T20:28:51.963Z",
     "thinRuns": 0,
     "pendingClassification": true
   },
