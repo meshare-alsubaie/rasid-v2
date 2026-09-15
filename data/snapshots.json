@@ -378,7 +378,7 @@
     "blockHashes": [
       "19f98cb9e93d49e5"
     ],
-    "extractedChars": 305,
+    "extractedChars": 281,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T23:54:26.779Z",
     "lastChangedISO": "2026-08-31T23:54:26.779Z",
@@ -758,7 +758,7 @@
   {
     "sourceUrl": "https://career.alinma.com/",
     "orgId": "alinma",
-    "contentHash": "e245fd94c1ab59dcc6bad34af50ba34c224654b27d2f46834c18eef001143fa5",
+    "contentHash": null,
     "blockHashes": [
       "d139e32e22028878",
       "24a16c9057a577bb",
@@ -3623,7 +3623,7 @@
     "orgId": "ndf",
     "contentHash": "0749b538208373065c38ff5d392e81c6b78b1b74764717fc543ab81c75b23464",
     "blockHashes": [
-      "e5202dd96f62a6a4",
+      "e3916f2c792688c0",
       "b4a5c7cd60560196",
       "4c268b289192e891",
       "d91f8453abc8bd97",
@@ -3634,7 +3634,8 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-14T21:28:38.427Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://ndf.gov.sa/media-center/articles/article-human-resource-development",
@@ -6355,10 +6356,10 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/careers",
     "orgId": "hrc",
-    "contentHash": "ee7d2fa3691ceee607886c15b55fb8720dae87d01ff26d1d8074271df2fba3d3",
+    "contentHash": "a7e395aa2359fe96164e982ba4422c5fbed9fe24c19dffdcc4f69bb9b4367a5f",
     "blockHashes": [
       "12e41a244a8a2984",
-      "e97c746c25c435c8",
+      "09dca427eea6d181",
       "9bd6314e9bbc7375",
       "474d2dbb69aae30b",
       "84b2fc11813dc7e8",
@@ -6382,9 +6383,9 @@
     "extractedChars": 3794,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-15T13:47:55.429Z",
+    "lastChangedISO": "2026-09-15T16:55:08.125Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/careers?lang=ar",
@@ -6834,14 +6835,15 @@
       "92ab7c84ae7e0913",
       "57660151857cb8ac",
       "f240ebfacade946d",
-      "4ab92750a617d8c0"
+      "3d5d56b2146f1a51"
     ],
     "extractedChars": 2913,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-15T13:47:55.429Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://www.hrsd.gov.sa/media-center/news",
@@ -8572,7 +8574,7 @@
     "orgId": "nazaha",
     "contentHash": "389f92c69043ca04cc9df13f82f3a6db8054ece4df351d3ddcf4093a4fb59316",
     "blockHashes": [
-      "3ec5b00bd22ecd8a",
+      "6bb0852817b74fc6",
       "8d35c6dbfb6149bf",
       "934470dd7b84953f",
       "db91f83ef7359a6e"
@@ -8582,7 +8584,8 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-14T21:37:36.004Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "triaged_out"
   },
   {
     "sourceUrl": "https://www.ncc.gov.sa/ar/MediaCenter/Events/Pages/default.aspx",
@@ -10880,8 +10883,8 @@
     "firstSeenISO": "2026-09-02T23:42:46.216Z",
     "lastChangedISO": "2026-09-15T14:36:06.682Z",
     "thinRuns": 0,
-    "pendingClassification": true,
-    "classifyFailures": 2
+    "pendingClassification": false,
+    "classifyFailures": 3
   },
   {
     "sourceUrl": "https://www.tahakom.com/",
