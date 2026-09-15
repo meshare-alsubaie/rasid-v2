@@ -326,11 +326,11 @@
   {
     "sourceUrl": "https://athkax.sdaia.gov.sa/coop",
     "orgId": "sdaia",
-    "lastAttemptISO": "2026-09-15T17:22:44.602Z",
+    "lastAttemptISO": "2026-09-15T18:11:50.065Z",
     "lastSuccessISO": "2026-09-15T17:22:44.602Z",
-    "consecutiveFailures": 0,
-    "lastError": null,
-    "state": "healthy"
+    "consecutiveFailures": 1,
+    "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
+    "state": "degraded"
   },
   {
     "sourceUrl": "https://awqaf.gov.sa/ar/ar/hiring/",
@@ -371,11 +371,11 @@
   {
     "sourceUrl": "https://bankalbilad.com/ar/about/Pages/Training.aspx",
     "orgId": "albilad",
-    "lastAttemptISO": "2026-09-15T17:22:44.602Z",
+    "lastAttemptISO": "2026-09-15T18:11:50.065Z",
     "lastSuccessISO": "2026-09-15T17:22:44.602Z",
-    "consecutiveFailures": 0,
-    "lastError": null,
-    "state": "healthy"
+    "consecutiveFailures": 1,
+    "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
+    "state": "degraded"
   },
   {
     "sourceUrl": "https://career.alinma.com/",
@@ -389,8 +389,8 @@
   {
     "sourceUrl": "https://career.dga.gov.sa/",
     "orgId": "dga",
-    "lastAttemptISO": "2026-09-15T17:12:19.623Z",
-    "lastSuccessISO": "2026-09-15T17:12:19.623Z",
+    "lastAttemptISO": "2026-09-15T17:59:06.521Z",
+    "lastSuccessISO": "2026-09-15T17:59:06.521Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -542,11 +542,11 @@
   {
     "sourceUrl": "https://careers.ejada.com/",
     "orgId": "ejada",
-    "lastAttemptISO": "2026-09-15T15:01:23.046Z",
+    "lastAttemptISO": "2026-09-15T18:01:55.095Z",
     "lastSuccessISO": "2026-09-15T15:01:23.046Z",
-    "consecutiveFailures": 0,
-    "lastError": null,
-    "state": "healthy"
+    "consecutiveFailures": 1,
+    "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
+    "state": "degraded"
   },
   {
     "sourceUrl": "https://careers.ejada.com/ar/",
@@ -596,8 +596,8 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/search-results",
     "orgId": "maaden",
-    "lastAttemptISO": "2026-09-15T17:12:19.623Z",
-    "lastSuccessISO": "2026-09-15T17:12:19.623Z",
+    "lastAttemptISO": "2026-09-15T17:59:06.521Z",
+    "lastSuccessISO": "2026-09-15T17:59:06.521Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -758,11 +758,11 @@
   {
     "sourceUrl": "https://careers.scfhs.org.sa/ar/page/build-you-future/",
     "orgId": "scfhs",
-    "lastAttemptISO": "2026-09-15T17:12:19.623Z",
+    "lastAttemptISO": "2026-09-15T18:01:55.095Z",
     "lastSuccessISO": "2026-09-15T17:12:19.623Z",
-    "consecutiveFailures": 0,
-    "lastError": null,
-    "state": "healthy"
+    "consecutiveFailures": 1,
+    "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
+    "state": "degraded"
   },
   {
     "sourceUrl": "https://careers.scfhs.org.sa/ar/page/on-the-job-training/",
@@ -920,8 +920,8 @@
   {
     "sourceUrl": "https://futureskills.mcit.gov.sa/en/coop-training",
     "orgId": "mcit",
-    "lastAttemptISO": "2026-09-15T17:12:19.623Z",
-    "lastSuccessISO": "2026-09-15T17:12:19.623Z",
+    "lastAttemptISO": "2026-09-15T17:59:06.521Z",
+    "lastSuccessISO": "2026-09-15T17:59:06.521Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -1199,8 +1199,8 @@
   {
     "sourceUrl": "https://misa.gov.sa/ar/",
     "orgId": "misa",
-    "lastAttemptISO": "2026-09-15T12:00:28.033Z",
-    "lastSuccessISO": "2026-09-15T12:00:28.033Z",
+    "lastAttemptISO": "2026-09-15T18:01:55.095Z",
+    "lastSuccessISO": "2026-09-15T18:01:55.095Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -1559,11 +1559,11 @@
   {
     "sourceUrl": "https://redf.gov.sa/ar/careers",
     "orgId": "redf",
-    "lastAttemptISO": "2026-09-15T15:01:23.046Z",
+    "lastAttemptISO": "2026-09-15T18:01:55.095Z",
     "lastSuccessISO": "2026-09-15T15:01:23.046Z",
-    "consecutiveFailures": 0,
-    "lastError": null,
-    "state": "healthy"
+    "consecutiveFailures": 1,
+    "lastError": "page.goto: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://redf.gov.sa/ar/careers\", waiting until \"domcontentloaded\"\u001b[22m\n",
+    "state": "degraded"
   },
   {
     "sourceUrl": "https://rega.gov.sa/login/?redirectId=32017",
@@ -1577,11 +1577,11 @@
   {
     "sourceUrl": "https://rega.gov.sa/media-center/",
     "orgId": "rega",
-    "lastAttemptISO": "2026-09-15T15:01:23.046Z",
+    "lastAttemptISO": "2026-09-15T18:01:55.095Z",
     "lastSuccessISO": "2026-09-15T15:01:23.046Z",
-    "consecutiveFailures": 0,
-    "lastError": null,
-    "state": "healthy"
+    "consecutiveFailures": 1,
+    "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
+    "state": "degraded"
   },
   {
     "sourceUrl": "https://rega.gov.sa/media-center/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%88%D8%A7%D9%84%D8%A5%D8%B9%D9%84%D8%A7%D9%86%D8%A7%D8%AA/",
@@ -1766,11 +1766,11 @@
   {
     "sourceUrl": "https://tetco.sa/ar/careers",
     "orgId": "tetco",
-    "lastAttemptISO": "2026-09-15T17:12:19.623Z",
+    "lastAttemptISO": "2026-09-15T18:01:55.095Z",
     "lastSuccessISO": "2026-09-15T17:12:19.623Z",
-    "consecutiveFailures": 0,
-    "lastError": null,
-    "state": "healthy"
+    "consecutiveFailures": 1,
+    "lastError": "fetch failed",
+    "state": "degraded"
   },
   {
     "sourceUrl": "https://tetco.sa/ar/digital-education-and-training",
@@ -1811,8 +1811,8 @@
   {
     "sourceUrl": "https://tvtc.gov.sa/",
     "orgId": "tvtc",
-    "lastAttemptISO": "2026-09-15T12:00:28.033Z",
-    "lastSuccessISO": "2026-09-15T12:00:28.033Z",
+    "lastAttemptISO": "2026-09-15T18:01:55.095Z",
+    "lastSuccessISO": "2026-09-15T18:01:55.095Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -1928,11 +1928,11 @@
   {
     "sourceUrl": "https://www.alahli.com/ar/pages/about-us/careers",
     "orgId": "snb",
-    "lastAttemptISO": "2026-09-15T16:57:35.910Z",
+    "lastAttemptISO": "2026-09-15T18:01:55.095Z",
     "lastSuccessISO": "2026-09-15T16:57:35.910Z",
-    "consecutiveFailures": 0,
-    "lastError": null,
-    "state": "healthy"
+    "consecutiveFailures": 1,
+    "lastError": "fetch failed",
+    "state": "degraded"
   },
   {
     "sourceUrl": "https://www.alahli.com/ar/pages/about-us/careers/culture",
@@ -2090,11 +2090,11 @@
   {
     "sourceUrl": "https://www.bog.gov.sa/en/EServices/judiciaryHiring/Pages/default.aspx",
     "orgId": "bog",
-    "lastAttemptISO": "2026-09-15T17:12:19.623Z",
+    "lastAttemptISO": "2026-09-15T17:59:06.521Z",
     "lastSuccessISO": "2026-09-15T17:12:19.623Z",
-    "consecutiveFailures": 0,
-    "lastError": null,
-    "state": "healthy"
+    "consecutiveFailures": 1,
+    "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
+    "state": "degraded"
   },
   {
     "sourceUrl": "https://www.bog.gov.sa/en/EServices/judiciaryHiring/Pages/Hiring.aspx",
@@ -2297,11 +2297,11 @@
   {
     "sourceUrl": "https://www.ey.com/en_sa/careers/technology",
     "orgId": "ey_sa",
-    "lastAttemptISO": "2026-09-15T16:19:21.398Z",
+    "lastAttemptISO": "2026-09-15T18:01:55.095Z",
     "lastSuccessISO": "2026-09-15T16:19:21.398Z",
-    "consecutiveFailures": 0,
-    "lastError": null,
-    "state": "healthy"
+    "consecutiveFailures": 1,
+    "lastError": "fetch failed",
+    "state": "degraded"
   },
   {
     "sourceUrl": "https://www.ey.com/en_sa/careers/what-you-can-do-here",
@@ -2729,11 +2729,11 @@
   {
     "sourceUrl": "https://www.mim.gov.sa/ar/empower-training/cooperative-training",
     "orgId": "mim",
-    "lastAttemptISO": "2026-09-15T17:22:44.602Z",
+    "lastAttemptISO": "2026-09-15T18:11:50.065Z",
     "lastSuccessISO": "2026-09-15T17:22:44.602Z",
-    "consecutiveFailures": 0,
-    "lastError": null,
-    "state": "healthy"
+    "consecutiveFailures": 1,
+    "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
+    "state": "degraded"
   },
   {
     "sourceUrl": "https://www.mim.gov.sa/ar/media-center/news",
@@ -2756,8 +2756,8 @@
   {
     "sourceUrl": "https://www.moe.gov.sa/ar/aboutus/nationaltransformation/Pages/employmentstrategy.aspx",
     "orgId": "moe",
-    "lastAttemptISO": "2026-09-15T15:01:23.046Z",
-    "lastSuccessISO": "2026-09-15T15:01:23.046Z",
+    "lastAttemptISO": "2026-09-15T18:01:55.095Z",
+    "lastSuccessISO": "2026-09-15T18:01:55.095Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -3755,11 +3755,11 @@
   {
     "sourceUrl": "https://www.stats.gov.sa/en/cooperative-training",
     "orgId": "gastat",
-    "lastAttemptISO": "2026-09-15T17:09:15.165Z",
+    "lastAttemptISO": "2026-09-15T18:01:55.095Z",
     "lastSuccessISO": "2026-09-15T17:09:15.165Z",
-    "consecutiveFailures": 0,
-    "lastError": null,
-    "state": "healthy"
+    "consecutiveFailures": 1,
+    "lastError": "fetch failed",
+    "state": "degraded"
   },
   {
     "sourceUrl": "https://www.stats.gov.sa/en/news",
@@ -3800,11 +3800,11 @@
   {
     "sourceUrl": "https://www.tahakom.com/careers",
     "orgId": "tahakom",
-    "lastAttemptISO": "2026-09-15T17:22:44.602Z",
+    "lastAttemptISO": "2026-09-15T18:11:50.065Z",
     "lastSuccessISO": "2026-09-15T17:22:44.602Z",
-    "consecutiveFailures": 0,
-    "lastError": null,
-    "state": "healthy"
+    "consecutiveFailures": 1,
+    "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
+    "state": "degraded"
   },
   {
     "sourceUrl": "https://www.taifcity.gov.sa/#/ar",
