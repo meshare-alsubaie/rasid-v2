@@ -364,7 +364,7 @@
     "blockHashes": [
       "f5c195e266682c4c"
     ],
-    "extractedChars": 305,
+    "extractedChars": 281,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T23:54:26.779Z",
     "lastChangedISO": "2026-08-31T23:54:26.779Z",
@@ -1332,15 +1332,19 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/search-results",
     "orgId": "maaden",
-    "contentHash": "983602e73e17531858674d72c4fa08caaf5903ee5d24075f29e22fdc1db16f79",
+    "contentHash": "d596b66ca5015028c75e48e80bbac0dd7e5bf87ad8ee08bbbc8d06716a4a3307",
     "blockHashes": [
       "0593a1678d987760",
-      "bdd57a1325e576be"
+      "298a05ebe5a16280",
+      "d6c0adacb353836a",
+      "fe394713c2c7bed1",
+      "3e9df5a58e6ae6c6",
+      "cbb4f1d5475ef5bc"
     ],
-    "extractedChars": 386,
-    "extractionMethod": "body_fallback",
+    "extractedChars": 504,
+    "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-15T16:22:10.022Z",
+    "lastChangedISO": "2026-09-15T17:12:19.623Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
