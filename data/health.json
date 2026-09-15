@@ -3422,11 +3422,11 @@
   {
     "sourceUrl": "https://www.sami.com.sa/",
     "orgId": "sami",
-    "lastAttemptISO": "2026-09-15T12:53:15.530Z",
+    "lastAttemptISO": "2026-09-15T18:56:12.688Z",
     "lastSuccessISO": "2026-09-15T12:53:15.530Z",
-    "consecutiveFailures": 0,
-    "lastError": null,
-    "state": "healthy"
+    "consecutiveFailures": 1,
+    "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
+    "state": "degraded"
   },
   {
     "sourceUrl": "https://www.sami.com.sa/careers/",
