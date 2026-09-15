@@ -326,9 +326,9 @@
   {
     "sourceUrl": "https://athkax.sdaia.gov.sa/coop",
     "orgId": "sdaia",
-    "lastAttemptISO": "2026-09-15T18:11:50.065Z",
+    "lastAttemptISO": "2026-09-15T18:57:21.485Z",
     "lastSuccessISO": "2026-09-15T17:22:44.602Z",
-    "consecutiveFailures": 1,
+    "consecutiveFailures": 2,
     "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
     "state": "degraded"
   },
@@ -371,9 +371,9 @@
   {
     "sourceUrl": "https://bankalbilad.com/ar/about/Pages/Training.aspx",
     "orgId": "albilad",
-    "lastAttemptISO": "2026-09-15T18:11:50.065Z",
+    "lastAttemptISO": "2026-09-15T18:57:21.485Z",
     "lastSuccessISO": "2026-09-15T17:22:44.602Z",
-    "consecutiveFailures": 1,
+    "consecutiveFailures": 2,
     "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
     "state": "degraded"
   },
@@ -2729,9 +2729,9 @@
   {
     "sourceUrl": "https://www.mim.gov.sa/ar/empower-training/cooperative-training",
     "orgId": "mim",
-    "lastAttemptISO": "2026-09-15T18:11:50.065Z",
+    "lastAttemptISO": "2026-09-15T18:57:21.485Z",
     "lastSuccessISO": "2026-09-15T17:22:44.602Z",
-    "consecutiveFailures": 1,
+    "consecutiveFailures": 2,
     "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
     "state": "degraded"
   },
@@ -3845,11 +3845,11 @@
   {
     "sourceUrl": "https://www.thiqah.sa/en/careers/",
     "orgId": "thiqah",
-    "lastAttemptISO": "2026-09-15T17:56:46.863Z",
+    "lastAttemptISO": "2026-09-15T18:57:21.485Z",
     "lastSuccessISO": "2026-09-15T17:56:46.863Z",
-    "consecutiveFailures": 0,
-    "lastError": null,
-    "state": "healthy"
+    "consecutiveFailures": 1,
+    "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
+    "state": "degraded"
   },
   {
     "sourceUrl": "https://www.thiqah.sa/en/news-events/",
