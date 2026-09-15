@@ -1343,11 +1343,11 @@
   {
     "sourceUrl": "https://nca.gov.sa/ar/careers/",
     "orgId": "nca",
-    "lastAttemptISO": "2026-09-15T16:49:52.905Z",
+    "lastAttemptISO": "2026-09-15T18:41:09.787Z",
     "lastSuccessISO": "2026-09-15T16:49:52.905Z",
-    "consecutiveFailures": 0,
-    "lastError": null,
-    "state": "healthy"
+    "consecutiveFailures": 1,
+    "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
+    "state": "degraded"
   },
   {
     "sourceUrl": "https://nca.gov.sa/ar/cyber-training-and-qualifications/",
@@ -3701,11 +3701,11 @@
   {
     "sourceUrl": "https://www.srca.org.sa/",
     "orgId": "srca",
-    "lastAttemptISO": "2026-09-15T12:35:45.755Z",
+    "lastAttemptISO": "2026-09-15T18:41:09.787Z",
     "lastSuccessISO": "2026-09-15T12:35:45.755Z",
-    "consecutiveFailures": 0,
-    "lastError": null,
-    "state": "healthy"
+    "consecutiveFailures": 1,
+    "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
+    "state": "degraded"
   },
   {
     "sourceUrl": "https://www.srca.org.sa/%d8%a7%d9%84%d8%aa%d9%88%d8%b8%d9%8a%d9%81/",
