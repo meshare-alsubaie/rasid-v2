@@ -469,16 +469,16 @@
   {
     "sourceUrl": "https://alinma.com/en/About-the-Bank/The-Bank/News/2010/01/alinma-bank-signs-agreement-with-specialized-academy-for-medical-training-for-financing-tuition-fees",
     "orgId": "alinma",
-    "contentHash": "2ea369c767fdd2b515d53280d0977bbe6a78f8a2cf099db0b7dbbcf92d3d308a",
+    "contentHash": "ae1b36e29e30209d9ea9a814c1dcadda808b076d1bf3551d33c11f0eb32a58e7",
     "blockHashes": [
       "2ea369c767fdd2b5"
     ],
     "extractedChars": 284,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T23:54:26.779Z",
-    "lastChangedISO": "2026-08-31T23:54:26.779Z",
+    "lastChangedISO": "2026-09-16T00:07:13.338Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://alinma.com/en/About-the-Bank/The-Bank/News/2011/02/alinma-bank-and-al-khaleej-training-and-education-company-sign-education-financing-agreement",
@@ -2920,7 +2920,7 @@
   {
     "sourceUrl": "https://misa.gov.sa/ar/",
     "orgId": "misa",
-    "contentHash": "539b01e958f26f2c29efde89223bc8d15bec6b660f354d99802e3eef42ba8d47",
+    "contentHash": "8fd4f921c885f591b3e21ab7013411d6a66e84b0a430dbc1aa81024c8b6a4482",
     "blockHashes": [
       "cf39773c3229a12a",
       "159cdf9e48cb9d11",
@@ -2940,14 +2940,15 @@
       "75b70eaace43c1fa",
       "22004851da93e490",
       "113f9c5962d7efd1",
-      "086b262ade565d8a"
+      "e6ada136fef6cb4b"
     ],
     "extractedChars": 2666,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
-    "lastChangedISO": "2026-09-13T10:07:32.326Z",
+    "lastChangedISO": "2026-09-16T11:45:57.633Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://misa.gov.sa/ar/media-center/",
@@ -3467,8 +3468,7 @@
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
     "lastChangedISO": "2026-09-15T14:10:14.697Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "triaged_out"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://nca.gov.sa/ar/nca-academy/",
@@ -5460,7 +5460,7 @@
   {
     "sourceUrl": "https://www.bog.gov.sa/en/EServices/judiciaryHiring/Pages/Hiring.aspx",
     "orgId": "bog",
-    "contentHash": "991a6aba6915675d3432f1fa6317b1271691eedeb4f729a07b62fe0c0620b0a0",
+    "contentHash": "6635fa4c3d3bd50914f5da28c4c617ed4f7368cc92708f67e06332e4497360e5",
     "blockHashes": [
       "46d9575ec382a9d1",
       "96c63175498462d9",
@@ -5471,9 +5471,9 @@
     "extractedChars": 609,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-15T22:30:00.656Z",
+    "lastChangedISO": "2026-09-16T00:02:23.709Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://www.bog.gov.sa/en/EServices/Pages/khabeer.aspx",
@@ -7628,7 +7628,7 @@
   {
     "sourceUrl": "https://www.mim.gov.sa/ar/empower-training/cooperative-training",
     "orgId": "mim",
-    "contentHash": "ac633b194326cb409c7802172daa7d423582b6dcb98e2566e22c943d5d533e84",
+    "contentHash": "5e50f01a050bad5fd8e4ee75b657c8ff87374d112ffdcfdc79284e7203a4f421",
     "blockHashes": [
       "1cb91553dd3291a4",
       "5300d4cdd32a8d33"
@@ -7636,10 +7636,9 @@
     "extractedChars": 2495,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T02:22:33.828Z",
-    "lastChangedISO": "2026-09-15T23:14:15.815Z",
+    "lastChangedISO": "2026-09-16T00:01:19.867Z",
     "thinRuns": 0,
-    "pendingClassification": true,
-    "classifyFailures": 1
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://www.mim.gov.sa/ar/media-center/news",
@@ -7702,16 +7701,16 @@
   {
     "sourceUrl": "https://www.moe.gov.sa/ar/aboutus/nationaltransformation/Pages/employmentstrategy.aspx",
     "orgId": "moe",
-    "contentHash": "21ae66a1ea061eb466af7e11c6982378a1627ab4d05150537e6d095b4ea13ccc",
+    "contentHash": "bd255403eb41b3ca73c2a7367b750e9d73966da428067b201be61485b01bb33d",
     "blockHashes": [
       "df583174b737186e",
       "c27a2dfe50191a49",
-      "1fb65b484f980d98"
+      "bed1564fb287d372"
     ],
-    "extractedChars": 560,
+    "extractedChars": 557,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-14T10:10:30.335Z",
+    "lastChangedISO": "2026-09-16T11:45:57.633Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
