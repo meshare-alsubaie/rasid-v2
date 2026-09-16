@@ -2662,15 +2662,15 @@
   {
     "sourceUrl": "https://lcgpa.gov.sa/ar/Pages/default.aspx",
     "orgId": "lcgpa",
-    "contentHash": "357bb691454021961e116f06ba1def9d3f65130d19eeea86a7454bf8d9204318",
+    "contentHash": "40d466783d74ef0ad82a6cdc95dfc26fcabcbf6b61668c1439917bd6c601c3bd",
     "blockHashes": [
-      "ac6f4bc8da598f29",
+      "880c39e968fbb926",
       "beda84e843f95551"
     ],
     "extractedChars": 218,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-16T12:13:01.276Z",
+    "lastChangedISO": "2026-09-16T18:20:28.666Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -2766,7 +2766,7 @@
   {
     "sourceUrl": "https://mawhiba.org/",
     "orgId": "mawhiba",
-    "contentHash": "b0aa4af5587b81160f456d27d91e584e0981f4819ca6c1e06fe294e3f7abfb24",
+    "contentHash": "e0894bf86f9f15b417829677e5d3a043eba62df18fa136cc5b5238622d3411c6",
     "blockHashes": [
       "cebaa0d7740345e0",
       "b0a03231aea02dc9",
@@ -2777,7 +2777,7 @@
       "690994aac8cdc87d",
       "222b97e5d083913a",
       "db2f6d845153ed4d",
-      "793f24d069ecb284",
+      "f928e37b4dbaee95",
       "7ccdf5917bb02e54",
       "df7aa21718383d01",
       "6303d058dc580116",
@@ -2790,15 +2790,15 @@
       "c4583f676c27517a",
       "4ea242e080578a16",
       "a4e4e1fbeaab5463",
-      "53a4c6f4fc15d46a",
+      "c12edbf4cf5d614e",
       "b518044d0e3ef109",
       "1f3c4598715a2661",
       "006216df3cce041d"
     ],
-    "extractedChars": 8500,
+    "extractedChars": 8253,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-16T12:13:01.276Z",
+    "lastChangedISO": "2026-09-16T18:20:28.666Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -2865,8 +2865,7 @@
     "firstSeenISO": "2026-08-29T23:21:37.487Z",
     "lastChangedISO": "2026-09-16T12:13:01.276Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "triaged_out"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://mcit.gov.sa/ar",
@@ -3540,19 +3539,20 @@
   {
     "sourceUrl": "https://ncar.gov.sa/",
     "orgId": "ncar",
-    "contentHash": "edd750e9856f4056cc8cb85edb50f6754d67823dcf5d6f0c0481bb63c14c286e",
+    "contentHash": "b16701789675fb968a8f1dc1f00781c03d1bf3c6a3fef15a49250ad11580873d",
     "blockHashes": [
       "c911502a32b8a6f9",
-      "51298181046b2e48",
-      "c74f265a5e09e783",
+      "3bbc688063cf81ae",
+      "26b7600a224c8c65",
       "75c514565d626437"
     ],
-    "extractedChars": 2711,
+    "extractedChars": 536,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-16T12:20:37.998Z",
+    "lastChangedISO": "2026-09-16T18:25:02.036Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://ncdc.gov.sa/",
@@ -4045,17 +4045,16 @@
   {
     "sourceUrl": "https://site.sa/",
     "orgId": "site",
-    "contentHash": "83cf2b18ec99a0c9fe3d3a6fe207be05d3c7920b0e5ea15ca2f35464f4ce2886",
+    "contentHash": "a200c2d13ea06f1e2c64a3ada66c5ee448697431b52b9efb0743dc286fa3e30d",
     "blockHashes": [
-      "83cf2b18ec99a0c9"
+      "a200c2d13ea06f1e"
     ],
-    "extractedChars": 800,
+    "extractedChars": 598,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-16T12:13:01.276Z",
+    "lastChangedISO": "2026-09-16T18:20:28.666Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://slccareers.kpmg.com/go/All-Jobs/7738123/",
@@ -4895,7 +4894,7 @@
   {
     "sourceUrl": "https://www.alinma.com/",
     "orgId": "alinma",
-    "contentHash": "0c22855a97765310b6026dc5c9fe4acffc55cd7d75c3b66f20280de85d6d6704",
+    "contentHash": "23e5bdea3da63d4fffd2129bd62fef9f58fc0faba0c60404b33870dd4c81d581",
     "blockHashes": [
       "9765ef67b60ecb6a",
       "0a14ab6988360391",
@@ -4904,13 +4903,13 @@
       "5a893dabed2d6dcf",
       "cfc4a6c7d4a4fcdc",
       "d7e8cb14f77516db",
-      "17e1088372d55e5e",
+      "c16311f7e9f15e90",
       "fcdc707f0342be1e"
     ],
     "extractedChars": 1479,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-16T12:13:01.276Z",
+    "lastChangedISO": "2026-09-16T18:20:28.666Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "triaged_out"
@@ -7702,16 +7701,16 @@
   {
     "sourceUrl": "https://www.moc.gov.sa/ar",
     "orgId": "moc",
-    "contentHash": "e3d9aca9833594164b8a0563c59b8e420323efe143f7b062118e48dd53fdd005",
+    "contentHash": "8ba3153e79d15faa16246819be5aa85694afe374159798afd73cd90aa22bfc2f",
     "blockHashes": [
       "88c122fdb76fc42f",
-      "3bf6c273e8666669",
+      "d107f8b5a134a365",
       "7ea0a8926b415da0"
     ],
     "extractedChars": 6095,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-16T12:13:01.276Z",
+    "lastChangedISO": "2026-09-16T18:20:28.666Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -9231,14 +9230,14 @@
   {
     "sourceUrl": "https://www.rcrc.gov.sa/careers/?lang=ar",
     "orgId": "rcrc",
-    "contentHash": "ff7fd9d8260503391d87ad4555a32fe14a15f184e660639d2b1f4aaa464749ff",
+    "contentHash": "15833d4b4cccb25a3e07854483ff27b694e17e5fcd30d075a6feadb7b722b4e4",
     "blockHashes": [
       "6987e35db5b6e60d"
     ],
     "extractedChars": 1166,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-16T17:32:41.376Z",
+    "lastChangedISO": "2026-09-16T18:25:02.036Z",
     "thinRuns": 0,
     "pendingClassification": true,
     "classifyFailures": 1
@@ -10554,14 +10553,14 @@
     "blockHashes": [
       "13f48669ebfa59aa",
       "74e4c1d2a646a96e",
-      "3f285b2de41396b5",
+      "4d999826926c8854",
       "6d37be45d68fbb19",
       "9fc22e973b130f22",
       "f719541fa379c55a",
       "cfd17c1f236018c6",
       "e49d6e92d320928f",
       "93e518fa2bca89b1",
-      "624b98a43b1d5d7e",
+      "60439633d93ad683",
       "81cf5fbbbc172e2b",
       "0ad53e4085371914",
       "04244c797faa9e6d",
@@ -10582,7 +10581,7 @@
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
     "lastChangedISO": "2026-09-16T12:20:37.998Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.srca.org.sa/%d8%a7%d9%84%d8%aa%d9%88%d8%b8%d9%8a%d9%81/",
