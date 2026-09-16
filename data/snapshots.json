@@ -565,7 +565,7 @@
     "lastChangedISO": "2026-09-15T19:33:24.572Z",
     "thinRuns": 0,
     "pendingClassification": true,
-    "classifyFailures": 1
+    "classifyFailures": 2
   },
   {
     "sourceUrl": "https://alinma.com/en/About-the-Bank/The-Bank/News/2013/05/alinmajobandcareerdayattractsgraduatesoftheinstituteofpublicadministration",
@@ -3603,17 +3603,17 @@
   {
     "sourceUrl": "https://ndf.gov.sa/",
     "orgId": "ndf",
-    "contentHash": "566525053500b3a37440bf1748199774aa49d982e34fb10d54fbf9cf437abf46",
+    "contentHash": "0acff0569e34937ff8c731944d58049c35470c4826fb3b016fcd70890200402f",
     "blockHashes": [
-      "542c43f16d1aea71",
+      "ef4425b81d3791ff",
       "cea7fd3977a9c5c0"
     ],
     "extractedChars": 3080,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-15T14:00:42.200Z",
+    "lastChangedISO": "2026-09-16T13:48:09.920Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://ndf.gov.sa/media-center",
@@ -4388,7 +4388,7 @@
   {
     "sourceUrl": "https://training.moj.gov.sa/",
     "orgId": "moj",
-    "contentHash": "f4c6ef6b783b69d09a8f681ad1d80f1df35ef8cb8864917255879208cc305886",
+    "contentHash": null,
     "blockHashes": [
       "84a570379809f573",
       "ab443a0bbfda7883"
@@ -8486,18 +8486,21 @@
   {
     "sourceUrl": "https://www.nazaha.gov.sa/",
     "orgId": "nazaha",
-    "contentHash": "517884fa6f4184101fd4031953fed4d20e6f840e4266d686154d2e59bf08e728",
+    "contentHash": "8ffc68c9fdafbea95d9dbf8722b0028c1683aaef205f9116f61076ad1f3ba6cc",
     "blockHashes": [
-      "aa47ff93014d49e2",
+      "a167b0dd9b0e3e1c",
+      "74e4c1d2a646a96e",
+      "204832e9374806ed",
       "c3fc1cda7b3b3192",
-      "6e57684a145062e2"
+      "b7755d16a7a234e5"
     ],
     "extractedChars": 506,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T22:03:35.383Z",
-    "lastChangedISO": "2026-09-15T20:28:51.963Z",
+    "lastChangedISO": "2026-09-16T13:48:09.920Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://www.nazaha.gov.sa/Jobs",
@@ -11223,18 +11226,18 @@
   {
     "sourceUrl": "https://www.tahakom.com/careers",
     "orgId": "tahakom",
-    "contentHash": "457f65df725621cf1ff8df157d2d7ad5927ef366ef94aa5e45fdfae4dd6d3b3f",
+    "contentHash": "8d1d8b4a6a7bde78572d8fa562ea399be56c71b4f40b53a0139f8955994ae509",
     "blockHashes": [
       "d44217251213a019",
       "611753a8aea1ade1",
       "0cea4d38306888dc",
       "1a5263a5a2541c46",
-      "a937a81f39e1b5a8"
+      "f3829db208838eb8"
     ],
     "extractedChars": 838,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-03T05:13:40.059Z",
-    "lastChangedISO": "2026-09-16T12:59:28.642Z",
+    "lastChangedISO": "2026-09-16T13:45:50.224Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
