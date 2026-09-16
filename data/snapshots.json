@@ -452,8 +452,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-15T20:17:25.536Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://alinma.com/en/About-the-Bank/The-Bank/News/2009/02/alinma-bank-selects-and-prepares-its-phone-banking-and-training-center-location",
@@ -1340,18 +1339,18 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/search-results",
     "orgId": "maaden",
-    "contentHash": "1719eb789579c8789cc05b6cac73aed25bc5e350200fa2941cef78d2e63ff6b0",
+    "contentHash": "177391542e544a29e5cf976dc1690b3e130d6c377a4364bca76d5d7d975445bd",
     "blockHashes": [
       "dab5a7f3801bc914",
-      "837e7bd58277d43f",
-      "0ade7b228eef2094"
+      "c4567cf91f6a587b",
+      "eaccdb7a3816d25e"
     ],
-    "extractedChars": 1052,
-    "extractionMethod": "body_fallback",
+    "extractedChars": 240,
+    "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-16T19:20:16.385Z",
+    "lastChangedISO": "2026-09-16T20:08:26.196Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://careers.mcit.gov.sa/",
@@ -8489,8 +8488,7 @@
     "firstSeenISO": "2026-08-29T22:03:35.383Z",
     "lastChangedISO": "2026-09-16T13:48:09.920Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.nazaha.gov.sa/Jobs",
@@ -9222,16 +9220,16 @@
   {
     "sourceUrl": "https://www.rcrc.gov.sa/careers/?lang=ar",
     "orgId": "rcrc",
-    "contentHash": "d9bdd14c2014fa9f28f05847cd85def9cbccff1437338f3e2127046cf2160106",
+    "contentHash": "6d0eb8231c2c41ecdf703eda219981a314af38c0af9a6c15726809ff4c72ec15",
     "blockHashes": [
-      "6987e35db5b6e60d"
+      "6d0eb8231c2c41ec"
     ],
-    "extractedChars": 1167,
+    "extractedChars": 785,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-16T19:22:07.797Z",
+    "lastChangedISO": "2026-09-16T20:10:57.030Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.rcrc.gov.sa/media-center/",
