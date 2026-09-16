@@ -279,14 +279,15 @@
     "orgId": "alinma",
     "contentHash": "4a15fea4925d45cd4b90449861142626e750b1536627929f50d17f2d97d33030",
     "blockHashes": [
-      "2d164eaa1d7cb937"
+      "4a15fea4925d45cd"
     ],
     "extractedChars": 281,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T23:54:26.779Z",
     "lastChangedISO": "2026-09-15T23:54:10.419Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "triaged_out"
   },
   {
     "sourceUrl": "https://alinma.com/About-the-Bank/The-Bank/News/2010/01/alinma-bank-signs-agreement-with-specialized-academy-for-medical-training-for-financing-tuition-fees",
@@ -1256,10 +1257,9 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/cookiesettings",
     "orgId": "maaden",
-    "contentHash": "b5dcc8556fdd58a8ddd0524fd17b0a070e5bf8d1d19da3d9dfe98292f38e4b13",
+    "contentHash": "ddbd77e0b119b4844d6f988fa67c7de5eeaac0a416aa7eb1e6135aeda822fc88",
     "blockHashes": [
-      "5569201553604d03",
-      "f4979ecd6a2f2db6",
+      "2fb28de24072d906",
       "dd53e083dd4c4329",
       "5e2fc5a4da5c7871",
       "197c66a2b21d9654",
@@ -1324,13 +1324,12 @@
       "ee82ab94d7112a03",
       "60b7b15f81dc7749",
       "abf11bb520a3d451",
-      "23b2ccc19ae45043",
-      "66f94e9c40408c1f"
+      "98b838fe5acee2f6"
     ],
     "extractedChars": 8013,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-16T17:14:40.292Z",
+    "lastChangedISO": "2026-09-16T18:00:14.453Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -2155,7 +2154,7 @@
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T02:22:33.828Z",
     "lastChangedISO": "2026-08-29T02:36:21.032Z",
-    "thinRuns": 225,
+    "thinRuns": 226,
     "pendingClassification": false
   },
   {
@@ -2293,9 +2292,9 @@
   {
     "sourceUrl": "https://gaca.gov.sa/news",
     "orgId": "gaca",
-    "contentHash": "ade5174c6ccf5cc421d881d0ae54de7e442e03b4c7fc72dc2d0f1e921dbe1b76",
+    "contentHash": "f12df09193dec49ca5fcbffbf01dd3b946c92040514bb0cfc3b4058d158650d5",
     "blockHashes": [
-      "dd108a6269b193ad",
+      "adb41c19b9fe7a88",
       "d412fb04e6f8f369",
       "6ef64d223005f937",
       "d71e35c5af34597e",
@@ -2367,7 +2366,7 @@
     "extractedChars": 20399,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-16T15:12:05.634Z",
+    "lastChangedISO": "2026-09-16T18:15:47.251Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -3072,9 +3071,9 @@
   {
     "sourceUrl": "https://modon.gov.sa/ar/MediaCenter/Pages/default.aspx",
     "orgId": "modon",
-    "contentHash": "e7d43b632e0d6b4aec4a7f17a7bec19017f0e8a84934c83d8a8ff2faa0f48620",
+    "contentHash": "57bd44241148ad8e9333dc82bb8c3360e4214a9384be01458e9f695f7e28ec20",
     "blockHashes": [
-      "e2c85de881df90a2",
+      "7fa3df2647442052",
       "317f2772b9ef6210",
       "8ae17958586c8a8c",
       "a052fcd3e0ca047c"
@@ -3082,7 +3081,7 @@
     "extractedChars": 306,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-16T15:12:05.634Z",
+    "lastChangedISO": "2026-09-16T18:15:47.251Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -3167,7 +3166,7 @@
   {
     "sourceUrl": "https://momah.gov.sa/ar/form/partnerships-and-cooperation",
     "orgId": "housing",
-    "contentHash": "ff975e32ac72edb8a6bdd65bca0f564f03da1c42f57a5da0e24cfcc1d1001147",
+    "contentHash": "3dd22d4906f79f5ec69b7946a1cc8d35c9848ec35d567aea1783936778657f61",
     "blockHashes": [
       "bc22896c0dc046da",
       "d2009185b8a1a230",
@@ -3176,31 +3175,31 @@
       "f77c31bfa6a4a7dd",
       "aa8e55eac5aea8cd",
       "09552ec2996654f9",
-      "b55b609ad46a2230",
-      "90afe7a206b0eb83",
-      "a523b875e3f9abe6",
+      "67cfb8ded37ec6ed",
+      "56ff9a03a4c50b4d",
+      "99a980d39d2caafb",
+      "fb99574f24cbd910",
       "09b1bd561f62b68f",
-      "9222f75e0282a574",
+      "ab4c361ba992b83f",
       "ac1405062719fb86",
-      "240e683b82529021",
-      "a231826a59609377",
-      "e127b3e0cf9e9a8c",
+      "b815686279edb8be",
+      "7a13ffe10f9216ff",
       "ff6f87e39638cb9b",
-      "619ba58903525ed1",
-      "806033b8f9dace0f",
-      "d10d4b5ed2318970",
-      "e6a5f38963f6cdd9",
-      "5d15152619ff887e",
-      "53e07deb7fc3c164",
+      "6d3d62588fd40d6e",
+      "40f977a5a8053642",
+      "604194d15ef59014",
       "560edfe1df9d8921",
       "23b97a8a93aba477",
       "9cd3abf7fd1573ff",
-      "277a1378d59a0b42"
+      "9ed4c3d62894f55f",
+      "b764331d683771b5",
+      "5d15152619ff887e",
+      "cd2a97faeb748048"
     ],
     "extractedChars": 151367,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-16T15:12:05.634Z",
+    "lastChangedISO": "2026-09-16T18:15:47.251Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -6552,10 +6551,10 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/news?lang=ar",
     "orgId": "hrc",
-    "contentHash": "eb14dae508fd78a3ddf14d878a8b26bc9af746ca6f4c53cc5e6968194336af25",
+    "contentHash": "0a36a23c797ed82e13abb73953a1745e27f4d5660097d9da2acf421cc8738bfb",
     "blockHashes": [
       "12e41a244a8a2984",
-      "3afee7da0d518497",
+      "b0cc043c75e103e0",
       "b93d519dcc7f19d5",
       "b36f463f827d4fac",
       "a8285d033b0740f8",
@@ -6584,7 +6583,7 @@
     "extractedChars": 5351,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-16T15:12:05.634Z",
+    "lastChangedISO": "2026-09-16T18:15:47.251Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -8427,8 +8426,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-16T15:12:05.634Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.monshaat.gov.sa/ar/newsletter",
