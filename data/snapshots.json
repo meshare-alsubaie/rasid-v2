@@ -1339,19 +1339,17 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/search-results",
     "orgId": "maaden",
-    "contentHash": "cbbac43bd92ab568f8fbef2867be352760d3a0b280623b2157b33bb8c73e72db",
+    "contentHash": "3ba1f7d945e6b3ebaf3ea294c4e436d7640bb0fb5be51b2013d360007b6d766d",
     "blockHashes": [
-      "5569201553604d03",
-      "6e3cceb54e777f64",
-      "6bf0ca67e0f069b4",
+      "dab5a7f3801bc914",
       "d6c0adacb353836a",
-      "f2ea887cc865dd2e",
-      "91c217c122e1a09a"
+      "dc5ff100822b88b0",
+      "835126f1b6d2d172"
     ],
-    "extractedChars": 1247,
-    "extractionMethod": "body_fallback",
+    "extractedChars": 240,
+    "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-15T23:29:36.955Z",
+    "lastChangedISO": "2026-09-16T12:01:06.271Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -4041,11 +4039,12 @@
   {
     "sourceUrl": "https://slccareers.kpmg.com/go/All-Jobs/7738123/",
     "orgId": "kpmg_sa",
-    "contentHash": "f066aaf192ca13901d6d461b21cc085869f86f21aaeda4616066bde378134864",
+    "contentHash": "ed4eaa8802fcadfe464e4697b60b4592066835bbf0e900a3f8cd98f0a2bb5f09",
     "blockHashes": [
       "a08768df98d7ceb4",
       "ab9506bccb791170",
       "1d422c5f89e5d543",
+      "453955b81f8986c2",
       "da4ba24cb3dff2c4",
       "a447cea16f85cb68",
       "953f6d4b2203f8d5",
@@ -4053,13 +4052,12 @@
       "27e4d328c168570b",
       "754f9ae5941e20ca",
       "ef6634b01e699791",
-      "4a5001bd484ad62c",
       "1acb280e4ad34ff3"
     ],
     "extractedChars": 518,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-14T11:39:08.924Z",
+    "lastChangedISO": "2026-09-16T12:01:06.271Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -7797,19 +7795,20 @@
   {
     "sourceUrl": "https://www.moenergy.gov.sa/ar/media-center/news",
     "orgId": "moenergy",
-    "contentHash": "da49bda04268e9bab10f1951803a51708742cffaf75e5e1de95236b3eb2ee33c",
+    "contentHash": "132bec26d911128a45c71d1ff0994c41b7057528fdceda017e5bfc1f2179a727",
     "blockHashes": [
-      "04baf5e9a880981b",
+      "a558132b8c907923",
       "e088549dca9d4b86",
       "99abad72305d2dad",
-      "b70bec48b1de9f14"
+      "dae27d23ec19c61f"
     ],
-    "extractedChars": 3526,
+    "extractedChars": 3619,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-14T13:25:35.898Z",
+    "lastChangedISO": "2026-09-16T12:01:06.271Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://www.moenergy.gov.sa/ar/media-center/news/first-energy-hackathon",
@@ -9190,14 +9189,14 @@
   {
     "sourceUrl": "https://www.rcrc.gov.sa/careers/?lang=ar",
     "orgId": "rcrc",
-    "contentHash": "f4771577cb5d58f38c34024e9de66582dbbd652084e6bd847511c541c588b958",
+    "contentHash": "04bf9d8a1834162bcca884c429b24773901931694b4819241c27ef0ef0c9c9a2",
     "blockHashes": [
       "6987e35db5b6e60d"
     ],
     "extractedChars": 1166,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-15T23:38:37.331Z",
+    "lastChangedISO": "2026-09-16T12:01:06.271Z",
     "thinRuns": 0,
     "pendingClassification": true,
     "classifyFailures": 1
