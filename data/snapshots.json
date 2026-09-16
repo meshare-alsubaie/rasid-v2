@@ -1260,7 +1260,7 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/cookiesettings",
     "orgId": "maaden",
-    "contentHash": "1ae34a73daf6dbccd64a889083fbbabe06f197ea9d27b2230cdf7885b367c91f",
+    "contentHash": "4f946c883f7d4fd58f83240b30db9addaeb264115bdd2c6ecb3862485ba46262",
     "blockHashes": [
       "5569201553604d03",
       "4c196b7e3be1973c",
@@ -1334,7 +1334,7 @@
     "extractedChars": 8013,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-15T23:49:26.728Z",
+    "lastChangedISO": "2026-09-16T12:20:37.998Z",
     "thinRuns": 0,
     "pendingClassification": true
   },
@@ -2031,7 +2031,7 @@
   {
     "sourceUrl": "https://careers.zatca.gov.sa/search/?createNewAlert=false&q=&locationsearch=",
     "orgId": "zatca",
-    "contentHash": "19d113e31cd39740d961fa60c6035daf139f6f22f347549c69213e1ef1ee9186",
+    "contentHash": "e204dc2a9a4e1de43a8af47c1c681ce2189aa16c2bfdad6b122d496b76ad898e",
     "blockHashes": [
       "650a2ce183d63c69",
       "ce24e9809b0b19e6",
@@ -2045,12 +2045,12 @@
       "84fe59d621b2eb75",
       "c79d3590eb496a67"
     ],
-    "extractedChars": 376,
+    "extractedChars": 506,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-14T21:31:17.344Z",
+    "lastChangedISO": "2026-09-16T12:20:37.998Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://cma.gov.sa/Pages/default.aspx",
@@ -2158,7 +2158,7 @@
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T02:22:33.828Z",
     "lastChangedISO": "2026-08-29T02:36:21.032Z",
-    "thinRuns": 218,
+    "thinRuns": 219,
     "pendingClassification": false
   },
   {
@@ -3546,20 +3546,19 @@
   {
     "sourceUrl": "https://ncar.gov.sa/",
     "orgId": "ncar",
-    "contentHash": "e4b87236ec4ce7e2e30d7a5b8d5a1f8edfe18d67be155541a65e49e8a18f23af",
+    "contentHash": "edd750e9856f4056cc8cb85edb50f6754d67823dcf5d6f0c0481bb63c14c286e",
     "blockHashes": [
       "c911502a32b8a6f9",
       "51298181046b2e48",
       "c74f265a5e09e783",
       "75c514565d626437"
     ],
-    "extractedChars": 1239,
+    "extractedChars": 2711,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-15T12:25:30.195Z",
+    "lastChangedISO": "2026-09-16T12:20:37.998Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://ncdc.gov.sa/",
@@ -4081,7 +4080,7 @@
   {
     "sourceUrl": "https://slccareers.kpmg.com/job/Beirut-Experienced-External-Auditor/857312523/",
     "orgId": "kpmg_sa",
-    "contentHash": "a7466c4fb6ec1083f9b6adec1e1b64d5cc4887936a88cd842440bc3f32e58c48",
+    "contentHash": "c3b0016c6a6c6c840bb4e11e0065a4dd52fedce86573d33ae4037acfeafb776d",
     "blockHashes": [
       "8e062f98b31abbbf",
       "172ef89464b7ddb0",
@@ -4108,9 +4107,9 @@
     "extractedChars": 2286,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-08-31T00:02:49.563Z",
+    "lastChangedISO": "2026-09-16T12:20:37.998Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://slccareers.kpmg.com/job/Medina-KPMG-Audit-Internship-Program-Accounting-Graduates/1368374723/",
@@ -5250,7 +5249,7 @@
   {
     "sourceUrl": "https://www.aramco.com/en/careers/for-saudi-applicants/student-opportunities/university-and-vocational-college-internship-programs/university-internship-program",
     "orgId": "aramco",
-    "contentHash": "dffb9b5f7901f2adcead6fdecc4e8966719c55abfda052e03ad73dc133ab0594",
+    "contentHash": "9c43401d54dc1689c161f8a64bdb4696ea72c7705034d1d962a9d92cf1e91d32",
     "blockHashes": [
       "139527ae1544ae73",
       "beb81a0eae5bcdf1",
@@ -5302,9 +5301,9 @@
     "extractedChars": 3425,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-08-31T00:02:49.563Z",
+    "lastChangedISO": "2026-09-16T12:20:37.998Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://www.aramco.com/en/careers/for-saudi-applicants/student-opportunities/university-and-vocational-college-internship-programs/vocational-college-internship-program",
@@ -7998,8 +7997,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-15T21:47:24.635Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.mof.gov.sa/mediacenter/events/Pages/CalEvent.aspx",
@@ -9246,7 +9244,7 @@
   {
     "sourceUrl": "https://www.rcrc.gov.sa/news-ar/",
     "orgId": "rcrc",
-    "contentHash": "57c3fcb7307c8f3899ea48d7207598df79943c3e2151b46330c6ef6ba9588b1c",
+    "contentHash": "ddd6499e929ed1e9a4a0cdde64b2fbb1bad7b7c4ad8d8d998443b87b02a53501",
     "blockHashes": [
       "dd62229c2f61fb42",
       "306db3646b8a6c73",
@@ -9261,13 +9259,12 @@
       "42d24dc3675b45a7",
       "2ebbd7048725e505"
     ],
-    "extractedChars": 3468,
+    "extractedChars": 3475,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-15T21:44:52.523Z",
+    "lastChangedISO": "2026-09-16T12:20:37.998Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://www.rcu.gov.sa/",
@@ -10532,7 +10529,7 @@
   {
     "sourceUrl": "https://www.srca.org.sa/",
     "orgId": "srca",
-    "contentHash": "82b3fc8b797e7b89b468ce7049e0c644340dbf8e9bf1391c7b5f94426cf9e4fa",
+    "contentHash": "2484b1b45b7a817858debb4f260624db8144d16e56ca422ed973f5f2b2187008",
     "blockHashes": [
       "13f48669ebfa59aa",
       "74e4c1d2a646a96e",
@@ -10559,13 +10556,12 @@
       "a3663086b31e5fba",
       "de58120500a8958a"
     ],
-    "extractedChars": 7614,
+    "extractedChars": 7613,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
-    "lastChangedISO": "2026-09-15T12:35:45.755Z",
+    "lastChangedISO": "2026-09-16T12:20:37.998Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://www.srca.org.sa/%d8%a7%d9%84%d8%aa%d9%88%d8%b8%d9%8a%d9%81/",
