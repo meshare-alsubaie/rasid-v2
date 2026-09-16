@@ -136,7 +136,7 @@
   {
     "sourceUrl": "https://adf.gov.sa/ar/Pages/default.aspx",
     "orgId": "adf",
-    "contentHash": "3fec158d53d083eea3db5193e25a9efb923c40db6101bdaece2ac17771850301",
+    "contentHash": "66a4b0f4286ab25c92b5f5e78d0374308d1f12e4ff2071908b8e8e22fe0f76bb",
     "blockHashes": [
       "1ce798e0ca5f6070",
       "9e8708f46644e878",
@@ -145,7 +145,7 @@
       "b7a4f19178b3b8a1",
       "0514128baf9c79f1",
       "9185920f2483a42d",
-      "5381b7f4b5c61ad9",
+      "854f11a6cb7a3e6c",
       "4838bf63eca38706",
       "d380a83380c07da6",
       "2c2b159c69b9c652",
@@ -159,9 +159,10 @@
     "extractedChars": 1691,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
-    "lastChangedISO": "2026-09-15T20:06:13.885Z",
+    "lastChangedISO": "2026-09-16T13:40:46.688Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "triaged_out"
   },
   {
     "sourceUrl": "https://adf.gov.sa/ar/Pages/employment.aspx",
@@ -1341,18 +1342,19 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/search-results",
     "orgId": "maaden",
-    "contentHash": "1463021017094c6a1eed9732366caf9732eda56b947eee2e614f7c5492fafa20",
+    "contentHash": "a431e662a1690b9b3380ba5457bc19f84e12b54232c23fa5b2db6dd9e976acac",
     "blockHashes": [
       "5569201553604d03",
-      "6610997bc1f9b192",
+      "6e3cceb54e777f64",
       "d6c0adacb353836a",
-      "8949c47f4f2473be",
-      "80c21b6cc219720b"
+      "851eda0d9a57595c",
+      "3862cfddf6e4884d",
+      "2f3daa67f57e55b4"
     ],
-    "extractedChars": 221,
-    "extractionMethod": "readability",
+    "extractedChars": 1295,
+    "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-16T12:51:08.635Z",
+    "lastChangedISO": "2026-09-16T13:40:46.688Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -4088,7 +4090,7 @@
     "orgId": "kpmg_sa",
     "contentHash": "c3b0016c6a6c6c840bb4e11e0065a4dd52fedce86573d33ae4037acfeafb776d",
     "blockHashes": [
-      "8e062f98b31abbbf",
+      "e16cc7a03ef5a8eb",
       "172ef89464b7ddb0",
       "36e01aa08a3221b7",
       "ecf2ab00b7618e15",
@@ -4115,7 +4117,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-16T12:20:37.998Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://slccareers.kpmg.com/job/Medina-KPMG-Audit-Internship-Program-Accounting-Graduates/1368374723/",
@@ -5314,7 +5316,7 @@
   {
     "sourceUrl": "https://www.aramco.com/en/careers/for-saudi-applicants/student-opportunities/university-and-vocational-college-internship-programs/vocational-college-internship-program",
     "orgId": "aramco",
-    "contentHash": "09cae127c8fc07d8b6dee7435d46256821634617be25dc3545c3a386c54f70f1",
+    "contentHash": "fedb546eb4f609e2fbc3bcaed81cbf95ce11c6e0e9f7d19cb5bdd87342d3716c",
     "blockHashes": [
       "139527ae1544ae73",
       "beb81a0eae5bcdf1",
@@ -5338,12 +5340,13 @@
       "1ae55945889653a5",
       "1c12330b182af898"
     ],
-    "extractedChars": 1970,
+    "extractedChars": 1980,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-08-31T00:02:49.563Z",
+    "lastChangedISO": "2026-09-16T13:40:46.688Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://www.awqaf.gov.sa/ar",
@@ -11180,21 +11183,24 @@
   {
     "sourceUrl": "https://www.tadawulgroup.sa/wps/portal/tadawulgroup/joinus",
     "orgId": "tadawul",
-    "contentHash": "d0d3b5ac169f1b73ab7aa83d70c779f4ee298b89ccc3b8284f83c6034148bac3",
+    "contentHash": "218af6789adae9d596633c79e9b359213a247d93501904bfc43eeae06fd8c680",
     "blockHashes": [
-      "0cfcdfa727221d00",
-      "689f707057688943",
-      "50a3cca530113406",
-      "a3435878c6033280",
-      "b2cab4da26050ee9"
+      "dbfb7021493a5943",
+      "4acb10188c67e120",
+      "9b405996eceb74cf",
+      "5b4fe1a76867e3dc",
+      "4cacbd860b3b4c52",
+      "a888c2eda107d142",
+      "a8f106c1cf7430a5",
+      "99045a67c833cd6b",
+      "332ab17b1cccbd59"
     ],
-    "extractedChars": 1186,
+    "extractedChars": 1384,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-02T23:42:46.216Z",
-    "lastChangedISO": "2026-09-15T14:36:06.682Z",
+    "lastChangedISO": "2026-09-16T13:40:46.688Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "classifyFailures": 3
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.tahakom.com/",
