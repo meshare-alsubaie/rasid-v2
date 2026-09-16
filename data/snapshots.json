@@ -29,7 +29,7 @@
   {
     "sourceUrl": "http://www.moenergy.gov.sa/",
     "orgId": "moenergy",
-    "contentHash": "ef76f3cad9cb8969c86ff116db822537d9b79cec297e43add9477adf22d245d8",
+    "contentHash": "f16ab449e76ad59e2d6f32a6f0dc2b7892e4e71252e70c86e2d98be7bd99d447",
     "blockHashes": [
       "bfcea46ed35d52bf",
       "bad1561953eacbf3",
@@ -45,15 +45,14 @@
       "3356b5969b2e99ad",
       "24ad63b011b39941",
       "c09255cabba72f03",
-      "e1a9e829b95a23d1",
+      "4f24433505a4ad5f",
       "e088549dca9d4b86",
-      "99abad72305d2dad",
-      "77d3d6e13c2d4881"
+      "f1f6a790bbb82b22"
     ],
-    "extractedChars": 9087,
+    "extractedChars": 9099,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T22:03:35.383Z",
-    "lastChangedISO": "2026-09-14T17:46:01.536Z",
+    "lastChangedISO": "2026-09-16T13:09:10.762Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -1261,7 +1260,7 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/cookiesettings",
     "orgId": "maaden",
-    "contentHash": "4f946c883f7d4fd58f83240b30db9addaeb264115bdd2c6ecb3862485ba46262",
+    "contentHash": "876fb9854142b05e8497c7cdbd34bc437e8d48e394c4a0e40d47e718b04560dc",
     "blockHashes": [
       "5569201553604d03",
       "4c196b7e3be1973c",
@@ -1329,15 +1328,15 @@
       "ee82ab94d7112a03",
       "60b7b15f81dc7749",
       "abf11bb520a3d451",
-      "a2785c536b86eec0",
-      "281fe3bf5c866cf2"
+      "71c464464c7a6cb3",
+      "4c6d6f001ae52df5"
     ],
     "extractedChars": 8013,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-16T12:20:37.998Z",
+    "lastChangedISO": "2026-09-16T13:09:10.762Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/search-results",
@@ -2036,9 +2035,11 @@
     "contentHash": "e204dc2a9a4e1de43a8af47c1c681ce2189aa16c2bfdad6b122d496b76ad898e",
     "blockHashes": [
       "650a2ce183d63c69",
-      "ce24e9809b0b19e6",
-      "0efc3812c6abc971",
+      "c9dce8ba024b8085",
+      "e62d4c81b3ad8275",
       "78be07dcda742780",
+      "dbd0fe83c55f348c",
+      "4c8d8d4fc42e13b2",
       "4718e8bcdbef2701",
       "9f4d777290d5c715",
       "a954080d2ed9ccb1",
@@ -2052,7 +2053,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-16T12:20:37.998Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://cma.gov.sa/Pages/default.aspx",
@@ -2160,7 +2161,7 @@
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T02:22:33.828Z",
     "lastChangedISO": "2026-08-29T02:36:21.032Z",
-    "thinRuns": 219,
+    "thinRuns": 220,
     "pendingClassification": false
   },
   {
@@ -3401,14 +3402,14 @@
   {
     "sourceUrl": "https://nca.gov.sa/ar/careers/",
     "orgId": "nca",
-    "contentHash": "fad07ddb66350ca179b1966ae7eb48fa522289330cbac47e7db92d7857262d32",
+    "contentHash": "fb911ca628ffcc9951b62f7168b94cf15af45cf602b550457db0b02c1e6b4489",
     "blockHashes": [
-      "fad07ddb66350ca1"
+      "fb911ca628ffcc99"
     ],
     "extractedChars": 607,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-14T13:03:53.095Z",
+    "lastChangedISO": "2026-09-16T13:09:10.762Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -9194,14 +9195,14 @@
   {
     "sourceUrl": "https://www.rcrc.gov.sa/careers/?lang=ar",
     "orgId": "rcrc",
-    "contentHash": "04bf9d8a1834162bcca884c429b24773901931694b4819241c27ef0ef0c9c9a2",
+    "contentHash": "94eb744f5cf5e5e22403ddc35475ee350a68b51802cb71344816909d4ee81f94",
     "blockHashes": [
       "6987e35db5b6e60d"
     ],
     "extractedChars": 1166,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-16T12:01:06.271Z",
+    "lastChangedISO": "2026-09-16T13:09:10.762Z",
     "thinRuns": 0,
     "pendingClassification": true,
     "classifyFailures": 1
