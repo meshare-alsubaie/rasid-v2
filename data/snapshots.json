@@ -764,7 +764,7 @@
   {
     "sourceUrl": "https://career.alinma.com/",
     "orgId": "alinma",
-    "contentHash": "e245fd94c1ab59dcc6bad34af50ba34c224654b27d2f46834c18eef001143fa5",
+    "contentHash": null,
     "blockHashes": [
       "d139e32e22028878",
       "24a16c9057a577bb",
@@ -1336,7 +1336,7 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/search-results",
     "orgId": "maaden",
-    "contentHash": "e96c322a3c6fdbfb2298d2a4b3dffbc3fccddf92f867a6004de7cfa58aaecf07",
+    "contentHash": "c4e7078b61ace7829090ee7090a06de8af166ea9f73bda805e04726b3a5204d2",
     "blockHashes": [
       "dab5a7f3801bc914",
       "80fe4b45360f7bd3",
@@ -1345,9 +1345,9 @@
     "extractedChars": 240,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-16T16:08:06.903Z",
+    "lastChangedISO": "2026-09-16T16:55:52.841Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://careers.mcit.gov.sa/",
@@ -4386,7 +4386,7 @@
   {
     "sourceUrl": "https://training.moj.gov.sa/",
     "orgId": "moj",
-    "contentHash": "f4c6ef6b783b69d09a8f681ad1d80f1df35ef8cb8864917255879208cc305886",
+    "contentHash": null,
     "blockHashes": [
       "84a570379809f573",
       "ab443a0bbfda7883"
@@ -5322,9 +5322,8 @@
       "8037599cc13e35d7",
       "da25130d616a7537",
       "43a3b3cff6f43c7d",
-      "8336bcc9f4fe9c7b",
-      "d88b2390c8f74686",
-      "32161ed417d2f18d",
+      "da0c49af389f5907",
+      "dba28539237e70dc",
       "6759749999cda2d0",
       "271c5b7c6f9189a7",
       "4633be494c56764b",
@@ -5333,8 +5332,8 @@
       "4e4a26f218a69bfd",
       "33734d780232af5a",
       "4f9dde9277232205",
-      "97c37b507eb85bd7",
-      "1ae55945889653a5",
+      "66d92324c50b1cf3",
+      "92d42dc97061edf2",
       "1c12330b182af898"
     ],
     "extractedChars": 1980,
@@ -5342,8 +5341,8 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-16T13:40:46.688Z",
     "thinRuns": 0,
-    "pendingClassification": true,
-    "classifyFailures": 2
+    "pendingClassification": false,
+    "classifyFailures": 3
   },
   {
     "sourceUrl": "https://www.awqaf.gov.sa/ar",
@@ -11249,7 +11248,7 @@
   {
     "sourceUrl": "https://www.tahakom.com/careers",
     "orgId": "tahakom",
-    "contentHash": "8d1d8b4a6a7bde78572d8fa562ea399be56c71b4f40b53a0139f8955994ae509",
+    "contentHash": "457f65df725621cf1ff8df157d2d7ad5927ef366ef94aa5e45fdfae4dd6d3b3f",
     "blockHashes": [
       "d44217251213a019",
       "611753a8aea1ade1",
@@ -11260,9 +11259,9 @@
     "extractedChars": 838,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-03T05:13:40.059Z",
-    "lastChangedISO": "2026-09-16T16:08:06.903Z",
+    "lastChangedISO": "2026-09-16T16:55:52.841Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://www.taifcity.gov.sa/#/ar",
