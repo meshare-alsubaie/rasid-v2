@@ -1257,7 +1257,7 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/cookiesettings",
     "orgId": "maaden",
-    "contentHash": "3c862dd2805b26dfabe52f344af862e80f9e88842d37ea7096039b88ea95e556",
+    "contentHash": "0836d2f021d1aa67f46842b9a85edd1f82995e8d46732f76f73a2031de1b1184",
     "blockHashes": [
       "5569201553604d03",
       "4c196b7e3be1973c",
@@ -1325,13 +1325,12 @@
       "ee82ab94d7112a03",
       "60b7b15f81dc7749",
       "abf11bb520a3d451",
-      "b0bd7b62f8cf389b",
-      "75d8ce367ce70cbd"
+      "0a54d164467cfc1a"
     ],
     "extractedChars": 8013,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-16T19:38:51.831Z",
+    "lastChangedISO": "2026-09-16T20:27:46.519Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -1766,7 +1765,7 @@
   {
     "sourceUrl": "https://careers.sdaia.gov.sa/training",
     "orgId": "sdaia",
-    "contentHash": "c85f5e138b5c65644cc36a9b0c5e9718da8d17a96fc8f6de56c2a65e79a3e09a",
+    "contentHash": "6d46074f1938763f0a9245a2aa1b013633c7a37add8a82be35a0ab6acd37be64",
     "blockHashes": [
       "a3638bfcc93928a2",
       "5a2ea8a7bc8ff607",
@@ -1777,12 +1776,12 @@
       "9c07884d4ed44032",
       "c4aabeebd58258d2",
       "6dc60fec12c030a8",
-      "7d2db2ddafbe589d"
+      "8f0732c7043be9ff"
     ],
     "extractedChars": 1605,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-16T12:26:44.621Z",
+    "lastChangedISO": "2026-09-16T20:27:46.519Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -2156,7 +2155,7 @@
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T02:22:33.828Z",
     "lastChangedISO": "2026-08-29T02:36:21.032Z",
-    "thinRuns": 228,
+    "thinRuns": 229,
     "pendingClassification": false
   },
   {
@@ -3474,7 +3473,8 @@
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
     "lastChangedISO": "2026-09-16T17:12:01.436Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "triaged_out"
   },
   {
     "sourceUrl": "https://nca.gov.sa/ar/nca-academy/",
