@@ -471,14 +471,14 @@
     "orgId": "alinma",
     "contentHash": "ae1b36e29e30209d9ea9a814c1dcadda808b076d1bf3551d33c11f0eb32a58e7",
     "blockHashes": [
-      "2ea369c767fdd2b5"
+      "ae1b36e29e30209d"
     ],
     "extractedChars": 284,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T23:54:26.779Z",
     "lastChangedISO": "2026-09-16T00:07:13.338Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://alinma.com/en/About-the-Bank/The-Bank/News/2011/02/alinma-bank-and-al-khaleej-training-and-education-company-sign-education-financing-agreement",
@@ -2196,9 +2196,9 @@
   {
     "sourceUrl": "https://gaca.gov.sa/ar/announcements",
     "orgId": "gaca",
-    "contentHash": "f6f5a2e9f3155f536b8af9273caa10f43baab7c00d6478ed8f10c2191db81446",
+    "contentHash": "7fb2453da33e27f1fe1f023bc1280c3b7cb970bd6a600d6de951603f1a4c25e6",
     "blockHashes": [
-      "631f65941f37936e",
+      "4a3faec816b88987",
       "9c2a3967149440a8",
       "83a22e1f9fb245f8",
       "bc532942aaed49b7"
@@ -2206,7 +2206,7 @@
     "extractedChars": 1214,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-15T22:06:45.230Z",
+    "lastChangedISO": "2026-09-16T12:40:18.603Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -3024,9 +3024,9 @@
   {
     "sourceUrl": "https://modon.gov.sa/",
     "orgId": "modon",
-    "contentHash": "ddae4e7b58784dbea3a158c96deb075ecebf0a151ee0a7393d953b32574cb90b",
+    "contentHash": "1b31e049b86f65f5b74a7058dc521aada3480f31060f8f550ab2b27327ec1540",
     "blockHashes": [
-      "7f8f3319b94d2001",
+      "f3c41115c4ab897e",
       "0edf2292f0637ccb",
       "c32ffa2c93fe0d09",
       "9066ce9805b0428c",
@@ -3048,7 +3048,7 @@
     "extractedChars": 5996,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-15T19:02:04.811Z",
+    "lastChangedISO": "2026-09-16T12:40:18.603Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -3245,7 +3245,7 @@
   {
     "sourceUrl": "https://momah.gov.sa/ar/news",
     "orgId": "housing",
-    "contentHash": "b44afae556e8ae72b531308ee16e89d6c524a8ee9541f0ef2303ca5bfb3a7c4b",
+    "contentHash": "e0b236e7f1c5c3c163e06d03bfe0156767cad1f4256063df24610fa10d3d3459",
     "blockHashes": [
       "c39d79399ac7deac",
       "6dd936dd3894b0a4",
@@ -3255,31 +3255,31 @@
       "066ae42109053cb0",
       "aa8e55eac5aea8cd",
       "09552ec2996654f9",
-      "50acbc13887b87b1",
-      "bca59b04c4a42671",
-      "ac1405062719fb86",
-      "2058b0e5f4d1dce7",
-      "2e1d24bfef5dbe94",
-      "b7709064ce8ef071",
-      "5d15152619ff887e",
-      "42330447499b9f42",
+      "5a326add68673055",
+      "3e1ca11062164fda",
+      "285b514a17288fde",
       "ff6f87e39638cb9b",
-      "a06714cc0ec63820",
-      "330fae91e84cfea8",
+      "e83caee884e8477d",
+      "5d15152619ff887e",
+      "29c7162f966834c9",
+      "09b1bd561f62b68f",
+      "c4249f387656579c",
+      "2fb98cb1037df0c6",
+      "330b015f3497cf0c",
+      "27248e7c7f2cafbc",
+      "ea74934092c9bb34",
+      "50abc34a109d5fbd",
+      "ac1405062719fb86",
+      "8f3638740372f66d",
       "560edfe1df9d8921",
       "23b97a8a93aba477",
       "9cd3abf7fd1573ff",
-      "c1c35f21908aa9f6",
-      "09b1bd561f62b68f",
-      "b7ce1178d9bf4c1f",
-      "82027e8425fb1717",
-      "695dc67345f85c1e",
-      "a97611614b678c6d"
+      "b7535c945e9937cd"
     ],
     "extractedChars": 151354,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-15T22:06:45.230Z",
+    "lastChangedISO": "2026-09-16T12:40:18.603Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -6218,8 +6218,9 @@
       "607be73060125a10",
       "bae82e5bc7dfed14",
       "55ec493af42ac877",
-      "4283ca397adf65e2",
-      "9a318107bcb96dc5",
+      "c4e6a4f0714efb70",
+      "3c8c59afa0dad0df",
+      "f9f04cf9b97a52e3",
       "2f9871f7f606fb93",
       "c89288bf3128b053",
       "755ce8670b4a0655",
@@ -6243,8 +6244,8 @@
     "firstSeenISO": "2026-08-29T22:03:35.383Z",
     "lastChangedISO": "2026-09-14T11:19:06.828Z",
     "thinRuns": 0,
-    "pendingClassification": true,
-    "classifyFailures": 2
+    "pendingClassification": false,
+    "classifyFailures": 3
   },
   {
     "sourceUrl": "https://www.fakeeh.care/news-and-media",
@@ -6507,10 +6508,10 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/cooperations?lang=ar",
     "orgId": "hrc",
-    "contentHash": "c3c310be8e54d143f8d3829fbcad147523a1d782b03dcbbe30d8509bea6d433e",
+    "contentHash": "7c3aea3f25188a8848a2bed31f67a4f05ec58cc0e9dafeeabe9a77d9019f10ca",
     "blockHashes": [
       "12e41a244a8a2984",
-      "a20dcf3759e88faf",
+      "2b9f7ed0dbd85f03",
       "15c715928fc246c0",
       "9a4a215f8452ca45",
       "961639689d2c8819",
@@ -6531,7 +6532,7 @@
     "extractedChars": 6137,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-15T22:06:45.230Z",
+    "lastChangedISO": "2026-09-16T12:40:18.603Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -7753,17 +7754,18 @@
   {
     "sourceUrl": "https://www.moe.gov.sa/ar/mediacenter/multimedia/Pages/default.aspx",
     "orgId": "moe",
-    "contentHash": "fd17d40d6d36342b0b2f0859a665fea4af6379c65a6b5a514760d1b5f21072df",
+    "contentHash": "8ff6c75d4dc213e2d05c3e3b3777180422710c402a9725cd458443cb978ea119",
     "blockHashes": [
       "a78a537d645cc1d2",
-      "a34e33a795c31a3d"
+      "bed1564fb287d372"
     ],
-    "extractedChars": 555,
+    "extractedChars": 557,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-13T14:14:00.840Z",
+    "lastChangedISO": "2026-09-16T12:40:18.603Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "triaged_out"
   },
   {
     "sourceUrl": "https://www.moe.gov.sa/ar/Pages/default.aspx",
@@ -8513,8 +8515,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-15T22:09:41.066Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "triaged_out"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.nazaha.gov.sa/News/Details?q=+ZUW2RPX/9RAyHyLvILpaw==",
