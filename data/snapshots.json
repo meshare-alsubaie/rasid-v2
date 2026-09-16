@@ -438,7 +438,7 @@
     "orgId": "alinma",
     "contentHash": "817a0070539c46c764b8b5ef19e761cb945c237dfdc44470e29c883e9e7d6d3b",
     "blockHashes": [
-      "cf9812257f374162",
+      "1b9a991d58ed23de",
       "1ed01ab7550902a3",
       "edb0eb72f14698e7",
       "ec081929f22e36ea",
@@ -449,7 +449,8 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-15T20:17:25.536Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://alinma.com/en/About-the-Bank/The-Bank/News/2009/02/alinma-bank-selects-and-prepares-its-phone-banking-and-training-center-location",
@@ -1272,19 +1273,20 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/search-results",
     "orgId": "maaden",
-    "contentHash": "a431e662a1690b9b3380ba5457bc19f84e12b54232c23fa5b2db6dd9e976acac",
+    "contentHash": "570d41d962a7e7c89c879651991516e5da1931108fb46faf84d00d6d65b8a5eb",
     "blockHashes": [
       "5569201553604d03",
       "6e3cceb54e777f64",
+      "298a05ebe5a16280",
       "d6c0adacb353836a",
-      "851eda0d9a57595c",
-      "3862cfddf6e4884d",
-      "2f3daa67f57e55b4"
+      "4785c947fe49ecf3",
+      "8518ce4202f33d76",
+      "f64d527038c8c7bb"
     ],
-    "extractedChars": 1295,
-    "extractionMethod": "body_fallback",
+    "extractedChars": 322,
+    "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-16T13:40:46.688Z",
+    "lastChangedISO": "2026-09-16T14:30:19.185Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -11115,7 +11117,7 @@
   {
     "sourceUrl": "https://www.tadawulgroup.sa/wps/portal/tadawulgroup/joinus",
     "orgId": "tadawul",
-    "contentHash": "218af6789adae9d596633c79e9b359213a247d93501904bfc43eeae06fd8c680",
+    "contentHash": "d0d3b5ac169f1b73ab7aa83d70c779f4ee298b89ccc3b8284f83c6034148bac3",
     "blockHashes": [
       "dbfb7021493a5943",
       "4acb10188c67e120",
@@ -11127,12 +11129,13 @@
       "99045a67c833cd6b",
       "332ab17b1cccbd59"
     ],
-    "extractedChars": 1384,
+    "extractedChars": 1186,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-02T23:42:46.216Z",
-    "lastChangedISO": "2026-09-16T13:40:46.688Z",
+    "lastChangedISO": "2026-09-16T14:30:19.185Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://www.tahakom.com/",
