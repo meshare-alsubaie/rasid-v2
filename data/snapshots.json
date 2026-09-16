@@ -262,17 +262,17 @@
   {
     "sourceUrl": "https://alinma.com/About-the-Bank/The-Bank/News",
     "orgId": "alinma",
-    "contentHash": "130ca1b095416a11f48257ef488bc19a49c4a459e3e7107b41360dea8190c9e6",
+    "contentHash": "bf0ccdd48f31e06f8753b499705ad6350786733247215df96ba561bbf977e396",
     "blockHashes": [
       "cd7fc326454450e2",
       "c93fa942b55c02a3"
     ],
-    "extractedChars": 3667,
+    "extractedChars": 3641,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-15T14:51:30.200Z",
+    "lastChangedISO": "2026-09-16T14:40:57.929Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://alinma.com/About-the-Bank/The-Bank/News/2009/02/alinma-bank-selects-and-prepares-its-phone-banking-and-training-center-location",
@@ -661,7 +661,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-16T13:54:12.044Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://awqaf.gov.sa/ar/ar/hiring/",
@@ -7581,7 +7581,7 @@
   {
     "sourceUrl": "https://www.mim.gov.sa/ar/empower-training/cooperative-training",
     "orgId": "mim",
-    "contentHash": "8dda5eeb83205c2f41f2b8290e70fff2660d09072fc67a6922309ad4682f86d3",
+    "contentHash": "c50513239c13e4e66f5b757dbab84a5bafa5d0c58c9c464cf89e7294b119d9e2",
     "blockHashes": [
       "1cb91553dd3291a4",
       "5300d4cdd32a8d33"
@@ -7589,10 +7589,9 @@
     "extractedChars": 2495,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T02:22:33.828Z",
-    "lastChangedISO": "2026-09-16T13:54:12.044Z",
+    "lastChangedISO": "2026-09-16T14:42:00.885Z",
     "thinRuns": 0,
-    "pendingClassification": true,
-    "classifyFailures": 1
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://www.mim.gov.sa/ar/media-center/news",
@@ -11158,18 +11157,18 @@
   {
     "sourceUrl": "https://www.tahakom.com/careers",
     "orgId": "tahakom",
-    "contentHash": "8d1d8b4a6a7bde78572d8fa562ea399be56c71b4f40b53a0139f8955994ae509",
+    "contentHash": "a9b0253c483902a00645b630b2cbbfa1a6bf43b8378a82c3ac4c901491886ea6",
     "blockHashes": [
       "d44217251213a019",
       "611753a8aea1ade1",
       "0cea4d38306888dc",
       "1a5263a5a2541c46",
-      "f3829db208838eb8"
+      "7ff616a2455f75c9"
     ],
     "extractedChars": 838,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-03T05:13:40.059Z",
-    "lastChangedISO": "2026-09-16T13:45:50.224Z",
+    "lastChangedISO": "2026-09-16T14:33:22.137Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
