@@ -365,15 +365,15 @@
     "orgId": "alinma",
     "contentHash": "de2dfb1cd5fc16a687569b127ce4158bec204afd17e33c83bb38de91833f3a10",
     "blockHashes": [
-      "f5c195e266682c4c"
+      "de2dfb1cd5fc16a6"
     ],
     "extractedChars": 281,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T23:54:26.779Z",
     "lastChangedISO": "2026-09-15T22:56:32.669Z",
     "thinRuns": 0,
-    "pendingClassification": true,
-    "classifyFailures": 2
+    "pendingClassification": false,
+    "classifyFailures": 3
   },
   {
     "sourceUrl": "https://alinma.com/About-the-Bank/The-Bank/News/2011/12/alinmabankhoststrainingcourseoncorporatebusinessservicesandebanking",
@@ -8618,11 +8618,11 @@
   {
     "sourceUrl": "https://www.nazaha.gov.sa/News/Details?q=o2ojUlDL5mGosOuEoGXXeg==",
     "orgId": "nazaha",
-    "contentHash": "9e5af03aae54093b916eeb69598f38191d69cc5f729a97454555b193b827523c",
+    "contentHash": "20638dd9e5412d5b5cfd7fe6a84c4a31e7f79ae1c22040abe61747f0d3629e57",
     "blockHashes": [
       "a167b0dd9b0e3e1c",
       "74e4c1d2a646a96e",
-      "22bf61233156e10c",
+      "d5129ca464453f3a",
       "8d35c6dbfb6149bf",
       "934470dd7b84953f",
       "b97ad38f7d56bff9"
@@ -8630,9 +8630,10 @@
     "extractedChars": 783,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-15T23:21:33.468Z",
+    "lastChangedISO": "2026-09-16T22:50:42.313Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "triaged_out"
   },
   {
     "sourceUrl": "https://www.ncc.gov.sa/ar/MediaCenter/Events/Pages/default.aspx",
