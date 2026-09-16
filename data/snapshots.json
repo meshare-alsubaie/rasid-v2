@@ -661,7 +661,8 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-16T22:04:36.244Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://awqaf.gov.sa/ar/ar/hiring/",
@@ -1259,10 +1260,9 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/cookiesettings",
     "orgId": "maaden",
-    "contentHash": "a9223996243de259d81678493b8da3acb5cf907b679f78f0456dc8dfde1d8e5c",
+    "contentHash": "0e4e57e08a69ab85f92f9809f2e6b4c69f1a56617a88f8395bc8611a036a72d8",
     "blockHashes": [
-      "5569201553604d03",
-      "f4979ecd6a2f2db6",
+      "2fb28de24072d906",
       "dd53e083dd4c4329",
       "5e2fc5a4da5c7871",
       "197c66a2b21d9654",
@@ -1327,13 +1327,13 @@
       "ee82ab94d7112a03",
       "60b7b15f81dc7749",
       "abf11bb520a3d451",
-      "e796aa1f66e335bf",
-      "2b0a7c9921ae9eb6"
+      "86b9773df5e2e3ec",
+      "03605895892677cd"
     ],
     "extractedChars": 8013,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-16T22:04:36.244Z",
+    "lastChangedISO": "2026-09-16T22:54:15.093Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -1772,7 +1772,7 @@
   {
     "sourceUrl": "https://careers.sdaia.gov.sa/training",
     "orgId": "sdaia",
-    "contentHash": "6d46074f1938763f0a9245a2aa1b013633c7a37add8a82be35a0ab6acd37be64",
+    "contentHash": "c85f5e138b5c65644cc36a9b0c5e9718da8d17a96fc8f6de56c2a65e79a3e09a",
     "blockHashes": [
       "a3638bfcc93928a2",
       "5a2ea8a7bc8ff607",
@@ -1783,12 +1783,12 @@
       "9c07884d4ed44032",
       "c4aabeebd58258d2",
       "6dc60fec12c030a8",
-      "8f0732c7043be9ff"
+      "7d2db2ddafbe589d"
     ],
     "extractedChars": 1605,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-16T22:04:36.244Z",
+    "lastChangedISO": "2026-09-16T22:54:15.093Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -2161,7 +2161,7 @@
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T02:22:33.828Z",
     "lastChangedISO": "2026-08-29T02:36:21.032Z",
-    "thinRuns": 231,
+    "thinRuns": 232,
     "pendingClassification": false
   },
   {
@@ -7657,7 +7657,7 @@
   {
     "sourceUrl": "https://www.mim.gov.sa/ar/empower-training/cooperative-training",
     "orgId": "mim",
-    "contentHash": "61af14a490c6d4a21c96af400fc19c2fa2ae5b7b5b4e1768586665397147da8f",
+    "contentHash": "1842a06c4209b64d13add93868572f904d32406075bccae4ea0993d69ad0e853",
     "blockHashes": [
       "1cb91553dd3291a4",
       "5300d4cdd32a8d33"
@@ -7665,7 +7665,7 @@
     "extractedChars": 2495,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T02:22:33.828Z",
-    "lastChangedISO": "2026-09-16T22:04:36.244Z",
+    "lastChangedISO": "2026-09-16T22:54:15.093Z",
     "thinRuns": 0,
     "pendingClassification": true,
     "classifyFailures": 1
@@ -9241,17 +9241,16 @@
   {
     "sourceUrl": "https://www.rcrc.gov.sa/careers/?lang=ar",
     "orgId": "rcrc",
-    "contentHash": "025c205d3293729ae1b983f1d6fb156218f631e6b19baf2d7e8042b9f30553d8",
+    "contentHash": "fddde38dd110fbb1f65051d324448f27b616d63e6ec078e4c90221054c1f31e9",
     "blockHashes": [
-      "6d0eb8231c2c41ec"
+      "fddde38dd110fbb1"
     ],
-    "extractedChars": 1166,
+    "extractedChars": 784,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-16T21:59:33.350Z",
+    "lastChangedISO": "2026-09-16T22:54:15.093Z",
     "thinRuns": 0,
-    "pendingClassification": true,
-    "classifyFailures": 1
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.rcrc.gov.sa/media-center/",
