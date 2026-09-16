@@ -1272,20 +1272,16 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/search-results",
     "orgId": "maaden",
-    "contentHash": "570d41d962a7e7c89c879651991516e5da1931108fb46faf84d00d6d65b8a5eb",
+    "contentHash": "2ab08251927e748dd88d7d9afeb6ae6314aa674e33d7feb10158647d03a0509e",
     "blockHashes": [
-      "5569201553604d03",
-      "6e3cceb54e777f64",
-      "298a05ebe5a16280",
-      "d6c0adacb353836a",
-      "4785c947fe49ecf3",
-      "8518ce4202f33d76",
-      "f64d527038c8c7bb"
+      "dab5a7f3801bc914",
+      "20c74ad5787f3f2a",
+      "4a2fd5daf4aca5e3"
     ],
-    "extractedChars": 322,
+    "extractedChars": 240,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-16T14:30:19.185Z",
+    "lastChangedISO": "2026-09-16T15:19:46.295Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -3705,8 +3701,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-16T12:13:01.276Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "triaged_out"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://nour.net.sa/ar/news/limitless-2026-event/",
@@ -4318,7 +4313,7 @@
   {
     "sourceUrl": "https://training.moj.gov.sa/",
     "orgId": "moj",
-    "contentHash": null,
+    "contentHash": "f4c6ef6b783b69d09a8f681ad1d80f1df35ef8cb8864917255879208cc305886",
     "blockHashes": [
       "84a570379809f573",
       "ab443a0bbfda7883"
@@ -4326,7 +4321,7 @@
     "extractedChars": 481,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T02:31:49.455Z",
-    "lastChangedISO": "2026-09-15T20:58:22.703Z",
+    "lastChangedISO": "2026-09-16T15:19:46.295Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -9516,8 +9511,7 @@
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
     "lastChangedISO": "2026-09-16T12:13:01.276Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.sabic.com/ar/careers",
@@ -11130,7 +11124,7 @@
     "lastChangedISO": "2026-09-16T14:30:19.185Z",
     "thinRuns": 0,
     "pendingClassification": true,
-    "classifyFailures": 1
+    "classifyFailures": 2
   },
   {
     "sourceUrl": "https://www.tahakom.com/",
@@ -11153,18 +11147,18 @@
   {
     "sourceUrl": "https://www.tahakom.com/careers",
     "orgId": "tahakom",
-    "contentHash": "a9b0253c483902a00645b630b2cbbfa1a6bf43b8378a82c3ac4c901491886ea6",
+    "contentHash": "457f65df725621cf1ff8df157d2d7ad5927ef366ef94aa5e45fdfae4dd6d3b3f",
     "blockHashes": [
       "d44217251213a019",
       "611753a8aea1ade1",
       "0cea4d38306888dc",
       "1a5263a5a2541c46",
-      "7ff616a2455f75c9"
+      "a937a81f39e1b5a8"
     ],
     "extractedChars": 838,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-03T05:13:40.059Z",
-    "lastChangedISO": "2026-09-16T14:33:22.137Z",
+    "lastChangedISO": "2026-09-16T15:19:46.295Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
