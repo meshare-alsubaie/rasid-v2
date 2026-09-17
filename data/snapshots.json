@@ -2107,17 +2107,17 @@
   {
     "sourceUrl": "https://gaca.gov.sa/announcements",
     "orgId": "gaca",
-    "contentHash": "9dfd6c065a2c44c169745a64861c217e52fe4a3cdd2336af13a22c22a2eec88f",
+    "contentHash": "6c6c1fae56a796c62c887f9e4182e17890b9c11570c6e98f1c5b38f5a0ff7aaf",
     "blockHashes": [
-      "ff58ba101c725320",
+      "ce9edd0c49eb8390",
       "9c2a3967149440a8",
       "83a22e1f9fb245f8",
-      "bc532942aaed49b7"
+      "7de1c156a36d0c38"
     ],
-    "extractedChars": 1212,
+    "extractedChars": 1473,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-16T22:31:35.215Z",
+    "lastChangedISO": "2026-09-17T01:36:00.655Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -3208,38 +3208,38 @@
   {
     "sourceUrl": "https://momah.gov.sa/ar/node/14717",
     "orgId": "housing",
-    "contentHash": "d77909a4a9e31234625d7100e86de12e6874a94057e100b1527969c7578c965a",
+    "contentHash": "15c95c7bf386c39a01d26a31bc6bbdba94fb572507d3031bb3da8031e8eb6f00",
     "blockHashes": [
       "cb4161ba67cbcfe8",
       "075ae909c8ed1c08",
       "a9b825825b3c6e51",
       "aa8e55eac5aea8cd",
       "09552ec2996654f9",
-      "faaa93e2b46c750f",
-      "5d15152619ff887e",
-      "f8d23b6cb9715731",
-      "ff6f87e39638cb9b",
-      "b1035f39603a0c63",
-      "723d33d8be9b1c30",
+      "cbda0896b617578d",
       "09b1bd561f62b68f",
-      "1b160bb175a07689",
+      "675727d504e8ac5e",
+      "ac1405062719fb86",
+      "762c7c501b58e395",
+      "2ce4ea9b3ddf80b3",
+      "3ffb6512a0239908",
       "560edfe1df9d8921",
       "23b97a8a93aba477",
       "9cd3abf7fd1573ff",
-      "9106d8596d2583c6",
-      "0a44c1a9b7f66543",
-      "b287d2a20ee70874",
-      "b9b4a963089cee4f",
-      "c5c2a84c57abec72",
-      "ac1405062719fb86",
-      "7e42b2e810dbb8f5",
-      "0c8efcca8be964fd",
-      "b5a3211ee98e24e8"
+      "18f2f50519ddb470",
+      "2c21f7533fbb3175",
+      "474875fb6e2e2818",
+      "5384a02e95b59ce4",
+      "bbc683ada7273daa",
+      "4c251f739dba5e81",
+      "ff6f87e39638cb9b",
+      "36ef44c33d128b5f",
+      "5d15152619ff887e",
+      "8afce3a3bb988878"
     ],
     "extractedChars": 152144,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-16T22:31:35.215Z",
+    "lastChangedISO": "2026-09-17T01:36:00.655Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -4312,7 +4312,7 @@
   {
     "sourceUrl": "https://training.moj.gov.sa/",
     "orgId": "moj",
-    "contentHash": "f4c6ef6b783b69d09a8f681ad1d80f1df35ef8cb8864917255879208cc305886",
+    "contentHash": null,
     "blockHashes": [
       "84a570379809f573",
       "ab443a0bbfda7883"
@@ -6334,10 +6334,10 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/careers?lang=ar",
     "orgId": "hrc",
-    "contentHash": "fa6c8b3ed7b56cad5f4a04f1a6f88ece324dffe431dfd9653617e3b3e10671f1",
+    "contentHash": "c5a580180fd66e8a23da5512023dab8e47a1eaeeee56cd25603bbd44cd23e5d6",
     "blockHashes": [
       "12e41a244a8a2984",
-      "9e30acf254f2defd",
+      "3d126f07045c588b",
       "9bd6314e9bbc7375",
       "474d2dbb69aae30b",
       "84b2fc11813dc7e8",
@@ -6361,7 +6361,7 @@
     "extractedChars": 3794,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-16T22:31:35.215Z",
+    "lastChangedISO": "2026-09-17T01:36:00.655Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -7495,8 +7495,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-16T22:31:35.215Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.mewa.gov.sa/ar/MediaCenter/VisualIdentityGuide/Pages/default.aspx",
@@ -8521,8 +8520,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-16T22:36:31.056Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.nazaha.gov.sa/News/Details?q=o2ojUlDL5mGosOuEoGXXeg==",
@@ -11146,7 +11144,7 @@
     "lastChangedISO": "2026-09-17T00:03:34.523Z",
     "thinRuns": 0,
     "pendingClassification": true,
-    "classifyFailures": 1
+    "classifyFailures": 2
   },
   {
     "sourceUrl": "https://www.tahakom.com/",
@@ -11169,20 +11167,20 @@
   {
     "sourceUrl": "https://www.tahakom.com/careers",
     "orgId": "tahakom",
-    "contentHash": "855193303b2324024bccef01fb39a6cd0af6aa0a7562dccc8e836ce6179ea203",
+    "contentHash": "cdc6e715febd70ac89e4ace8f3b65185ba7bfab54fda1908fc17c2332d9ecb2f",
     "blockHashes": [
       "d44217251213a019",
       "611753a8aea1ade1",
       "0cea4d38306888dc",
       "1a5263a5a2541c46",
-      "a329fa08d32f11fc"
+      "da33eb4a1bacafc3"
     ],
     "extractedChars": 836,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-03T05:13:40.059Z",
-    "lastChangedISO": "2026-09-17T00:51:29.550Z",
+    "lastChangedISO": "2026-09-17T01:39:46.234Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.taifcity.gov.sa/#/ar",
