@@ -256,8 +256,7 @@
     "firstSeenISO": "2026-08-29T22:03:35.383Z",
     "lastChangedISO": "2026-09-16T17:28:08.117Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "triaged_out"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://alinma.com/About-the-Bank/The-Bank/News",
@@ -2597,15 +2596,15 @@
   {
     "sourceUrl": "https://lcgpa.gov.sa/ar/Pages/default.aspx",
     "orgId": "lcgpa",
-    "contentHash": "40d466783d74ef0ad82a6cdc95dfc26fcabcbf6b61668c1439917bd6c601c3bd",
+    "contentHash": "ba39e9391b7170ad42a8f9b2a93995fc870a4a5cb97d8650d7e8e2812bf3d51a",
     "blockHashes": [
-      "880c39e968fbb926",
+      "c8ffd40d3e6caff3",
       "beda84e843f95551"
     ],
     "extractedChars": 218,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-16T18:20:28.666Z",
+    "lastChangedISO": "2026-09-17T00:29:32.055Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -2701,7 +2700,7 @@
   {
     "sourceUrl": "https://mawhiba.org/",
     "orgId": "mawhiba",
-    "contentHash": "e0894bf86f9f15b417829677e5d3a043eba62df18fa136cc5b5238622d3411c6",
+    "contentHash": "1079a97f2fc87c7dc9ecf5201e7916a887f14b3bba6538294b9795b8f1feab26",
     "blockHashes": [
       "cebaa0d7740345e0",
       "b0a03231aea02dc9",
@@ -2712,7 +2711,7 @@
       "690994aac8cdc87d",
       "222b97e5d083913a",
       "db2f6d845153ed4d",
-      "f928e37b4dbaee95",
+      "793f24d069ecb284",
       "7ccdf5917bb02e54",
       "df7aa21718383d01",
       "6303d058dc580116",
@@ -2725,15 +2724,15 @@
       "c4583f676c27517a",
       "4ea242e080578a16",
       "a4e4e1fbeaab5463",
-      "c12edbf4cf5d614e",
+      "21f099947da7705d",
       "b518044d0e3ef109",
       "1f3c4598715a2661",
       "006216df3cce041d"
     ],
-    "extractedChars": 8253,
+    "extractedChars": 8500,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-16T18:20:28.666Z",
+    "lastChangedISO": "2026-09-17T00:29:32.055Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -2773,7 +2772,7 @@
   {
     "sourceUrl": "https://mc.gov.sa/ar/pages/default.aspx",
     "orgId": "mc",
-    "contentHash": "fb32c4f7f9a7776b1fb399c9513621959550aaf33ba2c6ffee2732ad2a7e1c14",
+    "contentHash": "e31a886f938bb405e646a17e6793e4d7ec52b56a7d556087da77de01dd144087",
     "blockHashes": [
       "88b5148b04637d49",
       "74e4c1d2a646a96e",
@@ -2791,14 +2790,14 @@
       "7388bedb36b7cfb3",
       "21cf4a39855f6112",
       "d0f0d951b75dc3da",
-      "4b5bd567ece6a5ef",
+      "cc20879dbeb4aefa",
       "c0be845c29d2cb4d",
       "512411bd0eda978e"
     ],
-    "extractedChars": 2740,
+    "extractedChars": 915,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T23:21:37.487Z",
-    "lastChangedISO": "2026-09-16T12:13:01.276Z",
+    "lastChangedISO": "2026-09-17T00:29:32.055Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -3475,20 +3474,25 @@
   {
     "sourceUrl": "https://ncar.gov.sa/",
     "orgId": "ncar",
-    "contentHash": "b16701789675fb968a8f1dc1f00781c03d1bf3c6a3fef15a49250ad11580873d",
+    "contentHash": "5e31030d815e96b497bd4d6bd156e493163e468605e90726324fd841ac9919a0",
     "blockHashes": [
       "c911502a32b8a6f9",
-      "3bbc688063cf81ae",
-      "26b7600a224c8c65",
+      "4f376b2971bfbca4",
+      "ca80e9da341f647b",
+      "4b4956634b18a910",
+      "5e066b1f02a22686",
+      "8e5482e4a46e0b3f",
+      "d00a8cbf1a651a04",
+      "afe123c58fa101a1",
       "75c514565d626437"
     ],
-    "extractedChars": 536,
+    "extractedChars": 2711,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-16T18:25:02.036Z",
+    "lastChangedISO": "2026-09-17T00:29:32.055Z",
     "thinRuns": 0,
     "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "settledWithoutVerdict": "triaged_out"
   },
   {
     "sourceUrl": "https://ncdc.gov.sa/",
@@ -4850,8 +4854,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-16T18:20:28.666Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "triaged_out"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.alrajhibank.com.sa/",
@@ -6529,11 +6532,11 @@
   {
     "sourceUrl": "https://www.hrdf.org.sa/products-and-services/programs/individuals/training/cooperative-training/",
     "orgId": "hrdf_coop",
-    "contentHash": "b6b385669395bdc1d58c55082e0bd1f452bbb947d13f81c4213511bb113315f9",
+    "contentHash": "2da44675cfc4725fd6cf9ad0ac4f21b8df9d2d8b65bd6574bff861b63e7abbea",
     "blockHashes": [
       "45526a3a724650be",
       "74e4c1d2a646a96e",
-      "229ca653fff6fa67",
+      "09f31a6076339a1a",
       "0bbb8684587712ce",
       "708fe6c77bb05acc",
       "8b7e6b90d8c89aa7",
@@ -6703,7 +6706,7 @@
     "extractedChars": 8563,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-03T01:25:25.661Z",
-    "lastChangedISO": "2026-09-16T12:13:01.276Z",
+    "lastChangedISO": "2026-09-17T00:29:32.055Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -7643,16 +7646,16 @@
   {
     "sourceUrl": "https://www.moc.gov.sa/ar",
     "orgId": "moc",
-    "contentHash": "8ba3153e79d15faa16246819be5aa85694afe374159798afd73cd90aa22bfc2f",
+    "contentHash": "f992d1a1bf2af526ec0b49ebb3ae5fe682c6e50f3553abdb55beafe3d35476c4",
     "blockHashes": [
       "88c122fdb76fc42f",
-      "d107f8b5a134a365",
+      "fcbd68e6713e015d",
       "7ea0a8926b415da0"
     ],
     "extractedChars": 6095,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-16T18:20:28.666Z",
+    "lastChangedISO": "2026-09-17T00:29:32.055Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
