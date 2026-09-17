@@ -141,28 +141,29 @@
     "titleAr": "التوظيف",
     "detectedISO": "2026-09-17T00:38:11.312Z",
     "firstSeenISO": "2026-09-17T00:38:11.312Z",
-    "lastConfirmedISO": "2026-09-17T00:38:11.312Z",
+    "lastConfirmedISO": "2026-09-17T01:29:49.087Z",
     "status": "unknown",
     "opensISO": null,
     "closesISO": null,
     "closesHijri": null,
     "product": "coop",
-    "majors": [],
+    "majors": [
+      "التدريب"
+    ],
     "seats": null,
     "stipendSAR": null,
     "durationWeeks": null,
     "cities": [],
-    "relevanceScore": null,
-    "relevanceReason": "لم تُحسب الملاءمة: لم يُذكر في الصفحة تخصّص ولا مجال، فلا يوجد ما يُقاس عليه. افتحها بنفسك.",
+    "relevanceScore": 10,
+    "relevanceReason": "ذكر الإعلان تخصّصات ليس فيها ما يقارب تخصّصك.",
     "statesZeroCoursesRule": false,
     "zeroCoursesQuote": null,
     "flags": [
-      "no_course_condition",
-      "needs_manual_review"
+      "no_course_condition"
     ],
     "sourceUrl": "https://careers.sdaia.gov.sa/training",
-    "applyUrl": "https://cooptraining.sdaia.gov.sa/",
-    "rawExcerpt": "التوظيف\n\nموقع حكومي رسمي تابع لحكومة المملكة العربية السعودية كيف تتحقق روابط المواقع الالكترونية الرسمية للسعودية تنتهي بـ gov.sa جميع روابط المواقع الرسمية التابعة للجهات الحكومية في المملكة العربية السعودية تنتهي بـ gov.sa المواقع الالكترونية الحكومية تستخدم بروتوكول HTTPS للتشفير و الأمان المواقع الالكترونية الآمنة في المملكة العربية السعودية تستخدم بروتوكول HTTPS.\n\nالتقديم غير متاح لمزيد من ا"
+    "applyUrl": "https://careers.sdaia.gov.sa/cooptraining@sdaia.gov.sa",
+    "rawExcerpt": "التوظيف\n\nموقع حكومي رسمي تابع لحكومة المملكة العربية السعودية كيف تتحقق روابط المواقع الالكترونية الرسمية للسعودية تنتهي بـ gov.sa جميع روابط المواقع الرسمية التابعة للجهات الحكومية في المملكة العربية السعودية تنتهي بـ gov.sa المواقع الالكترونية الحكومية تستخدم بروتوكول HTTPS للتشفير و الأمان المواقع الالكترونية الآمنة في المملكة العربية السعودية تستخدم بروتوكول HTTPS.\n\nالتقديم على التدريب لمزيد م"
   },
   {
     "id": "235dcd1c2e95bcb0",
@@ -844,11 +845,12 @@
       "مدينة الرياض"
     ],
     "relevanceScore": 10,
-    "relevanceReason": "ذكر الإعلان تخصّصات ليس فيها ما يقارب تخصّصك.",
+    "relevanceReason": "ذكر الإعلان تخصّصات ليس فيها ما يقارب تخصّصك. (لم يُتحقّق في آخر جولة: جاء الردّ بصيغة غير متوقّعة، فلم يُقبل. الصفحة محفوظة وستُعاد قراءتها.)",
     "statesZeroCoursesRule": true,
     "zeroCoursesQuote": "التفرغ الكاملأن يكون المتقدم متفرغًا طوال فترة التدريب",
     "flags": [
-      "more_on_page"
+      "more_on_page",
+      "needs_manual_review"
     ],
     "sourceUrl": "https://athkax.sdaia.gov.sa/coop",
     "applyUrl": null,
