@@ -138,21 +138,21 @@
   {
     "sourceUrl": "https://adf.gov.sa/ar/Pages/default.aspx",
     "orgId": "adf",
-    "contentHash": "467eadc65162d0cff0e9eb4a2ab711822f948d1cd0e42c49833def1b51369b5a",
+    "contentHash": "5051eeb9bff561dd85ec70d9131581076d723368ddda9a80b2c47415c5e6983d",
     "blockHashes": [
       "1ce798e0ca5f6070",
       "9e8708f46644e878",
-      "d7e363ac7ccb8744",
+      "42683c9e239937f5",
       "d9fa33934fb9c265",
       "b7a4f19178b3b8a1",
       "0514128baf9c79f1",
       "9185920f2483a42d",
-      "1719a510f9dc2bc8",
+      "9e08a141275f227a",
+      "13285e8c3eb4c8ac",
       "4838bf63eca38706",
       "d380a83380c07da6",
       "2c2b159c69b9c652",
       "a388dba12693ad77",
-      "96a4c3fb7f3a9ff3",
       "89e64ef213f6260e",
       "72033fdd25227d0d",
       "782261474561a27a",
@@ -161,9 +161,9 @@
     "extractedChars": 1691,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
-    "lastChangedISO": "2026-09-17T14:11:53.498Z",
+    "lastChangedISO": "2026-09-17T20:14:26.059Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://adf.gov.sa/ar/Pages/employment.aspx",
@@ -563,17 +563,16 @@
   {
     "sourceUrl": "https://alinma.com/en/About-the-Bank/The-Bank/News/2011/12/alinmabankhoststrainingcourseoncorporatebusinessservicesandebanking",
     "orgId": "alinma",
-    "contentHash": "0f70eda86e6c5883f5a3bbfb16cf3b49be9b3500a861f5f80811da3ef2f72fa6",
+    "contentHash": "47b87c9718c4491f66f454645ec0d01e5b8cf8125259085cca4caac1fcdad7fc",
     "blockHashes": [
       "dcb3606a9bb54336"
     ],
     "extractedChars": 284,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T23:54:26.779Z",
-    "lastChangedISO": "2026-09-15T19:33:24.572Z",
+    "lastChangedISO": "2026-09-17T20:26:33.020Z",
     "thinRuns": 0,
-    "pendingClassification": true,
-    "classifyFailures": 2
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://alinma.com/en/About-the-Bank/The-Bank/News/2013/05/alinmajobandcareerdayattractsgraduatesoftheinstituteofpublicadministration",
@@ -1265,10 +1264,9 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/cookiesettings",
     "orgId": "maaden",
-    "contentHash": "32e150a8cf6dfbb861682038e394d125a81b5ee703a85a467af9db51df3ac85d",
+    "contentHash": "f67596c9496bcef8757fc06759cdd2d91af0f5e24d959e5ab32ed0cd489cb14f",
     "blockHashes": [
-      "5569201553604d03",
-      "4c196b7e3be1973c",
+      "2fb28de24072d906",
       "dd53e083dd4c4329",
       "5e2fc5a4da5c7871",
       "197c66a2b21d9654",
@@ -1333,13 +1331,13 @@
       "ee82ab94d7112a03",
       "60b7b15f81dc7749",
       "abf11bb520a3d451",
-      "875622b6fb67ad6d",
-      "1f3b00116704b5bf"
+      "86230803a90cc387",
+      "e1d8b8ecb277b341"
     ],
     "extractedChars": 8013,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-17T19:22:54.831Z",
+    "lastChangedISO": "2026-09-17T20:14:26.059Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -1751,7 +1749,7 @@
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-15T13:08:42.574Z",
-    "thinRuns": 10,
+    "thinRuns": 11,
     "pendingClassification": false
   },
   {
@@ -2164,7 +2162,7 @@
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T02:22:33.828Z",
     "lastChangedISO": "2026-08-29T02:36:21.032Z",
-    "thinRuns": 244,
+    "thinRuns": 245,
     "pendingClassification": false
   },
   {
@@ -2425,16 +2423,17 @@
   {
     "sourceUrl": "https://gmedia.gov.sa/",
     "orgId": "gcam",
-    "contentHash": "4d6dfa2aed2678a36521183d3c583123ca94ad14bb4b700b093cc94b8bf2a6e6",
+    "contentHash": "6ffb55a655aa3cd17ced3f5f5c7309bbb11ab6dee17e83336c1be50194690788",
     "blockHashes": [
-      "cd615071051012b9"
+      "6ffb55a655aa3cd1"
     ],
     "extractedChars": 1118,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-17T14:02:28.001Z",
+    "lastChangedISO": "2026-09-17T20:14:26.059Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://gmedia.gov.sa/ar/hiring",
@@ -3117,39 +3116,40 @@
   {
     "sourceUrl": "https://momah.gov.sa/ar",
     "orgId": "housing",
-    "contentHash": "2e41a0dde73d0e95d2b2c985f8c7fdba4add2917394e122c86ad25b792d776ff",
+    "contentHash": "163d41bdcc4536db1da1566d5417e355059c50ff08082203be8ede942bf11eee",
     "blockHashes": [
       "390ea394b03ad064",
       "0cae66fd6419120a",
-      "7325d046bc9ee147",
-      "3d7c2c9f53ee9b9e",
-      "814f1c49ec893680",
-      "09b1bd561f62b68f",
-      "1ff091635e136586",
+      "7e25f1f7dc1067c8",
+      "5bb3b1f481593f34",
+      "8ffb9ee553f40db8",
+      "a3690b07c24cffbe",
       "5d15152619ff887e",
-      "216cd42bfb3b5501",
+      "5bb3b18aea2d0a1f",
+      "e68a968914f70e34",
+      "09aeeeb6eec73cea",
       "560edfe1df9d8921",
       "23b97a8a93aba477",
       "9cd3abf7fd1573ff",
-      "fe65d2c9e3812476",
-      "6ffa7f1352b228e4",
-      "df4467499dc4e77e",
-      "cf3c7d940f8e678f",
+      "ff911e7f9cd992d0",
+      "c3cd1c1491f3551a",
+      "09b1bd561f62b68f",
+      "e86a175b7dfea18d",
+      "ae7b3beef14befc0",
       "ff6f87e39638cb9b",
-      "1232562ba2df78aa",
-      "e32d6871d7ac9cea",
-      "3f0c8155afb50ab2",
+      "bd6c013bcae97522",
       "ac1405062719fb86",
-      "988e8ffb4a181a97",
-      "a383238bd40fdee1",
-      "5753158395dcee81"
+      "418c14457ad8d940",
+      "fe0488296a8ca1f1",
+      "d72b09e4ba2d201d"
     ],
     "extractedChars": 153782,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-17T14:01:08.390Z",
+    "lastChangedISO": "2026-09-17T20:14:26.059Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "triaged_out"
   },
   {
     "sourceUrl": "https://momah.gov.sa/ar/announcements",
@@ -3681,8 +3681,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-17T14:02:28.001Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://ndf.gov.sa/media-center/articles/article-human-resource-development",
@@ -6400,10 +6399,10 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/careers",
     "orgId": "hrc",
-    "contentHash": "7d31f0cffe663fba09d9fb5740f72cb23e647d9a96109b3b3e3204654c7d57b4",
+    "contentHash": "4d576d5bdba2e23368f001fcc37ff86766da5b185aa75df24345866ddb205e6d",
     "blockHashes": [
       "12e41a244a8a2984",
-      "fb13c6f2b4fe1469",
+      "18763c6a660a029a",
       "9bd6314e9bbc7375",
       "474d2dbb69aae30b",
       "84b2fc11813dc7e8",
@@ -6427,7 +6426,7 @@
     "extractedChars": 3794,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-17T17:08:41.169Z",
+    "lastChangedISO": "2026-09-17T20:14:26.059Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -7524,8 +7523,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-17T14:02:28.001Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.mewa.gov.sa/ar/MediaCenter/MultimediaLibrary/Pages/default.aspx",
@@ -8077,8 +8075,7 @@
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
     "lastChangedISO": "2026-09-17T13:57:22.723Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.mofa.gov.sa/",
@@ -9254,17 +9251,16 @@
   {
     "sourceUrl": "https://www.rcrc.gov.sa/careers/?lang=ar",
     "orgId": "rcrc",
-    "contentHash": "587d4ff26616c27634cf5d3636a9eae0042b97facf9539c58693b108762d2283",
+    "contentHash": "16b331989fece66db1ed29ead5c6258f4400573456fd80be355da42564255521",
     "blockHashes": [
       "02ec3b6c34dcef4a"
     ],
     "extractedChars": 1167,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-17T19:38:31.213Z",
+    "lastChangedISO": "2026-09-17T20:29:09.054Z",
     "thinRuns": 0,
-    "pendingClassification": true,
-    "classifyFailures": 1
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://www.rcrc.gov.sa/media-center/",
@@ -10394,7 +10390,7 @@
   {
     "sourceUrl": "https://www.sfda.gov.sa/en/career-vision-and-mission",
     "orgId": "sfda",
-    "contentHash": "787f2ba0d312a9da86803235bdd576bee994b4104963c7d6c538cd001af0f25b",
+    "contentHash": "a0dda2436e87c208fcda417832a2aa69884964fbedd60f2dcb0639b137ab548f",
     "blockHashes": [
       "4e3b1c94f76f8148",
       "eba48d47d7bc0f9e",
@@ -10408,12 +10404,12 @@
       "a0466ff116c86d28",
       "4b81d1c31f1f9c59",
       "02085740ec4421fd",
-      "fdf03499f0a3f637"
+      "b4f33457f0a89b54"
     ],
     "extractedChars": 997,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-17T13:02:34.427Z",
+    "lastChangedISO": "2026-09-17T20:14:26.059Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -10982,18 +10978,18 @@
   {
     "sourceUrl": "https://www.tahakom.com/careers",
     "orgId": "tahakom",
-    "contentHash": "a9b0253c483902a00645b630b2cbbfa1a6bf43b8378a82c3ac4c901491886ea6",
+    "contentHash": "8d1d8b4a6a7bde78572d8fa562ea399be56c71b4f40b53a0139f8955994ae509",
     "blockHashes": [
       "d44217251213a019",
       "611753a8aea1ade1",
       "0cea4d38306888dc",
       "1a5263a5a2541c46",
-      "7ff616a2455f75c9"
+      "f3829db208838eb8"
     ],
     "extractedChars": 838,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-03T05:13:40.059Z",
-    "lastChangedISO": "2026-09-17T19:22:54.831Z",
+    "lastChangedISO": "2026-09-17T20:14:26.059Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -11021,10 +11017,13 @@
   {
     "sourceUrl": "https://www.thiqah.sa/",
     "orgId": "thiqah",
-    "contentHash": "bba18d1332d9277cfb6fa175f6984c62b16db98c935a6738a2b6a55c5b1d20bc",
+    "contentHash": "41585f247e073f7dfa50339963ead8d8387c9a1b752741091b485d74143c63b9",
     "blockHashes": [
-      "2badba214de43400",
-      "cff1ddff4e992236",
+      "56d61a024ef0c23a",
+      "988b9a8bf2486a9d",
+      "a4ad1af066840cba",
+      "2a753899ff945f72",
+      "0254baf3c601928d",
       "e6bf180d162757ed",
       "ce6b1d76c3fa0a8f",
       "5702aa0bdde53d7c",
@@ -11037,7 +11036,7 @@
     "extractedChars": 2087,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-17T13:42:59.582Z",
+    "lastChangedISO": "2026-09-17T20:14:26.059Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
