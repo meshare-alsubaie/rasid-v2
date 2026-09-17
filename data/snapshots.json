@@ -348,15 +348,15 @@
     "orgId": "alinma",
     "contentHash": "c373ea00e6ad5ae422fbf768bcd540d03f51d1f69fb7a6b2782a2cfc9cc66f1a",
     "blockHashes": [
-      "098b0e6dcc2e488d"
+      "c373ea00e6ad5ae4"
     ],
     "extractedChars": 281,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T23:54:26.779Z",
     "lastChangedISO": "2026-09-15T19:51:07.058Z",
     "thinRuns": 0,
-    "pendingClassification": true,
-    "classifyFailures": 2
+    "pendingClassification": false,
+    "classifyFailures": 3
   },
   {
     "sourceUrl": "https://alinma.com/About-the-Bank/The-Bank/News/2011/12/alinma-bank-hosts-training-course-on-corporate-business-services-and-e-banking",
@@ -648,7 +648,7 @@
   {
     "sourceUrl": "https://athkax.sdaia.gov.sa/coop",
     "orgId": "sdaia",
-    "contentHash": "a58f144950bb22de0c4667555dc3401317db3a7e9e0679e6a27c03768b15a660",
+    "contentHash": "f1c749f1b0084dc210dc0d9f1e447c42c8ea07e30a315579c292163ea7abbe55",
     "blockHashes": [
       "04ba8a3fca46514f",
       "4bd08244050e9682"
@@ -656,9 +656,9 @@
     "extractedChars": 756,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-17T12:42:53.853Z",
+    "lastChangedISO": "2026-09-17T14:25:26.266Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://awqaf.gov.sa/ar/ar/hiring/",
@@ -1255,7 +1255,7 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/cookiesettings",
     "orgId": "maaden",
-    "contentHash": "27162a5b03328918c214b59cb905a7d9ea9302bb3399be226f614c6c2e00785e",
+    "contentHash": "fa7587322ba6f53641a9b7107dc93021de4f03cfb21551e348e896bac53c8608",
     "blockHashes": [
       "2fb28de24072d906",
       "dd53e083dd4c4329",
@@ -1327,9 +1327,9 @@
     "extractedChars": 8013,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-17T13:41:15.532Z",
+    "lastChangedISO": "2026-09-17T14:26:59.812Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/search-results",
@@ -2151,7 +2151,7 @@
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T02:22:33.828Z",
     "lastChangedISO": "2026-08-29T02:36:21.032Z",
-    "thinRuns": 237,
+    "thinRuns": 238,
     "pendingClassification": false
   },
   {
@@ -7657,7 +7657,7 @@
   {
     "sourceUrl": "https://www.mim.gov.sa/ar/empower-training/cooperative-training",
     "orgId": "mim",
-    "contentHash": "30284d2d60be29e5c3606c75b0a0b9b202c35c86124f14394df23e2ff1089562",
+    "contentHash": "04a9512a24c85b29044cef16a13818e2621d82ab091866dd6382293cbfdbf856",
     "blockHashes": [
       "1cb91553dd3291a4",
       "5300d4cdd32a8d33"
@@ -7665,10 +7665,9 @@
     "extractedChars": 2495,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T02:22:33.828Z",
-    "lastChangedISO": "2026-09-17T13:34:17.496Z",
+    "lastChangedISO": "2026-09-17T14:25:26.266Z",
     "thinRuns": 0,
-    "pendingClassification": true,
-    "classifyFailures": 1
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://www.mim.gov.sa/ar/media-center/news",
@@ -9238,14 +9237,14 @@
   {
     "sourceUrl": "https://www.rcrc.gov.sa/careers/?lang=ar",
     "orgId": "rcrc",
-    "contentHash": "0c02b158a00832b390a8cc56d9f4a8bc64890db6a20b8872b28d0821573b03f2",
+    "contentHash": "b6fe53f36ad16775d0945ed4f8965cda2dddee8e66a2abe124a1c303f4ec6bea",
     "blockHashes": [
       "ce35471572994c49"
     ],
     "extractedChars": 1166,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-17T13:34:17.496Z",
+    "lastChangedISO": "2026-09-17T14:29:38.800Z",
     "thinRuns": 0,
     "pendingClassification": true,
     "classifyFailures": 1
@@ -11265,7 +11264,7 @@
   {
     "sourceUrl": "https://www.tahakom.com/careers",
     "orgId": "tahakom",
-    "contentHash": "40165b57568aeda456da61ad3c8bf620f3e27cb8bb088d933150b71ccddb61fe",
+    "contentHash": "809b02d87d75c39f9056ddfd5e8ddff9f708fde920c51c4f54fd2f4898e0146f",
     "blockHashes": [
       "d44217251213a019",
       "611753a8aea1ade1",
@@ -11273,12 +11272,12 @@
       "1a5263a5a2541c46",
       "66314e4675e8f143"
     ],
-    "extractedChars": 832,
+    "extractedChars": 838,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-03T05:13:40.059Z",
-    "lastChangedISO": "2026-09-17T13:34:17.496Z",
+    "lastChangedISO": "2026-09-17T14:25:26.266Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://www.taifcity.gov.sa/#/ar",
