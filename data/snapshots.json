@@ -29,32 +29,34 @@
   {
     "sourceUrl": "http://www.moenergy.gov.sa/",
     "orgId": "moenergy",
-    "contentHash": "f16ab449e76ad59e2d6f32a6f0dc2b7892e4e71252e70c86e2d98be7bd99d447",
+    "contentHash": "2676824bb8d659c531d09fa88c58dd528196116a008f38af81740a2bf5090c99",
     "blockHashes": [
-      "bfcea46ed35d52bf",
+      "1b31019d80d6c6f6",
+      "d2c1b02fed20d1c6",
       "bad1561953eacbf3",
-      "22d92218b5934491",
+      "ccacd6be02fff530",
       "8d822a1bf98837b3",
-      "ee12c46d31002f6a",
+      "5ef5d1da542209d0",
       "8ddba076c496b996",
-      "f53bb3b2f1a9456c",
+      "ecb73471b55b58fb",
       "4ceceb9099a25075",
-      "dd045f757a9433ff",
-      "c63073ca0c5f5fa5",
+      "25612ab97818b462",
+      "0a2ce688a081351e",
       "8ddba076c496b996",
-      "3356b5969b2e99ad",
+      "3e0c452797202420",
       "24ad63b011b39941",
       "c09255cabba72f03",
-      "4f24433505a4ad5f",
+      "84c88238e36fb992",
       "e088549dca9d4b86",
       "f1f6a790bbb82b22"
     ],
     "extractedChars": 9099,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T22:03:35.383Z",
-    "lastChangedISO": "2026-09-16T13:09:10.762Z",
+    "lastChangedISO": "2026-09-17T19:42:12.522Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "http://www.wasatah.com.sa/index.php/ar/",
@@ -770,14 +772,16 @@
   {
     "sourceUrl": "https://career.alinma.com/",
     "orgId": "alinma",
-    "contentHash": null,
+    "contentHash": "e245fd94c1ab59dcc6bad34af50ba34c224654b27d2f46834c18eef001143fa5",
     "blockHashes": [
-      "6a86ae706eed8434"
+      "d139e32e22028878",
+      "24a16c9057a577bb",
+      "d73da487bd5ffbc9"
     ],
-    "extractedChars": 161,
-    "extractionMethod": "body_fallback",
+    "extractedChars": 750,
+    "extractionMethod": "readability",
     "firstSeenISO": "2026-09-01T01:46:07.967Z",
-    "lastChangedISO": "2026-09-17T18:07:19.522Z",
+    "lastChangedISO": "2026-09-17T19:44:26.691Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -10350,19 +10354,19 @@
   {
     "sourceUrl": "https://www.sfda.gov.sa/ar/career-vision-and-mission",
     "orgId": "sfda",
-    "contentHash": "3cc8ee30953dd153c13b97e1d3018ccf4e5bc9d4f20b5f542c84b49e05001da0",
+    "contentHash": "c02c023f512b7bcb75e7437cec676a3821265e2a98d89f990efcb6a2f6903ac3",
     "blockHashes": [
       "9f0d7edcae8bb52a",
       "60b6afb763e71c83",
       "074367ffe7536568",
       "b69ab73ade473181",
       "fe04993c9918963a",
-      "614be0a2a7924444"
+      "ce01ba6563a1cfe9"
     ],
     "extractedChars": 806,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-17T12:42:53.853Z",
+    "lastChangedISO": "2026-09-17T19:44:26.691Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
