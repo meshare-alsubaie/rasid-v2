@@ -768,7 +768,7 @@
   {
     "sourceUrl": "https://career.alinma.com/",
     "orgId": "alinma",
-    "contentHash": "6a86ae706eed843401e158776c66ffc9b418545636cf2693c232efc2c645dd23",
+    "contentHash": null,
     "blockHashes": [
       "6a86ae706eed8434"
     ],
@@ -3657,8 +3657,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-17T15:50:28.104Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://ndf.gov.sa/media-center/articles",
@@ -4405,7 +4404,7 @@
   {
     "sourceUrl": "https://training.moj.gov.sa/",
     "orgId": "moj",
-    "contentHash": null,
+    "contentHash": "f4c6ef6b783b69d09a8f681ad1d80f1df35ef8cb8864917255879208cc305886",
     "blockHashes": [
       "84a570379809f573",
       "ab443a0bbfda7883"
@@ -4413,7 +4412,7 @@
     "extractedChars": 481,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T02:31:49.455Z",
-    "lastChangedISO": "2026-09-17T16:35:06.634Z",
+    "lastChangedISO": "2026-09-17T18:56:23.384Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -7852,17 +7851,19 @@
   {
     "sourceUrl": "https://www.moenergy.gov.sa/ar/media-center/news/first-energy-hackathon",
     "orgId": "moenergy",
-    "contentHash": "ad2626008d8b141d17ccd6b1792f69d689e037a27244c14e456e9326c9710710",
+    "contentHash": "e78c616376a818ec4d741fca0aab30bcf4e2db8304a7d766571715b47cc16f60",
     "blockHashes": [
       "80ffe88c9d950f64",
-      "9dde51604f5c0b1b"
+      "571a0e92d339ad74",
+      "fd96730c2c6c79a4"
     ],
-    "extractedChars": 257,
-    "extractionMethod": "body_fallback",
+    "extractedChars": 1712,
+    "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-06T16:34:34.776Z",
+    "lastChangedISO": "2026-09-17T18:56:23.384Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://www.moenergy.gov.sa/ar/media-center/news/saudi-arabia-and-united-states-sign-agreement-on-cooperation-in-peaceful-uses-of-nuclear-energy",
@@ -9634,8 +9635,7 @@
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
     "lastChangedISO": "2026-09-17T15:50:28.104Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.sabic.com/ar/careers",
