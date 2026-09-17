@@ -527,16 +527,17 @@
   {
     "sourceUrl": "https://alinma.com/en/About-the-Bank/The-Bank/News/2011/10/alinma-bank-hosts-training-course-on-corporate-business-services-and-e-banking-2011",
     "orgId": "alinma",
-    "contentHash": "58ad3fc288b74870e67596269c3de3506de2183f84f985614a4a26be2239cbe3",
+    "contentHash": "e85917f161392f5a4fe28cfdc5459f647ee158ffbbab9fa21676df12193312ab",
     "blockHashes": [
-      "58ad3fc288b74870"
+      "e85917f161392f5a"
     ],
     "extractedChars": 284,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T23:54:26.779Z",
-    "lastChangedISO": "2026-09-15T21:55:54.969Z",
+    "lastChangedISO": "2026-09-17T16:40:25.619Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "triaged_out"
   },
   {
     "sourceUrl": "https://alinma.com/en/About-the-Bank/The-Bank/News/2011/12/alinma-bank-hosts-training-course-on-corporate-business-services-and-e-banking",
@@ -660,7 +661,7 @@
     "lastChangedISO": "2026-09-17T15:11:47.946Z",
     "thinRuns": 0,
     "pendingClassification": true,
-    "classifyFailures": 1
+    "classifyFailures": 2
   },
   {
     "sourceUrl": "https://awqaf.gov.sa/ar/ar/hiring/",
@@ -3710,8 +3711,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-17T13:31:11.359Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://ndf.gov.sa/media-center/press-news",
@@ -7661,7 +7661,7 @@
   {
     "sourceUrl": "https://www.mim.gov.sa/ar/empower-training/cooperative-training",
     "orgId": "mim",
-    "contentHash": "a283442deceeda05f05b81b55b4071fc7d3f029f3da573b5f4185f91538cfec2",
+    "contentHash": "e0e73ecf4da7b45eb898bb9eae65517e818307ab3eb5bd2f5e09a73dfcab76f7",
     "blockHashes": [
       "1cb91553dd3291a4",
       "5300d4cdd32a8d33"
@@ -7669,7 +7669,7 @@
     "extractedChars": 2495,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T02:22:33.828Z",
-    "lastChangedISO": "2026-09-17T15:58:21.406Z",
+    "lastChangedISO": "2026-09-17T16:47:18.745Z",
     "thinRuns": 0,
     "pendingClassification": true,
     "classifyFailures": 1
@@ -10969,18 +10969,18 @@
   {
     "sourceUrl": "https://www.tahakom.com/careers",
     "orgId": "tahakom",
-    "contentHash": "1f8f7b13a791edfa1d51781bab3c72b63ca8fa3422efc682882c8ff5c2cefb1f",
+    "contentHash": "a9b0253c483902a00645b630b2cbbfa1a6bf43b8378a82c3ac4c901491886ea6",
     "blockHashes": [
       "d44217251213a019",
       "611753a8aea1ade1",
       "0cea4d38306888dc",
       "1a5263a5a2541c46",
-      "d9f3dd8dc23c0c5c"
+      "7ff616a2455f75c9"
     ],
-    "extractedChars": 836,
+    "extractedChars": 838,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-03T05:13:40.059Z",
-    "lastChangedISO": "2026-09-17T15:58:21.406Z",
+    "lastChangedISO": "2026-09-17T16:47:18.745Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
