@@ -238,9 +238,9 @@
   {
     "sourceUrl": "https://alinma.com/",
     "orgId": "alinma",
-    "contentHash": "23e5bdea3da63d4fffd2129bd62fef9f58fc0faba0c60404b33870dd4c81d581",
+    "contentHash": "ee2f8aa595c5411e7230eb52232d8315f8b57cf363ee239269c6e0dff7c70457",
     "blockHashes": [
-      "9765ef67b60ecb6a",
+      "be896a4040d0b497",
       "0a14ab6988360391",
       "eee691e668c36a27",
       "7472f35a35d5be62",
@@ -253,9 +253,10 @@
     "extractedChars": 1479,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T22:03:35.383Z",
-    "lastChangedISO": "2026-09-16T17:28:08.117Z",
+    "lastChangedISO": "2026-09-17T18:10:57.369Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "triaged_out"
   },
   {
     "sourceUrl": "https://alinma.com/About-the-Bank/The-Bank/News",
@@ -486,16 +487,17 @@
   {
     "sourceUrl": "https://alinma.com/en/About-the-Bank/The-Bank/News/2011/02/alinma-bank-and-al-khaleej-training-and-education-company-sign-education-financing-agreement",
     "orgId": "alinma",
-    "contentHash": "852e09ff50c12673b90ef6af4ea3f78a53d35dcbde38429d65ecb0aa9c6b2dbc",
+    "contentHash": "4f7e53b434555e05deefcd2c262f41a1955e4d36abbf8cf1be884afad5c8fe92",
     "blockHashes": [
-      "852e09ff50c12673"
+      "4f7e53b434555e05"
     ],
     "extractedChars": 284,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T23:54:26.779Z",
-    "lastChangedISO": "2026-09-15T23:11:17.825Z",
+    "lastChangedISO": "2026-09-17T17:56:16.496Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "triaged_out"
   },
   {
     "sourceUrl": "https://alinma.com/en/About-the-Bank/The-Bank/News/2011/05/alinma-bank-participates-at-university-career-fairs",
@@ -766,16 +768,14 @@
   {
     "sourceUrl": "https://career.alinma.com/",
     "orgId": "alinma",
-    "contentHash": null,
+    "contentHash": "6a86ae706eed843401e158776c66ffc9b418545636cf2693c232efc2c645dd23",
     "blockHashes": [
-      "d139e32e22028878",
-      "24a16c9057a577bb",
-      "d73da487bd5ffbc9"
+      "6a86ae706eed8434"
     ],
-    "extractedChars": 750,
-    "extractionMethod": "readability",
+    "extractedChars": 161,
+    "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-09-01T01:46:07.967Z",
-    "lastChangedISO": "2026-09-16T22:28:42.594Z",
+    "lastChangedISO": "2026-09-17T18:07:19.522Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -4339,7 +4339,7 @@
   {
     "sourceUrl": "https://training.moj.gov.sa/",
     "orgId": "moj",
-    "contentHash": "f4c6ef6b783b69d09a8f681ad1d80f1df35ef8cb8864917255879208cc305886",
+    "contentHash": null,
     "blockHashes": [
       "84a570379809f573",
       "ab443a0bbfda7883"
