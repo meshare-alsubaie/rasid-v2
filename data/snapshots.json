@@ -1336,19 +1336,18 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/search-results",
     "orgId": "maaden",
-    "contentHash": "c4ebb93ce037b478fdd9b5c74885dbf1c3764beda6f48fbd351a3f0744dea40d",
+    "contentHash": "1118f4fbc80c898a940961ef193634752ded9926917e1b8473d20e242a7f42bd",
     "blockHashes": [
       "5569201553604d03",
       "6e3cceb54e777f64",
-      "6bf0ca67e0f069b4",
+      "298a05ebe5a16280",
       "d6c0adacb353836a",
-      "f6733170d00822de",
-      "369bb5c8395ac3a3"
+      "7defdcbcd72b31d2"
     ],
-    "extractedChars": 505,
+    "extractedChars": 201,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-17T15:46:20.300Z",
+    "lastChangedISO": "2026-09-17T16:35:06.634Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -2229,9 +2228,9 @@
   {
     "sourceUrl": "https://gaca.gov.sa/ar/News",
     "orgId": "gaca",
-    "contentHash": "a287eb21c05ddb78257f2c49cb9d2cfa8deae86e18a2d782013dea8a400464d9",
+    "contentHash": "1656b25a4a6bda533ddedeae4dd9021ca3f5659909adc16893f89c56a557cd23",
     "blockHashes": [
-      "317d907cca173abd",
+      "3173cb560175532e",
       "f479d47a5583a5d4",
       "b551296c37a31aba",
       "e1410921f606b7ac",
@@ -2300,12 +2299,12 @@
       "c35b3aec4cd28100",
       "cdc5a5e24d3d4dc4",
       "83a22e1f9fb245f8",
-      "bc532942aaed49b7"
+      "2ccfa90c84c059a7"
     ],
-    "extractedChars": 21466,
+    "extractedChars": 21727,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-17T13:28:58.565Z",
+    "lastChangedISO": "2026-09-17T16:30:56.440Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -3225,37 +3224,37 @@
   {
     "sourceUrl": "https://momah.gov.sa/ar/menu/media-center",
     "orgId": "housing",
-    "contentHash": "460b7171ed9539231b32f27ddeddccd4650149490c924328506a70a96e2e1673",
+    "contentHash": "b14983ccfc290ab7b62fa544e06fa8f24e9895bb02ded06bcbcb074138737176",
     "blockHashes": [
       "4c63522200199108",
       "7bc8965d992df69b",
       "aa8e55eac5aea8cd",
       "09552ec2996654f9",
-      "798653dee535a531",
-      "ac1405062719fb86",
-      "02cb336e4c4f5f65",
-      "ff6f87e39638cb9b",
-      "eefb8726fca12803",
-      "09b1bd561f62b68f",
-      "3c1574c69f42df2a",
-      "5d15152619ff887e",
-      "a08659dfc9333375",
-      "e5d013c471fb6ac1",
-      "90347fc90ecefb71",
-      "93e26db83226c073",
-      "9d8182f93e5100a4",
+      "88817a97b1a98978",
+      "ef03192bd1f7128b",
+      "5431a8e0c3238282",
       "560edfe1df9d8921",
       "23b97a8a93aba477",
       "9cd3abf7fd1573ff",
-      "79e0ffd8237015c8",
-      "ee11e73ed5109d23",
-      "0402b017b8a96b3b",
-      "900f5bb0844fe42a"
+      "7c1f5559f51d1b3a",
+      "ac1405062719fb86",
+      "c70c751c9f21b048",
+      "250c9da7c08c46ce",
+      "6adffd6ee6512652",
+      "a7a847dc9a3f8755",
+      "09b1bd561f62b68f",
+      "c77100bbdaf5ba6c",
+      "58cbf962518a38f6",
+      "5d15152619ff887e",
+      "7a6239dec802f43e",
+      "ff6f87e39638cb9b",
+      "19d8b76481e674b4",
+      "1d1a30b1b37af104"
     ],
-    "extractedChars": 151282,
+    "extractedChars": 151322,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-17T13:28:58.565Z",
+    "lastChangedISO": "2026-09-17T16:30:56.440Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -4404,7 +4403,7 @@
   {
     "sourceUrl": "https://training.moj.gov.sa/",
     "orgId": "moj",
-    "contentHash": null,
+    "contentHash": "f4c6ef6b783b69d09a8f681ad1d80f1df35ef8cb8864917255879208cc305886",
     "blockHashes": [
       "84a570379809f573",
       "ab443a0bbfda7883"
@@ -4412,9 +4411,9 @@
     "extractedChars": 481,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T02:31:49.455Z",
-    "lastChangedISO": "2026-09-17T15:00:48.177Z",
+    "lastChangedISO": "2026-09-17T16:35:06.634Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://tvtc.gov.sa/",
@@ -6458,10 +6457,10 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/careers/graduate-development-program",
     "orgId": "hrc",
-    "contentHash": "a5e69a116a5bc922bc6b76141b857a88e6acd5a6a9e78f8e06a63e7d0ff5db74",
+    "contentHash": "84233b9c83b955d55ccb14bac0d1be2dec929a23cf82eb894b1826184a61a8d8",
     "blockHashes": [
       "12e41a244a8a2984",
-      "9cc59eeca2b2cc7d",
+      "29ce65deae1ceadf",
       "741386d322f274be",
       "40d7009856bbc81d",
       "2dd486d3d3cacb8b",
@@ -6527,7 +6526,7 @@
     "extractedChars": 10689,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-17T13:28:58.565Z",
+    "lastChangedISO": "2026-09-17T16:30:56.440Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -6860,8 +6859,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-17T13:28:58.565Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.hrsd.gov.sa/media-center/events",
@@ -9835,8 +9833,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-17T13:28:58.565Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.saip.gov.sa/ar/media-center/movables-platform",
@@ -10359,24 +10356,24 @@
   {
     "sourceUrl": "https://www.sfda.gov.sa/ar/news",
     "orgId": "sfda",
-    "contentHash": "73b11dc6353680d567ce1c853033eec55bc3a2219b60cd752767da4e20076ec0",
+    "contentHash": "5529a2a70aac7e500aed3e5ed885b3cb9c47c2dbfd01b18c291c236563ac4e03",
     "blockHashes": [
-      "98297204dbbaa9b8",
+      "3c3e825c0a18637f",
+      "4604bc6f97a0dea4",
       "f0a0eaa5817fe57a",
       "d408a6f1c3fc952e",
       "9ae1529c7a2647c1",
       "41462cc4f062e974",
-      "5a5d9058e45e5ecd",
       "abbaebe56469a2c6",
-      "c3682260711abc7d",
+      "d9efe14444962b0f",
       "b69ab73ade473181",
       "fe04993c9918963a",
       "506fe5d55093ecae"
     ],
-    "extractedChars": 1609,
+    "extractedChars": 1626,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-17T13:17:43.329Z",
+    "lastChangedISO": "2026-09-17T16:29:52.921Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
