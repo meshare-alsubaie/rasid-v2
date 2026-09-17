@@ -363,17 +363,17 @@
   {
     "sourceUrl": "https://alinma.com/About-the-Bank/The-Bank/News/2011/12/alinma-bank-hosts-training-course-on-corporate-business-services-and-e-banking",
     "orgId": "alinma",
-    "contentHash": "de2dfb1cd5fc16a687569b127ce4158bec204afd17e33c83bb38de91833f3a10",
+    "contentHash": "4ecb56f399f0ec20541014dbb9f0092d7d9d110f5f7952279fdc5535ef1df322",
     "blockHashes": [
       "de2dfb1cd5fc16a6"
     ],
     "extractedChars": 281,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T23:54:26.779Z",
-    "lastChangedISO": "2026-09-15T22:56:32.669Z",
+    "lastChangedISO": "2026-09-17T17:40:46.722Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "classifyFailures": 3
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://alinma.com/About-the-Bank/The-Bank/News/2011/12/alinmabankhoststrainingcourseoncorporatebusinessservicesandebanking",
@@ -5796,7 +5796,8 @@
       "cc82778d4ae87c55",
       "ca4d9b3db706330b",
       "efc5f49855ce1887",
-      "626390512943ba59",
+      "4e011708a0ba86bb",
+      "bf2f24eb19bd8254",
       "156ed733ea0ed9ce",
       "696959daee40638f",
       "8eacc17ace343ca7",
@@ -5834,7 +5835,8 @@
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
     "lastChangedISO": "2026-09-17T14:11:53.498Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://www.ey.com/en_sa/careers",
