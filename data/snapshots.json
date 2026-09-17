@@ -658,7 +658,8 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-17T15:11:47.946Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://awqaf.gov.sa/ar/ar/hiring/",
@@ -7659,7 +7660,7 @@
   {
     "sourceUrl": "https://www.mim.gov.sa/ar/empower-training/cooperative-training",
     "orgId": "mim",
-    "contentHash": "92716ad4563744783b00e80422443d4fb6c902027f6041019e34ce66c7c12b61",
+    "contentHash": "a283442deceeda05f05b81b55b4071fc7d3f029f3da573b5f4185f91538cfec2",
     "blockHashes": [
       "1cb91553dd3291a4",
       "5300d4cdd32a8d33"
@@ -7667,9 +7668,10 @@
     "extractedChars": 2495,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T02:22:33.828Z",
-    "lastChangedISO": "2026-09-17T15:11:47.946Z",
+    "lastChangedISO": "2026-09-17T15:58:21.406Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://www.mim.gov.sa/ar/media-center/news",
@@ -11264,20 +11266,20 @@
   {
     "sourceUrl": "https://www.tahakom.com/careers",
     "orgId": "tahakom",
-    "contentHash": "809b02d87d75c39f9056ddfd5e8ddff9f708fde920c51c4f54fd2f4898e0146f",
+    "contentHash": "1f8f7b13a791edfa1d51781bab3c72b63ca8fa3422efc682882c8ff5c2cefb1f",
     "blockHashes": [
       "d44217251213a019",
       "611753a8aea1ade1",
       "0cea4d38306888dc",
       "1a5263a5a2541c46",
-      "66314e4675e8f143"
+      "d9f3dd8dc23c0c5c"
     ],
-    "extractedChars": 838,
+    "extractedChars": 836,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-03T05:13:40.059Z",
-    "lastChangedISO": "2026-09-17T14:25:26.266Z",
+    "lastChangedISO": "2026-09-17T15:58:21.406Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.taifcity.gov.sa/#/ar",
