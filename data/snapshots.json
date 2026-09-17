@@ -111,8 +111,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-17T12:49:48.543Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "triaged_out"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://adf.gov.sa/ar/media-center/success-stories/Pages/default.aspx",
@@ -318,16 +317,17 @@
   {
     "sourceUrl": "https://alinma.com/About-the-Bank/The-Bank/News/2011/05/alinma-bank-participates-at-university-career-fairs",
     "orgId": "alinma",
-    "contentHash": "1c655e067b0e785f07764af29ef756230f00eced8fa5acf3587f0a033871ca80",
+    "contentHash": "8d2fa0b27c6c2b7b65d2b6ffaa2e9950c8ffaa120361c4d755c5784810eab541",
     "blockHashes": [
-      "1c655e067b0e785f"
+      "8d2fa0b27c6c2b7b"
     ],
     "extractedChars": 281,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T23:54:26.779Z",
-    "lastChangedISO": "2026-09-15T21:12:18.956Z",
+    "lastChangedISO": "2026-09-17T15:53:15.003Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "triaged_out"
   },
   {
     "sourceUrl": "https://alinma.com/About-the-Bank/The-Bank/News/2011/05/alinma-bank-to-participate-in-the-career-day-at-taiba-university",
@@ -3646,16 +3646,17 @@
   {
     "sourceUrl": "https://ndf.gov.sa/media-center/annual-reports",
     "orgId": "ndf",
-    "contentHash": "12d39e31d7579379b1ed3a740012bdd937b9da761be36cde2721d96497603781",
+    "contentHash": "9bd311293b779385b544ab063358871e29e281a44d526ddf2cb2b393a038a979",
     "blockHashes": [
-      "12d39e31d7579379"
+      "9bd311293b779385"
     ],
-    "extractedChars": 1284,
+    "extractedChars": 1234,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-16T21:29:31.580Z",
+    "lastChangedISO": "2026-09-17T15:50:28.104Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://ndf.gov.sa/media-center/articles",
@@ -3792,8 +3793,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-17T12:42:53.853Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "triaged_out"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://nour.net.sa/ar/news/limitless-2026-event/",
@@ -4265,16 +4265,15 @@
   {
     "sourceUrl": "https://takamolholding.com/ar/join-us",
     "orgId": "takamol",
-    "contentHash": "1af16738ac357d14a80b6a71be4e79653c1f126a9d3830a14911c95a67271b9c",
+    "contentHash": "1c01152219e081fd2e5cf9889b6fc4f06f224546f858c042d3327db61d61bbc2",
     "blockHashes": [
-      "a269bc0fd2159f46",
-      "0aff54aeec4c61dd",
-      "4c9002591ab2f873"
+      "7fe60a979f147da5",
+      "451e371814b7cbdb"
     ],
-    "extractedChars": 757,
-    "extractionMethod": "body_fallback",
+    "extractedChars": 306,
+    "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
-    "lastChangedISO": "2026-09-17T00:38:11.312Z",
+    "lastChangedISO": "2026-09-17T15:56:54.072Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -9279,12 +9278,12 @@
   {
     "sourceUrl": "https://www.rcrc.gov.sa/news-ar/",
     "orgId": "rcrc",
-    "contentHash": "2373be746ce1949c472941f13538bd2c2c73b530f49584c6072b214b71434022",
+    "contentHash": "4f3bc2ae6b897170247266bee72bad8608c3358e1d6880a477cb5276c32a5dca",
     "blockHashes": [
       "dd62229c2f61fb42",
       "306db3646b8a6c73",
       "b28682d0a5fa37ed",
-      "b25235f7cf1d7aa6",
+      "c92aba0d3d4c19e0",
       "dd5bfb74e89dbbdd",
       "b32d68c4e5c2da0f",
       "b91cd7f4edfa88d2",
@@ -9297,7 +9296,7 @@
     "extractedChars": 3475,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-17T12:49:48.543Z",
+    "lastChangedISO": "2026-09-17T15:53:15.003Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -9576,7 +9575,7 @@
   {
     "sourceUrl": "https://www.riyadbank.com/ar/personal-banking",
     "orgId": "riyadbank",
-    "contentHash": "e73c5106cd39b3ac2bec7b3162828788bab91ed14885c92b048e586905de3b1f",
+    "contentHash": "7f6ffe85c9e2aabe9c3060b62e77d95ffcfb25a12d3550e1856451804158fe92",
     "blockHashes": [
       "c5fa97b84e96f11e",
       "a01ad1ea1a27690a",
@@ -9600,15 +9599,17 @@
       "9f29620fa9319a80",
       "dd09a93c19a5b408",
       "fc0a22cc81c08834",
-      "97b7afff054f9f37",
-      "2274a27142a58d23",
+      "5ca46b716e2fe884",
+      "5b89998625f6c35a",
+      "4f9d3db32b80f12b",
       "303fe28588764a9b",
       "7a8a143470365dc2",
-      "68804184ee7f89f3",
+      "3da50cd1c3c80f72",
+      "75ad41c21fa9b0e1",
       "c845d371bfc055e6",
       "e91a2dc79c3ef7ff",
-      "e10872055bbde21f",
-      "68f92b28ff614b42",
+      "d22dd1cc9b5516ee",
+      "0b4f6c1a982c9472",
       "cb4329c80213103c",
       "853e155161611ffc",
       "0f21ae2f5a35f90c",
@@ -9620,12 +9621,13 @@
       "27ab07a2e57dda34",
       "f2f0e16c376080f6"
     ],
-    "extractedChars": 10225,
+    "extractedChars": 10029,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
-    "lastChangedISO": "2026-09-17T00:38:11.312Z",
+    "lastChangedISO": "2026-09-17T15:50:28.104Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://www.sabic.com/ar/careers",
