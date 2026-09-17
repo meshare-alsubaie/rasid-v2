@@ -432,8 +432,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-15T20:04:22.177Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://alinma.com/About-the-Bank/The-Bank/News/2026/8/IFN-Awards",
@@ -1676,7 +1675,7 @@
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-15T13:08:42.574Z",
-    "thinRuns": 7,
+    "thinRuns": 8,
     "pendingClassification": false
   },
   {
@@ -3014,37 +3013,37 @@
   {
     "sourceUrl": "https://momah.gov.sa/ar",
     "orgId": "housing",
-    "contentHash": "96d3f078b1986e04480660d7fb8c16d7734895e5b7dd89c3d3e625810920e5e1",
+    "contentHash": "385bd52db25c606a9e77ec4f7c5c9f5e54c3823ba579d53ed6ddb4c95afc3047",
     "blockHashes": [
       "390ea394b03ad064",
       "0cae66fd6419120a",
       "7325d046bc9ee147",
       "3d7c2c9f53ee9b9e",
-      "1506e06776a530fd",
-      "a1e3da5994e6aa54",
-      "bfc294b7b9150305",
-      "ac1405062719fb86",
-      "968f3e4effdb59a2",
-      "5d15152619ff887e",
-      "4563e931f44940d8",
-      "48c4ba416f043c1c",
-      "ff6f87e39638cb9b",
-      "e69c3d7bb868d284",
+      "814f1c49ec893680",
       "09b1bd561f62b68f",
-      "573d479aff7a3bce",
+      "1ff091635e136586",
+      "5d15152619ff887e",
+      "216cd42bfb3b5501",
       "560edfe1df9d8921",
       "23b97a8a93aba477",
       "9cd3abf7fd1573ff",
-      "8bbfc7d2528b9a2c",
-      "ce309fac13956123",
-      "1fa7031e9c6dc137",
-      "357a4ed459371ffe",
-      "18049aff189f42cd"
+      "fe65d2c9e3812476",
+      "6ffa7f1352b228e4",
+      "df4467499dc4e77e",
+      "cf3c7d940f8e678f",
+      "ff6f87e39638cb9b",
+      "1232562ba2df78aa",
+      "e32d6871d7ac9cea",
+      "3f0c8155afb50ab2",
+      "ac1405062719fb86",
+      "988e8ffb4a181a97",
+      "a383238bd40fdee1",
+      "5753158395dcee81"
     ],
     "extractedChars": 153826,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-16T19:42:37.988Z",
+    "lastChangedISO": "2026-09-17T01:51:29.227Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -6300,10 +6299,10 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/careers",
     "orgId": "hrc",
-    "contentHash": "0e615740904f32465d956464cbae1ab422e065bd8fffde86f2ff117c31499152",
+    "contentHash": "f41c6c3fdbb9d3179cda2fac22e638a56b7da809796d7bd03bee2100f4bfe79c",
     "blockHashes": [
       "12e41a244a8a2984",
-      "d66506e54ada2f15",
+      "66925c03d8a7db79",
       "9bd6314e9bbc7375",
       "474d2dbb69aae30b",
       "84b2fc11813dc7e8",
@@ -6327,7 +6326,7 @@
     "extractedChars": 3794,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-16T22:47:44.412Z",
+    "lastChangedISO": "2026-09-17T01:51:29.227Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -7570,7 +7569,7 @@
   {
     "sourceUrl": "https://www.mim.gov.sa/ar/empower-training/cooperative-training",
     "orgId": "mim",
-    "contentHash": "7ed32bded1201c7610959f88c82a36b7eb6695fcab2efdf9a4bbe22344b3d42b",
+    "contentHash": "e525866f4486abe0da5f691e04bfe3a861b936c20d5d4bc1f3f80ce5a7a6e01c",
     "blockHashes": [
       "1cb91553dd3291a4",
       "5300d4cdd32a8d33"
@@ -7578,7 +7577,7 @@
     "extractedChars": 2495,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T02:22:33.828Z",
-    "lastChangedISO": "2026-09-17T00:38:11.312Z",
+    "lastChangedISO": "2026-09-17T01:42:15.994Z",
     "thinRuns": 0,
     "pendingClassification": true,
     "classifyFailures": 1
@@ -9148,16 +9147,16 @@
   {
     "sourceUrl": "https://www.rcrc.gov.sa/careers/?lang=ar",
     "orgId": "rcrc",
-    "contentHash": "594ce5cee995637c263f1f6fa72aca40f37ad8b23b5a8c115571daa4cdea3c5b",
+    "contentHash": "8b5606d23d8e1f13cc23208f245dca9b14446a4071e6bec4a584eb930ef76d6f",
     "blockHashes": [
-      "1950f49aad87cfd2"
+      "8b5606d23d8e1f13"
     ],
     "extractedChars": 784,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-17T00:45:47.514Z",
+    "lastChangedISO": "2026-09-17T01:42:15.994Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.rcrc.gov.sa/media-center/",
