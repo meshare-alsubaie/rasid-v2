@@ -2236,9 +2236,9 @@
   {
     "sourceUrl": "https://gaca.gov.sa/ar/News",
     "orgId": "gaca",
-    "contentHash": "1656b25a4a6bda533ddedeae4dd9021ca3f5659909adc16893f89c56a557cd23",
+    "contentHash": "f341aead13fdd7f16132eb30d5684985f3bda85e1bf44efe8975aa021bbad2b0",
     "blockHashes": [
-      "3173cb560175532e",
+      "7291fde2edef758e",
       "f479d47a5583a5d4",
       "b551296c37a31aba",
       "e1410921f606b7ac",
@@ -2309,10 +2309,10 @@
       "83a22e1f9fb245f8",
       "2ccfa90c84c059a7"
     ],
-    "extractedChars": 21727,
+    "extractedChars": 21728,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-17T16:30:56.440Z",
+    "lastChangedISO": "2026-09-17T19:38:31.213Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -3231,37 +3231,37 @@
   {
     "sourceUrl": "https://momah.gov.sa/ar/menu/media-center",
     "orgId": "housing",
-    "contentHash": "b14983ccfc290ab7b62fa544e06fa8f24e9895bb02ded06bcbcb074138737176",
+    "contentHash": "d18ca5dd35ad8ed8b68c9d6c74ebe4b0ca851e1643ba4aafd71b6b9d123a05f1",
     "blockHashes": [
       "4c63522200199108",
       "7bc8965d992df69b",
       "aa8e55eac5aea8cd",
       "09552ec2996654f9",
-      "88817a97b1a98978",
-      "ef03192bd1f7128b",
-      "5431a8e0c3238282",
+      "e042cf9d032d781e",
+      "5d15152619ff887e",
+      "8361f3316e7b0c67",
+      "ac1405062719fb86",
+      "20e0a44a334b03d7",
+      "dc16988dea224160",
+      "d25f9059a4a2293b",
+      "c94a9b0580d86284",
+      "9d4cafbe02abc005",
+      "e7efef8e9454a04e",
+      "3f0efe3f19040ee9",
+      "09b1bd561f62b68f",
+      "ad143bf890629def",
+      "ff6f87e39638cb9b",
+      "5abadfa1f18f88d4",
+      "64d17f8e28b04cac",
       "560edfe1df9d8921",
       "23b97a8a93aba477",
       "9cd3abf7fd1573ff",
-      "7c1f5559f51d1b3a",
-      "ac1405062719fb86",
-      "c70c751c9f21b048",
-      "250c9da7c08c46ce",
-      "6adffd6ee6512652",
-      "a7a847dc9a3f8755",
-      "09b1bd561f62b68f",
-      "c77100bbdaf5ba6c",
-      "58cbf962518a38f6",
-      "5d15152619ff887e",
-      "7a6239dec802f43e",
-      "ff6f87e39638cb9b",
-      "19d8b76481e674b4",
-      "1d1a30b1b37af104"
+      "c967a7a404801db0"
     ],
-    "extractedChars": 151322,
+    "extractedChars": 151282,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-17T16:30:56.440Z",
+    "lastChangedISO": "2026-09-17T19:38:31.213Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -6467,10 +6467,10 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/careers/graduate-development-program",
     "orgId": "hrc",
-    "contentHash": "84233b9c83b955d55ccb14bac0d1be2dec929a23cf82eb894b1826184a61a8d8",
+    "contentHash": "ba4f51a53c3eefdb41868ab4cd674464d9ee1e45e8dcfd113f7cbfff88e2ef16",
     "blockHashes": [
       "12e41a244a8a2984",
-      "29ce65deae1ceadf",
+      "f6cdc62205d81dcc",
       "741386d322f274be",
       "40d7009856bbc81d",
       "2dd486d3d3cacb8b",
@@ -6536,7 +6536,7 @@
     "extractedChars": 10689,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-17T16:30:56.440Z",
+    "lastChangedISO": "2026-09-17T19:38:31.213Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -9253,16 +9253,17 @@
   {
     "sourceUrl": "https://www.rcrc.gov.sa/careers/?lang=ar",
     "orgId": "rcrc",
-    "contentHash": "02ec3b6c34dcef4af968aae879f08f4c7b06474ed0a4820dbe23b22a7b86a137",
+    "contentHash": "587d4ff26616c27634cf5d3636a9eae0042b97facf9539c58693b108762d2283",
     "blockHashes": [
       "02ec3b6c34dcef4a"
     ],
-    "extractedChars": 784,
+    "extractedChars": 1167,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-17T17:51:29.030Z",
+    "lastChangedISO": "2026-09-17T19:38:31.213Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://www.rcrc.gov.sa/media-center/",
@@ -10020,8 +10021,7 @@
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
     "lastChangedISO": "2026-09-17T13:14:01.826Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.saso.gov.sa/ar/QualitySign/info/Pages/default.aspx",
@@ -11474,11 +11474,11 @@
   {
     "sourceUrl": "https://zatca.gov.sa/ar",
     "orgId": "zatca",
-    "contentHash": "61dbadacbac28749112912f3c5696704d732fa291fb2fa4bc5bc2d920c7cc10e",
+    "contentHash": "af294580b97811c425f2b32d70d68b01be5976898f318c7ef7dd3c8f9b90cfb6",
     "blockHashes": [
       "9002014afa7b66cb",
       "dd3372afafcdfd61",
-      "36744a6f793167a6",
+      "7d86723c51a9bfa0",
       "e5df56b0a0fe5091",
       "782261474561a27a",
       "701306ea50407e12",
@@ -11493,7 +11493,7 @@
     "extractedChars": 696,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-17T01:13:50.611Z",
+    "lastChangedISO": "2026-09-17T19:38:31.213Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
