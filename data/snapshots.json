@@ -265,7 +265,7 @@
     "orgId": "alinma",
     "contentHash": "231234e3d2a1c54b344c41e5449b35bf70607653df67334714c8316b3ae8e04c",
     "blockHashes": [
-      "cd7fc326454450e2",
+      "05d90bf04059db1c",
       "7a5ab1ac7c5d4d24"
     ],
     "extractedChars": 3772,
@@ -273,7 +273,8 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-17T15:10:45.098Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://alinma.com/About-the-Bank/The-Bank/News/2009/02/alinma-bank-selects-and-prepares-its-phone-banking-and-training-center-location",
@@ -1343,18 +1344,19 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/search-results",
     "orgId": "maaden",
-    "contentHash": "dfe882811d1b71277ee5ba94a09f30794b05fb5bf349f17f3be0a7a416ef0177",
+    "contentHash": "9f14d21aa145b8564fc77fb5d848ad2cf9ca69f77ad4aee05380205126a3615b",
     "blockHashes": [
-      "dab5a7f3801bc914",
-      "7f81c8923d47e218",
-      "e8b92a92c3bce36d"
+      "0593a1678d987760",
+      "d6c0adacb353836a",
+      "c51a0603eabd6598",
+      "4c4e94f3eeeb9136"
     ],
-    "extractedChars": 427,
-    "extractionMethod": "readability",
+    "extractedChars": 993,
+    "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-17T20:43:35.880Z",
+    "lastChangedISO": "2026-09-17T21:30:06.909Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://careers.mcit.gov.sa/",
@@ -3860,14 +3862,14 @@
   {
     "sourceUrl": "https://redf.gov.sa/ar/careers",
     "orgId": "redf",
-    "contentHash": "a092979e0337f97be3d2c353c9caf609417f777880a89032a25c10084de81a80",
+    "contentHash": "6eded44a6197d646a82766e81dcbd38103b7a8f80285cbce6b7a361b9934d56d",
     "blockHashes": [
-      "a092979e0337f97b"
+      "6eded44a6197d646"
     ],
     "extractedChars": 500,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-02T23:42:46.216Z",
-    "lastChangedISO": "2026-09-16T23:51:28.594Z",
+    "lastChangedISO": "2026-09-17T21:21:52.508Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -10762,7 +10764,7 @@
   {
     "sourceUrl": "https://www.stats.gov.sa/en/news",
     "orgId": "gastat",
-    "contentHash": "a3dab2a276ed22b5d7f6dae9ff2bec2f3a7dbf4925f9093d9ca56811b2965775",
+    "contentHash": "26489669a5cc304b6f78d57720a22996a1d1b889d27eda36df85b2d5376ed8cd",
     "blockHashes": [
       "b7ce6498ecbc7c40",
       "c76bf99f8551a732",
@@ -10927,12 +10929,13 @@
       "00f2cdb2123b002f",
       "130941fb4f3fdf0d"
     ],
-    "extractedChars": 50553,
+    "extractedChars": 129939,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-17T20:43:35.880Z",
+    "lastChangedISO": "2026-09-17T21:33:11.784Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://www.tadawulgroup.sa/wps/portal/tadawulgroup/joinus",
