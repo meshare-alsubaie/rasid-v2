@@ -443,7 +443,7 @@
     "orgId": "alinma",
     "contentHash": "c97594a32f17fd893f7a1b2afcdc9b5ee02d641060dee7a1eeb3cf95bb13fb53",
     "blockHashes": [
-      "1b9a991d58ed23de",
+      "8ebdb4a56f168b94",
       "1ed01ab7550902a3",
       "edb0eb72f14698e7",
       "ec081929f22e36ea",
@@ -454,7 +454,8 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-17T14:58:29.328Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://alinma.com/en/About-the-Bank/The-Bank/News/2009/02/alinma-bank-selects-and-prepares-its-phone-banking-and-training-center-location",
@@ -1262,9 +1263,10 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/cookiesettings",
     "orgId": "maaden",
-    "contentHash": "f67596c9496bcef8757fc06759cdd2d91af0f5e24d959e5ab32ed0cd489cb14f",
+    "contentHash": "e448c33528e1de3b0c260658eb926dce98fd1657815ced70af7722c7f7eb0b3a",
     "blockHashes": [
-      "2fb28de24072d906",
+      "5569201553604d03",
+      "4c196b7e3be1973c",
       "dd53e083dd4c4329",
       "5e2fc5a4da5c7871",
       "197c66a2b21d9654",
@@ -1329,13 +1331,12 @@
       "ee82ab94d7112a03",
       "60b7b15f81dc7749",
       "abf11bb520a3d451",
-      "86230803a90cc387",
-      "e1d8b8ecb277b341"
+      "9d055812337bfa5c"
     ],
     "extractedChars": 8013,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-17T20:14:26.059Z",
+    "lastChangedISO": "2026-09-17T21:03:08.903Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -2160,7 +2161,7 @@
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T02:22:33.828Z",
     "lastChangedISO": "2026-08-29T02:36:21.032Z",
-    "thinRuns": 245,
+    "thinRuns": 246,
     "pendingClassification": false
   },
   {
@@ -5839,8 +5840,7 @@
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
     "lastChangedISO": "2026-09-17T14:11:53.498Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.ey.com/en_sa/careers",
@@ -9249,16 +9249,16 @@
   {
     "sourceUrl": "https://www.rcrc.gov.sa/careers/?lang=ar",
     "orgId": "rcrc",
-    "contentHash": "16b331989fece66db1ed29ead5c6258f4400573456fd80be355da42564255521",
+    "contentHash": "d0ab053fbbdaa9a44f9d66683a890890948d770f238da7416f5f9c56b4bcdb63",
     "blockHashes": [
-      "02ec3b6c34dcef4a"
+      "d0ab053fbbdaa9a4"
     ],
-    "extractedChars": 1167,
+    "extractedChars": 785,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-17T20:29:09.054Z",
+    "lastChangedISO": "2026-09-17T21:18:06.484Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.rcrc.gov.sa/media-center/",
@@ -10975,18 +10975,18 @@
   {
     "sourceUrl": "https://www.tahakom.com/careers",
     "orgId": "tahakom",
-    "contentHash": "8d1d8b4a6a7bde78572d8fa562ea399be56c71b4f40b53a0139f8955994ae509",
+    "contentHash": "d751f6871525f9a829fcc77945ee8ea2f08910a29e1504d4c1d0e7f4b553d895",
     "blockHashes": [
       "d44217251213a019",
       "611753a8aea1ade1",
       "0cea4d38306888dc",
       "1a5263a5a2541c46",
-      "f3829db208838eb8"
+      "91dc73cfa5379947"
     ],
-    "extractedChars": 838,
+    "extractedChars": 835,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-03T05:13:40.059Z",
-    "lastChangedISO": "2026-09-17T20:14:26.059Z",
+    "lastChangedISO": "2026-09-17T21:03:08.903Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
