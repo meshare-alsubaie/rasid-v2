@@ -333,16 +333,17 @@
   {
     "sourceUrl": "https://alinma.com/About-the-Bank/The-Bank/News/2011/05/alinma-bank-to-participate-in-the-career-day-at-taiba-university",
     "orgId": "alinma",
-    "contentHash": "c9963260e9b2d60f13e38c5bda0df1d8f80da726fb9396c0d57fd1efe68a14c2",
+    "contentHash": "1a85f29f3eb42c9b1a79263f3efd10ac646f5a5cb4d8b50f9810f9e2c56d9e4b",
     "blockHashes": [
-      "c9963260e9b2d60f"
+      "1a85f29f3eb42c9b"
     ],
     "extractedChars": 281,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T23:54:26.779Z",
-    "lastChangedISO": "2026-09-15T22:09:41.066Z",
+    "lastChangedISO": "2026-09-17T16:57:17.169Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "triaged_out"
   },
   {
     "sourceUrl": "https://alinma.com/About-the-Bank/The-Bank/News/2011/10/alinma-bank-hosts-training-course-on-corporate-business-services-and-e-banking-2011",
@@ -1258,9 +1259,10 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/cookiesettings",
     "orgId": "maaden",
-    "contentHash": "1478cab433bac128ed6d9659aebbb41a550b5da9bd381936739f81c0859cc34b",
+    "contentHash": "aac34ff01a58cb2cf12110035190b7c642f6edf0b7a83e7766e6b8ebcd229569",
     "blockHashes": [
-      "e68d4a3cc726a5bf",
+      "5569201553604d03",
+      "4c196b7e3be1973c",
       "dd53e083dd4c4329",
       "5e2fc5a4da5c7871",
       "197c66a2b21d9654",
@@ -1325,12 +1327,12 @@
       "ee82ab94d7112a03",
       "60b7b15f81dc7749",
       "abf11bb520a3d451",
-      "0a736e4b81ab40ef"
+      "1bf9953a6f6d19f0"
     ],
     "extractedChars": 8013,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-17T16:03:02.331Z",
+    "lastChangedISO": "2026-09-17T16:51:30.221Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -1744,7 +1746,7 @@
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-15T13:08:42.574Z",
-    "thinRuns": 9,
+    "thinRuns": 10,
     "pendingClassification": false
   },
   {
@@ -1767,7 +1769,7 @@
   {
     "sourceUrl": "https://careers.sdaia.gov.sa/training",
     "orgId": "sdaia",
-    "contentHash": "6d46074f1938763f0a9245a2aa1b013633c7a37add8a82be35a0ab6acd37be64",
+    "contentHash": "c85f5e138b5c65644cc36a9b0c5e9718da8d17a96fc8f6de56c2a65e79a3e09a",
     "blockHashes": [
       "a3638bfcc93928a2",
       "5a2ea8a7bc8ff607",
@@ -1778,12 +1780,12 @@
       "9c07884d4ed44032",
       "c4aabeebd58258d2",
       "6dc60fec12c030a8",
-      "8f0732c7043be9ff"
+      "7d2db2ddafbe589d"
     ],
     "extractedChars": 1605,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-17T16:10:49.276Z",
+    "lastChangedISO": "2026-09-17T16:58:48.559Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -2156,7 +2158,7 @@
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T02:22:33.828Z",
     "lastChangedISO": "2026-08-29T02:36:21.032Z",
-    "thinRuns": 240,
+    "thinRuns": 241,
     "pendingClassification": false
   },
   {
@@ -2193,9 +2195,9 @@
   {
     "sourceUrl": "https://gaca.gov.sa/announcements",
     "orgId": "gaca",
-    "contentHash": "29bdeb973b81b2343ebd7d742bb277e57f9af353e7e845a8175edf93e2b65ee5",
+    "contentHash": "91415a89418cd46b462b182b8f21335dec2a72f0db1b7bea514c3b4a9c3b62b4",
     "blockHashes": [
-      "d16afda0a4a54553",
+      "92409cf1b79aa98b",
       "9c2a3967149440a8",
       "83a22e1f9fb245f8",
       "bc532942aaed49b7"
@@ -2203,7 +2205,7 @@
     "extractedChars": 1212,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-17T13:42:59.582Z",
+    "lastChangedISO": "2026-09-17T16:51:30.221Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -3306,38 +3308,38 @@
   {
     "sourceUrl": "https://momah.gov.sa/ar/node/14717",
     "orgId": "housing",
-    "contentHash": "b96f81f3fd4993eff6504a0c759e2583bcb03840c4383ceb48544b73fcc2b5a3",
+    "contentHash": "ada93a7c9ec448a2b677ec02f2dc73e26373858c7d2e2199d249a06f0db1510c",
     "blockHashes": [
       "cb4161ba67cbcfe8",
       "075ae909c8ed1c08",
       "a9b825825b3c6e51",
       "aa8e55eac5aea8cd",
       "09552ec2996654f9",
-      "ded3944ca46f7034",
-      "3cc756144c4fc1fc",
-      "2a8a5b5663f0c3f6",
-      "07ea65067083304f",
-      "51e4745eb9ce84c5",
+      "977424933439f6fd",
+      "e6147dd46fb9d249",
+      "c13a196bea054f9d",
       "ac1405062719fb86",
-      "1e937919322b389a",
-      "5d15152619ff887e",
-      "214dac8d5817e1f8",
+      "d451db241b75a5f1",
+      "d4f6ac261013f7e8",
+      "723d33d8be9b1c30",
       "09b1bd561f62b68f",
-      "5036ce054d2e9214",
-      "51fb709baf3803f7",
+      "68cb7886a37632a9",
+      "5d15152619ff887e",
+      "1a2366d7720766ba",
+      "ff6f87e39638cb9b",
+      "de16a45288f59931",
       "560edfe1df9d8921",
       "23b97a8a93aba477",
       "9cd3abf7fd1573ff",
-      "cba83754a0b22e78",
-      "a63d4a419a9dd727",
-      "5e5b99a49a38d43b",
-      "ff6f87e39638cb9b",
-      "e38a516cb409e352"
+      "714c9fe822f3c8cc",
+      "abaaa4c1e79a2526",
+      "73c6a5f7fcfa5bd0",
+      "7c752f834b547560"
     ],
-    "extractedChars": 152144,
+    "extractedChars": 152184,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-17T13:42:59.582Z",
+    "lastChangedISO": "2026-09-17T16:51:30.221Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -6423,10 +6425,10 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/careers?lang=ar",
     "orgId": "hrc",
-    "contentHash": "51432836af6f1d443a8647232052841c261be02910d2ef5ab6d68e921d6ffbda",
+    "contentHash": "dd0f65e0f7a4eea968bed7bd928a9749feb88e566653ead47231ea0941440df7",
     "blockHashes": [
       "12e41a244a8a2984",
-      "71aaad242339484e",
+      "34483aa148dbfce5",
       "9bd6314e9bbc7375",
       "474d2dbb69aae30b",
       "84b2fc11813dc7e8",
@@ -6450,7 +6452,7 @@
     "extractedChars": 3794,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-17T13:42:59.582Z",
+    "lastChangedISO": "2026-09-17T16:51:30.221Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -6999,8 +7001,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-17T13:42:59.582Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.jadwa.com/en/careers",
@@ -7586,8 +7587,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-17T13:49:09.037Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.mewa.gov.sa/ar/MediaCenter/VisualIdentityGuide/Pages/default.aspx",
