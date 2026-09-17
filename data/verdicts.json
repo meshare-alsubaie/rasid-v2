@@ -1,6 +1,6 @@
 {
   "model": "qwen3:8b",
-  "writtenISO": "2026-09-17T00:29:32.055Z",
+  "writtenISO": "2026-09-17T00:38:11.312Z",
   "verdicts": {
     "d3ed902d693a4c1d3b4fc1c6f9b85ea8": null,
     "cc97c142781ff3943c2ea2f9f38af7d8": null,
@@ -2642,6 +2642,47 @@
       "zeroCoursesQuote": null,
       "applyUrl": null
     },
-    "71464e9baca30a781852bda036269b30": null
+    "71464e9baca30a781852bda036269b30": null,
+    "5a8b53c63693847f08200cc6edc58a8a": {
+      "isTrainingAnnouncement": true,
+      "product": "coop",
+      "titleAr": "برنامج سدايا للتدريب التعاونينستثمر في القدرات الواعدة",
+      "opensISO": null,
+      "closesISO": null,
+      "opensRaw": null,
+      "closesRaw": null,
+      "moreOnPage": true,
+      "majors": [
+        "الطلاب الجامعيون"
+      ],
+      "seats": null,
+      "stipendSAR": null,
+      "durationWeeks": 8,
+      "cities": [
+        "مدينة الرياض"
+      ],
+      "statesZeroCoursesRule": true,
+      "zeroCoursesQuote": "التفرغ الكاملأن يكون المتقدم متفرغًا طوال فترة التدريب",
+      "applyUrl": null
+    },
+    "575a6a4380daa1e15a898b887fb5fb10": null,
+    "e094596a615549888befe4d614647cea": {
+      "isTrainingAnnouncement": true,
+      "product": "graduate_dev",
+      "titleAr": "انضم إلى برنامج \"تكاملي طموح\"، المصمم لتطوير وتدريب الكفاءات الواعدة من حديثي التخرج وتأهيلهم لسوق العمل",
+      "opensISO": null,
+      "closesISO": null,
+      "opensRaw": null,
+      "closesRaw": null,
+      "moreOnPage": true,
+      "majors": [],
+      "seats": null,
+      "stipendSAR": null,
+      "durationWeeks": null,
+      "cities": [],
+      "statesZeroCoursesRule": false,
+      "zeroCoursesQuote": null,
+      "applyUrl": null
+    }
   }
 }

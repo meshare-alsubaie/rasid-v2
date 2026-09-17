@@ -649,18 +649,17 @@
   {
     "sourceUrl": "https://athkax.sdaia.gov.sa/coop",
     "orgId": "sdaia",
-    "contentHash": "a58f144950bb22de0c4667555dc3401317db3a7e9e0679e6a27c03768b15a660",
+    "contentHash": "441d1e6fe78de6d7c03f55a0b635dd27f078928d37246c2a76f464673302d5a0",
     "blockHashes": [
-      "04ba8a3fca46514f",
-      "4bd08244050e9682"
+      "783342b762a97b5f",
+      "d3259690e6bb86b2"
     ],
-    "extractedChars": 756,
+    "extractedChars": 798,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-16T22:04:36.244Z",
+    "lastChangedISO": "2026-09-17T00:38:11.312Z",
     "thinRuns": 0,
-    "pendingClassification": true,
-    "classifyFailures": 2
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://awqaf.gov.sa/ar/ar/hiring/",
@@ -1257,15 +1256,15 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/cookiesettings",
     "orgId": "maaden",
-    "contentHash": "33d834001e3370ab03645e1736e6259d552d457661a6551406c1c097c844507b",
+    "contentHash": "8c376f1ad2e97fe81ae23ed659ca12e969f446e4f825b46fcd4c05b8563f9a1b",
     "blockHashes": [
-      "0d5abeadf155e3d0",
-      "d0a1b2a66c46b05e"
+      "5569201553604d03",
+      "ce7a696f0e2912c7"
     ],
-    "extractedChars": 240,
+    "extractedChars": 201,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-16T23:43:12.096Z",
+    "lastChangedISO": "2026-09-17T00:38:11.312Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -1700,7 +1699,7 @@
   {
     "sourceUrl": "https://careers.sdaia.gov.sa/training",
     "orgId": "sdaia",
-    "contentHash": "c85f5e138b5c65644cc36a9b0c5e9718da8d17a96fc8f6de56c2a65e79a3e09a",
+    "contentHash": "6d46074f1938763f0a9245a2aa1b013633c7a37add8a82be35a0ab6acd37be64",
     "blockHashes": [
       "a3638bfcc93928a2",
       "5a2ea8a7bc8ff607",
@@ -1711,12 +1710,12 @@
       "9c07884d4ed44032",
       "c4aabeebd58258d2",
       "6dc60fec12c030a8",
-      "7d2db2ddafbe589d"
+      "8f0732c7043be9ff"
     ],
     "extractedChars": 1605,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-16T22:54:15.093Z",
+    "lastChangedISO": "2026-09-17T00:38:11.312Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -2089,7 +2088,7 @@
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T02:22:33.828Z",
     "lastChangedISO": "2026-08-29T02:36:21.032Z",
-    "thinRuns": 233,
+    "thinRuns": 234,
     "pendingClassification": false
   },
   {
@@ -3576,8 +3575,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-16T21:29:31.580Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://ndf.gov.sa/media-center/articles",
@@ -4190,15 +4188,16 @@
   {
     "sourceUrl": "https://takamolholding.com/ar/join-us",
     "orgId": "takamol",
-    "contentHash": "1c01152219e081fd2e5cf9889b6fc4f06f224546f858c042d3327db61d61bbc2",
+    "contentHash": "1af16738ac357d14a80b6a71be4e79653c1f126a9d3830a14911c95a67271b9c",
     "blockHashes": [
-      "7fe60a979f147da5",
-      "451e371814b7cbdb"
+      "a269bc0fd2159f46",
+      "0aff54aeec4c61dd",
+      "4c9002591ab2f873"
     ],
-    "extractedChars": 306,
-    "extractionMethod": "readability",
+    "extractedChars": 757,
+    "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
-    "lastChangedISO": "2026-09-14T17:02:57.445Z",
+    "lastChangedISO": "2026-09-17T00:38:11.312Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -7588,7 +7587,7 @@
   {
     "sourceUrl": "https://www.mim.gov.sa/ar/empower-training/cooperative-training",
     "orgId": "mim",
-    "contentHash": "9f5fb321f4f96718d58e923ee792370b284ae2f2f9158935f01e5c4a305b7495",
+    "contentHash": "7ed32bded1201c7610959f88c82a36b7eb6695fcab2efdf9a4bbe22344b3d42b",
     "blockHashes": [
       "1cb91553dd3291a4",
       "5300d4cdd32a8d33"
@@ -7596,7 +7595,7 @@
     "extractedChars": 2495,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T02:22:33.828Z",
-    "lastChangedISO": "2026-09-16T23:43:12.096Z",
+    "lastChangedISO": "2026-09-17T00:38:11.312Z",
     "thinRuns": 0,
     "pendingClassification": true,
     "classifyFailures": 1
@@ -7942,8 +7941,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-16T21:29:31.580Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.mof.gov.sa/mediacenter/events/Pages/CalEvent.aspx",
@@ -9508,7 +9506,7 @@
   {
     "sourceUrl": "https://www.riyadbank.com/ar/personal-banking",
     "orgId": "riyadbank",
-    "contentHash": "29a8cadc39eef5713d228d9622218ca296b9c3e1c5782cb712abccb86364e3dc",
+    "contentHash": "e73c5106cd39b3ac2bec7b3162828788bab91ed14885c92b048e586905de3b1f",
     "blockHashes": [
       "c5fa97b84e96f11e",
       "a01ad1ea1a27690a",
@@ -9532,15 +9530,15 @@
       "9f29620fa9319a80",
       "dd09a93c19a5b408",
       "fc0a22cc81c08834",
-      "5ca46b716e2fe884",
-      "1d775fb08011859c",
+      "97b7afff054f9f37",
+      "2274a27142a58d23",
       "303fe28588764a9b",
       "7a8a143470365dc2",
-      "960919b7fb63409c",
+      "68804184ee7f89f3",
       "c845d371bfc055e6",
       "e91a2dc79c3ef7ff",
-      "75701b4b0c077673",
-      "0b4f6c1a982c9472",
+      "e10872055bbde21f",
+      "68f92b28ff614b42",
       "cb4329c80213103c",
       "853e155161611ffc",
       "0f21ae2f5a35f90c",
@@ -9552,10 +9550,10 @@
       "27ab07a2e57dda34",
       "f2f0e16c376080f6"
     ],
-    "extractedChars": 10366,
+    "extractedChars": 10225,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
-    "lastChangedISO": "2026-09-16T21:29:31.580Z",
+    "lastChangedISO": "2026-09-17T00:38:11.312Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
