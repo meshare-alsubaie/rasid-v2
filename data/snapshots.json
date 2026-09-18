@@ -766,7 +766,7 @@
   {
     "sourceUrl": "https://career.alinma.com/",
     "orgId": "alinma",
-    "contentHash": "e245fd94c1ab59dcc6bad34af50ba34c224654b27d2f46834c18eef001143fa5",
+    "contentHash": null,
     "blockHashes": [
       "d139e32e22028878",
       "24a16c9057a577bb",
@@ -2418,16 +2418,17 @@
   {
     "sourceUrl": "https://gmedia.gov.sa/",
     "orgId": "gcam",
-    "contentHash": "e59be7be76f59479e1ab49f270dd29387f18ce9168f87b21775aca2020de4471",
+    "contentHash": "8e75bbe972de9228296b31e897deaf17cece7d5ae34fb5289b208862d242cbe3",
     "blockHashes": [
-      "6ffb55a655aa3cd1"
+      "8e75bbe972de9228"
     ],
     "extractedChars": 1118,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-18T15:13:08.149Z",
+    "lastChangedISO": "2026-09-18T21:34:07.410Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://gmedia.gov.sa/ar/hiring",
@@ -3715,20 +3716,21 @@
   {
     "sourceUrl": "https://ndf.gov.sa/media-center/articles",
     "orgId": "ndf",
-    "contentHash": "452ff421830ffe42db3c980de97218d21f2e11c8b8f5e146a03f87c6ed43e3aa",
+    "contentHash": "dd75928cff8669dfb89a6b6839d4e27ad0a9f8655a9e894b0148b2b7f45b2763",
     "blockHashes": [
-      "8320e7a493e54389",
+      "053698d75785b1e5",
       "b4a5c7cd60560196",
       "4c268b289192e891",
       "d91f8453abc8bd97",
       "0e33f45837a3e364"
     ],
-    "extractedChars": 4077,
+    "extractedChars": 4076,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-18T15:13:08.149Z",
+    "lastChangedISO": "2026-09-18T21:34:07.410Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://ndf.gov.sa/media-center/articles/article-human-resource-development",
@@ -7723,7 +7725,7 @@
   {
     "sourceUrl": "https://www.mim.gov.sa/ar/empower-training/cooperative-training",
     "orgId": "mim",
-    "contentHash": "076e69829397584970dbb71e75b6425833dcbee207f085cc62b9dbd9d3d558a3",
+    "contentHash": "c3fc580333bbbdbaff2109e442b97c41546f3959bd476b5480331c4c10274e44",
     "blockHashes": [
       "1cb91553dd3291a4",
       "5300d4cdd32a8d33"
@@ -7731,7 +7733,7 @@
     "extractedChars": 2473,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T02:22:33.828Z",
-    "lastChangedISO": "2026-09-18T20:53:38.989Z",
+    "lastChangedISO": "2026-09-18T21:41:52.046Z",
     "thinRuns": 0,
     "pendingClassification": true,
     "classifyFailures": 1
@@ -8036,11 +8038,11 @@
   {
     "sourceUrl": "https://www.mof.gov.sa/GFS/TrainingProgram/Pages/TrainingManual.aspx",
     "orgId": "mof",
-    "contentHash": "3248ef871bc167e0dba6f7c4c5af921c0c141518c05928a4b2bd4a0f4d4d0378",
+    "contentHash": "c8ff04a4ade6b7c7a38cdabf9ddbe4c4bcf59eaae6b27ede1ead98872b3b690a",
     "blockHashes": [
       "7f625851cbbadbc6",
       "f7711325e2c4b301",
-      "ed36e0fa73e1e571",
+      "543d437eda7005df",
       "ffd666e2720f42ef",
       "f4809815161554d5",
       "ec90d29b5d482b67",
@@ -8051,10 +8053,10 @@
       "e449b5a351b550c3",
       "cbefc4238a0555f8"
     ],
-    "extractedChars": 10413,
+    "extractedChars": 10412,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-17T21:43:40.475Z",
+    "lastChangedISO": "2026-09-18T21:34:07.410Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -8682,11 +8684,11 @@
   {
     "sourceUrl": "https://www.nazaha.gov.sa/News/Details?q=o2ojUlDL5mGosOuEoGXXeg==",
     "orgId": "nazaha",
-    "contentHash": "23fe78091bf7a8a8b235890a119910a64eab5334e19a8d3427d35f11029150b2",
+    "contentHash": "4d3ba52349d41f8cc717837cb401f270b0adcacb1d0e33b7d4c4f00a25bfbca2",
     "blockHashes": [
       "a167b0dd9b0e3e1c",
       "74e4c1d2a646a96e",
-      "d5129ca464453f3a",
+      "389a9677bf5ceb91",
       "8d35c6dbfb6149bf",
       "934470dd7b84953f",
       "b97ad38f7d56bff9"
@@ -8694,9 +8696,10 @@
     "extractedChars": 783,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-18T15:07:28.688Z",
+    "lastChangedISO": "2026-09-18T21:34:07.410Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "triaged_out"
   },
   {
     "sourceUrl": "https://www.ncc.gov.sa/ar/MediaCenter/Events/Pages/default.aspx",
@@ -10444,7 +10447,7 @@
   {
     "sourceUrl": "https://www.sfda.gov.sa/en/career-vision-and-mission",
     "orgId": "sfda",
-    "contentHash": "99cb01371e78818c3128a5d11d47201daaa616804d7bff1c1c31d2a9c830a903",
+    "contentHash": "936289bd1b26e837b75914f4bd43c8937a51fc8ecc1fddeb6150245b9b8a2bff",
     "blockHashes": [
       "4e3b1c94f76f8148",
       "eba48d47d7bc0f9e",
@@ -10458,12 +10461,12 @@
       "a0466ff116c86d28",
       "4b81d1c31f1f9c59",
       "02085740ec4421fd",
-      "873b604d033c50fc"
+      "58555c5653d66fb2"
     ],
     "extractedChars": 997,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-18T14:07:26.284Z",
+    "lastChangedISO": "2026-09-18T21:34:07.410Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -11068,13 +11071,10 @@
   {
     "sourceUrl": "https://www.thiqah.sa/",
     "orgId": "thiqah",
-    "contentHash": "41585f247e073f7dfa50339963ead8d8387c9a1b752741091b485d74143c63b9",
+    "contentHash": "bba18d1332d9277cfb6fa175f6984c62b16db98c935a6738a2b6a55c5b1d20bc",
     "blockHashes": [
-      "56d61a024ef0c23a",
-      "988b9a8bf2486a9d",
-      "a4ad1af066840cba",
-      "2a753899ff945f72",
-      "0254baf3c601928d",
+      "2badba214de43400",
+      "cff1ddff4e992236",
       "e6bf180d162757ed",
       "ce6b1d76c3fa0a8f",
       "5702aa0bdde53d7c",
@@ -11087,7 +11087,7 @@
     "extractedChars": 2087,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-17T20:14:26.059Z",
+    "lastChangedISO": "2026-09-18T21:34:07.410Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
