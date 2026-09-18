@@ -343,8 +343,7 @@
     "firstSeenISO": "2026-08-31T23:54:26.779Z",
     "lastChangedISO": "2026-09-17T16:57:17.169Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "triaged_out"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://alinma.com/About-the-Bank/The-Bank/News/2011/10/alinma-bank-hosts-training-course-on-corporate-business-services-and-e-banking-2011",
@@ -466,8 +465,7 @@
     "firstSeenISO": "2026-08-31T23:54:26.779Z",
     "lastChangedISO": "2026-09-17T17:11:40.608Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "triaged_out"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://alinma.com/en/About-the-Bank/The-Bank/News/2010/01/alinma-bank-signs-agreement-with-specialized-academy-for-medical-training-for-financing-tuition-fees",
@@ -1278,16 +1276,18 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/search-results",
     "orgId": "maaden",
-    "contentHash": "8da6265b92cbece12dbad6cf3940c9f86695ac46818fa757229a95cb6e3faa92",
+    "contentHash": "fdb36046daba0a09d62abf255dbcc19554bfbb1f2f4d3c389ae27096f788eb78",
     "blockHashes": [
       "5569201553604d03",
-      "6610997bc1f9b192",
-      "29bf17ff4fdad923"
+      "6e3cceb54e777f64",
+      "d6c0adacb353836a",
+      "7df8f44e678ac37e",
+      "be93265a81d626b6"
     ],
-    "extractedChars": 201,
+    "extractedChars": 240,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-18T17:41:46.737Z",
+    "lastChangedISO": "2026-09-18T18:39:13.425Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -6334,7 +6334,7 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/careers",
     "orgId": "hrc",
-    "contentHash": "1d5558b5253ff8b2c61b0946cd2d35fade08d35e707d69b017f9b39559583d16",
+    "contentHash": "c48e2b5c65954b5d30379c4409121c9f4758e71b19e16ea3e87651368deea842",
     "blockHashes": [
       "12e41a244a8a2984",
       "18763c6a660a029a",
@@ -6361,7 +6361,7 @@
     "extractedChars": 3794,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-18T15:11:51.172Z",
+    "lastChangedISO": "2026-09-18T18:28:04.060Z",
     "thinRuns": 0,
     "pendingClassification": true
   },
