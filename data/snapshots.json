@@ -471,15 +471,16 @@
     "orgId": "alinma",
     "contentHash": "103c9b0a08e7aaeacbb07c0d12d1a1bab1d2e177e95b3d5edf2f0176af16b755",
     "blockHashes": [
-      "ae1b36e29e30209d"
+      "103c9b0a08e7aaea"
     ],
     "extractedChars": 284,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T23:54:26.779Z",
     "lastChangedISO": "2026-09-17T19:15:56.252Z",
     "thinRuns": 0,
-    "pendingClassification": true,
-    "classifyFailures": 1
+    "pendingClassification": false,
+    "classifyFailures": 1,
+    "settledWithoutVerdict": "triaged_out"
   },
   {
     "sourceUrl": "https://alinma.com/en/About-the-Bank/The-Bank/News/2011/02/alinma-bank-and-al-khaleej-training-and-education-company-sign-education-financing-agreement",
@@ -2991,17 +2992,24 @@
   {
     "sourceUrl": "https://misa.gov.sa/ar/media-center/announcements/",
     "orgId": "misa",
-    "contentHash": "3766c29a7fe4e738b98df8704b766ae4d0f511e0cd5a145dc1e0085a4d0dd544",
+    "contentHash": "25fd6ad4acb473d6d081c1a795a426259b63305c27849b21f7e00efd76343c04",
     "blockHashes": [
-      "3ed4a297b5bf0d42",
+      "d0ada1cfc277849f",
+      "a281540e00ca3f91",
+      "a0dd1feef0108fff",
+      "2a1998ac093ef389",
+      "35b3a327fb9977e6",
+      "d7f5b0da295cf61a",
+      "eac1849057922e52",
       "f43b8bd75a8e0f61"
     ],
-    "extractedChars": 623,
+    "extractedChars": 717,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-08-31T00:02:49.563Z",
+    "lastChangedISO": "2026-09-18T20:41:07.251Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://misa.gov.sa/ar/media-center/latest-news/",
@@ -3049,9 +3057,9 @@
   {
     "sourceUrl": "https://modon.gov.sa/",
     "orgId": "modon",
-    "contentHash": "5dce5ce0c7fa01b05963eb808ec126248446415549d187ecced11f39e9556ea7",
+    "contentHash": "88d0e8c1d81889a048d71cbc2855ec53309c3ffb874bf71be327ebc150ea8206",
     "blockHashes": [
-      "d1ccc7353b1fe249",
+      "97019434faf9f177",
       "0edf2292f0637ccb",
       "c32ffa2c93fe0d09",
       "9066ce9805b0428c",
@@ -3073,7 +3081,7 @@
     "extractedChars": 5996,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-18T14:26:50.982Z",
+    "lastChangedISO": "2026-09-18T20:41:07.251Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
