@@ -273,8 +273,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-17T15:10:45.098Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://alinma.com/About-the-Bank/The-Bank/News/2009/02/alinma-bank-selects-and-prepares-its-phone-banking-and-training-center-location",
@@ -556,7 +555,7 @@
     "lastChangedISO": "2026-09-17T15:24:46.712Z",
     "thinRuns": 0,
     "pendingClassification": true,
-    "classifyFailures": 1
+    "classifyFailures": 2
   },
   {
     "sourceUrl": "https://alinma.com/en/About-the-Bank/The-Bank/News/2011/12/alinmabankhoststrainingcourseoncorporatebusinessservicesandebanking",
@@ -1278,19 +1277,16 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/search-results",
     "orgId": "maaden",
-    "contentHash": "3621b9398761095639191f93e2c1855d92f9e2ed1f0fce4a3cdda7490b8d2ef4",
+    "contentHash": "b21e9959c2b775181c8a6772c0284e1872a76dee1cb9e80692f66effe808287e",
     "blockHashes": [
-      "5569201553604d03",
-      "6e3cceb54e777f64",
-      "6bf0ca67e0f069b4",
-      "d6c0adacb353836a",
-      "56299beeda3c09e2",
-      "2c149a3124d5f416"
+      "0593a1678d987760",
+      "8cd9435e55bb06f4",
+      "fb82949099a77342"
     ],
-    "extractedChars": 505,
+    "extractedChars": 240,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-18T16:01:20.179Z",
+    "lastChangedISO": "2026-09-18T16:51:04.766Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -5441,18 +5437,18 @@
   {
     "sourceUrl": "https://www.bog.gov.sa/en/EServices/judiciaryHiring/Pages/Hiring.aspx",
     "orgId": "bog",
-    "contentHash": "6635fa4c3d3bd50914f5da28c4c617ed4f7368cc92708f67e06332e4497360e5",
+    "contentHash": "991a6aba6915675d3432f1fa6317b1271691eedeb4f729a07b62fe0c0620b0a0",
     "blockHashes": [
       "46d9575ec382a9d1",
       "96c63175498462d9",
       "f4b9821710ab784e",
-      "14a91afead641f0d",
+      "c56b263d910d820d",
       "ec5d6ba37d25b982"
     ],
     "extractedChars": 609,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-18T15:49:09.764Z",
+    "lastChangedISO": "2026-09-18T16:38:43.741Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
