@@ -3010,16 +3010,23 @@
   {
     "sourceUrl": "https://misa.gov.sa/ar/media-center/latest-news/",
     "orgId": "misa",
-    "contentHash": "0233b7c951125b4704d328d3395f167920b7801760852ba41219f6b42ceaca5d",
+    "contentHash": "cf9ffed44e23479e0e1cded397d726b761795178265dff3d78de205acb6b6dea",
     "blockHashes": [
-      "0233b7c951125b47"
+      "d0ada1cfc277849f",
+      "a281540e00ca3f91",
+      "a0dd1feef0108fff",
+      "7bd8922510a6c6cb",
+      "d7f5b0da295cf61a",
+      "eac1849057922e52",
+      "f43b8bd75a8e0f61"
     ],
-    "extractedChars": 727,
-    "extractionMethod": "body_fallback",
+    "extractedChars": 347,
+    "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-16T12:06:43.558Z",
+    "lastChangedISO": "2026-09-18T20:09:24.012Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "triaged_out"
   },
   {
     "sourceUrl": "https://misa.gov.sa/ar/news/latest-news/",
@@ -3090,9 +3097,9 @@
   {
     "sourceUrl": "https://modon.gov.sa/ar/MediaCenter/Pages/default.aspx",
     "orgId": "modon",
-    "contentHash": "6f1ac6bd5e4a6780cdf43d2805f15076c23b6ee0bc760669125f9eb5a282c2a2",
+    "contentHash": "1bc3ddfbddd2fd129a1c5e51cd9c61cbc47a5423da0c7d70c06cafa3624b888b",
     "blockHashes": [
-      "bf66fe2e79d2746b",
+      "0b455ca36e2c7204",
       "317f2772b9ef6210",
       "8ae17958586c8a8c",
       "a052fcd3e0ca047c"
@@ -3100,7 +3107,7 @@
     "extractedChars": 306,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-18T16:58:48.217Z",
+    "lastChangedISO": "2026-09-18T20:09:24.012Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -3386,7 +3393,7 @@
   {
     "sourceUrl": "https://mot.gov.sa/ar/news",
     "orgId": "mot",
-    "contentHash": null,
+    "contentHash": "adfcad651c50f39c5fb86452816c3c2c4a0d058d1e736260d30406d1acc1fba2",
     "blockHashes": [
       "51f380681e0e1186",
       "aa279a49c5521ae8",
@@ -3409,9 +3416,10 @@
     "extractedChars": 1119,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-12T19:27:46.688Z",
+    "lastChangedISO": "2026-09-18T20:09:24.012Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://nca.gov.sa/ar/careers/",
@@ -4935,8 +4943,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-18T13:59:00.847Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "triaged_out"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.alrajhibank.com.sa/",
@@ -9248,17 +9255,16 @@
   {
     "sourceUrl": "https://www.rcrc.gov.sa/careers/?lang=ar",
     "orgId": "rcrc",
-    "contentHash": "3bf48b4fdc001c5acb89927f23bf9fe8ac2e8c28e6cca07ebe791216f3337fa1",
+    "contentHash": "fb97d79d82fcef49a1c38a9b5b6ec5b095f2b6926fbced9eddc3f2641aebffcc",
     "blockHashes": [
-      "dc62f4bca3862290"
+      "fb97d79d82fcef49"
     ],
-    "extractedChars": 1167,
+    "extractedChars": 785,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-18T19:18:21.938Z",
+    "lastChangedISO": "2026-09-18T20:09:24.012Z",
     "thinRuns": 0,
-    "pendingClassification": true,
-    "classifyFailures": 1
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.rcrc.gov.sa/media-center/",
@@ -9843,14 +9849,14 @@
   {
     "sourceUrl": "https://www.saip.gov.sa/ar/media-center/movables-platform",
     "orgId": "saip",
-    "contentHash": "b5d4b8a075b3f0614e54a17ded6bd73ea280072d5b550699cda023e9343450d4",
+    "contentHash": "680e646b2d05a17c00c8ab3cbaaf67fea9fa909e7e217c70a79e25e44227987c",
     "blockHashes": [
-      "b5d4b8a075b3f061"
+      "680e646b2d05a17c"
     ],
     "extractedChars": 242,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-18T16:58:48.217Z",
+    "lastChangedISO": "2026-09-18T20:09:24.012Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -10762,7 +10768,7 @@
   {
     "sourceUrl": "https://www.stats.gov.sa/en/news",
     "orgId": "gastat",
-    "contentHash": "a3dab2a276ed22b5d7f6dae9ff2bec2f3a7dbf4925f9093d9ca56811b2965775",
+    "contentHash": "26489669a5cc304b6f78d57720a22996a1d1b889d27eda36df85b2d5376ed8cd",
     "blockHashes": [
       "b7ce6498ecbc7c40",
       "c76bf99f8551a732",
@@ -10927,12 +10933,13 @@
       "00f2cdb2123b002f",
       "130941fb4f3fdf0d"
     ],
-    "extractedChars": 50553,
+    "extractedChars": 129939,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-18T19:18:21.938Z",
+    "lastChangedISO": "2026-09-18T20:09:24.012Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://www.tadawulgroup.sa/wps/portal/tadawulgroup/joinus",
