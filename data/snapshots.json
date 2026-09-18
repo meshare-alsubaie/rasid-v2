@@ -543,15 +543,15 @@
     "orgId": "alinma",
     "contentHash": "a36d3446adec68f707c241462f07bf3f980180c11a896e575c5982c076fb1d9e",
     "blockHashes": [
-      "4681ced66003d0ea"
+      "a36d3446adec68f7"
     ],
     "extractedChars": 284,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T23:54:26.779Z",
     "lastChangedISO": "2026-09-17T15:24:46.712Z",
     "thinRuns": 0,
-    "pendingClassification": true,
-    "classifyFailures": 2
+    "pendingClassification": false,
+    "classifyFailures": 3
   },
   {
     "sourceUrl": "https://alinma.com/en/About-the-Bank/The-Bank/News/2011/12/alinmabankhoststrainingcourseoncorporatebusinessservicesandebanking",
@@ -1258,7 +1258,7 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/cookiesettings",
     "orgId": "maaden",
-    "contentHash": "8370a21229538172e8876c3b3059acca56447b0e0a66be729f46dbc381af6122",
+    "contentHash": "c6f7134fc3b54efbe80f269d70d34cfd1cbf8fa201fdde3fa72db1e41ac61737",
     "blockHashes": [
       "5569201553604d03",
       "4c196b7e3be1973c",
@@ -1326,15 +1326,15 @@
       "ee82ab94d7112a03",
       "60b7b15f81dc7749",
       "abf11bb520a3d451",
-      "3451ac2ffbe29043",
-      "2546650791867dc6"
+      "749cbe25cd3bf4d7",
+      "888bebc504011ff7"
     ],
     "extractedChars": 8013,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-18T22:14:56.267Z",
+    "lastChangedISO": "2026-09-18T23:04:32.937Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/search-results",
@@ -2156,7 +2156,7 @@
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T02:22:33.828Z",
     "lastChangedISO": "2026-08-29T02:36:21.032Z",
-    "thinRuns": 259,
+    "thinRuns": 260,
     "pendingClassification": false
   },
   {
@@ -8061,11 +8061,11 @@
   {
     "sourceUrl": "https://www.mof.gov.sa/mediacenter/circulars/Pages/default.aspx",
     "orgId": "mof",
-    "contentHash": "32a83b5fce5a34a439170ab4ba345adf06f41d7a58022f288946c3d0bfc5796b",
+    "contentHash": "3cc557cd7ecc768bc583e3e9c9320232640433aaed76c7988df601b645e56708",
     "blockHashes": [
       "7f625851cbbadbc6",
       "f7711325e2c4b301",
-      "0a63181f06224c55",
+      "4bac67e2f959ffbc",
       "8f20eb8846ead05b",
       "f4809815161554d5",
       "16ff3360390869f3",
@@ -8076,12 +8076,13 @@
       "e449b5a351b550c3",
       "3942beff5570c1da"
     ],
-    "extractedChars": 10162,
+    "extractedChars": 10161,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-17T21:58:27.096Z",
+    "lastChangedISO": "2026-09-18T23:04:32.937Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://www.mof.gov.sa/mediacenter/events/Pages/CalEvent.aspx",
