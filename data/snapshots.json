@@ -1256,17 +1256,17 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/cookiesettings",
     "orgId": "maaden",
-    "contentHash": "77e31ca9d9bb304a29e9aca93302cede74e29c4547ae4f3dcc43ded6fdb64e44",
+    "contentHash": "717bbc94d6566a2c6f5d3a6e56d9902efbad1f9a5955ae340d5baff573d144ac",
     "blockHashes": [
-      "3f662447a33f4efd",
-      "a2f47ad4ffed4b44"
+      "5569201553604d03",
+      "34e2dab9c12294eb"
     ],
-    "extractedChars": 8013,
+    "extractedChars": 201,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-19T15:03:28.001Z",
+    "lastChangedISO": "2026-09-19T15:52:26.094Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/search-results",
@@ -2092,7 +2092,7 @@
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T02:22:33.828Z",
     "lastChangedISO": "2026-08-29T02:36:21.032Z",
-    "thinRuns": 263,
+    "thinRuns": 264,
     "pendingClassification": false
   },
   {
@@ -5500,7 +5500,7 @@
       "46d9575ec382a9d1",
       "96c63175498462d9",
       "f4b9821710ab784e",
-      "be5ee0faff2db00f",
+      "90a333d48dbc2607",
       "6bbd6187086df04b",
       "ec5d6ba37d25b982"
     ],
@@ -5509,7 +5509,7 @@
     "firstSeenISO": "2026-08-29T02:22:33.828Z",
     "lastChangedISO": "2026-09-19T15:03:28.001Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.bsfcareers.sa/ar/",
@@ -9231,16 +9231,17 @@
   {
     "sourceUrl": "https://www.rcrc.gov.sa/careers/?lang=ar",
     "orgId": "rcrc",
-    "contentHash": "871c344309913eda6de53c8a80db999d14b0f5f7ea20ae675995bdc29480bbcd",
+    "contentHash": "1567b674bc5e7d200852933f7bc08dc64c7ae7df2708b0953ea8f217b9067b03",
     "blockHashes": [
       "fb97d79d82fcef49"
     ],
     "extractedChars": 1166,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-19T15:00:35.470Z",
+    "lastChangedISO": "2026-09-19T15:52:26.094Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://www.rcrc.gov.sa/media-center/",
@@ -10745,7 +10746,7 @@
   {
     "sourceUrl": "https://www.stats.gov.sa/en/news",
     "orgId": "gastat",
-    "contentHash": "a3dab2a276ed22b5d7f6dae9ff2bec2f3a7dbf4925f9093d9ca56811b2965775",
+    "contentHash": "26489669a5cc304b6f78d57720a22996a1d1b889d27eda36df85b2d5376ed8cd",
     "blockHashes": [
       "b7ce6498ecbc7c40",
       "c76bf99f8551a732",
@@ -10910,12 +10911,13 @@
       "00f2cdb2123b002f",
       "130941fb4f3fdf0d"
     ],
-    "extractedChars": 50553,
+    "extractedChars": 129939,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-19T15:03:28.001Z",
+    "lastChangedISO": "2026-09-19T15:52:26.094Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://www.tadawulgroup.sa/wps/portal/tadawulgroup/joinus",
