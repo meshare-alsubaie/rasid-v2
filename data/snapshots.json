@@ -364,15 +364,15 @@
     "orgId": "alinma",
     "contentHash": "4ecb56f399f0ec20541014dbb9f0092d7d9d110f5f7952279fdc5535ef1df322",
     "blockHashes": [
-      "de2dfb1cd5fc16a6"
+      "4ecb56f399f0ec20"
     ],
     "extractedChars": 281,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T23:54:26.779Z",
     "lastChangedISO": "2026-09-17T17:40:46.722Z",
     "thinRuns": 0,
-    "pendingClassification": true,
-    "classifyFailures": 2
+    "pendingClassification": false,
+    "classifyFailures": 3
   },
   {
     "sourceUrl": "https://alinma.com/About-the-Bank/The-Bank/News/2011/12/alinmabankhoststrainingcourseoncorporatebusinessservicesandebanking",
@@ -386,7 +386,8 @@
     "firstSeenISO": "2026-08-31T23:54:26.779Z",
     "lastChangedISO": "2026-09-17T17:26:37.975Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://alinma.com/About-the-Bank/The-Bank/News/2013/05/alinmajobandcareerdayattractsgraduatesoftheinstituteofpublicadministration",
@@ -1336,20 +1337,20 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/search-results",
     "orgId": "maaden",
-    "contentHash": "fcbe59a3b98cb609ab1996bd16a8c355578a04f0bf8cefd286ec716775a8c2de",
+    "contentHash": "0fc5b5b932ec88ed1df659b509a5566aaabc06da28a166127d71a6ca8462d8bc",
     "blockHashes": [
-      "dab5a7f3801bc914",
+      "a774c62e681357c5",
       "298a05ebe5a16280",
       "d6c0adacb353836a",
-      "f26bfd2ec406d2de",
-      "cbb4f1d5475ef5bc"
+      "87f6230e81278548",
+      "40c4501c9e34c021"
     ],
-    "extractedChars": 201,
+    "extractedChars": 240,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-19T18:01:19.955Z",
+    "lastChangedISO": "2026-09-19T18:47:47.332Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://careers.mcit.gov.sa/",
@@ -11011,20 +11012,20 @@
   {
     "sourceUrl": "https://www.tahakom.com/careers",
     "orgId": "tahakom",
-    "contentHash": "6f0814743b3acd5842bd115ebcd1b4a551c9ba782c981772e1bda4b32cc033a1",
+    "contentHash": "457f65df725621cf1ff8df157d2d7ad5927ef366ef94aa5e45fdfae4dd6d3b3f",
     "blockHashes": [
       "d44217251213a019",
       "611753a8aea1ade1",
       "0cea4d38306888dc",
       "1a5263a5a2541c46",
-      "e7c54ea8039f8924"
+      "a937a81f39e1b5a8"
     ],
-    "extractedChars": 835,
+    "extractedChars": 838,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-03T05:13:40.059Z",
-    "lastChangedISO": "2026-09-19T18:01:19.955Z",
+    "lastChangedISO": "2026-09-19T18:47:47.332Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.taifcity.gov.sa/#/ar",
