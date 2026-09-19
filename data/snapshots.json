@@ -1338,18 +1338,18 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/search-results",
     "orgId": "maaden",
-    "contentHash": "7481f0a519dad71e55e197ff9ada7d45cef395f3a7ff0f8fb98adc4126500a57",
+    "contentHash": "290c535e06dc694e8ff61d533be1d507dab6e3dd3504e83e8c6130fd24b7efdf",
     "blockHashes": [
       "dab5a7f3801bc914",
-      "b998b55b191f02d3",
-      "f64cdf9c54a2dcdc"
+      "d2b482d9bd54899a",
+      "e0e82054321c419b"
     ],
     "extractedChars": 240,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-19T21:08:49.013Z",
+    "lastChangedISO": "2026-09-19T22:04:14.377Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://careers.mcit.gov.sa/",
@@ -3724,9 +3724,9 @@
   {
     "sourceUrl": "https://ndf.gov.sa/media-center/articles/article-human-resource-development",
     "orgId": "ndf",
-    "contentHash": "5cae8c7b0f3fc150016860cedf0b5ca997b65a2314ed906a3a44885adaf3d6a3",
+    "contentHash": "e55213778e1ffbd217d09fbff87ba718891722173542bed5bf55d345f20c47d9",
     "blockHashes": [
-      "f88a6d1cab4939d4",
+      "2f27bfa8b008ee7d",
       "2e431a1caf07dcca",
       "7a4afe45d7b2cb37",
       "a16ea57600a8a4dd",
@@ -3738,7 +3738,7 @@
     "extractedChars": 4172,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-19T17:42:28.020Z",
+    "lastChangedISO": "2026-09-19T22:15:41.805Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -8547,18 +8547,18 @@
   {
     "sourceUrl": "https://www.nazaha.gov.sa/",
     "orgId": "nazaha",
-    "contentHash": "64a55e8126ff04810a39b91e44dc65ce5b1930f257e38516292f651d043a7245",
+    "contentHash": "00abbc921046340679c095fedb210326eeab325fef89defe39e7c80694a0e02e",
     "blockHashes": [
       "a167b0dd9b0e3e1c",
       "74e4c1d2a646a96e",
-      "a70ea9bacd26b045",
+      "a436c047dafc052b",
       "c3fc1cda7b3b3192",
       "b388a9e4963a3a37"
     ],
     "extractedChars": 506,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T22:03:35.383Z",
-    "lastChangedISO": "2026-09-18T22:04:36.379Z",
+    "lastChangedISO": "2026-09-19T22:15:41.805Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
