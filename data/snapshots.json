@@ -2782,7 +2782,7 @@
   {
     "sourceUrl": "https://mawhiba.org/",
     "orgId": "mawhiba",
-    "contentHash": "55255bfad003772eadb40eb72b51a7b5b59bbfcf564f02320e7956031097112c",
+    "contentHash": "d71d5060a5f9c380645df3f7071650858a7d299bef96ed6713cdaec2a9d20e3e",
     "blockHashes": [
       "cebaa0d7740345e0",
       "b0a03231aea02dc9",
@@ -2806,7 +2806,7 @@
       "c4583f676c27517a",
       "4ea242e080578a16",
       "a4e4e1fbeaab5463",
-      "af040431524eaa38",
+      "8b392beef8f5771c",
       "b518044d0e3ef109",
       "1f3c4598715a2661",
       "156de0d90703cc45"
@@ -2814,7 +2814,7 @@
     "extractedChars": 8489,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-18T20:14:36.194Z",
+    "lastChangedISO": "2026-09-19T14:08:10.695Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -2854,7 +2854,7 @@
   {
     "sourceUrl": "https://mc.gov.sa/ar/pages/default.aspx",
     "orgId": "mc",
-    "contentHash": "e16162918ffa178e72bcb03a372c16482573831d1997d3a727734e00e7198a1f",
+    "contentHash": "e90e69e5499dbc92313932cfa1f476be92a0454be5567ff617f910ddb272482a",
     "blockHashes": [
       "88b5148b04637d49",
       "74e4c1d2a646a96e",
@@ -2872,14 +2872,14 @@
       "7388bedb36b7cfb3",
       "21cf4a39855f6112",
       "d0f0d951b75dc3da",
-      "ba1880b3abcac2f2",
+      "cc20879dbeb4aefa",
       "c0be845c29d2cb4d",
       "512411bd0eda978e"
     ],
     "extractedChars": 946,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T23:21:37.487Z",
-    "lastChangedISO": "2026-09-18T20:30:09.071Z",
+    "lastChangedISO": "2026-09-19T14:08:10.695Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -3600,17 +3600,17 @@
   {
     "sourceUrl": "https://ncar.gov.sa/",
     "orgId": "ncar",
-    "contentHash": "62afcea3f2f07a35954b9028a93430c5525562c89caa4b6f68beab74755fe465",
+    "contentHash": "ae487ee2dd89503c76c858477157c1f762e8260af586f0f318bb72da1aaf4c2c",
     "blockHashes": [
       "c911502a32b8a6f9",
       "51298181046b2e48",
-      "2822b67513c520ec",
+      "26b7600a224c8c65",
       "75c514565d626437"
     ],
-    "extractedChars": 1172,
+    "extractedChars": 1130,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-18T20:18:59.928Z",
+    "lastChangedISO": "2026-09-19T14:08:10.695Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -3690,14 +3690,15 @@
     "orgId": "ndf",
     "contentHash": "03f2450b7926d94c263b06284de62b1be6cbea9d3251fe0a696ea6286fe1dc92",
     "blockHashes": [
-      "05c572589b00f339"
+      "03f2450b7926d94c"
     ],
     "extractedChars": 1233,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-18T23:30:49.534Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://ndf.gov.sa/media-center/articles",
@@ -6648,11 +6649,11 @@
   {
     "sourceUrl": "https://www.hrdf.org.sa/products-and-services/programs/individuals/training/cooperative-training/",
     "orgId": "hrdf_coop",
-    "contentHash": "2b4b8c877207ab5ab3964d43ba32cb42fba9ead35145f0ab8cf23deac22a8b85",
+    "contentHash": "78dafe5fea754369ca8ea3f75e9b483896fc0356ea3b2472401f51d8203e7d35",
     "blockHashes": [
       "45526a3a724650be",
       "74e4c1d2a646a96e",
-      "a457ebe784478778",
+      "dd8a4cea4fcf3ab1",
       "0bbb8684587712ce",
       "708fe6c77bb05acc",
       "8b7e6b90d8c89aa7",
@@ -6822,7 +6823,7 @@
     "extractedChars": 8563,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-03T01:25:25.661Z",
-    "lastChangedISO": "2026-09-18T13:59:00.847Z",
+    "lastChangedISO": "2026-09-19T14:08:10.695Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -7711,7 +7712,7 @@
   {
     "sourceUrl": "https://www.mim.gov.sa/ar/empower-training/cooperative-training",
     "orgId": "mim",
-    "contentHash": "05dd2392fe9c95853c29c50e848edabc9b2e20a992bba227ecbe85a368368b9c",
+    "contentHash": "98f3686b23217096906469e87a9f3e29b21d58529fc604019b3e4c3e76a9c674",
     "blockHashes": [
       "1cb91553dd3291a4",
       "5300d4cdd32a8d33"
@@ -7719,9 +7720,10 @@
     "extractedChars": 2473,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T02:22:33.828Z",
-    "lastChangedISO": "2026-09-19T00:04:30.212Z",
+    "lastChangedISO": "2026-09-19T14:08:10.695Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://www.mim.gov.sa/ar/media-center/news",
@@ -7768,16 +7770,16 @@
   {
     "sourceUrl": "https://www.moc.gov.sa/ar",
     "orgId": "moc",
-    "contentHash": "4da40dbcef9d69ae4fd917c03dd8daa30502c6a18d1703643dfc8dfe5bc409b6",
+    "contentHash": "9be3e38c766bf552024d23d7c3ccd0146bc02fd0f36299c595bb4dfcb16c4a4d",
     "blockHashes": [
       "88c122fdb76fc42f",
-      "a657d43b4f323d7f",
-      "b78cc9f90e4ab7af"
+      "2233fd56b713f89c",
+      "ca8d6123c6de06cd"
     ],
-    "extractedChars": 6096,
-    "extractionMethod": "body_fallback",
+    "extractedChars": 5113,
+    "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-18T20:14:36.194Z",
+    "lastChangedISO": "2026-09-19T14:08:10.695Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -9654,13 +9656,15 @@
       "dd09a93c19a5b408",
       "fc0a22cc81c08834",
       "5ca46b716e2fe884",
-      "1d775fb08011859c",
+      "5b89998625f6c35a",
+      "4f9d3db32b80f12b",
       "303fe28588764a9b",
       "7a8a143470365dc2",
-      "960919b7fb63409c",
+      "3da50cd1c3c80f72",
+      "75ad41c21fa9b0e1",
       "c845d371bfc055e6",
       "e91a2dc79c3ef7ff",
-      "75701b4b0c077673",
+      "d22dd1cc9b5516ee",
       "0b4f6c1a982c9472",
       "cb4329c80213103c",
       "853e155161611ffc",
@@ -9678,7 +9682,8 @@
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
     "lastChangedISO": "2026-09-18T23:19:42.925Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://www.sabic.com/ar/careers",
