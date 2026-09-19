@@ -350,15 +350,15 @@
     "orgId": "alinma",
     "contentHash": "24c0ab7245aaa7d357c070e9eaf3fd1b2a8908daf29a3a5fd2a525bb8c150d22",
     "blockHashes": [
-      "c373ea00e6ad5ae4"
+      "24c0ab7245aaa7d3"
     ],
     "extractedChars": 281,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T23:54:26.779Z",
     "lastChangedISO": "2026-09-17T20:41:00.544Z",
     "thinRuns": 0,
-    "pendingClassification": true,
-    "classifyFailures": 2
+    "pendingClassification": false,
+    "classifyFailures": 3
   },
   {
     "sourceUrl": "https://alinma.com/About-the-Bank/The-Bank/News/2011/12/alinma-bank-hosts-training-course-on-corporate-business-services-and-e-banking",
@@ -1743,7 +1743,7 @@
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-15T13:08:42.574Z",
-    "thinRuns": 17,
+    "thinRuns": 18,
     "pendingClassification": false
   },
   {
@@ -3658,15 +3658,15 @@
   {
     "sourceUrl": "https://ndf.gov.sa/",
     "orgId": "ndf",
-    "contentHash": "e2803bbbbb46b3c4f23cabddb11596eee93ad3f031e13ad25c1bae99f3175f27",
+    "contentHash": "799ef5f3676002452b080cc982bb733040d89d477c80365de829c5a5a8a8402e",
     "blockHashes": [
-      "fe6b9ec9e3ea984e",
+      "4b8194a9c01c5e79",
       "cea7fd3977a9c5c0"
     ],
     "extractedChars": 3027,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-18T22:04:36.379Z",
+    "lastChangedISO": "2026-09-19T21:57:29.655Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -7659,7 +7659,7 @@
   {
     "sourceUrl": "https://www.mewa.gov.sa/ar/Pages/default.aspx",
     "orgId": "mewa",
-    "contentHash": "8dba2c652d9bb13e58189b9d84bb63c0970302b32add5ff43137790dd8e2c61f",
+    "contentHash": "27619a6e71320dc2aef0a3ae1192f162fe23c8db627a4a83c1de7530b36d717e",
     "blockHashes": [
       "df773046de6f0b5f",
       "c804732dd480d71a",
@@ -7668,7 +7668,7 @@
       "d88510f2caacb2dc",
       "8dc2d50d3a76ea01",
       "df1cb77a443dfd6f",
-      "979b503ad27ea73b",
+      "e338b35ee581a455",
       "b957f376a744a274",
       "68913592be8a54c7",
       "94a24ba56b39a8e4",
@@ -7678,9 +7678,10 @@
     "extractedChars": 1615,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
-    "lastChangedISO": "2026-09-16T19:55:19.599Z",
+    "lastChangedISO": "2026-09-19T21:57:29.655Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://www.mim.gov.sa/ar",
@@ -8023,11 +8024,11 @@
   {
     "sourceUrl": "https://www.mof.gov.sa/GFS/TrainingProgram/Pages/TrainingManual.aspx",
     "orgId": "mof",
-    "contentHash": "c8ff04a4ade6b7c7a38cdabf9ddbe4c4bcf59eaae6b27ede1ead98872b3b690a",
+    "contentHash": "150a98c423fd271367bdcbdbf8b6038104679a639a76f5ecb6e2f12ac182a9b8",
     "blockHashes": [
       "7f625851cbbadbc6",
       "f7711325e2c4b301",
-      "543d437eda7005df",
+      "3d083a4916c6f034",
       "ffd666e2720f42ef",
       "f4809815161554d5",
       "ec90d29b5d482b67",
@@ -8041,7 +8042,7 @@
     "extractedChars": 10412,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-18T21:34:07.410Z",
+    "lastChangedISO": "2026-09-19T21:57:29.655Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -8565,18 +8566,18 @@
   {
     "sourceUrl": "https://www.nazaha.gov.sa/Jobs",
     "orgId": "nazaha",
-    "contentHash": "caa124368ec4f539692dae43eca8756b9dfedcafac1ff9e58fb4273dd2652a17",
+    "contentHash": "d3fb7f5dbc1685c05c83a847e8ba1ca6e4d9378defdeef2e759aafe1583172f0",
     "blockHashes": [
       "a167b0dd9b0e3e1c",
       "74e4c1d2a646a96e",
-      "fda838614a9044d6",
+      "0ffc62b2921d007b",
       "3ba73a370eb8ee9c",
       "5dda25defa0c4cdd"
     ],
     "extractedChars": 225,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-18T21:49:37.304Z",
+    "lastChangedISO": "2026-09-19T21:57:29.655Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -10806,7 +10807,7 @@
   {
     "sourceUrl": "https://www.stats.gov.sa/en/news",
     "orgId": "gastat",
-    "contentHash": "26489669a5cc304b6f78d57720a22996a1d1b889d27eda36df85b2d5376ed8cd",
+    "contentHash": "a3dab2a276ed22b5d7f6dae9ff2bec2f3a7dbf4925f9093d9ca56811b2965775",
     "blockHashes": [
       "b7ce6498ecbc7c40",
       "c76bf99f8551a732",
@@ -10971,13 +10972,12 @@
       "00f2cdb2123b002f",
       "130941fb4f3fdf0d"
     ],
-    "extractedChars": 129939,
+    "extractedChars": 50553,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-19T19:14:06.410Z",
+    "lastChangedISO": "2026-09-19T21:57:29.655Z",
     "thinRuns": 0,
-    "pendingClassification": true,
-    "classifyFailures": 1
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.tadawulgroup.sa/wps/portal/tadawulgroup/joinus",
