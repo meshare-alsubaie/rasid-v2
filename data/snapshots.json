@@ -1743,7 +1743,7 @@
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-15T13:08:42.574Z",
-    "thinRuns": 14,
+    "thinRuns": 15,
     "pendingClassification": false
   },
   {
@@ -2993,8 +2993,7 @@
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
     "lastChangedISO": "2026-09-18T21:16:45.195Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "triaged_out"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://misa.gov.sa/ar/media-center/",
@@ -3898,14 +3897,14 @@
     "orgId": "redf",
     "contentHash": "d8667782fed5c7a0bc7e05302f56c3bf8e22c7d901d5acf93aa98bb96465662f",
     "blockHashes": [
-      "6eded44a6197d646"
+      "d8667782fed5c7a0"
     ],
     "extractedChars": 500,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-02T23:42:46.216Z",
     "lastChangedISO": "2026-09-18T22:39:22.150Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://rega.gov.sa/login/?redirectId=32017",
@@ -5539,7 +5538,7 @@
   {
     "sourceUrl": "https://www.bog.gov.sa/en/EServices/judiciaryHiring/Pages/Hiring.aspx",
     "orgId": "bog",
-    "contentHash": "991a6aba6915675d3432f1fa6317b1271691eedeb4f729a07b62fe0c0620b0a0",
+    "contentHash": "6635fa4c3d3bd50914f5da28c4c617ed4f7368cc92708f67e06332e4497360e5",
     "blockHashes": [
       "46d9575ec382a9d1",
       "96c63175498462d9",
@@ -5550,9 +5549,9 @@
     "extractedChars": 609,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-18T23:19:42.925Z",
+    "lastChangedISO": "2026-09-19T00:07:08.251Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.bog.gov.sa/en/EServices/Pages/khabeer.aspx",
@@ -7712,7 +7711,7 @@
   {
     "sourceUrl": "https://www.mim.gov.sa/ar/empower-training/cooperative-training",
     "orgId": "mim",
-    "contentHash": "f9f2d4f865221268277ccbbd31621cbd3618584e7b5a7d31b897ae140447182e",
+    "contentHash": "05dd2392fe9c95853c29c50e848edabc9b2e20a992bba227ecbe85a368368b9c",
     "blockHashes": [
       "1cb91553dd3291a4",
       "5300d4cdd32a8d33"
@@ -7720,10 +7719,9 @@
     "extractedChars": 2473,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T02:22:33.828Z",
-    "lastChangedISO": "2026-09-18T23:16:03.628Z",
+    "lastChangedISO": "2026-09-19T00:04:30.212Z",
     "thinRuns": 0,
-    "pendingClassification": true,
-    "classifyFailures": 1
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://www.mim.gov.sa/ar/media-center/news",
@@ -10979,7 +10977,7 @@
   {
     "sourceUrl": "https://www.tadawulgroup.sa/wps/portal/tadawulgroup/joinus",
     "orgId": "tadawul",
-    "contentHash": "d0d3b5ac169f1b73ab7aa83d70c779f4ee298b89ccc3b8284f83c6034148bac3",
+    "contentHash": "218af6789adae9d596633c79e9b359213a247d93501904bfc43eeae06fd8c680",
     "blockHashes": [
       "0cfcdfa727221d00",
       "689f707057688943",
@@ -10987,13 +10985,12 @@
       "a3435878c6033280",
       "b2cab4da26050ee9"
     ],
-    "extractedChars": 1186,
+    "extractedChars": 1384,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-02T23:42:46.216Z",
-    "lastChangedISO": "2026-09-18T19:14:22.523Z",
+    "lastChangedISO": "2026-09-19T00:04:30.212Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "classifyFailures": 3
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://www.tahakom.com/",
