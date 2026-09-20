@@ -388,8 +388,7 @@
     "firstSeenISO": "2026-08-31T23:54:26.779Z",
     "lastChangedISO": "2026-09-17T17:26:37.975Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://alinma.com/About-the-Bank/The-Bank/News/2013/05/alinmajobandcareerdayattractsgraduatesoftheinstituteofpublicadministration",
@@ -1274,16 +1273,18 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/search-results",
     "orgId": "maaden",
-    "contentHash": "47e4ce8c47f2824734449513d55fa2b36c843f9888fbc2ced7389a0c19ef4634",
+    "contentHash": "585c602d3a5808f15480672a8d8716d87e63be29390bc2c7caa78ef69df17b71",
     "blockHashes": [
       "0593a1678d987760",
-      "f9147b3e888ed74c",
-      "c64d567358cfd435"
+      "6bf0ca67e0f069b4",
+      "d6c0adacb353836a",
+      "882eebb8ba2a2493",
+      "896069e472ba3048"
     ],
-    "extractedChars": 240,
+    "extractedChars": 396,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-20T16:29:57.131Z",
+    "lastChangedISO": "2026-09-20T17:19:50.133Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -10655,7 +10656,7 @@
   {
     "sourceUrl": "https://www.stats.gov.sa/ar/cooperative-training",
     "orgId": "gastat",
-    "contentHash": "c731514d2baf537b31e52e29de824985082acdba95e2e1445bd34104fcca0e4b",
+    "contentHash": null,
     "blockHashes": [
       "b618107f43bd2daf",
       "fb23e137c7d14cc9",
