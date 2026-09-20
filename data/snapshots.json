@@ -1274,16 +1274,15 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/search-results",
     "orgId": "maaden",
-    "contentHash": "57ab7b4afce6adf8c222521397683dcc272843835952d2eefb5a1e2874014e66",
+    "contentHash": "bd0538e3cf3c27fd5ed2e1c4eb2ee582cd2cff14f2ba305efb5e264f5ec78b17",
     "blockHashes": [
-      "dab5a7f3801bc914",
-      "88b7e5bdaeedbf39",
-      "953f215a62915737"
+      "0593a1678d987760",
+      "4c9aca9bbd984292"
     ],
-    "extractedChars": 240,
-    "extractionMethod": "readability",
+    "extractedChars": 386,
+    "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-20T00:30:43.955Z",
+    "lastChangedISO": "2026-09-20T12:22:54.365Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -7822,19 +7821,20 @@
   {
     "sourceUrl": "https://www.moenergy.gov.sa/ar/media-center/news",
     "orgId": "moenergy",
-    "contentHash": "5186b733d090b09d3472d188aa61aa048329c42f038ba7ee5221b9ca4b228802",
+    "contentHash": "b76bca90815cd6c3301bcd41010594ace037224c7d39299fdbfa3d02d404f573",
     "blockHashes": [
-      "334ee0ae2cf0104f",
+      "057dbab61ca2d32b",
       "e088549dca9d4b86",
       "99abad72305d2dad",
-      "dae27d23ec19c61f"
+      "a9ecdbefbf0e575f"
     ],
-    "extractedChars": 3619,
+    "extractedChars": 3566,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-17T18:38:30.171Z",
+    "lastChangedISO": "2026-09-20T12:22:54.365Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://www.moenergy.gov.sa/ar/media-center/news/first-energy-hackathon",
@@ -9240,14 +9240,14 @@
   {
     "sourceUrl": "https://www.rcrc.gov.sa/careers/?lang=ar",
     "orgId": "rcrc",
-    "contentHash": "115d7c36dbe7228f118101c1577ff388936a5f7e2bb5febc5bcb21037f2ebd02",
+    "contentHash": "b8816d7f3f9c4f9aa80a00640844d60835aedd03142e939f8fe3486b656585cb",
     "blockHashes": [
       "e399bcaa91182af7"
     ],
     "extractedChars": 1166,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-20T00:10:15.353Z",
+    "lastChangedISO": "2026-09-20T12:22:54.365Z",
     "thinRuns": 0,
     "pendingClassification": true,
     "classifyFailures": 1
