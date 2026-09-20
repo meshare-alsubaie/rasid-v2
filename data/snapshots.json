@@ -1340,19 +1340,16 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/search-results",
     "orgId": "maaden",
-    "contentHash": "3cecd4f8e05b54ffd3f3dd82c3bd2e314e7c096111b88d716bb4dce16bffa3a4",
+    "contentHash": "ea98d74a2a7a9b14fa5313320b268eddee59593c53a02539f8c3286f7dfa84ba",
     "blockHashes": [
-      "5569201553604d03",
-      "6e3cceb54e777f64",
-      "298a05ebe5a16280",
-      "d6c0adacb353836a",
-      "7c757de56944e333",
-      "8ce29afa6b9a6206"
+      "dab5a7f3801bc914",
+      "53d51549ad3f4101",
+      "9c83ff84c8ae666d"
     ],
-    "extractedChars": 1325,
-    "extractionMethod": "body_fallback",
+    "extractedChars": 240,
+    "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-20T14:05:25.974Z",
+    "lastChangedISO": "2026-09-20T14:53:04.299Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -10732,7 +10729,7 @@
   {
     "sourceUrl": "https://www.stats.gov.sa/ar/cooperative-training",
     "orgId": "gastat",
-    "contentHash": null,
+    "contentHash": "c731514d2baf537b31e52e29de824985082acdba95e2e1445bd34104fcca0e4b",
     "blockHashes": [
       "b618107f43bd2daf",
       "fb23e137c7d14cc9",
@@ -10748,7 +10745,7 @@
     "extractedChars": 727,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-08-31T00:02:49.563Z",
+    "lastChangedISO": "2026-09-20T14:54:56.437Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
