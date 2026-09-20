@@ -650,7 +650,7 @@
   {
     "sourceUrl": "https://athkax.sdaia.gov.sa/coop",
     "orgId": "sdaia",
-    "contentHash": "f1c749f1b0084dc210dc0d9f1e447c42c8ea07e30a315579c292163ea7abbe55",
+    "contentHash": "a58f144950bb22de0c4667555dc3401317db3a7e9e0679e6a27c03768b15a660",
     "blockHashes": [
       "04ba8a3fca46514f",
       "4bd08244050e9682"
@@ -658,7 +658,7 @@
     "extractedChars": 756,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-19T23:13:05.277Z",
+    "lastChangedISO": "2026-09-20T00:02:07.366Z",
     "thinRuns": 0,
     "pendingClassification": true,
     "classifyFailures": 1
@@ -1258,14 +1258,16 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/cookiesettings",
     "orgId": "maaden",
-    "contentHash": "29c1aa2e59a2ba9b5e16830735fdf249ef95bff4ab66011ad29141ca27aad11c",
+    "contentHash": "bcaf4025978ee7a577a8bc560ff89494c4e2ec67c0f2a934c267f5272df94b93",
     "blockHashes": [
-      "29c1aa2e59a2ba9b"
+      "5569201553604d03",
+      "86a6d68a928a72ee",
+      "41fbb9acc7ad6913"
     ],
-    "extractedChars": 70,
-    "extractionMethod": "body_fallback",
+    "extractedChars": 240,
+    "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-19T23:13:05.277Z",
+    "lastChangedISO": "2026-09-20T00:02:07.366Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -2089,7 +2091,7 @@
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T02:22:33.828Z",
     "lastChangedISO": "2026-08-29T02:36:21.032Z",
-    "thinRuns": 273,
+    "thinRuns": 274,
     "pendingClassification": false
   },
   {
