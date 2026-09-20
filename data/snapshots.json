@@ -138,7 +138,7 @@
   {
     "sourceUrl": "https://adf.gov.sa/ar/Pages/default.aspx",
     "orgId": "adf",
-    "contentHash": "9d423bd7fb72d03064277fa6da468fd35c2ebf0ff4d9c8108114483521bf154d",
+    "contentHash": "8fd15aeac35c0ba034755a37698348085461068ba02d02d73aa8defbb5e1f222",
     "blockHashes": [
       "1ce798e0ca5f6070",
       "9e8708f46644e878",
@@ -147,21 +147,21 @@
       "b7a4f19178b3b8a1",
       "0514128baf9c79f1",
       "9185920f2483a42d",
-      "46e6a64013028e43",
+      "df7ce50dc1af11ca",
       "13285e8c3eb4c8ac",
       "4838bf63eca38706",
       "d380a83380c07da6",
       "2c2b159c69b9c652",
       "a388dba12693ad77",
       "89e64ef213f6260e",
-      "72033fdd25227d0d",
+      "6543a2d06c7a21e5",
       "782261474561a27a",
       "74b06ac36e5c75b0"
     ],
     "extractedChars": 1693,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
-    "lastChangedISO": "2026-09-19T21:42:58.106Z",
+    "lastChangedISO": "2026-09-20T14:02:27.384Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "triaged_out"
@@ -1275,16 +1275,19 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/search-results",
     "orgId": "maaden",
-    "contentHash": "6533e4c6e034c24106d1326c413cd1dc73f5ba63be2f4a1f7650a11c2fe9cf70",
+    "contentHash": "3cecd4f8e05b54ffd3f3dd82c3bd2e314e7c096111b88d716bb4dce16bffa3a4",
     "blockHashes": [
-      "0593a1678d987760",
-      "9d18d7e47fbbcade",
-      "1e4063fe237ea720"
+      "5569201553604d03",
+      "6e3cceb54e777f64",
+      "298a05ebe5a16280",
+      "d6c0adacb353836a",
+      "7c757de56944e333",
+      "8ce29afa6b9a6206"
     ],
-    "extractedChars": 240,
-    "extractionMethod": "readability",
+    "extractedChars": 1325,
+    "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-20T13:14:16.974Z",
+    "lastChangedISO": "2026-09-20T14:05:25.974Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -7608,12 +7611,12 @@
   {
     "sourceUrl": "https://www.mewa.gov.sa/ar/Pages/default.aspx",
     "orgId": "mewa",
-    "contentHash": "27619a6e71320dc2aef0a3ae1192f162fe23c8db627a4a83c1de7530b36d717e",
+    "contentHash": "d2cb79032623e7dc2aafcd8beb75bd3a7deb5078aa3303cd4ab027f9eca9155f",
     "blockHashes": [
       "df773046de6f0b5f",
       "c804732dd480d71a",
       "74e4c1d2a646a96e",
-      "5e3e94f807d552b5",
+      "61011bdaf8b9fb0c",
       "d88510f2caacb2dc",
       "8dc2d50d3a76ea01",
       "df1cb77a443dfd6f",
@@ -7624,10 +7627,10 @@
       "deec0c4811cef5b6",
       "c36ce57653eabf38"
     ],
-    "extractedChars": 1615,
+    "extractedChars": 1605,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
-    "lastChangedISO": "2026-09-19T21:57:29.655Z",
+    "lastChangedISO": "2026-09-20T14:05:25.974Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -8510,8 +8513,7 @@
     "firstSeenISO": "2026-08-29T22:03:35.383Z",
     "lastChangedISO": "2026-09-19T22:15:41.805Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.nazaha.gov.sa/Jobs",
@@ -10666,7 +10668,7 @@
   {
     "sourceUrl": "https://www.stats.gov.sa/ar/cooperative-training",
     "orgId": "gastat",
-    "contentHash": "c731514d2baf537b31e52e29de824985082acdba95e2e1445bd34104fcca0e4b",
+    "contentHash": null,
     "blockHashes": [
       "b618107f43bd2daf",
       "fb23e137c7d14cc9",
