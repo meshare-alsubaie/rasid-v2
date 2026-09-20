@@ -2879,7 +2879,7 @@
   {
     "sourceUrl": "https://misa.gov.sa/ar/",
     "orgId": "misa",
-    "contentHash": "1110b8b455f53238442491b5031bf2f871bd10ce701996da2a4209de355f548c",
+    "contentHash": "25e9e6df42cbb73d1492a3efd22795ba9ad32f6ee4dcfcb8f169a30f5b925787",
     "blockHashes": [
       "d0ada1cfc277849f",
       "a281540e00ca3f91",
@@ -2906,9 +2906,9 @@
       "d09774a62139b89f",
       "b9a833ba7d8959dc",
       "969666a66bdab713",
-      "19db2fb9bfa945c5",
-      "8f4287e79d7b4083",
-      "d21eae5fd3ae051b",
+      "b3398fe7da386af7",
+      "6aa6018a58e005eb",
+      "d68062d61adc6340",
       "21841c78bfe49e01",
       "6bbac46e89298ea6",
       "1810cbb95d8bac77",
@@ -2916,7 +2916,7 @@
       "ba4118451e8b825f",
       "066216a9c683ea39",
       "a5eac3fe6849437d",
-      "407cd67ec9aaeeb2",
+      "6459bc434827c873",
       "a9387eb0ab1985d1",
       "3dddd879d92889ac",
       "b44afa6a8cddaf5c",
@@ -2926,12 +2926,13 @@
       "974c82cd938a6672",
       "44ce6d80cbcdaa0c"
     ],
-    "extractedChars": 2664,
+    "extractedChars": 2669,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
-    "lastChangedISO": "2026-09-19T19:44:22.146Z",
+    "lastChangedISO": "2026-09-20T12:08:41.836Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://misa.gov.sa/ar/media-center/",
@@ -3838,14 +3839,14 @@
     "orgId": "redf",
     "contentHash": "b0de0cc7195f4f59e9a75e18da75d10c91384bfe741df7ec8134ead76c03121e",
     "blockHashes": [
-      "d8667782fed5c7a0"
+      "b0de0cc7195f4f59"
     ],
     "extractedChars": 500,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-02T23:42:46.216Z",
     "lastChangedISO": "2026-09-19T22:48:58.182Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://rega.gov.sa/login/?redirectId=32017",
@@ -4402,14 +4403,14 @@
   {
     "sourceUrl": "https://tvtc.gov.sa/",
     "orgId": "tvtc",
-    "contentHash": "7ecbdac96ab8ea6e99207e68cd3655b34ec76a8662d896ec3e2b60f267104686",
+    "contentHash": "722fac8a1532e3043839e49c113f7aee702bc8e89a4e9e3e281185a5e49654e0",
     "blockHashes": [
-      "7ecbdac96ab8ea6e"
+      "722fac8a1532e304"
     ],
     "extractedChars": 419,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-01T03:23:53.266Z",
-    "lastChangedISO": "2026-09-14T10:49:54.109Z",
+    "lastChangedISO": "2026-09-20T12:08:41.836Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
