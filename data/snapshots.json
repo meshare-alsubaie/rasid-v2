@@ -258,8 +258,7 @@
     "firstSeenISO": "2026-08-29T22:03:35.383Z",
     "lastChangedISO": "2026-09-19T19:25:36.503Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "triaged_out"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://alinma.com/About-the-Bank/The-Bank/News",
@@ -1272,18 +1271,18 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/search-results",
     "orgId": "maaden",
-    "contentHash": "585c602d3a5808f15480672a8d8716d87e63be29390bc2c7caa78ef69df17b71",
+    "contentHash": "12d0b8de7af6aef9520d534bf2f7a7a66f9ccc97107f7a8cce3cb8a3caff358c",
     "blockHashes": [
-      "0593a1678d987760",
-      "6bf0ca67e0f069b4",
-      "d6c0adacb353836a",
-      "882eebb8ba2a2493",
-      "896069e472ba3048"
+      "5569201553604d03",
+      "92ca5fdc0ff3f75c",
+      "3ec1b5c555fff8f6",
+      "1dc4bc357133e344",
+      "71d6a922b29dff8d"
     ],
-    "extractedChars": 396,
+    "extractedChars": 221,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-20T17:19:50.133Z",
+    "lastChangedISO": "2026-09-20T18:05:33.536Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -9246,17 +9245,16 @@
   {
     "sourceUrl": "https://www.rcrc.gov.sa/careers/?lang=ar",
     "orgId": "rcrc",
-    "contentHash": "214216418204a1e9c1677e0402457d7641836ed8bf2564dbaaea6d2d10bf6568",
+    "contentHash": "ba092cd64cf43fdccafae6e912eba5a0e318463147bbbb91324f15e6abd7f1fe",
     "blockHashes": [
       "d3af7f25532b73aa"
     ],
-    "extractedChars": 1166,
+    "extractedChars": 784,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-20T17:05:07.560Z",
+    "lastChangedISO": "2026-09-20T17:56:14.274Z",
     "thinRuns": 0,
-    "pendingClassification": true,
-    "classifyFailures": 1
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://www.rcrc.gov.sa/media-center/",
@@ -10677,7 +10675,7 @@
   {
     "sourceUrl": "https://www.stats.gov.sa/en/cooperative-training",
     "orgId": "gastat",
-    "contentHash": "5fd9a5e4a1d187cd49708c75832990493bd814045baff84a41ef03c4afa5f538",
+    "contentHash": null,
     "blockHashes": [
       "b7ce6498ecbc7c40",
       "c76bf99f8551a732",
