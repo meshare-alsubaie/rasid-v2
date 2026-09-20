@@ -2164,9 +2164,9 @@
   {
     "sourceUrl": "https://gaca.gov.sa/ar/News",
     "orgId": "gaca",
-    "contentHash": "6188ddbe148528ad46eeecefc7e97a9c119cb363bb1007c1235f091eb9871b80",
+    "contentHash": "34fcc0e6d90ce992d4b2a7c99328dd0e6f4b051671b34cf20f26865d96844a78",
     "blockHashes": [
-      "e862fd81cee7e55b",
+      "ec265fe406a60e46",
       "f479d47a5583a5d4",
       "b551296c37a31aba",
       "e1410921f606b7ac",
@@ -2237,12 +2237,13 @@
       "83a22e1f9fb245f8",
       "bc532942aaed49b7"
     ],
-    "extractedChars": 21727,
+    "extractedChars": 21465,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-19T20:58:06.933Z",
+    "lastChangedISO": "2026-09-20T00:06:50.474Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://gaca.gov.sa/news",
@@ -3205,39 +3206,40 @@
   {
     "sourceUrl": "https://momah.gov.sa/ar/menu/media-center",
     "orgId": "housing",
-    "contentHash": "6e1a713ddbff4eb5b826bfa26eb4e85cd0539b5ffeb4dc4f45d88f1d3901f241",
+    "contentHash": "72b1e13292ee39f6c23ccc80e96ed2dd5e04822771e610804cd578fd8cfe6eb7",
     "blockHashes": [
       "4c63522200199108",
       "7bc8965d992df69b",
       "aa8e55eac5aea8cd",
       "09552ec2996654f9",
-      "9cc1392e92f53d07",
-      "4fba469e96d14e6c",
-      "aa59a84c2d2cdc55",
-      "af66c70ec99366bc",
-      "8f91212749c06266",
-      "09b1bd561f62b68f",
-      "045edcb182e98b52",
-      "5d15152619ff887e",
-      "0ac6c1251e81092e",
-      "f5f6766043333f1b",
-      "ac1405062719fb86",
-      "fe82e2823fc4cb3e",
-      "c908cb486b1f25c0",
+      "d6b6582f0c3d9dbd",
       "560edfe1df9d8921",
       "23b97a8a93aba477",
       "9cd3abf7fd1573ff",
-      "dd0b16c68eb12141",
-      "6e212a90b57f1156",
+      "5d82bc98c1a19533",
+      "5d15152619ff887e",
+      "2f3641583178dc0d",
+      "212bcea1c4fd4c9e",
       "ff6f87e39638cb9b",
-      "5d339442c4c5c2f3"
+      "096e6617e46d2698",
+      "09b1bd561f62b68f",
+      "a55db8d8ffbaed98",
+      "ac1405062719fb86",
+      "5f2d3aebbed917b2",
+      "7c22966f4c6ef702",
+      "551d082768d877b9",
+      "a5b5a4bd82b53a67",
+      "e5fc56b61cfa6620",
+      "33a73d038401fc04",
+      "7f46d72f22192b71"
     ],
     "extractedChars": 151282,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-19T20:58:06.933Z",
+    "lastChangedISO": "2026-09-20T00:06:50.474Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://momah.gov.sa/ar/news",
@@ -3684,14 +3686,15 @@
     "orgId": "ndf",
     "contentHash": "7430d9ce29a3f0fb5bdf45ad309eabfe65fb9a56db13bc9b30d99a79818ebbf9",
     "blockHashes": [
-      "9c892831b90cbc6b"
+      "7430d9ce29a3f0fb"
     ],
     "extractedChars": 1161,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-19T21:00:53.417Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://ndf.gov.sa/media-center/press-news",
@@ -6440,10 +6443,10 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/careers/graduate-development-program",
     "orgId": "hrc",
-    "contentHash": "853eb518551f2469e46bd43667e042f788af9334f54eac78f7fdd3467e8528f0",
+    "contentHash": "c09afbc44bdbc1865a5fab486ea5074d5802e5bd079f3c7cc6342146ad00e14e",
     "blockHashes": [
       "12e41a244a8a2984",
-      "4d228e5a3f799284",
+      "831ee040e4eba478",
       "741386d322f274be",
       "40d7009856bbc81d",
       "2dd486d3d3cacb8b",
@@ -6509,9 +6512,9 @@
     "extractedChars": 10689,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-19T20:58:06.933Z",
+    "lastChangedISO": "2026-09-20T00:06:50.474Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/cooperations?lang=ar",
@@ -7252,7 +7255,7 @@
   {
     "sourceUrl": "https://www.kapsarc.org/work-with-us/job-opportunities/",
     "orgId": "kapsarc",
-    "contentHash": "0e7c0a10b49f83ebc806bc27c9570d53decf01b133ba9d7efb18e80c170169ab",
+    "contentHash": "f598ae25382e67b975b55b303ee435acd83148b3f6811aea7f291643022d96b4",
     "blockHashes": [
       "dbad88ec8435b910",
       "11ed80f75ad0e89e",
@@ -7274,7 +7277,7 @@
       "82125fef711b8fdc",
       "a8eb670b84904811",
       "d9cd1c2148907399",
-      "8a911e3a44f3b049",
+      "b221cbdfa0ff29f2",
       "9c51ede42f36a1d8",
       "0b23b586c4f30fe5",
       "0b23b586c4f30fe5",
@@ -7285,7 +7288,7 @@
     "extractedChars": 1050,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-19T14:48:32.821Z",
+    "lastChangedISO": "2026-09-20T00:06:50.474Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -7648,7 +7651,7 @@
   {
     "sourceUrl": "https://www.mim.gov.sa/ar/empower-training/cooperative-training",
     "orgId": "mim",
-    "contentHash": "cd8e62ab6b1569249ab44647b220a6730aefa9c0b56bf42580cb32da672278c4",
+    "contentHash": "53dade043b57b15ad467ddbca54dbaaffc4273d10dec4b008f02709a603e792b",
     "blockHashes": [
       "1cb91553dd3291a4",
       "5300d4cdd32a8d33"
@@ -7656,7 +7659,7 @@
     "extractedChars": 2473,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T02:22:33.828Z",
-    "lastChangedISO": "2026-09-19T23:13:05.277Z",
+    "lastChangedISO": "2026-09-20T00:10:15.353Z",
     "thinRuns": 0,
     "pendingClassification": true,
     "classifyFailures": 1
@@ -7872,7 +7875,7 @@
     "blockHashes": [
       "7f625851cbbadbc6",
       "f7711325e2c4b301",
-      "d52b4a267b1a4a03",
+      "1880169eef0b2a4c",
       "e84d677a03549107",
       "f4809815161554d5",
       "0129ceb5c2a3779e",
@@ -7888,7 +7891,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-19T21:04:05.295Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.mof.gov.sa/eservices/Loans/Pages/Lending_Educational_Projects.aspx",
@@ -9237,14 +9240,14 @@
   {
     "sourceUrl": "https://www.rcrc.gov.sa/careers/?lang=ar",
     "orgId": "rcrc",
-    "contentHash": "125ec8c1c01550fb21d989c6829902a948b76631da9ce5343a723e7b71f3b98a",
+    "contentHash": "115d7c36dbe7228f118101c1577ff388936a5f7e2bb5febc5bcb21037f2ebd02",
     "blockHashes": [
       "e399bcaa91182af7"
     ],
     "extractedChars": 1166,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-19T23:10:01.909Z",
+    "lastChangedISO": "2026-09-20T00:10:15.353Z",
     "thinRuns": 0,
     "pendingClassification": true,
     "classifyFailures": 1
