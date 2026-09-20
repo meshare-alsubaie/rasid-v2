@@ -794,8 +794,8 @@
   {
     "sourceUrl": "https://careers.sdaia.gov.sa/jobs",
     "orgId": "sdaia",
-    "lastAttemptISO": "2026-09-20T16:26:25.730Z",
-    "lastSuccessISO": "2026-09-20T16:26:25.730Z",
+    "lastAttemptISO": "2026-09-20T17:11:55.112Z",
+    "lastSuccessISO": "2026-09-20T17:11:55.112Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -1343,8 +1343,8 @@
   {
     "sourceUrl": "https://nca.gov.sa/ar/careers/",
     "orgId": "nca",
-    "lastAttemptISO": "2026-09-20T15:16:34.129Z",
-    "lastSuccessISO": "2026-09-20T15:16:34.129Z",
+    "lastAttemptISO": "2026-09-20T17:09:49.568Z",
+    "lastSuccessISO": "2026-09-20T17:09:49.568Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -1622,8 +1622,8 @@
   {
     "sourceUrl": "https://sdaia.gov.sa/ar/Sectors/BuildingCapacity/Pages/CooperativeTraining.aspx",
     "orgId": "sdaia",
-    "lastAttemptISO": "2026-09-20T16:23:04.953Z",
-    "lastSuccessISO": "2026-09-20T16:23:04.953Z",
+    "lastAttemptISO": "2026-09-20T17:08:42.937Z",
+    "lastSuccessISO": "2026-09-20T17:08:42.937Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -1802,8 +1802,8 @@
   {
     "sourceUrl": "https://training.moj.gov.sa/",
     "orgId": "moj",
-    "lastAttemptISO": "2026-09-20T16:26:25.730Z",
-    "lastSuccessISO": "2026-09-20T16:26:25.730Z",
+    "lastAttemptISO": "2026-09-20T17:11:55.112Z",
+    "lastSuccessISO": "2026-09-20T17:11:55.112Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -3476,8 +3476,8 @@
   {
     "sourceUrl": "https://www.saso.gov.sa/ar/QualitySign/info/Pages/default.aspx",
     "orgId": "saso",
-    "lastAttemptISO": "2026-09-20T16:26:25.730Z",
-    "lastSuccessISO": "2026-09-20T16:26:25.730Z",
+    "lastAttemptISO": "2026-09-20T17:11:55.112Z",
+    "lastSuccessISO": "2026-09-20T17:11:55.112Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -3611,11 +3611,11 @@
   {
     "sourceUrl": "https://www.sfda.gov.sa/ar/career-vision-and-mission",
     "orgId": "sfda",
-    "lastAttemptISO": "2026-09-20T16:17:30.036Z",
+    "lastAttemptISO": "2026-09-20T17:08:42.937Z",
     "lastSuccessISO": "2026-09-20T16:17:30.036Z",
-    "consecutiveFailures": 0,
-    "lastError": null,
-    "state": "healthy"
+    "consecutiveFailures": 1,
+    "lastError": "HTTP 503",
+    "state": "degraded"
   },
   {
     "sourceUrl": "https://www.sfda.gov.sa/ar/news",
@@ -3755,11 +3755,11 @@
   {
     "sourceUrl": "https://www.stats.gov.sa/en/cooperative-training",
     "orgId": "gastat",
-    "lastAttemptISO": "2026-09-20T16:25:23.978Z",
-    "lastSuccessISO": "2026-09-20T15:33:40.737Z",
-    "consecutiveFailures": 1,
-    "lastError": "fetched 5415 bytes but extracted only 0 chars of text; the page is probably rendered by javascript and cannot be watched this way",
-    "state": "degraded"
+    "lastAttemptISO": "2026-09-20T17:14:12.359Z",
+    "lastSuccessISO": "2026-09-20T17:14:12.359Z",
+    "consecutiveFailures": 0,
+    "lastError": null,
+    "state": "healthy"
   },
   {
     "sourceUrl": "https://www.stats.gov.sa/en/news",
