@@ -380,10 +380,10 @@
   {
     "sourceUrl": "https://career.alinma.com/",
     "orgId": "alinma",
-    "lastAttemptISO": "2026-09-19T23:26:58.940Z",
+    "lastAttemptISO": "2026-09-20T00:16:23.526Z",
     "lastSuccessISO": "2026-09-18T20:53:38.989Z",
-    "consecutiveFailures": 17,
-    "lastError": "fetched 3972 bytes but extracted only 0 chars of text; the page is probably rendered by javascript and cannot be watched this way",
+    "consecutiveFailures": 18,
+    "lastError": "fetched 6384 bytes but extracted only 0 chars of text; the page is probably rendered by javascript and cannot be watched this way",
     "state": "broken"
   },
   {
@@ -614,9 +614,9 @@
   {
     "sourceUrl": "https://careers.mobily.com.sa/ar/sites/opportunities/pages/Coop",
     "orgId": "mobily",
-    "lastAttemptISO": "2026-09-19T23:26:58.940Z",
+    "lastAttemptISO": "2026-09-20T00:16:23.526Z",
     "lastSuccessISO": "2026-08-30T00:02:43.835Z",
-    "consecutiveFailures": 276,
+    "consecutiveFailures": 277,
     "lastError": "page.evaluate: Target crashed ",
     "state": "broken"
   },
@@ -812,8 +812,8 @@
   {
     "sourceUrl": "https://careers.stats.gov.sa/",
     "orgId": "gastat",
-    "lastAttemptISO": "2026-09-19T23:26:58.940Z",
-    "lastSuccessISO": "2026-09-19T23:26:58.940Z",
+    "lastAttemptISO": "2026-09-20T00:16:23.526Z",
+    "lastSuccessISO": "2026-09-20T00:16:23.526Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -1082,8 +1082,8 @@
   {
     "sourceUrl": "https://jobs.sabic.com/",
     "orgId": "sabic",
-    "lastAttemptISO": "2026-09-19T23:26:58.940Z",
-    "lastSuccessISO": "2026-09-19T23:26:58.940Z",
+    "lastAttemptISO": "2026-09-20T00:16:23.526Z",
+    "lastSuccessISO": "2026-09-20T00:16:23.526Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -1091,8 +1091,8 @@
   {
     "sourceUrl": "https://khabeer.bog.gov.sa/cotraining/index",
     "orgId": "bog",
-    "lastAttemptISO": "2026-09-19T23:26:58.940Z",
-    "lastSuccessISO": "2026-09-19T23:26:58.940Z",
+    "lastAttemptISO": "2026-09-20T00:16:23.526Z",
+    "lastSuccessISO": "2026-09-20T00:16:23.526Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -1433,8 +1433,8 @@
   {
     "sourceUrl": "https://ncvc.gov.sa/en/Pages/COOP-Training.aspx",
     "orgId": "ncvc",
-    "lastAttemptISO": "2026-09-19T23:26:58.940Z",
-    "lastSuccessISO": "2026-09-19T23:26:58.940Z",
+    "lastAttemptISO": "2026-09-20T00:16:23.526Z",
+    "lastSuccessISO": "2026-09-20T00:16:23.526Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -1622,8 +1622,8 @@
   {
     "sourceUrl": "https://sdaia.gov.sa/ar/Sectors/BuildingCapacity/Pages/CooperativeTraining.aspx",
     "orgId": "sdaia",
-    "lastAttemptISO": "2026-09-19T23:26:58.940Z",
-    "lastSuccessISO": "2026-09-19T23:26:58.940Z",
+    "lastAttemptISO": "2026-09-20T00:16:23.526Z",
+    "lastSuccessISO": "2026-09-20T00:16:23.526Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -1802,11 +1802,11 @@
   {
     "sourceUrl": "https://training.moj.gov.sa/",
     "orgId": "moj",
-    "lastAttemptISO": "2026-09-19T23:26:58.940Z",
+    "lastAttemptISO": "2026-09-20T00:16:23.526Z",
     "lastSuccessISO": "2026-09-19T23:26:58.940Z",
-    "consecutiveFailures": 0,
-    "lastError": null,
-    "state": "healthy"
+    "consecutiveFailures": 1,
+    "lastError": "fetched 11101 bytes but extracted only 0 chars of text; the page is probably rendered by javascript and cannot be watched this way",
+    "state": "degraded"
   },
   {
     "sourceUrl": "https://tvtc.gov.sa/",
@@ -3071,8 +3071,8 @@
   {
     "sourceUrl": "https://www.nazaha.gov.sa/News/Details?q=HNQU9DHVnwVHan0Mf562ug==",
     "orgId": "nazaha",
-    "lastAttemptISO": "2026-09-19T21:02:00.294Z",
-    "lastSuccessISO": "2026-09-19T21:02:00.294Z",
+    "lastAttemptISO": "2026-09-20T00:16:23.526Z",
+    "lastSuccessISO": "2026-09-20T00:16:23.526Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -3476,8 +3476,8 @@
   {
     "sourceUrl": "https://www.saso.gov.sa/ar/QualitySign/info/Pages/default.aspx",
     "orgId": "saso",
-    "lastAttemptISO": "2026-09-19T23:26:58.940Z",
-    "lastSuccessISO": "2026-09-19T23:26:58.940Z",
+    "lastAttemptISO": "2026-09-20T00:16:23.526Z",
+    "lastSuccessISO": "2026-09-20T00:16:23.526Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -3629,8 +3629,8 @@
   {
     "sourceUrl": "https://www.sfda.gov.sa/en/career-vision-and-mission",
     "orgId": "sfda",
-    "lastAttemptISO": "2026-09-19T23:23:43.228Z",
-    "lastSuccessISO": "2026-09-19T23:23:43.228Z",
+    "lastAttemptISO": "2026-09-20T00:16:23.526Z",
+    "lastSuccessISO": "2026-09-20T00:16:23.526Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -3692,8 +3692,8 @@
   {
     "sourceUrl": "https://www.sirar.com.sa/about-us/careers/",
     "orgId": "sirar",
-    "lastAttemptISO": "2026-09-19T23:26:58.940Z",
-    "lastSuccessISO": "2026-09-19T23:26:58.940Z",
+    "lastAttemptISO": "2026-09-20T00:16:23.526Z",
+    "lastSuccessISO": "2026-09-20T00:16:23.526Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -3746,8 +3746,8 @@
   {
     "sourceUrl": "https://www.stats.gov.sa/ar/cooperative-training",
     "orgId": "gastat",
-    "lastAttemptISO": "2026-09-19T23:25:55.035Z",
-    "lastSuccessISO": "2026-09-19T23:25:55.035Z",
+    "lastAttemptISO": "2026-09-20T00:16:23.526Z",
+    "lastSuccessISO": "2026-09-20T00:16:23.526Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -3782,8 +3782,8 @@
   {
     "sourceUrl": "https://www.tadawulgroup.sa/wps/portal/tadawulgroup/joinus",
     "orgId": "tadawul",
-    "lastAttemptISO": "2026-09-19T23:26:58.940Z",
-    "lastSuccessISO": "2026-09-19T23:26:58.940Z",
+    "lastAttemptISO": "2026-09-20T00:16:23.526Z",
+    "lastSuccessISO": "2026-09-20T00:16:23.526Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -3800,8 +3800,8 @@
   {
     "sourceUrl": "https://www.tahakom.com/careers",
     "orgId": "tahakom",
-    "lastAttemptISO": "2026-09-19T23:26:58.940Z",
-    "lastSuccessISO": "2026-09-19T23:26:58.940Z",
+    "lastAttemptISO": "2026-09-20T00:16:23.526Z",
+    "lastSuccessISO": "2026-09-20T00:16:23.526Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -3836,8 +3836,8 @@
   {
     "sourceUrl": "https://www.thiqah.sa/careers/",
     "orgId": "thiqah",
-    "lastAttemptISO": "2026-09-19T23:03:27.810Z",
-    "lastSuccessISO": "2026-09-19T23:03:27.810Z",
+    "lastAttemptISO": "2026-09-20T00:16:23.526Z",
+    "lastSuccessISO": "2026-09-20T00:16:23.526Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
