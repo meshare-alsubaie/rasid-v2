@@ -1340,16 +1340,16 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/search-results",
     "orgId": "maaden",
-    "contentHash": "3f0a3041e988521b3fa4886c824353b7135b44ddddab8d39dfab95a190ee6259",
+    "contentHash": "47e4ce8c47f2824734449513d55fa2b36c843f9888fbc2ced7389a0c19ef4634",
     "blockHashes": [
-      "dab5a7f3801bc914",
-      "35331aae72b29d86",
-      "9895f25589e89325"
+      "0593a1678d987760",
+      "f9147b3e888ed74c",
+      "c64d567358cfd435"
     ],
     "extractedChars": 240,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-20T15:41:59.902Z",
+    "lastChangedISO": "2026-09-20T16:29:57.131Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -2229,9 +2229,9 @@
   {
     "sourceUrl": "https://gaca.gov.sa/ar/News",
     "orgId": "gaca",
-    "contentHash": "846a8014a4145fb24809eaa384b7ad7640ab3e2167f5e44d024b1f6489c7f295",
+    "contentHash": "723e785fa59a9c6595c59c78d7c89b566d534db93e10773ccba7b07da1d192ee",
     "blockHashes": [
-      "6c6dfd987c163c8a",
+      "f43af0e6f0615713",
       "315077af610fdd3b",
       "3442aa0f0cc4d476",
       "1a94ef5e1fbba345",
@@ -2302,9 +2302,10 @@
     "extractedChars": 20604,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-20T13:18:00.315Z",
+    "lastChangedISO": "2026-09-20T16:21:07.778Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://gaca.gov.sa/news",
@@ -3273,37 +3274,37 @@
   {
     "sourceUrl": "https://momah.gov.sa/ar/menu/media-center",
     "orgId": "housing",
-    "contentHash": "cf4e056b4aef08dfc3fdda6736cb3febfb6fec9a7e4e4e268f2a682d87e59e0d",
+    "contentHash": "8bed483507ec9eba974823342e50e90941063d68395259b3554f07247a121f84",
     "blockHashes": [
       "4c63522200199108",
       "7bc8965d992df69b",
       "aa8e55eac5aea8cd",
       "09552ec2996654f9",
-      "2431fde3a23ed0a1",
-      "6967383e1349bab1",
-      "9dea8b4a71dfe2af",
-      "a75482fb6bbab1ec",
+      "56472f45cafce958",
       "09b1bd561f62b68f",
-      "9ad3b01c7727a95a",
-      "967ccb51c9ae2ccc",
+      "c61ccd5f478502e2",
       "5d15152619ff887e",
-      "29691e0ae3e827f7",
+      "eb83be04ea817672",
       "ac1405062719fb86",
-      "3cdbf1d1486993cc",
-      "df4e371bb57049f5",
-      "6e0162a46f175b7c",
-      "ff6f87e39638cb9b",
-      "6d52528c75442288",
+      "8a0314272edc6736",
+      "7a3bf8acea89793e",
+      "915d0872812b2848",
       "560edfe1df9d8921",
       "23b97a8a93aba477",
       "9cd3abf7fd1573ff",
-      "5d03dc90430099b5",
-      "8ce84ac80428ae54"
+      "1f7cf3c312300a01",
+      "2e5ce1bf58bbbd47",
+      "eea0a941a24b10c4",
+      "ae7b3beef14befc0",
+      "ff6f87e39638cb9b",
+      "13d4d77d557387ee",
+      "6cf6ef9fcd9a6069",
+      "ba7c30b2b4fd210d"
     ],
     "extractedChars": 151282,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-20T13:18:00.315Z",
+    "lastChangedISO": "2026-09-20T16:21:07.778Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -6511,10 +6512,10 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/careers/graduate-development-program",
     "orgId": "hrc",
-    "contentHash": "78b42a6269749f5e5be5b19197124006686bf9fc6a76ce37b67956c35959c74b",
+    "contentHash": "14b92c84544a37f1277a626a9f747649463706bb22440cb66f609f9346d12a53",
     "blockHashes": [
       "12e41a244a8a2984",
-      "dcfcde37b8bfc63a",
+      "a5b0d74fb98850fa",
       "741386d322f274be",
       "40d7009856bbc81d",
       "2dd486d3d3cacb8b",
@@ -6580,7 +6581,7 @@
     "extractedChars": 10689,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-20T13:18:00.315Z",
+    "lastChangedISO": "2026-09-20T16:21:07.778Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -6901,19 +6902,20 @@
   {
     "sourceUrl": "https://www.hrsd.gov.sa/media-center",
     "orgId": "hrsd",
-    "contentHash": "da4b5c145644f886f44eb4e8e3d7e8c6953a8b9b8df8046c8edf93c4bdd48b5a",
+    "contentHash": "431d4e43f04c3755be9eae11f6fa568529fd99d798d8e1b79f87f4ef623c533d",
     "blockHashes": [
       "92ab7c84ae7e0913",
-      "209bd562b2cf8f7e",
+      "d394a61a935d883a",
       "f240ebfacade946d",
       "629ae8ce8cf3c92c"
     ],
     "extractedChars": 477,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-17T13:28:58.565Z",
+    "lastChangedISO": "2026-09-20T16:21:07.778Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://www.hrsd.gov.sa/media-center/events",
@@ -10741,7 +10743,7 @@
   {
     "sourceUrl": "https://www.stats.gov.sa/en/cooperative-training",
     "orgId": "gastat",
-    "contentHash": "5fd9a5e4a1d187cd49708c75832990493bd814045baff84a41ef03c4afa5f538",
+    "contentHash": null,
     "blockHashes": [
       "b7ce6498ecbc7c40",
       "c76bf99f8551a732",
