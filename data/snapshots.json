@@ -2872,9 +2872,8 @@
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-20T12:48:07.792Z",
-    "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "thinRuns": 1,
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://misa.gov.sa/ar/",
@@ -3818,17 +3817,17 @@
   {
     "sourceUrl": "https://redf.gov.sa/",
     "orgId": "redf",
-    "contentHash": "f9a0b576779b43d4e1e4f3ba8ebeb26e029f060c0bd8696593110fccfb42f104",
+    "contentHash": "d3ab5056c12019c07fc82ddb06e1e9b780d43b4a3614bfcc63bc3f50f1dd5a86",
     "blockHashes": [
-      "fe8f26fff1294596",
-      "b361db387ed7c8b9",
-      "743b9c5832ecc399",
-      "e368824b4895cd69"
+      "527f1caaf5edd0bc",
+      "0b1d5804ad20f457",
+      "782261474561a27a",
+      "bd9d74d14ae69639"
     ],
-    "extractedChars": 1034,
+    "extractedChars": 1014,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-20T12:48:07.792Z",
+    "lastChangedISO": "2026-09-20T18:52:29.004Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -10677,7 +10676,7 @@
   {
     "sourceUrl": "https://www.stats.gov.sa/en/cooperative-training",
     "orgId": "gastat",
-    "contentHash": null,
+    "contentHash": "5fd9a5e4a1d187cd49708c75832990493bd814045baff84a41ef03c4afa5f538",
     "blockHashes": [
       "b7ce6498ecbc7c40",
       "c76bf99f8551a732",
@@ -10698,7 +10697,7 @@
     "extractedChars": 963,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T02:22:33.828Z",
-    "lastChangedISO": "2026-09-20T17:14:12.359Z",
+    "lastChangedISO": "2026-09-20T18:52:29.004Z",
     "thinRuns": 0,
     "pendingClassification": true,
     "classifyFailures": 1
