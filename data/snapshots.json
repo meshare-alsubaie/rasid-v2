@@ -659,7 +659,7 @@
     "lastChangedISO": "2026-09-20T19:07:16.264Z",
     "thinRuns": 0,
     "pendingClassification": true,
-    "classifyFailures": 1
+    "classifyFailures": 2
   },
   {
     "sourceUrl": "https://awqaf.gov.sa/ar/ar/hiring/",
@@ -1741,7 +1741,7 @@
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-15T13:08:42.574Z",
-    "thinRuns": 20,
+    "thinRuns": 21,
     "pendingClassification": false
   },
   {
@@ -7719,7 +7719,7 @@
   {
     "sourceUrl": "https://www.mim.gov.sa/ar/empower-training/cooperative-training",
     "orgId": "mim",
-    "contentHash": "a9843795008ec546554a9edae239b3d27b24651e27d530264b7367d7d08ef57e",
+    "contentHash": "d9b97191ce71ad702d435841375dee201ffc642dd31cee11e947ce5b7379d61d",
     "blockHashes": [
       "1cb91553dd3291a4",
       "5300d4cdd32a8d33"
@@ -7727,7 +7727,7 @@
     "extractedChars": 2473,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T02:22:33.828Z",
-    "lastChangedISO": "2026-09-20T19:07:16.264Z",
+    "lastChangedISO": "2026-09-20T19:56:23.252Z",
     "thinRuns": 0,
     "pendingClassification": true,
     "classifyFailures": 1
@@ -10762,7 +10762,7 @@
   {
     "sourceUrl": "https://www.stats.gov.sa/en/cooperative-training",
     "orgId": "gastat",
-    "contentHash": "5fd9a5e4a1d187cd49708c75832990493bd814045baff84a41ef03c4afa5f538",
+    "contentHash": null,
     "blockHashes": [
       "b7ce6498ecbc7c40",
       "c76bf99f8551a732",
@@ -11439,8 +11439,7 @@
     "firstSeenISO": "2026-08-29T22:03:35.383Z",
     "lastChangedISO": "2026-09-20T13:47:46.445Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "triaged_out"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.tu.edu.sa/Ar/%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D8%A5%D8%A8%D8%AA%D8%B9%D8%A7%D8%AB-%D9%88%D8%A7%D9%84%D8%AA%D8%AF%D8%B1%D9%8A%D8%A8/119/Pages/20905/%D8%B9%D9%86-%D8%A7%D9%84%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9",
