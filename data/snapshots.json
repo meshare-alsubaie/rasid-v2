@@ -6378,10 +6378,10 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/careers",
     "orgId": "hrc",
-    "contentHash": "65db232dff0ca6f128da8ec7459ff6818597c38eed01b3791d9d2d37188f5889",
+    "contentHash": "5259939f839979af220fa4ee1f81e4e3160df885eff646c63fb28fb6c58cdd4c",
     "blockHashes": [
       "12e41a244a8a2984",
-      "9a21fe9779c3bb87",
+      "55bf5d34b683bece",
       "9bd6314e9bbc7375",
       "474d2dbb69aae30b",
       "84b2fc11813dc7e8",
@@ -6405,7 +6405,7 @@
     "extractedChars": 3794,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-20T13:51:47.034Z",
+    "lastChangedISO": "2026-09-20T16:56:13.192Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -6854,19 +6854,20 @@
   {
     "sourceUrl": "https://www.hrsd.gov.sa/media-center/events",
     "orgId": "hrsd",
-    "contentHash": "8bac6573fb946978d8280b874a09c5a77d1d6237f9a4633420f46c00017bc858",
+    "contentHash": "f595757f83b37bbb2e00a0789a559d27f5dc461fb2d54e3047b0e5934cbc578d",
     "blockHashes": [
       "92ab7c84ae7e0913",
-      "57660151857cb8ac",
+      "4b7c6ccbbbe50614",
       "f240ebfacade946d",
-      "04ee294c869a79a2"
+      "dc7c38a36b643a4a"
     ],
-    "extractedChars": 2913,
+    "extractedChars": 2919,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-18T15:11:51.172Z",
+    "lastChangedISO": "2026-09-20T16:56:13.192Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://www.hrsd.gov.sa/media-center/news",
@@ -7503,8 +7504,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-20T13:51:47.034Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.mewa.gov.sa/ar/MediaCenter/MultimediaLibrary/Pages/default.aspx",
