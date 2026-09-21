@@ -240,7 +240,7 @@
   {
     "sourceUrl": "https://alinma.com/",
     "orgId": "alinma",
-    "contentHash": "55e1b925b5a32113968e5a0b791327f0e173138c8fcd5ef198ad8c8e5e1dfc64",
+    "contentHash": "de37fcdd44ddb9450a7648ba72eccfa0132d9798a54414ea079ccbf36452d84d",
     "blockHashes": [
       "be896a4040d0b497",
       "0a14ab6988360391",
@@ -249,15 +249,16 @@
       "5a893dabed2d6dcf",
       "cfc4a6c7d4a4fcdc",
       "d7e8cb14f77516db",
-      "71c4e619ae21637f",
+      "1041ff6bed02b6e3",
       "fcdc707f0342be1e"
     ],
     "extractedChars": 1479,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T22:03:35.383Z",
-    "lastChangedISO": "2026-09-19T19:25:36.503Z",
+    "lastChangedISO": "2026-09-21T15:53:14.818Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "triaged_out"
   },
   {
     "sourceUrl": "https://alinma.com/About-the-Bank/The-Bank/News",
@@ -9335,17 +9336,16 @@
   {
     "sourceUrl": "https://www.rcrc.gov.sa/careers/?lang=ar",
     "orgId": "rcrc",
-    "contentHash": "88a3d6a7df46eacbe97bd2f218280fa0f1493857a2a6328d4d65c0a7bbddb87e",
+    "contentHash": "d87c333043874e58ee53783c9d275cce1066aa67ede834658c5334430ee5c01d",
     "blockHashes": [
       "4c49d4077ec1b78c"
     ],
     "extractedChars": 1166,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-21T15:07:56.231Z",
+    "lastChangedISO": "2026-09-21T15:58:36.529Z",
     "thinRuns": 0,
-    "pendingClassification": true,
-    "classifyFailures": 1
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://www.rcrc.gov.sa/media-center/",
