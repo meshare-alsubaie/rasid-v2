@@ -659,7 +659,7 @@
     "lastChangedISO": "2026-09-21T09:51:18.331Z",
     "thinRuns": 0,
     "pendingClassification": true,
-    "classifyFailures": 1
+    "classifyFailures": 2
   },
   {
     "sourceUrl": "https://awqaf.gov.sa/ar/ar/hiring/",
@@ -1783,7 +1783,7 @@
   {
     "sourceUrl": "https://careers.sdaia.gov.sa/training",
     "orgId": "sdaia",
-    "contentHash": "c85f5e138b5c65644cc36a9b0c5e9718da8d17a96fc8f6de56c2a65e79a3e09a",
+    "contentHash": "6d46074f1938763f0a9245a2aa1b013633c7a37add8a82be35a0ab6acd37be64",
     "blockHashes": [
       "a3638bfcc93928a2",
       "5a2ea8a7bc8ff607",
@@ -1794,12 +1794,12 @@
       "9c07884d4ed44032",
       "c4aabeebd58258d2",
       "6dc60fec12c030a8",
-      "7d2db2ddafbe589d"
+      "8f0732c7043be9ff"
     ],
     "extractedChars": 1605,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-21T09:51:18.331Z",
+    "lastChangedISO": "2026-09-21T10:39:22.276Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -2228,17 +2228,17 @@
   {
     "sourceUrl": "https://gaca.gov.sa/ar/announcements",
     "orgId": "gaca",
-    "contentHash": "e637ab957b900a99a21d374c5f625f72315e9f85f62bdfb10b5270eceac0b215",
+    "contentHash": "b8e6d6c2ec0b7eda8c03aa7ccd4d56f2ffe4d5dc97db2f5fc5843dfcee7abc26",
     "blockHashes": [
-      "9822d9242b0cea07",
+      "4e9f2fc4622145f3",
       "9c2a3967149440a8",
       "83a22e1f9fb245f8",
       "bc532942aaed49b7"
     ],
-    "extractedChars": 1214,
+    "extractedChars": 1213,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-21T07:30:29.814Z",
+    "lastChangedISO": "2026-09-21T10:34:29.356Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -3325,44 +3325,44 @@
   {
     "sourceUrl": "https://momah.gov.sa/ar/news",
     "orgId": "housing",
-    "contentHash": "ef5d748d7b2fa07e7b8f912bd4a103d36824dc6d71fda051a3ec0acafff4b269",
+    "contentHash": "cb24764bf374d9da62a73155a93582747ddd5b75bfa6ea2d540814e17c997c8f",
     "blockHashes": [
       "c39d79399ac7deac",
-      "b9439a5539a1ee25",
+      "1040ed302697888e",
       "1bc0b8dd58767a67",
       "514cef96fae33d91",
-      "a76f229c47a44a0f",
-      "5ee86ab07fca1dd8",
-      "2c7f5cb980571d23",
+      "9aa53f1e766fea79",
+      "59f1788a2992df63",
       "aa8e55eac5aea8cd",
       "09552ec2996654f9",
-      "1c3cb28e02562373",
+      "e4451fa74ad778d1",
+      "2b339202f0e5e1c8",
+      "e942f7d6467ac063",
+      "09b1bd561f62b68f",
+      "b2d7212a6e2315a0",
+      "7b183cf0deb2c2b7",
+      "ff6f87e39638cb9b",
+      "cd34b15ca1844cf2",
+      "eeb2917c91d69f58",
+      "f1534b8cd68cfd95",
+      "5d15152619ff887e",
+      "d5098537a00ca0bd",
+      "c7592b7e9b99f570",
       "560edfe1df9d8921",
       "23b97a8a93aba477",
       "9cd3abf7fd1573ff",
-      "49bddd7f86d1f3bf",
-      "ff6f87e39638cb9b",
-      "0d3333cde52cdd77",
-      "5d15152619ff887e",
-      "848ac0b9f2051287",
-      "09b1bd561f62b68f",
-      "ca905cd5873fd6bb",
-      "940dacbc2a9e6278",
-      "7d014736460b816f",
-      "ff42a4f49664e8a7",
+      "cea4d66f0b82cac8",
       "ac1405062719fb86",
-      "207952c07d1cc27c",
-      "78e69fdbd6426a11",
-      "950ead09290774d7",
-      "be92bacfd92b47df",
-      "baa3be3416cf6736"
+      "14bd34755523348b",
+      "2594666d77214dbd"
     ],
     "extractedChars": 151354,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-21T04:24:04.745Z",
+    "lastChangedISO": "2026-09-21T10:34:29.356Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://momah.gov.sa/ar/node/14717",
@@ -4466,7 +4466,7 @@
   {
     "sourceUrl": "https://training.moj.gov.sa/",
     "orgId": "moj",
-    "contentHash": null,
+    "contentHash": "f4c6ef6b783b69d09a8f681ad1d80f1df35ef8cb8864917255879208cc305886",
     "blockHashes": [
       "84a570379809f573",
       "ab443a0bbfda7883"
@@ -4474,7 +4474,7 @@
     "extractedChars": 481,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T02:31:49.455Z",
-    "lastChangedISO": "2026-09-21T08:15:11.673Z",
+    "lastChangedISO": "2026-09-21T10:39:22.276Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -6603,10 +6603,10 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/cooperations?lang=ar",
     "orgId": "hrc",
-    "contentHash": "f551cf67b2e2ac038306a9109ae46f90b8c84f33648b2f50e4a35e7c589b3455",
+    "contentHash": "97f6f433556fabe5f2b72ebce90b5776b4bf475d44128b6310282ae9f28867bf",
     "blockHashes": [
       "12e41a244a8a2984",
-      "b74323e96940e136",
+      "efd8d2636953ada1",
       "15c715928fc246c0",
       "9a4a215f8452ca45",
       "961639689d2c8819",
@@ -6627,7 +6627,7 @@
     "extractedChars": 6137,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-21T07:30:29.814Z",
+    "lastChangedISO": "2026-09-21T10:34:29.356Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -9338,14 +9338,14 @@
   {
     "sourceUrl": "https://www.rcrc.gov.sa/careers/?lang=ar",
     "orgId": "rcrc",
-    "contentHash": "6b8ef942a1745ab6a428c68b26f3dd81a24b5ce8ed0dce5530c9c9eab46737e2",
+    "contentHash": "5f004f86b26be6526242324084ab3bbf324d85a17edce6af999d8730cf927e0c",
     "blockHashes": [
       "9ee1913b59cce757"
     ],
-    "extractedChars": 1167,
+    "extractedChars": 1166,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-21T09:39:37.634Z",
+    "lastChangedISO": "2026-09-21T10:39:22.276Z",
     "thinRuns": 0,
     "pendingClassification": true,
     "classifyFailures": 1
@@ -11272,7 +11272,7 @@
     "lastChangedISO": "2026-09-21T09:51:18.331Z",
     "thinRuns": 0,
     "pendingClassification": true,
-    "classifyFailures": 1
+    "classifyFailures": 2
   },
   {
     "sourceUrl": "https://www.tahakom.com/",
