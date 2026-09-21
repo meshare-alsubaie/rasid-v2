@@ -763,7 +763,7 @@
   {
     "sourceUrl": "https://career.alinma.com/",
     "orgId": "alinma",
-    "contentHash": null,
+    "contentHash": "e245fd94c1ab59dcc6bad34af50ba34c224654b27d2f46834c18eef001143fa5",
     "blockHashes": [
       "d139e32e22028878",
       "24a16c9057a577bb",
@@ -772,7 +772,7 @@
     "extractedChars": 750,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-01T01:46:07.967Z",
-    "lastChangedISO": "2026-09-20T23:23:13.267Z",
+    "lastChangedISO": "2026-09-21T02:38:45.525Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -7654,7 +7654,7 @@
   {
     "sourceUrl": "https://www.mim.gov.sa/ar/empower-training/cooperative-training",
     "orgId": "mim",
-    "contentHash": "df75903a482eb66300e5bc5fc17b8a14fe4f3f33e54904ae05c48c3b34b493b9",
+    "contentHash": "0495b1c3038ea75fa6861d8c5b3405832f2a9b6352857a9681a3f03c0e61829a",
     "blockHashes": [
       "1cb91553dd3291a4",
       "5300d4cdd32a8d33"
@@ -7662,7 +7662,7 @@
     "extractedChars": 2473,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T02:22:33.828Z",
-    "lastChangedISO": "2026-09-21T01:54:29.282Z",
+    "lastChangedISO": "2026-09-21T02:43:24.674Z",
     "thinRuns": 0,
     "pendingClassification": true,
     "classifyFailures": 1
@@ -8502,20 +8502,21 @@
   {
     "sourceUrl": "https://www.nazaha.gov.sa/",
     "orgId": "nazaha",
-    "contentHash": "00abbc921046340679c095fedb210326eeab325fef89defe39e7c80694a0e02e",
+    "contentHash": "94f168e0f9cc1254c05758c16fe07408270abdf7d82c886482b21ea8b5ce6bbc",
     "blockHashes": [
       "a167b0dd9b0e3e1c",
       "74e4c1d2a646a96e",
-      "a436c047dafc052b",
+      "25babd779e8c9cae",
       "c3fc1cda7b3b3192",
       "b388a9e4963a3a37"
     ],
     "extractedChars": 506,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T22:03:35.383Z",
-    "lastChangedISO": "2026-09-19T22:15:41.805Z",
+    "lastChangedISO": "2026-09-21T02:42:10.540Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://www.nazaha.gov.sa/Jobs",
@@ -9200,16 +9201,17 @@
   {
     "sourceUrl": "https://www.rcrc.gov.sa/careers/?lang=ar",
     "orgId": "rcrc",
-    "contentHash": "7e7ea9ff9cde69b38b3864a3c267b43bc302f3e95d6de8bc669e1007b427424b",
+    "contentHash": "866c2c216e4d7213890cec228f7ae2fed965ea019a081cce292fb9dda2140cae",
     "blockHashes": [
       "7e7ea9ff9cde69b3"
     ],
-    "extractedChars": 784,
+    "extractedChars": 1166,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-21T01:54:29.282Z",
+    "lastChangedISO": "2026-09-21T02:46:20.958Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://www.rcrc.gov.sa/media-center/",
