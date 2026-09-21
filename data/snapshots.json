@@ -649,7 +649,7 @@
   {
     "sourceUrl": "https://athkax.sdaia.gov.sa/coop",
     "orgId": "sdaia",
-    "contentHash": "a58f144950bb22de0c4667555dc3401317db3a7e9e0679e6a27c03768b15a660",
+    "contentHash": "f1c749f1b0084dc210dc0d9f1e447c42c8ea07e30a315579c292163ea7abbe55",
     "blockHashes": [
       "04ba8a3fca46514f",
       "4bd08244050e9682"
@@ -657,10 +657,9 @@
     "extractedChars": 756,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-21T14:45:25.877Z",
+    "lastChangedISO": "2026-09-21T16:20:45.033Z",
     "thinRuns": 0,
-    "pendingClassification": true,
-    "classifyFailures": 2
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://awqaf.gov.sa/ar/ar/hiring/",
@@ -1257,7 +1256,7 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/cookiesettings",
     "orgId": "maaden",
-    "contentHash": "a20162d49691a6bdaf25559fad863e87d1601bf5dfdd4ff9c61b7bcc72997d05",
+    "contentHash": "6ce932f4c89c00086453f70fd699fb7cfa65874438f1870443fb7869f0ba9aae",
     "blockHashes": [
       "e68d4a3cc726a5bf",
       "dd53e083dd4c4329",
@@ -1327,12 +1326,12 @@
       "90da184e67bc630d",
       "d602510adae5b81c"
     ],
-    "extractedChars": 8013,
+    "extractedChars": 240,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-21T15:44:50.154Z",
+    "lastChangedISO": "2026-09-21T16:31:34.984Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/search-results",
@@ -2158,7 +2157,7 @@
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T02:22:33.828Z",
     "lastChangedISO": "2026-08-29T02:36:21.032Z",
-    "thinRuns": 308,
+    "thinRuns": 309,
     "pendingClassification": false
   },
   {
@@ -2394,7 +2393,7 @@
   {
     "sourceUrl": "https://gaca.gov.sa/web/ar-sa/page/home",
     "orgId": "gaca",
-    "contentHash": "8173d3a6aba4751872e34e8a46a24fd47ead460b85c881902d20d58c1455e815",
+    "contentHash": "a01692cfbb5ac7545a2ff4876748cf8fc447a0a7aadc185606748745171f8f2d",
     "blockHashes": [
       "d65a4dc6302798ed",
       "76b1d5b850956abc",
@@ -2413,9 +2412,9 @@
     "extractedChars": 2330,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-21T13:29:29.922Z",
+    "lastChangedISO": "2026-09-21T16:32:49.818Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://gmedia.gov.sa/",
@@ -3121,7 +3120,7 @@
   {
     "sourceUrl": "https://modon.gov.sa/ar/MediaCenter/modon-news/News/Pages/default.aspx",
     "orgId": "modon",
-    "contentHash": "12f4cab2d1f6283cdfb9f62b89a3ecbb766662bf1b3551e2256475001cd479df",
+    "contentHash": "7459f9f989c263ef5be6ddf59cf67529c0b795d5cee3315dcb3c6140b7bcfaa1",
     "blockHashes": [
       "b7f66369eb4fd736",
       "8727cbb5dfea6170",
@@ -3132,10 +3131,9 @@
     "extractedChars": 1591,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-21T13:29:29.922Z",
+    "lastChangedISO": "2026-09-21T16:32:49.818Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://modon.gov.sa/ar/MediaCenter/Pages/default.aspx",
@@ -3228,8 +3226,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-21T13:29:29.922Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://momah.gov.sa/ar/form/partnerships-and-cooperation",
@@ -6420,7 +6417,7 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/all_branches_news?lang=ar",
     "orgId": "hrc",
-    "contentHash": "001aaf5a3e64166849d49ac8b88a8f90f85afcf2bff1440ffe4a367396085668",
+    "contentHash": "1b12a055e5443907c30b504ac31db9d14227d4eddce9e1e55d9fdfe36e7f1819",
     "blockHashes": [
       "12e41a244a8a2984",
       "4e9a4196f68fd2f4",
@@ -6449,9 +6446,9 @@
     "extractedChars": 5039,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-21T13:29:29.922Z",
+    "lastChangedISO": "2026-09-21T16:32:49.818Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/careers",
@@ -6894,7 +6891,7 @@
   {
     "sourceUrl": "https://www.hrsd.gov.sa/contact-us/inquiries-about-employment-offices",
     "orgId": "hrsd",
-    "contentHash": "0a0207bdf920b92550e96e5039d776ad56c339bfc425e49afd3f9c3b70a401a3",
+    "contentHash": "f4cd21daf8f6e68860dac6ee66365ab594f92705a537d548b05ddac202123836",
     "blockHashes": [
       "92ab7c84ae7e0913",
       "0925415ceeea0e17",
@@ -6906,9 +6903,9 @@
     "extractedChars": 989,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-20T15:51:06.978Z",
+    "lastChangedISO": "2026-09-21T16:32:49.818Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://www.hrsd.gov.sa/media-center",
@@ -11284,7 +11281,7 @@
   {
     "sourceUrl": "https://www.tahakom.com/careers",
     "orgId": "tahakom",
-    "contentHash": "a9b0253c483902a00645b630b2cbbfa1a6bf43b8378a82c3ac4c901491886ea6",
+    "contentHash": "855193303b2324024bccef01fb39a6cd0af6aa0a7562dccc8e836ce6179ea203",
     "blockHashes": [
       "d44217251213a019",
       "611753a8aea1ade1",
@@ -11292,12 +11289,12 @@
       "1a5263a5a2541c46",
       "7ff616a2455f75c9"
     ],
-    "extractedChars": 838,
+    "extractedChars": 836,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-03T05:13:40.059Z",
-    "lastChangedISO": "2026-09-21T15:44:50.154Z",
+    "lastChangedISO": "2026-09-21T16:31:34.984Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://www.taifcity.gov.sa/#/ar",
