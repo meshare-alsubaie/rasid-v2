@@ -1336,16 +1336,20 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/search-results",
     "orgId": "maaden",
-    "contentHash": "198ed0e442dc19d06e5b4bc0f4973dc6c3ef6efe50482044cb3a856150d752d0",
+    "contentHash": "3adb72037afdeba9c3e76b46b2befa5a2d9f98d0a08f67b0c6bf85101857546f",
     "blockHashes": [
-      "dab5a7f3801bc914",
-      "4c70b4290090cd31",
-      "475c7de035d849bb"
+      "5569201553604d03",
+      "6e3cceb54e777f64",
+      "298a05ebe5a16280",
+      "d6c0adacb353836a",
+      "c3e05bf2f026d3e1",
+      "67a9eaa52a9299e8",
+      "ad3e8ed360327d20"
     ],
-    "extractedChars": 240,
-    "extractionMethod": "readability",
+    "extractedChars": 1755,
+    "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-21T19:24:10.944Z",
+    "lastChangedISO": "2026-09-21T20:17:34.235Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -9322,17 +9326,16 @@
   {
     "sourceUrl": "https://www.rcrc.gov.sa/careers/?lang=ar",
     "orgId": "rcrc",
-    "contentHash": "7633675d0757cc7419575ca991fc352739e7a6fb59d243138807d49d741d674b",
+    "contentHash": "fa4a72da26a232ed816c4bf1ed54cd862badbd563d66508320b460f18c82d1e3",
     "blockHashes": [
-      "21e8280cb0f1bd96"
+      "fa4a72da26a232ed"
     ],
-    "extractedChars": 1167,
+    "extractedChars": 785,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-21T19:24:10.944Z",
+    "lastChangedISO": "2026-09-21T20:19:41.142Z",
     "thinRuns": 0,
-    "pendingClassification": true,
-    "classifyFailures": 1
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.rcrc.gov.sa/media-center/",
