@@ -648,7 +648,7 @@
   {
     "sourceUrl": "https://athkax.sdaia.gov.sa/coop",
     "orgId": "sdaia",
-    "contentHash": "a58f144950bb22de0c4667555dc3401317db3a7e9e0679e6a27c03768b15a660",
+    "contentHash": "f1c749f1b0084dc210dc0d9f1e447c42c8ea07e30a315579c292163ea7abbe55",
     "blockHashes": [
       "04ba8a3fca46514f",
       "4bd08244050e9682"
@@ -656,10 +656,10 @@
     "extractedChars": 756,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-20T19:07:16.264Z",
+    "lastChangedISO": "2026-09-21T02:32:13.213Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "classifyFailures": 3
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://awqaf.gov.sa/ar/ar/hiring/",
@@ -1256,15 +1256,15 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/cookiesettings",
     "orgId": "maaden",
-    "contentHash": "88995986aad5e305dc64eac1316dcf9a3f4f83de61b3d6ceb889ddf0633daa69",
+    "contentHash": "995bd374842f2e975e526190f4bd9da636cd582a61e368ff27e9dab74ba21bee",
     "blockHashes": [
-      "77422cf18daeca62",
-      "286d455fc0de04f3"
+      "76c4e9d3bee6bffc",
+      "9388d5fed1cfb458"
     ],
     "extractedChars": 240,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-21T01:44:37.182Z",
+    "lastChangedISO": "2026-09-21T02:32:13.213Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -2093,7 +2093,7 @@
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T02:22:33.828Z",
     "lastChangedISO": "2026-08-29T02:36:21.032Z",
-    "thinRuns": 291,
+    "thinRuns": 292,
     "pendingClassification": false
   },
   {
@@ -3598,15 +3598,15 @@
   {
     "sourceUrl": "https://ndf.gov.sa/",
     "orgId": "ndf",
-    "contentHash": "799ef5f3676002452b080cc982bb733040d89d477c80365de829c5a5a8a8402e",
+    "contentHash": "aa28cced8ef241fd60a1175122cb69df9e1045010f4439a7ba14d55cec8b859f",
     "blockHashes": [
-      "4b8194a9c01c5e79",
+      "f28e2c36f1289728",
       "cea7fd3977a9c5c0"
     ],
-    "extractedChars": 3027,
+    "extractedChars": 3029,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-19T21:57:29.655Z",
+    "lastChangedISO": "2026-09-21T02:28:42.042Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -10313,14 +10313,14 @@
       "a0466ff116c86d28",
       "4b81d1c31f1f9c59",
       "02085740ec4421fd",
-      "701264d91c0f507a"
+      "ce13af3daac41994"
     ],
     "extractedChars": 997,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-21T01:17:43.535Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.sidf.gov.sa/ar/News",
