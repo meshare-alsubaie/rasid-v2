@@ -1743,7 +1743,7 @@
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-15T13:08:42.574Z",
-    "thinRuns": 25,
+    "thinRuns": 26,
     "pendingClassification": false
   },
   {
@@ -6444,10 +6444,10 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/careers",
     "orgId": "hrc",
-    "contentHash": "bc30fdba93f025d4b056c8fc493d4559a2d7945624d22ab6ccb9c0808015d462",
+    "contentHash": "f1e6ecfc1b71846f6f5f342632dd10c294f51b59b9a5ab1bf8726b042f4ac77a",
     "blockHashes": [
       "12e41a244a8a2984",
-      "ef9d1c62d379828b",
+      "ea2df3fbb2c7883d",
       "9bd6314e9bbc7375",
       "474d2dbb69aae30b",
       "84b2fc11813dc7e8",
@@ -6471,7 +6471,7 @@
     "extractedChars": 3794,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-21T08:35:21.499Z",
+    "lastChangedISO": "2026-09-21T11:40:17.423Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -7734,15 +7734,17 @@
   {
     "sourceUrl": "https://www.mim.gov.sa/ar/media-center/news",
     "orgId": "mim",
-    "contentHash": "e2fa82fecd901bf62d2310ae6fc2b7b6b2b9eadc6f957a50f56a9d9c6cb39960",
+    "contentHash": "463801188a869beef6d5d659bbc3db9eb7211ec576bb7a718c9cd5b6ec0d4143",
     "blockHashes": [
-      "82a83b9b178684d4",
-      "aa87c4ab020e99c6",
+      "974ddb6757ae55f4",
+      "463b9481c85872fc",
       "dc40cb1a74b23e69",
-      "bd4936779f2d14d4",
+      "d30c0a023daa76ff",
       "47a950af7f4b0342",
       "c912be443951b539",
-      "8601e7abc237fc22",
+      "90fa680809990c30",
+      "634a5a8d064708ad",
+      "220ccb0c9b3c817a",
       "7bc08ee35640ba91",
       "bf023e64b6a4e8ce",
       "accd88ab9dfdfd85",
@@ -7762,17 +7764,15 @@
       "8e2e4439ee219427",
       "9ad6c9c65b05d9e0",
       "9f3e3e37904ba5ef",
-      "ef5ad4bd32461db0",
-      "634a5a8d064708ad",
-      "5f8a73e334b17f4f"
+      "ba49ff305d954730"
     ],
-    "extractedChars": 11446,
+    "extractedChars": 11486,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-21T08:35:21.499Z",
+    "lastChangedISO": "2026-09-21T11:48:34.304Z",
     "thinRuns": 0,
     "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "settledWithoutVerdict": "triaged_out"
   },
   {
     "sourceUrl": "https://www.moc.gov.sa/ar",
