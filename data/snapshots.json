@@ -2322,9 +2322,9 @@
   {
     "sourceUrl": "https://gaca.gov.sa/web/ar-sa/page/home",
     "orgId": "gaca",
-    "contentHash": "a01692cfbb5ac7545a2ff4876748cf8fc447a0a7aadc185606748745171f8f2d",
+    "contentHash": "c49c2d08c16d0194978decd6e3ce68393d75b587bc9d04152aef7788baef6eb2",
     "blockHashes": [
-      "d65a4dc6302798ed",
+      "e3a43b3c085285e7",
       "76b1d5b850956abc",
       "c6ad9b232caf3243",
       "d144725aec94caf4",
@@ -2336,14 +2336,15 @@
       "4ea0378053866076",
       "b62d24ce2a688c9f",
       "83a22e1f9fb245f8",
-      "bc532942aaed49b7"
+      "d2b007165d2a0cba"
     ],
     "extractedChars": 2330,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-21T16:32:49.818Z",
+    "lastChangedISO": "2026-09-21T19:37:43.423Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://gmedia.gov.sa/",
@@ -3048,9 +3049,9 @@
   {
     "sourceUrl": "https://modon.gov.sa/ar/MediaCenter/modon-news/News/Pages/default.aspx",
     "orgId": "modon",
-    "contentHash": "7459f9f989c263ef5be6ddf59cf67529c0b795d5cee3315dcb3c6140b7bcfaa1",
+    "contentHash": "223befada7d133af8c768afe019b4c7a5afa1d2ee987042404bc67b7e5476afa",
     "blockHashes": [
-      "b7f66369eb4fd736",
+      "aa7d667fcc01ea63",
       "8727cbb5dfea6170",
       "bdfe2a112c399ccd",
       "8ae17958586c8a8c",
@@ -3059,9 +3060,10 @@
     "extractedChars": 1591,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-21T16:32:49.818Z",
+    "lastChangedISO": "2026-09-21T19:37:43.423Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://modon.gov.sa/ar/MediaCenter/Pages/default.aspx",
@@ -6340,10 +6342,10 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/all_branches_news?lang=ar",
     "orgId": "hrc",
-    "contentHash": "1b12a055e5443907c30b504ac31db9d14227d4eddce9e1e55d9fdfe36e7f1819",
+    "contentHash": "b62bbe9975f0ea738994a33611afca357146e483decbd8bafd45ea6aab583956",
     "blockHashes": [
       "12e41a244a8a2984",
-      "4e9a4196f68fd2f4",
+      "a6e2711e51d8fcce",
       "f5f8d6443e8e9010",
       "02fd91be7253d9e4",
       "6cd077b5b02f6b16",
@@ -6369,9 +6371,9 @@
     "extractedChars": 5039,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-21T16:32:49.818Z",
+    "lastChangedISO": "2026-09-21T19:37:43.423Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/careers",
@@ -6822,14 +6824,14 @@
       "6f2560b47c07aaba",
       "5f36e870a7ea7b71",
       "f240ebfacade946d",
-      "1a31b3f746210c04"
+      "76602befc0780c80"
     ],
     "extractedChars": 989,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-21T16:32:49.818Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.hrsd.gov.sa/media-center",
@@ -11165,7 +11167,7 @@
     "lastChangedISO": "2026-09-21T18:49:52.291Z",
     "thinRuns": 0,
     "pendingClassification": true,
-    "classifyFailures": 1
+    "classifyFailures": 2
   },
   {
     "sourceUrl": "https://www.tadawulgroup.sa/wps/portal/tadawulgroup/joinus",
@@ -11193,18 +11195,18 @@
   {
     "sourceUrl": "https://www.tahakom.com/",
     "orgId": "tahakom",
-    "contentHash": "cdc6e715febd70ac89e4ace8f3b65185ba7bfab54fda1908fc17c2332d9ecb2f",
+    "contentHash": "66a1b215d71b598e5c8f4def386779d5d875b8060e2f1e761d7fed159451f4b0",
     "blockHashes": [
       "d44217251213a019",
       "611753a8aea1ade1",
       "0cea4d38306888dc",
       "1a5263a5a2541c46",
-      "da33eb4a1bacafc3"
+      "264d6b3abc2256d1"
     ],
-    "extractedChars": 836,
+    "extractedChars": 838,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-03T05:13:40.059Z",
-    "lastChangedISO": "2026-09-21T13:33:58.728Z",
+    "lastChangedISO": "2026-09-21T19:37:43.423Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
