@@ -649,7 +649,7 @@
   {
     "sourceUrl": "https://athkax.sdaia.gov.sa/coop",
     "orgId": "sdaia",
-    "contentHash": "f1c749f1b0084dc210dc0d9f1e447c42c8ea07e30a315579c292163ea7abbe55",
+    "contentHash": "a58f144950bb22de0c4667555dc3401317db3a7e9e0679e6a27c03768b15a660",
     "blockHashes": [
       "04ba8a3fca46514f",
       "4bd08244050e9682"
@@ -657,9 +657,10 @@
     "extractedChars": 756,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-21T16:20:45.033Z",
+    "lastChangedISO": "2026-09-21T17:08:19.603Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://awqaf.gov.sa/ar/ar/hiring/",
@@ -763,7 +764,7 @@
   {
     "sourceUrl": "https://career.alinma.com/",
     "orgId": "alinma",
-    "contentHash": null,
+    "contentHash": "e245fd94c1ab59dcc6bad34af50ba34c224654b27d2f46834c18eef001143fa5",
     "blockHashes": [
       "d139e32e22028878",
       "24a16c9057a577bb",
@@ -772,7 +773,7 @@
     "extractedChars": 750,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-01T01:46:07.967Z",
-    "lastChangedISO": "2026-09-21T02:38:45.525Z",
+    "lastChangedISO": "2026-09-21T17:08:19.603Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -2227,9 +2228,9 @@
   {
     "sourceUrl": "https://gaca.gov.sa/ar/News",
     "orgId": "gaca",
-    "contentHash": "b449773adb99f29c989dfe47bbaefb28c7e27c83888a3e1fcae252989fd49438",
+    "contentHash": "d685ac1985798d5dce1fd175d26ea9eb90c49639a7f3cc0e9553f79a7222a7f3",
     "blockHashes": [
-      "a9f8e4daa43fef5c",
+      "d2c374f90f9e7eaf",
       "ef26de24708740d2",
       "95eb6a3bfae983dc",
       "50638526149c77c9",
@@ -2296,12 +2297,12 @@
       "83806ca220a038f5",
       "12de0761cfdf936c",
       "83a22e1f9fb245f8",
-      "2ccfa90c84c059a7"
+      "bc532942aaed49b7"
     ],
-    "extractedChars": 20767,
+    "extractedChars": 20506,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-21T14:00:39.106Z",
+    "lastChangedISO": "2026-09-21T17:01:36.950Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -3300,8 +3301,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-21T14:00:39.106Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://momah.gov.sa/ar/news",
@@ -6517,10 +6517,10 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/careers/graduate-development-program",
     "orgId": "hrc",
-    "contentHash": "3bf64ed0554cd69ae16b6d9d15af3a52efc28d48acb257809e7d1156fad83237",
+    "contentHash": "d822606c2832bbd452d78de7098e1dbf73064c57ec185c9854d3177380df6d5e",
     "blockHashes": [
       "12e41a244a8a2984",
-      "358754a5b952d908",
+      "bf7189e199f263b1",
       "741386d322f274be",
       "40d7009856bbc81d",
       "2dd486d3d3cacb8b",
@@ -6586,7 +6586,7 @@
     "extractedChars": 10689,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-21T14:00:39.106Z",
+    "lastChangedISO": "2026-09-21T17:01:36.950Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -10799,7 +10799,7 @@
   {
     "sourceUrl": "https://www.stats.gov.sa/en/news",
     "orgId": "gastat",
-    "contentHash": "a6636718d57020bc2203fc95d1cfdd84385f718a37a51a0e92cddac3196e5bb8",
+    "contentHash": "cf9570eb028eeee055ad4fa1d5232ab5b71e2b0825251682b269065c239844b8",
     "blockHashes": [
       "b7ce6498ecbc7c40",
       "c76bf99f8551a732",
@@ -11228,10 +11228,10 @@
       "00f2cdb2123b002f",
       "130941fb4f3fdf0d"
     ],
-    "extractedChars": 46131,
+    "extractedChars": 125667,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-21T16:18:07.894Z",
+    "lastChangedISO": "2026-09-21T17:08:19.603Z",
     "thinRuns": 0,
     "pendingClassification": true,
     "classifyFailures": 1
