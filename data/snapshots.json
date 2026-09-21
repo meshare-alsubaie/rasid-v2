@@ -4298,17 +4298,21 @@
   {
     "sourceUrl": "https://sta.gov.sa/",
     "orgId": "sta",
-    "contentHash": "e837e53880dd6d6accad57a83694e440c8d946d2a65c9b8cf1538079c8e22fb1",
+    "contentHash": "256886591c68ed14b5fe88e6b9abc07bea0e10a4eed43a5a854fc36c47fad7cf",
     "blockHashes": [
+      "164a54aec734104c",
+      "4058d9781e658b7c",
+      "4058d9781e658b7c",
+      "69c93322556e1299",
       "e837e53880dd6d6a"
     ],
-    "extractedChars": 177,
+    "extractedChars": 8218,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-21T07:09:20.005Z",
+    "lastChangedISO": "2026-09-21T13:22:19.926Z",
     "thinRuns": 0,
     "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "settledWithoutVerdict": "triaged_out"
   },
   {
     "sourceUrl": "https://takamolholding.com/ar/join-us",
@@ -9325,14 +9329,14 @@
   {
     "sourceUrl": "https://www.rcrc.gov.sa/careers/?lang=ar",
     "orgId": "rcrc",
-    "contentHash": "7e501e48809fb061ac6142e7e59817169bf3cba7602adc7541f3477a5e360232",
+    "contentHash": "d8df0dca5a99e225abb63c51791414c8199e4352c24e76a66dfd25882678b723",
     "blockHashes": [
       "9ee1913b59cce757"
     ],
     "extractedChars": 1166,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-21T12:27:18.376Z",
+    "lastChangedISO": "2026-09-21T13:22:19.926Z",
     "thinRuns": 0,
     "pendingClassification": true,
     "classifyFailures": 1
@@ -9561,7 +9565,7 @@
   {
     "sourceUrl": "https://www.rega.gov.sa/",
     "orgId": "rega",
-    "contentHash": "cf3766fac2360c4ddb76c9c59f8caccb048cb35fd88b0579b615e298984bf7b4",
+    "contentHash": "c57280bae2753d5d4b3b9284d318abd28b9bb0a0c2ca6f1f5e5d96df196796d3",
     "blockHashes": [
       "2c2608753486ae3f",
       "74e4c1d2a646a96e",
@@ -9585,9 +9589,9 @@
       "9fc5f94a6090f9bf",
       "febd43aea19450a8",
       "d6c3249045b18f7b",
-      "f7ef7361d4a96722",
+      "454e10b9e4a7465a",
+      "c09b64f62decc661",
       "359b3f6c0bcc39c4",
-      "ace65bae569c96ec",
       "55d607f9f7a2de50",
       "006f79c81b3f00db",
       "1938cdf984d88fc6",
@@ -9598,7 +9602,7 @@
     "extractedChars": 3233,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
-    "lastChangedISO": "2026-09-21T01:07:49.381Z",
+    "lastChangedISO": "2026-09-21T13:22:19.926Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -10503,7 +10507,7 @@
     "lastChangedISO": "2026-09-21T12:27:18.376Z",
     "thinRuns": 0,
     "pendingClassification": true,
-    "classifyFailures": 1
+    "classifyFailures": 2
   },
   {
     "sourceUrl": "https://www.sidf.gov.sa/News",
@@ -10748,7 +10752,7 @@
   {
     "sourceUrl": "https://www.stats.gov.sa/ar/cooperative-training",
     "orgId": "gastat",
-    "contentHash": null,
+    "contentHash": "c731514d2baf537b31e52e29de824985082acdba95e2e1445bd34104fcca0e4b",
     "blockHashes": [
       "b618107f43bd2daf",
       "fb23e137c7d14cc9",
@@ -10764,7 +10768,7 @@
     "extractedChars": 727,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-21T00:24:02.604Z",
+    "lastChangedISO": "2026-09-21T13:22:19.926Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
