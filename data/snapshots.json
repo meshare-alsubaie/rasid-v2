@@ -2212,20 +2212,19 @@
   {
     "sourceUrl": "https://gaca.gov.sa/ar/announcements",
     "orgId": "gaca",
-    "contentHash": "6fb310d515f8bbc7e64cb1920727811a9c3cfb3b8aec909e55f8722049caf605",
+    "contentHash": "8a278e7115668442fdcf6daeac79d934ad591c5864020b9f8d08b43d93316935",
     "blockHashes": [
       "408627e3e5050e45",
       "9c2a3967149440a8",
       "83a22e1f9fb245f8",
       "bc532942aaed49b7"
     ],
-    "extractedChars": 1213,
+    "extractedChars": 1474,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-21T13:44:39.962Z",
+    "lastChangedISO": "2026-09-21T16:46:27.537Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://gaca.gov.sa/ar/News",
@@ -3345,8 +3344,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-21T13:44:39.962Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://momah.gov.sa/ar/node/14717",
@@ -6597,7 +6595,7 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/cooperations?lang=ar",
     "orgId": "hrc",
-    "contentHash": "750c3e8294a8e599db1737f97d02714dc777de3778dd82e5093b2573607b71db",
+    "contentHash": "68487186ff6ddf83843ce4d06c7227877767353dd7e225d7491d01d5b17acc95",
     "blockHashes": [
       "12e41a244a8a2984",
       "b384fcd30b10f764",
@@ -6621,9 +6619,9 @@
     "extractedChars": 6137,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-21T13:44:39.962Z",
+    "lastChangedISO": "2026-09-21T16:46:27.537Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/news?lang=ar",
@@ -6848,7 +6846,7 @@
   {
     "sourceUrl": "https://www.hrsd.gov.sa/care-about-you/skillsandtrain",
     "orgId": "hrsd",
-    "contentHash": "8ef4633e47be4c4c337d697cc6601ba464557340e4bf3337c20297a1d90752d1",
+    "contentHash": "5a1a50a1e45318e6dd42f34cf71538225200fb72deffedec4e41df0180f07c65",
     "blockHashes": [
       "92ab7c84ae7e0913",
       "f8aaf6eecf8c7048",
@@ -6881,12 +6879,12 @@
       "f240ebfacade946d",
       "db015a01afa585ed"
     ],
-    "extractedChars": 10760,
+    "extractedChars": 10759,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-20T16:06:41.068Z",
+    "lastChangedISO": "2026-09-21T16:46:27.537Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://www.hrsd.gov.sa/contact-us/inquiries-about-employment-offices",
@@ -7892,7 +7890,7 @@
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-20T12:59:49.059Z",
-    "thinRuns": 8,
+    "thinRuns": 9,
     "pendingClassification": false
   },
   {
@@ -9369,7 +9367,7 @@
   {
     "sourceUrl": "https://www.rcrc.gov.sa/news-ar/",
     "orgId": "rcrc",
-    "contentHash": "b7c2b06b78f3118089dd6638a9abd6c97b7d393c1961160a4723031f37fd107c",
+    "contentHash": "1c630a2cd5b9917287f501d09d01ec5139acea3634526c418a6d1265e4cb0a88",
     "blockHashes": [
       "dd62229c2f61fb42",
       "306db3646b8a6c73",
@@ -9384,13 +9382,12 @@
       "42d24dc3675b45a7",
       "2ebbd7048725e505"
     ],
-    "extractedChars": 3421,
+    "extractedChars": 3407,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-21T13:38:14.780Z",
+    "lastChangedISO": "2026-09-21T16:40:33.873Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://www.rcu.gov.sa/",
@@ -11850,8 +11847,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-21T13:40:39.428Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "triaged_out"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://zatca.gov.sa/ar/MediaCenter/Pages/default.aspx",
