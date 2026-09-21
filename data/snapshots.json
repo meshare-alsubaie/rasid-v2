@@ -137,7 +137,7 @@
   {
     "sourceUrl": "https://adf.gov.sa/ar/Pages/default.aspx",
     "orgId": "adf",
-    "contentHash": "8e67c098446102ba8e82d3403b1eb7a4ece72910846643f6aea630a61e263f4b",
+    "contentHash": "4e211dc65cc3ddc6934670bb46c19ee9d3e46ac521ab6dea457c1ad42b7fee1c",
     "blockHashes": [
       "1ce798e0ca5f6070",
       "9e8708f46644e878",
@@ -146,7 +146,7 @@
       "b7a4f19178b3b8a1",
       "0514128baf9c79f1",
       "9185920f2483a42d",
-      "6e9f8e43038fd3cc",
+      "4a952734db9294e9",
       "13285e8c3eb4c8ac",
       "4838bf63eca38706",
       "d380a83380c07da6",
@@ -160,7 +160,7 @@
     "extractedChars": 1702,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
-    "lastChangedISO": "2026-09-21T14:40:06.898Z",
+    "lastChangedISO": "2026-09-21T20:42:52.382Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "triaged_out"
@@ -6449,10 +6449,10 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/careers",
     "orgId": "hrc",
-    "contentHash": "cd8838708911f2a6c0081bd0a7be6c0b96fba8c6b66e648dbbfaf7317dad916d",
+    "contentHash": "f68f290bee1b53c42659a018cca10e3ff438331c2744a600a11512ad0a21baa2",
     "blockHashes": [
       "12e41a244a8a2984",
-      "68f14241d376de66",
+      "092ba8f1d68950fd",
       "9bd6314e9bbc7375",
       "474d2dbb69aae30b",
       "84b2fc11813dc7e8",
@@ -6476,7 +6476,7 @@
     "extractedChars": 3794,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-21T17:44:17.644Z",
+    "lastChangedISO": "2026-09-21T20:45:45.255Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -6936,8 +6936,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-21T17:44:17.644Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.hrsd.gov.sa/media-center/news",
@@ -7740,9 +7739,9 @@
   {
     "sourceUrl": "https://www.mim.gov.sa/ar/media-center/news",
     "orgId": "mim",
-    "contentHash": "588d44f0d2370ac33e17f7d0da57e3b1f004a05331022072c407309b4c3c8a4e",
+    "contentHash": "869ebac0380bcdc495de9af8581757c0ed383be9738032119f8a5bb309ca8d24",
     "blockHashes": [
-      "bab5ff718e791a3f",
+      "be80571dc00d64fe",
       "aa87c4ab020e99c6",
       "dc40cb1a74b23e69",
       "bd4936779f2d14d4",
@@ -7775,10 +7774,10 @@
     "extractedChars": 11446,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-21T17:50:34.413Z",
+    "lastChangedISO": "2026-09-21T20:51:41.825Z",
     "thinRuns": 0,
     "pendingClassification": false,
-    "settledWithoutVerdict": "triaged_out"
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://www.moc.gov.sa/ar",
