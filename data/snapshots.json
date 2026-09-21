@@ -137,7 +137,7 @@
   {
     "sourceUrl": "https://adf.gov.sa/ar/Pages/default.aspx",
     "orgId": "adf",
-    "contentHash": "e0a5a133a5ac761cdb39682957f27814400f0a2ab9fb97cabf3b060c18025beb",
+    "contentHash": "e6a3df14b6e2080117647f244571241f44aec9afaa3f4e567613b1b506ae4cad",
     "blockHashes": [
       "1ce798e0ca5f6070",
       "9e8708f46644e878",
@@ -146,7 +146,7 @@
       "b7a4f19178b3b8a1",
       "0514128baf9c79f1",
       "9185920f2483a42d",
-      "48ee82efc9928359",
+      "bf0989a5d3cabd46",
       "13285e8c3eb4c8ac",
       "4838bf63eca38706",
       "d380a83380c07da6",
@@ -157,10 +157,10 @@
       "782261474561a27a",
       "74b06ac36e5c75b0"
     ],
-    "extractedChars": 1693,
+    "extractedChars": 1695,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
-    "lastChangedISO": "2026-09-20T20:05:17.906Z",
+    "lastChangedISO": "2026-09-21T02:18:52.933Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "triaged_out"
@@ -1271,15 +1271,20 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/search-results",
     "orgId": "maaden",
-    "contentHash": "d8e02b13a50ff5fffe413a25bd13a62e0e0d2b78934a447057a36df036b50cfc",
+    "contentHash": "f78c8ffa0fb1926b19d91b13b36372aab0619edf0dc5d880d5672ecc69e11ef8",
     "blockHashes": [
-      "dab5a7f3801bc914",
-      "d7a6241d65a65796"
+      "5569201553604d03",
+      "b856ff306f7f788a",
+      "6bf0ca67e0f069b4",
+      "d6c0adacb353836a",
+      "e038e5edf13358e5",
+      "46a48885827d619f",
+      "5fcfff7faae04645"
     ],
-    "extractedChars": 225,
+    "extractedChars": 1316,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-21T01:24:49.673Z",
+    "lastChangedISO": "2026-09-21T02:15:04.478Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -1675,7 +1680,7 @@
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-15T13:08:42.574Z",
-    "thinRuns": 22,
+    "thinRuns": 23,
     "pendingClassification": false
   },
   {
@@ -2356,8 +2361,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-20T20:03:14.550Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://gmedia.gov.sa/ar/hiring",
@@ -3084,37 +3088,37 @@
   {
     "sourceUrl": "https://momah.gov.sa/ar",
     "orgId": "housing",
-    "contentHash": "f3a8ca34533f4cd34255dc5a16d519212dda1b7721230a0d0380db94241a5742",
+    "contentHash": "43cb5bcf04035a120de50aa06c139d69480fb37df979339dde3118cc87c20e6f",
     "blockHashes": [
       "390ea394b03ad064",
       "0cae66fd6419120a",
       "7e25f1f7dc1067c8",
       "5bb3b1f481593f34",
-      "c6c5984e91207ebf",
+      "5d3fcbad97ea89a3",
+      "5f7dd685867b573a",
+      "a40a4600afe7866d",
+      "0dd40ad534b98c1f",
+      "5fa2fa89b870022b",
       "ac1405062719fb86",
-      "d0492d2a427a6051",
-      "723d33d8be9b1c30",
+      "34b9e73595249d63",
+      "ea553abeb908c5b3",
       "09b1bd561f62b68f",
-      "02900dd6b2ae436e",
-      "e810bb0524b7085c",
-      "9ac30262caf855e2",
-      "cf684dd5d2569d9d",
-      "2faa2b4d2acd026e",
-      "c6d75d57d68c3770",
+      "35dd8a8a5c66890e",
+      "7e2b43298e04b963",
+      "5d15152619ff887e",
+      "d40ab86fde555628",
       "560edfe1df9d8921",
       "23b97a8a93aba477",
       "9cd3abf7fd1573ff",
-      "1818c71f540e93b6",
+      "70c35aa286c2c899",
+      "38bff9bd570b9beb",
       "ff6f87e39638cb9b",
-      "81b31cad6028d9a6",
-      "78a27c79464e757f",
-      "5d15152619ff887e",
-      "602cf614117da369"
+      "2a64987610e567a2"
     ],
     "extractedChars": 153782,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-20T20:03:14.550Z",
+    "lastChangedISO": "2026-09-21T02:15:04.478Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -3654,8 +3658,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-20T23:08:21.758Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://ndf.gov.sa/media-center/articles/article-human-resource-development",
@@ -6376,10 +6379,10 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/careers",
     "orgId": "hrc",
-    "contentHash": "f4409b5af6874740c09c8f4bef68ae48214c17d424817659713715ce35933d0f",
+    "contentHash": "881be5cd92d6cc3e17bb28147fd0148988702bb178d0266bfd56ff06660b1f4c",
     "blockHashes": [
       "12e41a244a8a2984",
-      "80d9301d75a56906",
+      "463e8ceafa961c24",
       "9bd6314e9bbc7375",
       "474d2dbb69aae30b",
       "84b2fc11813dc7e8",
@@ -6403,7 +6406,7 @@
     "extractedChars": 3794,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-20T23:08:21.758Z",
+    "lastChangedISO": "2026-09-21T02:15:04.478Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -7500,8 +7503,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-20T23:08:21.758Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.mewa.gov.sa/ar/MediaCenter/MultimediaLibrary/Pages/default.aspx",
@@ -8636,8 +8638,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-20T23:10:20.161Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "triaged_out"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.ncc.gov.sa/ar/MediaCenter/Events/Pages/default.aspx",
@@ -10639,7 +10640,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-21T00:24:02.604Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.stats.gov.sa/en/cooperative-training",
