@@ -6449,10 +6449,10 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/careers",
     "orgId": "hrc",
-    "contentHash": "a1fa019f9d0e2889da4a30df9825f31a5aa44d3c5701ebd832edb6ebea3410c0",
+    "contentHash": "cd8838708911f2a6c0081bd0a7be6c0b96fba8c6b66e648dbbfaf7317dad916d",
     "blockHashes": [
       "12e41a244a8a2984",
-      "ee88c276329a3aff",
+      "68f14241d376de66",
       "9bd6314e9bbc7375",
       "474d2dbb69aae30b",
       "84b2fc11813dc7e8",
@@ -6476,7 +6476,7 @@
     "extractedChars": 3794,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-21T14:42:56.117Z",
+    "lastChangedISO": "2026-09-21T17:44:17.644Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -6923,19 +6923,20 @@
   {
     "sourceUrl": "https://www.hrsd.gov.sa/media-center/events",
     "orgId": "hrsd",
-    "contentHash": "f595757f83b37bbb2e00a0789a559d27f5dc461fb2d54e3047b0e5934cbc578d",
+    "contentHash": "f59134840def9edb2c000263c96e6b0778f018086030f35a347fe412a3f93fcf",
     "blockHashes": [
       "92ab7c84ae7e0913",
       "4b7c6ccbbbe50614",
       "f240ebfacade946d",
-      "dc7c38a36b643a4a"
+      "93d5f30dbc47ffa0"
     ],
-    "extractedChars": 2919,
+    "extractedChars": 2918,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-20T16:56:13.192Z",
+    "lastChangedISO": "2026-09-21T17:44:17.644Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://www.hrsd.gov.sa/media-center/news",
@@ -9326,17 +9327,16 @@
   {
     "sourceUrl": "https://www.rcrc.gov.sa/careers/?lang=ar",
     "orgId": "rcrc",
-    "contentHash": "a7adb84eef4cb0fe79ea5248cc61ed197f38474eebcfa686106f1d65955b40ac",
+    "contentHash": "d16370aacd4b5729c6d1132b6a9fea911d3acf42fbbbdfec21787216dde74614",
     "blockHashes": [
-      "4c49d4077ec1b78c"
+      "d16370aacd4b5729"
     ],
-    "extractedChars": 1166,
+    "extractedChars": 784,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-21T16:54:15.073Z",
+    "lastChangedISO": "2026-09-21T17:44:17.644Z",
     "thinRuns": 0,
-    "pendingClassification": true,
-    "classifyFailures": 1
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.rcrc.gov.sa/media-center/",
