@@ -1338,19 +1338,19 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/search-results",
     "orgId": "maaden",
-    "contentHash": "84e836f774f5aeedb90a88f206e25fa4de133b2df720d7382d94d71c86f4998a",
+    "contentHash": "05956142c6c6ac0bf9e709b61c5b519d5ee212aea5ca3f478eeb673b2e21084e",
     "blockHashes": [
       "5569201553604d03",
       "b856ff306f7f788a",
       "57fda77dfe76d895",
       "f98dae800deb0360"
     ],
-    "extractedChars": 1113,
-    "extractionMethod": "body_fallback",
+    "extractedChars": 240,
+    "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-21T22:37:02.811Z",
+    "lastChangedISO": "2026-09-21T23:23:58.022Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://careers.mcit.gov.sa/",
@@ -2228,9 +2228,9 @@
   {
     "sourceUrl": "https://gaca.gov.sa/ar/News",
     "orgId": "gaca",
-    "contentHash": "8aa8616dc511580ec1240e4625c5792df01da178ea3b0a64b61e99b56ccc71b5",
+    "contentHash": "755ece60397e3d1c5c5afa857270d99c51c760f94e1eb1772abf1b58e22934d5",
     "blockHashes": [
-      "4dd9a6b99e596290",
+      "cc7a305b4256160f",
       "ef26de24708740d2",
       "95eb6a3bfae983dc",
       "50638526149c77c9",
@@ -2297,12 +2297,12 @@
       "83806ca220a038f5",
       "12de0761cfdf936c",
       "83a22e1f9fb245f8",
-      "2ccfa90c84c059a7"
+      "bc532942aaed49b7"
     ],
-    "extractedChars": 20768,
+    "extractedChars": 20507,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-21T20:06:10.846Z",
+    "lastChangedISO": "2026-09-21T23:14:30.488Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -3272,39 +3272,40 @@
   {
     "sourceUrl": "https://momah.gov.sa/ar/menu/media-center",
     "orgId": "housing",
-    "contentHash": "68c867838f9f131e39c576155bc2e7abea3d55e3ae5488543d162b7e7d4649d2",
+    "contentHash": "2cbdd17a2f79aba9b29c3b2e159896d6f6cd53704ceea570c59474da926f308c",
     "blockHashes": [
       "4c63522200199108",
       "7bc8965d992df69b",
       "aa8e55eac5aea8cd",
       "09552ec2996654f9",
-      "022ee4ec61a5719e",
-      "89e13b3b7d866be2",
-      "cc89635bdc67d013",
-      "ac1405062719fb86",
-      "08a522e3a42349ef",
-      "09b1bd561f62b68f",
-      "e303781778e85f07",
-      "62f49e9adc8ad41a",
-      "2605ac15e82dcc39",
+      "ec9f5216b6f7a505",
+      "a77f38193c13367f",
+      "c8159c8ca52bce6c",
+      "5d15152619ff887e",
+      "90f8c17e61a3126f",
+      "68b8d61914da3899",
+      "f7f98b608845e08a",
+      "8dd24dce8f856ba0",
       "ff6f87e39638cb9b",
-      "ceeb8981799dbf8b",
-      "7d1733cb87c2a22c",
+      "32f6d6cc062a9d86",
+      "726e423b5db6a785",
       "560edfe1df9d8921",
       "23b97a8a93aba477",
       "9cd3abf7fd1573ff",
-      "8a6af368ffc93c8d",
-      "5ef47fa7bc95786b",
-      "5d15152619ff887e",
-      "8474fc8ebdf86f0b",
-      "dbf55de8baec73f4"
+      "1440653002c3011d",
+      "09b1bd561f62b68f",
+      "ab4c361ba992b83f",
+      "ac1405062719fb86",
+      "0b0137009ce113c7",
+      "e41aec44810ef0d8"
     ],
     "extractedChars": 151282,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-21T14:00:39.106Z",
+    "lastChangedISO": "2026-09-21T23:14:30.488Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://momah.gov.sa/ar/news",
@@ -3747,16 +3748,17 @@
   {
     "sourceUrl": "https://ndf.gov.sa/media-center/newsletters",
     "orgId": "ndf",
-    "contentHash": "312b947fe7f28edaa029be38e46fdaff750c9376de2c49a62a9998e95cd7f998",
+    "contentHash": "20a1f152c3c5f6bfabd9e816e7d4fab04434a706ffdf3aca8119c88be8afecb5",
     "blockHashes": [
-      "312b947fe7f28eda"
+      "20a1f152c3c5f6bf"
     ],
-    "extractedChars": 1163,
+    "extractedChars": 1164,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-20T22:36:42.511Z",
+    "lastChangedISO": "2026-09-21T23:14:30.488Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://ndf.gov.sa/media-center/press-news",
@@ -6517,10 +6519,10 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/careers/graduate-development-program",
     "orgId": "hrc",
-    "contentHash": "75ba3081178df288fe40dfadb00105ec1a1ee0b94b8ac958ce2c965a1f8b7aee",
+    "contentHash": "a69755d9549dd48ff3df000b6189fcf6bac1e7384708d9361771afd49bcd14ab",
     "blockHashes": [
       "12e41a244a8a2984",
-      "d6b0fdea118b96ac",
+      "fdfcba2b73f11039",
       "741386d322f274be",
       "40d7009856bbc81d",
       "2dd486d3d3cacb8b",
@@ -6586,7 +6588,7 @@
     "extractedChars": 10689,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-21T20:06:10.846Z",
+    "lastChangedISO": "2026-09-21T23:14:30.488Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -8097,11 +8099,11 @@
   {
     "sourceUrl": "https://www.mof.gov.sa/mediacenter/events/Pages/CalEvent.aspx",
     "orgId": "mof",
-    "contentHash": "51781b05e77ae5572772bf4bd59036d9ac6def8070a3ff5b1f9fbb6a7e530a30",
+    "contentHash": "9b7f11764302d2c6a986dad6be520e597c55a1eca94b79c8b56563782a07fdcd",
     "blockHashes": [
       "7f625851cbbadbc6",
       "f7711325e2c4b301",
-      "f2c30bb1e66510ca",
+      "36439ca6c713dda1",
       "b1bec34b5330c702",
       "f4809815161554d5",
       "16ff3360390869f3",
@@ -8112,12 +8114,13 @@
       "e449b5a351b550c3",
       "4c2f7108a1879030"
     ],
-    "extractedChars": 10148,
+    "extractedChars": 10149,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-21T01:36:44.276Z",
+    "lastChangedISO": "2026-09-21T23:19:12.745Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://www.mof.gov.sa/Pages/default.aspx",
