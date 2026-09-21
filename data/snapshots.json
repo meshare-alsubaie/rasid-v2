@@ -649,7 +649,7 @@
   {
     "sourceUrl": "https://athkax.sdaia.gov.sa/coop",
     "orgId": "sdaia",
-    "contentHash": "a58f144950bb22de0c4667555dc3401317db3a7e9e0679e6a27c03768b15a660",
+    "contentHash": "f1c749f1b0084dc210dc0d9f1e447c42c8ea07e30a315579c292163ea7abbe55",
     "blockHashes": [
       "04ba8a3fca46514f",
       "4bd08244050e9682"
@@ -657,10 +657,10 @@
     "extractedChars": 756,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-21T17:08:19.603Z",
+    "lastChangedISO": "2026-09-21T21:57:45.326Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "classifyFailures": 3
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://awqaf.gov.sa/ar/ar/hiring/",
@@ -763,7 +763,7 @@
   {
     "sourceUrl": "https://career.alinma.com/",
     "orgId": "alinma",
-    "contentHash": null,
+    "contentHash": "e245fd94c1ab59dcc6bad34af50ba34c224654b27d2f46834c18eef001143fa5",
     "blockHashes": [
       "d139e32e22028878",
       "24a16c9057a577bb",
@@ -772,7 +772,7 @@
     "extractedChars": 750,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-01T01:46:07.967Z",
-    "lastChangedISO": "2026-09-21T19:34:17.437Z",
+    "lastChangedISO": "2026-09-21T21:57:45.326Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -1337,7 +1337,7 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/search-results",
     "orgId": "maaden",
-    "contentHash": "b00bbcaeac05f99a5889c80d3c3d3c63677e9576f87e41627a2948d0e1299767",
+    "contentHash": "7b3575bd4621aa69068ec5d1360352d4c296b2a9053a64661a1954df18dc2602",
     "blockHashes": [
       "dab5a7f3801bc914",
       "84e045badd29860a",
@@ -1346,9 +1346,9 @@
     "extractedChars": 240,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-21T21:05:28.641Z",
+    "lastChangedISO": "2026-09-21T21:51:23.860Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://careers.mcit.gov.sa/",
@@ -2026,11 +2026,11 @@
   {
     "sourceUrl": "https://careers.zatca.gov.sa/search/?createNewAlert=false&q=&locationsearch=",
     "orgId": "zatca",
-    "contentHash": "c92fc152a09cd06495281fab0cbd14acede61abaf5c7aef560119b0b5c51708d",
+    "contentHash": "2ebeab8515d100f5f9abb318b402713c68cc1ce9a5d3e49b2ab2762bd8beac9d",
     "blockHashes": [
       "650a2ce183d63c69",
-      "dd450f1dd7ffc075",
-      "60e3a8124e67a7a7",
+      "8456956ae77bc124",
+      "b564e431d0ea079e",
       "78be07dcda742780",
       "c49b0200e6533e42",
       "c49b0200e6533e42",
@@ -2046,7 +2046,7 @@
     "extractedChars": 573,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-21T12:17:51.143Z",
+    "lastChangedISO": "2026-09-21T21:57:45.326Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
