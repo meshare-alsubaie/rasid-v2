@@ -660,7 +660,7 @@
     "lastChangedISO": "2026-09-21T17:08:19.603Z",
     "thinRuns": 0,
     "pendingClassification": true,
-    "classifyFailures": 1
+    "classifyFailures": 2
   },
   {
     "sourceUrl": "https://awqaf.gov.sa/ar/ar/hiring/",
@@ -764,7 +764,7 @@
   {
     "sourceUrl": "https://career.alinma.com/",
     "orgId": "alinma",
-    "contentHash": "e245fd94c1ab59dcc6bad34af50ba34c224654b27d2f46834c18eef001143fa5",
+    "contentHash": null,
     "blockHashes": [
       "d139e32e22028878",
       "24a16c9057a577bb",
@@ -1337,17 +1337,17 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/search-results",
     "orgId": "maaden",
-    "contentHash": "e71a27ea10613aa8c48fcd1a9c4cc56ac39c6c64fa8fecdb0fb2652af4153bbb",
+    "contentHash": "0735824efc4f79a8854d22b01b245ddbb2ec1f366783fc383a8e1f821f319767",
     "blockHashes": [
       "5569201553604d03",
-      "6610997bc1f9b192",
-      "d6c0adacb353836a",
-      "3904d250203b9f7e"
+      "6e3cceb54e777f64",
+      "95c744e8d90907cd",
+      "e37961d7dc5374a0"
     ],
-    "extractedChars": 702,
-    "extractionMethod": "body_fallback",
+    "extractedChars": 240,
+    "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-21T17:00:08.493Z",
+    "lastChangedISO": "2026-09-21T17:46:27.100Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -1743,7 +1743,7 @@
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-15T13:08:42.574Z",
-    "thinRuns": 27,
+    "thinRuns": 28,
     "pendingClassification": false
   },
   {
@@ -4451,7 +4451,7 @@
   {
     "sourceUrl": "https://training.moj.gov.sa/",
     "orgId": "moj",
-    "contentHash": "f4c6ef6b783b69d09a8f681ad1d80f1df35ef8cb8864917255879208cc305886",
+    "contentHash": null,
     "blockHashes": [
       "84a570379809f573",
       "ab443a0bbfda7883"
@@ -7740,17 +7740,15 @@
   {
     "sourceUrl": "https://www.mim.gov.sa/ar/media-center/news",
     "orgId": "mim",
-    "contentHash": "a71621d97f70162dba1bdfefd715a33cd93b61384cd40a91b2e7547fdabbf7a8",
+    "contentHash": "588d44f0d2370ac33e17f7d0da57e3b1f004a05331022072c407309b4c3c8a4e",
     "blockHashes": [
-      "1937d21fe13c54f1",
-      "463b9481c85872fc",
+      "bab5ff718e791a3f",
+      "aa87c4ab020e99c6",
       "dc40cb1a74b23e69",
-      "d30c0a023daa76ff",
+      "bd4936779f2d14d4",
       "47a950af7f4b0342",
       "c912be443951b539",
-      "90fa680809990c30",
-      "634a5a8d064708ad",
-      "220ccb0c9b3c817a",
+      "8601e7abc237fc22",
       "7bc08ee35640ba91",
       "bf023e64b6a4e8ce",
       "accd88ab9dfdfd85",
@@ -7770,15 +7768,17 @@
       "8e2e4439ee219427",
       "9ad6c9c65b05d9e0",
       "9f3e3e37904ba5ef",
-      "ba49ff305d954730"
+      "ef5ad4bd32461db0",
+      "634a5a8d064708ad",
+      "5f8a73e334b17f4f"
     ],
-    "extractedChars": 11486,
+    "extractedChars": 11446,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-21T14:49:49.131Z",
+    "lastChangedISO": "2026-09-21T17:50:34.413Z",
     "thinRuns": 0,
     "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "settledWithoutVerdict": "triaged_out"
   },
   {
     "sourceUrl": "https://www.moc.gov.sa/ar",
@@ -11239,21 +11239,24 @@
   {
     "sourceUrl": "https://www.tadawulgroup.sa/wps/portal/tadawulgroup/joinus",
     "orgId": "tadawul",
-    "contentHash": "d0d3b5ac169f1b73ab7aa83d70c779f4ee298b89ccc3b8284f83c6034148bac3",
+    "contentHash": "218af6789adae9d596633c79e9b359213a247d93501904bfc43eeae06fd8c680",
     "blockHashes": [
-      "0cfcdfa727221d00",
-      "689f707057688943",
-      "50a3cca530113406",
-      "a3435878c6033280",
-      "b2cab4da26050ee9"
+      "dbfb7021493a5943",
+      "4acb10188c67e120",
+      "9b405996eceb74cf",
+      "5b4fe1a76867e3dc",
+      "4cacbd860b3b4c52",
+      "a888c2eda107d142",
+      "a8f106c1cf7430a5",
+      "99045a67c833cd6b",
+      "332ab17b1cccbd59"
     ],
-    "extractedChars": 1186,
+    "extractedChars": 1384,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-02T23:42:46.216Z",
-    "lastChangedISO": "2026-09-21T09:51:18.331Z",
+    "lastChangedISO": "2026-09-21T17:57:09.624Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "classifyFailures": 3
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.tahakom.com/",
