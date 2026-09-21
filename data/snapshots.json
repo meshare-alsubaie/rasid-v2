@@ -2225,9 +2225,9 @@
   {
     "sourceUrl": "https://gaca.gov.sa/ar/News",
     "orgId": "gaca",
-    "contentHash": "d685ac1985798d5dce1fd175d26ea9eb90c49639a7f3cc0e9553f79a7222a7f3",
+    "contentHash": "8aa8616dc511580ec1240e4625c5792df01da178ea3b0a64b61e99b56ccc71b5",
     "blockHashes": [
-      "d2c374f90f9e7eaf",
+      "4dd9a6b99e596290",
       "ef26de24708740d2",
       "95eb6a3bfae983dc",
       "50638526149c77c9",
@@ -2294,12 +2294,12 @@
       "83806ca220a038f5",
       "12de0761cfdf936c",
       "83a22e1f9fb245f8",
-      "bc532942aaed49b7"
+      "2ccfa90c84c059a7"
     ],
-    "extractedChars": 20506,
+    "extractedChars": 20768,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-21T17:01:36.950Z",
+    "lastChangedISO": "2026-09-21T20:06:10.846Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -5686,8 +5686,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-21T14:00:39.106Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.ecza.gov.sa/ar/media-center/news-press",
@@ -6513,10 +6512,10 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/careers/graduate-development-program",
     "orgId": "hrc",
-    "contentHash": "d822606c2832bbd452d78de7098e1dbf73064c57ec185c9854d3177380df6d5e",
+    "contentHash": "75ba3081178df288fe40dfadb00105ec1a1ee0b94b8ac958ce2c965a1f8b7aee",
     "blockHashes": [
       "12e41a244a8a2984",
-      "bf7189e199f263b1",
+      "d6b0fdea118b96ac",
       "741386d322f274be",
       "40d7009856bbc81d",
       "2dd486d3d3cacb8b",
@@ -6582,7 +6581,7 @@
     "extractedChars": 10689,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-21T17:01:36.950Z",
+    "lastChangedISO": "2026-09-21T20:06:10.846Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -7715,8 +7714,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-21T13:47:44.806Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "triaged_out"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.mim.gov.sa/ar/empower-training/cooperative-training",
@@ -10726,13 +10724,13 @@
   {
     "sourceUrl": "https://www.stats.gov.sa/ar",
     "orgId": "gastat",
-    "contentHash": null,
+    "contentHash": "09be3176b51c37c549b5da664f0092994c85dbf22a0c7d99e48921bfe586f118",
     "blockHashes": [
       "b618107f43bd2daf",
       "7c7b7fcab684a4c3",
-      "7e828977fa1d3136",
+      "a64dccfda9f1718d",
       "88fea87540d73662",
-      "4030f1fa530f2be2",
+      "02d3117b00a5ac06",
       "eee46ad1abd665a1",
       "dc84e74cdce35fa3",
       "9214de5f4ec23c78"
@@ -10740,9 +10738,10 @@
     "extractedChars": 4744,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-21T01:48:30.655Z",
+    "lastChangedISO": "2026-09-21T20:10:35.340Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://www.stats.gov.sa/ar/cooperative-training",
@@ -11773,11 +11772,11 @@
   {
     "sourceUrl": "https://zatca.gov.sa/ar",
     "orgId": "zatca",
-    "contentHash": "4de32ed1a650dcf9caa3d3af0daba4bddb635f1c91cd030ae63a1c4119d5b099",
+    "contentHash": "e5c204ccf81c9f7679755a399659edf8b7d9a83936b59aeef25af9d0a9046061",
     "blockHashes": [
       "9002014afa7b66cb",
       "dd3372afafcdfd61",
-      "f629db25ed60eef2",
+      "58f3ab444f4ed095",
       "e5df56b0a0fe5091",
       "782261474561a27a",
       "701306ea50407e12",
@@ -11792,9 +11791,10 @@
     "extractedChars": 696,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-20T13:18:00.315Z",
+    "lastChangedISO": "2026-09-21T20:00:06.581Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://zatca.gov.sa/ar/MediaCenter/Elan/Pages/default.aspx",
