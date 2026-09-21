@@ -1335,19 +1335,17 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/search-results",
     "orgId": "maaden",
-    "contentHash": "8ddbdfdc48c70d733c70c11c07d84bab6822ac0b7e4e9997e152d0a038fc8f8e",
+    "contentHash": "34ff53eab7b33b0e47bb84efbd955250f3ec15c98a22992b2fe3f1b136f12717",
     "blockHashes": [
       "5569201553604d03",
-      "b856ff306f7f788a",
-      "298a05ebe5a16280",
-      "d6c0adacb353836a",
-      "882eebb8ba2a2493",
-      "405264605360f186"
+      "6610997bc1f9b192",
+      "2dffb2d2be7322f9",
+      "0dc6edac4dac6e8c"
     ],
-    "extractedChars": 447,
+    "extractedChars": 221,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-21T11:14:10.519Z",
+    "lastChangedISO": "2026-09-21T12:01:07.133Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -3591,16 +3589,17 @@
   {
     "sourceUrl": "https://nca.gov.sa/en/news/",
     "orgId": "nca",
-    "contentHash": "308569b139034702d56afa6e924b9dcefeb7942ec9a7616926bbb76a3c3410ee",
+    "contentHash": "1864dc5a6f9d9a9f278db8bb37a52f00e357e5edcebf01759ba43e06f2d3f7ca",
     "blockHashes": [
-      "308569b139034702"
+      "1864dc5a6f9d9a9f"
     ],
-    "extractedChars": 685,
-    "extractionMethod": "readability",
+    "extractedChars": 500,
+    "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-15T13:40:49.551Z",
+    "lastChangedISO": "2026-09-21T11:54:44.313Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://ncar.gov.sa/",
@@ -10419,8 +10418,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-21T08:35:21.499Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.sfda.gov.sa/en/career-vision-and-mission",
@@ -10800,7 +10798,7 @@
   {
     "sourceUrl": "https://www.stats.gov.sa/en/news",
     "orgId": "gastat",
-    "contentHash": "cf9570eb028eeee055ad4fa1d5232ab5b71e2b0825251682b269065c239844b8",
+    "contentHash": null,
     "blockHashes": [
       "b7ce6498ecbc7c40",
       "c76bf99f8551a732",
