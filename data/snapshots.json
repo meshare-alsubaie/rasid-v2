@@ -648,7 +648,7 @@
   {
     "sourceUrl": "https://athkax.sdaia.gov.sa/coop",
     "orgId": "sdaia",
-    "contentHash": "a58f144950bb22de0c4667555dc3401317db3a7e9e0679e6a27c03768b15a660",
+    "contentHash": "f1c749f1b0084dc210dc0d9f1e447c42c8ea07e30a315579c292163ea7abbe55",
     "blockHashes": [
       "04ba8a3fca46514f",
       "4bd08244050e9682"
@@ -656,10 +656,10 @@
     "extractedChars": 756,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-21T05:47:14.271Z",
+    "lastChangedISO": "2026-09-21T09:02:34.880Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "classifyFailures": 3
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://awqaf.gov.sa/ar/ar/hiring/",
@@ -1270,17 +1270,17 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/search-results",
     "orgId": "maaden",
-    "contentHash": "93754498eae6ee02332e12886dab26df0ac7c6f2443e282cd0b2f389147a28b5",
+    "contentHash": "cb92b7ed63e18a51fd245c8b0185aacde396f8804b99f0f5e49ea204c3dec7a6",
     "blockHashes": [
-      "5569201553604d03",
-      "6610997bc1f9b192",
-      "cf5dc072edfa8fb2",
-      "eb8876060a42498b"
+      "dab5a7f3801bc914",
+      "d6c0adacb353836a",
+      "4abedd24914bdd6a",
+      "0319bb7cd622eb87"
     ],
-    "extractedChars": 1106,
-    "extractionMethod": "body_fallback",
+    "extractedChars": 240,
+    "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-21T07:57:55.382Z",
+    "lastChangedISO": "2026-09-21T08:51:18.131Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -1699,7 +1699,7 @@
   {
     "sourceUrl": "https://careers.sdaia.gov.sa/training",
     "orgId": "sdaia",
-    "contentHash": "c85f5e138b5c65644cc36a9b0c5e9718da8d17a96fc8f6de56c2a65e79a3e09a",
+    "contentHash": "6d46074f1938763f0a9245a2aa1b013633c7a37add8a82be35a0ab6acd37be64",
     "blockHashes": [
       "a3638bfcc93928a2",
       "5a2ea8a7bc8ff607",
@@ -1710,12 +1710,12 @@
       "9c07884d4ed44032",
       "c4aabeebd58258d2",
       "6dc60fec12c030a8",
-      "7d2db2ddafbe589d"
+      "8f0732c7043be9ff"
     ],
     "extractedChars": 1605,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-21T07:26:17.187Z",
+    "lastChangedISO": "2026-09-21T09:02:34.880Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
