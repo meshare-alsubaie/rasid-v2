@@ -2145,19 +2145,20 @@
   {
     "sourceUrl": "https://gaca.gov.sa/ar/announcements",
     "orgId": "gaca",
-    "contentHash": "f0a48aa6ce719544db8d443e4fb4ff68588b2f942ef5facaaf05a266e1048aca",
+    "contentHash": "2cf550fef08b536ef5ca1961b244e37640a17a5e7c5ec81d422ca9e9d9da279a",
     "blockHashes": [
-      "2e49f9757e4a563a",
+      "3ec1ce6e080cff60",
       "9c2a3967149440a8",
       "83a22e1f9fb245f8",
-      "7de1c156a36d0c38"
+      "bc532942aaed49b7"
     ],
     "extractedChars": 1213,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-21T01:20:25.277Z",
+    "lastChangedISO": "2026-09-21T04:24:04.745Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://gaca.gov.sa/ar/News",
@@ -3242,7 +3243,7 @@
   {
     "sourceUrl": "https://momah.gov.sa/ar/news",
     "orgId": "housing",
-    "contentHash": "25246455f8da32b3d4b543db92cd96d1c6644a8580da78bfb49521fd74a9a849",
+    "contentHash": "ef5d748d7b2fa07e7b8f912bd4a103d36824dc6d71fda051a3ec0acafff4b269",
     "blockHashes": [
       "c39d79399ac7deac",
       "b9439a5539a1ee25",
@@ -3253,33 +3254,34 @@
       "2c7f5cb980571d23",
       "aa8e55eac5aea8cd",
       "09552ec2996654f9",
-      "33002644441efcbb",
-      "a3c9b49e832f55ce",
-      "5d15152619ff887e",
-      "5b98130c7013cafe",
-      "15927488e7a2f2f6",
-      "a29e9970f36e910f",
-      "ac1405062719fb86",
-      "c4750475c585493d",
-      "ff6f87e39638cb9b",
-      "93504bf7fd3f1f34",
-      "09b1bd561f62b68f",
-      "2460216efe59331c",
-      "b117f0e05616ba47",
+      "1c3cb28e02562373",
       "560edfe1df9d8921",
       "23b97a8a93aba477",
       "9cd3abf7fd1573ff",
-      "bb8c65d056d9f95c",
-      "82acc0ac0ede0d99",
-      "d824c9f30669bcad",
-      "48d4d4f929ed80d2"
+      "49bddd7f86d1f3bf",
+      "ff6f87e39638cb9b",
+      "0d3333cde52cdd77",
+      "5d15152619ff887e",
+      "848ac0b9f2051287",
+      "09b1bd561f62b68f",
+      "ca905cd5873fd6bb",
+      "940dacbc2a9e6278",
+      "7d014736460b816f",
+      "ff42a4f49664e8a7",
+      "ac1405062719fb86",
+      "207952c07d1cc27c",
+      "78e69fdbd6426a11",
+      "950ead09290774d7",
+      "be92bacfd92b47df",
+      "baa3be3416cf6736"
     ],
     "extractedChars": 151354,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-21T01:20:25.277Z",
+    "lastChangedISO": "2026-09-21T04:24:04.745Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://momah.gov.sa/ar/node/14717",
@@ -6523,10 +6525,10 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/cooperations?lang=ar",
     "orgId": "hrc",
-    "contentHash": "099e99d64a31b4398e45020de94002a27be9cd2435f81bbfe3cfcda55b04bf10",
+    "contentHash": "1bc79c14aab17472727f6382a1470c636ab7db6097dbdd0c39fffeb68720649c",
     "blockHashes": [
       "12e41a244a8a2984",
-      "a15122127b072c32",
+      "9644b45cfca30f16",
       "15c715928fc246c0",
       "9a4a215f8452ca45",
       "961639689d2c8819",
@@ -6547,9 +6549,9 @@
     "extractedChars": 6137,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-21T01:20:25.277Z",
+    "lastChangedISO": "2026-09-21T04:24:04.745Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/news?lang=ar",
@@ -9230,14 +9232,14 @@
   {
     "sourceUrl": "https://www.rcrc.gov.sa/careers/?lang=ar",
     "orgId": "rcrc",
-    "contentHash": "52125249d3bf7d267cb4273a119258952e452f1c10ff67781181119b5048ace5",
+    "contentHash": "ad9fe02f7b73715bb40e667e9beb53e5651f334e6f7d5545f3e094104a5a24bc",
     "blockHashes": [
       "7e7ea9ff9cde69b3"
     ],
     "extractedChars": 1166,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-21T03:36:52.536Z",
+    "lastChangedISO": "2026-09-21T04:28:37.842Z",
     "thinRuns": 0,
     "pendingClassification": true,
     "classifyFailures": 1
