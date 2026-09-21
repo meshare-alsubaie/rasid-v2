@@ -3808,15 +3808,15 @@
       "f07c14277720310e",
       "1011bca4968f2cff",
       "d203a1013a0fc539",
-      "ae6329ea7aac7577",
-      "1e515db55223cbf4"
+      "f41f2f5475db2df1"
     ],
     "extractedChars": 512,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-21T01:11:21.727Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://redf.gov.sa/",
@@ -7654,7 +7654,7 @@
   {
     "sourceUrl": "https://www.mim.gov.sa/ar/empower-training/cooperative-training",
     "orgId": "mim",
-    "contentHash": "2bc7a630462d0a4a162f5f3566d7a964828a2b2de7134ac318c2f8e9906aa3a9",
+    "contentHash": "20b16ca0ebeb8d281c0bf1a1d5dd20d0ab1834a12a5f3d5c8c00500dd099f98d",
     "blockHashes": [
       "1cb91553dd3291a4",
       "5300d4cdd32a8d33"
@@ -7662,7 +7662,7 @@
     "extractedChars": 2473,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T02:22:33.828Z",
-    "lastChangedISO": "2026-09-21T03:31:05.617Z",
+    "lastChangedISO": "2026-09-21T04:19:10.394Z",
     "thinRuns": 0,
     "pendingClassification": true,
     "classifyFailures": 1
@@ -7819,7 +7819,7 @@
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-20T12:59:49.059Z",
-    "thinRuns": 4,
+    "thinRuns": 5,
     "pendingClassification": false
   },
   {
@@ -9270,12 +9270,12 @@
   {
     "sourceUrl": "https://www.rcrc.gov.sa/news-ar/",
     "orgId": "rcrc",
-    "contentHash": "b6482cdafe2738aeec661b03fafe4b3019032b1f23b6e1ad34ed219fcf5cd067",
+    "contentHash": "f3f061942833fe9e8f072bba20b9b374b24b2722b1f0c78953dd0ff733a9d54a",
     "blockHashes": [
       "dd62229c2f61fb42",
       "306db3646b8a6c73",
       "b28682d0a5fa37ed",
-      "dc1ae4595eab92de",
+      "3f5b5ea28c1c2016",
       "dd5bfb74e89dbbdd",
       "b32d68c4e5c2da0f",
       "b91cd7f4edfa88d2",
@@ -9288,9 +9288,10 @@
     "extractedChars": 3421,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-21T01:11:21.727Z",
+    "lastChangedISO": "2026-09-21T04:14:40.537Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://www.rcu.gov.sa/",

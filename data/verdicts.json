@@ -1,6 +1,6 @@
 {
   "model": "qwen3:8b",
-  "writtenISO": "2026-09-21T04:11:00.056Z",
+  "writtenISO": "2026-09-21T04:19:10.394Z",
   "verdicts": {
     "d3ed902d693a4c1d3b4fc1c6f9b85ea8": null,
     "cc97c142781ff3943c2ea2f9f38af7d8": null,
@@ -3308,6 +3308,26 @@
     "8a6ef51ee4c01bcd2d735d0a0c0f2ffa": null,
     "15e64612bbda5e1110cc69967eb2effd": null,
     "64286e84b659d860333588c37852697c": null,
-    "774e93bc306c98a36863417191c32127": null
+    "774e93bc306c98a36863417191c32127": null,
+    "d1cb5965a68afed819debd18df22dd08": {
+      "isTrainingAnnouncement": true,
+      "product": "coop",
+      "titleAr": "Other COOP Training التدريب التعاوني",
+      "opensISO": null,
+      "closesISO": null,
+      "opensRaw": "14-Sep-2023",
+      "closesRaw": null,
+      "moreOnPage": true,
+      "majors": [],
+      "seats": null,
+      "stipendSAR": null,
+      "durationWeeks": null,
+      "cities": [
+        "Riyadh"
+      ],
+      "statesZeroCoursesRule": false,
+      "zeroCoursesQuote": null,
+      "applyUrl": null
+    }
   }
 }
