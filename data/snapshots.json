@@ -2200,19 +2200,20 @@
   {
     "sourceUrl": "https://gaca.gov.sa/announcements",
     "orgId": "gaca",
-    "contentHash": "27f7d5cfa28dc50f9509101774050b9ccb20f7303e1095017f47a119edaf3c74",
+    "contentHash": "ec8530828d7cb1aea10249577cdab6374e9a26a8fdf54ce68d21a04ec606cdbc",
     "blockHashes": [
-      "41b4a837bbcb87fe",
+      "f5b1940c6bdae1e4",
       "9c2a3967149440a8",
       "83a22e1f9fb245f8",
-      "bc532942aaed49b7"
+      "742a17aa4393e6c2"
     ],
-    "extractedChars": 1214,
+    "extractedChars": 1475,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-21T23:29:29.342Z",
+    "lastChangedISO": "2026-09-22T18:13:23.486Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://gaca.gov.sa/ar/announcements",
@@ -3365,38 +3366,38 @@
   {
     "sourceUrl": "https://momah.gov.sa/ar/node/14717",
     "orgId": "housing",
-    "contentHash": "fe07865a84e9959e46083ed46d81882fe44aee2cc960a0d378646faf5fda9ac7",
+    "contentHash": "37e332e67060d0080bf863fb8a527f74b06df75ccc780212c3d2c533f18a6af6",
     "blockHashes": [
       "cb4161ba67cbcfe8",
       "075ae909c8ed1c08",
       "a9b825825b3c6e51",
       "aa8e55eac5aea8cd",
       "09552ec2996654f9",
-      "29acfdf9ad265f26",
-      "93adab4089bfc10a",
-      "b9a9344d468ec19d",
-      "5d15152619ff887e",
-      "131d146731d7b190",
-      "09b1bd561f62b68f",
-      "6eb291f755dc7a84",
+      "cbaf819e9065f6b7",
+      "5cc5906e43c4f84e",
       "ff6f87e39638cb9b",
-      "91300fd60d5ac6b6",
-      "cb1a113a45c6c83d",
-      "0f50eefce3ac20fa",
-      "f05aea6e67b87823",
+      "2a0dd6c9660fc96c",
       "560edfe1df9d8921",
       "23b97a8a93aba477",
       "9cd3abf7fd1573ff",
-      "17f496dbaf80ef2c",
+      "012ff90217acf88a",
+      "09b1bd561f62b68f",
+      "c0356c814451ed26",
       "ac1405062719fb86",
-      "f978cd0e6cea0f29",
-      "7293d3def8f5111d",
-      "a6cbca41658f0e70"
+      "8f650cc27dd866f0",
+      "6d5439b90b3ab5ea",
+      "a704ab2d61ed7474",
+      "7a3bf8acea89793e",
+      "38c4dcae2782c9c7",
+      "5d15152619ff887e",
+      "c623e7b0cefa1793",
+      "5e72274f0d211166",
+      "de3f9d0c00da078a"
     ],
     "extractedChars": 152144,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-21T20:24:27.416Z",
+    "lastChangedISO": "2026-09-22T18:13:23.486Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -6498,10 +6499,10 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/careers?lang=ar",
     "orgId": "hrc",
-    "contentHash": "26712c82518e80b67a9e0d881958bd071ef47a7e283b483a0e14bf2016e99590",
+    "contentHash": "6edfdf2329a079c3c3d2f1e20d5f239ccc1f7e8472899ce3f5479090662e1ac1",
     "blockHashes": [
       "12e41a244a8a2984",
-      "b512aac7e6d82547",
+      "c42e3b63ce83631a",
       "9bd6314e9bbc7375",
       "474d2dbb69aae30b",
       "84b2fc11813dc7e8",
@@ -6525,9 +6526,9 @@
     "extractedChars": 3794,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-21T23:29:29.342Z",
+    "lastChangedISO": "2026-09-22T18:13:23.486Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/careers/graduate-development-program",
@@ -8476,11 +8477,9 @@
   {
     "sourceUrl": "https://www.monshaat.gov.sa/",
     "orgId": "monshaat",
-    "contentHash": "dff51e6529806b9c997a115a15c107b14b672d825759eb85a80b064dddd8478c",
+    "contentHash": "1322ca6ba78ef87bcd6bc2d88ca3c21e40b98561dc01790d03b69d2bd71e63f7",
     "blockHashes": [
-      "9b2765607db3138f",
-      "9adb5c784207f4fa",
-      "b787f00d617916cf",
+      "407f13d7edc29886",
       "5c69506a3d5f7a48",
       "399508eebde112fd",
       "be154d8cd7ade2c5",
@@ -8491,10 +8490,10 @@
       "a63fbbd0d32a5cec",
       "20ba520b6f6ead91"
     ],
-    "extractedChars": 4336,
+    "extractedChars": 4311,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
-    "lastChangedISO": "2026-09-20T19:42:25.449Z",
+    "lastChangedISO": "2026-09-22T18:13:23.486Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -8696,7 +8695,7 @@
     "blockHashes": [
       "a167b0dd9b0e3e1c",
       "74e4c1d2a646a96e",
-      "3df683832b468562",
+      "ce62ad77cadee24c",
       "6eca9a7e8f445a2e",
       "fcc9ab0ce14a3013",
       "b66c27af464bcada"
@@ -8706,7 +8705,8 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-21T23:28:24.535Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://www.nazaha.gov.sa/News/Details?q=o2ojUlDL5mGosOuEoGXXeg==",
@@ -10826,7 +10826,7 @@
   {
     "sourceUrl": "https://www.stats.gov.sa/en/news",
     "orgId": "gastat",
-    "contentHash": "cf9570eb028eeee055ad4fa1d5232ab5b71e2b0825251682b269065c239844b8",
+    "contentHash": "a6636718d57020bc2203fc95d1cfdd84385f718a37a51a0e92cddac3196e5bb8",
     "blockHashes": [
       "b7ce6498ecbc7c40",
       "c76bf99f8551a732",
@@ -11255,12 +11255,13 @@
       "00f2cdb2123b002f",
       "130941fb4f3fdf0d"
     ],
-    "extractedChars": 125667,
+    "extractedChars": 46131,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-21T23:10:21.535Z",
+    "lastChangedISO": "2026-09-22T18:13:23.486Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://www.tadawulgroup.sa/wps/portal/tadawulgroup/joinus",
@@ -11342,8 +11343,11 @@
     "orgId": "thiqah",
     "contentHash": "41585f247e073f7dfa50339963ead8d8387c9a1b752741091b485d74143c63b9",
     "blockHashes": [
-      "2badba214de43400",
-      "cff1ddff4e992236",
+      "56d61a024ef0c23a",
+      "988b9a8bf2486a9d",
+      "a4ad1af066840cba",
+      "2a753899ff945f72",
+      "0254baf3c601928d",
       "e6bf180d162757ed",
       "ce6b1d76c3fa0a8f",
       "5702aa0bdde53d7c",
@@ -11358,7 +11362,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-21T21:14:55.403Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.thiqah.sa/careers/",
