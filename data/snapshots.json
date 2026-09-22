@@ -2881,8 +2881,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-22T17:21:16.784Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://misa.gov.sa/ar/",
@@ -3577,7 +3576,7 @@
   {
     "sourceUrl": "https://ncvc.gov.sa/en/Pages/COOP-Training.aspx",
     "orgId": "ncvc",
-    "contentHash": "37ef7795e4fd75a2c45b128e0648711a8cf8b947e77529fb5d0d427600b433c6",
+    "contentHash": "a30223e39ace5e3df1945e0ad18f5ac5ccc423ec795d622d049c700fefc5f147",
     "blockHashes": [
       "12e41a244a8a2984",
       "c804732dd480d71a",
@@ -3590,12 +3589,13 @@
       "993933d019d2a223",
       "e2a2eb95eb39c51f"
     ],
-    "extractedChars": 1822,
+    "extractedChars": 1114,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-03T01:18:25.099Z",
-    "lastChangedISO": "2026-09-21T06:37:08.865Z",
+    "lastChangedISO": "2026-09-22T23:25:40.571Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://ndf.gov.sa/",
@@ -3825,18 +3825,18 @@
   {
     "sourceUrl": "https://redf.gov.sa/",
     "orgId": "redf",
-    "contentHash": "eec64adafb5d4ed4a79682307c88ebd704d1eb35bda2908a209d072e9d05cf1e",
+    "contentHash": "3000b60ee53f6374f9417ad242d5c7ebfefef777b91ebb6bb264fe71a84f0824",
     "blockHashes": [
       "527f1caaf5edd0bc",
-      "73f148a325b1eaf9",
+      "5f655f8493caa91e",
       "6bc2375027c7565d",
       "782261474561a27a",
-      "14ef8d30166788ad"
+      "8838773feeb04236"
     ],
-    "extractedChars": 1144,
+    "extractedChars": 830,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-22T17:21:16.784Z",
+    "lastChangedISO": "2026-09-22T23:25:40.571Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -5485,18 +5485,18 @@
   {
     "sourceUrl": "https://www.bog.gov.sa/en/EServices/judiciaryHiring/Pages/Hiring.aspx",
     "orgId": "bog",
-    "contentHash": "6635fa4c3d3bd50914f5da28c4c617ed4f7368cc92708f67e06332e4497360e5",
+    "contentHash": "991a6aba6915675d3432f1fa6317b1271691eedeb4f729a07b62fe0c0620b0a0",
     "blockHashes": [
       "46d9575ec382a9d1",
       "96c63175498462d9",
       "f4b9821710ab784e",
-      "14a91afead641f0d",
+      "c56b263d910d820d",
       "ec5d6ba37d25b982"
     ],
     "extractedChars": 609,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-22T20:58:37.272Z",
+    "lastChangedISO": "2026-09-22T23:21:00.056Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -8004,11 +8004,11 @@
   {
     "sourceUrl": "https://www.mof.gov.sa/mediacenter/circulars/Pages/default.aspx",
     "orgId": "mof",
-    "contentHash": "c9cef7b7d28f0ae6d87b0c9cd8dda90d907871a7ae4848b6957ce02daadfb127",
+    "contentHash": "b2b1ff23c6dcc56827664f6a0f1cc975af967a25e893842e98d47128f2386392",
     "blockHashes": [
       "7f625851cbbadbc6",
       "f7711325e2c4b301",
-      "9bf12759785ba942",
+      "a4ae9955e9ae9078",
       "0a7729c3519a2869",
       "823083d8a41b1af9",
       "14b74bd8d07833ff",
@@ -8032,9 +8032,10 @@
     "extractedChars": 12245,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-21T22:45:30.281Z",
+    "lastChangedISO": "2026-09-22T23:23:25.459Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://www.mof.gov.sa/mediacenter/events/Pages/CalEvent.aspx",
@@ -9279,12 +9280,12 @@
   {
     "sourceUrl": "https://www.rcrc.gov.sa/news-ar/",
     "orgId": "rcrc",
-    "contentHash": "e51bbfb40f2fe210f57c9254a9484f18fc9f9fdbda7b42d2dadb6ee0426b2099",
+    "contentHash": "b2868ba3be41888b094740f2e375224177604f2209f8339e67bfb5716aeb5798",
     "blockHashes": [
       "dd62229c2f61fb42",
       "306db3646b8a6c73",
       "b28682d0a5fa37ed",
-      "0e6d610993e5ba4d",
+      "4372f5cf2e7637d3",
       "dd5bfb74e89dbbdd",
       "b32d68c4e5c2da0f",
       "b91cd7f4edfa88d2",
@@ -9294,10 +9295,10 @@
       "42d24dc3675b45a7",
       "2ebbd7048725e505"
     ],
-    "extractedChars": 3408,
+    "extractedChars": 3407,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-22T20:20:43.740Z",
+    "lastChangedISO": "2026-09-22T23:23:25.459Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
