@@ -2150,7 +2150,7 @@
     "lastChangedISO": "2026-09-22T17:32:35.773Z",
     "thinRuns": 0,
     "pendingClassification": true,
-    "classifyFailures": 1
+    "classifyFailures": 2
   },
   {
     "sourceUrl": "https://futureskills.mcit.gov.sa/ar/coop-training",
@@ -3692,7 +3692,7 @@
     "orgId": "ndf",
     "contentHash": "4add4ddc1ffdf412480aaf497ed20d0e888392d73ca9031dff77f09752360347",
     "blockHashes": [
-      "603868128d23fe65",
+      "bb9da24744f710e7",
       "8bf6c2343ffd8520",
       "fb0d9256a76422f3",
       "eeac3e91395fd6e9",
@@ -3703,7 +3703,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-21T23:29:29.342Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://ndf.gov.sa/media-center/annual-reports",
@@ -7642,12 +7642,12 @@
   {
     "sourceUrl": "https://www.mewa.gov.sa/ar/MediaCenter/PressReleases/Pages/home.aspx",
     "orgId": "mewa",
-    "contentHash": "1490f444bb6f84798fbce2ae1ef939c2f5c0fc86b917e3cea9c21eea82de99f6",
+    "contentHash": "d94b1bed2846b774292bf26ef0cd3fec2b7c784641fb30f7a43b686d1526516d",
     "blockHashes": [
       "12e41a244a8a2984",
       "c804732dd480d71a",
       "74e4c1d2a646a96e",
-      "4d7754f64cdccc84",
+      "d0d294db168613f2",
       "eaca30400015cdec",
       "b957f376a744a274",
       "0116fe72794c37b1",
@@ -7655,12 +7655,13 @@
       "e61f71e158b8fcbd",
       "c36ce57653eabf38"
     ],
-    "extractedChars": 1391,
+    "extractedChars": 1394,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-21T23:29:29.342Z",
+    "lastChangedISO": "2026-09-22T18:19:47.745Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://www.mewa.gov.sa/ar/MediaCenter/VisualIdentityGuide/Pages/default.aspx",
@@ -8142,11 +8143,11 @@
   {
     "sourceUrl": "https://www.mof.gov.sa/Pages/default.aspx",
     "orgId": "mof",
-    "contentHash": "707d05e96e42672c6abb45a2d77b26f42cda677e64b31324bcf86637322da389",
+    "contentHash": "5639f910b091f530964418241dbc2285ffe2a0f24f8b0ea994d89a3ad9b4401a",
     "blockHashes": [
       "7f625851cbbadbc6",
       "f7711325e2c4b301",
-      "872ad949c12dea9a",
+      "5173af38348bd21e",
       "a4421c0a80a8433c",
       "589c637db8545e12",
       "d6925423217a99ca",
@@ -8157,9 +8158,10 @@
     "extractedChars": 467,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
-    "lastChangedISO": "2026-09-21T02:10:54.420Z",
+    "lastChangedISO": "2026-09-22T18:24:48.151Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://www.mofa.gov.sa/",
