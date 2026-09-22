@@ -3902,14 +3902,14 @@
     "orgId": "redf",
     "contentHash": "b8a814204ed2c5dec86b811643de90101866ec69a0f6b2eae0a07c8007fe200b",
     "blockHashes": [
-      "ff26b82042601fcc"
+      "b8a814204ed2c5de"
     ],
     "extractedChars": 500,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-02T23:42:46.216Z",
     "lastChangedISO": "2026-09-21T21:22:41.935Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://rega.gov.sa/login/?redirectId=32017",
@@ -8709,8 +8709,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-21T21:02:02.833Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "triaged_out"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.ncc.gov.sa/ar/MediaCenter/Events/Pages/default.aspx",
