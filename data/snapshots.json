@@ -650,7 +650,7 @@
   {
     "sourceUrl": "https://athkax.sdaia.gov.sa/coop",
     "orgId": "sdaia",
-    "contentHash": "f1c749f1b0084dc210dc0d9f1e447c42c8ea07e30a315579c292163ea7abbe55",
+    "contentHash": "a58f144950bb22de0c4667555dc3401317db3a7e9e0679e6a27c03768b15a660",
     "blockHashes": [
       "04ba8a3fca46514f",
       "4bd08244050e9682"
@@ -658,10 +658,9 @@
     "extractedChars": 756,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-22T22:04:48.874Z",
+    "lastChangedISO": "2026-09-22T23:43:01.329Z",
     "thinRuns": 0,
-    "pendingClassification": true,
-    "classifyFailures": 2
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://awqaf.gov.sa/ar/ar/hiring/",
@@ -1258,16 +1257,16 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/cookiesettings",
     "orgId": "maaden",
-    "contentHash": "2f0e726807ac386635b4a0f0260aab359735c9150e755a802e97ad912c20d459",
+    "contentHash": "0e2496b2ad8adc8557ac57a0a788f2ce65a4ceba50380c6da8efd1eecb71f290",
     "blockHashes": [
       "5569201553604d03",
       "0f00fea388039d88",
       "a03ad7eab98e902a"
     ],
-    "extractedChars": 8013,
+    "extractedChars": 240,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-22T23:01:40.545Z",
+    "lastChangedISO": "2026-09-22T23:51:32.587Z",
     "thinRuns": 0,
     "pendingClassification": true
   },
@@ -2098,7 +2097,7 @@
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T02:22:33.828Z",
     "lastChangedISO": "2026-08-29T02:36:21.032Z",
-    "thinRuns": 326,
+    "thinRuns": 327,
     "pendingClassification": false
   },
   {
@@ -2152,20 +2151,19 @@
   {
     "sourceUrl": "https://gaca.gov.sa/ar/announcements",
     "orgId": "gaca",
-    "contentHash": "0627830ce3a3e655f0a20fe71f5060f9511f81e84d82a6a87df70dad12e5a247",
+    "contentHash": "4675f855db98e60ed7cbc2bd82e7cc9b041dd950e9717cb2bf65362387e883e3",
     "blockHashes": [
       "05db15b5f3bce7c0",
       "9c2a3967149440a8",
       "83a22e1f9fb245f8",
       "bc532942aaed49b7"
     ],
-    "extractedChars": 1215,
+    "extractedChars": 1214,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-22T20:44:21.597Z",
+    "lastChangedISO": "2026-09-22T23:47:59.227Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://gaca.gov.sa/ar/News",
@@ -3029,7 +3027,7 @@
   {
     "sourceUrl": "https://modon.gov.sa/",
     "orgId": "modon",
-    "contentHash": "7b5f52ed9702a3e7d2b8a9755a83bf359430e9e87b01f67c848afd0a026f5cd0",
+    "contentHash": "a8cfc7437639763a632346f0ca483c65e000894ce8b8da772a9db2a1cc484e0d",
     "blockHashes": [
       "7ca5488353c1b9bb",
       "0edf2292f0637ccb",
@@ -3053,10 +3051,9 @@
     "extractedChars": 5996,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-22T17:40:47.494Z",
+    "lastChangedISO": "2026-09-22T23:45:27.153Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://modon.gov.sa/ar/MediaCenter/modon-news/News/Pages/default.aspx",
@@ -3703,7 +3700,7 @@
   {
     "sourceUrl": "https://ndf.gov.sa/media-center/press-news",
     "orgId": "ndf",
-    "contentHash": "4345b3ee49855bb659b810291836babc07d98f5a210c8f69dd28e674f0e6cb36",
+    "contentHash": "c128fcdb70aad62c2585305f6a293174ff454bb8b8c01339fdab8bb44c33eadb",
     "blockHashes": [
       "6b1c62788dded76e",
       "298b2e63b8ef43cd",
@@ -3712,9 +3709,9 @@
     "extractedChars": 3929,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-21T22:57:24.760Z",
+    "lastChangedISO": "2026-09-22T23:47:59.227Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://neti.etec.gov.sa/",
@@ -5562,8 +5559,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-22T17:40:47.494Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.cst.gov.sa/en/media-center",
@@ -6536,7 +6532,7 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/cooperations?lang=ar",
     "orgId": "hrc",
-    "contentHash": "1c66c2d118bff19d5f1740a12f3136b322536c7f6eae8573ad620b51e1343dea",
+    "contentHash": "cad52be5e0d1cc11b72ce1387566da3a07301f02089b2fa6913912fdca681594",
     "blockHashes": [
       "12e41a244a8a2984",
       "b8560cb1f9f16570",
@@ -6560,9 +6556,9 @@
     "extractedChars": 6137,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-22T20:44:21.597Z",
+    "lastChangedISO": "2026-09-22T23:47:59.227Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/news?lang=ar",
@@ -7667,7 +7663,7 @@
   {
     "sourceUrl": "https://www.mim.gov.sa/ar/empower-training/cooperative-training",
     "orgId": "mim",
-    "contentHash": "f669108e6d9a8da5f5acad46bd005db1115890c8115548f87ef9c9fa7b156354",
+    "contentHash": "20382b56aad154669f8d98e3d8ac177964235524a445be6af13a9b1e0c71df9c",
     "blockHashes": [
       "1cb91553dd3291a4",
       "5300d4cdd32a8d33"
@@ -7675,10 +7671,9 @@
     "extractedChars": 2178,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T02:22:33.828Z",
-    "lastChangedISO": "2026-09-22T22:04:48.874Z",
+    "lastChangedISO": "2026-09-22T23:43:01.329Z",
     "thinRuns": 0,
-    "pendingClassification": true,
-    "classifyFailures": 2
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://www.mim.gov.sa/ar/media-center/news",
@@ -7832,7 +7827,7 @@
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-20T12:59:49.059Z",
-    "thinRuns": 13,
+    "thinRuns": 14,
     "pendingClassification": false
   },
   {
@@ -8041,7 +8036,7 @@
   {
     "sourceUrl": "https://www.mof.gov.sa/mediacenter/events/Pages/CalEvent.aspx",
     "orgId": "mof",
-    "contentHash": "9b7f11764302d2c6a986dad6be520e597c55a1eca94b79c8b56563782a07fdcd",
+    "contentHash": "acb81687526f98197bcb0f79cc8fc7b95f3f2314b7979400013a59b868b87850",
     "blockHashes": [
       "7f625851cbbadbc6",
       "f7711325e2c4b301",
@@ -8059,9 +8054,9 @@
     "extractedChars": 10149,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-21T23:19:12.745Z",
+    "lastChangedISO": "2026-09-22T23:51:32.587Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://www.mof.gov.sa/Pages/default.aspx",
@@ -8115,8 +8110,7 @@
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
     "lastChangedISO": "2026-09-22T17:44:59.644Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.mofa.gov.sa/ar/ministry/news/Pages/%D8%A7%D8%AA%D9%81%D8%A7%D9%82%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D8%A5%D8%B9%D9%81%D8%A7%D8%A1-%D8%A7%D9%84%D9%85%D8%AA%D8%A8%D8%A7%D8%AF%D9%84.aspx",
@@ -11210,7 +11204,7 @@
   {
     "sourceUrl": "https://www.tahakom.com/careers",
     "orgId": "tahakom",
-    "contentHash": "b7b320ab3c337aeecb9e37464095a96d51bb5983c01dda8f6681582a73d6758d",
+    "contentHash": "cdc6e715febd70ac89e4ace8f3b65185ba7bfab54fda1908fc17c2332d9ecb2f",
     "blockHashes": [
       "31adad521756d062",
       "611753a8aea1ade1",
@@ -11218,12 +11212,12 @@
       "1a5263a5a2541c46",
       "66314e4675e8f143"
     ],
-    "extractedChars": 819,
+    "extractedChars": 836,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-03T05:13:40.059Z",
-    "lastChangedISO": "2026-09-22T22:54:13.778Z",
+    "lastChangedISO": "2026-09-22T23:47:59.227Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://www.taifcity.gov.sa/#/ar",
