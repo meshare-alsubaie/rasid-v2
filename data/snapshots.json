@@ -649,7 +649,7 @@
   {
     "sourceUrl": "https://athkax.sdaia.gov.sa/coop",
     "orgId": "sdaia",
-    "contentHash": "a58f144950bb22de0c4667555dc3401317db3a7e9e0679e6a27c03768b15a660",
+    "contentHash": "f1c749f1b0084dc210dc0d9f1e447c42c8ea07e30a315579c292163ea7abbe55",
     "blockHashes": [
       "04ba8a3fca46514f",
       "4bd08244050e9682"
@@ -657,7 +657,7 @@
     "extractedChars": 756,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-21T23:33:58.281Z",
+    "lastChangedISO": "2026-09-22T18:02:14.628Z",
     "thinRuns": 0,
     "pendingClassification": true,
     "classifyFailures": 1
@@ -3703,8 +3703,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-21T23:14:30.488Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://ndf.gov.sa/media-center/press-news",
@@ -7676,7 +7675,7 @@
   {
     "sourceUrl": "https://www.mim.gov.sa/ar/empower-training/cooperative-training",
     "orgId": "mim",
-    "contentHash": "592c3e2a6022b57f48dd978fa1553bb717e70d7ab6efbf18b14d115c5df90845",
+    "contentHash": "231c97cadfd50615a1fb207b79741294e6b5902726b509ecdba33726f4532162",
     "blockHashes": [
       "1cb91553dd3291a4",
       "5300d4cdd32a8d33"
@@ -7684,7 +7683,7 @@
     "extractedChars": 2178,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T02:22:33.828Z",
-    "lastChangedISO": "2026-09-22T17:08:48.941Z",
+    "lastChangedISO": "2026-09-22T18:02:14.628Z",
     "thinRuns": 0,
     "pendingClassification": true,
     "classifyFailures": 1
@@ -10278,9 +10277,9 @@
   {
     "sourceUrl": "https://www.sfda.gov.sa/ar",
     "orgId": "sfda",
-    "contentHash": "f782b53a725bfe243c422d9cb1e300d29801e219ff5955dacbaed6e2aca7fb90",
+    "contentHash": "73bf6888ea3481fa7bfba629262790e9e022a2bb412c98db271d41a2c36c1ec5",
     "blockHashes": [
-      "4a0c55bb0278149c",
+      "4bd97dc7c5827671",
       "0cae66fd6419120a",
       "d09774a62139b89f",
       "e8216aae91b1f5cb",
@@ -10325,17 +10324,18 @@
       "3b931cad7ef53a13",
       "658b43d0993d5397",
       "60b6afb763e71c83",
-      "dd31d3edc87b00b2",
+      "97316941c1cde191",
       "b69ab73ade473181",
       "fe04993c9918963a",
-      "a1afd421e06f2911"
+      "bd3709c62d4a1dec"
     ],
     "extractedChars": 7707,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-21T13:43:32.159Z",
+    "lastChangedISO": "2026-09-22T18:02:14.628Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://www.sfda.gov.sa/ar/career-vision-and-mission",
@@ -11237,18 +11237,18 @@
   {
     "sourceUrl": "https://www.tahakom.com/careers",
     "orgId": "tahakom",
-    "contentHash": "a9b0253c483902a00645b630b2cbbfa1a6bf43b8378a82c3ac4c901491886ea6",
+    "contentHash": "8d1d8b4a6a7bde78572d8fa562ea399be56c71b4f40b53a0139f8955994ae509",
     "blockHashes": [
       "d44217251213a019",
       "611753a8aea1ade1",
       "0cea4d38306888dc",
       "1a5263a5a2541c46",
-      "7ff616a2455f75c9"
+      "f3829db208838eb8"
     ],
     "extractedChars": 838,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-03T05:13:40.059Z",
-    "lastChangedISO": "2026-09-22T17:08:48.941Z",
+    "lastChangedISO": "2026-09-22T18:02:14.628Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
