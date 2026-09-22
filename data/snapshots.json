@@ -2217,17 +2217,17 @@
   {
     "sourceUrl": "https://gaca.gov.sa/ar/announcements",
     "orgId": "gaca",
-    "contentHash": "51ab11832b5b9ee81d9c3e3fcc78f54173091aea65cb0c9f8a5c111d13a7997a",
+    "contentHash": "0627830ce3a3e655f0a20fe71f5060f9511f81e84d82a6a87df70dad12e5a247",
     "blockHashes": [
-      "9439f0b20c8c50c0",
+      "05db15b5f3bce7c0",
       "9c2a3967149440a8",
       "83a22e1f9fb245f8",
       "bc532942aaed49b7"
     ],
-    "extractedChars": 1214,
+    "extractedChars": 1215,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-22T17:40:47.494Z",
+    "lastChangedISO": "2026-09-22T20:44:21.597Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -3358,8 +3358,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-22T17:40:47.494Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://momah.gov.sa/ar/node/14717",
@@ -6608,10 +6607,10 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/cooperations?lang=ar",
     "orgId": "hrc",
-    "contentHash": "4a39282bb053f9da9737cb017abadd09d617e3e496f1b64544fb2c08c164280d",
+    "contentHash": "1c66c2d118bff19d5f1740a12f3136b322536c7f6eae8573ad620b51e1343dea",
     "blockHashes": [
       "12e41a244a8a2984",
-      "6123eb76633f49e7",
+      "b8560cb1f9f16570",
       "15c715928fc246c0",
       "9a4a215f8452ca45",
       "961639689d2c8819",
@@ -6632,7 +6631,7 @@
     "extractedChars": 6137,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-22T17:40:47.494Z",
+    "lastChangedISO": "2026-09-22T20:44:21.597Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -7758,15 +7757,17 @@
   {
     "sourceUrl": "https://www.mim.gov.sa/ar/media-center/news",
     "orgId": "mim",
-    "contentHash": "ebf4cb04d70c5e432d9f72efc1866cf72a118ba131698f0fe576b0a3e95e74f5",
+    "contentHash": "3f10904f648955e2a4977ec4a40f53930d0531248f4e2f3fa346d15d2682079d",
     "blockHashes": [
-      "12b64847799a4bae",
-      "aa87c4ab020e99c6",
+      "9df3d53d27120fbc",
+      "138d2aa9a5c65516",
       "dc40cb1a74b23e69",
-      "d08e435b71609fb8",
+      "172421d691a25902",
       "47a950af7f4b0342",
       "c912be443951b539",
-      "8601e7abc237fc22",
+      "59fa1c2557dd9ff4",
+      "634a5a8d064708ad",
+      "8400486940d7121e",
       "7bc08ee35640ba91",
       "bf023e64b6a4e8ce",
       "accd88ab9dfdfd85",
@@ -7786,14 +7787,12 @@
       "8e2e4439ee219427",
       "9ad6c9c65b05d9e0",
       "9f3e3e37904ba5ef",
-      "40ee76c6cc695f6d",
-      "634a5a8d064708ad",
-      "2e96a31ae3ef8e23"
+      "ec21f425966a1aa5"
     ],
     "extractedChars": 11088,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-22T17:30:00.546Z",
+    "lastChangedISO": "2026-09-22T20:44:21.597Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "triaged_out"
@@ -9346,17 +9345,16 @@
   {
     "sourceUrl": "https://www.rcrc.gov.sa/careers/?lang=ar",
     "orgId": "rcrc",
-    "contentHash": "ce4dcf6204f671dbe148e52001e4f8ed106ffdbd4354aaaf5bf2f3a42f68af39",
+    "contentHash": "6adc52a15256a9661d1dc10eacd28ee085dc444f258aefa0fa690d28165256c2",
     "blockHashes": [
       "fa4a72da26a232ed"
     ],
-    "extractedChars": 1167,
+    "extractedChars": 785,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-22T19:51:16.656Z",
+    "lastChangedISO": "2026-09-22T20:55:08.328Z",
     "thinRuns": 0,
-    "pendingClassification": true,
-    "classifyFailures": 1
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://www.rcrc.gov.sa/media-center/",
@@ -10824,7 +10822,7 @@
   {
     "sourceUrl": "https://www.stats.gov.sa/en/news",
     "orgId": "gastat",
-    "contentHash": "a6636718d57020bc2203fc95d1cfdd84385f718a37a51a0e92cddac3196e5bb8",
+    "contentHash": "cf9570eb028eeee055ad4fa1d5232ab5b71e2b0825251682b269065c239844b8",
     "blockHashes": [
       "b7ce6498ecbc7c40",
       "c76bf99f8551a732",
@@ -11253,13 +11251,12 @@
       "00f2cdb2123b002f",
       "130941fb4f3fdf0d"
     ],
-    "extractedChars": 46131,
+    "extractedChars": 125667,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-22T20:05:05.861Z",
+    "lastChangedISO": "2026-09-22T20:56:22.357Z",
     "thinRuns": 0,
-    "pendingClassification": true,
-    "classifyFailures": 1
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://www.tadawulgroup.sa/wps/portal/tadawulgroup/joinus",
@@ -11875,8 +11872,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-22T17:40:47.494Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "triaged_out"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://zatca.gov.sa/ar/MediaCenter/Pages/default.aspx",
