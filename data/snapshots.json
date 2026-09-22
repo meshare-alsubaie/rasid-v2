@@ -765,18 +765,18 @@
   {
     "sourceUrl": "https://career.alinma.com/",
     "orgId": "alinma",
-    "contentHash": null,
+    "contentHash": "6a86ae706eed843401e158776c66ffc9b418545636cf2693c232efc2c645dd23",
     "blockHashes": [
       "d139e32e22028878",
       "24a16c9057a577bb",
       "d73da487bd5ffbc9"
     ],
-    "extractedChars": 750,
-    "extractionMethod": "readability",
+    "extractedChars": 161,
+    "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-09-01T01:46:07.967Z",
-    "lastChangedISO": "2026-09-22T17:46:19.807Z",
+    "lastChangedISO": "2026-09-22T21:05:41.739Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://career.dga.gov.sa/",
@@ -1744,7 +1744,7 @@
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-15T13:08:42.574Z",
-    "thinRuns": 30,
+    "thinRuns": 31,
     "pendingClassification": false
   },
   {
@@ -2235,7 +2235,7 @@
   {
     "sourceUrl": "https://gaca.gov.sa/ar/News",
     "orgId": "gaca",
-    "contentHash": "17a45d3d036c47566133876ca8d2fc06c0c9effdd8b03f516d1a3ad75f0f30fe",
+    "contentHash": "205791efa1534810987473818d855fb3e11f788d7cc09455a948e2f1dc66667e",
     "blockHashes": [
       "e7aa819eee2b90b4",
       "ef26de24708740d2",
@@ -2306,13 +2306,12 @@
       "83a22e1f9fb245f8",
       "ac473f85e97b4d85"
     ],
-    "extractedChars": 20763,
+    "extractedChars": 20508,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-22T17:57:08.233Z",
+    "lastChangedISO": "2026-09-22T21:01:45.690Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://gaca.gov.sa/news",
@@ -3316,8 +3315,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-22T17:57:08.233Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://momah.gov.sa/ar/news",
@@ -3759,16 +3757,16 @@
   {
     "sourceUrl": "https://ndf.gov.sa/media-center/newsletters",
     "orgId": "ndf",
-    "contentHash": "20a1f152c3c5f6bfabd9e816e7d4fab04434a706ffdf3aca8119c88be8afecb5",
+    "contentHash": "cb71304b26349c2a7572da2b4c84d0aa54cae3b32ec5a68dc2dbb642db29ce21",
     "blockHashes": [
       "20a1f152c3c5f6bf"
     ],
     "extractedChars": 1164,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-21T23:14:30.488Z",
+    "lastChangedISO": "2026-09-22T21:05:41.739Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://ndf.gov.sa/media-center/press-news",
@@ -4463,7 +4461,7 @@
   {
     "sourceUrl": "https://training.moj.gov.sa/",
     "orgId": "moj",
-    "contentHash": "f4c6ef6b783b69d09a8f681ad1d80f1df35ef8cb8864917255879208cc305886",
+    "contentHash": null,
     "blockHashes": [
       "84a570379809f573",
       "ab443a0bbfda7883"
@@ -5556,7 +5554,7 @@
   {
     "sourceUrl": "https://www.bog.gov.sa/en/EServices/judiciaryHiring/Pages/Hiring.aspx",
     "orgId": "bog",
-    "contentHash": "991a6aba6915675d3432f1fa6317b1271691eedeb4f729a07b62fe0c0620b0a0",
+    "contentHash": "6635fa4c3d3bd50914f5da28c4c617ed4f7368cc92708f67e06332e4497360e5",
     "blockHashes": [
       "46d9575ec382a9d1",
       "96c63175498462d9",
@@ -5567,9 +5565,9 @@
     "extractedChars": 609,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-22T20:09:38.145Z",
+    "lastChangedISO": "2026-09-22T20:58:37.272Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://www.bog.gov.sa/en/EServices/Pages/khabeer.aspx",
@@ -6531,7 +6529,7 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/careers/graduate-development-program",
     "orgId": "hrc",
-    "contentHash": "46d9262c95140bbfa01c3bd63fb4996f9e7410c9d63c9d178fcbcae3caff3c39",
+    "contentHash": "97b5b23dfddbdb9872af931fbec240222330a1b3151ca3255afd31b1cff6932e",
     "blockHashes": [
       "12e41a244a8a2984",
       "675ca3c8f0b825b2",
@@ -6600,9 +6598,9 @@
     "extractedChars": 10689,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-22T17:57:08.233Z",
+    "lastChangedISO": "2026-09-22T21:01:45.690Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/cooperations?lang=ar",
@@ -6932,8 +6930,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-22T17:57:08.233Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.hrsd.gov.sa/media-center/events",
@@ -8055,7 +8052,7 @@
   {
     "sourceUrl": "https://www.mof.gov.sa/GFS/TrainingProgram/Pages/TrainingManual.aspx",
     "orgId": "mof",
-    "contentHash": "3a8ce0d35b8266e8d44c3a0a5d32e97d1f81ea8d4791986e63b96c19737a6803",
+    "contentHash": "a86e1c41dabb2e61da4754e6425596eb4e21fbac5c58119a59b2a9e690f43d8a",
     "blockHashes": [
       "7f625851cbbadbc6",
       "f7711325e2c4b301",
@@ -8073,9 +8070,9 @@
     "extractedChars": 10415,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-21T21:16:10.976Z",
+    "lastChangedISO": "2026-09-22T21:11:46.973Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://www.mof.gov.sa/mediacenter/circulars/Pages/default.aspx",
@@ -8657,7 +8654,7 @@
   {
     "sourceUrl": "https://www.nazaha.gov.sa/News/Details?q=HNQU9DHVnwVHan0Mf562ug==",
     "orgId": "nazaha",
-    "contentHash": "41971c6159b0b16c56b09f05928f81daebe78668739302fd27856743e9ea9f1e",
+    "contentHash": "268e2fffa4653f46c3c6bc000c5e6e310c7785262d09ae2cbbe838ea81d67b21",
     "blockHashes": [
       "a167b0dd9b0e3e1c",
       "74e4c1d2a646a96e",
@@ -8682,9 +8679,9 @@
     "extractedChars": 4010,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-21T23:08:04.420Z",
+    "lastChangedISO": "2026-09-22T21:08:05.842Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://www.nazaha.gov.sa/News/Details?q=LDqaftYCK2agKydxrbY5fg==",
@@ -10440,8 +10437,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-22T17:44:59.644Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.sfda.gov.sa/en/career-vision-and-mission",
