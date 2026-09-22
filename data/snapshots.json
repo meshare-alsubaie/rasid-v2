@@ -3716,9 +3716,9 @@
   {
     "sourceUrl": "https://ndf.gov.sa/media-center/articles",
     "orgId": "ndf",
-    "contentHash": "d294e25c96aa4dde99be8d62f272e2b8c576a9ef2c519ff7e0804362b7210f5e",
+    "contentHash": "698014a9de1b980fb5c8c94acf781e5a927d2ff7446df35bd02526687f2923b2",
     "blockHashes": [
-      "94401ab65217dfc1",
+      "f64bea3d82767fbd",
       "b4a5c7cd60560196",
       "4c268b289192e891",
       "d91f8453abc8bd97",
@@ -3727,7 +3727,7 @@
     "extractedChars": 4079,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-21T23:46:46.092Z",
+    "lastChangedISO": "2026-09-22T21:34:39.850Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -5558,7 +5558,7 @@
       "46d9575ec382a9d1",
       "96c63175498462d9",
       "f4b9821710ab784e",
-      "c56b263d910d820d",
+      "14a91afead641f0d",
       "ec5d6ba37d25b982"
     ],
     "extractedChars": 609,
@@ -5566,7 +5566,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-22T20:58:37.272Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.bog.gov.sa/en/EServices/Pages/khabeer.aspx",
@@ -6460,10 +6460,10 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/careers",
     "orgId": "hrc",
-    "contentHash": "847e485943786ea3c905c3b7c190ba6762a87f56360d35029167dfb283cc5827",
+    "contentHash": "633a9128be672baad5c4a00ae33716f5828f1db1663dd5b7e94b4b4fd98919f7",
     "blockHashes": [
       "12e41a244a8a2984",
-      "eb9f7992a61548d9",
+      "f5a16db78f2144ba",
       "9bd6314e9bbc7375",
       "474d2dbb69aae30b",
       "84b2fc11813dc7e8",
@@ -6487,7 +6487,7 @@
     "extractedChars": 3794,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-22T18:33:13.792Z",
+    "lastChangedISO": "2026-09-22T21:34:39.850Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -8702,11 +8702,11 @@
   {
     "sourceUrl": "https://www.nazaha.gov.sa/News/Details?q=o2ojUlDL5mGosOuEoGXXeg==",
     "orgId": "nazaha",
-    "contentHash": "351f8aacf8de47baec340bf8b36f7c78bc39472346d3f942aa80e275d89d74ad",
+    "contentHash": "f1ef655bd20ed682877bbbbc7c6c3c30d1f796c69baaa6f14dd017c58221f532",
     "blockHashes": [
       "a167b0dd9b0e3e1c",
       "74e4c1d2a646a96e",
-      "424b3ed4e41cca8c",
+      "96416737c7443865",
       "8d35c6dbfb6149bf",
       "934470dd7b84953f",
       "b97ad38f7d56bff9"
@@ -8714,9 +8714,10 @@
     "extractedChars": 783,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-21T21:02:02.833Z",
+    "lastChangedISO": "2026-09-22T21:34:39.850Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "triaged_out"
   },
   {
     "sourceUrl": "https://www.ncc.gov.sa/ar/MediaCenter/Events/Pages/default.aspx",
@@ -9338,16 +9339,17 @@
   {
     "sourceUrl": "https://www.rcrc.gov.sa/careers/?lang=ar",
     "orgId": "rcrc",
-    "contentHash": "6adc52a15256a9661d1dc10eacd28ee085dc444f258aefa0fa690d28165256c2",
+    "contentHash": "608efe7121355a16b9768c669d288d79d929117750427279d77f53d18b71453c",
     "blockHashes": [
       "fa4a72da26a232ed"
     ],
-    "extractedChars": 785,
+    "extractedChars": 1167,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-22T20:55:08.328Z",
+    "lastChangedISO": "2026-09-22T21:44:19.942Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://www.rcrc.gov.sa/media-center/",
