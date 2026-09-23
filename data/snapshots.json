@@ -763,7 +763,7 @@
   {
     "sourceUrl": "https://career.alinma.com/",
     "orgId": "alinma",
-    "contentHash": "e245fd94c1ab59dcc6bad34af50ba34c224654b27d2f46834c18eef001143fa5",
+    "contentHash": null,
     "blockHashes": [
       "d139e32e22028878",
       "24a16c9057a577bb",
@@ -1272,17 +1272,16 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/search-results",
     "orgId": "maaden",
-    "contentHash": "ea33c43a281f50b027f80acea5fc89538a3a74e220019e8da44d95602fc264cb",
+    "contentHash": "d079bba40afc572fc9b9bb04ba25d5576016f11c8ce24ee667fc2a8c06397148",
     "blockHashes": [
-      "5569201553604d03",
-      "6e3cceb54e777f64",
-      "c8f607e8b5b17929",
-      "4c4e94f3eeeb9136"
+      "dab5a7f3801bc914",
+      "ee1d6739b78149a5",
+      "dd7724e40ada396e"
     ],
-    "extractedChars": 1268,
-    "extractionMethod": "body_fallback",
+    "extractedChars": 240,
+    "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-23T21:30:11.045Z",
+    "lastChangedISO": "2026-09-23T22:16:13.894Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -4435,7 +4434,7 @@
   {
     "sourceUrl": "https://training.moj.gov.sa/",
     "orgId": "moj",
-    "contentHash": "f4c6ef6b783b69d09a8f681ad1d80f1df35ef8cb8864917255879208cc305886",
+    "contentHash": null,
     "blockHashes": [
       "84a570379809f573",
       "ab443a0bbfda7883"
@@ -8021,11 +8020,11 @@
   {
     "sourceUrl": "https://www.mof.gov.sa/GFS/TrainingProgram/Pages/TrainingManual.aspx",
     "orgId": "mof",
-    "contentHash": "a86e1c41dabb2e61da4754e6425596eb4e21fbac5c58119a59b2a9e690f43d8a",
+    "contentHash": "1561843685257f3282f772f773d1c0e31d4b6581ec175f9d438600dbb90d0278",
     "blockHashes": [
       "7f625851cbbadbc6",
       "f7711325e2c4b301",
-      "297bc14609ddb31a",
+      "67c4dcb3a87202b5",
       "ffd666e2720f42ef",
       "f4809815161554d5",
       "ec90d29b5d482b67",
@@ -8036,10 +8035,10 @@
       "e449b5a351b550c3",
       "cbefc4238a0555f8"
     ],
-    "extractedChars": 10415,
+    "extractedChars": 10413,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-22T21:11:46.973Z",
+    "lastChangedISO": "2026-09-23T22:11:44.541Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -11220,7 +11219,7 @@
     "lastChangedISO": "2026-09-23T21:26:04.634Z",
     "thinRuns": 0,
     "pendingClassification": true,
-    "classifyFailures": 1
+    "classifyFailures": 2
   },
   {
     "sourceUrl": "https://www.tadawulgroup.sa/wps/portal/tadawulgroup/joinus",
@@ -11263,18 +11262,18 @@
   {
     "sourceUrl": "https://www.tahakom.com/careers",
     "orgId": "tahakom",
-    "contentHash": "8d1d8b4a6a7bde78572d8fa562ea399be56c71b4f40b53a0139f8955994ae509",
+    "contentHash": "cdc6e715febd70ac89e4ace8f3b65185ba7bfab54fda1908fc17c2332d9ecb2f",
     "blockHashes": [
       "d44217251213a019",
       "611753a8aea1ade1",
       "0cea4d38306888dc",
       "1a5263a5a2541c46",
-      "f3829db208838eb8"
+      "da33eb4a1bacafc3"
     ],
-    "extractedChars": 838,
+    "extractedChars": 836,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-03T05:13:40.059Z",
-    "lastChangedISO": "2026-09-23T21:22:06.900Z",
+    "lastChangedISO": "2026-09-23T22:09:58.961Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
