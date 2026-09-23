@@ -6439,10 +6439,10 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/careers",
     "orgId": "hrc",
-    "contentHash": "dcaf07aa118e5629564248ac546042760fafbd7ec9fc91360daf137fc55ea01e",
+    "contentHash": "89a34d8bc83c6cb345e3b7db901cd49a78c2a19397936a29d56ed96c22bed1bd",
     "blockHashes": [
       "12e41a244a8a2984",
-      "0d07f7bac120d6ab",
+      "f8eeb4730cc06195",
       "9bd6314e9bbc7375",
       "474d2dbb69aae30b",
       "84b2fc11813dc7e8",
@@ -6466,7 +6466,7 @@
     "extractedChars": 3794,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-23T15:35:16.686Z",
+    "lastChangedISO": "2026-09-23T18:45:33.599Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -7048,8 +7048,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-23T15:20:37.306Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.jadwa.com/en/careers",
@@ -9319,16 +9318,17 @@
   {
     "sourceUrl": "https://www.rcrc.gov.sa/careers/?lang=ar",
     "orgId": "rcrc",
-    "contentHash": "caa5835d448afbd3c930f9ee551809c11b4c523248adc2aa81a338d5781657b7",
+    "contentHash": "a373689c4897e1b7fbacd2c2259207f185eea0fce5f833bdb4d335fef75c4676",
     "blockHashes": [
       "caa5835d448afbd3"
     ],
-    "extractedChars": 784,
+    "extractedChars": 1166,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-23T18:02:11.802Z",
+    "lastChangedISO": "2026-09-23T18:53:59.530Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://www.rcrc.gov.sa/media-center/",
@@ -10489,7 +10489,7 @@
       "69712b563e846237",
       "d842aa2993bdbb38",
       "6ce0bb6fceb85cb0",
-      "2fd866f6a1d12d38",
+      "a52c8ad2705b6d93",
       "25b3bc91b9810520"
     ],
     "extractedChars": 1040,
@@ -10497,8 +10497,8 @@
     "firstSeenISO": "2026-09-02T23:42:46.216Z",
     "lastChangedISO": "2026-09-23T16:56:58.072Z",
     "thinRuns": 0,
-    "pendingClassification": true,
-    "classifyFailures": 2
+    "pendingClassification": false,
+    "classifyFailures": 3
   },
   {
     "sourceUrl": "https://www.sidf.gov.sa/News",
