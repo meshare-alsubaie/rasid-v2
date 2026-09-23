@@ -764,16 +764,16 @@
   {
     "sourceUrl": "https://career.alinma.com/",
     "orgId": "alinma",
-    "contentHash": null,
+    "contentHash": "e245fd94c1ab59dcc6bad34af50ba34c224654b27d2f46834c18eef001143fa5",
     "blockHashes": [
       "d139e32e22028878",
       "24a16c9057a577bb",
       "d73da487bd5ffbc9"
     ],
-    "extractedChars": 161,
-    "extractionMethod": "body_fallback",
+    "extractedChars": 750,
+    "extractionMethod": "readability",
     "firstSeenISO": "2026-09-01T01:46:07.967Z",
-    "lastChangedISO": "2026-09-22T21:05:41.739Z",
+    "lastChangedISO": "2026-09-23T00:12:39.849Z",
     "thinRuns": 0,
     "pendingClassification": true
   },
@@ -1273,7 +1273,7 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/search-results",
     "orgId": "maaden",
-    "contentHash": "914f18e67d2a57c14e0137eef8fac7b48548eee6c6bb00be6434a7d47834fd14",
+    "contentHash": "3f40276dd24a9287bf901760f0e86a63ad012e3f1198543d14e697bc0fd0be27",
     "blockHashes": [
       "0593a1678d987760",
       "298a05ebe5a16280",
@@ -1284,9 +1284,9 @@
     "extractedChars": 240,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-22T23:36:58.414Z",
+    "lastChangedISO": "2026-09-23T00:24:28.933Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://careers.mcit.gov.sa/",
@@ -2134,17 +2134,17 @@
   {
     "sourceUrl": "https://gaca.gov.sa/announcements",
     "orgId": "gaca",
-    "contentHash": "53b76678ff0eda5ea3b77243819dcb1b5ca762135a2efc07fcd11f03a6347e12",
+    "contentHash": "f0965327a488fd872e444885f22ae8e068ef4b35d562d9fefb9df720099b8c66",
     "blockHashes": [
       "f5b1940c6bdae1e4",
       "9c2a3967149440a8",
       "83a22e1f9fb245f8",
       "742a17aa4393e6c2"
     ],
-    "extractedChars": 1215,
+    "extractedChars": 1475,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-22T21:20:12.751Z",
+    "lastChangedISO": "2026-09-23T00:21:05.508Z",
     "thinRuns": 0,
     "pendingClassification": true
   },
@@ -3574,7 +3574,7 @@
   {
     "sourceUrl": "https://ncvc.gov.sa/en/Pages/COOP-Training.aspx",
     "orgId": "ncvc",
-    "contentHash": "a30223e39ace5e3df1945e0ad18f5ac5ccc423ec795d622d049c700fefc5f147",
+    "contentHash": "dd54490b5003d04ba31eaadc7b9207ad1483ba5ee1b8454c2f8c243d4ecf9c19",
     "blockHashes": [
       "12e41a244a8a2984",
       "c804732dd480d71a",
@@ -3590,10 +3590,9 @@
     "extractedChars": 1114,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-03T01:18:25.099Z",
-    "lastChangedISO": "2026-09-22T23:25:40.571Z",
+    "lastChangedISO": "2026-09-23T00:12:39.849Z",
     "thinRuns": 0,
-    "pendingClassification": true,
-    "classifyFailures": 1
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://ndf.gov.sa/",
@@ -4390,7 +4389,7 @@
   {
     "sourceUrl": "https://training.moj.gov.sa/",
     "orgId": "moj",
-    "contentHash": "f4c6ef6b783b69d09a8f681ad1d80f1df35ef8cb8864917255879208cc305886",
+    "contentHash": null,
     "blockHashes": [
       "84a570379809f573",
       "ab443a0bbfda7883"
@@ -6421,7 +6420,7 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/careers?lang=ar",
     "orgId": "hrc",
-    "contentHash": "525a59f6146c4d563c1c3a3d537ec08dcc501a96127bb1e4c31903511522d0cc",
+    "contentHash": "0c35dbea91df63de27145628fd9ad89ab2098e6607743e5f8e9feadc3791eea8",
     "blockHashes": [
       "12e41a244a8a2984",
       "c42e3b63ce83631a",
@@ -6448,7 +6447,7 @@
     "extractedChars": 3794,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-22T21:20:12.751Z",
+    "lastChangedISO": "2026-09-23T00:21:05.508Z",
     "thinRuns": 0,
     "pendingClassification": true
   },
@@ -7908,7 +7907,7 @@
     "blockHashes": [
       "7f625851cbbadbc6",
       "f7711325e2c4b301",
-      "b155b3086a71be6e",
+      "f5242a0900f2e320",
       "8e28a73c96909ff5",
       "9f6687b23d59fac0",
       "f48c3103130eeb1d",
@@ -7967,7 +7966,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-22T21:24:58.424Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.mof.gov.sa/GFS/TrainingProgram/Pages/TrainingManual.aspx",
@@ -10664,8 +10663,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-22T17:57:08.233Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.stats.gov.sa/ar/cooperative-training",
