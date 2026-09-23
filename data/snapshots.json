@@ -765,7 +765,7 @@
   {
     "sourceUrl": "https://career.alinma.com/",
     "orgId": "alinma",
-    "contentHash": "e245fd94c1ab59dcc6bad34af50ba34c224654b27d2f46834c18eef001143fa5",
+    "contentHash": null,
     "blockHashes": [
       "d139e32e22028878",
       "24a16c9057a577bb",
@@ -1339,7 +1339,7 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/search-results",
     "orgId": "maaden",
-    "contentHash": "3f40276dd24a9287bf901760f0e86a63ad012e3f1198543d14e697bc0fd0be27",
+    "contentHash": "a1284f620ec6ea7b46c1f1609fe62feb7cad6b009dfe3127b274da19bfb8bda1",
     "blockHashes": [
       "0593a1678d987760",
       "298a05ebe5a16280",
@@ -1347,10 +1347,10 @@
       "f6deee851cd03109",
       "f686dcce59987624"
     ],
-    "extractedChars": 240,
+    "extractedChars": 454,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-23T00:24:28.933Z",
+    "lastChangedISO": "2026-09-23T01:10:31.687Z",
     "thinRuns": 0,
     "pendingClassification": true
   },
@@ -4452,7 +4452,7 @@
   {
     "sourceUrl": "https://training.moj.gov.sa/",
     "orgId": "moj",
-    "contentHash": null,
+    "contentHash": "f4c6ef6b783b69d09a8f681ad1d80f1df35ef8cb8864917255879208cc305886",
     "blockHashes": [
       "84a570379809f573",
       "ab443a0bbfda7883"
@@ -4460,9 +4460,9 @@
     "extractedChars": 481,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T02:31:49.455Z",
-    "lastChangedISO": "2026-09-22T22:40:10.792Z",
+    "lastChangedISO": "2026-09-23T00:58:44.466Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://tvtc.gov.sa/",
@@ -8565,7 +8565,7 @@
   {
     "sourceUrl": "https://www.nazaha.gov.sa/",
     "orgId": "nazaha",
-    "contentHash": "eda153e50f8943da2052618b1368da529103f0cf4893560575b3dd7f963fae67",
+    "contentHash": "9c47c3111850a8fdb2783195be1c2ee4db349a23bea746b4e324117c610bae38",
     "blockHashes": [
       "a167b0dd9b0e3e1c",
       "74e4c1d2a646a96e",
@@ -8576,10 +8576,9 @@
     "extractedChars": 506,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T22:03:35.383Z",
-    "lastChangedISO": "2026-09-21T21:14:55.403Z",
+    "lastChangedISO": "2026-09-23T01:01:22.483Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://www.nazaha.gov.sa/Jobs",
