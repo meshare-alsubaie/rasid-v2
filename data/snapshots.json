@@ -1272,16 +1272,16 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/search-results",
     "orgId": "maaden",
-    "contentHash": "57e21d715d99579a95031453c82c3106532b75b0258156130ff0bb7defeb2cd7",
+    "contentHash": "940ac1535348f31aa2d860083c1e21f8a6042b050424b43bdd5bd8d2f9e74350",
     "blockHashes": [
       "dab5a7f3801bc914",
-      "0a18ce851a7641c8",
-      "1caf9042132db21c"
+      "f00f2d1d88c93581",
+      "9c548d87b5efe244"
     ],
     "extractedChars": 240,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-23T15:01:00.531Z",
+    "lastChangedISO": "2026-09-23T15:48:29.784Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -3648,8 +3648,8 @@
     "firstSeenISO": "2026-09-03T01:18:25.099Z",
     "lastChangedISO": "2026-09-23T00:12:39.849Z",
     "thinRuns": 0,
-    "pendingClassification": true,
-    "classifyFailures": 2
+    "pendingClassification": false,
+    "classifyFailures": 3
   },
   {
     "sourceUrl": "https://ndf.gov.sa/",
@@ -8570,7 +8570,7 @@
     "blockHashes": [
       "a167b0dd9b0e3e1c",
       "74e4c1d2a646a96e",
-      "737e5838626690c1",
+      "848eb56d14a3b89f",
       "c3fc1cda7b3b3192",
       "b388a9e4963a3a37"
     ],
@@ -8579,7 +8579,8 @@
     "firstSeenISO": "2026-08-29T22:03:35.383Z",
     "lastChangedISO": "2026-09-23T01:01:22.483Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://www.nazaha.gov.sa/Jobs",
