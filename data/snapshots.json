@@ -660,7 +660,7 @@
     "lastChangedISO": "2026-09-23T16:48:42.021Z",
     "thinRuns": 0,
     "pendingClassification": true,
-    "classifyFailures": 1
+    "classifyFailures": 2
   },
   {
     "sourceUrl": "https://awqaf.gov.sa/ar/ar/hiring/",
@@ -1337,20 +1337,38 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/search-results",
     "orgId": "maaden",
-    "contentHash": "41c073c91641909880200025e92d7350cb12597b3e01092e8e7ce3d341af9518",
+    "contentHash": "c36e01bdbf00f9f7c8719e1e8db1619538343238562d588d4a5e76b4230ce4bd",
     "blockHashes": [
       "5569201553604d03",
       "b856ff306f7f788a",
       "6bf0ca67e0f069b4",
       "d6c0adacb353836a",
-      "e6feaf3bb6447774",
-      "38fc0bdf424c7931",
-      "e31b539af633ea9f"
+      "def5e931483d65e4",
+      "e71a700f0e15f4de",
+      "5141fd9272fe5f1e",
+      "bb310ea624b170d0",
+      "f900c62ef1be03b1",
+      "26337780358a3e4a",
+      "09344acd786c46da",
+      "c8d5285d640be7c3",
+      "be8d081bb0dbb442",
+      "9d510409da437905",
+      "20e664c3e1b59ed4",
+      "3e38e5ff01de20dd",
+      "88c79927fed20803",
+      "6b1377eb6b6a2b78",
+      "e4aa493c9de2f848",
+      "0d2865530e1cadb8",
+      "4233252ac5214c9c",
+      "d4828738c0896dff",
+      "1ec39a1595d1c483",
+      "7737b7e94a3253e9",
+      "f2b7025b5db262e7"
     ],
-    "extractedChars": 373,
+    "extractedChars": 4743,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-23T16:36:01.988Z",
+    "lastChangedISO": "2026-09-23T17:23:49.436Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -7798,7 +7816,7 @@
     "lastChangedISO": "2026-09-23T16:48:42.021Z",
     "thinRuns": 0,
     "pendingClassification": true,
-    "classifyFailures": 1
+    "classifyFailures": 2
   },
   {
     "sourceUrl": "https://www.mim.gov.sa/ar/media-center/news",
@@ -9434,12 +9452,12 @@
   {
     "sourceUrl": "https://www.rcrc.gov.sa/news-ar/",
     "orgId": "rcrc",
-    "contentHash": "637d5f195b24c444b82e8e59369fe4015c1cc3fb1e272882e60d72bc74933cb9",
+    "contentHash": "f40039010215d62d86dc48cd4ffdd0202a8d9c46b6a42387bf5c131daa792a9f",
     "blockHashes": [
       "dd62229c2f61fb42",
       "306db3646b8a6c73",
       "b28682d0a5fa37ed",
-      "3090821170ff1fc3",
+      "a68d3cf424c2a311",
       "dd5bfb74e89dbbdd",
       "b32d68c4e5c2da0f",
       "b91cd7f4edfa88d2",
@@ -9452,7 +9470,7 @@
     "extractedChars": 3477,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-23T14:26:38.747Z",
+    "lastChangedISO": "2026-09-23T17:30:35.818Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -9675,7 +9693,7 @@
   {
     "sourceUrl": "https://www.riyadbank.com/ar/personal-banking",
     "orgId": "riyadbank",
-    "contentHash": "29a8cadc39eef5713d228d9622218ca296b9c3e1c5782cb712abccb86364e3dc",
+    "contentHash": "e73c5106cd39b3ac2bec7b3162828788bab91ed14885c92b048e586905de3b1f",
     "blockHashes": [
       "c5fa97b84e96f11e",
       "a01ad1ea1a27690a",
@@ -9699,15 +9717,15 @@
       "9f29620fa9319a80",
       "dd09a93c19a5b408",
       "fc0a22cc81c08834",
-      "5ca46b716e2fe884",
-      "1d775fb08011859c",
+      "97b7afff054f9f37",
+      "2274a27142a58d23",
       "303fe28588764a9b",
       "7a8a143470365dc2",
-      "960919b7fb63409c",
+      "68804184ee7f89f3",
       "c845d371bfc055e6",
       "e91a2dc79c3ef7ff",
-      "75701b4b0c077673",
-      "0b4f6c1a982c9472",
+      "e10872055bbde21f",
+      "68f92b28ff614b42",
       "cb4329c80213103c",
       "853e155161611ffc",
       "0f21ae2f5a35f90c",
@@ -9719,10 +9737,10 @@
       "27ab07a2e57dda34",
       "f2f0e16c376080f6"
     ],
-    "extractedChars": 10366,
+    "extractedChars": 10225,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
-    "lastChangedISO": "2026-09-23T14:20:19.529Z",
+    "lastChangedISO": "2026-09-23T17:28:02.979Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -11352,18 +11370,18 @@
   {
     "sourceUrl": "https://www.tahakom.com/careers",
     "orgId": "tahakom",
-    "contentHash": "457f65df725621cf1ff8df157d2d7ad5927ef366ef94aa5e45fdfae4dd6d3b3f",
+    "contentHash": "5d658db3b71a3c835647e3733048f45280f9f545019d9d633bee6da1c3926b9e",
     "blockHashes": [
       "d44217251213a019",
       "611753a8aea1ade1",
       "0cea4d38306888dc",
       "1a5263a5a2541c46",
-      "a937a81f39e1b5a8"
+      "933508bdf2afa08b"
     ],
-    "extractedChars": 838,
+    "extractedChars": 841,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-03T05:13:40.059Z",
-    "lastChangedISO": "2026-09-23T16:38:14.523Z",
+    "lastChangedISO": "2026-09-23T17:23:49.436Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
