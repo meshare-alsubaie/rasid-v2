@@ -137,7 +137,7 @@
   {
     "sourceUrl": "https://adf.gov.sa/ar/Pages/default.aspx",
     "orgId": "adf",
-    "contentHash": "b6bf1b1ddc39ad9a04c42a43a8476e5bf3301daf8843b76be425ba5e5453dc0f",
+    "contentHash": "74f71e8864a270c86f9e0e12a3133446d318736fd73f671084c915fd8363c819",
     "blockHashes": [
       "1ce798e0ca5f6070",
       "9e8708f46644e878",
@@ -146,7 +146,7 @@
       "b7a4f19178b3b8a1",
       "0514128baf9c79f1",
       "9185920f2483a42d",
-      "36385f1706e4f1e3",
+      "37f3a30010708200",
       "8d0d93944a16dca7",
       "13285e8c3eb4c8ac",
       "4838bf63eca38706",
@@ -157,10 +157,10 @@
       "782261474561a27a",
       "74b06ac36e5c75b0"
     ],
-    "extractedChars": 1702,
+    "extractedChars": 1704,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
-    "lastChangedISO": "2026-09-22T18:44:15.923Z",
+    "lastChangedISO": "2026-09-23T00:49:45.195Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "triaged_out"
@@ -3661,15 +3661,15 @@
   {
     "sourceUrl": "https://ndf.gov.sa/",
     "orgId": "ndf",
-    "contentHash": "71487e24bc693ba251a4c18524d4182ef366affb1df47308e1fd3f994819ff37",
+    "contentHash": "9420a8e742d411b384315ee97a50249dc7defc1e72412b978d923eb1d06faedb",
     "blockHashes": [
-      "9454a54f47f690d5",
+      "a79a1a2a264a749c",
       "cea7fd3977a9c5c0"
     ],
     "extractedChars": 3030,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-21T21:17:17.331Z",
+    "lastChangedISO": "2026-09-23T00:51:01.742Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -8121,11 +8121,11 @@
   {
     "sourceUrl": "https://www.mof.gov.sa/Pages/default.aspx",
     "orgId": "mof",
-    "contentHash": "5639f910b091f530964418241dbc2285ffe2a0f24f8b0ea994d89a3ad9b4401a",
+    "contentHash": "5edd8a7ba0fbf7eed0e343ff4b1ebd4976ec433ddb8bf1f7dd286d36ae85033a",
     "blockHashes": [
       "7f625851cbbadbc6",
       "f7711325e2c4b301",
-      "5173af38348bd21e",
+      "a8e2e34fc9acb523",
       "a4421c0a80a8433c",
       "589c637db8545e12",
       "d6925423217a99ca",
@@ -8136,7 +8136,7 @@
     "extractedChars": 467,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
-    "lastChangedISO": "2026-09-22T18:24:48.151Z",
+    "lastChangedISO": "2026-09-23T00:39:15.999Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -8704,8 +8704,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-22T21:34:39.850Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "triaged_out"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.ncc.gov.sa/ar/MediaCenter/Events/Pages/default.aspx",
@@ -10408,10 +10407,10 @@
   {
     "sourceUrl": "https://www.sfda.gov.sa/en/career-vision-and-mission",
     "orgId": "sfda",
-    "contentHash": "9bb27243111dc7798b9b10bfd088bdd0830b899036b12100fe6df5d6b72c687d",
+    "contentHash": "95f4c940274c569fb02c120bf48e2a27f1f749f769c8243515d796d9ca786ce4",
     "blockHashes": [
       "4e3b1c94f76f8148",
-      "0d7c0c92e28cf860",
+      "c2821942a65012c8",
       "b28682d0a5fa37ed",
       "5e9a5843d184b153",
       "c6452237208136a0",
@@ -10427,7 +10426,7 @@
     "extractedChars": 997,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-22T17:30:00.546Z",
+    "lastChangedISO": "2026-09-23T00:46:36.195Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
