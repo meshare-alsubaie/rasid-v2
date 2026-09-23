@@ -2245,9 +2245,9 @@
   {
     "sourceUrl": "https://gaca.gov.sa/news",
     "orgId": "gaca",
-    "contentHash": "08f93eaedfc40e0277a6e29187727655f59778a2d2d3a6217932d310f4c2af34",
+    "contentHash": "961f735c85abf344769dc41d30a3c6c356b706b64dc9cd3f2b543f3da3370a86",
     "blockHashes": [
-      "d5ed310e2b927de3",
+      "62d34edf06e6b84b",
       "ef26de24708740d2",
       "95eb6a3bfae983dc",
       "50638526149c77c9",
@@ -2316,12 +2316,13 @@
       "83a22e1f9fb245f8",
       "2ccfa90c84c059a7"
     ],
-    "extractedChars": 20507,
+    "extractedChars": 20768,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-22T23:13:33.306Z",
+    "lastChangedISO": "2026-09-23T02:15:29.349Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://gaca.gov.sa/web/ar-sa/page/home",
@@ -3072,9 +3073,9 @@
   {
     "sourceUrl": "https://modon.gov.sa/ar/MediaCenter/Pages/default.aspx",
     "orgId": "modon",
-    "contentHash": "de5a3ae0aa9518440b549b38eb6a57abf1f5243c7771a98c2334bd959b609be2",
+    "contentHash": "dd1b27430bea7809e2ec8626f55ccd48eadf50c6f95057003e7e886d8662e43f",
     "blockHashes": [
-      "3ff9cb4cb4b39a3b",
+      "78b5855017d6c534",
       "317f2772b9ef6210",
       "8ae17958586c8a8c",
       "a052fcd3e0ca047c"
@@ -3082,9 +3083,10 @@
     "extractedChars": 306,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-22T23:13:33.306Z",
+    "lastChangedISO": "2026-09-23T02:15:29.349Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://momah.gov.sa/ar",
@@ -3164,7 +3166,7 @@
   {
     "sourceUrl": "https://momah.gov.sa/ar/form/partnerships-and-cooperation",
     "orgId": "housing",
-    "contentHash": "a6c99be99347dc135af4c4bdf125232d1b0784ae5569f6ea4beb4c5aef419e3b",
+    "contentHash": "e6f42d32305de4bc9e9c392acda049ce548a53e9915ef335f0333ebef7400a0a",
     "blockHashes": [
       "bc22896c0dc046da",
       "d2009185b8a1a230",
@@ -3173,33 +3175,33 @@
       "1b54323138de80bd",
       "aa8e55eac5aea8cd",
       "09552ec2996654f9",
-      "fadca51d5e2ea037",
-      "7879c248b8b566b5",
+      "40746046f14e6961",
+      "50abc34a109d5fbd",
       "ac1405062719fb86",
-      "a8fe74b5dc8a08bb",
-      "3ec2e56eb63cb53a",
+      "0751b6407a73a4f8",
+      "b587c057626eaefc",
       "ff6f87e39638cb9b",
-      "be408e6341f205d5",
-      "09b1bd561f62b68f",
-      "a6aaf114b5647f9a",
-      "18ffef0fd6092486",
-      "61fd4987f633ce5e",
-      "5d15152619ff887e",
-      "cd5ceae6ba75507a",
-      "cd63ceb60b415e55",
+      "54f0a4ca3ce4de6b",
+      "782c81f1b5aa4a35",
+      "f0cebf8d132f73f4",
+      "e4be3c19da002528",
       "560edfe1df9d8921",
       "23b97a8a93aba477",
       "9cd3abf7fd1573ff",
-      "8bbfc7d2528b9a2c",
-      "78c459812b13a152",
-      "7401c3ebeead4af2"
+      "d0f27d9e8505bf2d",
+      "8e980739fc45cec0",
+      "5d15152619ff887e",
+      "3b931e6c81b5466f",
+      "09b1bd561f62b68f",
+      "b937b5ca72a561d8",
+      "01b941875f903319"
     ],
     "extractedChars": 151356,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-22T23:13:33.306Z",
+    "lastChangedISO": "2026-09-23T02:15:29.349Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://momah.gov.sa/ar/menu/media-center",
@@ -6548,10 +6550,10 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/news?lang=ar",
     "orgId": "hrc",
-    "contentHash": "a844a78b9e85e115eca6fe14cc8dfc21463a0a5a8a4a8fb461b17680d5278879",
+    "contentHash": "2fa3699677ce473bf743510806c971339c88b02bbe459057b5604a9e5c10c87c",
     "blockHashes": [
       "12e41a244a8a2984",
-      "e34c23a3987f15f5",
+      "f81c2d7451db7bc0",
       "4be1bef04e057a74",
       "730dee1abdba4881",
       "5a844d931886a314",
@@ -6579,9 +6581,10 @@
     "extractedChars": 5230,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-22T23:13:33.306Z",
+    "lastChangedISO": "2026-09-23T02:15:29.349Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "triaged_out"
   },
   {
     "sourceUrl": "https://www.hrdf.org.sa/products-and-services/programs/individuals/training/cooperative-training/",
@@ -10705,7 +10708,7 @@
   {
     "sourceUrl": "https://www.stats.gov.sa/en/news",
     "orgId": "gastat",
-    "contentHash": "cf9570eb028eeee055ad4fa1d5232ab5b71e2b0825251682b269065c239844b8",
+    "contentHash": "a6636718d57020bc2203fc95d1cfdd84385f718a37a51a0e92cddac3196e5bb8",
     "blockHashes": [
       "b7ce6498ecbc7c40",
       "c76bf99f8551a732",
@@ -11134,10 +11137,10 @@
       "00f2cdb2123b002f",
       "130941fb4f3fdf0d"
     ],
-    "extractedChars": 125667,
+    "extractedChars": 46131,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-23T01:24:14.603Z",
+    "lastChangedISO": "2026-09-23T02:15:29.349Z",
     "thinRuns": 0,
     "pendingClassification": true,
     "classifyFailures": 1
