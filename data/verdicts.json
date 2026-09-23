@@ -1,6 +1,6 @@
 {
   "model": "qwen3:8b",
-  "writtenISO": "2026-09-23T01:42:50.830Z",
+  "writtenISO": "2026-09-23T01:45:25.459Z",
   "verdicts": {
     "d3ed902d693a4c1d3b4fc1c6f9b85ea8": null,
     "cc97c142781ff3943c2ea2f9f38af7d8": null,
@@ -3757,6 +3757,33 @@
     "4795f01af7653179fb7ec19f3f14bc62": null,
     "e7d55d73a6929834bcb8678f6c2f517d": null,
     "78a483de173d2e9b9315f69f47089b3e": null,
-    "0fc63eddbd24bcf4fded529892fb8220": null
+    "0fc63eddbd24bcf4fded529892fb8220": null,
+    "93f42b7eaffc6beb1190913245925331": {
+      "isTrainingAnnouncement": true,
+      "product": "coop",
+      "titleAr": "COOP Training Program",
+      "opensISO": null,
+      "closesISO": null,
+      "opensRaw": null,
+      "closesRaw": null,
+      "moreOnPage": false,
+      "majors": [
+        "الغطاء النباتي",
+        "مكافحة التصحر"
+      ],
+      "seats": null,
+      "stipendSAR": null,
+      "durationWeeks": null,
+      "cities": [
+        "Riyadh",
+        "Jeddah",
+        "Dammam",
+        "Abha",
+        "Tabuk"
+      ],
+      "statesZeroCoursesRule": false,
+      "zeroCoursesQuote": null,
+      "applyUrl": null
+    }
   }
 }
