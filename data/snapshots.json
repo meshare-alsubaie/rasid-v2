@@ -659,7 +659,7 @@
     "lastChangedISO": "2026-09-23T20:51:21.528Z",
     "thinRuns": 0,
     "pendingClassification": true,
-    "classifyFailures": 1
+    "classifyFailures": 2
   },
   {
     "sourceUrl": "https://awqaf.gov.sa/ar/ar/hiring/",
@@ -3710,9 +3710,9 @@
   {
     "sourceUrl": "https://ndf.gov.sa/media-center/articles/article-human-resource-development",
     "orgId": "ndf",
-    "contentHash": "12a0dc5a80f6d5700435772d2f4b7f891da8a5ea7e26d85caea935561496836a",
+    "contentHash": "8d4bd4ff792cc0e5a9bcd14733dae2dbb668f96b24de75376336c0ac41ad9131",
     "blockHashes": [
-      "fe85b8599d74f992",
+      "392d1f8a5d84adbd",
       "2e431a1caf07dcca",
       "7a4afe45d7b2cb37",
       "a16ea57600a8a4dd",
@@ -3721,10 +3721,10 @@
       "e13becff422fb79f",
       "2dce6a68bcf7278f"
     ],
-    "extractedChars": 4175,
+    "extractedChars": 4173,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-22T21:56:44.843Z",
+    "lastChangedISO": "2026-09-23T22:20:57.171Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -7705,7 +7705,7 @@
   {
     "sourceUrl": "https://www.mim.gov.sa/ar/empower-training/cooperative-training",
     "orgId": "mim",
-    "contentHash": "da1443b4a50036344dd39e3878d1aacf65e71ca476cdfac03c83f8394360b9e4",
+    "contentHash": "a6d98a1043b4fee570194173de87763de4bef60bd305fa51107e4cbcd23b2143",
     "blockHashes": [
       "1cb91553dd3291a4",
       "5300d4cdd32a8d33"
@@ -7713,7 +7713,7 @@
     "extractedChars": 2178,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T02:22:33.828Z",
-    "lastChangedISO": "2026-09-23T21:40:57.477Z",
+    "lastChangedISO": "2026-09-23T22:29:14.894Z",
     "thinRuns": 0,
     "pendingClassification": true,
     "classifyFailures": 1
@@ -8550,18 +8550,18 @@
   {
     "sourceUrl": "https://www.nazaha.gov.sa/",
     "orgId": "nazaha",
-    "contentHash": "9c47c3111850a8fdb2783195be1c2ee4db349a23bea746b4e324117c610bae38",
+    "contentHash": "11b722ff38ebebc26a9dc06ac64ac1896423679334f9e53bb623c2fa27768af2",
     "blockHashes": [
       "a167b0dd9b0e3e1c",
       "74e4c1d2a646a96e",
-      "848eb56d14a3b89f",
+      "9fd5c254f16d741a",
       "c3fc1cda7b3b3192",
       "b388a9e4963a3a37"
     ],
     "extractedChars": 506,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T22:03:35.383Z",
-    "lastChangedISO": "2026-09-23T01:01:22.483Z",
+    "lastChangedISO": "2026-09-23T22:20:57.171Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
