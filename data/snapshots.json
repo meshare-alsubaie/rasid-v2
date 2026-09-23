@@ -1257,80 +1257,15 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/cookiesettings",
     "orgId": "maaden",
-    "contentHash": "3d7c0a8aeef1d5beace6ec37406eb1b15c574a7be9cbc682ce6be6844ecbd052",
+    "contentHash": "90bac1458e405a6eebefd9aad792145c752beccab369ba5e50dcbfa3e0f15e4f",
     "blockHashes": [
-      "5569201553604d03",
-      "f4979ecd6a2f2db6",
-      "dd53e083dd4c4329",
-      "5e2fc5a4da5c7871",
-      "197c66a2b21d9654",
-      "d0ab804bb0e10e66",
-      "e818cce7b74ae6db",
-      "d1833b86fa1a3dc2",
-      "18da4ce188b86def",
-      "3b5bc1b292c99cb8",
-      "485e192527fc9506",
-      "eb463a787af62bab",
-      "43166035348a1b0b",
-      "a44dc6ce189d4879",
-      "483e123d29b0a818",
-      "393125935561c068",
-      "d8107c80a9aebb34",
-      "b74c67cec42881e2",
-      "15430bccc9bed5d7",
-      "2149d9dc8f6ae0cf",
-      "7a7b55ffacf4a585",
-      "2149d9dc8f6ae0cf",
-      "f909e979e6aae786",
-      "5906ae3ffdce8bc8",
-      "e3a2c908eaebd2a2",
-      "169958e57696d119",
-      "e74207bed37aebfe",
-      "9908bea8ee27a25a",
-      "4ae1d5a2b0d7192a",
-      "4d35192342eb77da",
-      "e2c48cd73523407c",
-      "010a959e4f860bd5",
-      "06fe22d3ea7d87af",
-      "9708875dd3aa8874",
-      "57e930dec518743f",
-      "3a178bffa400d7a0",
-      "fc9eac603d35b8a6",
-      "cdf38a2c52075296",
-      "fa6bfeded07757f6",
-      "ea040369029d6d6e",
-      "4686c00e847976b6",
-      "50763c11a7c1a09a",
-      "450932e8162395fb",
-      "9396a57df5a18dc4",
-      "42fd773c6d0bebef",
-      "11eac377e50efc47",
-      "0bc6a50f42868d23",
-      "e5b2288369ed702b",
-      "9087d7fd29165695",
-      "8d5db961685beb16",
-      "76a701c178d74d4c",
-      "25b280b79d7ac86b",
-      "463e7ef4f35a9939",
-      "26929eb198603397",
-      "ab122a62f7aa522e",
-      "706144fc2d46c5ae",
-      "d35f27768010eca6",
-      "548ab7896ea86129",
-      "4135efdf8454089c",
-      "6b28f6ff3dac2800",
-      "381664bd825e864e",
-      "87774502613ebb89",
-      "c73cffa627fb536c",
-      "ee82ab94d7112a03",
-      "60b7b15f81dc7749",
-      "abf11bb520a3d451",
-      "92c8a3c05bc4b957"
+      "bf3f999ed3dd9349",
+      "8750e8e72f4b0a21"
     ],
-    "extractedChars": 8013,
+    "extractedChars": 240,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-23T14:26:38.747Z",
+    "lastChangedISO": "2026-09-23T15:17:09.016Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -2216,7 +2151,7 @@
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T02:22:33.828Z",
     "lastChangedISO": "2026-08-29T02:36:21.032Z",
-    "thinRuns": 331,
+    "thinRuns": 332,
     "pendingClassification": false
   },
   {
@@ -2253,19 +2188,20 @@
   {
     "sourceUrl": "https://gaca.gov.sa/announcements",
     "orgId": "gaca",
-    "contentHash": "f0965327a488fd872e444885f22ae8e068ef4b35d562d9fefb9df720099b8c66",
+    "contentHash": "cc8c3e8691cc60a733fa9317e8465bea18b0dd78a83e4c79ccccc0689f7a99fc",
     "blockHashes": [
-      "f5b1940c6bdae1e4",
+      "fafa6b09b27a4102",
       "9c2a3967149440a8",
       "83a22e1f9fb245f8",
-      "742a17aa4393e6c2"
+      "bc532942aaed49b7"
     ],
-    "extractedChars": 1475,
+    "extractedChars": 1214,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-23T00:21:05.508Z",
+    "lastChangedISO": "2026-09-23T15:20:37.306Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://gaca.gov.sa/ar/announcements",
@@ -6536,10 +6472,10 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/careers?lang=ar",
     "orgId": "hrc",
-    "contentHash": "0c35dbea91df63de27145628fd9ad89ab2098e6607743e5f8e9feadc3791eea8",
+    "contentHash": "0542edb2cb2fb9e36a227c441ac418a858b2018412bd733c5c53af0cbb73c354",
     "blockHashes": [
       "12e41a244a8a2984",
-      "c42e3b63ce83631a",
+      "b85670a45627ba79",
       "9bd6314e9bbc7375",
       "474d2dbb69aae30b",
       "84b2fc11813dc7e8",
@@ -6563,9 +6499,9 @@
     "extractedChars": 3794,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-23T00:21:05.508Z",
+    "lastChangedISO": "2026-09-23T15:20:37.306Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/careers/graduate-development-program",
@@ -7101,17 +7037,18 @@
   {
     "sourceUrl": "https://www.jadwa.com/en/announcements",
     "orgId": "jadwa",
-    "contentHash": "9bb8f8b84dfcce5a6097411b4b1663ab70791a25556f52e6d70c88de853905b6",
+    "contentHash": "8a3703186a8bace40c5e06acf619d7d9f8106926b4fa9783a1d847b178602d8d",
     "blockHashes": [
       "f8ac1fcfbddaa853",
-      "9191f022f56c8aef"
+      "3980ad13e209a9e8"
     ],
-    "extractedChars": 2959,
+    "extractedChars": 1560,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-17T13:42:59.582Z",
+    "lastChangedISO": "2026-09-23T15:20:37.306Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://www.jadwa.com/en/careers",
@@ -8515,9 +8452,9 @@
   {
     "sourceUrl": "https://www.monshaat.gov.sa/",
     "orgId": "monshaat",
-    "contentHash": "1322ca6ba78ef87bcd6bc2d88ca3c21e40b98561dc01790d03b69d2bd71e63f7",
+    "contentHash": "0c87bf768615042d1a389f16302f02555255dc406039ad6ff6aef4d840fa75a2",
     "blockHashes": [
-      "407f13d7edc29886",
+      "5f2a1afb7ba0fbf6",
       "5c69506a3d5f7a48",
       "399508eebde112fd",
       "be154d8cd7ade2c5",
@@ -8531,7 +8468,7 @@
     "extractedChars": 4311,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
-    "lastChangedISO": "2026-09-22T18:13:23.486Z",
+    "lastChangedISO": "2026-09-23T15:20:37.306Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -8745,8 +8682,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-22T21:21:29.319Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.nazaha.gov.sa/News/Details?q=o2ojUlDL5mGosOuEoGXXeg==",
@@ -10865,7 +10801,7 @@
   {
     "sourceUrl": "https://www.stats.gov.sa/en/news",
     "orgId": "gastat",
-    "contentHash": "cf9570eb028eeee055ad4fa1d5232ab5b71e2b0825251682b269065c239844b8",
+    "contentHash": "a6636718d57020bc2203fc95d1cfdd84385f718a37a51a0e92cddac3196e5bb8",
     "blockHashes": [
       "b7ce6498ecbc7c40",
       "c76bf99f8551a732",
@@ -11294,10 +11230,10 @@
       "00f2cdb2123b002f",
       "130941fb4f3fdf0d"
     ],
-    "extractedChars": 125667,
+    "extractedChars": 46131,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-23T14:13:54.037Z",
+    "lastChangedISO": "2026-09-23T15:20:37.306Z",
     "thinRuns": 0,
     "pendingClassification": true,
     "classifyFailures": 1
