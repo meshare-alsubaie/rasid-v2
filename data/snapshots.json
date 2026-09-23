@@ -1338,38 +1338,19 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/search-results",
     "orgId": "maaden",
-    "contentHash": "c36e01bdbf00f9f7c8719e1e8db1619538343238562d588d4a5e76b4230ce4bd",
+    "contentHash": "985cde53aae4e5b969331846fa7fd8d392e443672586378450f57191e2d478b5",
     "blockHashes": [
       "5569201553604d03",
-      "b856ff306f7f788a",
-      "6bf0ca67e0f069b4",
+      "6e3cceb54e777f64",
+      "298a05ebe5a16280",
       "d6c0adacb353836a",
       "def5e931483d65e4",
-      "e71a700f0e15f4de",
-      "5141fd9272fe5f1e",
-      "bb310ea624b170d0",
-      "f900c62ef1be03b1",
-      "26337780358a3e4a",
-      "09344acd786c46da",
-      "c8d5285d640be7c3",
-      "be8d081bb0dbb442",
-      "9d510409da437905",
-      "20e664c3e1b59ed4",
-      "3e38e5ff01de20dd",
-      "88c79927fed20803",
-      "6b1377eb6b6a2b78",
-      "e4aa493c9de2f848",
-      "0d2865530e1cadb8",
-      "4233252ac5214c9c",
-      "d4828738c0896dff",
-      "1ec39a1595d1c483",
-      "7737b7e94a3253e9",
-      "f2b7025b5db262e7"
+      "27b123aff07a5377"
     ],
-    "extractedChars": 4743,
+    "extractedChars": 505,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-23T17:23:49.436Z",
+    "lastChangedISO": "2026-09-23T18:14:08.571Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -2312,9 +2293,9 @@
   {
     "sourceUrl": "https://gaca.gov.sa/ar/News",
     "orgId": "gaca",
-    "contentHash": "f0d6b502a204c840c4099ce43778b95f472503414e877a74e49d5fd76f698183",
+    "contentHash": "844fc0159b7fe9a5e252aabad003765befb53d297fef5dea5c4d8959c177850f",
     "blockHashes": [
-      "b948d3900f177305",
+      "8b0ef7539e77bc06",
       "ef26de24708740d2",
       "95eb6a3bfae983dc",
       "50638526149c77c9",
@@ -2381,12 +2362,12 @@
       "83806ca220a038f5",
       "12de0761cfdf936c",
       "83a22e1f9fb245f8",
-      "bc532942aaed49b7"
+      "2ccfa90c84c059a7"
     ],
-    "extractedChars": 20507,
+    "extractedChars": 20768,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-23T15:06:09.433Z",
+    "lastChangedISO": "2026-09-23T18:14:08.571Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -3390,8 +3371,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-23T15:06:09.433Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://momah.gov.sa/ar/news",
@@ -3836,8 +3816,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-22T21:05:41.739Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://ndf.gov.sa/media-center/press-news",
@@ -4530,7 +4509,7 @@
   {
     "sourceUrl": "https://training.moj.gov.sa/",
     "orgId": "moj",
-    "contentHash": "f4c6ef6b783b69d09a8f681ad1d80f1df35ef8cb8864917255879208cc305886",
+    "contentHash": null,
     "blockHashes": [
       "84a570379809f573",
       "ab443a0bbfda7883"
@@ -6595,10 +6574,10 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/careers/graduate-development-program",
     "orgId": "hrc",
-    "contentHash": "d5c961c38b81e756ef3b2fa1bfcdb8769da486ab04595adb6e68758a579aaf6e",
+    "contentHash": "a61f3827a32fbd7c722ada03484f264c1b2dd582b06057f61ae86c363fa6b3e1",
     "blockHashes": [
       "12e41a244a8a2984",
-      "cb833ef0ba2d1ecb",
+      "00014a9b8db08f65",
       "741386d322f274be",
       "40d7009856bbc81d",
       "2dd486d3d3cacb8b",
@@ -6664,7 +6643,7 @@
     "extractedChars": 10689,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-23T15:06:09.433Z",
+    "lastChangedISO": "2026-09-23T18:14:08.571Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -8632,7 +8611,7 @@
     "lastChangedISO": "2026-09-23T15:06:09.433Z",
     "thinRuns": 0,
     "pendingClassification": true,
-    "classifyFailures": 1
+    "classifyFailures": 2
   },
   {
     "sourceUrl": "https://www.mot.gov.sa/ar/Pages/default.aspx",
@@ -8748,8 +8727,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-22T21:08:05.842Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.nazaha.gov.sa/News/Details?q=LDqaftYCK2agKydxrbY5fg==",
@@ -9941,8 +9919,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-23T15:06:09.433Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.saip.gov.sa/ar/media-center/movables-platform",
@@ -10506,8 +10483,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-23T14:50:23.373Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.sfda.gov.sa/en/career-vision-and-mission",
