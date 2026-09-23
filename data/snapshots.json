@@ -764,7 +764,7 @@
   {
     "sourceUrl": "https://career.alinma.com/",
     "orgId": "alinma",
-    "contentHash": "e245fd94c1ab59dcc6bad34af50ba34c224654b27d2f46834c18eef001143fa5",
+    "contentHash": null,
     "blockHashes": [
       "d139e32e22028878",
       "24a16c9057a577bb",
@@ -1271,18 +1271,18 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/search-results",
     "orgId": "maaden",
-    "contentHash": "6f48311d7f3e87dbfc2589a2fe9ca87327a025d2267d2a68e6e3534ce104f4dc",
+    "contentHash": "33bbf37f36ae2712bb0ed1a179304be9740298741b2f235b2ab1f29353d8de1e",
     "blockHashes": [
       "dab5a7f3801bc914",
-      "385d7167679fe119",
-      "f7c7476eb87cc33b"
+      "625fa0d41dc3e538",
+      "d91af8d29f739744"
     ],
     "extractedChars": 240,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-23T02:44:53.383Z",
+    "lastChangedISO": "2026-09-23T14:06:31.901Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://careers.mcit.gov.sa/",
@@ -1635,16 +1635,42 @@
   {
     "sourceUrl": "https://careers.scfhs.org.sa/ar/page/on-the-job-training/",
     "orgId": "scfhs",
-    "contentHash": "bc413945bf3c6a1ec545b0b1b5b9b4f7aecf27067b87d059d6f0740c58b33011",
+    "contentHash": "502c3ab0d9442f6a4b1ae3ac20a13d5d448cd0453d81fd141120de9b9f4f44d5",
     "blockHashes": [
-      "bf9b8c3e158d6172",
-      "34eae3b46b963aa7",
-      "7e7038ff0e42deca"
+      "b33238e9cd12ce31",
+      "ddd9eba087f62805",
+      "3bddf03c1f19ccfc",
+      "9fb2821a3200475e",
+      "ce8d6759ee48471d",
+      "7f2571f30b57c8a9",
+      "59050b0e4e5f8b2e",
+      "739b6ceb85f2310d",
+      "11bc6c2a180e003b",
+      "4c3abd27114ea20f",
+      "44f188cac291bf63",
+      "609c307ed219fd08",
+      "8e82d69fd7175dd4",
+      "dc9ed7d32e24b955",
+      "f86304dd79be58cf",
+      "a67d5e1164e093d2",
+      "edb97a5902d22102",
+      "ea55497e2443559e",
+      "2d976a4e86a46045",
+      "557ecee3c150b0eb",
+      "782261474561a27a",
+      "eb51bc3bf3ed1556",
+      "b1d3f81a7b13fa47",
+      "ab7bb7f189da6f91",
+      "a1f09a20d6077bfb",
+      "661ed4d88f24393e",
+      "72c4936743150d7c",
+      "8ee6ade0f1369184",
+      "3b5a8943dae3d475"
     ],
-    "extractedChars": 1382,
+    "extractedChars": 1731,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-08-31T00:02:49.563Z",
+    "lastChangedISO": "2026-09-23T14:06:31.901Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -3580,7 +3606,8 @@
     "firstSeenISO": "2026-09-03T01:18:25.099Z",
     "lastChangedISO": "2026-09-23T00:12:39.849Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://ndf.gov.sa/",
@@ -9247,16 +9274,17 @@
   {
     "sourceUrl": "https://www.rcrc.gov.sa/careers/?lang=ar",
     "orgId": "rcrc",
-    "contentHash": "b7d06b50843c9627e8fe696dd8eff4c3011745210a816832f37c2ad838dfec57",
+    "contentHash": "eb5363a136533f41bc575c580e135df67d98a453e3a6a5cd291f9635b07608ea",
     "blockHashes": [
       "b7d06b50843c9627"
     ],
-    "extractedChars": 784,
+    "extractedChars": 1166,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-23T02:06:13.313Z",
+    "lastChangedISO": "2026-09-23T14:06:31.901Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://www.rcrc.gov.sa/media-center/",
