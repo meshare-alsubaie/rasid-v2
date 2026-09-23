@@ -1337,16 +1337,16 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/search-results",
     "orgId": "maaden",
-    "contentHash": "33bbf37f36ae2712bb0ed1a179304be9740298741b2f235b2ab1f29353d8de1e",
+    "contentHash": "57e21d715d99579a95031453c82c3106532b75b0258156130ff0bb7defeb2cd7",
     "blockHashes": [
       "dab5a7f3801bc914",
-      "625fa0d41dc3e538",
-      "d91af8d29f739744"
+      "0a18ce851a7641c8",
+      "1caf9042132db21c"
     ],
     "extractedChars": 240,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-23T14:06:31.901Z",
+    "lastChangedISO": "2026-09-23T15:01:00.531Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -1781,15 +1781,25 @@
   {
     "sourceUrl": "https://careers.scfhs.org.sa/ar/saudi-arabia/jobs/",
     "orgId": "scfhs",
-    "contentHash": "a16bcbaaaa402693d49935658ef093b03bb9be8ffd77dca4ea691c7ca40f0cb7",
+    "contentHash": "5eebca9b801793b062207c18c549dfb964739a38e24227aee73ce3bbdb0afb4c",
     "blockHashes": [
-      "9df64e1e6f946f8a"
+      "b33238e9cd12ce31",
+      "540c4dab918b7fbe",
+      "782261474561a27a",
+      "eb51bc3bf3ed1556",
+      "b1d3f81a7b13fa47",
+      "ab7bb7f189da6f91",
+      "a1f09a20d6077bfb",
+      "661ed4d88f24393e",
+      "72c4936743150d7c",
+      "8ee6ade0f1369184",
+      "3b5a8943dae3d475"
     ],
-    "extractedChars": 191,
-    "extractionMethod": "body_fallback",
+    "extractedChars": 842,
+    "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-15T13:08:42.574Z",
-    "thinRuns": 32,
+    "lastChangedISO": "2026-09-23T14:56:39.217Z",
+    "thinRuns": 0,
     "pendingClassification": false
   },
   {
@@ -3699,7 +3709,7 @@
     "lastChangedISO": "2026-09-23T00:12:39.849Z",
     "thinRuns": 0,
     "pendingClassification": true,
-    "classifyFailures": 1
+    "classifyFailures": 2
   },
   {
     "sourceUrl": "https://ndf.gov.sa/",
@@ -3806,7 +3816,7 @@
     "orgId": "ndf",
     "contentHash": "c128fcdb70aad62c2585305f6a293174ff454bb8b8c01339fdab8bb44c33eadb",
     "blockHashes": [
-      "6b1c62788dded76e",
+      "79a0ca01c232c38c",
       "298b2e63b8ef43cd",
       "5e686414ef9a665b"
     ],
@@ -3815,7 +3825,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-22T23:47:59.227Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://neti.etec.gov.sa/",
@@ -7993,7 +8003,7 @@
     "blockHashes": [
       "7f625851cbbadbc6",
       "f7711325e2c4b301",
-      "fd96a4bf7ea84251",
+      "4f3b6c544fc14e5a",
       "e84d677a03549107",
       "f4809815161554d5",
       "0129ceb5c2a3779e",
@@ -8009,7 +8019,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-23T00:04:34.277Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.mof.gov.sa/eservices/Loans/Pages/Lending_Educational_Projects.aspx",
@@ -8191,7 +8201,7 @@
   {
     "sourceUrl": "https://www.mofa.gov.sa/",
     "orgId": "mofa",
-    "contentHash": "2d32dc1331fc52268a3a476a04df18f93a7d87f7945eec3baf813b466d1f6777",
+    "contentHash": "54a09794a6bd5ab6681c1f3aaf720f7ae373a3ef85445d08f4e8e700093c7240",
     "blockHashes": [
       "88b5148b04637d49",
       "74e4c1d2a646a96e",
@@ -8205,19 +8215,20 @@
       "212a542105ef57c5",
       "77c6c55a7134985c",
       "8448d23e87cb26c4",
-      "e5909ab881d2030b",
+      "52dcd1b5408a271a",
       "18652347282cba48",
-      "7337033966e4169e",
+      "4b0a5d91f248cc6d",
       "06538d757b5fb483",
-      "66a263741ff8cd0c",
+      "ba60536d4af29bfa",
       "782261474561a27a"
     ],
-    "extractedChars": 1830,
+    "extractedChars": 1730,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
-    "lastChangedISO": "2026-09-22T17:44:59.644Z",
+    "lastChangedISO": "2026-09-23T14:54:07.506Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://www.mofa.gov.sa/ar/ministry/news/Pages/%D8%A7%D8%AA%D9%81%D8%A7%D9%82%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D8%A5%D8%B9%D9%81%D8%A7%D8%A1-%D8%A7%D9%84%D9%85%D8%AA%D8%A8%D8%A7%D8%AF%D9%84.aspx",
@@ -9335,7 +9346,7 @@
   {
     "sourceUrl": "https://www.rcrc.gov.sa/",
     "orgId": "rcrc",
-    "contentHash": "6b0b2c7a72f518aab730ad8a97feabcefcce3e93dabd2664555b4375f1dfe450",
+    "contentHash": "6b594e1976976d1ef8478db4a21d089136669062783764cad91a42d249439fd0",
     "blockHashes": [
       "dd62229c2f61fb42",
       "306db3646b8a6c73",
@@ -9352,7 +9363,7 @@
       "12f1f6332d8a8779",
       "6e5f989a3fce248d",
       "631fa3742418d437",
-      "829fe680588e6412",
+      "73e59a324ab98b07",
       "aa0b7302330697e3",
       "b32d68c4e5c2da0f",
       "b91cd7f4edfa88d2",
@@ -9365,9 +9376,10 @@
     "extractedChars": 2274,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
-    "lastChangedISO": "2026-09-23T00:04:34.277Z",
+    "lastChangedISO": "2026-09-23T14:56:39.217Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "triaged_out"
   },
   {
     "sourceUrl": "https://www.rcrc.gov.sa/careers/?lang=ar",
