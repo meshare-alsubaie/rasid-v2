@@ -240,7 +240,7 @@
   {
     "sourceUrl": "https://alinma.com/",
     "orgId": "alinma",
-    "contentHash": "5950b9c22f180491ce42f80f0b16413787189af644bf1b22128ad3d41e22e263",
+    "contentHash": "ea11590dbcd27f6960d938b85546423bbb049a52df2ae6f4f36c3ddff7c39e15",
     "blockHashes": [
       "be896a4040d0b497",
       "0a14ab6988360391",
@@ -255,9 +255,9 @@
     "extractedChars": 1479,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T22:03:35.383Z",
-    "lastChangedISO": "2026-09-22T22:43:39.004Z",
+    "lastChangedISO": "2026-09-24T03:05:04.563Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://alinma.com/About-the-Bank/The-Bank/News",
@@ -1337,7 +1337,7 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/search-results",
     "orgId": "maaden",
-    "contentHash": "c73029978d2c151adbd6e70d91471dad3795509201ba3b4aa34e4554b8830d92",
+    "contentHash": "a4ff0e271fa29b8f0eade2045ab3b5680cda38b3d30b2c38417ee0697b6f8275",
     "blockHashes": [
       "dab5a7f3801bc914",
       "d6c0adacb353836a",
@@ -1347,9 +1347,9 @@
     "extractedChars": 240,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-24T02:24:41.870Z",
+    "lastChangedISO": "2026-09-24T03:13:56.099Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://careers.mcit.gov.sa/",
@@ -2272,20 +2272,19 @@
   {
     "sourceUrl": "https://gaca.gov.sa/ar/announcements",
     "orgId": "gaca",
-    "contentHash": "c252e737cee7bbbcf1f26208a29c2ca619ef99f632ef2a0b4ec15c4afb8d077c",
+    "contentHash": "7f22fb526050817a76cfd882d85c9f2875d828d2c97c14d0983ff85411a27df7",
     "blockHashes": [
       "b8dd890e9649cc72",
       "9c2a3967149440a8",
       "83a22e1f9fb245f8",
       "742a17aa4393e6c2"
     ],
-    "extractedChars": 1473,
+    "extractedChars": 1212,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-24T00:07:59.510Z",
+    "lastChangedISO": "2026-09-24T03:10:02.082Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://gaca.gov.sa/ar/News",
@@ -3148,7 +3147,7 @@
   {
     "sourceUrl": "https://modon.gov.sa/",
     "orgId": "modon",
-    "contentHash": "eca2dfd81079751d33b383d98edf11cd759836acf60521fb70ddea86b46dc4e0",
+    "contentHash": "a3ac8c7624e9e4415c1705f06c611d7f9671921a7760df6fdb3c4ceedc58a0ea",
     "blockHashes": [
       "55f5a0e5b462eba8",
       "0edf2292f0637ccb",
@@ -3172,10 +3171,9 @@
     "extractedChars": 5996,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-23T21:03:48.387Z",
+    "lastChangedISO": "2026-09-24T03:07:44.719Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://modon.gov.sa/ar/MediaCenter/modon-news/News/Pages/default.aspx",
@@ -3896,7 +3894,7 @@
   {
     "sourceUrl": "https://nour.net.sa/ar/news/limitless-2026-event/",
     "orgId": "nournet",
-    "contentHash": "ed0c08359c6b082696be6cc51dda5e2180e53e071f55c5bd0a277ab75cfd9712",
+    "contentHash": "da5b86540a898147beafd86d74f9440b3d3f21e7f689b0664f3dff826faed52c",
     "blockHashes": [
       "c98d23b8511f3049",
       "1c2d61fcce5b811e",
@@ -3910,9 +3908,9 @@
     "extractedChars": 3296,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-20T22:20:37.996Z",
+    "lastChangedISO": "2026-09-24T03:12:37.425Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://nour.net.sa/news/",
@@ -6645,7 +6643,7 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/cooperations?lang=ar",
     "orgId": "hrc",
-    "contentHash": "fd2adb598963d2ae40229bf37d8d57b1451ea120db2846031d91fc3e443b3176",
+    "contentHash": "27ea2553b78561b97852450dce52a2e8e3fcd6e371c7c41c643f3311cff70029",
     "blockHashes": [
       "12e41a244a8a2984",
       "7f58d1ce12d800b8",
@@ -6669,9 +6667,9 @@
     "extractedChars": 6137,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-24T00:07:59.510Z",
+    "lastChangedISO": "2026-09-24T03:10:02.082Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/news?lang=ar",
@@ -8226,8 +8224,7 @@
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
     "lastChangedISO": "2026-09-23T21:07:53.703Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.mofa.gov.sa/ar/ministry/news/Pages/%D8%A7%D8%AA%D9%81%D8%A7%D9%82%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D8%A5%D8%B9%D9%81%D8%A7%D8%A1-%D8%A7%D9%84%D9%85%D8%AA%D8%A8%D8%A7%D8%AF%D9%84.aspx",
@@ -10745,7 +10742,7 @@
   {
     "sourceUrl": "https://www.stats.gov.sa/ar",
     "orgId": "gastat",
-    "contentHash": "cceb32beacd36922533a31ddb90ca13777bba134bb5e299b4a66bc4972902da4",
+    "contentHash": "8d1642cd499cca642b6d06bbb66feec76b3c1662f69d6e362a1a20a796512d71",
     "blockHashes": [
       "b618107f43bd2daf",
       "7c7b7fcab684a4c3",
@@ -10756,13 +10753,12 @@
       "dc84e74cdce35fa3",
       "9214de5f4ec23c78"
     ],
-    "extractedChars": 4675,
+    "extractedChars": 4742,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-23T21:12:20.212Z",
+    "lastChangedISO": "2026-09-24T03:15:24.230Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://www.stats.gov.sa/ar/cooperative-training",
