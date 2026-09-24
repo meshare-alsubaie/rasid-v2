@@ -648,7 +648,7 @@
   {
     "sourceUrl": "https://athkax.sdaia.gov.sa/coop",
     "orgId": "sdaia",
-    "contentHash": "a58f144950bb22de0c4667555dc3401317db3a7e9e0679e6a27c03768b15a660",
+    "contentHash": "f1c749f1b0084dc210dc0d9f1e447c42c8ea07e30a315579c292163ea7abbe55",
     "blockHashes": [
       "04ba8a3fca46514f",
       "4bd08244050e9682"
@@ -656,7 +656,7 @@
     "extractedChars": 756,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-24T02:39:17.891Z",
+    "lastChangedISO": "2026-09-24T03:28:21.342Z",
     "thinRuns": 0,
     "pendingClassification": true,
     "classifyFailures": 1
@@ -2289,9 +2289,9 @@
   {
     "sourceUrl": "https://gaca.gov.sa/ar/News",
     "orgId": "gaca",
-    "contentHash": "75c57f4e7b32ab11bd545f8df37414099d91a207b7db03ff8a5bfbc620b6e8dc",
+    "contentHash": "df84c144d1ce5f09b97f901f322461642472a8abf77867aaefd7a3ea70e5a1bf",
     "blockHashes": [
-      "79672b1d76da463b",
+      "c780e2d1cb8e106c",
       "ef26de24708740d2",
       "95eb6a3bfae983dc",
       "50638526149c77c9",
@@ -2358,12 +2358,12 @@
       "83806ca220a038f5",
       "12de0761cfdf936c",
       "83a22e1f9fb245f8",
-      "ac473f85e97b4d85"
+      "5b948c64294d8817"
     ],
-    "extractedChars": 20761,
+    "extractedChars": 20510,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-24T00:22:25.786Z",
+    "lastChangedISO": "2026-09-24T03:23:28.859Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -6567,10 +6567,10 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/careers/graduate-development-program",
     "orgId": "hrc",
-    "contentHash": "74ced69993e16c7ff1f80b6efed3d56428c549159679155af3237cd86abf3ade",
+    "contentHash": "0a0e6699f3466e08c090439796ef642f7c5db426c8b1e17760c086f7ddbdb28d",
     "blockHashes": [
       "12e41a244a8a2984",
-      "983588300e83bf1c",
+      "8d269c8decc7526f",
       "741386d322f274be",
       "40d7009856bbc81d",
       "2dd486d3d3cacb8b",
@@ -6636,7 +6636,7 @@
     "extractedChars": 10689,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-24T00:22:25.786Z",
+    "lastChangedISO": "2026-09-24T03:23:28.859Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -7790,9 +7790,9 @@
   {
     "sourceUrl": "https://www.mim.gov.sa/ar/media-center/news",
     "orgId": "mim",
-    "contentHash": "aa04ba50cbfdde808cab0579d2507123ef33162ee2a0c964ae799296cf4c3868",
+    "contentHash": "03b1af7ab6e95523be5fc686a8d804602723884b495b67c6d7599b2e9abffd1c",
     "blockHashes": [
-      "fa2447b2556ad4e1",
+      "44fdf9c53a458db9",
       "138d2aa9a5c65516",
       "dc40cb1a74b23e69",
       "172421d691a25902",
@@ -7825,7 +7825,7 @@
     "extractedChars": 11088,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-24T00:24:29.472Z",
+    "lastChangedISO": "2026-09-24T03:25:51.425Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -10815,7 +10815,7 @@
   {
     "sourceUrl": "https://www.stats.gov.sa/en/news",
     "orgId": "gastat",
-    "contentHash": "cf9570eb028eeee055ad4fa1d5232ab5b71e2b0825251682b269065c239844b8",
+    "contentHash": "a6636718d57020bc2203fc95d1cfdd84385f718a37a51a0e92cddac3196e5bb8",
     "blockHashes": [
       "b7ce6498ecbc7c40",
       "c76bf99f8551a732",
@@ -11244,12 +11244,13 @@
       "00f2cdb2123b002f",
       "130941fb4f3fdf0d"
     ],
-    "extractedChars": 125667,
+    "extractedChars": 46131,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-24T00:49:09.974Z",
+    "lastChangedISO": "2026-09-24T03:28:21.342Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://www.tadawulgroup.sa/wps/portal/tadawulgroup/joinus",
