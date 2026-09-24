@@ -648,7 +648,7 @@
   {
     "sourceUrl": "https://athkax.sdaia.gov.sa/coop",
     "orgId": "sdaia",
-    "contentHash": "f1c749f1b0084dc210dc0d9f1e447c42c8ea07e30a315579c292163ea7abbe55",
+    "contentHash": "a58f144950bb22de0c4667555dc3401317db3a7e9e0679e6a27c03768b15a660",
     "blockHashes": [
       "04ba8a3fca46514f",
       "4bd08244050e9682"
@@ -656,7 +656,7 @@
     "extractedChars": 756,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-24T01:49:05.833Z",
+    "lastChangedISO": "2026-09-24T02:39:17.891Z",
     "thinRuns": 0,
     "pendingClassification": true,
     "classifyFailures": 1
@@ -2371,9 +2371,9 @@
   {
     "sourceUrl": "https://gaca.gov.sa/news",
     "orgId": "gaca",
-    "contentHash": "10c28b336d0d1b7a278bbab2b4f5442783106802fc2c5b2acd558d2ed0e791ab",
+    "contentHash": "c6da08843fc91fa9be02351e27a30ea0c0a98abe387e09704b8d87e27d65f475",
     "blockHashes": [
-      "24909d9877ea0b39",
+      "4350334f18097dba",
       "ef26de24708740d2",
       "95eb6a3bfae983dc",
       "50638526149c77c9",
@@ -2445,7 +2445,7 @@
     "extractedChars": 20505,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-23T23:25:34.768Z",
+    "lastChangedISO": "2026-09-24T02:33:00.045Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -3195,9 +3195,9 @@
   {
     "sourceUrl": "https://modon.gov.sa/ar/MediaCenter/Pages/default.aspx",
     "orgId": "modon",
-    "contentHash": "c46c1f111f0dd2eb409bf29b8b856f8ff626c1830142356fbddd5d48adcc6f92",
+    "contentHash": "2891c6401f25e4ac736291a7142f28ae01d9396110d700c006064cae96c0d7e3",
     "blockHashes": [
-      "6ef1c780ab353652",
+      "1a111a3f8085504d",
       "317f2772b9ef6210",
       "8ae17958586c8a8c",
       "a052fcd3e0ca047c"
@@ -3205,7 +3205,7 @@
     "extractedChars": 306,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-23T23:25:34.768Z",
+    "lastChangedISO": "2026-09-24T02:33:00.045Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -3289,7 +3289,7 @@
   {
     "sourceUrl": "https://momah.gov.sa/ar/form/partnerships-and-cooperation",
     "orgId": "housing",
-    "contentHash": "4dd3e70ebb7b1a78e7b1551fdc234bd5f76511a86a88d4ffe2e769b69c7de5a9",
+    "contentHash": "9f31a8b1e9fbf80992c1af9efc934e87cc130f6557e7764656201f5685bcced4",
     "blockHashes": [
       "bc22896c0dc046da",
       "d2009185b8a1a230",
@@ -3298,31 +3298,31 @@
       "1b54323138de80bd",
       "aa8e55eac5aea8cd",
       "09552ec2996654f9",
-      "4b3ed4fff5e3f05c",
-      "813eafdd307294f2",
-      "b19f59517433f008",
-      "ac1405062719fb86",
-      "ff0806c655dffc7a",
-      "5d15152619ff887e",
-      "9e7eb65d69b019ed",
-      "b160fb84dac8eb3c",
-      "09b1bd561f62b68f",
-      "375f79bf3386172f",
-      "7a13ffe10f9216ff",
-      "ff6f87e39638cb9b",
-      "54b1afc4129bdab1",
+      "da58e6fef54fbcd3",
+      "be8cab198cf4081e",
+      "d6e095d8e0b9a831",
+      "470fd928912cad78",
       "560edfe1df9d8921",
       "23b97a8a93aba477",
       "9cd3abf7fd1573ff",
-      "fcdd0e781ec95faa",
-      "ef29f9d7fe326b62",
-      "bd883788fc584bea",
-      "39630cbba6a13e8a"
+      "c00a4e58e311abf3",
+      "ff6f87e39638cb9b",
+      "ff8ad9d9b7b52908",
+      "2899035dcdeb83b7",
+      "51e4745eb9ce84c5",
+      "ac1405062719fb86",
+      "c1bd973ace06e878",
+      "e11ebdce45c97816",
+      "09b1bd561f62b68f",
+      "234661617b2052b3",
+      "21c5e975ab58e2fd",
+      "5d15152619ff887e",
+      "691e519faf24707d"
     ],
     "extractedChars": 151356,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-23T23:25:34.768Z",
+    "lastChangedISO": "2026-09-24T02:33:00.045Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -3661,19 +3661,20 @@
   {
     "sourceUrl": "https://ncar.gov.sa/",
     "orgId": "ncar",
-    "contentHash": "930b13ed168d3bdb957d064435e075d80bb0ba62b67b278ecd2cd723fd43c526",
+    "contentHash": "ae487ee2dd89503c76c858477157c1f762e8260af586f0f318bb72da1aaf4c2c",
     "blockHashes": [
       "c911502a32b8a6f9",
       "51298181046b2e48",
       "26b7600a224c8c65",
       "75c514565d626437"
     ],
-    "extractedChars": 2711,
+    "extractedChars": 1130,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-23T20:31:42.527Z",
+    "lastChangedISO": "2026-09-24T02:36:09.556Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://ncdc.gov.sa/",
@@ -3752,8 +3753,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-23T23:31:10.898Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://ndf.gov.sa/media-center/articles",
@@ -3877,18 +3877,18 @@
   {
     "sourceUrl": "https://nour.net.sa/ar/news/",
     "orgId": "nournet",
-    "contentHash": "af599ca3b9d6f2c19988d162540f1e48e4654bffd8c557593e9072950c311391",
+    "contentHash": "6f332e1d712b730afa41f1820e7f8b06be287775fca31da525d5745c128ffb82",
     "blockHashes": [
       "e387450693cee68e",
-      "480336c0417bb253",
-      "139546e1bb791f29"
+      "19939b21fb1c569c"
     ],
     "extractedChars": 383,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-18T13:59:00.847Z",
+    "lastChangedISO": "2026-09-24T02:36:09.556Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "triaged_out"
   },
   {
     "sourceUrl": "https://nour.net.sa/ar/news/limitless-2026-event/",
@@ -6674,10 +6674,10 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/news?lang=ar",
     "orgId": "hrc",
-    "contentHash": "e1e9ec0b8126b32968362f32f99448e45648a8cc09cbc314fbc9f15046be556a",
+    "contentHash": "1142cf2577d1f7e7c01add0654bd307b771d742898f0381d62acdbbc76579be4",
     "blockHashes": [
       "12e41a244a8a2984",
-      "30c3707bca17d10c",
+      "a9ea610df2607616",
       "4be1bef04e057a74",
       "730dee1abdba4881",
       "5a844d931886a314",
@@ -6705,7 +6705,7 @@
     "extractedChars": 5230,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-23T23:25:34.768Z",
+    "lastChangedISO": "2026-09-24T02:33:00.045Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "triaged_out"
@@ -7774,7 +7774,7 @@
   {
     "sourceUrl": "https://www.mim.gov.sa/ar/empower-training/cooperative-training",
     "orgId": "mim",
-    "contentHash": "793794379b6daa580fc4c612c620164ac78b922dbefa7a4d62343a58eb7bd909",
+    "contentHash": "96fb6ba592243ea4d709622244d1a7c48f8fbfa905974dc291ba14f1f1e3e6d2",
     "blockHashes": [
       "1cb91553dd3291a4",
       "5300d4cdd32a8d33"
@@ -7782,7 +7782,7 @@
     "extractedChars": 2178,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T02:22:33.828Z",
-    "lastChangedISO": "2026-09-24T01:49:05.833Z",
+    "lastChangedISO": "2026-09-24T02:39:17.891Z",
     "thinRuns": 0,
     "pendingClassification": true,
     "classifyFailures": 1
@@ -9249,47 +9249,18 @@
   {
     "sourceUrl": "https://www.rcjy.gov.sa/media-center",
     "orgId": "rcjy",
-    "contentHash": "8d067d0f8b70cd815ef0532461a28424a60263a8ea050e4dd4fa971120945f12",
+    "contentHash": "e3206e3b65f2d9ce4cfc3d7fcc0e8465cd250c77b758298bc5f32e7c13036dfd",
     "blockHashes": [
-      "e16f5ef46f6b017b",
-      "ed0fb8a31021b860",
-      "1abad7de7bfd77cf",
-      "d6c51200354556d2",
-      "8b1753f3cd99a452",
-      "9e7c24fcce79b62a",
-      "13d534e6dc988df3",
-      "d4878d7817e91d95",
-      "9a2f4e72bd17d8a8",
-      "14aca02818e5b75c",
-      "3d0739fc0a53d794",
-      "dcb1604c9438f042",
-      "9c2bba8223c027cf",
-      "941f0d2f6015d285",
-      "cdf111b6d7fb2443",
-      "f3f5ef84a0a05587",
-      "47a9497510b98b8e",
-      "f05a7161ce8a96f0",
-      "96439bbb9b46a3eb",
-      "1abad7de7bfd77cf",
-      "d6c51200354556d2",
-      "142045fed3ef308c",
-      "ab04b77840ea8728",
-      "60ae0d506caed37c",
-      "8cc8124b196528ab",
-      "3a6601eab298e12c",
-      "eb4c0d1f94799635",
-      "6e370fb845eb1d6c",
-      "44af8a08bef05b05",
-      "b06e12ef2ffec908",
-      "3b8b592a47f82b33",
-      "2515e6c8efbbad67"
+      "777f72810e7f9d24",
+      "f778737061fd7657"
     ],
-    "extractedChars": 15545,
+    "extractedChars": 1113,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-23T02:20:05.871Z",
+    "lastChangedISO": "2026-09-24T02:36:09.556Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://www.rcjy.gov.sa/news",
@@ -9654,7 +9625,7 @@
   {
     "sourceUrl": "https://www.riyadbank.com/ar/personal-banking",
     "orgId": "riyadbank",
-    "contentHash": "7f6ffe85c9e2aabe9c3060b62e77d95ffcfb25a12d3550e1856451804158fe92",
+    "contentHash": "e73c5106cd39b3ac2bec7b3162828788bab91ed14885c92b048e586905de3b1f",
     "blockHashes": [
       "c5fa97b84e96f11e",
       "a01ad1ea1a27690a",
@@ -9678,17 +9649,15 @@
       "9f29620fa9319a80",
       "dd09a93c19a5b408",
       "fc0a22cc81c08834",
-      "5ca46b716e2fe884",
-      "5b89998625f6c35a",
-      "4f9d3db32b80f12b",
+      "97b7afff054f9f37",
+      "2274a27142a58d23",
       "303fe28588764a9b",
       "7a8a143470365dc2",
-      "3da50cd1c3c80f72",
-      "75ad41c21fa9b0e1",
+      "68804184ee7f89f3",
       "c845d371bfc055e6",
       "e91a2dc79c3ef7ff",
-      "d22dd1cc9b5516ee",
-      "0b4f6c1a982c9472",
+      "e10872055bbde21f",
+      "68f92b28ff614b42",
       "cb4329c80213103c",
       "853e155161611ffc",
       "0f21ae2f5a35f90c",
@@ -9700,10 +9669,10 @@
       "27ab07a2e57dda34",
       "f2f0e16c376080f6"
     ],
-    "extractedChars": 10029,
+    "extractedChars": 10225,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
-    "lastChangedISO": "2026-09-23T20:29:49.391Z",
+    "lastChangedISO": "2026-09-24T02:36:09.556Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -9922,8 +9891,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-23T20:23:21.795Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.sami.com.sa/",
