@@ -1271,16 +1271,15 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/search-results",
     "orgId": "maaden",
-    "contentHash": "fba902857c0bd26df828e8eb64ac249964181b5b763f769b07eabaa3cc2f1156",
+    "contentHash": "7d6a8033b80ba6e17cf0b43bb432206556bd0f81eeab6f4f82e86bd866be174e",
     "blockHashes": [
-      "a774c62e681357c5",
-      "609ec06fa87c5ed6",
-      "525f4d12ccd1170f"
+      "0593a1678d987760",
+      "741d77f8136750d0"
     ],
-    "extractedChars": 265,
-    "extractionMethod": "readability",
+    "extractedChars": 177,
+    "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-24T20:14:54.008Z",
+    "lastChangedISO": "2026-09-24T21:05:14.631Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -4434,7 +4433,7 @@
   {
     "sourceUrl": "https://training.moj.gov.sa/",
     "orgId": "moj",
-    "contentHash": null,
+    "contentHash": "f4c6ef6b783b69d09a8f681ad1d80f1df35ef8cb8864917255879208cc305886",
     "blockHashes": [
       "84a570379809f573",
       "ab443a0bbfda7883"
@@ -4442,7 +4441,7 @@
     "extractedChars": 481,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T02:31:49.455Z",
-    "lastChangedISO": "2026-09-24T02:02:59.667Z",
+    "lastChangedISO": "2026-09-24T21:05:14.631Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
