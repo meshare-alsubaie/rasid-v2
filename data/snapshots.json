@@ -763,7 +763,7 @@
   {
     "sourceUrl": "https://career.alinma.com/",
     "orgId": "alinma",
-    "contentHash": "e245fd94c1ab59dcc6bad34af50ba34c224654b27d2f46834c18eef001143fa5",
+    "contentHash": null,
     "blockHashes": [
       "d139e32e22028878",
       "24a16c9057a577bb",
@@ -1335,16 +1335,17 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/search-results",
     "orgId": "maaden",
-    "contentHash": "8cfdbeac9615cd7b043c3106a2985a62643e244c065b253ad846f2bf2822f3bf",
+    "contentHash": "cceae9343274a5551c4165691d514d24ce5544f743e63b51f6ecc6a25073e359",
     "blockHashes": [
-      "dab5a7f3801bc914",
-      "edd5523da9edda20",
-      "9b09caf334c4b31a"
+      "0593a1678d987760",
+      "851eda0d9a57595c",
+      "b77a825ec32750a7",
+      "be93265a81d626b6"
     ],
     "extractedChars": 240,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-24T17:48:14.198Z",
+    "lastChangedISO": "2026-09-24T18:39:57.827Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -3890,7 +3891,7 @@
   {
     "sourceUrl": "https://nour.net.sa/ar/news/limitless-2026-event/",
     "orgId": "nournet",
-    "contentHash": "da5b86540a898147beafd86d74f9440b3d3f21e7f689b0664f3dff826faed52c",
+    "contentHash": "ed0c08359c6b082696be6cc51dda5e2180e53e071f55c5bd0a277ab75cfd9712",
     "blockHashes": [
       "c98d23b8511f3049",
       "1c2d61fcce5b811e",
@@ -3904,9 +3905,10 @@
     "extractedChars": 3296,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-24T03:12:37.425Z",
+    "lastChangedISO": "2026-09-24T18:33:36.780Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "triaged_out"
   },
   {
     "sourceUrl": "https://nour.net.sa/news/",
@@ -9333,7 +9335,7 @@
   {
     "sourceUrl": "https://www.rcrc.gov.sa/",
     "orgId": "rcrc",
-    "contentHash": "6b594e1976976d1ef8478db4a21d089136669062783764cad91a42d249439fd0",
+    "contentHash": "4401dca779e6a046ace38e026443530ab21e7abd0090047081bef7f60b7daeab",
     "blockHashes": [
       "dd62229c2f61fb42",
       "306db3646b8a6c73",
@@ -9350,7 +9352,7 @@
       "12f1f6332d8a8779",
       "6e5f989a3fce248d",
       "631fa3742418d437",
-      "73e59a324ab98b07",
+      "c5113f755656fbb6",
       "aa0b7302330697e3",
       "b32d68c4e5c2da0f",
       "b91cd7f4edfa88d2",
@@ -9363,9 +9365,10 @@
     "extractedChars": 2274,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
-    "lastChangedISO": "2026-09-23T14:56:39.217Z",
+    "lastChangedISO": "2026-09-24T18:36:06.961Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "triaged_out"
   },
   {
     "sourceUrl": "https://www.rcrc.gov.sa/careers/?lang=ar",
@@ -10441,26 +10444,27 @@
   {
     "sourceUrl": "https://www.sfda.gov.sa/ar/news",
     "orgId": "sfda",
-    "contentHash": "9f0341a58be7c68b40d43c8ac9c4b687bfa1ba534f01c45c4060bb42783e28ec",
+    "contentHash": "3c96bdf099a54eebd926f39c9d3821ffcd324fd4c3b0ac49b0c3687f51e27aad",
     "blockHashes": [
-      "58135b090e2a26ac",
+      "b2c7b763a44f3167",
+      "5c4b43134210dfe9",
       "9328e85fd7887778",
       "4604bc6f97a0dea4",
       "f0a0eaa5817fe57a",
       "d408a6f1c3fc952e",
-      "9ae1529c7a2647c1",
       "abbaebe56469a2c6",
-      "dd31d3edc87b00b2",
+      "671173f99cbdcb05",
       "b69ab73ade473181",
       "fe04993c9918963a",
       "506fe5d55093ecae"
     ],
-    "extractedChars": 1565,
+    "extractedChars": 1515,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-23T14:50:23.373Z",
+    "lastChangedISO": "2026-09-24T18:33:36.780Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://www.sfda.gov.sa/en/career-vision-and-mission",
@@ -10507,18 +10511,18 @@
   {
     "sourceUrl": "https://www.sidf.gov.sa/ar/Pages/Home.aspx",
     "orgId": "sidf",
-    "contentHash": "caff7f717ea5b40fcae8e1417e02c18647f079b4d03634f6a41517eabd11ff1a",
+    "contentHash": "6983eb03a979c67544f854221a779cee9cec87b47bcda12d703b096ebbbb49be",
     "blockHashes": [
       "b4513eef12a8e364",
       "32817a481f13ddff",
       "69409e45a359c8b0",
-      "7a79458df09840bc",
+      "67d5375e55a36111",
       "25b3bc91b9810520"
     ],
-    "extractedChars": 3881,
+    "extractedChars": 3905,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
-    "lastChangedISO": "2026-09-16T12:51:08.635Z",
+    "lastChangedISO": "2026-09-24T18:36:06.961Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -11246,7 +11250,7 @@
   {
     "sourceUrl": "https://www.tadawulgroup.sa/wps/portal/tadawulgroup/joinus",
     "orgId": "tadawul",
-    "contentHash": "218af6789adae9d596633c79e9b359213a247d93501904bfc43eeae06fd8c680",
+    "contentHash": "d0d3b5ac169f1b73ab7aa83d70c779f4ee298b89ccc3b8284f83c6034148bac3",
     "blockHashes": [
       "dbfb7021493a5943",
       "4acb10188c67e120",
@@ -11258,12 +11262,13 @@
       "99045a67c833cd6b",
       "332ab17b1cccbd59"
     ],
-    "extractedChars": 1384,
+    "extractedChars": 1186,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-02T23:42:46.216Z",
-    "lastChangedISO": "2026-09-24T17:48:14.198Z",
+    "lastChangedISO": "2026-09-24T18:39:57.827Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://www.tahakom.com/",
