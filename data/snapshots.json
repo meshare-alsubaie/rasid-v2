@@ -1337,18 +1337,20 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/search-results",
     "orgId": "maaden",
-    "contentHash": "a9a4d53293dfd1c1fb840e7828c8dd5be5e919ac46abbccc7a3d26d1fe2251c9",
+    "contentHash": "85a94af0bcfa3a7496f4e5a47702f5dff52ede47292b2ff66d12b397cc6fe3c7",
     "blockHashes": [
-      "dab5a7f3801bc914",
-      "e53e89808cb97eca",
-      "238ff69c58537b78"
+      "0593a1678d987760",
+      "6bf0ca67e0f069b4",
+      "d6c0adacb353836a",
+      "eb3bb61e5fb2b602",
+      "fa5bf604c11ee94f"
     ],
-    "extractedChars": 240,
+    "extractedChars": 454,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-23T23:57:32.370Z",
+    "lastChangedISO": "2026-09-24T00:45:53.846Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://careers.mcit.gov.sa/",
@@ -2253,17 +2255,17 @@
   {
     "sourceUrl": "https://gaca.gov.sa/announcements",
     "orgId": "gaca",
-    "contentHash": "466606b08e17519c384730f1e9469c47bfb120cd1e6307376ca913ff864f41a2",
+    "contentHash": "079b14e81d1cb30856522776d3c0ad81e25ce4808bb55e60e3d605231c2dcca6",
     "blockHashes": [
-      "524873f3d3d0d2e0",
+      "af4abd242f74e56f",
       "9c2a3967149440a8",
       "83a22e1f9fb245f8",
       "bc532942aaed49b7"
     ],
-    "extractedChars": 1213,
+    "extractedChars": 1212,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-23T21:33:44.183Z",
+    "lastChangedISO": "2026-09-24T00:37:29.833Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -5578,7 +5580,7 @@
       "46d9575ec382a9d1",
       "96c63175498462d9",
       "f4b9821710ab784e",
-      "e24ca624e1e52d43",
+      "db96cc060fa0a333",
       "d9ac968863afb54d",
       "ec5d6ba37d25b982"
     ],
@@ -5587,7 +5589,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-23T23:57:32.370Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.bog.gov.sa/en/EServices/judiciaryHiring/Pages/Hiring.aspx",
@@ -5597,7 +5599,7 @@
       "46d9575ec382a9d1",
       "96c63175498462d9",
       "f4b9821710ab784e",
-      "c56b263d910d820d",
+      "14a91afead641f0d",
       "ec5d6ba37d25b982"
     ],
     "extractedChars": 609,
@@ -5605,7 +5607,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-23T23:44:12.083Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.bog.gov.sa/en/EServices/Pages/khabeer.aspx",
@@ -6530,10 +6532,10 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/careers?lang=ar",
     "orgId": "hrc",
-    "contentHash": "adada1c31e5799df3df50a4d7c46f3c1cbc001dc2950d61cc8a013e1a682d6ea",
+    "contentHash": "a5b3a2d94c37ed0de82ca3314357186155c31377e3537398fd793ef7c15cab24",
     "blockHashes": [
       "12e41a244a8a2984",
-      "265ec5fca219ed0c",
+      "1731b82ef0939b11",
       "9bd6314e9bbc7375",
       "474d2dbb69aae30b",
       "84b2fc11813dc7e8",
@@ -6557,7 +6559,7 @@
     "extractedChars": 3794,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-23T21:33:44.183Z",
+    "lastChangedISO": "2026-09-24T00:37:29.833Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -7690,8 +7692,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-23T21:37:49.994Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.mewa.gov.sa/ar/MediaCenter/VisualIdentityGuide/Pages/default.aspx",
@@ -8734,8 +8735,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-23T21:37:49.994Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.nazaha.gov.sa/News/Details?q=o2ojUlDL5mGosOuEoGXXeg==",
