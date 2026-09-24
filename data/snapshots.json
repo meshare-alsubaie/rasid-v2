@@ -1336,17 +1336,17 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/search-results",
     "orgId": "maaden",
-    "contentHash": "9915b89730a31cc269b173cea2ce5d4c4b3db629469daacf59865c7453b8e914",
+    "contentHash": "c73029978d2c151adbd6e70d91471dad3795509201ba3b4aa34e4554b8830d92",
     "blockHashes": [
-      "0593a1678d987760",
-      "515196d972b34ff7",
-      "3c61579a2088b967",
-      "b2163afb9f8e5c86"
+      "dab5a7f3801bc914",
+      "d6c0adacb353836a",
+      "1baaa5cdb7eef013",
+      "dc9513f08b733b8a"
     ],
     "extractedChars": 240,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-24T01:35:22.605Z",
+    "lastChangedISO": "2026-09-24T02:24:41.870Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -2745,17 +2745,17 @@
   {
     "sourceUrl": "https://lcgpa.gov.sa/ar/Pages/default.aspx",
     "orgId": "lcgpa",
-    "contentHash": "ae1d122030dd0af4e18aaca06d2c7766bb936f897071d82686155b9eae5e46ab",
+    "contentHash": "c2b8888bf6b0faec3d8b9689c9d84edaff7bf4c535af746b5376abbe491a3890",
     "blockHashes": [
-      "cbf4a7dcd5e97195",
+      "d2248bf5fbb9ad22",
       "beda84e843f95551"
     ],
     "extractedChars": 218,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-23T20:26:34.457Z",
+    "lastChangedISO": "2026-09-24T02:28:44.728Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://makkah-careers.health.sa/",
@@ -2874,7 +2874,7 @@
       "c4583f676c27517a",
       "4ea242e080578a16",
       "a4e4e1fbeaab5463",
-      "fc1ac5a6e5e8bd12",
+      "f915fbe959d89a6b",
       "b518044d0e3ef109",
       "1f3c4598715a2661",
       "bc34850a2da71896"
@@ -2884,7 +2884,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-23T20:26:34.457Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://mc.gov.sa/ar/mediacenter/News/pages/default.aspx",
@@ -2941,7 +2941,7 @@
       "7388bedb36b7cfb3",
       "21cf4a39855f6112",
       "d0f0d951b75dc3da",
-      "b4bdba2c596320c8",
+      "c8160584d1606e0b",
       "c0be845c29d2cb4d",
       "512411bd0eda978e"
     ],
@@ -2950,7 +2950,7 @@
     "firstSeenISO": "2026-08-29T23:21:37.487Z",
     "lastChangedISO": "2026-09-23T20:26:34.457Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://mcit.gov.sa/ar",
@@ -4157,16 +4157,19 @@
   {
     "sourceUrl": "https://site.sa/",
     "orgId": "site",
-    "contentHash": "a200c2d13ea06f1e2c64a3ada66c5ee448697431b52b9efb0743dc286fa3e30d",
+    "contentHash": "68d4a1ff837b99f824684943f5990241e768f0b1a67a3556349dae3e006fde0b",
     "blockHashes": [
-      "a200c2d13ea06f1e"
+      "353982acccd83575",
+      "994dda06630e8e23",
+      "d9ed4cd05f357ee5"
     ],
-    "extractedChars": 598,
+    "extractedChars": 1312,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-18T13:59:00.847Z",
+    "lastChangedISO": "2026-09-24T02:28:44.728Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://slccareers.kpmg.com/go/All-Jobs/7738123/",
@@ -5019,7 +5022,7 @@
       "5a893dabed2d6dcf",
       "cfc4a6c7d4a4fcdc",
       "d7e8cb14f77516db",
-      "4afa068be0cb1245",
+      "bc1bae5bb7436e69",
       "fcdc707f0342be1e"
     ],
     "extractedChars": 1479,
@@ -5027,7 +5030,8 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-23T20:26:34.457Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "triaged_out"
   },
   {
     "sourceUrl": "https://www.alrajhibank.com.sa/",
@@ -6709,11 +6713,11 @@
   {
     "sourceUrl": "https://www.hrdf.org.sa/products-and-services/programs/individuals/training/cooperative-training/",
     "orgId": "hrdf_coop",
-    "contentHash": "7377fe85d9fa32c5ea63a639e95d0764e37e911115add6f5549402565c1bbd53",
+    "contentHash": "f46f10710faaa10dbfd5dff78a047e3b09c1c6e3da9df4af8f34b0d30acd4bc3",
     "blockHashes": [
       "45526a3a724650be",
       "74e4c1d2a646a96e",
-      "9d2dbe4872bb1d8e",
+      "548dce1c7e27fd03",
       "0bbb8684587712ce",
       "708fe6c77bb05acc",
       "8b7e6b90d8c89aa7",
@@ -6883,7 +6887,7 @@
     "extractedChars": 8563,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-03T01:25:25.661Z",
-    "lastChangedISO": "2026-09-22T23:16:29.545Z",
+    "lastChangedISO": "2026-09-24T02:28:44.728Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
