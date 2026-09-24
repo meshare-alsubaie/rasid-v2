@@ -648,7 +648,7 @@
   {
     "sourceUrl": "https://athkax.sdaia.gov.sa/coop",
     "orgId": "sdaia",
-    "contentHash": "f1c749f1b0084dc210dc0d9f1e447c42c8ea07e30a315579c292163ea7abbe55",
+    "contentHash": "a58f144950bb22de0c4667555dc3401317db3a7e9e0679e6a27c03768b15a660",
     "blockHashes": [
       "04ba8a3fca46514f",
       "4bd08244050e9682"
@@ -656,7 +656,7 @@
     "extractedChars": 756,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-24T03:28:21.342Z",
+    "lastChangedISO": "2026-09-24T17:59:37.920Z",
     "thinRuns": 0,
     "pendingClassification": true,
     "classifyFailures": 1
@@ -2743,15 +2743,15 @@
   {
     "sourceUrl": "https://lcgpa.gov.sa/ar/Pages/default.aspx",
     "orgId": "lcgpa",
-    "contentHash": "c2b8888bf6b0faec3d8b9689c9d84edaff7bf4c535af746b5376abbe491a3890",
+    "contentHash": "7007a3f3c280fb598318df8dbb76d003fdba85cf9a4872f459fd341706740741",
     "blockHashes": [
-      "d2248bf5fbb9ad22",
+      "ba45bebca6d19e10",
       "beda84e843f95551"
     ],
     "extractedChars": 218,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-24T02:28:44.728Z",
+    "lastChangedISO": "2026-09-24T17:59:37.920Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -2847,7 +2847,7 @@
   {
     "sourceUrl": "https://mawhiba.org/",
     "orgId": "mawhiba",
-    "contentHash": "4f3496a8a3ea369ba4a4e685992026a2ac2ca4547e19421f43c3371b5f1ac5f3",
+    "contentHash": "ff8768a710bc2d679ae2f1cca1a74686fadc850bb30f5fe543893d3b25306b22",
     "blockHashes": [
       "d9720f8436aff308",
       "1b46260dea4736e1",
@@ -2872,7 +2872,7 @@
       "c4583f676c27517a",
       "4ea242e080578a16",
       "a4e4e1fbeaab5463",
-      "f915fbe959d89a6b",
+      "798a52c4b4218431",
       "b518044d0e3ef109",
       "1f3c4598715a2661",
       "bc34850a2da71896"
@@ -2880,7 +2880,7 @@
     "extractedChars": 8618,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-23T20:26:34.457Z",
+    "lastChangedISO": "2026-09-24T17:59:37.920Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -3661,17 +3661,17 @@
   {
     "sourceUrl": "https://ncar.gov.sa/",
     "orgId": "ncar",
-    "contentHash": "ae487ee2dd89503c76c858477157c1f762e8260af586f0f318bb72da1aaf4c2c",
+    "contentHash": "27f62e05d69caa21d2ef14a491fc742e3f66a9631dbc823c03c1bc3aaf54ce90",
     "blockHashes": [
       "c911502a32b8a6f9",
-      "51298181046b2e48",
+      "427998d73505aec3",
       "26b7600a224c8c65",
       "75c514565d626437"
     ],
-    "extractedChars": 1130,
+    "extractedChars": 1142,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-24T02:36:09.556Z",
+    "lastChangedISO": "2026-09-24T17:59:37.920Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -3877,15 +3877,16 @@
   {
     "sourceUrl": "https://nour.net.sa/ar/news/",
     "orgId": "nournet",
-    "contentHash": "6f332e1d712b730afa41f1820e7f8b06be287775fca31da525d5745c128ffb82",
+    "contentHash": "af599ca3b9d6f2c19988d162540f1e48e4654bffd8c557593e9072950c311391",
     "blockHashes": [
       "e387450693cee68e",
-      "19939b21fb1c569c"
+      "480336c0417bb253",
+      "139546e1bb791f29"
     ],
     "extractedChars": 383,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-24T02:36:09.556Z",
+    "lastChangedISO": "2026-09-24T17:59:37.920Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "triaged_out"
@@ -4159,19 +4160,16 @@
   {
     "sourceUrl": "https://site.sa/",
     "orgId": "site",
-    "contentHash": "68d4a1ff837b99f824684943f5990241e768f0b1a67a3556349dae3e006fde0b",
+    "contentHash": "a200c2d13ea06f1e2c64a3ada66c5ee448697431b52b9efb0743dc286fa3e30d",
     "blockHashes": [
-      "353982acccd83575",
-      "994dda06630e8e23",
-      "d9ed4cd05f357ee5"
+      "a200c2d13ea06f1e"
     ],
-    "extractedChars": 1312,
+    "extractedChars": 598,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-24T02:28:44.728Z",
+    "lastChangedISO": "2026-09-24T17:59:37.920Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://slccareers.kpmg.com/go/All-Jobs/7738123/",
@@ -5012,22 +5010,20 @@
   {
     "sourceUrl": "https://www.alinma.com/",
     "orgId": "alinma",
-    "contentHash": "5950b9c22f180491ce42f80f0b16413787189af644bf1b22128ad3d41e22e263",
+    "contentHash": "306a7ce4cfda9ee175c4ebcf6d88892b7394b2246f8272e53fa5ad68d897166c",
     "blockHashes": [
       "be896a4040d0b497",
       "0a14ab6988360391",
       "eee691e668c36a27",
       "7472f35a35d5be62",
-      "5a893dabed2d6dcf",
-      "cfc4a6c7d4a4fcdc",
-      "d7e8cb14f77516db",
-      "bc1bae5bb7436e69",
+      "c756575b72f84944",
+      "4afa068be0cb1245",
       "fcdc707f0342be1e"
     ],
-    "extractedChars": 1479,
+    "extractedChars": 1278,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-23T20:26:34.457Z",
+    "lastChangedISO": "2026-09-24T17:59:37.920Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "triaged_out"
@@ -7774,7 +7770,7 @@
   {
     "sourceUrl": "https://www.mim.gov.sa/ar/empower-training/cooperative-training",
     "orgId": "mim",
-    "contentHash": "96fb6ba592243ea4d709622244d1a7c48f8fbfa905974dc291ba14f1f1e3e6d2",
+    "contentHash": "45756443f618145dc0d9b9bb4aab2c880adc26c0ad3d90c6ecc2fae5e374f36f",
     "blockHashes": [
       "1cb91553dd3291a4",
       "5300d4cdd32a8d33"
@@ -7782,7 +7778,7 @@
     "extractedChars": 2178,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T02:22:33.828Z",
-    "lastChangedISO": "2026-09-24T02:39:17.891Z",
+    "lastChangedISO": "2026-09-24T17:59:37.920Z",
     "thinRuns": 0,
     "pendingClassification": true,
     "classifyFailures": 1
@@ -9249,18 +9245,48 @@
   {
     "sourceUrl": "https://www.rcjy.gov.sa/media-center",
     "orgId": "rcjy",
-    "contentHash": "e3206e3b65f2d9ce4cfc3d7fcc0e8465cd250c77b758298bc5f32e7c13036dfd",
+    "contentHash": "8d067d0f8b70cd815ef0532461a28424a60263a8ea050e4dd4fa971120945f12",
     "blockHashes": [
-      "777f72810e7f9d24",
-      "f778737061fd7657"
+      "e16f5ef46f6b017b",
+      "ed0fb8a31021b860",
+      "1abad7de7bfd77cf",
+      "d6c51200354556d2",
+      "8b1753f3cd99a452",
+      "9e7c24fcce79b62a",
+      "13d534e6dc988df3",
+      "d4878d7817e91d95",
+      "9a2f4e72bd17d8a8",
+      "14aca02818e5b75c",
+      "3d0739fc0a53d794",
+      "dcb1604c9438f042",
+      "9c2bba8223c027cf",
+      "941f0d2f6015d285",
+      "cdf111b6d7fb2443",
+      "f3f5ef84a0a05587",
+      "47a9497510b98b8e",
+      "f05a7161ce8a96f0",
+      "96439bbb9b46a3eb",
+      "1abad7de7bfd77cf",
+      "d6c51200354556d2",
+      "142045fed3ef308c",
+      "ab04b77840ea8728",
+      "60ae0d506caed37c",
+      "8cc8124b196528ab",
+      "3a6601eab298e12c",
+      "eb4c0d1f94799635",
+      "6e370fb845eb1d6c",
+      "44af8a08bef05b05",
+      "b06e12ef2ffec908",
+      "3b8b592a47f82b33",
+      "2515e6c8efbbad67"
     ],
-    "extractedChars": 1113,
+    "extractedChars": 15545,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-24T02:36:09.556Z",
+    "lastChangedISO": "2026-09-24T17:59:37.920Z",
     "thinRuns": 0,
     "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "settledWithoutVerdict": "triaged_out"
   },
   {
     "sourceUrl": "https://www.rcjy.gov.sa/news",
@@ -9628,7 +9654,7 @@
   {
     "sourceUrl": "https://www.riyadbank.com/ar/personal-banking",
     "orgId": "riyadbank",
-    "contentHash": "e73c5106cd39b3ac2bec7b3162828788bab91ed14885c92b048e586905de3b1f",
+    "contentHash": "7f6ffe85c9e2aabe9c3060b62e77d95ffcfb25a12d3550e1856451804158fe92",
     "blockHashes": [
       "c5fa97b84e96f11e",
       "a01ad1ea1a27690a",
@@ -9652,15 +9678,17 @@
       "9f29620fa9319a80",
       "dd09a93c19a5b408",
       "fc0a22cc81c08834",
-      "97b7afff054f9f37",
-      "2274a27142a58d23",
+      "5ca46b716e2fe884",
+      "5b89998625f6c35a",
+      "4f9d3db32b80f12b",
       "303fe28588764a9b",
       "7a8a143470365dc2",
-      "68804184ee7f89f3",
+      "3da50cd1c3c80f72",
+      "75ad41c21fa9b0e1",
       "c845d371bfc055e6",
       "e91a2dc79c3ef7ff",
-      "e10872055bbde21f",
-      "68f92b28ff614b42",
+      "d22dd1cc9b5516ee",
+      "0b4f6c1a982c9472",
       "cb4329c80213103c",
       "853e155161611ffc",
       "0f21ae2f5a35f90c",
@@ -9672,10 +9700,10 @@
       "27ab07a2e57dda34",
       "f2f0e16c376080f6"
     ],
-    "extractedChars": 10225,
+    "extractedChars": 10029,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
-    "lastChangedISO": "2026-09-24T02:36:09.556Z",
+    "lastChangedISO": "2026-09-24T17:59:37.920Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -10399,19 +10427,19 @@
   {
     "sourceUrl": "https://www.sfda.gov.sa/ar/career-vision-and-mission",
     "orgId": "sfda",
-    "contentHash": "d001dca528e56ee81e5b7e170695b46d0374827c713ab7adccc507f38ed18391",
+    "contentHash": "5016e1586e3cbb63244e9aca7439e8991f08594cc3d1eadf4f4179917f148bf0",
     "blockHashes": [
-      "6deb60b4ae369f58",
+      "58fa3b113db48770",
       "60b6afb763e71c83",
       "074367ffe7536568",
       "b69ab73ade473181",
       "fe04993c9918963a",
-      "84774a1475ee03ef"
+      "14d5a5a066c4e2fa"
     ],
     "extractedChars": 806,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-23T19:31:46.854Z",
+    "lastChangedISO": "2026-09-24T17:59:37.920Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -11263,18 +11291,18 @@
   {
     "sourceUrl": "https://www.tahakom.com/careers",
     "orgId": "tahakom",
-    "contentHash": "457f65df725621cf1ff8df157d2d7ad5927ef366ef94aa5e45fdfae4dd6d3b3f",
+    "contentHash": "5d658db3b71a3c835647e3733048f45280f9f545019d9d633bee6da1c3926b9e",
     "blockHashes": [
       "d44217251213a019",
       "611753a8aea1ade1",
       "0cea4d38306888dc",
       "1a5263a5a2541c46",
-      "a937a81f39e1b5a8"
+      "933508bdf2afa08b"
     ],
-    "extractedChars": 838,
+    "extractedChars": 841,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-03T05:13:40.059Z",
-    "lastChangedISO": "2026-09-24T01:16:34.354Z",
+    "lastChangedISO": "2026-09-24T17:59:37.920Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
