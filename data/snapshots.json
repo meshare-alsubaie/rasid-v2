@@ -658,8 +658,8 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-24T17:59:37.920Z",
     "thinRuns": 0,
-    "pendingClassification": true,
-    "classifyFailures": 2
+    "pendingClassification": false,
+    "classifyFailures": 3
   },
   {
     "sourceUrl": "https://awqaf.gov.sa/ar/ar/hiring/",
@@ -748,15 +748,15 @@
   {
     "sourceUrl": "https://bankalbilad.com/ar/about/Pages/Training.aspx",
     "orgId": "albilad",
-    "contentHash": "d0cd4ce5f95b4e748d46ac811a2b877641df0411055ecbd29501e43e4e010929",
+    "contentHash": "0d4119d909ac9af8c6594baad192080259e3005cefe8eed463ae0b6d147e6761",
     "blockHashes": [
-      "d9fcbfe4a2307fea",
+      "e9f32f386a76c8c0",
       "4663a78be2065cc1"
     ],
     "extractedChars": 857,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-24T18:52:04.139Z",
+    "lastChangedISO": "2026-09-24T19:43:14.947Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -7774,7 +7774,7 @@
   {
     "sourceUrl": "https://www.mim.gov.sa/ar/empower-training/cooperative-training",
     "orgId": "mim",
-    "contentHash": "7c5cc20a5d07bf46bd709ef9b2c09276fc94702759b2a32550e0fda65e5679f9",
+    "contentHash": "8f7a5f705e172ec31c7d1d25f4f3deb00ffdd5a83c7136abf095f8a432f8c3f0",
     "blockHashes": [
       "1cb91553dd3291a4",
       "5300d4cdd32a8d33"
@@ -7782,7 +7782,7 @@
     "extractedChars": 2178,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T02:22:33.828Z",
-    "lastChangedISO": "2026-09-24T18:52:04.139Z",
+    "lastChangedISO": "2026-09-24T19:43:14.947Z",
     "thinRuns": 0,
     "pendingClassification": true,
     "classifyFailures": 1
@@ -11299,18 +11299,18 @@
   {
     "sourceUrl": "https://www.tahakom.com/careers",
     "orgId": "tahakom",
-    "contentHash": "cdc6e715febd70ac89e4ace8f3b65185ba7bfab54fda1908fc17c2332d9ecb2f",
+    "contentHash": "a9b0253c483902a00645b630b2cbbfa1a6bf43b8378a82c3ac4c901491886ea6",
     "blockHashes": [
       "d44217251213a019",
       "611753a8aea1ade1",
       "0cea4d38306888dc",
       "1a5263a5a2541c46",
-      "da33eb4a1bacafc3"
+      "7ff616a2455f75c9"
     ],
-    "extractedChars": 836,
+    "extractedChars": 838,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-03T05:13:40.059Z",
-    "lastChangedISO": "2026-09-24T18:52:04.139Z",
+    "lastChangedISO": "2026-09-24T19:43:14.947Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
