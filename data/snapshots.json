@@ -659,7 +659,7 @@
     "lastChangedISO": "2026-09-24T17:59:37.920Z",
     "thinRuns": 0,
     "pendingClassification": true,
-    "classifyFailures": 1
+    "classifyFailures": 2
   },
   {
     "sourceUrl": "https://awqaf.gov.sa/ar/ar/hiring/",
@@ -748,15 +748,15 @@
   {
     "sourceUrl": "https://bankalbilad.com/ar/about/Pages/Training.aspx",
     "orgId": "albilad",
-    "contentHash": "0d4119d909ac9af8c6594baad192080259e3005cefe8eed463ae0b6d147e6761",
+    "contentHash": "d0cd4ce5f95b4e748d46ac811a2b877641df0411055ecbd29501e43e4e010929",
     "blockHashes": [
-      "e9f32f386a76c8c0",
+      "d9fcbfe4a2307fea",
       "4663a78be2065cc1"
     ],
     "extractedChars": 857,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-08-31T00:02:49.563Z",
+    "lastChangedISO": "2026-09-24T18:52:04.139Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -2285,9 +2285,9 @@
   {
     "sourceUrl": "https://gaca.gov.sa/ar/News",
     "orgId": "gaca",
-    "contentHash": "df84c144d1ce5f09b97f901f322461642472a8abf77867aaefd7a3ea70e5a1bf",
+    "contentHash": "fae80eb33b3d695c00b9b11e55f4171cbba6294c04bfd1f12f949796d0a309bf",
     "blockHashes": [
-      "c780e2d1cb8e106c",
+      "a99066c9b6fc0cab",
       "ef26de24708740d2",
       "95eb6a3bfae983dc",
       "50638526149c77c9",
@@ -2354,12 +2354,12 @@
       "83806ca220a038f5",
       "12de0761cfdf936c",
       "83a22e1f9fb245f8",
-      "5b948c64294d8817"
+      "bc532942aaed49b7"
     ],
-    "extractedChars": 20510,
+    "extractedChars": 20505,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-24T03:23:28.859Z",
+    "lastChangedISO": "2026-09-24T18:43:05.091Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -3838,7 +3838,7 @@
   {
     "sourceUrl": "https://nour.net.sa/ar/",
     "orgId": "nournet",
-    "contentHash": "7ff3edfcee431138a48b915ecbf2bc2c15a949fd8988e78e7808078de5273e8a",
+    "contentHash": "ccece23935df3cac7a223211e2f7b45f98fc9caee364648dc4c1521b481f5368",
     "blockHashes": [
       "d273f51ab1fc8358",
       "c7d4cc00704cdb7c",
@@ -3862,14 +3862,17 @@
       "76746f52976848b1",
       "73ea57f5d3f49927",
       "f113972f5bda8fba",
-      "62bf404445b0fa36"
+      "62bf404445b0fa36",
+      "d0e89f8b02ff9960",
+      "139546e1bb791f29"
     ],
     "extractedChars": 3805,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T22:03:35.383Z",
-    "lastChangedISO": "2026-09-23T15:09:35.083Z",
+    "lastChangedISO": "2026-09-24T18:46:26.964Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://nour.net.sa/ar/news/",
@@ -4497,7 +4500,7 @@
   {
     "sourceUrl": "https://training.moj.gov.sa/",
     "orgId": "moj",
-    "contentHash": "f4c6ef6b783b69d09a8f681ad1d80f1df35ef8cb8864917255879208cc305886",
+    "contentHash": null,
     "blockHashes": [
       "84a570379809f573",
       "ab443a0bbfda7883"
@@ -6560,10 +6563,10 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/careers/graduate-development-program",
     "orgId": "hrc",
-    "contentHash": "0a0e6699f3466e08c090439796ef642f7c5db426c8b1e17760c086f7ddbdb28d",
+    "contentHash": "c81feac40b595d981d975623f13b88741b824bb49760f4d46bfe5536f7ff5ceb",
     "blockHashes": [
       "12e41a244a8a2984",
-      "8d269c8decc7526f",
+      "864687eeac5c3e18",
       "741386d322f274be",
       "40d7009856bbc81d",
       "2dd486d3d3cacb8b",
@@ -6629,7 +6632,7 @@
     "extractedChars": 10689,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-24T03:23:28.859Z",
+    "lastChangedISO": "2026-09-24T18:43:05.091Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -7127,20 +7130,20 @@
   {
     "sourceUrl": "https://www.jadwa.com/en/form/summer-internship-program",
     "orgId": "jadwa",
-    "contentHash": "5ab14926fc439e29d675e1bbe591afcaba8cc88be1410e88541817c47621af6f",
+    "contentHash": "1d2d995d2462ca3740fe7105e996ea19fa78e372407ffcd748866e07273eac66",
     "blockHashes": [
       "4c21fdc0728898d9",
       "a28cbd28861e3d9c",
       "c98de24c871a1930",
       "3ab518f9cbc3c6b4"
     ],
-    "extractedChars": 330,
-    "extractionMethod": "readability",
+    "extractedChars": 986,
+    "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-08-31T00:02:49.563Z",
+    "lastChangedISO": "2026-09-24T18:43:05.091Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "classifyFailures": 3
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://www.jadwa.com/en/internship",
@@ -7768,7 +7771,7 @@
   {
     "sourceUrl": "https://www.mim.gov.sa/ar/empower-training/cooperative-training",
     "orgId": "mim",
-    "contentHash": "45756443f618145dc0d9b9bb4aab2c880adc26c0ad3d90c6ecc2fae5e374f36f",
+    "contentHash": "7c5cc20a5d07bf46bd709ef9b2c09276fc94702759b2a32550e0fda65e5679f9",
     "blockHashes": [
       "1cb91553dd3291a4",
       "5300d4cdd32a8d33"
@@ -7776,7 +7779,7 @@
     "extractedChars": 2178,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T02:22:33.828Z",
-    "lastChangedISO": "2026-09-24T17:59:37.920Z",
+    "lastChangedISO": "2026-09-24T18:52:04.139Z",
     "thinRuns": 0,
     "pendingClassification": true,
     "classifyFailures": 1
@@ -10363,9 +10366,9 @@
   {
     "sourceUrl": "https://www.sfda.gov.sa/ar",
     "orgId": "sfda",
-    "contentHash": "a6714a7d4c721af1cbaebfd2aa562714bdd723ef4cd25c281136e9aceaf23fe8",
+    "contentHash": "2226c957ef9a9a0c1a4659824900b2d043cdd1854550469a09a1fb1d9223a153",
     "blockHashes": [
-      "4d122c3e6b0c8a42",
+      "06e3a164c272f61e",
       "0cae66fd6419120a",
       "d09774a62139b89f",
       "e8216aae91b1f5cb",
@@ -10410,7 +10413,7 @@
       "3b931cad7ef53a13",
       "658b43d0993d5397",
       "60b6afb763e71c83",
-      "97316941c1cde191",
+      "671173f99cbdcb05",
       "b69ab73ade473181",
       "fe04993c9918963a",
       "bd3709c62d4a1dec"
@@ -10418,9 +10421,10 @@
     "extractedChars": 7707,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-23T15:06:09.433Z",
+    "lastChangedISO": "2026-09-24T18:46:26.964Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://www.sfda.gov.sa/ar/career-vision-and-mission",
@@ -10771,23 +10775,24 @@
   {
     "sourceUrl": "https://www.stats.gov.sa/ar",
     "orgId": "gastat",
-    "contentHash": "8d1642cd499cca642b6d06bbb66feec76b3c1662f69d6e362a1a20a796512d71",
+    "contentHash": "f3003531686f490043c88f9c62625eddda48a75191aabb9112d02a4eb8ea80d9",
     "blockHashes": [
       "b618107f43bd2daf",
       "7c7b7fcab684a4c3",
       "a64dccfda9f1718d",
       "88fea87540d73662",
-      "404f7d3930107d6b",
+      "228a9576373d086a",
       "eee46ad1abd665a1",
       "dc84e74cdce35fa3",
       "9214de5f4ec23c78"
     ],
-    "extractedChars": 4742,
+    "extractedChars": 4778,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-24T03:15:24.230Z",
+    "lastChangedISO": "2026-09-24T18:43:05.091Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://www.stats.gov.sa/ar/cooperative-training",
@@ -11292,18 +11297,18 @@
   {
     "sourceUrl": "https://www.tahakom.com/careers",
     "orgId": "tahakom",
-    "contentHash": "5d658db3b71a3c835647e3733048f45280f9f545019d9d633bee6da1c3926b9e",
+    "contentHash": "cdc6e715febd70ac89e4ace8f3b65185ba7bfab54fda1908fc17c2332d9ecb2f",
     "blockHashes": [
       "d44217251213a019",
       "611753a8aea1ade1",
       "0cea4d38306888dc",
       "1a5263a5a2541c46",
-      "933508bdf2afa08b"
+      "da33eb4a1bacafc3"
     ],
-    "extractedChars": 841,
+    "extractedChars": 836,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-03T05:13:40.059Z",
-    "lastChangedISO": "2026-09-24T17:59:37.920Z",
+    "lastChangedISO": "2026-09-24T18:52:04.139Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
