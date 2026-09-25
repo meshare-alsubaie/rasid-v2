@@ -2202,19 +2202,20 @@
   {
     "sourceUrl": "https://gaca.gov.sa/ar/announcements",
     "orgId": "gaca",
-    "contentHash": "ef0b461b166af30d2b51b25a78860d7e2a7f2f11a79e14bdbc0f041d22059bfe",
+    "contentHash": "c793163c4aca5d9a3f6e3d5408a5d2788d715a50470eeb942044c0bd276969fd",
     "blockHashes": [
-      "05fe2d17486c5f6a",
+      "78fa916e2b7a4fc7",
       "9c2a3967149440a8",
       "83a22e1f9fb245f8",
       "bc532942aaed49b7"
     ],
-    "extractedChars": 1473,
+    "extractedChars": 1212,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-25T01:48:47.580Z",
+    "lastChangedISO": "2026-09-25T04:59:35.754Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://gaca.gov.sa/ar/News",
@@ -6570,10 +6571,10 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/cooperations?lang=ar",
     "orgId": "hrc",
-    "contentHash": "e0cb8c4d134bac8cf311fdbc2090817055ed2ae1ca5225955405aac00572eba6",
+    "contentHash": "6d62c145a111c21aa6471cae610c0aeff38470912d354fba822c30e3da465309",
     "blockHashes": [
       "12e41a244a8a2984",
-      "f36daceb7873b0a0",
+      "7cb28e794a1e6557",
       "15c715928fc246c0",
       "9a4a215f8452ca45",
       "961639689d2c8819",
@@ -6594,9 +6595,9 @@
     "extractedChars": 6137,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-25T01:48:47.580Z",
+    "lastChangedISO": "2026-09-25T04:59:35.754Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/news?lang=ar",
@@ -7718,9 +7719,9 @@
   {
     "sourceUrl": "https://www.mim.gov.sa/ar/media-center/news",
     "orgId": "mim",
-    "contentHash": "c5086a171bb6f262cf546aeb9f1c7fdc9be204f9f88ac2eea059fc4dc3a296af",
+    "contentHash": "ac211c934a26a686409276fb17b20b584e7c6f7e023dd7fd438508d2b8be4d27",
     "blockHashes": [
-      "613a4d6d30e344cb",
+      "3a402905c7145fa0",
       "138d2aa9a5c65516",
       "dc40cb1a74b23e69",
       "172421d691a25902",
@@ -7753,7 +7754,7 @@
     "extractedChars": 11088,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-25T01:29:42.214Z",
+    "lastChangedISO": "2026-09-25T04:48:47.218Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -7869,7 +7870,7 @@
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-20T12:59:49.059Z",
-    "thinRuns": 23,
+    "thinRuns": 24,
     "pendingClassification": false
   },
   {
@@ -9303,14 +9304,14 @@
   {
     "sourceUrl": "https://www.rcrc.gov.sa/careers/?lang=ar",
     "orgId": "rcrc",
-    "contentHash": "e177f03433ab3752e8d20fea7053ba95143c4af2a24e60b92186e3368e5eb2ad",
+    "contentHash": "6daba52d8184c2bf22cc4f77088b456c0cf790bf8c413db39c8c7671368bd64f",
     "blockHashes": [
       "4c6ad81245fd1ba1"
     ],
     "extractedChars": 1166,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-25T04:05:22.469Z",
+    "lastChangedISO": "2026-09-25T04:59:35.754Z",
     "thinRuns": 0,
     "pendingClassification": true,
     "classifyFailures": 1
