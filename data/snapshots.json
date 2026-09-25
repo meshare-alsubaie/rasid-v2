@@ -4354,15 +4354,15 @@
   {
     "sourceUrl": "https://takamolholding.com/ar/join-us",
     "orgId": "takamol",
-    "contentHash": "354b9cbb3c75d6836d8da8390fc045bc451417714dd09c80a7a92315604264af",
+    "contentHash": "1c01152219e081fd2e5cf9889b6fc4f06f224546f858c042d3327db61d61bbc2",
     "blockHashes": [
-      "a269bc0fd2159f46",
-      "800e20741a20daa7"
+      "7fe60a979f147da5",
+      "451e371814b7cbdb"
     ],
-    "extractedChars": 707,
-    "extractionMethod": "body_fallback",
+    "extractedChars": 306,
+    "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
-    "lastChangedISO": "2026-09-25T01:20:11.537Z",
+    "lastChangedISO": "2026-09-25T04:25:53.505Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -4494,7 +4494,7 @@
   {
     "sourceUrl": "https://training.moj.gov.sa/",
     "orgId": "moj",
-    "contentHash": "f4c6ef6b783b69d09a8f681ad1d80f1df35ef8cb8864917255879208cc305886",
+    "contentHash": null,
     "blockHashes": [
       "84a570379809f573",
       "ab443a0bbfda7883"
@@ -9645,7 +9645,7 @@
   {
     "sourceUrl": "https://www.riyadbank.com/ar/personal-banking",
     "orgId": "riyadbank",
-    "contentHash": "e73c5106cd39b3ac2bec7b3162828788bab91ed14885c92b048e586905de3b1f",
+    "contentHash": "7f6ffe85c9e2aabe9c3060b62e77d95ffcfb25a12d3550e1856451804158fe92",
     "blockHashes": [
       "c5fa97b84e96f11e",
       "a01ad1ea1a27690a",
@@ -9669,15 +9669,17 @@
       "9f29620fa9319a80",
       "dd09a93c19a5b408",
       "fc0a22cc81c08834",
-      "97b7afff054f9f37",
-      "2274a27142a58d23",
+      "5ca46b716e2fe884",
+      "5b89998625f6c35a",
+      "4f9d3db32b80f12b",
       "303fe28588764a9b",
       "7a8a143470365dc2",
-      "68804184ee7f89f3",
+      "3da50cd1c3c80f72",
+      "75ad41c21fa9b0e1",
       "c845d371bfc055e6",
       "e91a2dc79c3ef7ff",
-      "e10872055bbde21f",
-      "68f92b28ff614b42",
+      "d22dd1cc9b5516ee",
+      "0b4f6c1a982c9472",
       "cb4329c80213103c",
       "853e155161611ffc",
       "0f21ae2f5a35f90c",
@@ -9689,12 +9691,13 @@
       "27ab07a2e57dda34",
       "f2f0e16c376080f6"
     ],
-    "extractedChars": 10225,
+    "extractedChars": 10029,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
-    "lastChangedISO": "2026-09-24T21:08:45.995Z",
+    "lastChangedISO": "2026-09-25T04:25:53.505Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://www.sabic.com/ar/careers",
@@ -11008,18 +11011,18 @@
   {
     "sourceUrl": "https://www.tahakom.com/careers",
     "orgId": "tahakom",
-    "contentHash": "1f8f7b13a791edfa1d51781bab3c72b63ca8fa3422efc682882c8ff5c2cefb1f",
+    "contentHash": "66a1b215d71b598e5c8f4def386779d5d875b8060e2f1e761d7fed159451f4b0",
     "blockHashes": [
       "d44217251213a019",
       "611753a8aea1ade1",
       "0cea4d38306888dc",
       "1a5263a5a2541c46",
-      "d9f3dd8dc23c0c5c"
+      "264d6b3abc2256d1"
     ],
-    "extractedChars": 836,
+    "extractedChars": 838,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-03T05:13:40.059Z",
-    "lastChangedISO": "2026-09-25T03:36:10.150Z",
+    "lastChangedISO": "2026-09-25T04:25:53.505Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
