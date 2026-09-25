@@ -658,7 +658,7 @@
     "lastChangedISO": "2026-09-25T08:24:05.436Z",
     "thinRuns": 0,
     "pendingClassification": true,
-    "classifyFailures": 1
+    "classifyFailures": 2
   },
   {
     "sourceUrl": "https://awqaf.gov.sa/ar/ar/hiring/",
@@ -2475,14 +2475,14 @@
   {
     "sourceUrl": "https://gmedia.gov.sa/",
     "orgId": "gcam",
-    "contentHash": "9cf6bd3faaae5813228435e9658c850ad29157dcf34d68715cab6ca31248a843",
+    "contentHash": "cf3aec6400715010381c2aadd5e9e04d6949947df792aac8c6df8935e6cc2b45",
     "blockHashes": [
-      "9cf6bd3faaae5813"
+      "cf3aec6400715010"
     ],
     "extractedChars": 845,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-25T02:40:31.614Z",
+    "lastChangedISO": "2026-09-25T08:52:06.915Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -3212,37 +3212,37 @@
   {
     "sourceUrl": "https://momah.gov.sa/ar",
     "orgId": "housing",
-    "contentHash": "36f36e926003d8d7aa1d73509d0e3c22505e761eb8aee5ab543c4fbd5a6255c5",
+    "contentHash": "b805999b74dda8ae77468f82c1c8a486fab5375049ed165696382198063d1a1c",
     "blockHashes": [
       "390ea394b03ad064",
       "0cae66fd6419120a",
       "a1f4628b6b2acab1",
       "1f18270f78163abc",
-      "22b7fc06d821da3a",
-      "f1534b8cd68cfd95",
-      "5d15152619ff887e",
-      "b1ecb2fcce9ed911",
-      "c9463ca10652be13",
-      "4bb6586e4706502c",
-      "cc9f9c553cae30bd",
-      "347c5cdfbe1e7750",
-      "f9b86b6e06d260ed",
+      "cc2314ce5b33b603",
+      "7432f2cab9e0a27d",
+      "42f97b2e9a81317e",
       "09b1bd561f62b68f",
-      "47bc1218c7f4fdb1",
+      "120a9b569956a91b",
+      "6a3ac68a4b665cd0",
+      "ac1405062719fb86",
+      "cf57430f8507046d",
+      "ff6f87e39638cb9b",
+      "efeed4abcf42fcce",
+      "538c4cb6d1af4892",
+      "5d15152619ff887e",
+      "3a7dda70acd60be5",
+      "8290d6fe56be94b2",
+      "8daecbbfd2ae159d",
       "560edfe1df9d8921",
       "23b97a8a93aba477",
       "9cd3abf7fd1573ff",
-      "520dacc49681089b",
-      "362b8c807bbd191d",
-      "ff6f87e39638cb9b",
-      "ca8df7af0f19bdf0",
-      "ac1405062719fb86",
-      "ad1eab02a6770547"
+      "af9c6921df485d96",
+      "932cd2eaa1f1fc88"
     ],
     "extractedChars": 153739,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-25T02:40:31.614Z",
+    "lastChangedISO": "2026-09-25T08:52:06.915Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -4501,7 +4501,7 @@
   {
     "sourceUrl": "https://training.moj.gov.sa/",
     "orgId": "moj",
-    "contentHash": "f4c6ef6b783b69d09a8f681ad1d80f1df35ef8cb8864917255879208cc305886",
+    "contentHash": null,
     "blockHashes": [
       "84a570379809f573",
       "ab443a0bbfda7883"
@@ -6497,10 +6497,10 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/careers",
     "orgId": "hrc",
-    "contentHash": "aa24cb51e36b74fde5fbe2e398b5ed72f7b0d2a1fae183e84ae46d0671979b06",
+    "contentHash": "93f46eaf94d17e6ecaf1406ca45a05c193ef30c63e30b35d185b3905580ca58e",
     "blockHashes": [
       "12e41a244a8a2984",
-      "04968037bc33499b",
+      "b9ac8440ff801838",
       "9bd6314e9bbc7375",
       "474d2dbb69aae30b",
       "84b2fc11813dc7e8",
@@ -6524,7 +6524,7 @@
     "extractedChars": 3794,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-25T05:44:07.421Z",
+    "lastChangedISO": "2026-09-25T08:52:06.915Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -7773,7 +7773,7 @@
   {
     "sourceUrl": "https://www.mim.gov.sa/ar/empower-training/cooperative-training",
     "orgId": "mim",
-    "contentHash": "46b1fc9955043627ed57057bd844fe44569f887a7133b6a512597c66c7f19887",
+    "contentHash": "f20fd186214f00ea83c4f4f727f7bb7cdfc652a036fdc5ca6308d80d711e8a7a",
     "blockHashes": [
       "1cb91553dd3291a4",
       "5300d4cdd32a8d33"
@@ -7781,7 +7781,7 @@
     "extractedChars": 2178,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T02:22:33.828Z",
-    "lastChangedISO": "2026-09-25T08:33:24.567Z",
+    "lastChangedISO": "2026-09-25T10:01:38.991Z",
     "thinRuns": 0,
     "pendingClassification": true,
     "classifyFailures": 1
@@ -10433,19 +10433,19 @@
   {
     "sourceUrl": "https://www.sfda.gov.sa/ar/career-vision-and-mission",
     "orgId": "sfda",
-    "contentHash": "e232c543fa924916bb5988eb2b40c76c123332eea48ca197126e88ee51480948",
+    "contentHash": "3798b827467763915df54f1eef76cd52669ef4d9555776323aff4c4b26313d56",
     "blockHashes": [
       "914c6094cd443622",
       "60b6afb763e71c83",
       "074367ffe7536568",
       "b69ab73ade473181",
       "fe04993c9918963a",
-      "a70c34150631467a"
+      "68f0ddb748a5749d"
     ],
     "extractedChars": 806,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-25T01:04:59.233Z",
+    "lastChangedISO": "2026-09-25T10:01:38.991Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
