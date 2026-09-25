@@ -389,8 +389,8 @@
   {
     "sourceUrl": "https://career.dga.gov.sa/",
     "orgId": "dga",
-    "lastAttemptISO": "2026-09-25T05:04:00.244Z",
-    "lastSuccessISO": "2026-09-25T05:04:00.244Z",
+    "lastAttemptISO": "2026-09-25T05:51:39.388Z",
+    "lastSuccessISO": "2026-09-25T05:51:39.388Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -596,8 +596,8 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/search-results",
     "orgId": "maaden",
-    "lastAttemptISO": "2026-09-25T05:04:00.244Z",
-    "lastSuccessISO": "2026-09-25T05:04:00.244Z",
+    "lastAttemptISO": "2026-09-25T05:51:39.388Z",
+    "lastSuccessISO": "2026-09-25T05:51:39.388Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -920,11 +920,11 @@
   {
     "sourceUrl": "https://futureskills.mcit.gov.sa/en/coop-training",
     "orgId": "mcit",
-    "lastAttemptISO": "2026-09-25T05:04:00.244Z",
+    "lastAttemptISO": "2026-09-25T05:51:39.388Z",
     "lastSuccessISO": "2026-09-25T05:04:00.244Z",
-    "consecutiveFailures": 0,
-    "lastError": null,
-    "state": "healthy"
+    "consecutiveFailures": 1,
+    "lastError": "The operation was aborted due to timeout",
+    "state": "degraded"
   },
   {
     "sourceUrl": "https://gac.gov.sa/",
@@ -2090,8 +2090,8 @@
   {
     "sourceUrl": "https://www.bog.gov.sa/en/EServices/judiciaryHiring/Pages/default.aspx",
     "orgId": "bog",
-    "lastAttemptISO": "2026-09-25T05:04:00.244Z",
-    "lastSuccessISO": "2026-09-25T05:04:00.244Z",
+    "lastAttemptISO": "2026-09-25T05:51:39.388Z",
+    "lastSuccessISO": "2026-09-25T05:51:39.388Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -3251,8 +3251,8 @@
   {
     "sourceUrl": "https://www.rcrc.gov.sa/careers/?lang=ar",
     "orgId": "rcrc",
-    "lastAttemptISO": "2026-09-25T04:59:35.754Z",
-    "lastSuccessISO": "2026-09-25T04:59:35.754Z",
+    "lastAttemptISO": "2026-09-25T05:51:39.388Z",
+    "lastSuccessISO": "2026-09-25T05:51:39.388Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -3656,8 +3656,8 @@
   {
     "sourceUrl": "https://www.sidf.gov.sa/Coop",
     "orgId": "sidf",
-    "lastAttemptISO": "2026-09-25T04:59:35.754Z",
-    "lastSuccessISO": "2026-09-25T04:59:35.754Z",
+    "lastAttemptISO": "2026-09-25T05:51:39.388Z",
+    "lastSuccessISO": "2026-09-25T05:51:39.388Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
