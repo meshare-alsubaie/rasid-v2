@@ -363,17 +363,16 @@
   {
     "sourceUrl": "https://alinma.com/About-the-Bank/The-Bank/News/2011/12/alinma-bank-hosts-training-course-on-corporate-business-services-and-e-banking",
     "orgId": "alinma",
-    "contentHash": "4ecb56f399f0ec20541014dbb9f0092d7d9d110f5f7952279fdc5535ef1df322",
+    "contentHash": "4ffe882a0a299ca4c219baa25e4c571027f2ac91d2b2152d2d96313faf82c4c6",
     "blockHashes": [
-      "4ecb56f399f0ec20"
+      "4ffe882a0a299ca4"
     ],
     "extractedChars": 281,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T23:54:26.779Z",
-    "lastChangedISO": "2026-09-17T17:40:46.722Z",
+    "lastChangedISO": "2026-09-25T23:41:02.064Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "classifyFailures": 3
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://alinma.com/About-the-Bank/The-Bank/News/2011/12/alinmabankhoststrainingcourseoncorporatebusinessservicesandebanking",
@@ -3649,14 +3648,14 @@
   {
     "sourceUrl": "https://ndf.gov.sa/",
     "orgId": "ndf",
-    "contentHash": "99814ac46a6c2d0994ddbf94ddb65b00c8dfcb71250176d3bb83ce3d61a8b617",
+    "contentHash": "442a362962459fde0c51fd1abc574ebe0dbc0c4f8a3345193f4e32004caf6ffa",
     "blockHashes": [
-      "99814ac46a6c2d09"
+      "442a362962459fde"
     ],
-    "extractedChars": 2998,
+    "extractedChars": 2997,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-25T02:57:35.792Z",
+    "lastChangedISO": "2026-09-25T23:30:48.308Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -8109,11 +8108,11 @@
   {
     "sourceUrl": "https://www.mof.gov.sa/Pages/default.aspx",
     "orgId": "mof",
-    "contentHash": "ab38cfdb8eef5c8186357162bd3365aaab436fd7cf6589e704308361e82823f6",
+    "contentHash": "8ef78158295177b8abb7b2a3f9832091cd56cb7b7dae611968bf8d84436799c5",
     "blockHashes": [
       "7f625851cbbadbc6",
       "f7711325e2c4b301",
-      "9224eb3f666d8eb1",
+      "c1724c0499f6edb6",
       "a4421c0a80a8433c",
       "589c637db8545e12",
       "d6925423217a99ca",
@@ -8124,9 +8123,10 @@
     "extractedChars": 467,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
-    "lastChangedISO": "2026-09-25T02:40:31.614Z",
+    "lastChangedISO": "2026-09-25T23:33:58.967Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://www.mofa.gov.sa/",
@@ -8551,20 +8551,21 @@
   {
     "sourceUrl": "https://www.nazaha.gov.sa/",
     "orgId": "nazaha",
-    "contentHash": "ac451021ffb9e3e4bc11150bcc735e1b1b374db35b7aaa0d6afe83b1bb6e7ddf",
+    "contentHash": "c4c95716585a1c3366881bca20c76b29573a4653cce3951b99b66dab7b9c787b",
     "blockHashes": [
       "a167b0dd9b0e3e1c",
       "74e4c1d2a646a96e",
-      "b967ee741d7bdf27",
+      "e2eb857677c48547",
       "c3fc1cda7b3b3192",
       "8cf9316b144acc06"
     ],
     "extractedChars": 506,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T22:03:35.383Z",
-    "lastChangedISO": "2026-09-25T02:57:35.792Z",
+    "lastChangedISO": "2026-09-25T23:30:48.308Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://www.nazaha.gov.sa/Jobs",
