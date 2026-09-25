@@ -653,7 +653,7 @@
   {
     "sourceUrl": "https://athkax.sdaia.gov.sa/coop",
     "orgId": "sdaia",
-    "contentHash": "3b3c19bc5ac51040da1b385f67473d72cbc335bacb198d6bbd6ff40734b62119",
+    "contentHash": "a58f144950bb22de0c4667555dc3401317db3a7e9e0679e6a27c03768b15a660",
     "blockHashes": [
       "04ba8a3fca46514f",
       "4bd08244050e9682"
@@ -661,7 +661,7 @@
     "extractedChars": 756,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-25T21:59:22.901Z",
+    "lastChangedISO": "2026-09-25T23:00:17.673Z",
     "thinRuns": 0,
     "pendingClassification": true,
     "classifyFailures": 1
@@ -3697,20 +3697,21 @@
   {
     "sourceUrl": "https://ndf.gov.sa/media-center/articles",
     "orgId": "ndf",
-    "contentHash": "28a047ee840248f233e7f0d5a7e3ecbe3cacf0ece5323e4112406749e4b4c70b",
+    "contentHash": "e4c8bd6c0652eae6c4589530efac0c325043f6ccef524b36da8707ac8d0c5289",
     "blockHashes": [
-      "a3fc7dd0708efb68",
+      "0e231adf0feaf17b",
       "b4a5c7cd60560196",
       "4c268b289192e891",
       "d91f8453abc8bd97",
       "0e33f45837a3e364"
     ],
-    "extractedChars": 4077,
+    "extractedChars": 4076,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-24T22:23:35.143Z",
+    "lastChangedISO": "2026-09-25T23:00:17.673Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://ndf.gov.sa/media-center/articles/article-human-resource-development",
@@ -6434,10 +6435,10 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/careers",
     "orgId": "hrc",
-    "contentHash": "4859374068bfbaed02b9599b0ac274481a174c665ad7252d8bc122d8b176a448",
+    "contentHash": "ea123dae90db292230492640cf322d95e6feb972d49c5e84dab0e9b73531fe54",
     "blockHashes": [
       "12e41a244a8a2984",
-      "5e698c38cbc3b884",
+      "7b2ba79e96c82b98",
       "9bd6314e9bbc7375",
       "474d2dbb69aae30b",
       "84b2fc11813dc7e8",
@@ -6461,7 +6462,7 @@
     "extractedChars": 3794,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-25T18:55:15.176Z",
+    "lastChangedISO": "2026-09-25T23:00:17.673Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -7711,7 +7712,7 @@
   {
     "sourceUrl": "https://www.mim.gov.sa/ar/empower-training/cooperative-training",
     "orgId": "mim",
-    "contentHash": "18fd0357f1b9d2004f4d530bd01bdcd6fcaf8096eeed192cc993828a65c02ae1",
+    "contentHash": "677606d9f5c5719f2efd5ab0ae093e84abc376298fea370e32b2747558707bc3",
     "blockHashes": [
       "1cb91553dd3291a4",
       "5300d4cdd32a8d33"
@@ -7719,7 +7720,7 @@
     "extractedChars": 2178,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T02:22:33.828Z",
-    "lastChangedISO": "2026-09-25T21:59:22.901Z",
+    "lastChangedISO": "2026-09-25T23:00:17.673Z",
     "thinRuns": 0,
     "pendingClassification": true,
     "classifyFailures": 1
@@ -7957,11 +7958,11 @@
   {
     "sourceUrl": "https://www.mof.gov.sa/eservices/Loans/Pages/Lending_Educational_Projects.aspx",
     "orgId": "mof",
-    "contentHash": "c394bd17d93ac9aed125c39db1e541773049c4f358d62e1fd5b5478a8d1f318d",
+    "contentHash": "98d70eba85c09cc50d18a6bbb2303f1e5fdc1fe8d9896053758b1f496791dafc",
     "blockHashes": [
       "7f625851cbbadbc6",
       "f7711325e2c4b301",
-      "51ec4aba9dceaa8f",
+      "6493650cf2da997a",
       "8e28a73c96909ff5",
       "9f6687b23d59fac0",
       "f48c3103130eeb1d",
@@ -8018,7 +8019,7 @@
     "extractedChars": 8294,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-24T22:18:19.238Z",
+    "lastChangedISO": "2026-09-25T23:00:17.673Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -8570,18 +8571,18 @@
   {
     "sourceUrl": "https://www.nazaha.gov.sa/Jobs",
     "orgId": "nazaha",
-    "contentHash": "8baa33bd8495ef5a93effa863bb964cc726835c0b2c7742bfde8e9b099b5261f",
+    "contentHash": "92efd43744001b078e2e5a836caf6a60d068728cbe4bdb0f064c52b43bc02bf0",
     "blockHashes": [
       "a167b0dd9b0e3e1c",
       "74e4c1d2a646a96e",
-      "ce4a30195d70b257",
+      "828712cf234ae8fe",
       "3ba73a370eb8ee9c",
       "5dda25defa0c4cdd"
     ],
     "extractedChars": 225,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-24T21:08:45.995Z",
+    "lastChangedISO": "2026-09-25T23:00:17.673Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -10962,20 +10963,20 @@
   {
     "sourceUrl": "https://www.tahakom.com/careers",
     "orgId": "tahakom",
-    "contentHash": "855193303b2324024bccef01fb39a6cd0af6aa0a7562dccc8e836ce6179ea203",
+    "contentHash": "1f8f7b13a791edfa1d51781bab3c72b63ca8fa3422efc682882c8ff5c2cefb1f",
     "blockHashes": [
       "d44217251213a019",
       "611753a8aea1ade1",
       "0cea4d38306888dc",
       "1a5263a5a2541c46",
-      "933508bdf2afa08b"
+      "d9f3dd8dc23c0c5c"
     ],
     "extractedChars": 836,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-03T05:13:40.059Z",
-    "lastChangedISO": "2026-09-25T21:06:05.037Z",
+    "lastChangedISO": "2026-09-25T23:00:17.673Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.taifcity.gov.sa/#/ar",
