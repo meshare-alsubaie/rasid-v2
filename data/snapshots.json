@@ -137,7 +137,7 @@
   {
     "sourceUrl": "https://adf.gov.sa/ar/Pages/default.aspx",
     "orgId": "adf",
-    "contentHash": "307e537ee72528829d70beccaee522fe59d833e95bbefe0c6c0a229f96a69245",
+    "contentHash": "8616a98a024aa01c31cb29aeb44c5bbec12f0526fa0709c82fedaf70dfe31fb7",
     "blockHashes": [
       "1ce798e0ca5f6070",
       "9e8708f46644e878",
@@ -146,7 +146,7 @@
       "b7a4f19178b3b8a1",
       "0514128baf9c79f1",
       "9185920f2483a42d",
-      "1e766cbe97e00b31",
+      "2397d86f30907054",
       "8d0d93944a16dca7",
       "13285e8c3eb4c8ac",
       "4838bf63eca38706",
@@ -157,10 +157,10 @@
       "782261474561a27a",
       "74b06ac36e5c75b0"
     ],
-    "extractedChars": 1703,
+    "extractedChars": 1701,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
-    "lastChangedISO": "2026-09-25T10:10:00.026Z",
+    "lastChangedISO": "2026-09-25T19:06:49.069Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "triaged_out"
@@ -405,15 +405,15 @@
   {
     "sourceUrl": "https://alinma.com/About-the-Bank/The-Bank/News/2014/04/alinma-bank-participates-in-career-day-at-al-imam-university",
     "orgId": "alinma",
-    "contentHash": "8a90c19e3adcb8e99fde1a208b4841ffff6b69147d4b435899d27f0539a5932f",
+    "contentHash": "7486860bd110d21ef7427f93a83628b50fe4a60bb7863ad1ed438e5e4aef9d02",
     "blockHashes": [
-      "74454bba052a60a5",
+      "96906d0a57eb661b",
       "7ec6b3cc3ae20fa6"
     ],
     "extractedChars": 1240,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T23:54:26.779Z",
-    "lastChangedISO": "2026-09-17T20:07:22.429Z",
+    "lastChangedISO": "2026-09-25T19:10:23.990Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -762,7 +762,7 @@
   {
     "sourceUrl": "https://career.alinma.com/",
     "orgId": "alinma",
-    "contentHash": null,
+    "contentHash": "e245fd94c1ab59dcc6bad34af50ba34c224654b27d2f46834c18eef001143fa5",
     "blockHashes": [
       "d139e32e22028878",
       "24a16c9057a577bb",
@@ -771,7 +771,7 @@
     "extractedChars": 750,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-01T01:46:07.967Z",
-    "lastChangedISO": "2026-09-25T08:24:05.436Z",
+    "lastChangedISO": "2026-09-25T19:13:23.372Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -1335,19 +1335,19 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/search-results",
     "orgId": "maaden",
-    "contentHash": "f788b7d8a41dc0ff211344a3797d33b695f2d04479a362ba3d472a71d21900e4",
+    "contentHash": "7d37e02f368d53d7496a558fcfe694842767f29271cd7b9b19898c2f6d80b0d0",
     "blockHashes": [
       "5569201553604d03",
       "6e3cceb54e777f64",
-      "83bd72e6db4524f0",
-      "db844e5e23950cb2"
+      "875aaea6560a1e94",
+      "8743bbd699bda03c"
     ],
     "extractedChars": 240,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-25T18:26:56.480Z",
+    "lastChangedISO": "2026-09-25T19:13:23.372Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://careers.mcit.gov.sa/",
@@ -2472,14 +2472,14 @@
   {
     "sourceUrl": "https://gmedia.gov.sa/",
     "orgId": "gcam",
-    "contentHash": "cf3aec6400715010381c2aadd5e9e04d6949947df792aac8c6df8935e6cc2b45",
+    "contentHash": "c5e8c2c6fb99bcc40028b3511ce57646acbce81c3fef4fb63664bd7f66518bc1",
     "blockHashes": [
-      "cf3aec6400715010"
+      "c5e8c2c6fb99bcc4"
     ],
     "extractedChars": 845,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-25T08:52:06.915Z",
+    "lastChangedISO": "2026-09-25T18:58:22.330Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -10458,7 +10458,7 @@
   {
     "sourceUrl": "https://www.sfda.gov.sa/en/career-vision-and-mission",
     "orgId": "sfda",
-    "contentHash": "139a052763b1a1aa66cf2a3187a89d9ef6387962bcc3b364e58ff9fbd254e1a9",
+    "contentHash": "944158782c6df2c60d4f02590d987fc91880048ff991266f03d3e89931dbd963",
     "blockHashes": [
       "4e3b1c94f76f8148",
       "09a40809b1ea4e50",
@@ -10472,12 +10472,12 @@
       "a0466ff116c86d28",
       "4b81d1c31f1f9c59",
       "02085740ec4421fd",
-      "e00c280a1fce17b1"
+      "67e61eb2b994b6b3"
     ],
     "extractedChars": 997,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-25T10:20:59.767Z",
+    "lastChangedISO": "2026-09-25T18:58:22.330Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
