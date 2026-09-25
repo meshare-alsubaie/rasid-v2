@@ -1336,18 +1336,18 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/search-results",
     "orgId": "maaden",
-    "contentHash": "b431cf6314b68b9dc422643313af463e17261ab83e294f8eb8bdba0f31ee1354",
+    "contentHash": "9a5312b96af73d327cb4be3c2749b866844c7eec659dce439a5a81db8337d708",
     "blockHashes": [
       "dab5a7f3801bc914",
       "3545429801ef3e51",
       "512385c005f35475"
     ],
-    "extractedChars": 240,
-    "extractionMethod": "readability",
+    "extractedChars": 1215,
+    "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-25T02:34:43.140Z",
+    "lastChangedISO": "2026-09-25T03:21:02.382Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://careers.mcit.gov.sa/",
@@ -3592,8 +3592,7 @@
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
     "lastChangedISO": "2026-09-24T19:38:33.288Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "triaged_out"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://nca.gov.sa/ar/nca-academy/",
@@ -9366,14 +9365,14 @@
   {
     "sourceUrl": "https://www.rcrc.gov.sa/careers/?lang=ar",
     "orgId": "rcrc",
-    "contentHash": "c37d7b91a1c3fe3f90fbf88059c57fc5b75e9918a1ea661725c9ce5811eebe9f",
+    "contentHash": "4c6ad81245fd1ba1d83554c1ec0a8f38ae6585f5cb2bbadee6c8ee01619fa51c",
     "blockHashes": [
-      "c37d7b91a1c3fe3f"
+      "4c6ad81245fd1ba1"
     ],
     "extractedChars": 784,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-25T02:23:35.400Z",
+    "lastChangedISO": "2026-09-25T03:16:01.317Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
