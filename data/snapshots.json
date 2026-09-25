@@ -648,18 +648,18 @@
   {
     "sourceUrl": "https://athkax.sdaia.gov.sa/coop",
     "orgId": "sdaia",
-    "contentHash": "a58f144950bb22de0c4667555dc3401317db3a7e9e0679e6a27c03768b15a660",
+    "contentHash": "0f2bfe161fc3ee1ecb45d27f42adb74b12ceea79a4004f243960c132e0147eb3",
     "blockHashes": [
       "04ba8a3fca46514f",
       "4bd08244050e9682"
     ],
-    "extractedChars": 756,
+    "extractedChars": 798,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-25T08:24:05.436Z",
+    "lastChangedISO": "2026-09-25T19:27:27.545Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "classifyFailures": 3
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://awqaf.gov.sa/ar/ar/hiring/",
@@ -7764,7 +7764,7 @@
   {
     "sourceUrl": "https://www.mim.gov.sa/ar/empower-training/cooperative-training",
     "orgId": "mim",
-    "contentHash": "dfbf3b7c196e9ec724cab12b06aacb8a24b674a1f8def317ac7c1d2d3811cf03",
+    "contentHash": "ce9bc5d710433144a18d1c049b14fa3a0332b1da7295f525885d01887b2d199f",
     "blockHashes": [
       "1cb91553dd3291a4",
       "5300d4cdd32a8d33"
@@ -7772,9 +7772,10 @@
     "extractedChars": 2178,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T02:22:33.828Z",
-    "lastChangedISO": "2026-09-25T18:37:55.904Z",
+    "lastChangedISO": "2026-09-25T19:27:27.545Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://www.mim.gov.sa/ar/media-center/news",
@@ -11011,20 +11012,20 @@
   {
     "sourceUrl": "https://www.tahakom.com/careers",
     "orgId": "tahakom",
-    "contentHash": "855193303b2324024bccef01fb39a6cd0af6aa0a7562dccc8e836ce6179ea203",
+    "contentHash": "66a1b215d71b598e5c8f4def386779d5d875b8060e2f1e761d7fed159451f4b0",
     "blockHashes": [
       "d44217251213a019",
       "611753a8aea1ade1",
       "0cea4d38306888dc",
       "1a5263a5a2541c46",
-      "a937a81f39e1b5a8"
+      "264d6b3abc2256d1"
     ],
-    "extractedChars": 836,
+    "extractedChars": 838,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-03T05:13:40.059Z",
-    "lastChangedISO": "2026-09-25T18:37:55.904Z",
+    "lastChangedISO": "2026-09-25T19:27:27.545Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.taifcity.gov.sa/#/ar",
