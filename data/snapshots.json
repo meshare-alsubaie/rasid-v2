@@ -1756,7 +1756,7 @@
   {
     "sourceUrl": "https://careers.sdaia.gov.sa/training",
     "orgId": "sdaia",
-    "contentHash": "6d46074f1938763f0a9245a2aa1b013633c7a37add8a82be35a0ab6acd37be64",
+    "contentHash": "c85f5e138b5c65644cc36a9b0c5e9718da8d17a96fc8f6de56c2a65e79a3e09a",
     "blockHashes": [
       "a3638bfcc93928a2",
       "5a2ea8a7bc8ff607",
@@ -1767,12 +1767,12 @@
       "9c07884d4ed44032",
       "c4aabeebd58258d2",
       "6dc60fec12c030a8",
-      "8f0732c7043be9ff"
+      "7d2db2ddafbe589d"
     ],
     "extractedChars": 1605,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-25T01:57:43.040Z",
+    "lastChangedISO": "2026-09-25T02:46:00.781Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -2408,14 +2408,14 @@
   {
     "sourceUrl": "https://gmedia.gov.sa/",
     "orgId": "gcam",
-    "contentHash": "1631b0f9714b5a7f9ca7ca372e697ff47b90a531b83043f473b42157b2893812",
+    "contentHash": "9cf6bd3faaae5813228435e9658c850ad29157dcf34d68715cab6ca31248a843",
     "blockHashes": [
-      "1631b0f9714b5a7f"
+      "9cf6bd3faaae5813"
     ],
     "extractedChars": 845,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-24T19:16:12.024Z",
+    "lastChangedISO": "2026-09-25T02:40:31.614Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -3143,37 +3143,37 @@
   {
     "sourceUrl": "https://momah.gov.sa/ar",
     "orgId": "housing",
-    "contentHash": "3f22aeedb51ee01abece179ad1d7312c25bebc5c7d4d09d535b271b31512287a",
+    "contentHash": "36f36e926003d8d7aa1d73509d0e3c22505e761eb8aee5ab543c4fbd5a6255c5",
     "blockHashes": [
       "390ea394b03ad064",
       "0cae66fd6419120a",
       "a1f4628b6b2acab1",
       "1f18270f78163abc",
-      "bc6ffdf524ddc0cc",
+      "22b7fc06d821da3a",
+      "f1534b8cd68cfd95",
+      "5d15152619ff887e",
+      "b1ecb2fcce9ed911",
+      "c9463ca10652be13",
+      "4bb6586e4706502c",
+      "cc9f9c553cae30bd",
+      "347c5cdfbe1e7750",
+      "f9b86b6e06d260ed",
+      "09b1bd561f62b68f",
+      "47bc1218c7f4fdb1",
       "560edfe1df9d8921",
       "23b97a8a93aba477",
       "9cd3abf7fd1573ff",
-      "f45529cb3beb1541",
-      "4e7894426d3a28ab",
-      "91ba73a9096a679d",
+      "520dacc49681089b",
+      "362b8c807bbd191d",
       "ff6f87e39638cb9b",
-      "4c61b6ddd2102d05",
-      "500e0a6e38d77504",
-      "eaf18c2508a70c44",
-      "5d15152619ff887e",
-      "d65dd71efcf347de",
-      "d1a60fa6b722aeb5",
-      "b7659e34e8a5a1f5",
-      "09b1bd561f62b68f",
-      "06b903603db76c21",
+      "ca8df7af0f19bdf0",
       "ac1405062719fb86",
-      "efcc3a4cdb7b329d",
-      "d2b555e1fcf1c2b7"
+      "ad1eab02a6770547"
     ],
     "extractedChars": 153739,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-24T19:12:57.002Z",
+    "lastChangedISO": "2026-09-25T02:40:31.614Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -3700,8 +3700,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-24T22:23:35.143Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://ndf.gov.sa/media-center/articles/article-human-resource-development",
@@ -3882,14 +3881,14 @@
     "orgId": "redf",
     "contentHash": "e0e40a739d7fdfd7ec9e6b8f30a8b7b29c98764d40ffcd45e7ff8c3f9e202659",
     "blockHashes": [
-      "04c783482dfa5eed"
+      "e0e40a739d7fdfd7"
     ],
     "extractedChars": 500,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-02T23:42:46.216Z",
     "lastChangedISO": "2026-09-24T23:39:38.251Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://rega.gov.sa/login/?redirectId=32017",
@@ -6425,10 +6424,10 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/careers",
     "orgId": "hrc",
-    "contentHash": "7a5d25c3eb9625e2fae2c423425f4ccfa9e883b4dcfa263244c2a9fc0bd0cc25",
+    "contentHash": "91b58341e9eca39a2852e8e3508d4a95d6537edb57a115838fdebd549e053d12",
     "blockHashes": [
       "12e41a244a8a2984",
-      "327a7745dcc7c60b",
+      "143f90d9537de38a",
       "9bd6314e9bbc7375",
       "474d2dbb69aae30b",
       "84b2fc11813dc7e8",
@@ -6452,7 +6451,7 @@
     "extractedChars": 3794,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-24T22:18:19.238Z",
+    "lastChangedISO": "2026-09-25T02:40:31.614Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -7020,8 +7019,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-24T19:12:57.002Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "triaged_out"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.jadwa.com/en/announcements",
@@ -8102,11 +8100,11 @@
   {
     "sourceUrl": "https://www.mof.gov.sa/Pages/default.aspx",
     "orgId": "mof",
-    "contentHash": "7e58f1b6cbbc28a80186264f884a6b49da2c68e732cd271363e623234219c73f",
+    "contentHash": "ab38cfdb8eef5c8186357162bd3365aaab436fd7cf6589e704308361e82823f6",
     "blockHashes": [
       "7f625851cbbadbc6",
       "f7711325e2c4b301",
-      "f95ac03e7b4bf4df",
+      "9224eb3f666d8eb1",
       "a4421c0a80a8433c",
       "589c637db8545e12",
       "d6925423217a99ca",
@@ -8117,9 +8115,10 @@
     "extractedChars": 467,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
-    "lastChangedISO": "2026-09-23T21:55:42.445Z",
+    "lastChangedISO": "2026-09-25T02:40:31.614Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://www.mofa.gov.sa/",
@@ -8681,8 +8680,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-24T22:23:35.143Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "triaged_out"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.ncc.gov.sa/ar/MediaCenter/Events/Pages/default.aspx",
@@ -10909,23 +10907,19 @@
     "orgId": "tadawul",
     "contentHash": "d0d3b5ac169f1b73ab7aa83d70c779f4ee298b89ccc3b8284f83c6034148bac3",
     "blockHashes": [
-      "dbfb7021493a5943",
-      "4acb10188c67e120",
-      "9b405996eceb74cf",
-      "5b4fe1a76867e3dc",
-      "4cacbd860b3b4c52",
-      "a888c2eda107d142",
-      "a8f106c1cf7430a5",
-      "99045a67c833cd6b",
-      "332ab17b1cccbd59"
+      "0cfcdfa727221d00",
+      "689f707057688943",
+      "50a3cca530113406",
+      "a3435878c6033280",
+      "b2cab4da26050ee9"
     ],
     "extractedChars": 1186,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-02T23:42:46.216Z",
     "lastChangedISO": "2026-09-24T23:27:02.562Z",
     "thinRuns": 0,
-    "pendingClassification": true,
-    "classifyFailures": 2
+    "pendingClassification": false,
+    "classifyFailures": 3
   },
   {
     "sourceUrl": "https://www.tahakom.com/",
@@ -10949,18 +10943,18 @@
   {
     "sourceUrl": "https://www.tahakom.com/careers",
     "orgId": "tahakom",
-    "contentHash": "cdc6e715febd70ac89e4ace8f3b65185ba7bfab54fda1908fc17c2332d9ecb2f",
+    "contentHash": "b38dbf058b4234ab057d12623e79e306acbf6beed2b6c4ee74f716e45330ea62",
     "blockHashes": [
       "d44217251213a019",
       "611753a8aea1ade1",
       "0cea4d38306888dc",
       "1a5263a5a2541c46",
-      "da33eb4a1bacafc3"
+      "1e38332e29a3b3fa"
     ],
-    "extractedChars": 836,
+    "extractedChars": 835,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-03T05:13:40.059Z",
-    "lastChangedISO": "2026-09-25T01:57:43.040Z",
+    "lastChangedISO": "2026-09-25T02:46:00.781Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
