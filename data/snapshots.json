@@ -1271,17 +1271,19 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/search-results",
     "orgId": "maaden",
-    "contentHash": "ad4c0163d651c7849c65afb710d82b64d1a299e23390dafa6f9942e5a1b98629",
+    "contentHash": "67f87d8c1345a61d8c7af499677763629234e6b8a6735509b93a083bb3b0e54e",
     "blockHashes": [
       "5569201553604d03",
       "6610997bc1f9b192",
-      "1b55e5c5f08fc758",
-      "5805709a7e9ed049"
+      "298a05ebe5a16280",
+      "d6c0adacb353836a",
+      "56797e19c4163222",
+      "859fca0da66221e8"
     ],
-    "extractedChars": 221,
-    "extractionMethod": "readability",
+    "extractedChars": 1474,
+    "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-25T04:09:12.512Z",
+    "lastChangedISO": "2026-09-25T05:04:00.244Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -4433,7 +4435,7 @@
   {
     "sourceUrl": "https://training.moj.gov.sa/",
     "orgId": "moj",
-    "contentHash": null,
+    "contentHash": "f4c6ef6b783b69d09a8f681ad1d80f1df35ef8cb8864917255879208cc305886",
     "blockHashes": [
       "84a570379809f573",
       "ab443a0bbfda7883"
@@ -4441,7 +4443,7 @@
     "extractedChars": 481,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T02:31:49.455Z",
-    "lastChangedISO": "2026-09-25T01:04:59.233Z",
+    "lastChangedISO": "2026-09-25T05:12:43.331Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -10399,10 +10401,10 @@
   {
     "sourceUrl": "https://www.sfda.gov.sa/en/career-vision-and-mission",
     "orgId": "sfda",
-    "contentHash": "1e15d91c4c240d293deee058a937270126bb252909f8f1d4a6c1260e95e0fd5a",
+    "contentHash": "71bb8588b10e2063dcda4ae8a9a2b5bbafadde033abeee001ef8263d45b32de2",
     "blockHashes": [
       "4e3b1c94f76f8148",
-      "d21ed2a0b3070ea5",
+      "09a40809b1ea4e50",
       "b28682d0a5fa37ed",
       "5e9a5843d184b153",
       "c6452237208136a0",
@@ -10418,7 +10420,7 @@
     "extractedChars": 997,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-25T01:29:42.214Z",
+    "lastChangedISO": "2026-09-25T05:04:00.244Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -10951,18 +10953,18 @@
   {
     "sourceUrl": "https://www.tahakom.com/careers",
     "orgId": "tahakom",
-    "contentHash": "66a1b215d71b598e5c8f4def386779d5d875b8060e2f1e761d7fed159451f4b0",
+    "contentHash": "809b02d87d75c39f9056ddfd5e8ddff9f708fde920c51c4f54fd2f4898e0146f",
     "blockHashes": [
       "d44217251213a019",
       "611753a8aea1ade1",
       "0cea4d38306888dc",
       "1a5263a5a2541c46",
-      "264d6b3abc2256d1"
+      "e33ebf6f7a507f0c"
     ],
     "extractedChars": 838,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-03T05:13:40.059Z",
-    "lastChangedISO": "2026-09-25T04:25:53.505Z",
+    "lastChangedISO": "2026-09-25T05:12:43.331Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
