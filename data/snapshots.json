@@ -1256,15 +1256,16 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/cookiesettings",
     "orgId": "maaden",
-    "contentHash": "e5b832240d6e0da8ace2bfc857f7c54625c87ee15ca7be870ba185c19ee8963c",
+    "contentHash": "09cb45c6a07349c311fcab0514dff68a8615cb2bf65763bbf84751d9c6fe9846",
     "blockHashes": [
-      "36d559ff1f0a259c",
-      "d89fd5cea103fdb8"
+      "5569201553604d03",
+      "ee5778dd1dabcea6",
+      "0e08d6eeebc65927"
     ],
     "extractedChars": 240,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-26T22:27:18.716Z",
+    "lastChangedISO": "2026-09-26T23:15:53.541Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -7713,7 +7714,7 @@
   {
     "sourceUrl": "https://www.mim.gov.sa/ar/empower-training/cooperative-training",
     "orgId": "mim",
-    "contentHash": "5b01e5ad1a991d63f7923188f5a24467e778b1806a17032a41519b4594a622a2",
+    "contentHash": "2c7bace24b9a2a430a955c50e5b1b5119f537924ae6558b83d57ba8e9379eed8",
     "blockHashes": [
       "1cb91553dd3291a4",
       "5300d4cdd32a8d33"
@@ -7721,7 +7722,7 @@
     "extractedChars": 2178,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T02:22:33.828Z",
-    "lastChangedISO": "2026-09-26T22:27:18.716Z",
+    "lastChangedISO": "2026-09-26T23:15:53.541Z",
     "thinRuns": 0,
     "pendingClassification": true,
     "classifyFailures": 1
@@ -9321,16 +9322,17 @@
   {
     "sourceUrl": "https://www.rcrc.gov.sa/careers/?lang=ar",
     "orgId": "rcrc",
-    "contentHash": "15909041c6e9bb40271697bbe39ce8602f9ff65a05da9da7a4bc0d3b74001197",
+    "contentHash": "5d13f035bfdf55c797bf21fe82248a43624ecdf9368700e3625c36195a2db531",
     "blockHashes": [
       "15909041c6e9bb40"
     ],
-    "extractedChars": 784,
+    "extractedChars": 1166,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-26T22:23:03.739Z",
+    "lastChangedISO": "2026-09-26T23:15:53.541Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://www.rcrc.gov.sa/media-center/",
