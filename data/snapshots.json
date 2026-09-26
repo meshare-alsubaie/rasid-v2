@@ -479,7 +479,7 @@
     "lastChangedISO": "2026-09-26T01:17:13.475Z",
     "thinRuns": 0,
     "pendingClassification": true,
-    "classifyFailures": 1
+    "classifyFailures": 2
   },
   {
     "sourceUrl": "https://alinma.com/en/About-the-Bank/The-Bank/News/2011/02/alinma-bank-and-al-khaleej-training-and-education-company-sign-education-financing-agreement",
@@ -2202,9 +2202,9 @@
   {
     "sourceUrl": "https://gaca.gov.sa/ar/announcements",
     "orgId": "gaca",
-    "contentHash": "81c21757d1b115084199103c9b68318b09e8c5852055b9c0360eea241016d6df",
+    "contentHash": "a6b7c72066fea1f987fe6721e77fee2d1a714101ba183b836b15040dc5487418",
     "blockHashes": [
-      "5d3071a1ee5595f5",
+      "df8d7a8c16d7d5e0",
       "9c2a3967149440a8",
       "83a22e1f9fb245f8",
       "bc532942aaed49b7"
@@ -2212,9 +2212,10 @@
     "extractedChars": 1211,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-26T03:27:05.142Z",
+    "lastChangedISO": "2026-09-26T22:01:51.942Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://gaca.gov.sa/ar/News",
@@ -3077,9 +3078,9 @@
   {
     "sourceUrl": "https://modon.gov.sa/",
     "orgId": "modon",
-    "contentHash": "9d7db54f38fed055ec44d57c8badeaf0140842e3ffab83a3a2960303c1206b06",
+    "contentHash": "2db1c4b3d3b7405d073b258c89c5521adb1e36bb73449e2107c924a5929764f7",
     "blockHashes": [
-      "df693dcdf1fb9997",
+      "59db5b84d620c48d",
       "0edf2292f0637ccb",
       "c32ffa2c93fe0d09",
       "9066ce9805b0428c",
@@ -3101,7 +3102,7 @@
     "extractedChars": 5996,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-26T00:25:41.699Z",
+    "lastChangedISO": "2026-09-26T22:01:51.942Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -6569,10 +6570,10 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/cooperations?lang=ar",
     "orgId": "hrc",
-    "contentHash": "a488ce55b76406589d43cc307b88c0aeb780234f213224d503c8fb2b1ec47626",
+    "contentHash": "42e11e86236073366fa67f52b74f07e505746382aee0429331aa20f1ef5cd69f",
     "blockHashes": [
       "12e41a244a8a2984",
-      "8d3374d7e954a7a8",
+      "eff6d1ce8b8c8053",
       "15c715928fc246c0",
       "9a4a215f8452ca45",
       "961639689d2c8819",
@@ -6593,9 +6594,9 @@
     "extractedChars": 6137,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-26T03:27:05.142Z",
+    "lastChangedISO": "2026-09-26T22:01:51.942Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/news?lang=ar",
@@ -7867,7 +7868,7 @@
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-20T12:59:49.059Z",
-    "thinRuns": 29,
+    "thinRuns": 30,
     "pendingClassification": false
   },
   {
@@ -8076,11 +8077,11 @@
   {
     "sourceUrl": "https://www.mof.gov.sa/mediacenter/events/Pages/CalEvent.aspx",
     "orgId": "mof",
-    "contentHash": "2520fd8512042a486aae8a72d9dc0b217e34a16a2e2b579b5512e7d7f55d183a",
+    "contentHash": "1970cd2a0e2ebf54f40975eca73fc0bc1993c9b036fbf1ba504dd3d7a36aa04c",
     "blockHashes": [
       "7f625851cbbadbc6",
       "f7711325e2c4b301",
-      "1afa35a90c1e461b",
+      "0196e8579cbbe6f5",
       "b1bec34b5330c702",
       "f4809815161554d5",
       "16ff3360390869f3",
@@ -8094,9 +8095,10 @@
     "extractedChars": 10146,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-25T21:12:14.304Z",
+    "lastChangedISO": "2026-09-26T21:54:28.207Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://www.mof.gov.sa/Pages/default.aspx",
@@ -8581,18 +8583,19 @@
   {
     "sourceUrl": "https://www.nazaha.gov.sa/News",
     "orgId": "nazaha",
-    "contentHash": "eb89bd782a81c15944058309e836d538d9ce085b7329cf74f9e25d083965de0c",
+    "contentHash": "61aa0a228dd734935f2575e8d715efac7c5722653c77f36e246bc57c38f50a9b",
     "blockHashes": [
       "a167b0dd9b0e3e1c",
       "74e4c1d2a646a96e",
-      "0b2cdd0ea2bb4623"
+      "a6d686932accc21f"
     ],
     "extractedChars": 358,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-25T21:17:34.936Z",
+    "lastChangedISO": "2026-09-26T22:01:51.942Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "triaged_out"
   },
   {
     "sourceUrl": "https://www.nazaha.gov.sa/News/Details?q=+ZUW2RPX/9RAyHyLvILpaw==",
@@ -10374,9 +10377,9 @@
   {
     "sourceUrl": "https://www.sfda.gov.sa/ar/news",
     "orgId": "sfda",
-    "contentHash": "da044dfab15e073cf7e58422208001111992dda9d5769852e2905997990bf22a",
+    "contentHash": "d8303938a5f2e69cb8de3bf88d3f1cda4585577ffe07d9722bd07f691862af15",
     "blockHashes": [
-      "46cde776f5013e1d",
+      "b84a9cbbfb815115",
       "5c4b43134210dfe9",
       "9328e85fd7887778",
       "4604bc6f97a0dea4",
@@ -10391,9 +10394,10 @@
     "extractedChars": 1515,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-25T18:20:16.230Z",
+    "lastChangedISO": "2026-09-26T22:01:51.942Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://www.sfda.gov.sa/en/career-vision-and-mission",
