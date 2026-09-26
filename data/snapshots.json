@@ -295,14 +295,14 @@
     "orgId": "alinma",
     "contentHash": "be9fba0468c87240ec76849014c568554e96c74cf3bb4f2b455b4e72a60eb939",
     "blockHashes": [
-      "18d6d3d8ed291739"
+      "be9fba0468c87240"
     ],
     "extractedChars": 281,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T23:54:26.779Z",
     "lastChangedISO": "2026-09-25T18:42:06.806Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://alinma.com/About-the-Bank/The-Bank/News/2011/02/alinma-bank-and-al-khaleej-training-and-education-company-sign-education-financing-agreement",
@@ -7696,8 +7696,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-25T22:11:46.116Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.mewa.gov.sa/ar/MediaCenter/VisualIdentityGuide/Pages/default.aspx",
@@ -7778,7 +7777,7 @@
   {
     "sourceUrl": "https://www.mim.gov.sa/ar/empower-training/cooperative-training",
     "orgId": "mim",
-    "contentHash": "7bf50ea0d50bfc7378a759f0cdfe2a4a6cb728bdc6661a2ba64440e13cd99381",
+    "contentHash": "53545566662005db838badfc5a2652d2f057477566956ae5e0b7003d36c927af",
     "blockHashes": [
       "1cb91553dd3291a4",
       "5300d4cdd32a8d33"
@@ -7786,7 +7785,7 @@
     "extractedChars": 2178,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T02:22:33.828Z",
-    "lastChangedISO": "2026-09-26T00:51:04.527Z",
+    "lastChangedISO": "2026-09-26T01:38:46.840Z",
     "thinRuns": 0,
     "pendingClassification": true,
     "classifyFailures": 1
@@ -10426,14 +10425,15 @@
       "671173f99cbdcb05",
       "b69ab73ade473181",
       "fe04993c9918963a",
-      "bd3709c62d4a1dec"
+      "f52d834c3ce30e5e"
     ],
     "extractedChars": 7707,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-25T18:32:48.816Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://www.sfda.gov.sa/ar/career-vision-and-mission",
@@ -11300,18 +11300,18 @@
   {
     "sourceUrl": "https://www.tahakom.com/careers",
     "orgId": "tahakom",
-    "contentHash": "809b02d87d75c39f9056ddfd5e8ddff9f708fde920c51c4f54fd2f4898e0146f",
+    "contentHash": "855193303b2324024bccef01fb39a6cd0af6aa0a7562dccc8e836ce6179ea203",
     "blockHashes": [
       "d44217251213a019",
       "611753a8aea1ade1",
       "0cea4d38306888dc",
       "1a5263a5a2541c46",
-      "e33ebf6f7a507f0c"
+      "d32ff43725c0dd4b"
     ],
-    "extractedChars": 838,
+    "extractedChars": 836,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-03T05:13:40.059Z",
-    "lastChangedISO": "2026-09-25T23:50:08.553Z",
+    "lastChangedISO": "2026-09-26T01:29:53.861Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
