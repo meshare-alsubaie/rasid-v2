@@ -665,8 +665,8 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-25T23:00:17.673Z",
     "thinRuns": 0,
-    "pendingClassification": true,
-    "classifyFailures": 2
+    "pendingClassification": false,
+    "classifyFailures": 3
   },
   {
     "sourceUrl": "https://awqaf.gov.sa/ar/ar/hiring/",
@@ -2294,9 +2294,9 @@
   {
     "sourceUrl": "https://gaca.gov.sa/ar/News",
     "orgId": "gaca",
-    "contentHash": "0857bed8fbcf5a6ec14cf6437744d6acc116d94aedc996482874f5c4be108146",
+    "contentHash": "bf8b868127c1a3c914369349b3eab132e6c198bd555d2748fa26eb73598b5e86",
     "blockHashes": [
-      "10f53f0c37488ed8",
+      "c462890a9f50b818",
       "ef26de24708740d2",
       "95eb6a3bfae983dc",
       "50638526149c77c9",
@@ -2363,12 +2363,12 @@
       "83806ca220a038f5",
       "12de0761cfdf936c",
       "83a22e1f9fb245f8",
-      "bc532942aaed49b7"
+      "2ccfa90c84c059a7"
     ],
-    "extractedChars": 20505,
+    "extractedChars": 20765,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-25T21:35:06.235Z",
+    "lastChangedISO": "2026-09-26T00:39:59.891Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -6569,10 +6569,10 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/careers/graduate-development-program",
     "orgId": "hrc",
-    "contentHash": "36b541f62958ef9ff860700696087dabf003f5766deaa44ca1ede2b9cf12d1c9",
+    "contentHash": "ec9bade36bb27d5753cf4c901f4ea2398c10d5569710016b268f8aaf731386d2",
     "blockHashes": [
       "12e41a244a8a2984",
-      "30813b98d7f8aed5",
+      "ff12b27b152d92a5",
       "741386d322f274be",
       "40d7009856bbc81d",
       "2dd486d3d3cacb8b",
@@ -6638,7 +6638,7 @@
     "extractedChars": 10689,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-25T21:35:06.235Z",
+    "lastChangedISO": "2026-09-26T00:39:59.891Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -7381,7 +7381,7 @@
   {
     "sourceUrl": "https://www.kapsarc.org/work-with-us/job-opportunities/",
     "orgId": "kapsarc",
-    "contentHash": "fc99ad4c352568b02fcd3d250a038d9ac47d1d661058724f754ba3b9ffd06e75",
+    "contentHash": "0c79475cf96aa14bffbcfb287ee89ec71ab6ead5b893ac865391c92cbcd98511",
     "blockHashes": [
       "dbad88ec8435b910",
       "11ed80f75ad0e89e",
@@ -7403,7 +7403,7 @@
       "82125fef711b8fdc",
       "a8eb670b84904811",
       "d9cd1c2148907399",
-      "4b9ec401b6a0116f",
+      "fa1a6bc9355993ad",
       "9c51ede42f36a1d8",
       "0b23b586c4f30fe5",
       "0b23b586c4f30fe5",
@@ -7414,7 +7414,7 @@
     "extractedChars": 1050,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-25T02:06:34.329Z",
+    "lastChangedISO": "2026-09-26T00:39:59.891Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -10785,7 +10785,7 @@
   {
     "sourceUrl": "https://www.stats.gov.sa/ar",
     "orgId": "gastat",
-    "contentHash": "78c3b9dc039d36830dda8d2611f849a07658bad0febfe8ce16c9ea02e1be065d",
+    "contentHash": "f3003531686f490043c88f9c62625eddda48a75191aabb9112d02a4eb8ea80d9",
     "blockHashes": [
       "b618107f43bd2daf",
       "7c7b7fcab684a4c3",
@@ -10799,9 +10799,9 @@
     "extractedChars": 4778,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-25T18:28:35.580Z",
+    "lastChangedISO": "2026-09-26T00:39:59.891Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.stats.gov.sa/ar/cooperative-training",
