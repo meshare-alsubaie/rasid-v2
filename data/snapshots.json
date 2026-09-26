@@ -137,7 +137,7 @@
   {
     "sourceUrl": "https://adf.gov.sa/ar/Pages/default.aspx",
     "orgId": "adf",
-    "contentHash": "2152475351a405e09a4fe51eec9bbff5bc07f64d7ca19f273786bd57600631f2",
+    "contentHash": "e0ca600fed2f5c58b52ab7d4fe74b651691ed43bf821529ac23869351a710eaf",
     "blockHashes": [
       "1ce798e0ca5f6070",
       "9e8708f46644e878",
@@ -146,7 +146,7 @@
       "b7a4f19178b3b8a1",
       "0514128baf9c79f1",
       "9185920f2483a42d",
-      "b92d43c665b3214d",
+      "ee504ef00b414a2f",
       "8d0d93944a16dca7",
       "13285e8c3eb4c8ac",
       "4838bf63eca38706",
@@ -157,10 +157,10 @@
       "782261474561a27a",
       "74b06ac36e5c75b0"
     ],
-    "extractedChars": 1703,
+    "extractedChars": 1701,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
-    "lastChangedISO": "2026-09-26T01:08:27.983Z",
+    "lastChangedISO": "2026-09-26T22:52:59.884Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "triaged_out"
@@ -556,15 +556,15 @@
     "orgId": "alinma",
     "contentHash": "95160a7f8be86ef6d50a6496dfbdd1d3660b3bb0dd0c19fd287d7407b23cd2a4",
     "blockHashes": [
-      "47b87c9718c4491f"
+      "95160a7f8be86ef6"
     ],
     "extractedChars": 284,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T23:54:26.779Z",
     "lastChangedISO": "2026-09-25T19:24:22.523Z",
     "thinRuns": 0,
-    "pendingClassification": true,
-    "classifyFailures": 2
+    "pendingClassification": false,
+    "classifyFailures": 3
   },
   {
     "sourceUrl": "https://alinma.com/en/About-the-Bank/The-Bank/News/2013/05/alinmajobandcareerdayattractsgraduatesoftheinstituteofpublicadministration",
@@ -763,7 +763,7 @@
   {
     "sourceUrl": "https://career.alinma.com/",
     "orgId": "alinma",
-    "contentHash": null,
+    "contentHash": "e245fd94c1ab59dcc6bad34af50ba34c224654b27d2f46834c18eef001143fa5",
     "blockHashes": [
       "d139e32e22028878",
       "24a16c9057a577bb",
@@ -772,9 +772,9 @@
     "extractedChars": 750,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-01T01:46:07.967Z",
-    "lastChangedISO": "2026-09-26T02:57:15.843Z",
+    "lastChangedISO": "2026-09-26T22:57:55.271Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://career.dga.gov.sa/",
@@ -1271,17 +1271,18 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/search-results",
     "orgId": "maaden",
-    "contentHash": "5efcee9e3e45319928a123c5012c1ad5c2d4dacf05788d7dcde4a1c9f055506b",
+    "contentHash": "edddb4556239e600952a4c1425ffb20633a369acbe171e4ea5438cb85919e774",
     "blockHashes": [
       "0593a1678d987760",
-      "298a05ebe5a16280",
       "d6c0adacb353836a",
-      "f0a1c3df0f81ad25"
+      "851eda0d9a57595c",
+      "9bf2ff26e5ff9669",
+      "f3e2b4e0f0eda657"
     ],
-    "extractedChars": 240,
+    "extractedChars": 410,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-26T22:11:43.967Z",
+    "lastChangedISO": "2026-09-26T22:57:55.271Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -2412,14 +2413,14 @@
   {
     "sourceUrl": "https://gmedia.gov.sa/",
     "orgId": "gcam",
-    "contentHash": "fff6690671d86daacea9ebe74667fa250728fa40323b3490d399728cb8e9c565",
+    "contentHash": "0149a2962c412c59b9a9b7198e96e407d50b7bfb96d2593c5c7e5af12987a6d8",
     "blockHashes": [
-      "fff6690671d86daa"
+      "0149a2962c412c59"
     ],
     "extractedChars": 845,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-26T01:03:09.240Z",
+    "lastChangedISO": "2026-09-26T22:46:54.820Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -3631,17 +3632,17 @@
   {
     "sourceUrl": "https://ncvc.gov.sa/en/Pages/COOP-Training.aspx",
     "orgId": "ncvc",
-    "contentHash": "b01777c95536bd8d3f3e0934682bae4beb740b053d98368992319b5a5ecd976e",
+    "contentHash": "c6e435ef9fd1abe6049b4a6d07835ae3065ae140f228dec72e64ff673c9b1558",
     "blockHashes": [
       "7143533e75136d38",
       "4d9c65777643b502",
       "270633c3f308ab38",
-      "eb0b81e74fe4deca"
+      "1a50907d2c953503"
     ],
     "extractedChars": 1114,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-03T01:18:25.099Z",
-    "lastChangedISO": "2026-09-26T00:36:05.883Z",
+    "lastChangedISO": "2026-09-26T22:57:55.271Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -3695,9 +3696,9 @@
   {
     "sourceUrl": "https://ndf.gov.sa/media-center/articles",
     "orgId": "ndf",
-    "contentHash": "e4c8bd6c0652eae6c4589530efac0c325043f6ccef524b36da8707ac8d0c5289",
+    "contentHash": "627b4c075f4e57e2cc439df4b1b74e4c5e102f94ee6992c6c893c71e0782bc68",
     "blockHashes": [
-      "0e231adf0feaf17b",
+      "3ae6e794ed8ac8d8",
       "b4a5c7cd60560196",
       "4c268b289192e891",
       "d91f8453abc8bd97",
@@ -3706,9 +3707,10 @@
     "extractedChars": 4076,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-25T23:00:17.673Z",
+    "lastChangedISO": "2026-09-26T22:46:54.820Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://ndf.gov.sa/media-center/articles/article-human-resource-development",
@@ -5509,19 +5511,19 @@
   {
     "sourceUrl": "https://www.bog.gov.sa/en/EServices/judiciaryHiring/Pages/default.aspx",
     "orgId": "bog",
-    "contentHash": "81f8d73206efba83e5dada32be755e3c79048f06382e97494defc16051c79dd9",
+    "contentHash": "153d2ebf4c752893fa58c0b53c075e12e71bb9ddc7503b77e9bfd42e68348877",
     "blockHashes": [
       "46d9575ec382a9d1",
       "96c63175498462d9",
       "f4b9821710ab784e",
-      "e24ca624e1e52d43",
+      "db96cc060fa0a333",
       "d9ac968863afb54d",
       "ec5d6ba37d25b982"
     ],
     "extractedChars": 756,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-26T04:16:48.276Z",
+    "lastChangedISO": "2026-09-26T22:57:55.271Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -7539,12 +7541,12 @@
   {
     "sourceUrl": "https://www.mewa.gov.sa/ar/MediaCenter/Events/Pages/MonthEvents.aspx",
     "orgId": "mewa",
-    "contentHash": "bb56cea547481d64fa20f7467e453fc55f266a2734a4b6849d00051161ffa429",
+    "contentHash": "8c64b5b8d060090ef52a0dbf97931baf720f26e5b547df6cf08329d62850779c",
     "blockHashes": [
       "12e41a244a8a2984",
       "c804732dd480d71a",
       "74e4c1d2a646a96e",
-      "de152b1d33dc7544",
+      "e0141f8b81df96cb",
       "6a9449aa26ba52c0",
       "b957f376a744a274",
       "de238d6e21cb4935",
@@ -7555,9 +7557,10 @@
     "extractedChars": 701,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-20T23:08:21.758Z",
+    "lastChangedISO": "2026-09-26T22:46:54.820Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://www.mewa.gov.sa/ar/MediaCenter/MultimediaLibrary/Pages/default.aspx",
@@ -8554,18 +8557,18 @@
   {
     "sourceUrl": "https://www.nazaha.gov.sa/",
     "orgId": "nazaha",
-    "contentHash": "c4c95716585a1c3366881bca20c76b29573a4653cce3951b99b66dab7b9c787b",
+    "contentHash": "714c76c4d60960365692819140c50c28ad917bf12124bf4a91248f8e048e24e9",
     "blockHashes": [
       "a167b0dd9b0e3e1c",
       "74e4c1d2a646a96e",
-      "e2eb857677c48547",
+      "119c4f1e7d70529e",
       "c3fc1cda7b3b3192",
       "8cf9316b144acc06"
     ],
     "extractedChars": 506,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T22:03:35.383Z",
-    "lastChangedISO": "2026-09-25T23:30:48.308Z",
+    "lastChangedISO": "2026-09-26T22:57:55.271Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
