@@ -466,8 +466,7 @@
     "firstSeenISO": "2026-08-31T23:54:26.779Z",
     "lastChangedISO": "2026-09-25T23:10:09.878Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "triaged_out"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://alinma.com/en/About-the-Bank/The-Bank/News/2010/01/alinma-bank-signs-agreement-with-specialized-academy-for-medical-training-for-financing-tuition-fees",
@@ -662,7 +661,7 @@
     "lastChangedISO": "2026-09-26T03:53:33.456Z",
     "thinRuns": 0,
     "pendingClassification": true,
-    "classifyFailures": 1
+    "classifyFailures": 2
   },
   {
     "sourceUrl": "https://awqaf.gov.sa/ar/ar/hiring/",
@@ -1259,15 +1258,14 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/cookiesettings",
     "orgId": "maaden",
-    "contentHash": "4d79e471b20d51b726db9cbe55b81cb61b6c42f1c971407396e749d7c36427a5",
+    "contentHash": "0b479d67d1efbae064fc4a0ce62252543299ba7f796b1d2b44b3eaa19c732e83",
     "blockHashes": [
-      "f5159c8e077682be",
-      "cb70db380ee61f92"
+      "0b479d67d1efbae0"
     ],
-    "extractedChars": 240,
-    "extractionMethod": "readability",
+    "extractedChars": 55,
+    "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-26T04:31:32.470Z",
+    "lastChangedISO": "2026-09-26T05:18:59.800Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -2151,7 +2149,7 @@
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T02:22:33.828Z",
     "lastChangedISO": "2026-08-29T02:36:21.032Z",
-    "thinRuns": 375,
+    "thinRuns": 376,
     "pendingClassification": false
   },
   {
@@ -6420,10 +6418,10 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/careers",
     "orgId": "hrc",
-    "contentHash": "30ce762faab043d9557a764dba1c74fe5ab83d654bd1e1d914d36584582aa890",
+    "contentHash": "24c133c4ccd653bca95fcd50b14e0adfff6f09a2bce2f99958a23053238ef11b",
     "blockHashes": [
       "12e41a244a8a2984",
-      "bf7ec6e8c63c0fc2",
+      "e36e22713079d17e",
       "9bd6314e9bbc7375",
       "474d2dbb69aae30b",
       "84b2fc11813dc7e8",
@@ -6447,7 +6445,7 @@
     "extractedChars": 3794,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-26T02:05:34.941Z",
+    "lastChangedISO": "2026-09-26T05:09:46.650Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -10945,18 +10943,18 @@
   {
     "sourceUrl": "https://www.tahakom.com/careers",
     "orgId": "tahakom",
-    "contentHash": "8d1d8b4a6a7bde78572d8fa562ea399be56c71b4f40b53a0139f8955994ae509",
+    "contentHash": "5d658db3b71a3c835647e3733048f45280f9f545019d9d633bee6da1c3926b9e",
     "blockHashes": [
       "d44217251213a019",
       "611753a8aea1ade1",
       "0cea4d38306888dc",
       "1a5263a5a2541c46",
-      "f3829db208838eb8"
+      "933508bdf2afa08b"
     ],
-    "extractedChars": 838,
+    "extractedChars": 841,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-03T05:13:40.059Z",
-    "lastChangedISO": "2026-09-26T04:39:15.521Z",
+    "lastChangedISO": "2026-09-26T05:26:03.547Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
