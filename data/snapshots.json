@@ -435,8 +435,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-25T19:54:16.959Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://alinma.com/About-the-Bank/The-Bank/News/2026/8/IFN-Awards",
@@ -1279,19 +1278,18 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/search-results",
     "orgId": "maaden",
-    "contentHash": "f4cfe999067ab90b3b517a5b4589f54c115e810e96f4cfd24435344e5899e715",
+    "contentHash": "4c0487c4836bd2d6e5b1915a951408d5793ff5fbca6f812c554e3cebd5823569",
     "blockHashes": [
       "dab5a7f3801bc914",
-      "dd925fec36764f70",
-      "8210ad65e5c9208d",
-      "4d8ce51f2362fc86"
+      "8d39e97faf20ecb0",
+      "d8680d3f284ee273"
     ],
-    "extractedChars": 1206,
-    "extractionMethod": "body_fallback",
+    "extractedChars": 240,
+    "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-26T01:55:35.421Z",
+    "lastChangedISO": "2026-09-26T02:41:51.800Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://careers.mcit.gov.sa/",
@@ -5511,19 +5509,19 @@
   {
     "sourceUrl": "https://www.bog.gov.sa/en/EServices/judiciaryHiring/Pages/default.aspx",
     "orgId": "bog",
-    "contentHash": "153d2ebf4c752893fa58c0b53c075e12e71bb9ddc7503b77e9bfd42e68348877",
+    "contentHash": "81f8d73206efba83e5dada32be755e3c79048f06382e97494defc16051c79dd9",
     "blockHashes": [
       "46d9575ec382a9d1",
       "96c63175498462d9",
       "f4b9821710ab784e",
-      "db96cc060fa0a333",
+      "e24ca624e1e52d43",
       "d9ac968863afb54d",
       "ec5d6ba37d25b982"
     ],
     "extractedChars": 756,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-23T23:57:32.370Z",
+    "lastChangedISO": "2026-09-26T02:41:51.800Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
