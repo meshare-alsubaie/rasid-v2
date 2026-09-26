@@ -324,14 +324,15 @@
     "orgId": "alinma",
     "contentHash": "733187a1135748169e2a621e1b9d216ece2da90b94a62d081868369ec86fe3a1",
     "blockHashes": [
-      "8d2fa0b27c6c2b7b"
+      "733187a113574816"
     ],
     "extractedChars": 281,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T23:54:26.779Z",
     "lastChangedISO": "2026-09-25T21:09:31.521Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "triaged_out"
   },
   {
     "sourceUrl": "https://alinma.com/About-the-Bank/The-Bank/News/2011/05/alinma-bank-to-participate-in-the-career-day-at-taiba-university",
@@ -1275,16 +1276,16 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/search-results",
     "orgId": "maaden",
-    "contentHash": "3e6e9856ef40cd1e3f2ca4195b89cb362e393d271a4a6985c00f602bee5d206a",
+    "contentHash": "f3b373735df5bf32cfc987d61378290d808156db46ce7c292ea4daa85d010873",
     "blockHashes": [
       "dab5a7f3801bc914",
       "8d39e97faf20ecb0",
       "d8680d3f284ee273"
     ],
-    "extractedChars": 240,
+    "extractedChars": 201,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-26T03:28:39.196Z",
+    "lastChangedISO": "2026-09-26T04:16:48.276Z",
     "thinRuns": 0,
     "pendingClassification": true
   },
@@ -2189,7 +2190,7 @@
   {
     "sourceUrl": "https://gaca.gov.sa/announcements",
     "orgId": "gaca",
-    "contentHash": "1026c2052b535e0eb6bbfbdad45ea95bb3f9ae6f7bf780ab6f221690a452e4fe",
+    "contentHash": "183ececaf8659ead5e520a3de68ce6c745edb805ec11773a6bd15a982dac8850",
     "blockHashes": [
       "87fe57bc2e53fc30",
       "9c2a3967149440a8",
@@ -2199,10 +2200,9 @@
     "extractedChars": 1211,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-26T01:11:24.759Z",
+    "lastChangedISO": "2026-09-26T04:13:20.780Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://gaca.gov.sa/ar/announcements",
@@ -5499,7 +5499,7 @@
   {
     "sourceUrl": "https://www.bog.gov.sa/en/EServices/judiciaryHiring/Pages/default.aspx",
     "orgId": "bog",
-    "contentHash": "153d2ebf4c752893fa58c0b53c075e12e71bb9ddc7503b77e9bfd42e68348877",
+    "contentHash": "81f8d73206efba83e5dada32be755e3c79048f06382e97494defc16051c79dd9",
     "blockHashes": [
       "46d9575ec382a9d1",
       "96c63175498462d9",
@@ -5511,7 +5511,7 @@
     "extractedChars": 756,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-26T03:28:39.196Z",
+    "lastChangedISO": "2026-09-26T04:16:48.276Z",
     "thinRuns": 0,
     "pendingClassification": true
   },
@@ -6456,7 +6456,7 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/careers?lang=ar",
     "orgId": "hrc",
-    "contentHash": "2691701f8533ab83fa57e214a84f81d275a91edd2308968ce3d96f44d9e6981e",
+    "contentHash": "638b2921e56c36b70eda068c4ec1ee54f4c2893b3d36ba51680d9d5db1ecca80",
     "blockHashes": [
       "12e41a244a8a2984",
       "9a487258f323a6db",
@@ -6483,9 +6483,9 @@
     "extractedChars": 3794,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-26T01:11:24.759Z",
+    "lastChangedISO": "2026-09-26T04:13:20.780Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/careers/graduate-development-program",
@@ -9295,14 +9295,14 @@
   {
     "sourceUrl": "https://www.rcrc.gov.sa/careers/?lang=ar",
     "orgId": "rcrc",
-    "contentHash": "711391d9e3ddeb87353902101f46c419306d41e0120d84f346dbe5ddfe0e3641",
+    "contentHash": "8becfad21336d92bda9b47bf10380fa9a34f81523147d782b2ab5af4e7e1b1e7",
     "blockHashes": [
       "5c9ca6b846a71b50"
     ],
-    "extractedChars": 784,
+    "extractedChars": 1166,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-26T03:27:05.142Z",
+    "lastChangedISO": "2026-09-26T04:16:48.276Z",
     "thinRuns": 0,
     "pendingClassification": true
   },
