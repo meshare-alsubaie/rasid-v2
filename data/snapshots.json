@@ -1271,17 +1271,16 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/search-results",
     "orgId": "maaden",
-    "contentHash": "2e0092b0e435a88893c22434d8e67fb40b09a4b455338081f091f4bcc07771d6",
+    "contentHash": "22c721516560a81b5595eaae9d05d8ab4a319a98836b03e3605615b4bef03dec",
     "blockHashes": [
-      "5569201553604d03",
-      "6e3cceb54e777f64",
-      "9427016e441a2322",
-      "b70cc3d86fb57bb8"
+      "dab5a7f3801bc914",
+      "15e605c0f0f32171",
+      "db1ca03cb7b4ec41"
     ],
-    "extractedChars": 1252,
-    "extractionMethod": "body_fallback",
+    "extractedChars": 240,
+    "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-27T03:15:12.114Z",
+    "lastChangedISO": "2026-09-27T04:06:06.557Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -3077,9 +3076,9 @@
   {
     "sourceUrl": "https://modon.gov.sa/",
     "orgId": "modon",
-    "contentHash": "2db1c4b3d3b7405d073b258c89c5521adb1e36bb73449e2107c924a5929764f7",
+    "contentHash": "baecd1c021a70b9300017c41bd1f7f352bf2df94d191f2c6bf0bc68b335b72a5",
     "blockHashes": [
-      "59db5b84d620c48d",
+      "0603e373c72a8868",
       "0edf2292f0637ccb",
       "c32ffa2c93fe0d09",
       "9066ce9805b0428c",
@@ -3101,7 +3100,7 @@
     "extractedChars": 5996,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-26T22:01:51.942Z",
+    "lastChangedISO": "2026-09-27T04:04:49.862Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -5587,17 +5586,18 @@
   {
     "sourceUrl": "https://www.cst.gov.sa/",
     "orgId": "citc",
-    "contentHash": "1395e9120e746b1d1fd28c5c9157a0671dbe6533e4dbbee83ebe3343c6a0fd0f",
+    "contentHash": "a1252c9c9fe595c0e8a359ee753cc1804b0f7b930a8beb5c1a2ffb9b173e523b",
     "blockHashes": [
       "15cfa61539048e23",
-      "d508fd0b36da69d1"
+      "341a22e952a334f9"
     ],
-    "extractedChars": 519,
+    "extractedChars": 754,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-22T17:40:47.494Z",
+    "lastChangedISO": "2026-09-27T04:04:49.862Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://www.cst.gov.sa/en/media-center",
@@ -9119,11 +9119,9 @@
   {
     "sourceUrl": "https://www.rcjy.gov.sa/",
     "orgId": "rcjy",
-    "contentHash": "63f82762d808ff7aa34fda1f48b04f34a32be69b0c2f85815da4d3f43fe7d6f8",
+    "contentHash": "31e2bbefc0169ed3aea11b8d1296a7591a86612860a7e5b1196513b266bde736",
     "blockHashes": [
-      "761264a7c7cc728c",
-      "cfc879cec72d1d12",
-      "8175325e71242d30",
+      "d804c198c79c74e3",
       "89dd2b4932eb1b3f",
       "13cbcebbcc81e093",
       "3b7b1d015137ba46",
@@ -9166,9 +9164,10 @@
     "extractedChars": 15545,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T22:03:35.383Z",
-    "lastChangedISO": "2026-09-21T07:34:33.933Z",
+    "lastChangedISO": "2026-09-27T04:09:08.930Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://www.rcjy.gov.sa/media-center",
@@ -9295,8 +9294,7 @@
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
     "lastChangedISO": "2026-09-26T22:08:44.289Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "triaged_out"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.rcrc.gov.sa/careers/?lang=ar",
@@ -10402,10 +10400,10 @@
   {
     "sourceUrl": "https://www.sfda.gov.sa/en/career-vision-and-mission",
     "orgId": "sfda",
-    "contentHash": "4816412b2d38e346c3072b206cf94903ed0d0feac43387baa188c8ddc1795ea9",
+    "contentHash": "dc9a0807e70f58a3680dd242a5322e89be5caa674e61302c747dfbf02d86b402",
     "blockHashes": [
       "4e3b1c94f76f8148",
-      "c230f7819281cb24",
+      "9336a040aefb0ce9",
       "b28682d0a5fa37ed",
       "5e9a5843d184b153",
       "c6452237208136a0",
@@ -10421,7 +10419,7 @@
     "extractedChars": 997,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-26T21:46:33.668Z",
+    "lastChangedISO": "2026-09-27T04:15:55.457Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -10936,18 +10934,18 @@
   {
     "sourceUrl": "https://www.tahakom.com/",
     "orgId": "tahakom",
-    "contentHash": "6d6dc8d6904891b050ed08e72b5c9dda78fc91806341be6e46e80d93409f0ac5",
+    "contentHash": "5d658db3b71a3c835647e3733048f45280f9f545019d9d633bee6da1c3926b9e",
     "blockHashes": [
-      "31adad521756d062",
+      "d44217251213a019",
       "611753a8aea1ade1",
       "0cea4d38306888dc",
       "1a5263a5a2541c46",
-      "b94e9ce7eac243c4"
+      "933508bdf2afa08b"
     ],
-    "extractedChars": 820,
+    "extractedChars": 841,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-03T05:13:40.059Z",
-    "lastChangedISO": "2026-09-26T21:46:33.668Z",
+    "lastChangedISO": "2026-09-27T04:06:06.557Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
