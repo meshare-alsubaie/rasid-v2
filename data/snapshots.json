@@ -647,7 +647,7 @@
   {
     "sourceUrl": "https://athkax.sdaia.gov.sa/coop",
     "orgId": "sdaia",
-    "contentHash": "a58f144950bb22de0c4667555dc3401317db3a7e9e0679e6a27c03768b15a660",
+    "contentHash": "f1c749f1b0084dc210dc0d9f1e447c42c8ea07e30a315579c292163ea7abbe55",
     "blockHashes": [
       "04ba8a3fca46514f",
       "4bd08244050e9682"
@@ -655,7 +655,7 @@
     "extractedChars": 756,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-27T03:57:21.559Z",
+    "lastChangedISO": "2026-09-27T04:45:17.942Z",
     "thinRuns": 0,
     "pendingClassification": true,
     "classifyFailures": 1
@@ -7767,7 +7767,7 @@
   {
     "sourceUrl": "https://www.mim.gov.sa/ar/empower-training/cooperative-training",
     "orgId": "mim",
-    "contentHash": "629177300344c2f938354660e13fa5e8ec825722dd49a741a8307a2476919268",
+    "contentHash": "6d3896137c83bb13d78a94540334c5bf1d03d7af6578bfa7b0c86b18ec2f0595",
     "blockHashes": [
       "1cb91553dd3291a4",
       "5300d4cdd32a8d33"
@@ -7775,10 +7775,10 @@
     "extractedChars": 2178,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T02:22:33.828Z",
-    "lastChangedISO": "2026-09-27T03:07:45.981Z",
+    "lastChangedISO": "2026-09-27T04:45:17.942Z",
     "thinRuns": 0,
     "pendingClassification": true,
-    "classifyFailures": 2
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://www.mim.gov.sa/ar/media-center/news",
@@ -9406,12 +9406,12 @@
   {
     "sourceUrl": "https://www.rcrc.gov.sa/news-ar/",
     "orgId": "rcrc",
-    "contentHash": "3243ca8c51d3fa7561517855fd8e7e10b0bbc5fd20a2fce0036d42b07821a5ae",
+    "contentHash": "d5f1e0f99d300efa9555dd48ee66a7cd11fc1f1abc47cb0327b7cbfc509bb3a4",
     "blockHashes": [
       "dd62229c2f61fb42",
       "306db3646b8a6c73",
       "b28682d0a5fa37ed",
-      "d7e692aa671ee8ff",
+      "1a391c20902aa6d7",
       "dd5bfb74e89dbbdd",
       "b32d68c4e5c2da0f",
       "b91cd7f4edfa88d2",
@@ -9424,7 +9424,7 @@
     "extractedChars": 3482,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-27T01:38:07.417Z",
+    "lastChangedISO": "2026-09-27T04:41:43.310Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
