@@ -2932,7 +2932,7 @@
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-27T03:46:37.095Z",
-    "thinRuns": 1,
+    "thinRuns": 2,
     "pendingClassification": false
   },
   {
@@ -3597,7 +3597,7 @@
   {
     "sourceUrl": "https://ncar.gov.sa/",
     "orgId": "ncar",
-    "contentHash": "a31691a3573d94b449ba7764e700d20d63b2968045397c41d2b43f3e36c57b89",
+    "contentHash": "c080b58b5717b67137749a4ce1c6fb2bbdfdc1a56c491606442b9c8a8baf30d8",
     "blockHashes": [
       "c911502a32b8a6f9",
       "85374c9be3be281e",
@@ -3605,17 +3605,17 @@
       "4b4956634b18a910",
       "5e066b1f02a22686",
       "8e5482e4a46e0b3f",
-      "bf8879f84b32bf41",
-      "0b07c8e856ea8331",
+      "d00a8cbf1a651a04",
+      "e59eaa95f704c74d",
       "75c514565d626437"
     ],
     "extractedChars": 2711,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-27T17:48:49.229Z",
+    "lastChangedISO": "2026-09-27T23:55:52.279Z",
     "thinRuns": 0,
     "pendingClassification": false,
-    "settledWithoutVerdict": "triaged_out"
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://ncdc.gov.sa/",
@@ -6383,14 +6383,19 @@
   {
     "sourceUrl": "https://www.gosi.gov.sa/",
     "orgId": "pension",
-    "contentHash": "52a9c220ac4ebaf5cb28ceda2a897dea0d476e8a4fff49c94514a0c288128695",
+    "contentHash": "8d0df78e24e0a39dcbe67d99b58eb4fdf3bbc1820aeaea22648527f67a6b9631",
     "blockHashes": [
-      "52a9c220ac4ebaf5"
+      "f315151abb50f513",
+      "c69d076cda663999",
+      "7e3f6bf3042967a9",
+      "0d4ce59c18e70bdd",
+      "7a73f49a85e2e36b",
+      "86c5f00a1fde784a"
     ],
-    "extractedChars": 208,
+    "extractedChars": 452,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-27T17:48:49.229Z",
+    "lastChangedISO": "2026-09-27T23:55:52.279Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -6649,11 +6654,11 @@
   {
     "sourceUrl": "https://www.hrdf.org.sa/products-and-services/programs/individuals/training/cooperative-training/",
     "orgId": "hrdf_coop",
-    "contentHash": "575efffbc7b25ed51839abbc7c88859e8a73804f2b2ccf141f4bfa631ce323d8",
+    "contentHash": "1d05415e5b2a9ab5469afd61acc7487a8b494634316ab48777eeb172773ec2cc",
     "blockHashes": [
       "45526a3a724650be",
       "74e4c1d2a646a96e",
-      "3721e6795fe0cc3b",
+      "d0f45bdef9a5cd3d",
       "0bbb8684587712ce",
       "708fe6c77bb05acc",
       "8b7e6b90d8c89aa7",
@@ -6823,7 +6828,7 @@
     "extractedChars": 8563,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-03T01:25:25.661Z",
-    "lastChangedISO": "2026-09-26T21:31:48.578Z",
+    "lastChangedISO": "2026-09-27T23:55:52.279Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -7771,7 +7776,7 @@
   {
     "sourceUrl": "https://www.moc.gov.sa/ar",
     "orgId": "moc",
-    "contentHash": "fca6ed72fa2a941df442baf0aded783fad535d764c8d3512714f41b9628d7c6a",
+    "contentHash": null,
     "blockHashes": [
       "dd0c5c67bcb6e67a",
       "805c8f126b6de227",
@@ -10716,22 +10721,21 @@
   {
     "sourceUrl": "https://www.stats.gov.sa/ar",
     "orgId": "gastat",
-    "contentHash": "c742ddbe9f29c12efe1927770093749eb7bf67b0d8d2071afa41263240959fff",
+    "contentHash": "45d750db3e12642c2ac4c0fc623af5acfd4f3fb6bb331ecdc4467e21a05d2be6",
     "blockHashes": [
       "b618107f43bd2daf",
       "2fec6d796296a0f8",
-      "2f4dea69526503fe",
+      "6640a95932bfaaee",
       "eee46ad1abd665a1",
       "dc84e74cdce35fa3",
       "9214de5f4ec23c78"
     ],
-    "extractedChars": 3179,
+    "extractedChars": 3225,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-27T17:19:13.586Z",
+    "lastChangedISO": "2026-09-27T23:55:52.279Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.stats.gov.sa/ar/cooperative-training",
