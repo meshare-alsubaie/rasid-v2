@@ -659,8 +659,8 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-27T21:47:02.518Z",
     "thinRuns": 0,
-    "pendingClassification": true,
-    "classifyFailures": 2
+    "pendingClassification": false,
+    "classifyFailures": 3
   },
   {
     "sourceUrl": "https://awqaf.gov.sa/ar/ar/hiring/",
@@ -1258,15 +1258,15 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/cookiesettings",
     "orgId": "maaden",
-    "contentHash": "3d638ede983ca3fb1019d2b161494f5e045d6dcbace48a9cf89274c68bfa96f8",
+    "contentHash": "6e869e0368e88312b7c630f408d55e83e8de8ed30cbda958877fff993099e4dc",
     "blockHashes": [
-      "64e24e2d65d03c46",
-      "746521ef77837ebd"
+      "e46928ff40da0d27",
+      "a6084fc810f46db4"
     ],
     "extractedChars": 240,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-27T22:34:17.693Z",
+    "lastChangedISO": "2026-09-27T23:22:13.618Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -2152,7 +2152,7 @@
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T02:22:33.828Z",
     "lastChangedISO": "2026-08-29T02:36:21.032Z",
-    "thinRuns": 389,
+    "thinRuns": 390,
     "pendingClassification": false
   },
   {
@@ -2680,15 +2680,15 @@
   {
     "sourceUrl": "https://lcgpa.gov.sa/ar/Pages/default.aspx",
     "orgId": "lcgpa",
-    "contentHash": "5cceb9f1b4a3034903b666b50a99798baef05f27758d32a9c75030a218c64353",
+    "contentHash": "37564a2846e61d0b217dc67f2ee99948a33e9a38d3e4658d8359a5cb11b63b4e",
     "blockHashes": [
-      "40b599aec9e90dd2",
+      "d0264d97b86cf3b0",
       "beda84e843f95551"
     ],
-    "extractedChars": 218,
+    "extractedChars": 385,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-25T23:59:22.833Z",
+    "lastChangedISO": "2026-09-27T23:19:02.446Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -3893,14 +3893,14 @@
   {
     "sourceUrl": "https://redf.gov.sa/ar/careers",
     "orgId": "redf",
-    "contentHash": "a2fcbb8aa08ec9aba83b9bfc05e90205896b3abc9f192cf06d6dcf5bbbafaac1",
+    "contentHash": "cdae5456f0b45edac727198c785013771d621d975423040237b824ad157cebac",
     "blockHashes": [
-      "a2fcbb8aa08ec9ab"
+      "cdae5456f0b45eda"
     ],
     "extractedChars": 500,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-02T23:42:46.216Z",
-    "lastChangedISO": "2026-09-26T21:06:47.182Z",
+    "lastChangedISO": "2026-09-27T23:16:11.201Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
