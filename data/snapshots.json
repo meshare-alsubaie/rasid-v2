@@ -2273,17 +2273,17 @@
   {
     "sourceUrl": "https://gaca.gov.sa/ar/announcements",
     "orgId": "gaca",
-    "contentHash": "8c671fc9f60a75c771e20e438ed7bf51322b7b7b326f606d8e1af4df50f7b113",
+    "contentHash": "37f4e89dc9533a7c1caca2d2e66f8f244aaf61d50fb499ace63de829dd6d6079",
     "blockHashes": [
-      "01f1e574d91ef793",
+      "8138088b7e123c97",
       "9c2a3967149440a8",
       "83a22e1f9fb245f8",
       "bc532942aaed49b7"
     ],
-    "extractedChars": 1211,
+    "extractedChars": 1214,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-27T18:15:17.501Z",
+    "lastChangedISO": "2026-09-27T21:19:31.168Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -3363,8 +3363,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-27T18:15:17.501Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://momah.gov.sa/ar/news",
@@ -3818,16 +3817,16 @@
   {
     "sourceUrl": "https://ndf.gov.sa/media-center/press-news",
     "orgId": "ndf",
-    "contentHash": "5f630f0bec8f2e610794a4ad5fa6d85134177d4896e44fd66120a176a40cdc27",
+    "contentHash": "2e8db97429a16942fa779bcf9081558c439e512a69409995ea12321b56539184",
     "blockHashes": [
-      "55a19382d960038c",
+      "5a9b79f99973929a",
       "298b2e63b8ef43cd",
       "bca88088323376a5"
     ],
-    "extractedChars": 3790,
+    "extractedChars": 3792,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-26T21:50:27.063Z",
+    "lastChangedISO": "2026-09-27T21:19:31.168Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -6566,10 +6565,10 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/careers/graduate-development-program",
     "orgId": "hrc",
-    "contentHash": "cfd3df487e8fdc2e32f407f49e394d2c14cf483b987821802934c25028b2a1cc",
+    "contentHash": "255a6a8e56709ff2bfd183e10de3686f07f8fb38a35b79127e915555f7b5ffc8",
     "blockHashes": [
       "12e41a244a8a2984",
-      "106157484c88bb89",
+      "ee48362d5fb173a5",
       "741386d322f274be",
       "40d7009856bbc81d",
       "2dd486d3d3cacb8b",
@@ -6635,7 +6634,7 @@
     "extractedChars": 10689,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-27T18:15:17.501Z",
+    "lastChangedISO": "2026-09-27T21:19:31.168Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -8653,18 +8652,19 @@
   {
     "sourceUrl": "https://www.nazaha.gov.sa/News",
     "orgId": "nazaha",
-    "contentHash": "61aa0a228dd734935f2575e8d715efac7c5722653c77f36e246bc57c38f50a9b",
+    "contentHash": "376c1eb2715a23611115950833982944a750e9257efea457df8c5af5544e43c3",
     "blockHashes": [
       "a167b0dd9b0e3e1c",
       "74e4c1d2a646a96e",
-      "a6d686932accc21f"
+      "491f7509b086c55b"
     ],
     "extractedChars": 358,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-26T22:01:51.942Z",
+    "lastChangedISO": "2026-09-27T21:24:11.268Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "triaged_out"
   },
   {
     "sourceUrl": "https://www.nazaha.gov.sa/News/Details?q=+ZUW2RPX/9RAyHyLvILpaw==",
@@ -9374,14 +9374,14 @@
   {
     "sourceUrl": "https://www.rcrc.gov.sa/careers/?lang=ar",
     "orgId": "rcrc",
-    "contentHash": "e9ae8545dea25d0caaf3e7ff29ce1f2a662916d39f8eb9757d9d31691d3ee711",
+    "contentHash": "d51ee129a70fbd73ce2759c4c40b4104d0aac3600f628d8dc0eda1b4ca8c81a9",
     "blockHashes": [
       "8056d3959c141060"
     ],
     "extractedChars": 1167,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-27T20:18:28.467Z",
+    "lastChangedISO": "2026-09-27T21:24:11.268Z",
     "thinRuns": 0,
     "pendingClassification": true,
     "classifyFailures": 1
