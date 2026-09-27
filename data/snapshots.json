@@ -2692,14 +2692,14 @@
   {
     "sourceUrl": "https://makkah-careers.health.sa/",
     "orgId": "mecca_health",
-    "contentHash": null,
+    "contentHash": "99c987bdde03dcae21259aa8bb0ebff9d7d2f7680ec1fdd719427023870c1433",
     "blockHashes": [
       "99c987bdde03dcae"
     ],
     "extractedChars": 352,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-14T16:56:56.257Z",
+    "lastChangedISO": "2026-09-27T03:39:01.921Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -2781,7 +2781,7 @@
   {
     "sourceUrl": "https://mawhiba.org/",
     "orgId": "mawhiba",
-    "contentHash": "c41d11ce2df8c0f64c3ea81042d7cf8507c13ef05087d60097de84f215602dd5",
+    "contentHash": "f36e8b666ae7244c4bf8b543bece8e1a18420013e21a0aa8cf803d69853f8030",
     "blockHashes": [
       "d9720f8436aff308",
       "1b46260dea4736e1",
@@ -2793,7 +2793,7 @@
       "690994aac8cdc87d",
       "222b97e5d083913a",
       "db2f6d845153ed4d",
-      "793f24d069ecb284",
+      "6a47f7d95ae2bd4d",
       "7ccdf5917bb02e54",
       "df7aa21718383d01",
       "6303d058dc580116",
@@ -2806,18 +2806,17 @@
       "c4583f676c27517a",
       "4ea242e080578a16",
       "a4e4e1fbeaab5463",
-      "ccc76562ba2255ad",
+      "0511b07d6d9e17b4",
       "b518044d0e3ef109",
       "1f3c4598715a2661",
       "bc34850a2da71896"
     ],
-    "extractedChars": 8551,
+    "extractedChars": 8507,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-26T21:31:48.578Z",
+    "lastChangedISO": "2026-09-27T03:39:01.921Z",
     "thinRuns": 0,
-    "pendingClassification": true,
-    "classifyFailures": 1
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://mc.gov.sa/ar/mediacenter/News/pages/default.aspx",
@@ -2855,7 +2854,7 @@
   {
     "sourceUrl": "https://mc.gov.sa/ar/pages/default.aspx",
     "orgId": "mc",
-    "contentHash": "6c054ca2eac341bf44924e27e12852479116c6b62055c364b479b189a56b13eb",
+    "contentHash": "83ca545990fc0fc0b1931ff3b4c4523269ae55a0960dd74195d89eaa2fc02cca",
     "blockHashes": [
       "88b5148b04637d49",
       "74e4c1d2a646a96e",
@@ -2874,14 +2873,14 @@
       "7388bedb36b7cfb3",
       "21cf4a39855f6112",
       "d0f0d951b75dc3da",
-      "cabbcce27be8a200",
+      "f07d13409a03edfd",
       "c0be845c29d2cb4d",
       "512411bd0eda978e"
     ],
-    "extractedChars": 922,
+    "extractedChars": 2747,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T23:21:37.487Z",
-    "lastChangedISO": "2026-09-26T21:31:48.578Z",
+    "lastChangedISO": "2026-09-27T03:39:01.921Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -3609,8 +3608,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-26T21:31:48.578Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://ncdc.gov.sa/",
@@ -5576,17 +5574,18 @@
   {
     "sourceUrl": "https://www.citc.gov.sa/ar/Pages/default.aspx",
     "orgId": "citc",
-    "contentHash": "1395e9120e746b1d1fd28c5c9157a0671dbe6533e4dbbee83ebe3343c6a0fd0f",
+    "contentHash": "a1252c9c9fe595c0e8a359ee753cc1804b0f7b930a8beb5c1a2ffb9b173e523b",
     "blockHashes": [
       "15cfa61539048e23",
-      "d508fd0b36da69d1"
+      "341a22e952a334f9"
     ],
-    "extractedChars": 519,
+    "extractedChars": 754,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
-    "lastChangedISO": "2026-09-22T17:08:48.941Z",
+    "lastChangedISO": "2026-09-27T03:39:01.921Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://www.cst.gov.sa/",
