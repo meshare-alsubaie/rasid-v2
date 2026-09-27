@@ -138,7 +138,7 @@
   {
     "sourceUrl": "https://adf.gov.sa/ar/Pages/default.aspx",
     "orgId": "adf",
-    "contentHash": "a88e05e05e09c9ed150252714359a621c70ac2ef8fe7a23d422d51b65d8b5546",
+    "contentHash": "c70272d1c465b0a35391bfafe87064bab29901d731fad74f22393bbe5cbb6030",
     "blockHashes": [
       "1ce798e0ca5f6070",
       "9e8708f46644e878",
@@ -147,7 +147,7 @@
       "b7a4f19178b3b8a1",
       "0514128baf9c79f1",
       "9185920f2483a42d",
-      "93fc4dd493b8b647",
+      "4656bbe82d5253a2",
       "8d0d93944a16dca7",
       "13285e8c3eb4c8ac",
       "4838bf63eca38706",
@@ -158,10 +158,10 @@
       "782261474561a27a",
       "74b06ac36e5c75b0"
     ],
-    "extractedChars": 1703,
+    "extractedChars": 1701,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
-    "lastChangedISO": "2026-09-27T05:06:01.635Z",
+    "lastChangedISO": "2026-09-27T19:01:31.047Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "triaged_out"
@@ -2188,19 +2188,20 @@
   {
     "sourceUrl": "https://gaca.gov.sa/announcements",
     "orgId": "gaca",
-    "contentHash": "f87e23f91d2383922366da368bce13fae7fbfa01fef26376a7dbc341d14b8112",
+    "contentHash": "1f2ebe46dfdff3eec93779cc0e2f820e6a8be2afdb3ddbb456684b3b29064b3f",
     "blockHashes": [
-      "4f8d343e804f6b79",
+      "0edff5b9675e52e1",
       "9c2a3967149440a8",
       "83a22e1f9fb245f8",
-      "bc532942aaed49b7"
+      "742a17aa4393e6c2"
     ],
-    "extractedChars": 1211,
+    "extractedChars": 1472,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-27T05:36:13.850Z",
+    "lastChangedISO": "2026-09-27T18:48:08.985Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://gaca.gov.sa/ar/announcements",
@@ -3146,37 +3147,37 @@
   {
     "sourceUrl": "https://momah.gov.sa/ar",
     "orgId": "housing",
-    "contentHash": "09ce9b5de3442fe58531703751b1fed1b5e58b6e50f757298e35807ca54f3337",
+    "contentHash": "ca199f973bc7c15d7b61ae4440009b15fd0868e5c71f8605a61994bec1c64ba9",
     "blockHashes": [
       "390ea394b03ad064",
       "0cae66fd6419120a",
       "a1f4628b6b2acab1",
       "1f18270f78163abc",
-      "b7614bda0cb74c30",
-      "8a495b71bc8de731",
-      "d3ae049b2b713081",
-      "5d15152619ff887e",
-      "46a7eecbe9c008d6",
-      "f4f834b59ec5f8f7",
-      "326501604c0b06c0",
+      "e13eea51176aeda5",
+      "b0a97fb655eddf78",
+      "3e53e8027088dbf5",
+      "4a1a5312b8677fdb",
+      "effdc8f39517a229",
+      "ff6f87e39638cb9b",
+      "b4332a36fad18eb5",
+      "3279ce0ce1178921",
       "560edfe1df9d8921",
       "23b97a8a93aba477",
       "9cd3abf7fd1573ff",
-      "480bd4e905153a93",
-      "73e7632e367aa6e5",
-      "a23b7e410c52101a",
-      "ff6f87e39638cb9b",
-      "ee15c2e2fd91f89a",
+      "f2af370bc1e5670e",
+      "5d15152619ff887e",
+      "1d6be40b0335ae1c",
+      "2c21f7533fbb3175",
+      "1d5d0db14f46786c",
       "09b1bd561f62b68f",
-      "69c6e0e86bd596f6",
-      "907bdc7bd2a8c49a",
+      "cc34ef1a9d3c6511",
       "ac1405062719fb86",
-      "d9452613ec87639f"
+      "a732ad9e243d8012"
     ],
     "extractedChars": 153739,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-27T05:06:01.635Z",
+    "lastChangedISO": "2026-09-27T18:48:08.985Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -6431,10 +6432,10 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/careers",
     "orgId": "hrc",
-    "contentHash": "2524f407204e1c0615575fe3ec005971b003a301ff416439e9837ada5e75dddd",
+    "contentHash": "17e1177a623902a8355391d2453fd4dc075a431a83bce95f3955718c4e3d4281",
     "blockHashes": [
       "12e41a244a8a2984",
-      "4e440d3eac047cbc",
+      "8f4ed7c3d4aff793",
       "9bd6314e9bbc7375",
       "474d2dbb69aae30b",
       "84b2fc11813dc7e8",
@@ -6458,7 +6459,7 @@
     "extractedChars": 3794,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-27T02:48:32.752Z",
+    "lastChangedISO": "2026-09-27T18:48:08.985Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -7614,7 +7615,7 @@
       "12e41a244a8a2984",
       "c804732dd480d71a",
       "74e4c1d2a646a96e",
-      "b18a0d14fc1e8bcc",
+      "5edf122556fc8283",
       "eaca30400015cdec",
       "b957f376a744a274",
       "0116fe72794c37b1",
@@ -7627,7 +7628,8 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-27T05:46:46.738Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://www.mewa.gov.sa/ar/MediaCenter/VisualIdentityGuide/Pages/default.aspx",
