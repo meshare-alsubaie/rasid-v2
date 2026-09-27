@@ -2926,9 +2926,8 @@
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-27T03:46:37.095Z",
-    "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "thinRuns": 1,
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://misa.gov.sa/ar/",
@@ -3593,19 +3592,25 @@
   {
     "sourceUrl": "https://ncar.gov.sa/",
     "orgId": "ncar",
-    "contentHash": "27f62e05d69caa21d2ef14a491fc742e3f66a9631dbc823c03c1bc3aaf54ce90",
+    "contentHash": "a31691a3573d94b449ba7764e700d20d63b2968045397c41d2b43f3e36c57b89",
     "blockHashes": [
       "c911502a32b8a6f9",
-      "427998d73505aec3",
-      "26b7600a224c8c65",
+      "85374c9be3be281e",
+      "ca80e9da341f647b",
+      "4b4956634b18a910",
+      "5e066b1f02a22686",
+      "8e5482e4a46e0b3f",
+      "bf8879f84b32bf41",
+      "0b07c8e856ea8331",
       "75c514565d626437"
     ],
-    "extractedChars": 1077,
+    "extractedChars": 2711,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-26T21:31:48.578Z",
+    "lastChangedISO": "2026-09-27T17:48:49.229Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "triaged_out"
   },
   {
     "sourceUrl": "https://ncdc.gov.sa/",
@@ -4291,15 +4296,15 @@
   {
     "sourceUrl": "https://takamolholding.com/ar/join-us",
     "orgId": "takamol",
-    "contentHash": "354b9cbb3c75d6836d8da8390fc045bc451417714dd09c80a7a92315604264af",
+    "contentHash": "1c01152219e081fd2e5cf9889b6fc4f06f224546f858c042d3327db61d61bbc2",
     "blockHashes": [
-      "a269bc0fd2159f46",
-      "800e20741a20daa7"
+      "7fe60a979f147da5",
+      "451e371814b7cbdb"
     ],
-    "extractedChars": 707,
-    "extractionMethod": "body_fallback",
+    "extractedChars": 306,
+    "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
-    "lastChangedISO": "2026-09-27T01:30:11.129Z",
+    "lastChangedISO": "2026-09-27T17:48:49.229Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -5580,8 +5585,7 @@
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
     "lastChangedISO": "2026-09-27T03:39:01.921Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.cst.gov.sa/",
@@ -6370,21 +6374,17 @@
   {
     "sourceUrl": "https://www.gosi.gov.sa/",
     "orgId": "pension",
-    "contentHash": "8d0df78e24e0a39dcbe67d99b58eb4fdf3bbc1820aeaea22648527f67a6b9631",
+    "contentHash": "52a9c220ac4ebaf5cb28ceda2a897dea0d476e8a4fff49c94514a0c288128695",
     "blockHashes": [
-      "f315151abb50f513",
-      "c69d076cda663999",
-      "7e3f6bf3042967a9",
-      "0d4ce59c18e70bdd",
-      "7a73f49a85e2e36b",
-      "86c5f00a1fde784a"
+      "52a9c220ac4ebaf5"
     ],
-    "extractedChars": 452,
+    "extractedChars": 208,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-14T17:02:57.445Z",
+    "lastChangedISO": "2026-09-27T17:48:49.229Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/all_branches_news?lang=ar",
@@ -7759,16 +7759,16 @@
   {
     "sourceUrl": "https://www.moc.gov.sa/ar",
     "orgId": "moc",
-    "contentHash": null,
+    "contentHash": "fca6ed72fa2a941df442baf0aded783fad535d764c8d3512714f41b9628d7c6a",
     "blockHashes": [
       "dd0c5c67bcb6e67a",
       "805c8f126b6de227",
       "761db64493fb42cc"
     ],
-    "extractedChars": 520,
-    "extractionMethod": "body_fallback",
+    "extractedChars": 506,
+    "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-25T17:46:00.179Z",
+    "lastChangedISO": "2026-09-27T17:48:49.229Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -9336,12 +9336,12 @@
   {
     "sourceUrl": "https://www.rcrc.gov.sa/news-ar/",
     "orgId": "rcrc",
-    "contentHash": "d5f1e0f99d300efa9555dd48ee66a7cd11fc1f1abc47cb0327b7cbfc509bb3a4",
+    "contentHash": "6f8c82ad455bd456eba24eacb7e17c4caf1297b7148490adca275f59e2a79c1d",
     "blockHashes": [
       "dd62229c2f61fb42",
       "306db3646b8a6c73",
       "b28682d0a5fa37ed",
-      "1a391c20902aa6d7",
+      "36122a2748a406ab",
       "dd5bfb74e89dbbdd",
       "b32d68c4e5c2da0f",
       "b91cd7f4edfa88d2",
@@ -9354,7 +9354,7 @@
     "extractedChars": 3482,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-27T04:41:43.310Z",
+    "lastChangedISO": "2026-09-27T17:48:49.229Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -9577,10 +9577,10 @@
   {
     "sourceUrl": "https://www.riyadbank.com/ar/personal-banking",
     "orgId": "riyadbank",
-    "contentHash": "29a8cadc39eef5713d228d9622218ca296b9c3e1c5782cb712abccb86364e3dc",
+    "contentHash": "a158d91b4d3bce47c8773bf501327288e006d5c8bce9bc84751a907f61795f8a",
     "blockHashes": [
       "c5fa97b84e96f11e",
-      "a01ad1ea1a27690a",
+      "3badfc77a66091a4",
       "e18f02478a1bacd0",
       "91bef7b24ff29ae6",
       "dd1ea2858499d5f1",
@@ -9602,13 +9602,15 @@
       "dd09a93c19a5b408",
       "fc0a22cc81c08834",
       "5ca46b716e2fe884",
-      "1d775fb08011859c",
+      "5b89998625f6c35a",
+      "4f9d3db32b80f12b",
       "303fe28588764a9b",
       "7a8a143470365dc2",
-      "960919b7fb63409c",
+      "3da50cd1c3c80f72",
+      "75ad41c21fa9b0e1",
       "c845d371bfc055e6",
       "e91a2dc79c3ef7ff",
-      "75701b4b0c077673",
+      "d22dd1cc9b5516ee",
       "0b4f6c1a982c9472",
       "cb4329c80213103c",
       "853e155161611ffc",
@@ -9621,10 +9623,10 @@
       "27ab07a2e57dda34",
       "f2f0e16c376080f6"
     ],
-    "extractedChars": 10366,
+    "extractedChars": 10042,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
-    "lastChangedISO": "2026-09-27T01:30:11.129Z",
+    "lastChangedISO": "2026-09-27T17:48:49.229Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
