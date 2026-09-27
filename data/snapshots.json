@@ -2213,7 +2213,7 @@
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T02:22:33.828Z",
     "lastChangedISO": "2026-08-29T02:36:21.032Z",
-    "thinRuns": 383,
+    "thinRuns": 384,
     "pendingClassification": false
   },
   {
@@ -4491,7 +4491,7 @@
   {
     "sourceUrl": "https://training.moj.gov.sa/",
     "orgId": "moj",
-    "contentHash": null,
+    "contentHash": "f4c6ef6b783b69d09a8f681ad1d80f1df35ef8cb8864917255879208cc305886",
     "blockHashes": [
       "84a570379809f573",
       "ab443a0bbfda7883"
@@ -4499,7 +4499,7 @@
     "extractedChars": 481,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T02:31:49.455Z",
-    "lastChangedISO": "2026-09-27T04:40:02.541Z",
+    "lastChangedISO": "2026-09-27T17:37:53.124Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -7764,7 +7764,7 @@
   {
     "sourceUrl": "https://www.mim.gov.sa/ar/empower-training/cooperative-training",
     "orgId": "mim",
-    "contentHash": "e2c6dfa716796d8a360b4daf7a47bdf3de414c4f3cad571a57b7a03297b2bbef",
+    "contentHash": "dc855046af90201014a6115bdf8cebb4b38b01eec1c29598fb405b75bb078994",
     "blockHashes": [
       "1cb91553dd3291a4",
       "5300d4cdd32a8d33"
@@ -7772,9 +7772,10 @@
     "extractedChars": 2178,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T02:22:33.828Z",
-    "lastChangedISO": "2026-09-27T05:34:52.641Z",
+    "lastChangedISO": "2026-09-27T17:37:53.124Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://www.mim.gov.sa/ar/media-center/news",
@@ -10415,19 +10416,19 @@
   {
     "sourceUrl": "https://www.sfda.gov.sa/ar/career-vision-and-mission",
     "orgId": "sfda",
-    "contentHash": "9ed1e978d37a6223b49913bed1de2f54e6908b20a81b7b2838b94eb165dfaf04",
+    "contentHash": "0bd97e55c2c34ccf2c6e3dca99c2a4a283c7db68b45585af7277a60d6c284e1e",
     "blockHashes": [
-      "dee4aaf8de6a4438",
+      "3f08c139fdcdeead",
       "60b6afb763e71c83",
       "074367ffe7536568",
       "b69ab73ade473181",
       "fe04993c9918963a",
-      "d92129783e767ede"
+      "c0465f306b739248"
     ],
     "extractedChars": 806,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-26T21:26:40.567Z",
+    "lastChangedISO": "2026-09-27T17:37:53.124Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -10833,7 +10834,7 @@
   {
     "sourceUrl": "https://www.stats.gov.sa/en/news",
     "orgId": "gastat",
-    "contentHash": "6a6e9c04aba6ae6615b5b1a49a5aed063263f9525f324c08454b36666869a72d",
+    "contentHash": "f28008a17594cb337b0a15e02106862f914780feb7302d6d798af6f0dbfed061",
     "blockHashes": [
       "b7ce6498ecbc7c40",
       "c76bf99f8551a732",
@@ -10962,12 +10963,12 @@
       "00f2cdb2123b002f",
       "130941fb4f3fdf0d"
     ],
-    "extractedChars": 119268,
+    "extractedChars": 43164,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-27T05:46:46.738Z",
+    "lastChangedISO": "2026-09-27T17:37:53.124Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.tadawulgroup.sa/wps/portal/tadawulgroup/joinus",
@@ -11010,20 +11011,20 @@
   {
     "sourceUrl": "https://www.tahakom.com/careers",
     "orgId": "tahakom",
-    "contentHash": "b38dbf058b4234ab057d12623e79e306acbf6beed2b6c4ee74f716e45330ea62",
+    "contentHash": "457f65df725621cf1ff8df157d2d7ad5927ef366ef94aa5e45fdfae4dd6d3b3f",
     "blockHashes": [
       "d44217251213a019",
       "611753a8aea1ade1",
       "0cea4d38306888dc",
       "1a5263a5a2541c46",
-      "da33eb4a1bacafc3"
+      "a937a81f39e1b5a8"
     ],
-    "extractedChars": 835,
+    "extractedChars": 838,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-03T05:13:40.059Z",
-    "lastChangedISO": "2026-09-27T05:26:36.436Z",
+    "lastChangedISO": "2026-09-27T17:37:53.124Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.taifcity.gov.sa/#/ar",
