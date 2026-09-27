@@ -2221,9 +2221,9 @@
   {
     "sourceUrl": "https://gaca.gov.sa/ar/News",
     "orgId": "gaca",
-    "contentHash": "c2aa49f8928e3f015ff691ac92bff153413440ee6dd8dec657ed824016909940",
+    "contentHash": "e3de9b2d11d9086bcf88d15caac12cdd60a562e8af12b302ce12cd701008dd13",
     "blockHashes": [
-      "e28d84a5d13bf9cf",
+      "75fde93b2897441c",
       "ef26de24708740d2",
       "95eb6a3bfae983dc",
       "50638526149c77c9",
@@ -2295,7 +2295,7 @@
     "extractedChars": 20504,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-26T22:17:41.306Z",
+    "lastChangedISO": "2026-09-27T02:14:36.273Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -3295,8 +3295,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-26T22:17:41.306Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://momah.gov.sa/ar/news",
@@ -3741,8 +3740,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-26T22:19:55.065Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://ndf.gov.sa/media-center/press-news",
@@ -6498,10 +6496,10 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/careers/graduate-development-program",
     "orgId": "hrc",
-    "contentHash": "21896f4835c337b0fd98274c9d6d0f9120947b6f5a4ab8d9fc564d68ba8969dd",
+    "contentHash": "355d73e5871aea04996cd1f8113f7d54bd8c6bb798d3df5ff7b7e848f402a25a",
     "blockHashes": [
       "12e41a244a8a2984",
-      "719dbe2756d0af23",
+      "380bd2f1e306422b",
       "741386d322f274be",
       "40d7009856bbc81d",
       "2dd486d3d3cacb8b",
@@ -6567,7 +6565,7 @@
     "extractedChars": 10689,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-26T22:17:41.306Z",
+    "lastChangedISO": "2026-09-27T02:14:36.273Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -7309,7 +7307,7 @@
   {
     "sourceUrl": "https://www.kapsarc.org/work-with-us/job-opportunities/",
     "orgId": "kapsarc",
-    "contentHash": "0c79475cf96aa14bffbcfb287ee89ec71ab6ead5b893ac865391c92cbcd98511",
+    "contentHash": "041fcae35dfe5db56000b7f242849003f752d8259c8b89b12d681c5ce854f44d",
     "blockHashes": [
       "dbad88ec8435b910",
       "11ed80f75ad0e89e",
@@ -7331,7 +7329,7 @@
       "82125fef711b8fdc",
       "a8eb670b84904811",
       "d9cd1c2148907399",
-      "fa1a6bc9355993ad",
+      "5ce48a6c3180a773",
       "9c51ede42f36a1d8",
       "0b23b586c4f30fe5",
       "0b23b586c4f30fe5",
@@ -7342,7 +7340,7 @@
     "extractedChars": 1050,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-26T00:39:59.891Z",
+    "lastChangedISO": "2026-09-27T02:14:36.273Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -7707,7 +7705,7 @@
   {
     "sourceUrl": "https://www.mim.gov.sa/ar/empower-training/cooperative-training",
     "orgId": "mim",
-    "contentHash": "fa94cab0faecc5b0df94a13fadec739b53af334b4079640e3b0d96444f106141",
+    "contentHash": "098afe3ee03f27801cbd2165c707bbc5468119260ac0d4563fde0292f395a837",
     "blockHashes": [
       "1cb91553dd3291a4",
       "5300d4cdd32a8d33"
@@ -7715,9 +7713,10 @@
     "extractedChars": 2178,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T02:22:33.828Z",
-    "lastChangedISO": "2026-09-27T01:27:10.493Z",
+    "lastChangedISO": "2026-09-27T02:14:36.273Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://www.mim.gov.sa/ar/media-center/news",
@@ -7927,11 +7926,11 @@
   {
     "sourceUrl": "https://www.mof.gov.sa/docslibrary/TrainingManuals/Pages/default.aspx",
     "orgId": "mof",
-    "contentHash": "38e0cc8dee09de6289a336eedae0e0291a6db3b37f58d615178d075087594085",
+    "contentHash": "37f6c357f422bf922e267459802a84c604ba2b3398e792997ce10c8a5f5e12e2",
     "blockHashes": [
       "7f625851cbbadbc6",
       "f7711325e2c4b301",
-      "87c642fc7e157f96",
+      "7ff8a6cb42c152c1",
       "e84d677a03549107",
       "f4809815161554d5",
       "0129ceb5c2a3779e",
@@ -7945,7 +7944,7 @@
     "extractedChars": 16451,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-25T21:29:20.212Z",
+    "lastChangedISO": "2026-09-27T02:14:36.273Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -8647,8 +8646,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-26T22:17:41.306Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.nazaha.gov.sa/News/Details?q=LDqaftYCK2agKydxrbY5fg==",
@@ -9310,16 +9308,16 @@
   {
     "sourceUrl": "https://www.rcrc.gov.sa/careers/?lang=ar",
     "orgId": "rcrc",
-    "contentHash": "e8befc6783e091e0c462ef01421d133d4bfa68060bec1e49dc2a5cc77778d390",
+    "contentHash": "2a9961bf591715e1a479073cdd17f48b430f41fb8a9b8834f50499aacf08056b",
     "blockHashes": [
-      "15909041c6e9bb40"
+      "2a9961bf591715e1"
     ],
-    "extractedChars": 1166,
+    "extractedChars": 784,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-27T01:23:55.633Z",
+    "lastChangedISO": "2026-09-27T02:14:36.273Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.rcrc.gov.sa/media-center/",
@@ -10780,7 +10778,7 @@
   {
     "sourceUrl": "https://www.stats.gov.sa/en/news",
     "orgId": "gastat",
-    "contentHash": "f28008a17594cb337b0a15e02106862f914780feb7302d6d798af6f0dbfed061",
+    "contentHash": "6a6e9c04aba6ae6615b5b1a49a5aed063263f9525f324c08454b36666869a72d",
     "blockHashes": [
       "b7ce6498ecbc7c40",
       "c76bf99f8551a732",
@@ -11176,12 +11174,12 @@
       "00f2cdb2123b002f",
       "130941fb4f3fdf0d"
     ],
-    "extractedChars": 43164,
+    "extractedChars": 119268,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-27T01:23:55.633Z",
+    "lastChangedISO": "2026-09-27T02:14:36.273Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.tadawulgroup.sa/wps/portal/tadawulgroup/joinus",
