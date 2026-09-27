@@ -385,7 +385,8 @@
     "firstSeenISO": "2026-08-31T23:54:26.779Z",
     "lastChangedISO": "2026-09-25T23:25:34.364Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://alinma.com/About-the-Bank/The-Bank/News/2013/05/alinmajobandcareerdayattractsgraduatesoftheinstituteofpublicadministration",
@@ -1336,19 +1337,17 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/search-results",
     "orgId": "maaden",
-    "contentHash": "e64b44a91069d9851fd109646e72292b9399178cb261be2d94c156856077cd53",
+    "contentHash": "2e0092b0e435a88893c22434d8e67fb40b09a4b455338081f091f4bcc07771d6",
     "blockHashes": [
       "5569201553604d03",
       "6e3cceb54e777f64",
-      "6bf0ca67e0f069b4",
-      "d6c0adacb353836a",
-      "5306339a7de76bc4",
-      "49a8493874149acc"
+      "9427016e441a2322",
+      "b70cc3d86fb57bb8"
     ],
-    "extractedChars": 478,
-    "extractionMethod": "readability",
+    "extractedChars": 1252,
+    "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-27T02:25:47.856Z",
+    "lastChangedISO": "2026-09-27T03:15:12.114Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
