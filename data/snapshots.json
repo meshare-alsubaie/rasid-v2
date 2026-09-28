@@ -2411,17 +2411,16 @@
   {
     "sourceUrl": "https://gmedia.gov.sa/",
     "orgId": "gcam",
-    "contentHash": "c48eacc2a00d0d7d60be7164d359486c4e6649240a53d23cf8487b6e2b259496",
+    "contentHash": "8db337d65e4857007cb78e1f9b2b2a54d4e0baae9353e8a2654b24ffe1a1acd9",
     "blockHashes": [
       "c48eacc2a00d0d7d"
     ],
     "extractedChars": 845,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-27T19:05:55.492Z",
+    "lastChangedISO": "2026-09-28T01:13:44.057Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://gmedia.gov.sa/ar/hiring",
@@ -3649,16 +3648,16 @@
   {
     "sourceUrl": "https://ndf.gov.sa/",
     "orgId": "ndf",
-    "contentHash": "a83303b9b97bbcaf78b737b3c914f6b8835efc809de95c964d1a019c2ecc62c4",
+    "contentHash": "4f7989a34aa076542f1620aa771c72a5c4672f1c51be7b6bfe719f4f4fd4da3c",
     "blockHashes": [
       "a83303b9b97bbcaf"
     ],
-    "extractedChars": 2997,
+    "extractedChars": 2999,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-26T23:01:49.834Z",
+    "lastChangedISO": "2026-09-28T01:20:09.117Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://ndf.gov.sa/media-center",
@@ -8695,8 +8694,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-27T22:06:57.190Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "triaged_out"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.ncc.gov.sa/ar/MediaCenter/Events/Pages/default.aspx",
