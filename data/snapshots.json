@@ -708,7 +708,7 @@
   {
     "sourceUrl": "https://awqaf.gov.sa/ar/media-center/achievements-awards",
     "orgId": "awqaf",
-    "contentHash": "fcfc2946d9c974ef80d451692ded255754afa86b149cdf4d0aeda0f9037c0bdc",
+    "contentHash": "c7584bb1cc57e4b969bafd101f7efb4620271e2a45e78da3f8e7125bd5270efa",
     "blockHashes": [
       "7364f70c455dc78c",
       "c804732dd480d71a",
@@ -717,13 +717,12 @@
       "eaefd0284d50d5ac",
       "a66b23d9ca2dfa64"
     ],
-    "extractedChars": 1261,
+    "extractedChars": 410,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-28T00:00:32.883Z",
+    "lastChangedISO": "2026-09-28T05:01:23.339Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://awqaf.gov.sa/ar/media-center/ar/hiring/",
@@ -1269,7 +1268,7 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/search-results",
     "orgId": "maaden",
-    "contentHash": "6b74f206907783151ffb240b264445c90c19ff1fb8648c1a5f76fba5cd2428c4",
+    "contentHash": "fde121c28300a977e9fdeaec744391e5f5af5bc75e68fb7ec31b9753cb69ffea",
     "blockHashes": [
       "5569201553604d03",
       "6e3cceb54e777f64",
@@ -1279,9 +1278,9 @@
     "extractedChars": 240,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-28T04:24:09.672Z",
+    "lastChangedISO": "2026-09-28T05:10:54.691Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://careers.mcit.gov.sa/",
@@ -2302,7 +2301,7 @@
   {
     "sourceUrl": "https://gaca.gov.sa/news",
     "orgId": "gaca",
-    "contentHash": "2949ca90a9fdd331b14db48190dc3743352c3ad74b63481343867129c609bb61",
+    "contentHash": "c3fde81ffde407e11392d72992bdc2a50b2edcc111a0b895bb50cc4f5763d007",
     "blockHashes": [
       "ea90d3f867be286f",
       "ef26de24708740d2",
@@ -2373,13 +2372,12 @@
       "83a22e1f9fb245f8",
       "2ccfa90c84c059a7"
     ],
-    "extractedChars": 20767,
+    "extractedChars": 20506,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-27T23:52:36.632Z",
+    "lastChangedISO": "2026-09-28T05:01:23.339Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://gaca.gov.sa/web/ar-sa/page/home",
@@ -6612,7 +6610,7 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/news?lang=ar",
     "orgId": "hrc",
-    "contentHash": "981f1aee502a5802f1ad0772894c9a65054d1910b4f61d4a500f3f4e50e63f9b",
+    "contentHash": "351c5d9fd49b32b6d0576aa3a6ada14ff951b1edc8b9f360a2acc9c86c09961c",
     "blockHashes": [
       "12e41a244a8a2984",
       "70b5b7bee30096c3",
@@ -6643,10 +6641,9 @@
     "extractedChars": 5230,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-27T23:29:46.785Z",
+    "lastChangedISO": "2026-09-28T05:01:23.339Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "triaged_out"
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://www.hrdf.org.sa/products-and-services/programs/individuals/training/cooperative-training/",
@@ -7879,7 +7876,7 @@
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-20T12:59:49.059Z",
-    "thinRuns": 35,
+    "thinRuns": 36,
     "pendingClassification": false
   },
   {
@@ -8081,8 +8078,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-27T23:25:59.028Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.mof.gov.sa/mediacenter/events/Pages/CalEvent.aspx",
