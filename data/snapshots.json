@@ -761,7 +761,7 @@
   {
     "sourceUrl": "https://career.alinma.com/",
     "orgId": "alinma",
-    "contentHash": "e245fd94c1ab59dcc6bad34af50ba34c224654b27d2f46834c18eef001143fa5",
+    "contentHash": null,
     "blockHashes": [
       "d139e32e22028878",
       "24a16c9057a577bb",
@@ -1334,19 +1334,21 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/search-results",
     "orgId": "maaden",
-    "contentHash": "fde121c28300a977e9fdeaec744391e5f5af5bc75e68fb7ec31b9753cb69ffea",
+    "contentHash": "0fcb55b92918eaed3097fda4204f6ad5e6d3886efd5a78a914e64a7fe554c271",
     "blockHashes": [
       "5569201553604d03",
-      "6e3cceb54e777f64",
-      "243567fc1e25beab",
-      "3cb16603ffb6690d"
+      "6610997bc1f9b192",
+      "6bf0ca67e0f069b4",
+      "d6c0adacb353836a",
+      "ccfffa4fa9285d06",
+      "893a207aa8e1b572"
     ],
-    "extractedChars": 240,
-    "extractionMethod": "readability",
+    "extractedChars": 1488,
+    "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-28T05:10:54.691Z",
+    "lastChangedISO": "2026-09-28T05:56:20.533Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://careers.mcit.gov.sa/",
@@ -2233,16 +2235,16 @@
   {
     "sourceUrl": "https://gac.gov.sa/",
     "orgId": "gac",
-    "contentHash": "e62553a2e7d15c4d1f0308c281e74441657428c63f64ee131688f7b7f7e2e58e",
+    "contentHash": "e8cf8b55d2d28a9927dcd507db2950b2d14b018aa8c25b20ff33b42ce7b97f01",
     "blockHashes": [
-      "aed79d2fceb397b0",
-      "f5bef455d4d4feb4",
-      "aacaf49217281f68"
+      "dace95201f34f3a5",
+      "4021095d86fd3a47",
+      "cdcbb51ef6e3c705"
     ],
-    "extractedChars": 2463,
+    "extractedChars": 2658,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-09-17T12:53:53.341Z",
-    "lastChangedISO": "2026-09-28T00:00:32.883Z",
+    "lastChangedISO": "2026-09-28T06:03:47.413Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -2991,7 +2993,7 @@
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-27T03:46:37.095Z",
-    "thinRuns": 2,
+    "thinRuns": 3,
     "pendingClassification": false
   },
   {
@@ -3656,22 +3658,17 @@
   {
     "sourceUrl": "https://ncar.gov.sa/",
     "orgId": "ncar",
-    "contentHash": "c080b58b5717b67137749a4ce1c6fb2bbdfdc1a56c491606442b9c8a8baf30d8",
+    "contentHash": "27f62e05d69caa21d2ef14a491fc742e3f66a9631dbc823c03c1bc3aaf54ce90",
     "blockHashes": [
       "c911502a32b8a6f9",
-      "85374c9be3be281e",
-      "ca80e9da341f647b",
-      "4b4956634b18a910",
-      "5e066b1f02a22686",
-      "8e5482e4a46e0b3f",
-      "d00a8cbf1a651a04",
-      "e59eaa95f704c74d",
+      "427998d73505aec3",
+      "26b7600a224c8c65",
       "75c514565d626437"
     ],
-    "extractedChars": 2711,
+    "extractedChars": 1077,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-27T23:55:52.279Z",
+    "lastChangedISO": "2026-09-28T06:00:19.365Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -4476,13 +4473,10 @@
   {
     "sourceUrl": "https://thiqah.sa/",
     "orgId": "thiqah",
-    "contentHash": "41585f247e073f7dfa50339963ead8d8387c9a1b752741091b485d74143c63b9",
+    "contentHash": "bba18d1332d9277cfb6fa175f6984c62b16db98c935a6738a2b6a55c5b1d20bc",
     "blockHashes": [
-      "56d61a024ef0c23a",
-      "988b9a8bf2486a9d",
-      "a4ad1af066840cba",
-      "2a753899ff945f72",
-      "0254baf3c601928d",
+      "2badba214de43400",
+      "cff1ddff4e992236",
       "e6bf180d162757ed",
       "ce6b1d76c3fa0a8f",
       "5702aa0bdde53d7c",
@@ -4495,7 +4489,7 @@
     "extractedChars": 2087,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T23:03:32.200Z",
-    "lastChangedISO": "2026-09-28T00:00:32.883Z",
+    "lastChangedISO": "2026-09-28T06:03:47.413Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -6457,8 +6451,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-27T23:55:52.279Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/all_branches_news?lang=ar",
@@ -10993,21 +10986,21 @@
   {
     "sourceUrl": "https://www.taifcity.gov.sa/#/ar",
     "orgId": "taif_amanah",
-    "contentHash": "d6551ffb7acc2953355c802d5ba839be2a7de3b2f94b7c3c300ce2f024bc6186",
+    "contentHash": "abd598778e10e1dc5efe44c72003f45275420c97dd0a387a14057595b387cf3d",
     "blockHashes": [
       "969f0f9d8129003d",
-      "b59b5f5d4d31d9b4",
+      "267bf839505a9527",
       "cfc879cec72d1d12",
-      "acda1eb1130c44f0",
+      "b3e19f87c5ed9f69",
       "8554e1d0ca772440"
     ],
-    "extractedChars": 240,
+    "extractedChars": 693,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T23:54:26.779Z",
-    "lastChangedISO": "2026-09-28T00:00:32.883Z",
+    "lastChangedISO": "2026-09-28T06:03:47.413Z",
     "thinRuns": 0,
     "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "settledWithoutVerdict": "triaged_out"
   },
   {
     "sourceUrl": "https://www.thiqah.sa/",
