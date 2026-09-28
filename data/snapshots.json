@@ -1334,21 +1334,18 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/search-results",
     "orgId": "maaden",
-    "contentHash": "2888b12ca49da66e1fc2d1f27e3a185f5a705690567be1e7eaf6189eff0f3ccb",
+    "contentHash": "3611898a17c396143df0e7dd07cdee05d5ae050db4351db6258e5ca1936ca087",
     "blockHashes": [
-      "5569201553604d03",
-      "6610997bc1f9b192",
-      "6bf0ca67e0f069b4",
-      "d6c0adacb353836a",
-      "ccfffa4fa9285d06",
-      "893a207aa8e1b572"
+      "dab5a7f3801bc914",
+      "6eb32ee2aaf0df0a",
+      "e67349af663a31be"
     ],
     "extractedChars": 240,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-28T06:43:58.952Z",
+    "lastChangedISO": "2026-09-28T20:26:12.857Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://careers.mcit.gov.sa/",
@@ -5564,19 +5561,19 @@
   {
     "sourceUrl": "https://www.bog.gov.sa/en/EServices/judiciaryHiring/Pages/default.aspx",
     "orgId": "bog",
-    "contentHash": "153d2ebf4c752893fa58c0b53c075e12e71bb9ddc7503b77e9bfd42e68348877",
+    "contentHash": "81f8d73206efba83e5dada32be755e3c79048f06382e97494defc16051c79dd9",
     "blockHashes": [
       "46d9575ec382a9d1",
       "96c63175498462d9",
       "f4b9821710ab784e",
-      "db96cc060fa0a333",
+      "e24ca624e1e52d43",
       "d9ac968863afb54d",
       "ec5d6ba37d25b982"
     ],
     "extractedChars": 756,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-26T22:57:55.271Z",
+    "lastChangedISO": "2026-09-28T20:26:12.857Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -9328,14 +9325,14 @@
   {
     "sourceUrl": "https://www.rcrc.gov.sa/careers/?lang=ar",
     "orgId": "rcrc",
-    "contentHash": "0c9c99b5df17e4c69058c3f60317b89667706c476f158f43ab5c403a6a368b2f",
+    "contentHash": "aad46194835d527a007031e3da3b01d82b547b51993656b9194deb43d073be00",
     "blockHashes": [
       "8fae257cfb899d1d"
     ],
-    "extractedChars": 1166,
+    "extractedChars": 1167,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-28T06:21:36.977Z",
+    "lastChangedISO": "2026-09-28T20:26:12.857Z",
     "thinRuns": 0,
     "pendingClassification": true,
     "classifyFailures": 1
@@ -10487,7 +10484,7 @@
   {
     "sourceUrl": "https://www.sidf.gov.sa/Coop",
     "orgId": "sidf",
-    "contentHash": "997bc01a71fd1005c94644044d151b42d98fbf8d60ce2fab956b06e0cf22bcd2",
+    "contentHash": "a8234725223a500f020652ede747b3eb449247d137c77dcde407c34352200852",
     "blockHashes": [
       "b2f8402cbf414c94",
       "19799f9a1ecc3c57",
@@ -10502,10 +10499,10 @@
     "extractedChars": 1040,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-02T23:42:46.216Z",
-    "lastChangedISO": "2026-09-23T16:56:58.072Z",
+    "lastChangedISO": "2026-09-28T20:26:12.857Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "classifyFailures": 3
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://www.sidf.gov.sa/News",
