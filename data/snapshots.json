@@ -548,7 +548,7 @@
     "lastChangedISO": "2026-09-26T03:33:04.602Z",
     "thinRuns": 0,
     "pendingClassification": true,
-    "classifyFailures": 1
+    "classifyFailures": 2
   },
   {
     "sourceUrl": "https://alinma.com/en/About-the-Bank/The-Bank/News/2011/12/alinmabankhoststrainingcourseoncorporatebusinessservicesandebanking",
@@ -2382,7 +2382,7 @@
   {
     "sourceUrl": "https://gaca.gov.sa/web/ar-sa/page/home",
     "orgId": "gaca",
-    "contentHash": "4019e59a83ef5b1cb53e0fd5b0ec90f1cac1af0bfe4d4e4bad868c5b540e1d86",
+    "contentHash": "fc49d82a9fee1fbe3bf6e7f82eac3e9075ed6417cacd8f42e323d8239b918e5c",
     "blockHashes": [
       "0121bef009e679a8",
       "63e7bf4cbe25a53a",
@@ -2398,12 +2398,12 @@
       "83a22e1f9fb245f8",
       "b56e231e91931f13"
     ],
-    "extractedChars": 2337,
+    "extractedChars": 2330,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-28T00:06:51.934Z",
+    "lastChangedISO": "2026-09-28T05:15:12.738Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://gmedia.gov.sa/",
@@ -6398,7 +6398,7 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/all_branches_news?lang=ar",
     "orgId": "hrc",
-    "contentHash": "1484583a3c68dcae336df236b7586bea700bce28eb7d10c8e18e4e7d0ec5881b",
+    "contentHash": "fa94687ee0e9ff394cccb171cc25c429d8f248607a585e797691214be0615ab6",
     "blockHashes": [
       "12e41a244a8a2984",
       "981581b530a78d77",
@@ -6427,10 +6427,9 @@
     "extractedChars": 5039,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-27T23:52:36.632Z",
+    "lastChangedISO": "2026-09-28T05:15:12.738Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "triaged_out"
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/careers",
@@ -8103,8 +8102,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-28T00:13:10.640Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.mof.gov.sa/Pages/default.aspx",
