@@ -137,7 +137,7 @@
   {
     "sourceUrl": "https://adf.gov.sa/ar/Pages/default.aspx",
     "orgId": "adf",
-    "contentHash": "2f0417ebf2b2e0fdb921586c6b29f5fb72a62184c81308439164610cbafe3adf",
+    "contentHash": "c89c8f03a202d2e24b9c1aeb38533c31440f066d907957adf6fe3d7826dc0fc1",
     "blockHashes": [
       "1ce798e0ca5f6070",
       "9e8708f46644e878",
@@ -146,23 +146,24 @@
       "b7a4f19178b3b8a1",
       "0514128baf9c79f1",
       "9185920f2483a42d",
-      "4656bbe82d5253a2",
+      "81856009c2c89056",
       "8d0d93944a16dca7",
       "13285e8c3eb4c8ac",
       "4838bf63eca38706",
       "d380a83380c07da6",
       "2c2b159c69b9c652",
       "89e64ef213f6260e",
-      "1279b53eac39caaa",
+      "0b16262e8ff7a15a",
       "782261474561a27a",
       "74b06ac36e5c75b0"
     ],
-    "extractedChars": 1703,
+    "extractedChars": 1704,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
-    "lastChangedISO": "2026-09-28T01:07:50.192Z",
+    "lastChangedISO": "2026-09-28T22:04:40.837Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "triaged_out"
   },
   {
     "sourceUrl": "https://adf.gov.sa/ar/Pages/employment.aspx",
@@ -1331,16 +1332,16 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/search-results",
     "orgId": "maaden",
-    "contentHash": "a102e1249ac76331ef8b3e65469faee82d3643869c238c564284161f17abf1b5",
+    "contentHash": "1598185eecc44af05d9fba0dc8fcbfc88389004a0e9eb6b8f79b9bff7d4a8ce0",
     "blockHashes": [
-      "0593a1678d987760",
-      "583ecf1228d0fac1",
-      "6bf01a314abd30d6"
+      "dab5a7f3801bc914",
+      "7a91669b2222315a",
+      "6cc2b401fafa7674"
     ],
     "extractedChars": 240,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-28T21:16:17.881Z",
+    "lastChangedISO": "2026-09-28T22:10:32.180Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -3710,16 +3711,16 @@
   {
     "sourceUrl": "https://ndf.gov.sa/",
     "orgId": "ndf",
-    "contentHash": "4f7989a34aa076542f1620aa771c72a5c4672f1c51be7b6bfe719f4f4fd4da3c",
+    "contentHash": "c2d72753b0a3821c2a98886a8812f603cfc67d91520da97d28ebf2f37d56e036",
     "blockHashes": [
-      "a83303b9b97bbcaf"
+      "c2d72753b0a3821c"
     ],
-    "extractedChars": 2999,
+    "extractedChars": 3000,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-28T01:20:09.117Z",
+    "lastChangedISO": "2026-09-28T22:12:21.105Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://ndf.gov.sa/media-center",
@@ -7167,13 +7168,13 @@
   {
     "sourceUrl": "https://www.kapsarc.org/",
     "orgId": "kapsarc",
-    "contentHash": "284757dbd45273ee8d681fc410391246ce349d9c11d77a48ac5c006f0ca7916e",
+    "contentHash": "ede0c213003a0fa14f2eb41f8d27e578c941a76dea985f3ef97187c70b7157d6",
     "blockHashes": [
       "dbad88ec8435b910",
       "11ed80f75ad0e89e",
       "d3d02dd7384d313c",
       "0cdcb2c2b3615c90",
-      "72e59b554dce66c6",
+      "1625e1b95a1d9747",
       "3acde7bfc282db61",
       "7e17fb371b843464",
       "4b6cfe0d4c79efe7",
@@ -7188,12 +7189,13 @@
       "0a83eb39b7d98b65",
       "db7321e737c4067b"
     ],
-    "extractedChars": 1443,
-    "extractionMethod": "readability",
+    "extractedChars": 3188,
+    "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T22:03:35.383Z",
-    "lastChangedISO": "2026-09-08T13:31:46.571Z",
+    "lastChangedISO": "2026-09-28T22:10:32.180Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://www.kapsarc.org/newsroom/events/",
@@ -7775,7 +7777,7 @@
   {
     "sourceUrl": "https://www.mim.gov.sa/ar/empower-training/cooperative-training",
     "orgId": "mim",
-    "contentHash": "e542f9886746343dc62f32b33d9700f87fdcab13dfa4c497a53278d24be16f10",
+    "contentHash": "7369cbd09ee5a946d9ffa63c4662b29e7df632630fd728a2dcfc0ca8f88a95e0",
     "blockHashes": [
       "1cb91553dd3291a4",
       "5300d4cdd32a8d33"
@@ -7783,10 +7785,10 @@
     "extractedChars": 2178,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T02:22:33.828Z",
-    "lastChangedISO": "2026-09-28T20:38:16.434Z",
+    "lastChangedISO": "2026-09-28T22:17:30.703Z",
     "thinRuns": 0,
     "pendingClassification": true,
-    "classifyFailures": 2
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://www.mim.gov.sa/ar/media-center/news",
@@ -8088,11 +8090,11 @@
   {
     "sourceUrl": "https://www.mof.gov.sa/GFS/TrainingProgram/Pages/TrainingManual.aspx",
     "orgId": "mof",
-    "contentHash": "817ac173f1f56d4b72f4180c5e11d7e16726cfe22fb630884098b715ccd5ac61",
+    "contentHash": "26386d0b02ce0423da2d6be9f98f40d9afdd119c974f20ad0d2e223e7716ac38",
     "blockHashes": [
       "7f625851cbbadbc6",
       "f7711325e2c4b301",
-      "6e5dfce9026aab76",
+      "d8cbe60a38ef8eb0",
       "ffd666e2720f42ef",
       "f4809815161554d5",
       "ec90d29b5d482b67",
@@ -8103,10 +8105,10 @@
       "e449b5a351b550c3",
       "cbefc4238a0555f8"
     ],
-    "extractedChars": 10414,
+    "extractedChars": 10415,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-27T21:28:26.437Z",
+    "lastChangedISO": "2026-09-28T22:04:40.837Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -8615,20 +8617,21 @@
   {
     "sourceUrl": "https://www.nazaha.gov.sa/",
     "orgId": "nazaha",
-    "contentHash": "4966180c670dba8ff815582f9b8505bc96949c63639e941981b2c6e04ea7e57b",
+    "contentHash": "9bdd44df754cd32c6834c7d0c03f9e41229399424e0e71a0301ef71b279a812e",
     "blockHashes": [
       "a167b0dd9b0e3e1c",
       "74e4c1d2a646a96e",
-      "119c4f1e7d70529e",
+      "cabd2bdd39380d04",
       "c3fc1cda7b3b3192",
       "8cf9316b144acc06"
     ],
     "extractedChars": 506,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T22:03:35.383Z",
-    "lastChangedISO": "2026-09-28T01:38:39.830Z",
+    "lastChangedISO": "2026-09-28T22:10:32.180Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://www.nazaha.gov.sa/Jobs",
