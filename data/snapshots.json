@@ -2147,7 +2147,7 @@
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T02:22:33.828Z",
     "lastChangedISO": "2026-08-29T02:36:21.032Z",
-    "thinRuns": 394,
+    "thinRuns": 395,
     "pendingClassification": false
   },
   {
@@ -2672,15 +2672,16 @@
   {
     "sourceUrl": "https://lcgpa.gov.sa/ar/Pages/default.aspx",
     "orgId": "lcgpa",
-    "contentHash": "37564a2846e61d0b217dc67f2ee99948a33e9a38d3e4658d8359a5cb11b63b4e",
+    "contentHash": "f63bfc75a259f5280c6b638617465c269e0f757b09cad15b8f711c0813e3b6d4",
     "blockHashes": [
-      "d0264d97b86cf3b0",
+      "12d412030762bb70",
+      "a00a810df5c94273",
       "beda84e843f95551"
     ],
-    "extractedChars": 385,
+    "extractedChars": 606,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-27T23:19:02.446Z",
+    "lastChangedISO": "2026-09-28T05:22:53.121Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -4437,7 +4438,7 @@
   {
     "sourceUrl": "https://training.moj.gov.sa/",
     "orgId": "moj",
-    "contentHash": null,
+    "contentHash": "f4c6ef6b783b69d09a8f681ad1d80f1df35ef8cb8864917255879208cc305886",
     "blockHashes": [
       "84a570379809f573",
       "ab443a0bbfda7883"
@@ -4445,7 +4446,7 @@
     "extractedChars": 481,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T02:31:49.455Z",
-    "lastChangedISO": "2026-09-27T23:52:36.632Z",
+    "lastChangedISO": "2026-09-28T05:25:43.511Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -10910,18 +10911,18 @@
   {
     "sourceUrl": "https://www.tahakom.com/careers",
     "orgId": "tahakom",
-    "contentHash": "b38dbf058b4234ab057d12623e79e306acbf6beed2b6c4ee74f716e45330ea62",
+    "contentHash": "66a1b215d71b598e5c8f4def386779d5d875b8060e2f1e761d7fed159451f4b0",
     "blockHashes": [
       "d44217251213a019",
       "611753a8aea1ade1",
       "0cea4d38306888dc",
       "1a5263a5a2541c46",
-      "1e38332e29a3b3fa"
+      "264d6b3abc2256d1"
     ],
-    "extractedChars": 835,
+    "extractedChars": 838,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-03T05:13:40.059Z",
-    "lastChangedISO": "2026-09-28T04:36:27.230Z",
+    "lastChangedISO": "2026-09-28T05:25:43.511Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
