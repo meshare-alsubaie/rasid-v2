@@ -1334,7 +1334,7 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/search-results",
     "orgId": "maaden",
-    "contentHash": "0fcb55b92918eaed3097fda4204f6ad5e6d3886efd5a78a914e64a7fe554c271",
+    "contentHash": "2888b12ca49da66e1fc2d1f27e3a185f5a705690567be1e7eaf6189eff0f3ccb",
     "blockHashes": [
       "5569201553604d03",
       "6610997bc1f9b192",
@@ -1343,12 +1343,12 @@
       "ccfffa4fa9285d06",
       "893a207aa8e1b572"
     ],
-    "extractedChars": 1488,
-    "extractionMethod": "body_fallback",
+    "extractedChars": 240,
+    "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-28T05:56:20.533Z",
+    "lastChangedISO": "2026-09-28T06:43:58.952Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://careers.mcit.gov.sa/",
@@ -3209,7 +3209,7 @@
   {
     "sourceUrl": "https://momah.gov.sa/ar",
     "orgId": "housing",
-    "contentHash": "cee5a1066c9cf4ff977548d469e728537b35cc94f201a7c35e3cbd73e705cfb0",
+    "contentHash": "988290047583c7b79e600433240d3d9542372404515063d7827cba3d7c311594",
     "blockHashes": [
       "390ea394b03ad064",
       "0cae66fd6419120a",
@@ -3239,10 +3239,9 @@
     "extractedChars": 153739,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-28T00:53:48.723Z",
+    "lastChangedISO": "2026-09-28T06:55:06.455Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://momah.gov.sa/ar/announcements",
@@ -8178,8 +8177,7 @@
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
     "lastChangedISO": "2026-09-28T00:45:54.258Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.mofa.gov.sa/",
@@ -9325,8 +9323,7 @@
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
     "lastChangedISO": "2026-09-28T00:45:54.258Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "triaged_out"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.rcrc.gov.sa/careers/?lang=ar",
@@ -10324,7 +10321,7 @@
   {
     "sourceUrl": "https://www.sfda.gov.sa/ar",
     "orgId": "sfda",
-    "contentHash": "a7314e55bd55dfdcd7659f9c2da71273ee062a65480d6f1c8e6f67ce1fae28b1",
+    "contentHash": "ee0500f06c971f59a2198495e41f77c1d019835edbdb44defcf065c524f5e52c",
     "blockHashes": [
       "41161f8f07b4b0bb",
       "0cae66fd6419120a",
@@ -10379,9 +10376,9 @@
     "extractedChars": 7707,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-27T18:23:50.537Z",
+    "lastChangedISO": "2026-09-28T06:49:20.007Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://www.sfda.gov.sa/ar/career-vision-and-mission",
