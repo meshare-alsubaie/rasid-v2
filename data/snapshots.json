@@ -1253,9 +1253,9 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/cookiesettings",
     "orgId": "maaden",
-    "contentHash": "06853f367d089e9a52ae99420fd068e4246acfeebfe0bf904faf48f5a66dbbcc",
+    "contentHash": "7ab97f9ac574e4e0cb3abd7609a7c582fcc362413cae0b9772eef63c42f645fa",
     "blockHashes": [
-      "2fb28de24072d906",
+      "e68d4a3cc726a5bf",
       "dd53e083dd4c4329",
       "5e2fc5a4da5c7871",
       "197c66a2b21d9654",
@@ -1320,15 +1320,15 @@
       "ee82ab94d7112a03",
       "60b7b15f81dc7749",
       "abf11bb520a3d451",
-      "a6f4ab848df0f06f",
-      "5d7e16ec79426234"
+      "f65b05114ac984fd",
+      "0b1b6bf13ff45eaa"
     ],
     "extractedChars": 8013,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-28T06:17:06.855Z",
+    "lastChangedISO": "2026-09-28T20:45:30.499Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/search-results",
@@ -2079,11 +2079,11 @@
   {
     "sourceUrl": "https://careers.zatca.gov.sa/search/?createNewAlert=false&q=&locationsearch=",
     "orgId": "zatca",
-    "contentHash": "7e1b052ce0658fb15967e3834a32314d2912d5f8147c77ce3caf8e5ebc4879d3",
+    "contentHash": "7150fb7d32643c42ac4f75c0f64bd6642c49249e9cc8d0022c66bd288e7627cd",
     "blockHashes": [
       "650a2ce183d63c69",
-      "71c8e0d124592c26",
-      "93fbb87ac5dfb7be",
+      "b731f140ea3e962e",
+      "2d4f232864a81923",
       "78be07dcda742780",
       "63b88ce02ef5f1ca",
       "2337b2f5fe2354b0",
@@ -2099,7 +2099,7 @@
     "extractedChars": 571,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-28T04:40:37.146Z",
+    "lastChangedISO": "2026-09-28T20:45:30.499Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -3523,15 +3523,15 @@
   {
     "sourceUrl": "https://nca.gov.sa/ar/cyber-training-and-qualifications/",
     "orgId": "nca",
-    "contentHash": "faeee33ffea3f39cded400af9b9d7ce542f3ca2a5ba426725f9d9b32191baff7",
+    "contentHash": "80262ce47676bde9ca119788743388c71eac55095f6d6177a2b1fcd28921b7f3",
     "blockHashes": [
       "65af980303ea35e1",
-      "2bbe68e9bcc3000d"
+      "c15d13d0f7afed6c"
     ],
     "extractedChars": 3748,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T02:22:13.030Z",
-    "lastChangedISO": "2026-09-20T16:11:28.432Z",
+    "lastChangedISO": "2026-09-28T20:45:30.499Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -5598,19 +5598,19 @@
   {
     "sourceUrl": "https://www.bog.gov.sa/en/EServices/Pages/khabeer.aspx",
     "orgId": "bog",
-    "contentHash": "1c4bf3783d15ea3f6d9fcc3890cf3e41c97b68d3869ca04f0174764df4960936",
+    "contentHash": "4f0cf1883b6d6c01bcc6c608730563e747a79b14afeb32f4d38fbee15591a3f0",
     "blockHashes": [
       "46d9575ec382a9d1",
       "96c63175498462d9",
       "f4b9821710ab784e",
-      "90a333d48dbc2607",
+      "be5ee0faff2db00f",
       "8b99d3a854f63801",
       "ec5d6ba37d25b982"
     ],
     "extractedChars": 1229,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T02:22:33.828Z",
-    "lastChangedISO": "2026-09-27T17:54:32.221Z",
+    "lastChangedISO": "2026-09-28T20:45:30.499Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -9367,12 +9367,12 @@
   {
     "sourceUrl": "https://www.rcrc.gov.sa/news-ar/",
     "orgId": "rcrc",
-    "contentHash": "a411a29cc69ae30bef5ff7c7ac6f3c00367e897eeaf12b341e4ea930e26f8ebb",
+    "contentHash": "7f893c178a7081d69be2611744024735505b0ec042f63b918281556e1d26786f",
     "blockHashes": [
       "dd62229c2f61fb42",
       "306db3646b8a6c73",
       "b28682d0a5fa37ed",
-      "4737920cc1bf6284",
+      "73fdccebb299ff72",
       "dd5bfb74e89dbbdd",
       "b32d68c4e5c2da0f",
       "b91cd7f4edfa88d2",
@@ -9382,12 +9382,13 @@
       "42d24dc3675b45a7",
       "2ebbd7048725e505"
     ],
-    "extractedChars": 3450,
+    "extractedChars": 3418,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-28T04:52:18.540Z",
+    "lastChangedISO": "2026-09-28T20:45:30.499Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://www.rcu.gov.sa/",
