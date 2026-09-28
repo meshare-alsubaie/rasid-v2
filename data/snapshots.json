@@ -2473,16 +2473,17 @@
   {
     "sourceUrl": "https://gmedia.gov.sa/",
     "orgId": "gcam",
-    "contentHash": "8db337d65e4857007cb78e1f9b2b2a54d4e0baae9353e8a2654b24ffe1a1acd9",
+    "contentHash": "9615808b889f5395148822875d09c65f44437d8b6484c0bce2cea81b274f822d",
     "blockHashes": [
-      "c48eacc2a00d0d7d"
+      "9615808b889f5395"
     ],
     "extractedChars": 845,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-28T01:13:44.057Z",
+    "lastChangedISO": "2026-09-28T21:59:22.510Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://gmedia.gov.sa/ar/hiring",
@@ -3207,39 +3208,41 @@
   {
     "sourceUrl": "https://momah.gov.sa/ar",
     "orgId": "housing",
-    "contentHash": "988290047583c7b79e600433240d3d9542372404515063d7827cba3d7c311594",
+    "contentHash": "22f6b39361b903cb6f657f908da23c72f4722215e6a1c42e53ec8be97b4e2975",
     "blockHashes": [
       "390ea394b03ad064",
       "0cae66fd6419120a",
-      "a1f4628b6b2acab1",
+      "091be44dd5d4971d",
+      "61656155798cf905",
       "1f18270f78163abc",
-      "099027c2c680b827",
+      "398217c8c29c41ec",
+      "e26d4bbce867f3f0",
+      "bcb4f2948f18fb69",
+      "5d15152619ff887e",
+      "ec9efb659eff7779",
+      "ac1405062719fb86",
+      "f3e8f147c5425ff4",
+      "97e422dab6cc7477",
+      "ff6f87e39638cb9b",
+      "e143ca37cd91484e",
+      "3d38fd8b2ea5b667",
+      "fa306ac899eba37f",
+      "09b1bd561f62b68f",
+      "188ad0601e429427",
+      "726e423b5db6a785",
       "560edfe1df9d8921",
       "23b97a8a93aba477",
       "9cd3abf7fd1573ff",
-      "872f118bc13ec5b9",
-      "09b1bd561f62b68f",
-      "e6faf19e08eb8cea",
-      "5d15152619ff887e",
-      "8ab1f107a277d0ef",
-      "63c3d3a89a6829e3",
-      "ff6f87e39638cb9b",
-      "c31369a96e05d202",
-      "9dd5b997a0c36ea9",
-      "03246ba3b9328703",
-      "0676864ec20ea532",
-      "f64d194eaeb44b9c",
-      "ac1405062719fb86",
-      "abc99a186c3dc550",
-      "feaa5a430993d403",
-      "7a7edc9d50fe9c15"
+      "8bbfc7d2528b9a2c",
+      "b83cacc1e5e26cb1"
     ],
-    "extractedChars": 153739,
+    "extractedChars": 153632,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-28T06:55:06.455Z",
+    "lastChangedISO": "2026-09-28T21:56:32.701Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "triaged_out"
   },
   {
     "sourceUrl": "https://momah.gov.sa/ar/announcements",
@@ -3721,18 +3724,18 @@
   {
     "sourceUrl": "https://ndf.gov.sa/media-center",
     "orgId": "ndf",
-    "contentHash": "cba5cd2a7a727c2fefe0def50eb7144596a7bec194f95647a43f436c88434482",
+    "contentHash": "51593a040b40042c9f76b68bc36905e7c081fa30ceaecba84df3c7cba28e260c",
     "blockHashes": [
-      "bda250da969ea45d",
+      "5cae46fa56fec8de",
       "3c7d3bdeb9a3e07b",
       "fb0d9256a76422f3",
       "eeac3e91395fd6e9",
       "4e9c4cce16fbbdd4"
     ],
-    "extractedChars": 3941,
+    "extractedChars": 3942,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-27T21:50:48.342Z",
+    "lastChangedISO": "2026-09-28T21:44:41.976Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -3753,20 +3756,21 @@
   {
     "sourceUrl": "https://ndf.gov.sa/media-center/articles",
     "orgId": "ndf",
-    "contentHash": "a3013fa304d8d9169b8571bfaa6a84a5faf1fa6f97fc668c93f5cf073c556fd2",
+    "contentHash": "85a29311a26cdc6774af98d558a0b0e30624cec5876c38ebd1460d2a8b6cfada",
     "blockHashes": [
-      "552c08cf9b4017fb",
+      "478e5002f74b378b",
       "b4a5c7cd60560196",
       "4c268b289192e891",
       "d91f8453abc8bd97",
       "0e33f45837a3e364"
     ],
-    "extractedChars": 4078,
+    "extractedChars": 4079,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-27T22:04:52.701Z",
+    "lastChangedISO": "2026-09-28T21:59:22.510Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://ndf.gov.sa/media-center/articles/article-human-resource-development",
@@ -6491,10 +6495,10 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/careers",
     "orgId": "hrc",
-    "contentHash": "7bbbf0febb61e868dd70bd3f36e06bbbf72f32a7a12cdd5cfd0b9aed4731955c",
+    "contentHash": "0670721c8da57cbed76899192d7770ec403d2e58a150a505a56f657aaa6ad443",
     "blockHashes": [
       "12e41a244a8a2984",
-      "fa4f0716b37d4d36",
+      "0555951ed2bb747f",
       "9bd6314e9bbc7375",
       "474d2dbb69aae30b",
       "84b2fc11813dc7e8",
@@ -6503,7 +6507,7 @@
       "ce8abacaf69b57a1",
       "659973c0ea5fa5aa",
       "f4ecefdb1c7b457e",
-      "87c1e2b5a81f7511",
+      "c3de9b85fda8e222",
       "782261474561a27a",
       "eb51bc3bf3ed1556",
       "c5ae95ac1b42bfc5",
@@ -6515,12 +6519,12 @@
       "3b5a8943dae3d475",
       "22484a6d9e7135f1"
     ],
-    "extractedChars": 3794,
+    "extractedChars": 3819,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-28T04:47:36.014Z",
+    "lastChangedISO": "2026-09-28T21:56:32.701Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/careers?lang=ar",
@@ -7275,13 +7279,13 @@
   {
     "sourceUrl": "https://www.kapsarc.org/newsroom/news/kapsarc-analyzes-impact-of-covid-19-on-the-saudi-market-in-24-job-sectors/",
     "orgId": "kapsarc",
-    "contentHash": "c4858e1897b845d42eedd329b76368366aadacbe681a5401ac8b033ee778e1b9",
+    "contentHash": "b70b3fee3f6541ef2f3c10bc6ee4226408135761f729219a860a12d8286cc8ba",
     "blockHashes": [
       "dbad88ec8435b910",
       "11ed80f75ad0e89e",
       "d3d02dd7384d313c",
       "0cdcb2c2b3615c90",
-      "72e59b554dce66c6",
+      "1625e1b95a1d9747",
       "3acde7bfc282db61",
       "7e17fb371b843464",
       "4b6cfe0d4c79efe7",
@@ -7295,10 +7299,10 @@
       "0a83eb39b7d98b65",
       "db7321e737c4067b"
     ],
-    "extractedChars": 1299,
-    "extractionMethod": "readability",
+    "extractedChars": 3117,
+    "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-08-31T00:02:49.563Z",
+    "lastChangedISO": "2026-09-28T21:56:32.701Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -7671,12 +7675,12 @@
   {
     "sourceUrl": "https://www.mewa.gov.sa/ar/MediaCenter/PressReleases/Pages/home.aspx",
     "orgId": "mewa",
-    "contentHash": "33d18a4dcb67d0930c1a5d42ed4509d89c20e379e8ec0e061db2a61406a34662",
+    "contentHash": "719d9d1adca0f2835b0cfbe1e7149180ac3fd95a3ef0621d2643efe74ac55143",
     "blockHashes": [
       "12e41a244a8a2984",
       "c804732dd480d71a",
       "74e4c1d2a646a96e",
-      "f132a2a8f7a4dcc4",
+      "b2b0fe99e09c277d",
       "eaca30400015cdec",
       "b957f376a744a274",
       "0116fe72794c37b1",
@@ -7687,9 +7691,10 @@
     "extractedChars": 1391,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-28T04:47:36.014Z",
+    "lastChangedISO": "2026-09-28T21:44:41.976Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://www.mewa.gov.sa/ar/MediaCenter/VisualIdentityGuide/Pages/default.aspx",
@@ -8169,11 +8174,11 @@
   {
     "sourceUrl": "https://www.mof.gov.sa/Pages/default.aspx",
     "orgId": "mof",
-    "contentHash": "6ca31ced94bc499f15f29fb42576fcf43eb6d63c1af4481082ad576e8f81c743",
+    "contentHash": "7a8cbe737a0faec6ba4db14c8c58811556a7cb91f17ae3f2446ca7a9140cc0a6",
     "blockHashes": [
       "7f625851cbbadbc6",
       "f7711325e2c4b301",
-      "3176403cc4ae95c0",
+      "29f173957046e899",
       "a4421c0a80a8433c",
       "589c637db8545e12",
       "d6925423217a99ca",
@@ -8184,9 +8189,10 @@
     "extractedChars": 467,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
-    "lastChangedISO": "2026-09-28T00:45:54.258Z",
+    "lastChangedISO": "2026-09-28T21:49:56.909Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://www.mofa.gov.sa/",
@@ -8734,11 +8740,11 @@
   {
     "sourceUrl": "https://www.nazaha.gov.sa/News/Details?q=o2ojUlDL5mGosOuEoGXXeg==",
     "orgId": "nazaha",
-    "contentHash": "2e3ba8ae02ad024ddcf9d3dcbb0df6f47364aa39a851a89e03ef356cd75e85fd",
+    "contentHash": "94bca894dd663b118883b538100ad9bf26740c2d9bf1eb352c6531a13a8b3766",
     "blockHashes": [
       "a167b0dd9b0e3e1c",
       "74e4c1d2a646a96e",
-      "f02fcb4730999fbe",
+      "4eaa43ccab2a5f8f",
       "8d35c6dbfb6149bf",
       "934470dd7b84953f",
       "b97ad38f7d56bff9"
@@ -8746,9 +8752,10 @@
     "extractedChars": 783,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-27T22:06:57.190Z",
+    "lastChangedISO": "2026-09-28T21:56:32.701Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "triaged_out"
   },
   {
     "sourceUrl": "https://www.ncc.gov.sa/ar/MediaCenter/Events/Pages/default.aspx",
