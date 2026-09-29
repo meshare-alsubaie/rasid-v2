@@ -2270,9 +2270,9 @@
   {
     "sourceUrl": "https://gaca.gov.sa/ar/announcements",
     "orgId": "gaca",
-    "contentHash": "5d4bb506f7446dc3e101677885b0bcaddcbb7f7a2f040b8e7cbe5ce63e691ba8",
+    "contentHash": "e6ae0c197ec311248fe5c80415fac4b8d69ad1f538ddb15de10e89531c688403",
     "blockHashes": [
-      "26d888a632edfed3",
+      "c12c717a27887d2d",
       "9c2a3967149440a8",
       "83a22e1f9fb245f8",
       "bc532942aaed49b7"
@@ -2280,7 +2280,7 @@
     "extractedChars": 1214,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-29T03:20:47.999Z",
+    "lastChangedISO": "2026-09-29T06:40:53.583Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -3245,40 +3245,41 @@
   {
     "sourceUrl": "https://momah.gov.sa/ar/announcements",
     "orgId": "housing",
-    "contentHash": "88cc7056f50d6055ed8da2dc964fd1411585d388d8d8b8835906db44a75f059a",
+    "contentHash": "24ae0d8cf9a477b233cb43bbb1f83ea1838ddbb687aa343cae9836f0d36e09a6",
     "blockHashes": [
       "b5d072cff912d21d",
       "83198c6586cd15b8",
-      "81be7c8e8f866b4e",
+      "19cdc0188ea11722",
       "aa8e55eac5aea8cd",
       "09552ec2996654f9",
-      "5a481ee9494fe47a",
-      "ac1405062719fb86",
-      "81f5966e7f20b311",
+      "71c918af1ce3d2db",
+      "3bd28988796594d1",
+      "089e2008e5341984",
       "09b1bd561f62b68f",
-      "135021b7a886c48e",
-      "88ece5f7ee916de0",
-      "b3f9c631ad9217cb",
+      "945c1d0df2da4449",
+      "ca19939d820726bb",
+      "94e4278c90b694e8",
       "ff6f87e39638cb9b",
-      "7c502a6a06b64b2f",
-      "83bf8ebd8e18844e",
-      "c4e4b69a5ed72020",
-      "c8830677b35148a1",
+      "4b8c049a18962c92",
+      "ac1405062719fb86",
+      "efcabdcd8741dbcd",
+      "5d15152619ff887e",
+      "e7a309389128c314",
       "560edfe1df9d8921",
       "23b97a8a93aba477",
       "9cd3abf7fd1573ff",
-      "623efc8fba1e3343",
-      "5d15152619ff887e",
-      "eb9b2c7ad12a71d6",
-      "45f3854aeec333c2",
-      "b48935d4d4d96595"
+      "9f57d1b44bb6370e",
+      "c9c1fa8650b7019b",
+      "e7051507a939b3fd",
+      "b552795cea64894a"
     ],
-    "extractedChars": 152493,
+    "extractedChars": 152454,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-28T20:50:12.564Z",
+    "lastChangedISO": "2026-09-29T06:40:53.583Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://momah.gov.sa/ar/form/partnerships-and-cooperation",
@@ -6453,10 +6454,10 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/all_branches_news?lang=ar",
     "orgId": "hrc",
-    "contentHash": "ed53877c45abc8ea7d43476a523525c1d244f21b2f3457d4f05f4541a005e5bf",
+    "contentHash": "548740004d1e5438f9cca25651b1bea68c4bdcd8754541a053480ef3e002f09b",
     "blockHashes": [
       "12e41a244a8a2984",
-      "05f15633374f7e98",
+      "8c7b92d5f17e6a58",
       "f5f8d6443e8e9010",
       "02fd91be7253d9e4",
       "6cd077b5b02f6b16",
@@ -6482,7 +6483,7 @@
     "extractedChars": 5064,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-29T03:03:49.839Z",
+    "lastChangedISO": "2026-09-29T06:40:53.583Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -7764,7 +7765,7 @@
   {
     "sourceUrl": "https://www.mim.gov.sa/ar/empower-training/cooperative-training",
     "orgId": "mim",
-    "contentHash": "92f7471e7dcbcedf1f1fd42757422f80ba052625fd9e87ce90ceab67656b2aba",
+    "contentHash": "ba4649c1db7a5f37b9aee193f03142c0f8454c39d94f5a6b0c0f23d434d546fd",
     "blockHashes": [
       "1cb91553dd3291a4",
       "5300d4cdd32a8d33"
@@ -7772,7 +7773,7 @@
     "extractedChars": 2178,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T02:22:33.828Z",
-    "lastChangedISO": "2026-09-29T05:45:26.749Z",
+    "lastChangedISO": "2026-09-29T06:45:09.896Z",
     "thinRuns": 0,
     "pendingClassification": true,
     "classifyFailures": 1
@@ -8613,8 +8614,7 @@
     "firstSeenISO": "2026-08-29T22:03:35.383Z",
     "lastChangedISO": "2026-09-28T22:10:32.180Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.nazaha.gov.sa/Jobs",
@@ -9326,16 +9326,17 @@
   {
     "sourceUrl": "https://www.rcrc.gov.sa/careers/?lang=ar",
     "orgId": "rcrc",
-    "contentHash": "3a4355c6e66380f826bb7c1f7c7a862403d5bd01c27d0b48a5f3c648268f878c",
+    "contentHash": "e282a3ed589e6eb1efb3d0883d815c36a29c8e81680645e4f4cf76428925c093",
     "blockHashes": [
       "3a4355c6e66380f8"
     ],
-    "extractedChars": 784,
+    "extractedChars": 1166,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-29T05:52:44.449Z",
+    "lastChangedISO": "2026-09-29T06:48:11.043Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://www.rcrc.gov.sa/media-center/",
@@ -11211,10 +11212,13 @@
   {
     "sourceUrl": "https://www.thiqah.sa/",
     "orgId": "thiqah",
-    "contentHash": "bba18d1332d9277cfb6fa175f6984c62b16db98c935a6738a2b6a55c5b1d20bc",
+    "contentHash": "41585f247e073f7dfa50339963ead8d8387c9a1b752741091b485d74143c63b9",
     "blockHashes": [
-      "2badba214de43400",
-      "cff1ddff4e992236",
+      "56d61a024ef0c23a",
+      "988b9a8bf2486a9d",
+      "a4ad1af066840cba",
+      "2a753899ff945f72",
+      "0254baf3c601928d",
       "e6bf180d162757ed",
       "ce6b1d76c3fa0a8f",
       "5702aa0bdde53d7c",
@@ -11227,7 +11231,7 @@
     "extractedChars": 2087,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-28T21:38:04.429Z",
+    "lastChangedISO": "2026-09-29T06:40:53.583Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
