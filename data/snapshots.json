@@ -2450,7 +2450,7 @@
   {
     "sourceUrl": "https://gaca.gov.sa/web/ar-sa/page/home",
     "orgId": "gaca",
-    "contentHash": "447ff0690f373440d5ee22e8b14c9b0697fb6e335d860a4c210e4f891f829b51",
+    "contentHash": "c552364c451ee91ae8aa28c65b3b1f65b0b4d04e69e2069b5485a62c060443b0",
     "blockHashes": [
       "53a2ae4fb6b5b10e",
       "63e7bf4cbe25a53a",
@@ -2466,12 +2466,12 @@
       "83a22e1f9fb245f8",
       "b56e231e91931f13"
     ],
-    "extractedChars": 2337,
+    "extractedChars": 2330,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-29T03:03:49.839Z",
+    "lastChangedISO": "2026-09-29T06:24:51.112Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://gmedia.gov.sa/",
@@ -3283,7 +3283,7 @@
   {
     "sourceUrl": "https://momah.gov.sa/ar/form/partnerships-and-cooperation",
     "orgId": "housing",
-    "contentHash": "fcccf76adeae419ff8e0131ec72e9ee0c0ca47e4f42d80f3d222c24657233016",
+    "contentHash": "e4eb97d7a3ab17a8fcaff4f4e1545f7d6dcbfba1886c8a231d94f21a75dfe49c",
     "blockHashes": [
       "bc22896c0dc046da",
       "d2009185b8a1a230",
@@ -3316,9 +3316,9 @@
     "extractedChars": 151356,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-29T02:41:39.002Z",
+    "lastChangedISO": "2026-09-29T06:24:51.112Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://momah.gov.sa/ar/menu/media-center",
@@ -6664,7 +6664,7 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/news?lang=ar",
     "orgId": "hrc",
-    "contentHash": "7e9d72a8e531a7199bab925504ee5f94afecac66add57bfd5a29e9f1076ed497",
+    "contentHash": "66a6d288e7e691ffc5d22735d4c4238f54e2951ae5fbfeb91d0779c421c779f4",
     "blockHashes": [
       "12e41a244a8a2984",
       "a0ac2c6e8e5a3708",
@@ -6695,10 +6695,9 @@
     "extractedChars": 5255,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-29T02:41:39.002Z",
+    "lastChangedISO": "2026-09-29T06:24:51.112Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "triaged_out"
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://www.hrdf.org.sa/products-and-services/programs/individuals/training/cooperative-training/",
@@ -7186,8 +7185,7 @@
     "firstSeenISO": "2026-08-29T22:03:35.383Z",
     "lastChangedISO": "2026-09-28T22:10:32.180Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.kapsarc.org/newsroom/events/",
@@ -7782,7 +7780,7 @@
   {
     "sourceUrl": "https://www.mim.gov.sa/ar/media-center/news",
     "orgId": "mim",
-    "contentHash": "2c670f413d96597e9f788700d9fbc1fd8a519086a73249cbaf8be2b4b58e4030",
+    "contentHash": "f344c814d257ec52621312b37705d632fefa078072415d80b79893bbcf7c97af",
     "blockHashes": [
       "5f82efc753cde988",
       "138d2aa9a5c65516",
@@ -7817,7 +7815,7 @@
     "extractedChars": 11088,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-29T03:27:36.216Z",
+    "lastChangedISO": "2026-09-29T06:29:18.344Z",
     "thinRuns": 0,
     "pendingClassification": true
   },
@@ -7932,7 +7930,7 @@
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-20T12:59:49.059Z",
-    "thinRuns": 39,
+    "thinRuns": 40,
     "pendingClassification": false
   },
   {
@@ -8181,8 +8179,7 @@
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
     "lastChangedISO": "2026-09-28T21:49:56.909Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.mofa.gov.sa/",
@@ -10802,7 +10799,7 @@
   {
     "sourceUrl": "https://www.stats.gov.sa/en/news",
     "orgId": "gastat",
-    "contentHash": "ad4ec738e9b32a436bdec1bdba63b197ba988d8a2734e03d08a5815cb51b345d",
+    "contentHash": "29514129183f523bdb8b366a92c303bc720b5af88b6aa3ca41f0afdcaf25b485",
     "blockHashes": [
       "b7ce6498ecbc7c40",
       "c76bf99f8551a732",
@@ -11126,12 +11123,12 @@
       "00f2cdb2123b002f",
       "130941fb4f3fdf0d"
     ],
-    "extractedChars": 110655,
+    "extractedChars": 45012,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-29T02:41:39.002Z",
+    "lastChangedISO": "2026-09-29T06:18:10.160Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://www.tadawulgroup.sa/wps/portal/tadawulgroup/joinus",
