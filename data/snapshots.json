@@ -764,7 +764,7 @@
   {
     "sourceUrl": "https://career.alinma.com/",
     "orgId": "alinma",
-    "contentHash": "e245fd94c1ab59dcc6bad34af50ba34c224654b27d2f46834c18eef001143fa5",
+    "contentHash": null,
     "blockHashes": [
       "d139e32e22028878",
       "24a16c9057a577bb",
@@ -2227,9 +2227,9 @@
   {
     "sourceUrl": "https://gaca.gov.sa/ar/News",
     "orgId": "gaca",
-    "contentHash": "96e1db0949181257f8be578fd4b9c3ddd752555602c42702999809cd1a51e511",
+    "contentHash": "6b05b30f502ffd503197931eaa4669d2026ac9d13a6de770b23e87b962936a48",
     "blockHashes": [
-      "bce170d351beffaa",
+      "dcd4d48ba9290d61",
       "ef26de24708740d2",
       "95eb6a3bfae983dc",
       "50638526149c77c9",
@@ -2298,10 +2298,10 @@
       "83a22e1f9fb245f8",
       "bc532942aaed49b7"
     ],
-    "extractedChars": 20508,
+    "extractedChars": 20507,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-28T21:21:03.355Z",
+    "lastChangedISO": "2026-09-29T00:23:57.109Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -3302,8 +3302,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-28T21:21:03.355Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://momah.gov.sa/ar/news",
@@ -3749,8 +3748,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-28T21:26:59.614Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://ndf.gov.sa/media-center/press-news",
@@ -6507,10 +6505,10 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/careers/graduate-development-program",
     "orgId": "hrc",
-    "contentHash": "9e9569adde2a1fddf5f72f97337b02673a191e7f3fda37cbd7a057585956caff",
+    "contentHash": "fd194c844f902d606379c578f255757e3cbeae57c8604a1d4a8880358708b847",
     "blockHashes": [
       "12e41a244a8a2984",
-      "528d2f2297fdcf99",
+      "0a27d8ec4fd500d3",
       "741386d322f274be",
       "40d7009856bbc81d",
       "2dd486d3d3cacb8b",
@@ -6576,7 +6574,7 @@
     "extractedChars": 10714,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-28T21:21:03.355Z",
+    "lastChangedISO": "2026-09-29T00:23:57.109Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -7320,7 +7318,7 @@
   {
     "sourceUrl": "https://www.kapsarc.org/work-with-us/job-opportunities/",
     "orgId": "kapsarc",
-    "contentHash": "5af86e1955d4b6109891e5cef4c2cf1a67bd17bd31b4d428c85f40f65129fbd7",
+    "contentHash": "c7f1d5a728aecf562562788ace6e87c43c06418758722733daa75466e3b6eb06",
     "blockHashes": [
       "dbad88ec8435b910",
       "11ed80f75ad0e89e",
@@ -7342,7 +7340,7 @@
       "82125fef711b8fdc",
       "a8eb670b84904811",
       "d9cd1c2148907399",
-      "37a237edaa6a50f9",
+      "4da77374837a3d07",
       "9c51ede42f36a1d8",
       "0b23b586c4f30fe5",
       "0b23b586c4f30fe5",
@@ -7353,7 +7351,7 @@
     "extractedChars": 993,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-28T21:21:03.355Z",
+    "lastChangedISO": "2026-09-29T00:23:57.109Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -8604,8 +8602,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-28T21:06:10.137Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "triaged_out"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.nazaha.gov.sa/News/Details?q=+ZUW2RPX/9RAyHyLvILpaw==",
@@ -9853,8 +9850,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-28T21:21:03.355Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.saip.gov.sa/ar/media-center/movables-platform",
