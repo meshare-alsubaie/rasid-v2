@@ -2393,28 +2393,21 @@
   {
     "sourceUrl": "https://gaca.gov.sa/web/ar-sa/page/home",
     "orgId": "gaca",
-    "contentHash": "c552364c451ee91ae8aa28c65b3b1f65b0b4d04e69e2069b5485a62c060443b0",
+    "contentHash": "befb220530a7c9c20189a7aa85fa4760eae1fe1a1a0fea0b51714344eb4ac170",
     "blockHashes": [
-      "53a2ae4fb6b5b10e",
-      "63e7bf4cbe25a53a",
-      "c6ad9b232caf3243",
-      "d144725aec94caf4",
-      "4c690dad58c654d6",
-      "5f6d02942a20ece6",
-      "a3e3a19b0f3cd327",
-      "1104cbbcdb0855c2",
-      "29dce0a1c6aa77d4",
-      "4ea0378053866076",
-      "b62d24ce2a688c9f",
+      "e0982706711a71aa",
+      "67ba147535885b5a",
+      "90d5b20a2e1b1c87",
+      "520ea3165d37837f",
       "83a22e1f9fb245f8",
-      "b56e231e91931f13"
+      "bc532942aaed49b7"
     ],
-    "extractedChars": 2330,
+    "extractedChars": 1607,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-29T06:24:51.112Z",
+    "lastChangedISO": "2026-09-29T09:35:42.780Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://gmedia.gov.sa/",
@@ -3889,14 +3882,14 @@
   {
     "sourceUrl": "https://redf.gov.sa/ar/careers",
     "orgId": "redf",
-    "contentHash": "c434ffa0b9a15348dfe2e83c677132d9b16d3b6165b41dd99af655d7c82e292f",
+    "contentHash": "220fcd5afd38e1baa67187d7ca4ba957e7807aad6a41b7f824682db55d0fbc96",
     "blockHashes": [
-      "c434ffa0b9a15348"
+      "220fcd5afd38e1ba"
     ],
-    "extractedChars": 500,
+    "extractedChars": 660,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-02T23:42:46.216Z",
-    "lastChangedISO": "2026-09-29T08:59:23.035Z",
+    "lastChangedISO": "2026-09-29T17:03:23.030Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -6604,10 +6597,10 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/news?lang=ar",
     "orgId": "hrc",
-    "contentHash": "66a6d288e7e691ffc5d22735d4c4238f54e2951ae5fbfeb91d0779c421c779f4",
+    "contentHash": "ca605d5b5db5d746eb167664cd6d8e53232cb74fc1b8a78dc6f00663ef4ff637",
     "blockHashes": [
       "12e41a244a8a2984",
-      "a0ac2c6e8e5a3708",
+      "a989c258e5f5d0fb",
       "4be1bef04e057a74",
       "730dee1abdba4881",
       "5a844d931886a314",
@@ -6619,7 +6612,7 @@
       "cf697d7b00a64bd9",
       "a9471c67cbf6d09e",
       "b35cff3fb084182d",
-      "68c6f00888f6930b",
+      "b9a837d24f2c2840",
       "36e1e54731a2c88c",
       "782261474561a27a",
       "eb51bc3bf3ed1556",
@@ -6635,9 +6628,10 @@
     "extractedChars": 5255,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-29T06:24:51.112Z",
+    "lastChangedISO": "2026-09-29T09:35:42.780Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "triaged_out"
   },
   {
     "sourceUrl": "https://www.hrdf.org.sa/products-and-services/programs/individuals/training/cooperative-training/",
@@ -7870,7 +7864,7 @@
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-20T12:59:49.059Z",
-    "thinRuns": 40,
+    "thinRuns": 41,
     "pendingClassification": false
   },
   {
