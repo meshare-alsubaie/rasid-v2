@@ -1257,15 +1257,16 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/cookiesettings",
     "orgId": "maaden",
-    "contentHash": "7d1a568903698297acf2a720e602359ac1aa8bb17ca01a730ddd51e0ce833dac",
+    "contentHash": "63f82eed1d0a13dbfb4949331e571c3019b3520ee56c5555ed747670983281fd",
     "blockHashes": [
-      "6be713db8b983576",
-      "0e08d6eeebc65927"
+      "5569201553604d03",
+      "6a2fbb8880bb5bbb",
+      "ed0497ad8487518d"
     ],
     "extractedChars": 240,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-28T23:16:33.151Z",
+    "lastChangedISO": "2026-09-29T00:02:53.157Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -2153,7 +2154,7 @@
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T02:22:33.828Z",
     "lastChangedISO": "2026-08-29T02:36:21.032Z",
-    "thinRuns": 400,
+    "thinRuns": 401,
     "pendingClassification": false
   },
   {
@@ -7613,8 +7614,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-28T20:59:03.262Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "triaged_out"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.mewa.gov.sa/ar/MediaCenter/PressReleases/Pages/home.aspx",
@@ -7885,7 +7885,7 @@
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-20T12:59:49.059Z",
-    "thinRuns": 37,
+    "thinRuns": 38,
     "pendingClassification": false
   },
   {
@@ -8113,8 +8113,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-28T21:02:15.410Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.mof.gov.sa/Pages/default.aspx",
@@ -8321,8 +8320,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-28T20:59:03.262Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.moh.gov.sa/ministry/mediacenter/ads/pages/default.aspx",
@@ -8614,11 +8612,11 @@
   {
     "sourceUrl": "https://www.nazaha.gov.sa/News/Details?q=+ZUW2RPX/9RAyHyLvILpaw==",
     "orgId": "nazaha",
-    "contentHash": "f7f2c5ab4f007eff8f1a0083995fda6c6be777c5082802b81d7d8f7371ead32c",
+    "contentHash": "1f6eb2164fd54d22a305178a2d1ed36c1ad5fdd7ef5d03db24fe0a2ae3ecdb97",
     "blockHashes": [
       "a167b0dd9b0e3e1c",
       "74e4c1d2a646a96e",
-      "469959a406d2b487",
+      "86b7f6e2ced00383",
       "8d35c6dbfb6149bf",
       "934470dd7b84953f",
       "b97ad38f7d56bff9"
@@ -8626,9 +8624,10 @@
     "extractedChars": 757,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-27T21:07:40.843Z",
+    "lastChangedISO": "2026-09-29T00:05:17.942Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "triaged_out"
   },
   {
     "sourceUrl": "https://www.nazaha.gov.sa/News/Details?q=HNQU9DHVnwVHan0Mf562ug==",
@@ -9278,8 +9277,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-28T04:43:05.811Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "triaged_out"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.rcrc.gov.sa/",
@@ -9322,16 +9320,17 @@
   {
     "sourceUrl": "https://www.rcrc.gov.sa/careers/?lang=ar",
     "orgId": "rcrc",
-    "contentHash": "c7b55cc6e1ae84c69ba040a82954866fca552349efe94c18383f6ea00ef4ab39",
+    "contentHash": "13b87aed898957816fa76725a5f84c2932c857c8fefd0f037bf33a3ca1eb6e33",
     "blockHashes": [
       "c7b55cc6e1ae84c6"
     ],
-    "extractedChars": 784,
+    "extractedChars": 1166,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-28T23:13:23.736Z",
+    "lastChangedISO": "2026-09-29T00:05:17.942Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://www.rcrc.gov.sa/media-center/",
