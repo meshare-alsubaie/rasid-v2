@@ -1338,18 +1338,17 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/search-results",
     "orgId": "maaden",
-    "contentHash": "306ff28e372ae61e084ee3337b4c50dd4d4f3e9b496d7d25a269acdbcd4498b7",
+    "contentHash": "466e85288f77daca32a098ec02a28b16e3af9d67233e3d1b80ba13d8d6d65db2",
     "blockHashes": [
-      "dab5a7f3801bc914",
-      "642eaa3ec4afadfd",
-      "46d85b9d11fb0c89"
+      "0593a1678d987760",
+      "0e336933ad8773ca"
     ],
-    "extractedChars": 240,
-    "extractionMethod": "readability",
+    "extractedChars": 439,
+    "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-29T01:26:50.298Z",
+    "lastChangedISO": "2026-09-29T02:14:13.141Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://careers.mcit.gov.sa/",
@@ -3956,7 +3955,7 @@
     "blockHashes": [
       "220fcd5afd38e1ba"
     ],
-    "extractedChars": 660,
+    "extractedChars": 1254,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-02T23:42:46.216Z",
     "lastChangedISO": "2026-09-28T23:13:23.736Z",
@@ -7774,7 +7773,7 @@
   {
     "sourceUrl": "https://www.mim.gov.sa/ar/empower-training/cooperative-training",
     "orgId": "mim",
-    "contentHash": "2357c86b70804705121db66ca04cb6393cd32c00b2df40bfaf372c264b8b44f0",
+    "contentHash": "37e093921b15fcee188e13d1945025576840f95fc64f82ca6217f9355e61e1d0",
     "blockHashes": [
       "1cb91553dd3291a4",
       "5300d4cdd32a8d33"
@@ -7782,9 +7781,10 @@
     "extractedChars": 2178,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T02:22:33.828Z",
-    "lastChangedISO": "2026-09-29T01:35:06.064Z",
+    "lastChangedISO": "2026-09-29T02:21:37.790Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://www.mim.gov.sa/ar/media-center/news",
@@ -10475,7 +10475,7 @@
     "contentHash": "82225de1746414b2affec1f739a50da1672ca24a5f7e9a64343fe4c975bd4417",
     "blockHashes": [
       "4e3b1c94f76f8148",
-      "16dbb002653c1937",
+      "3ddbdc76b43fe6ec",
       "b28682d0a5fa37ed",
       "5e9a5843d184b153",
       "c6452237208136a0",
@@ -10493,7 +10493,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-29T01:32:49.184Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.sidf.gov.sa/ar/News",
