@@ -1257,18 +1257,18 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/cookiesettings",
     "orgId": "maaden",
-    "contentHash": "63f82eed1d0a13dbfb4949331e571c3019b3520ee56c5555ed747670983281fd",
+    "contentHash": "9bff5cc607a69c3a6843f35ce09e460842a6927d35c87eb6320e86152c31cd2d",
     "blockHashes": [
       "5569201553604d03",
       "6a2fbb8880bb5bbb",
       "ed0497ad8487518d"
     ],
-    "extractedChars": 240,
+    "extractedChars": 8013,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-29T00:02:53.157Z",
+    "lastChangedISO": "2026-09-29T00:55:52.129Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/search-results",
@@ -1758,7 +1758,7 @@
   {
     "sourceUrl": "https://careers.sdaia.gov.sa/training",
     "orgId": "sdaia",
-    "contentHash": "c85f5e138b5c65644cc36a9b0c5e9718da8d17a96fc8f6de56c2a65e79a3e09a",
+    "contentHash": "6d46074f1938763f0a9245a2aa1b013633c7a37add8a82be35a0ab6acd37be64",
     "blockHashes": [
       "a3638bfcc93928a2",
       "5a2ea8a7bc8ff607",
@@ -1774,9 +1774,9 @@
     "extractedChars": 1605,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-28T23:18:27.419Z",
+    "lastChangedISO": "2026-09-29T00:58:55.546Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://careers.stats.gov.sa/",
@@ -2152,7 +2152,7 @@
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T02:22:33.828Z",
     "lastChangedISO": "2026-08-29T02:36:21.032Z",
-    "thinRuns": 401,
+    "thinRuns": 402,
     "pendingClassification": false
   },
   {
@@ -2189,20 +2189,19 @@
   {
     "sourceUrl": "https://gaca.gov.sa/announcements",
     "orgId": "gaca",
-    "contentHash": "a172ab07ae18bbb8f7dc6e4f5e7f5cce2cd23a3b94ed4940a4a308a2d1a9a93b",
+    "contentHash": "11e5c6564d15e784a2d3c550e9bc5f81ae913c79c9c8a000c9a639c0c64f50a3",
     "blockHashes": [
       "75b2023eb94a35f4",
       "9c2a3967149440a8",
       "83a22e1f9fb245f8",
       "bc532942aaed49b7"
     ],
-    "extractedChars": 1215,
+    "extractedChars": 1515,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-28T21:38:04.429Z",
+    "lastChangedISO": "2026-09-29T00:45:01.655Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://gaca.gov.sa/ar/announcements",
@@ -6469,7 +6468,7 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/careers?lang=ar",
     "orgId": "hrc",
-    "contentHash": "3c6a5f82f5d552f615c74d4b81676dc817522d4423a972002c6e9ac38f922da4",
+    "contentHash": "c3aab85bd98d925af46cea65d05b08bed3508997895c72f61624f685d2e5cf37",
     "blockHashes": [
       "12e41a244a8a2984",
       "58b015ffb703870d",
@@ -6496,9 +6495,9 @@
     "extractedChars": 3819,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-28T21:38:04.429Z",
+    "lastChangedISO": "2026-09-29T00:45:01.655Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/careers/graduate-development-program",
@@ -7044,8 +7043,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-28T21:38:04.429Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.jadwa.com/en/careers",
@@ -7631,8 +7629,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-28T21:44:41.976Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.mewa.gov.sa/ar/MediaCenter/VisualIdentityGuide/Pages/default.aspx",
@@ -7713,7 +7710,7 @@
   {
     "sourceUrl": "https://www.mim.gov.sa/ar/empower-training/cooperative-training",
     "orgId": "mim",
-    "contentHash": "3dccd1a1a6d1f39a9b46eebe293d3f3888ee6f7e2c0646057fa0d3eeac45a6db",
+    "contentHash": "ce96ff99ff60e010b88ab91a0e582e516d03d410c5f3de2aaeac868758735eea",
     "blockHashes": [
       "1cb91553dd3291a4",
       "5300d4cdd32a8d33"
@@ -7721,10 +7718,9 @@
     "extractedChars": 2178,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T02:22:33.828Z",
-    "lastChangedISO": "2026-09-28T23:54:57.210Z",
+    "lastChangedISO": "2026-09-29T00:45:01.655Z",
     "thinRuns": 0,
-    "pendingClassification": true,
-    "classifyFailures": 1
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://www.mim.gov.sa/ar/media-center/news",
@@ -8671,8 +8667,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-28T21:38:04.429Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.nazaha.gov.sa/News/Details?q=o2ojUlDL5mGosOuEoGXXeg==",
@@ -9312,17 +9307,16 @@
   {
     "sourceUrl": "https://www.rcrc.gov.sa/careers/?lang=ar",
     "orgId": "rcrc",
-    "contentHash": "13b87aed898957816fa76725a5f84c2932c857c8fefd0f037bf33a3ca1eb6e33",
+    "contentHash": "4e4ba350845e4e11996d9d33dcdf1568d2e0cdd1b77baf00e095740012d5ee06",
     "blockHashes": [
       "c7b55cc6e1ae84c6"
     ],
     "extractedChars": 1166,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-29T00:05:17.942Z",
+    "lastChangedISO": "2026-09-29T00:58:55.546Z",
     "thinRuns": 0,
-    "pendingClassification": true,
-    "classifyFailures": 1
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://www.rcrc.gov.sa/media-center/",
