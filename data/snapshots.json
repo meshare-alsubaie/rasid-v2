@@ -2209,17 +2209,17 @@
   {
     "sourceUrl": "https://gaca.gov.sa/ar/announcements",
     "orgId": "gaca",
-    "contentHash": "c34e7ff36c31be868cd7485eaf1d94233bac431990c93d05111838e876b97664",
+    "contentHash": "a06971bd1c04f7201bb3a2a16e4c04911378a8ad9ee02b6c637d30650470d783",
     "blockHashes": [
-      "ac92b3cfb5d9c3e9",
+      "f288520c4ab11dea",
       "9c2a3967149440a8",
       "83a22e1f9fb245f8",
       "bc532942aaed49b7"
     ],
-    "extractedChars": 1215,
+    "extractedChars": 1214,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-28T21:06:10.137Z",
+    "lastChangedISO": "2026-09-29T00:10:23.117Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -3344,8 +3344,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-28T21:06:10.137Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://momah.gov.sa/ar/node/14717",
@@ -3485,7 +3484,7 @@
     "firstSeenISO": "2026-08-29T02:22:13.030Z",
     "lastChangedISO": "2026-09-28T20:45:30.499Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://nca.gov.sa/ar/cyber-training-and-qualifications/cybersecurity-program-3/",
@@ -6584,10 +6583,10 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/cooperations?lang=ar",
     "orgId": "hrc",
-    "contentHash": "cddcd6c4befb517a0240f600b67ffb57dc6a19035e6fb4b24341e009a39386fa",
+    "contentHash": "57da2689e9bdcdfaa35640c107590fb738bc3ddb5dd9b61ffdf2901984075ab9",
     "blockHashes": [
       "12e41a244a8a2984",
-      "07c8c32bc0ffd455",
+      "d7eaae8431a1ac72",
       "15c715928fc246c0",
       "9a4a215f8452ca45",
       "961639689d2c8819",
@@ -6608,7 +6607,7 @@
     "extractedChars": 6162,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-28T21:06:10.137Z",
+    "lastChangedISO": "2026-09-29T00:10:23.117Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -7218,8 +7217,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-28T21:06:10.137Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.kapsarc.org/newsroom/news/kapsarc-analyzes-impact-of-covid-19-on-the-saudi-market-in-24-job-sectors/",
@@ -7735,9 +7733,9 @@
   {
     "sourceUrl": "https://www.mim.gov.sa/ar/media-center/news",
     "orgId": "mim",
-    "contentHash": "1e0f8c9406a90faf7258066d3f03a2af74b261af5ba2cd0d9fe3c3c3376d9bb7",
+    "contentHash": "1de624afc61969dc9e8782787dd2e5384d6ad0a067b5400c2b377efa8025f170",
     "blockHashes": [
-      "1920a439ebcaeb4d",
+      "5f82efc753cde988",
       "138d2aa9a5c65516",
       "dc40cb1a74b23e69",
       "172421d691a25902",
@@ -7770,7 +7768,7 @@
     "extractedChars": 11088,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-28T20:59:03.262Z",
+    "lastChangedISO": "2026-09-29T00:10:23.117Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
