@@ -648,7 +648,7 @@
   {
     "sourceUrl": "https://athkax.sdaia.gov.sa/coop",
     "orgId": "sdaia",
-    "contentHash": "f1c749f1b0084dc210dc0d9f1e447c42c8ea07e30a315579c292163ea7abbe55",
+    "contentHash": "a58f144950bb22de0c4667555dc3401317db3a7e9e0679e6a27c03768b15a660",
     "blockHashes": [
       "04ba8a3fca46514f",
       "4bd08244050e9682"
@@ -656,7 +656,7 @@
     "extractedChars": 756,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-29T03:11:28.123Z",
+    "lastChangedISO": "2026-09-29T05:45:26.749Z",
     "thinRuns": 0,
     "pendingClassification": true,
     "classifyFailures": 1
@@ -1338,16 +1338,16 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/search-results",
     "orgId": "maaden",
-    "contentHash": "5ff3c24010547dd574b9294239fb212f04da33d0fb85d28af4a5972eefaa0ecd",
+    "contentHash": "7506dd8b7848c420482f353e60c52e36bde913b874055f654ea83c813d965004",
     "blockHashes": [
       "dab5a7f3801bc914",
-      "e6020f3be057c9c9",
-      "1806005c3e74600e"
+      "4b94fb6a3ccc215f",
+      "cd1b81c24379d773"
     ],
     "extractedChars": 240,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-29T03:03:49.839Z",
+    "lastChangedISO": "2026-09-29T05:45:26.749Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -2253,19 +2253,20 @@
   {
     "sourceUrl": "https://gaca.gov.sa/announcements",
     "orgId": "gaca",
-    "contentHash": "11e5c6564d15e784a2d3c550e9bc5f81ae913c79c9c8a000c9a639c0c64f50a3",
+    "contentHash": "84a577ccb033c872ca30bf9833a09058ff0a36c082f3238a75921a6ba31f84d6",
     "blockHashes": [
-      "75b2023eb94a35f4",
+      "92d7dc838e2e2c45",
       "9c2a3967149440a8",
       "83a22e1f9fb245f8",
       "bc532942aaed49b7"
     ],
-    "extractedChars": 1515,
+    "extractedChars": 1214,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-29T00:45:01.655Z",
+    "lastChangedISO": "2026-09-29T03:50:56.809Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://gaca.gov.sa/ar/announcements",
@@ -4498,7 +4499,7 @@
   {
     "sourceUrl": "https://training.moj.gov.sa/",
     "orgId": "moj",
-    "contentHash": null,
+    "contentHash": "f4c6ef6b783b69d09a8f681ad1d80f1df35ef8cb8864917255879208cc305886",
     "blockHashes": [
       "84a570379809f573",
       "ab443a0bbfda7883"
@@ -4506,7 +4507,7 @@
     "extractedChars": 481,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T02:31:49.455Z",
-    "lastChangedISO": "2026-09-29T02:08:34.338Z",
+    "lastChangedISO": "2026-09-29T05:45:26.749Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -6528,10 +6529,10 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/careers?lang=ar",
     "orgId": "hrc",
-    "contentHash": "c3aab85bd98d925af46cea65d05b08bed3508997895c72f61624f685d2e5cf37",
+    "contentHash": "4ca2ef5448f8aee6763173109f3979b1ea6bee956f7ff0777f541ff23c2215e7",
     "blockHashes": [
       "12e41a244a8a2984",
-      "58b015ffb703870d",
+      "dabb7d685e1e5579",
       "9bd6314e9bbc7375",
       "474d2dbb69aae30b",
       "84b2fc11813dc7e8",
@@ -6555,9 +6556,9 @@
     "extractedChars": 3819,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-29T00:45:01.655Z",
+    "lastChangedISO": "2026-09-29T03:50:56.809Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/careers/graduate-development-program",
@@ -7770,7 +7771,7 @@
   {
     "sourceUrl": "https://www.mim.gov.sa/ar/empower-training/cooperative-training",
     "orgId": "mim",
-    "contentHash": "cdccfa381da511a7e2c4967e8c89afd0e7db4853c1b349b9262474451fc6c2bf",
+    "contentHash": "92f7471e7dcbcedf1f1fd42757422f80ba052625fd9e87ce90ceab67656b2aba",
     "blockHashes": [
       "1cb91553dd3291a4",
       "5300d4cdd32a8d33"
@@ -7778,7 +7779,7 @@
     "extractedChars": 2178,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T02:22:33.828Z",
-    "lastChangedISO": "2026-09-29T03:11:28.123Z",
+    "lastChangedISO": "2026-09-29T05:45:26.749Z",
     "thinRuns": 0,
     "pendingClassification": true,
     "classifyFailures": 1
@@ -11180,18 +11181,18 @@
   {
     "sourceUrl": "https://www.tahakom.com/careers",
     "orgId": "tahakom",
-    "contentHash": "b38dbf058b4234ab057d12623e79e306acbf6beed2b6c4ee74f716e45330ea62",
+    "contentHash": "c6cc57c0f16594942f48318c12f633c350c76a44473935a33fe25d3b4b404684",
     "blockHashes": [
       "d44217251213a019",
       "611753a8aea1ade1",
       "0cea4d38306888dc",
       "1a5263a5a2541c46",
-      "1e38332e29a3b3fa"
+      "b94e9ce7eac243c4"
     ],
-    "extractedChars": 835,
+    "extractedChars": 833,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-03T05:13:40.059Z",
-    "lastChangedISO": "2026-09-29T03:09:08.788Z",
+    "lastChangedISO": "2026-09-29T05:45:26.749Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
