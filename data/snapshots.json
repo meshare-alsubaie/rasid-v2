@@ -2288,7 +2288,7 @@
   {
     "sourceUrl": "https://gaca.gov.sa/ar/News",
     "orgId": "gaca",
-    "contentHash": "6b05b30f502ffd503197931eaa4669d2026ac9d13a6de770b23e87b962936a48",
+    "contentHash": "dd87886a604db604641c703c4508415186628415eefe9a96eb8f0e4eb1a4a3d4",
     "blockHashes": [
       "dcd4d48ba9290d61",
       "ef26de24708740d2",
@@ -2359,13 +2359,12 @@
       "83a22e1f9fb245f8",
       "bc532942aaed49b7"
     ],
-    "extractedChars": 20507,
+    "extractedChars": 20763,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-29T00:23:57.109Z",
+    "lastChangedISO": "2026-09-29T03:35:24.039Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://gaca.gov.sa/news",
@@ -3871,8 +3870,7 @@
     "firstSeenISO": "2026-08-29T22:03:35.383Z",
     "lastChangedISO": "2026-09-28T21:26:59.614Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "triaged_out"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://nour.net.sa/ar/news/",
@@ -4500,7 +4498,7 @@
   {
     "sourceUrl": "https://training.moj.gov.sa/",
     "orgId": "moj",
-    "contentHash": "f4c6ef6b783b69d09a8f681ad1d80f1df35ef8cb8864917255879208cc305886",
+    "contentHash": null,
     "blockHashes": [
       "84a570379809f573",
       "ab443a0bbfda7883"
@@ -6564,7 +6562,7 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/careers/graduate-development-program",
     "orgId": "hrc",
-    "contentHash": "fd194c844f902d606379c578f255757e3cbeae57c8604a1d4a8880358708b847",
+    "contentHash": "91b017c881fcaba950dcca91ddc0d4c6b78671c5cf6108eb74530e786b72c6c5",
     "blockHashes": [
       "12e41a244a8a2984",
       "0a27d8ec4fd500d3",
@@ -6633,9 +6631,9 @@
     "extractedChars": 10714,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-29T00:23:57.109Z",
+    "lastChangedISO": "2026-09-29T03:35:24.039Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/cooperations?lang=ar",
@@ -7745,7 +7743,7 @@
   {
     "sourceUrl": "https://www.mim.gov.sa/ar",
     "orgId": "mim",
-    "contentHash": "9f4d8b45010e555d2224e768ebfecb0081004d9a01e6cb7690d98b16ee29ab4c",
+    "contentHash": "d57d0860edc16c24c237cc8a1864d6673e616d756d34f3bddd89b0b555ddeb49",
     "blockHashes": [
       "3807b656da60e9f0",
       "459d42186f54a9c0",
@@ -7762,12 +7760,12 @@
       "72f54e3b54384c41",
       "633f4ad4979c803a"
     ],
-    "extractedChars": 7548,
+    "extractedChars": 7571,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-22T17:44:59.644Z",
+    "lastChangedISO": "2026-09-29T03:41:27.995Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://www.mim.gov.sa/ar/empower-training/cooperative-training",
@@ -9335,17 +9333,16 @@
   {
     "sourceUrl": "https://www.rcrc.gov.sa/careers/?lang=ar",
     "orgId": "rcrc",
-    "contentHash": "fd62ba08ab6a4c251c7e98113400a80381b3ded9c1494a4e6bbeba55f6b60852",
+    "contentHash": "bd8fb5d5a4c5c3031da4939e2b14726140e3e613dab85c30e82f9ba14a9a9d37",
     "blockHashes": [
       "c7b55cc6e1ae84c6"
     ],
-    "extractedChars": 1166,
+    "extractedChars": 784,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-29T02:38:30.905Z",
+    "lastChangedISO": "2026-09-29T03:35:24.039Z",
     "thinRuns": 0,
-    "pendingClassification": true,
-    "classifyFailures": 1
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://www.rcrc.gov.sa/media-center/",
@@ -9470,8 +9467,7 @@
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
     "lastChangedISO": "2026-09-28T21:21:03.355Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "triaged_out"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.rcu.gov.sa/contact/careers",
@@ -10333,9 +10329,9 @@
   {
     "sourceUrl": "https://www.sfda.gov.sa/ar",
     "orgId": "sfda",
-    "contentHash": "ee0500f06c971f59a2198495e41f77c1d019835edbdb44defcf065c524f5e52c",
+    "contentHash": "630f7df226854c72d6ec868377e4d218c79654203724d80817d23c0f7409f890",
     "blockHashes": [
-      "78ac7626c843c1b6",
+      "e0aa24539a61a525",
       "0cae66fd6419120a",
       "d09774a62139b89f",
       "e8216aae91b1f5cb",
@@ -10388,7 +10384,7 @@
     "extractedChars": 7707,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-28T06:49:20.007Z",
+    "lastChangedISO": "2026-09-29T03:49:41.150Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -10741,7 +10737,7 @@
   {
     "sourceUrl": "https://www.stats.gov.sa/ar",
     "orgId": "gastat",
-    "contentHash": "c54588b581ce9aa1bb7bb666cb77ab0ee68d8ec68434b20cefc0a2fe75e2f799",
+    "contentHash": "8a52ac8907852d8722830ec92b895bdb69f5d643d3b0b89dce64352dda2a2b04",
     "blockHashes": [
       "b618107f43bd2daf",
       "2fec6d796296a0f8",
@@ -10750,13 +10746,12 @@
       "dc84e74cdce35fa3",
       "9214de5f4ec23c78"
     ],
-    "extractedChars": 3156,
+    "extractedChars": 3219,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-28T21:21:03.355Z",
+    "lastChangedISO": "2026-09-29T03:35:24.039Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "triaged_out"
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://www.stats.gov.sa/ar/cooperative-training",
