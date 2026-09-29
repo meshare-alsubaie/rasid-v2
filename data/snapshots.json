@@ -905,16 +905,16 @@
   {
     "sourceUrl": "https://careers.alrajhibank.com.sa/",
     "orgId": "alrajhi",
-    "contentHash": "a865968f7c5a1267e3ab4b09c0e1bda4b4edf9d1a9d228f2d3ab953912223928",
+    "contentHash": "e6a590c948152d8bded411e677c0dbb290c98bde7a139d889cb702b86c8efeaf",
     "blockHashes": [
       "481ecb5edc2c68e9",
       "99fd2574f2e9065b",
-      "9329bf26b41969b1"
+      "a3871bd5d3a3a37e"
     ],
-    "extractedChars": 802,
+    "extractedChars": 868,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-21T06:19:34.349Z",
+    "lastChangedISO": "2026-09-29T21:59:08.799Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -3931,11 +3931,13 @@
   {
     "sourceUrl": "https://rega.gov.sa/media-center/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%88%D8%A7%D9%84%D8%A5%D8%B9%D9%84%D8%A7%D9%86%D8%A7%D8%AA/",
     "orgId": "rega",
-    "contentHash": "6cbfefeb30957f5a57b78b5036916514f72309daaf3000ce0ea84e06212064fd",
+    "contentHash": "ff255638bb1612fd748727ea3734d1243ebf1bbe52d8a41e0dc43c9461efda2d",
     "blockHashes": [
       "2c2608753486ae3f",
       "74e4c1d2a646a96e",
-      "50d8713d5d87458c",
+      "08884b0efa545d58",
+      "67b2b0a2e2c8488e",
+      "8fc1e6f63a497048",
       "3cb8f69cb8a42297",
       "b93b3d493188db25",
       "2a698d51eb157a2d",
@@ -3945,18 +3947,17 @@
       "390c3456f1227c15",
       "20c59be41c15f5ca",
       "ca1d8198457d49ca",
-      "8b4746061ea2fee8",
-      "0a29c67e2f1034c7",
-      "14d06c27b103a17b",
+      "d5dc3d93b6e57d44",
       "782261474561a27a",
       "f583729048a57f1a"
     ],
-    "extractedChars": 3083,
+    "extractedChars": 3111,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-21T10:44:36.296Z",
+    "lastChangedISO": "2026-09-29T21:59:08.799Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://rega.gov.sa/media-center/%D8%A7%D9%84%D8%AD%D9%82%D9%8A%D8%A8%D8%A9-%D8%A7%D9%84%D8%AA%D9%88%D8%B9%D9%88%D9%8A%D8%A9/",
@@ -7912,11 +7913,11 @@
   {
     "sourceUrl": "https://www.mof.gov.sa/docslibrary/TrainingManuals/Pages/default.aspx",
     "orgId": "mof",
-    "contentHash": "165550eddd1dd482109983815831ccdb664e430c9543e1b45aeb62bd06c25d27",
+    "contentHash": "5ea53c8f95274fa0ee5cacb86f8aa18af0b3f2f536c7e05398fe8a665cfc5b90",
     "blockHashes": [
       "7f625851cbbadbc6",
       "f7711325e2c4b301",
-      "ad3aaeb8368d834a",
+      "6fc6921ed8628e76",
       "e84d677a03549107",
       "f4809815161554d5",
       "0129ceb5c2a3779e",
@@ -7930,7 +7931,7 @@
     "extractedChars": 16454,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-28T21:16:17.881Z",
+    "lastChangedISO": "2026-09-29T21:59:08.799Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -9250,7 +9251,7 @@
   {
     "sourceUrl": "https://www.rcrc.gov.sa/",
     "orgId": "rcrc",
-    "contentHash": "d6ae5528d32f623e52f6801fd9a0151cb5f4cdaf37b80c528e17339a137d0f9a",
+    "contentHash": "e1808fd3f2325df631bb6e20b575bc5f641e5625b590520c4e2d3353d222aac0",
     "blockHashes": [
       "dd62229c2f61fb42",
       "306db3646b8a6c73",
@@ -9267,7 +9268,8 @@
       "12f1f6332d8a8779",
       "6e5f989a3fce248d",
       "631fa3742418d437",
-      "fb7245561fca4de4",
+      "17a7fd157d55c809",
+      "3cccda139d4400b1",
       "aa0b7302330697e3",
       "b32d68c4e5c2da0f",
       "b91cd7f4edfa88d2",
@@ -9280,7 +9282,7 @@
     "extractedChars": 2274,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
-    "lastChangedISO": "2026-09-28T21:16:17.881Z",
+    "lastChangedISO": "2026-09-29T21:59:08.799Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
