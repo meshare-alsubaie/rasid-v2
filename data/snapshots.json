@@ -1339,16 +1339,16 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/search-results",
     "orgId": "maaden",
-    "contentHash": "947e8fa52da088aa8baeadad871d6bb700331ec2edee7bbf5e2b876614c361ab",
+    "contentHash": "36a0f792ce234fbd444a509b6e15a40e93b7988e3786adbb96325b0bec96e00c",
     "blockHashes": [
-      "dab5a7f3801bc914",
-      "6e5bce7be03fb87c",
-      "d5fb33a03791f993"
+      "0593a1678d987760",
+      "21d84b359a4ca1d5",
+      "342247bf33d261e7"
     ],
     "extractedChars": 240,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-30T20:05:37.104Z",
+    "lastChangedISO": "2026-09-30T20:52:36.037Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -9340,7 +9340,7 @@
   {
     "sourceUrl": "https://www.rcrc.gov.sa/",
     "orgId": "rcrc",
-    "contentHash": "b8deb215cb5be549843309ac6af6ebc7cd5415ff0b4131134b6426a70bbecdff",
+    "contentHash": "f472953ebcace526a11e090009c40a37f3ef3a20d78036a7218db097814865b1",
     "blockHashes": [
       "dd62229c2f61fb42",
       "306db3646b8a6c73",
@@ -9358,7 +9358,7 @@
       "6e5f989a3fce248d",
       "631fa3742418d437",
       "6eb7e915919ac199",
-      "8905cf296df8e413",
+      "995cb411b7707da8",
       "aa0b7302330697e3",
       "b32d68c4e5c2da0f",
       "b91cd7f4edfa88d2",
@@ -9371,10 +9371,9 @@
     "extractedChars": 2274,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
-    "lastChangedISO": "2026-09-30T14:32:41.765Z",
+    "lastChangedISO": "2026-09-30T20:52:36.037Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "triaged_out"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.rcrc.gov.sa/careers/?lang=ar",
@@ -10369,28 +10368,11 @@
   {
     "sourceUrl": "https://www.sfda.gov.sa/ar",
     "orgId": "sfda",
-    "contentHash": "84bc79b8d3b01c0675cb4c09ed0702279f7acfc166203669791792aa95a39913",
+    "contentHash": "edcd1a61bb5313051aacb2198c73604eacacd4c76aa58a34d1d6eddb952a9854",
     "blockHashes": [
-      "eaef006b822d97ed",
-      "0cae66fd6419120a",
-      "d09774a62139b89f",
-      "e8216aae91b1f5cb",
-      "cdadcbce8c75a49e",
-      "27b77b90132cbcac",
-      "1bf6fe5241f98639",
-      "565f7f4a85a9dc4a",
-      "b695068edf6db9d0",
-      "c6ad9b232caf3243",
-      "d144725aec94caf4",
-      "4c690dad58c654d6",
-      "edaefdca7a6c1d0c",
-      "0ecb43306f4ec4cd",
-      "f6ed6ed09f1fcbe3",
-      "36eb5731e5e2d58c",
-      "4c1405323194f8e1",
-      "6e5f989a3fce248d",
-      "cfc879cec72d1d12",
-      "22e03383181f5500",
+      "afec95355af13854",
+      "6ecc1b58c61ff1cd",
+      "6ecc1b58c61ff1cd",
       "3deb34c9b7765f1c",
       "9602e76373532436",
       "062cf6ccf792698c",
@@ -10416,15 +10398,15 @@
       "3b931cad7ef53a13",
       "658b43d0993d5397",
       "60b6afb763e71c83",
-      "499581f028536830",
+      "9dd754fcf35355a9",
       "b69ab73ade473181",
       "fe04993c9918963a",
       "af16e375a9685bae"
     ],
-    "extractedChars": 7707,
+    "extractedChars": 6292,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-30T14:24:02.671Z",
+    "lastChangedISO": "2026-09-30T20:56:41.580Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -10986,7 +10968,7 @@
   {
     "sourceUrl": "https://www.tadawulgroup.sa/wps/portal/tadawulgroup/joinus",
     "orgId": "tadawul",
-    "contentHash": "218af6789adae9d596633c79e9b359213a247d93501904bfc43eeae06fd8c680",
+    "contentHash": "d0d3b5ac169f1b73ab7aa83d70c779f4ee298b89ccc3b8284f83c6034148bac3",
     "blockHashes": [
       "dbfb7021493a5943",
       "4acb10188c67e120",
@@ -10998,12 +10980,13 @@
       "99045a67c833cd6b",
       "332ab17b1cccbd59"
     ],
-    "extractedChars": 1384,
+    "extractedChars": 1186,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-02T23:42:46.216Z",
-    "lastChangedISO": "2026-09-30T18:34:55.035Z",
+    "lastChangedISO": "2026-09-30T20:56:41.580Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://www.tahakom.com/",
