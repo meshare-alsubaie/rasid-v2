@@ -1337,18 +1337,18 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/search-results",
     "orgId": "maaden",
-    "contentHash": "230344cd5ec3d89dfeddb87f32ffff2c6c4b3ce367f470a9975caaa97c511a23",
+    "contentHash": "907595ab53d16fed8ee3557042625c3c1f42c40190186eb1c57ef29e2c0bba56",
     "blockHashes": [
       "dab5a7f3801bc914",
-      "669f38d8a36eabe9",
-      "a748fa8c692297ed"
+      "416a1ebe12f80462",
+      "4f281143c3837b37"
     ],
     "extractedChars": 240,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-30T06:42:21.005Z",
+    "lastChangedISO": "2026-09-30T07:36:15.158Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://careers.mcit.gov.sa/",
@@ -3570,19 +3570,20 @@
   {
     "sourceUrl": "https://nca.gov.sa/ar/education-program/",
     "orgId": "ncac",
-    "contentHash": "07dec85d48e1f5a808b46953c6be61d60f9b9a702317388ae330dfa01bd1009d",
+    "contentHash": "3beffb17d7d00ef30e8667d33af50a55de19e84165c1855ae0269f0a1c77e58d",
     "blockHashes": [
       "d5ca92ea742fdb6f",
       "2c957c09f7e685a0",
       "d433bb08ba08d5fe",
       "016bfbf205b30acc",
-      "4ec6ffe793eacb33",
+      "61a156c3da86dc55",
+      "acf248baae621e7d",
       "ed68b62e43bb1b79"
     ],
     "extractedChars": 807,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
-    "lastChangedISO": "2026-09-24T19:38:33.288Z",
+    "lastChangedISO": "2026-09-30T07:36:15.158Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -4488,7 +4489,7 @@
   {
     "sourceUrl": "https://training.moj.gov.sa/",
     "orgId": "moj",
-    "contentHash": "f4c6ef6b783b69d09a8f681ad1d80f1df35ef8cb8864917255879208cc305886",
+    "contentHash": null,
     "blockHashes": [
       "84a570379809f573",
       "ab443a0bbfda7883"
@@ -10978,7 +10979,8 @@
     "firstSeenISO": "2026-09-02T23:42:46.216Z",
     "lastChangedISO": "2026-09-30T06:45:53.307Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://www.tahakom.com/",
