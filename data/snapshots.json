@@ -29,7 +29,7 @@
   {
     "sourceUrl": "http://www.moenergy.gov.sa/",
     "orgId": "moenergy",
-    "contentHash": "271203fd480638b1783fb52d07d164c234edf689ea46ef3de4b075a060c19510",
+    "contentHash": "c6d01d3237cf3967ca1fde771591898c3a684b224d2ace42571d7b0349479ed9",
     "blockHashes": [
       "1b31019d80d6c6f6",
       "d2c1b02fed20d1c6",
@@ -46,16 +46,17 @@
       "3e0c452797202420",
       "24ad63b011b39941",
       "c09255cabba72f03",
-      "ca950d59c59db16b",
+      "74b9b5b8023c64c9",
       "e088549dca9d4b86",
-      "b14f9e937664e074"
+      "ca0dd6af13545a31"
     ],
-    "extractedChars": 9108,
+    "extractedChars": 9162,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T22:03:35.383Z",
-    "lastChangedISO": "2026-09-29T22:07:11.208Z",
+    "lastChangedISO": "2026-09-30T15:07:08.234Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "http://www.wasatah.com.sa/index.php/ar/",
@@ -1494,11 +1495,11 @@
   {
     "sourceUrl": "https://careers.saib.com.sa/ar/page/coop-program/",
     "orgId": "saib",
-    "contentHash": "dbcac92d92bcffebad599bfff6e18c51407da7c11259fd0b181bddb8daf39034",
+    "contentHash": "367ae26dd18fe264bf60c3016b8e56ee536847eb74ad0a1ed5b02a35f53821b4",
     "blockHashes": [
       "825147e49db63280",
       "0aada8fc06fc1718",
-      "e4e5c6ff02cdce7f",
+      "4ee035f0a968a3e5",
       "84438777d4b0d8a6",
       "35030cfcf1d7b420",
       "7c3d7ee8e149eb5b",
@@ -1509,10 +1510,10 @@
       "324e81719b15532f",
       "92a5797e3670f78c"
     ],
-    "extractedChars": 1535,
+    "extractedChars": 1529,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
-    "lastChangedISO": "2026-09-30T14:08:17.829Z",
+    "lastChangedISO": "2026-09-30T15:12:34.948Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -2247,10 +2248,18 @@
   {
     "sourceUrl": "https://gaca.gov.sa/ar/News",
     "orgId": "gaca",
-    "contentHash": "77a1d6eaa8b10c546b0d609ed8a7b82979f94d9d03fd647560971b7165d13931",
+    "contentHash": "3cf742bdcff47dc92a51351763f5ae06271ef5e087e740e961a675129d043965",
     "blockHashes": [
-      "cbb56f2ffa8307d9",
-      "ef26de24708740d2",
+      "bc5cb1746d1fe7ad",
+      "7de8ea5de5c99977",
+      "8587b2ba02f096c6",
+      "6382e3437605c55d",
+      "062283d90c368da4",
+      "6389070fc7c2742e",
+      "182dfe35a626336d",
+      "32c0b5af941c42e7",
+      "4acad9395d565b70",
+      "2f8e42d274877fe8",
       "95eb6a3bfae983dc",
       "50638526149c77c9",
       "9001f5b4c66727e1",
@@ -2306,24 +2315,17 @@
       "c84b4ce195a4a7a7",
       "d0191f9ce7cda459",
       "89325812f489a554",
-      "61205d792a54c6b2",
-      "0cd71a3ed9d59160",
-      "069b2847e40644bd",
-      "7d82a15bc7adde85",
-      "33e640d801b12098",
-      "4cfbeda69b748eae",
-      "f1ae2dab06539aca",
-      "83806ca220a038f5",
-      "12de0761cfdf936c",
+      "57534ebd8ed8f48f",
       "83a22e1f9fb245f8",
-      "2ccfa90c84c059a7"
+      "bc532942aaed49b7"
     ],
     "extractedChars": 21039,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-30T06:25:50.028Z",
+    "lastChangedISO": "2026-09-30T15:07:08.234Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "triaged_out"
   },
   {
     "sourceUrl": "https://gaca.gov.sa/news",
@@ -6443,10 +6445,10 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/careers",
     "orgId": "hrc",
-    "contentHash": "5a7960d4fc44b224f22a61b426f7d654096e3d5ec7cc49ffa96f38d057c89bf3",
+    "contentHash": "c485a7ec90114df25b103b2bcdf8ba15031a58a49432d084580c4745808d60d3",
     "blockHashes": [
       "12e41a244a8a2984",
-      "f74c099676c5ab28",
+      "6023d6dbcd69507e",
       "9bd6314e9bbc7375",
       "474d2dbb69aae30b",
       "84b2fc11813dc7e8",
@@ -6455,7 +6457,7 @@
       "ce8abacaf69b57a1",
       "659973c0ea5fa5aa",
       "f4ecefdb1c7b457e",
-      "c3de9b85fda8e222",
+      "87c1e2b5a81f7511",
       "782261474561a27a",
       "eb51bc3bf3ed1556",
       "c5ae95ac1b42bfc5",
@@ -6467,10 +6469,10 @@
       "3b5a8943dae3d475",
       "22484a6d9e7135f1"
     ],
-    "extractedChars": 3819,
+    "extractedChars": 3794,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-30T08:29:45.321Z",
+    "lastChangedISO": "2026-09-30T15:07:08.234Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -8132,8 +8134,7 @@
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
     "lastChangedISO": "2026-09-29T22:33:52.681Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.mofa.gov.sa/",
@@ -8568,8 +8569,7 @@
     "firstSeenISO": "2026-08-29T22:03:35.383Z",
     "lastChangedISO": "2026-09-30T03:59:35.293Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.nazaha.gov.sa/Jobs",
