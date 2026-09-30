@@ -661,8 +661,8 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-30T17:09:41.209Z",
     "thinRuns": 0,
-    "pendingClassification": true,
-    "classifyFailures": 2
+    "pendingClassification": false,
+    "classifyFailures": 3
   },
   {
     "sourceUrl": "https://awqaf.gov.sa/ar/ar/hiring/",
@@ -1260,15 +1260,16 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/cookiesettings",
     "orgId": "maaden",
-    "contentHash": "03d05164a4cdcc93056ab60e768306b67e3f4f033686b6050d280ed9e3827c6d",
+    "contentHash": "065a1ba690ad038371ffa1fa4c7c82a75688f42404ac2ddca47e59dfe7155dd8",
     "blockHashes": [
-      "95b16f53da764f4b",
-      "1a24e62cbb79b443"
+      "5569201553604d03",
+      "89f1e0516ecfe30b",
+      "095eb732bb697d77"
     ],
     "extractedChars": 240,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-30T18:00:23.296Z",
+    "lastChangedISO": "2026-09-30T18:47:00.799Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
