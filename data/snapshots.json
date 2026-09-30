@@ -1275,17 +1275,16 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/search-results",
     "orgId": "maaden",
-    "contentHash": "3d128085302308d0fc70a1fc937ca831a3be457f7facfb4308518ca955b7578a",
+    "contentHash": "e17abcbc0a711cf2e25d0c892238d77be655fe0d73fa7335bb9ed9eced91ba61",
     "blockHashes": [
       "dab5a7f3801bc914",
-      "0c1f7e81ceff4b10",
-      "33d1a491b1d4bd2d",
-      "6e078d366d736bd1"
+      "f288f57860602264",
+      "c5e45935b1c72403"
     ],
     "extractedChars": 240,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-30T17:45:14.044Z",
+    "lastChangedISO": "2026-09-30T18:33:05.250Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -2183,7 +2182,7 @@
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T02:22:33.828Z",
     "lastChangedISO": "2026-08-29T02:36:21.032Z",
-    "thinRuns": 424,
+    "thinRuns": 425,
     "pendingClassification": false
   },
   {
@@ -3555,8 +3554,7 @@
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
     "lastChangedISO": "2026-09-30T07:36:15.158Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "triaged_out"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://nca.gov.sa/ar/nca-academy/",
@@ -4459,7 +4457,7 @@
   {
     "sourceUrl": "https://training.moj.gov.sa/",
     "orgId": "moj",
-    "contentHash": "f4c6ef6b783b69d09a8f681ad1d80f1df35ef8cb8864917255879208cc305886",
+    "contentHash": null,
     "blockHashes": [
       "84a570379809f573",
       "ab443a0bbfda7883"
@@ -11114,21 +11112,24 @@
   {
     "sourceUrl": "https://www.tadawulgroup.sa/wps/portal/tadawulgroup/joinus",
     "orgId": "tadawul",
-    "contentHash": "d0d3b5ac169f1b73ab7aa83d70c779f4ee298b89ccc3b8284f83c6034148bac3",
+    "contentHash": "218af6789adae9d596633c79e9b359213a247d93501904bfc43eeae06fd8c680",
     "blockHashes": [
-      "0cfcdfa727221d00",
-      "689f707057688943",
-      "50a3cca530113406",
-      "a3435878c6033280",
-      "b2cab4da26050ee9"
+      "dbfb7021493a5943",
+      "4acb10188c67e120",
+      "9b405996eceb74cf",
+      "5b4fe1a76867e3dc",
+      "4cacbd860b3b4c52",
+      "a888c2eda107d142",
+      "a8f106c1cf7430a5",
+      "99045a67c833cd6b",
+      "332ab17b1cccbd59"
     ],
-    "extractedChars": 1186,
+    "extractedChars": 1384,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-02T23:42:46.216Z",
-    "lastChangedISO": "2026-09-30T06:45:53.307Z",
+    "lastChangedISO": "2026-09-30T18:34:55.035Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "classifyFailures": 3
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.tahakom.com/",
@@ -11152,18 +11153,18 @@
   {
     "sourceUrl": "https://www.tahakom.com/careers",
     "orgId": "tahakom",
-    "contentHash": "135902e95a8a8c76557990cec00ab494b6d2306bf8a1e31015284beb7df2caf0",
+    "contentHash": "855193303b2324024bccef01fb39a6cd0af6aa0a7562dccc8e836ce6179ea203",
     "blockHashes": [
       "d44217251213a019",
       "611753a8aea1ade1",
       "0cea4d38306888dc",
       "1a5263a5a2541c46",
-      "d9ba7c95404e43ba"
+      "d32ff43725c0dd4b"
     ],
-    "extractedChars": 832,
+    "extractedChars": 836,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-03T05:13:40.059Z",
-    "lastChangedISO": "2026-09-30T17:52:21.030Z",
+    "lastChangedISO": "2026-09-30T18:38:56.631Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
