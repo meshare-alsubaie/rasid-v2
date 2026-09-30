@@ -3200,9 +3200,9 @@
   {
     "sourceUrl": "https://modon.gov.sa/ar/MediaCenter/modon-news/News/Pages/default.aspx",
     "orgId": "modon",
-    "contentHash": "fd570dfc0440e85a8b5cd17de20bcb4e2f1fa82d7cd64e6bcd27e682a07a3529",
+    "contentHash": "bed567311ffeea2f4e3638bc39e0f28e3288cb643053a1456eb04d07d8769eae",
     "blockHashes": [
-      "835f13e7e3da3248",
+      "f2cd63d6fa6aa7c5",
       "8727cbb5dfea6170",
       "bdfe2a112c399ccd",
       "8ae17958586c8a8c",
@@ -3211,7 +3211,7 @@
     "extractedChars": 1591,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-30T17:23:49.059Z",
+    "lastChangedISO": "2026-09-30T20:27:10.172Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -7782,8 +7782,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-30T14:21:07.165Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "triaged_out"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.mim.gov.sa/ar/empower-training/cooperative-training",
@@ -10450,26 +10449,27 @@
   {
     "sourceUrl": "https://www.sfda.gov.sa/ar/news",
     "orgId": "sfda",
-    "contentHash": "ce1d450e056e05ae721b964aef6b77067b34f6cdcf539b612ec6ca390979514c",
+    "contentHash": "de2f0e2d21ed76c73afeb2c655bfd45f4c54155223bb0dfa2c7c217753ddcd16",
     "blockHashes": [
-      "d03e476beb2926b7",
+      "1affe3023270bf78",
+      "69e6584ca99ae3ed",
       "292129a904509147",
       "5c4b43134210dfe9",
       "9328e85fd7887778",
       "4604bc6f97a0dea4",
-      "f0a0eaa5817fe57a",
       "abbaebe56469a2c6",
-      "df2c45ff768288e2",
+      "9dd754fcf35355a9",
       "b69ab73ade473181",
       "fe04993c9918963a",
       "506fe5d55093ecae"
     ],
-    "extractedChars": 1458,
+    "extractedChars": 1497,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-30T06:00:45.375Z",
+    "lastChangedISO": "2026-09-30T20:27:10.172Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://www.sfda.gov.sa/en/career-vision-and-mission",
@@ -10776,22 +10776,22 @@
   {
     "sourceUrl": "https://www.stats.gov.sa/ar",
     "orgId": "gastat",
-    "contentHash": "b06426e41ea0fce26f258fc86d4f9917f7ab12e682b419a82f47630b606e8c90",
+    "contentHash": "0de296f70150a0d8aec07865f258eacae95e7fa7364ee831f149097144475a1e",
     "blockHashes": [
       "b618107f43bd2daf",
       "2fec6d796296a0f8",
-      "d6e946b9ea956974",
+      "5744a41a7623d536",
       "eee46ad1abd665a1",
       "dc84e74cdce35fa3",
       "9214de5f4ec23c78"
     ],
-    "extractedChars": 3220,
+    "extractedChars": 3242,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-30T14:24:02.671Z",
+    "lastChangedISO": "2026-09-30T20:28:44.836Z",
     "thinRuns": 0,
-    "pendingClassification": true,
-    "classifyFailures": 1
+    "pendingClassification": false,
+    "settledWithoutVerdict": "triaged_out"
   },
   {
     "sourceUrl": "https://www.stats.gov.sa/ar/cooperative-training",
