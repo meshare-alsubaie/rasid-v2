@@ -2256,9 +2256,9 @@
   {
     "sourceUrl": "https://gaca.gov.sa/ar/News",
     "orgId": "gaca",
-    "contentHash": "3cf742bdcff47dc92a51351763f5ae06271ef5e087e740e961a675129d043965",
+    "contentHash": "5fec2428deb89cf8fdb2b961877b0a42fea3b4057bbef921a23f6f59b8f5dd77",
     "blockHashes": [
-      "bc5cb1746d1fe7ad",
+      "a7b3c32ecc75a2ef",
       "7de8ea5de5c99977",
       "8587b2ba02f096c6",
       "6382e3437605c55d",
@@ -2325,15 +2325,15 @@
       "89325812f489a554",
       "57534ebd8ed8f48f",
       "83a22e1f9fb245f8",
-      "bc532942aaed49b7"
+      "2ccfa90c84c059a7"
     ],
-    "extractedChars": 21039,
+    "extractedChars": 21300,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-30T15:07:08.234Z",
+    "lastChangedISO": "2026-09-30T18:10:34.146Z",
     "thinRuns": 0,
     "pendingClassification": false,
-    "settledWithoutVerdict": "triaged_out"
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://gaca.gov.sa/news",
@@ -6449,10 +6449,10 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/careers",
     "orgId": "hrc",
-    "contentHash": "c485a7ec90114df25b103b2bcdf8ba15031a58a49432d084580c4745808d60d3",
+    "contentHash": "db85533c3b28e19f4b3762a9161c8b93515b42f5b487ccb3f8f7e099934ade95",
     "blockHashes": [
       "12e41a244a8a2984",
-      "6023d6dbcd69507e",
+      "966482194a5b96e1",
       "9bd6314e9bbc7375",
       "474d2dbb69aae30b",
       "84b2fc11813dc7e8",
@@ -6476,7 +6476,7 @@
     "extractedChars": 3794,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-30T15:07:08.234Z",
+    "lastChangedISO": "2026-09-30T18:10:34.146Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
