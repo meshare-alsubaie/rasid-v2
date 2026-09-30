@@ -662,7 +662,7 @@
     "lastChangedISO": "2026-09-30T17:09:41.209Z",
     "thinRuns": 0,
     "pendingClassification": true,
-    "classifyFailures": 1
+    "classifyFailures": 2
   },
   {
     "sourceUrl": "https://awqaf.gov.sa/ar/ar/hiring/",
@@ -1260,15 +1260,15 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/cookiesettings",
     "orgId": "maaden",
-    "contentHash": "418724b26e2f9e832a376804ea4fe82c98f3f2b0ec14e4790019fdc2445e63cd",
+    "contentHash": "03d05164a4cdcc93056ab60e768306b67e3f4f033686b6050d280ed9e3827c6d",
     "blockHashes": [
-      "65e35a9eead28131",
-      "66f94e9c40408c1f"
+      "95b16f53da764f4b",
+      "1a24e62cbb79b443"
     ],
     "extractedChars": 240,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-30T17:14:10.518Z",
+    "lastChangedISO": "2026-09-30T18:00:23.296Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -2220,9 +2220,9 @@
   {
     "sourceUrl": "https://gaca.gov.sa/announcements",
     "orgId": "gaca",
-    "contentHash": "95303e0c7ec040542f3fe3ddb034a7a068afbaaa9b0c96f8ddbfe6ca0cde93e0",
+    "contentHash": "b57e745d805ac443edad584c44d66b39cb918d019733073c6412297aa2a8f722",
     "blockHashes": [
-      "5c26b5edba3d7da5",
+      "13e72d87b8cbd967",
       "9c2a3967149440a8",
       "83a22e1f9fb245f8",
       "bc532942aaed49b7"
@@ -2230,7 +2230,7 @@
     "extractedChars": 1214,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-30T14:51:11.057Z",
+    "lastChangedISO": "2026-09-30T17:55:10.802Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -6483,10 +6483,10 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/careers?lang=ar",
     "orgId": "hrc",
-    "contentHash": "9c7f7e59dd3ce289a7f8b02772dc303bd52b3707a3accbb0964165e203733469",
+    "contentHash": "babffe6d1bd4f6e661c09dd0c1cd055f098ebb0c897c9e4029f09e39a7eb4da1",
     "blockHashes": [
       "12e41a244a8a2984",
-      "f9cef2611b6ea9e9",
+      "19dbfa15329c2356",
       "9bd6314e9bbc7375",
       "474d2dbb69aae30b",
       "84b2fc11813dc7e8",
@@ -6510,7 +6510,7 @@
     "extractedChars": 3794,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-30T14:51:11.057Z",
+    "lastChangedISO": "2026-09-30T17:55:10.802Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -6906,19 +6906,20 @@
   {
     "sourceUrl": "https://www.hrsd.gov.sa/media-center",
     "orgId": "hrsd",
-    "contentHash": "7075ffb099318c8a452daaa59fcf63647c8770879ddda904e93c70fb7e368b44",
+    "contentHash": "2aa6de2f8550ea8dd2d83da5e0277eef0048055adbd1a16dba1b35961147804c",
     "blockHashes": [
       "92ab7c84ae7e0913",
       "d394a61a935d883a",
       "f240ebfacade946d",
-      "0d8c68c7f4d1d0b2"
+      "2b39a8474eea7f5d"
     ],
     "extractedChars": 477,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-27T18:29:59.989Z",
+    "lastChangedISO": "2026-09-30T17:55:10.802Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://www.hrsd.gov.sa/media-center/events",
@@ -7644,8 +7645,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-30T06:47:42.537Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.mewa.gov.sa/ar/MediaCenter/VisualIdentityGuide/Pages/default.aspx",
@@ -8693,8 +8693,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-30T06:47:42.537Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "triaged_out"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.ncc.gov.sa/ar/MediaCenter/Events/Pages/default.aspx",
@@ -9853,8 +9852,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-30T14:51:11.057Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.saip.gov.sa/ar/media-center/movables-platform",
