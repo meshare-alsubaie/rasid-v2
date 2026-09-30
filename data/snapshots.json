@@ -1552,20 +1552,27 @@
     "orgId": "saib",
     "contentHash": "f3c57d94234ca51d74bbea87eceb308cb2431c41337c39887b129861dec4bf76",
     "blockHashes": [
-      "8e3d2733726503df",
-      "7200acbe3639cf15",
-      "1634229160e598bd",
-      "2430e59ab92c6f92",
-      "57c786cc95c4c087",
-      "67792f8d3a54d521"
+      "5d89642fdd14ce36",
+      "dfcdf56120a8b71a",
+      "7df498d258dbe1da",
+      "2390c3aef4f51c73",
+      "84438777d4b0d8a6",
+      "35030cfcf1d7b420",
+      "7c3d7ee8e149eb5b",
+      "a8f8ed7d07a0894e",
+      "8b36f953420f705f",
+      "7be217c1fdb1fdcb",
+      "30e651e97120c569",
+      "162d56ac9bcc52cb",
+      "5af33050f6b65fd3"
     ],
     "extractedChars": 1822,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-30T13:49:50.900Z",
     "thinRuns": 0,
-    "pendingClassification": true,
-    "classifyFailures": 2
+    "pendingClassification": false,
+    "classifyFailures": 3
   },
   {
     "sourceUrl": "https://careers.sama.gov.sa/",
@@ -2071,7 +2078,7 @@
   {
     "sourceUrl": "https://cma.gov.sa/Pages/default.aspx",
     "orgId": "cma",
-    "contentHash": "c0960e7f378b731c172da70bc17d3139a809b1a0876c74e51f02bf006825137d",
+    "contentHash": "afe600213bc3ab8acea60178ea2a0bc10f1cebf0aabd51b18e575060c9e10ba0",
     "blockHashes": [
       "1ce798e0ca5f6070",
       "74e4c1d2a646a96e",
@@ -2092,8 +2099,7 @@
       "03bdba846cdb4ac0",
       "f1e794c388c177fa",
       "b7fcdc02f8524c81",
-      "76a485f2bcf8cb11",
-      "0c84fce31d3bfef0",
+      "319fdfaa24f339e4",
       "53945aa62a869605",
       "dd08d88970e4d27e",
       "782261474561a27a",
@@ -2113,13 +2119,13 @@
       "3b5a8943dae3d475",
       "729394298e88bff3"
     ],
-    "extractedChars": 12628,
+    "extractedChars": 12331,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-30T09:49:39.788Z",
+    "lastChangedISO": "2026-09-30T15:53:07.733Z",
     "thinRuns": 0,
     "pendingClassification": false,
-    "settledWithoutVerdict": "triaged_out"
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://e-services.hrc.gov.sa/ar/service/details/12",
@@ -2696,30 +2702,29 @@
   {
     "sourceUrl": "https://lcgpa.gov.sa/ar/Pages/default.aspx",
     "orgId": "lcgpa",
-    "contentHash": "3317c334a6306e994ecc08addabdf892e1690312cbcbee771d2ff391ad37e11c",
+    "contentHash": "aeec913e17dbc7890e6813f25363a5d6531e6edec8d6eb7a3505c5b4ad4566a8",
     "blockHashes": [
-      "a9017acb640ad807",
-      "46746e40671b0dc7",
+      "3d1174fa3c742ac8",
       "beda84e843f95551"
     ],
-    "extractedChars": 394,
+    "extractedChars": 218,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-30T09:49:39.788Z",
+    "lastChangedISO": "2026-09-30T15:53:07.733Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
   {
     "sourceUrl": "https://makkah-careers.health.sa/",
     "orgId": "mecca_health",
-    "contentHash": null,
+    "contentHash": "99c987bdde03dcae21259aa8bb0ebff9d7d2f7680ec1fdd719427023870c1433",
     "blockHashes": [
       "99c987bdde03dcae"
     ],
     "extractedChars": 352,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-28T20:38:16.434Z",
+    "lastChangedISO": "2026-09-30T15:53:07.733Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -2801,7 +2806,7 @@
   {
     "sourceUrl": "https://mawhiba.org/",
     "orgId": "mawhiba",
-    "contentHash": "3d3fe61290fc296a755a88355161516f9ef1bf7b76b7c5e4e754ee0c75abe1c1",
+    "contentHash": "fb24b8dc0610a20c8bd1fd68adcea2ccb01195286c2d4a95998bb7b74ca7e22d",
     "blockHashes": [
       "4ca583695fc9ed7a",
       "23d7d78632f44f90",
@@ -2822,15 +2827,15 @@
       "c4583f676c27517a",
       "4ea242e080578a16",
       "a4e4e1fbeaab5463",
-      "e2dc7c4bc4ff16e6",
+      "83acb4f25dc48741",
       "b518044d0e3ef109",
-      "1f3c4598715a2661",
+      "79ea6b9a5afba371",
       "a7510ae3f3e13fc4"
     ],
-    "extractedChars": 8199,
+    "extractedChars": 8301,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-30T03:28:29.520Z",
+    "lastChangedISO": "2026-09-30T15:53:07.733Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -4967,7 +4972,7 @@
   {
     "sourceUrl": "https://www.alinma.com/",
     "orgId": "alinma",
-    "contentHash": "2d537ed771cd13f83733af739cc68a37fc7a55c33b06206bddd9b2ab45c88b51",
+    "contentHash": "848b5941bd66ef6e33df90195128efb74a550f5f99e1a68ec6e765716c49278f",
     "blockHashes": [
       "c07ea4f5d775385d",
       "bf13ad34b054342e",
@@ -4975,13 +4980,13 @@
       "eee691e668c36a27",
       "7472f35a35d5be62",
       "c756575b72f84944",
-      "c8f770419273fa2a",
+      "d892902057ed51e4",
       "fcdc707f0342be1e"
     ],
     "extractedChars": 1504,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-30T09:49:39.788Z",
+    "lastChangedISO": "2026-09-30T15:53:07.733Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "triaged_out"
@@ -11180,21 +11185,21 @@
   {
     "sourceUrl": "https://www.taifcity.gov.sa/#/ar",
     "orgId": "taif_amanah",
-    "contentHash": "d20cc3c32c2bc83c007d8cf870c018ac8bd3e45057b95d815680e77e0306c642",
+    "contentHash": "e6f9de02a12e773f262d151212d12a26b61e9eb727b869597c3b51a3d4502006",
     "blockHashes": [
       "969f0f9d8129003d",
-      "544c20b4c9dbc613",
+      "d5613a92bdf01063",
       "cfc879cec72d1d12",
-      "c6a8ff7c0652d6cf",
+      "acda1eb1130c44f0",
       "8554e1d0ca772440"
     ],
-    "extractedChars": 2142,
+    "extractedChars": 240,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T23:54:26.779Z",
-    "lastChangedISO": "2026-09-30T09:49:39.788Z",
+    "lastChangedISO": "2026-09-30T15:53:07.733Z",
     "thinRuns": 0,
     "pendingClassification": false,
-    "settledWithoutVerdict": "triaged_out"
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://www.thiqah.sa/",
