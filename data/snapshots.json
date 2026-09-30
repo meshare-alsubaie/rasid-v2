@@ -55,8 +55,7 @@
     "firstSeenISO": "2026-08-29T22:03:35.383Z",
     "lastChangedISO": "2026-09-29T22:07:11.208Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "http://www.wasatah.com.sa/index.php/ar/",
@@ -1272,15 +1271,16 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/search-results",
     "orgId": "maaden",
-    "contentHash": "2d39dd394b409a777df76545aa60e45c61a2fe0b45f1367866cdc0f9d6a14a46",
+    "contentHash": "a1f68ba22d5a0959292239d0fe517005eedd7fd4e6342aaba9cca8dec22e8371",
     "blockHashes": [
       "0593a1678d987760",
-      "bf2f162437a7241f"
+      "4e5cd0184fcd72f5",
+      "a7b0a1914dd503e4"
     ],
-    "extractedChars": 226,
-    "extractionMethod": "body_fallback",
+    "extractedChars": 240,
+    "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-30T03:24:36.877Z",
+    "lastChangedISO": "2026-09-30T04:15:06.955Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -3795,14 +3795,17 @@
       "76746f52976848b1",
       "73ea57f5d3f49927",
       "f113972f5bda8fba",
-      "62bf404445b0fa36"
+      "62bf404445b0fa36",
+      "d0e89f8b02ff9960",
+      "139546e1bb791f29"
     ],
     "extractedChars": 3805,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T22:03:35.383Z",
     "lastChangedISO": "2026-09-29T22:19:16.180Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://nour.net.sa/ar/news/",
@@ -10350,8 +10353,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-29T22:07:11.208Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.sfda.gov.sa/ar/career-vision-and-mission",
