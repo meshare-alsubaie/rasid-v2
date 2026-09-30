@@ -2381,19 +2381,19 @@
   {
     "sourceUrl": "https://gaca.gov.sa/web/ar-sa/page/home",
     "orgId": "gaca",
-    "contentHash": "c9c17848d4c86a269abd34aade45106a0dae702f528d56bd9fd9e9bf81350c94",
+    "contentHash": "68c2be082320076b6d57a7f7dbddc6150f40d2cb3f22724f8338d4c64816115d",
     "blockHashes": [
-      "0d660e7728e3fcc9",
+      "42b6ef4b1225ff6f",
       "67ba147535885b5a",
       "90d5b20a2e1b1c87",
-      "67f5c03521f03369",
+      "213f4b1269963756",
       "83a22e1f9fb245f8",
       "b56e231e91931f13"
     ],
     "extractedChars": 1607,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-30T05:56:07.243Z",
+    "lastChangedISO": "2026-09-30T09:45:28.367Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -4285,15 +4285,15 @@
   {
     "sourceUrl": "https://takamolholding.com/ar/join-us",
     "orgId": "takamol",
-    "contentHash": "354b9cbb3c75d6836d8da8390fc045bc451417714dd09c80a7a92315604264af",
+    "contentHash": "1c01152219e081fd2e5cf9889b6fc4f06f224546f858c042d3327db61d61bbc2",
     "blockHashes": [
-      "a269bc0fd2159f46",
-      "800e20741a20daa7"
+      "7fe60a979f147da5",
+      "451e371814b7cbdb"
     ],
-    "extractedChars": 707,
-    "extractionMethod": "body_fallback",
+    "extractedChars": 306,
+    "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
-    "lastChangedISO": "2026-09-30T06:00:45.375Z",
+    "lastChangedISO": "2026-09-30T09:45:28.367Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -6376,21 +6376,21 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/all_branches_news?lang=ar",
     "orgId": "hrc",
-    "contentHash": "228a50751542d41f6cc2cc0bce27c61b9ec88e38d85d70226eb6be4702481664",
+    "contentHash": "df0fcd6f64d8f155760f21d1d9ed1e4a0f44d718fd82d44abc5e59e7bbd7f99e",
     "blockHashes": [
       "12e41a244a8a2984",
-      "1a8168e30a3ca126",
-      "f5f8d6443e8e9010",
-      "02fd91be7253d9e4",
-      "6cd077b5b02f6b16",
-      "ba1199a7028e3908",
-      "33eb6d50af8a9e7d",
-      "95bdad0025d327fe",
-      "8f47474aa1ad6de1",
-      "6d17e94e607e0320",
-      "847c3ef6af4659d5",
-      "5e6a29b6b2d838e2",
-      "c3315535d852f1c5",
+      "dbaab983d88f97b1",
+      "f1bdac7ad7f0ff22",
+      "eada9065fc805384",
+      "affd75c0a04d2d7f",
+      "d438fbb5f619b8ac",
+      "c266fc022227acf8",
+      "6e6cf0d2b3069674",
+      "b3218cf385b1a594",
+      "654c5400f69ad1ff",
+      "e1bc1e7bea3edc4f",
+      "b35e58802e3dc177",
+      "32bb776530d87215",
       "782261474561a27a",
       "eb51bc3bf3ed1556",
       "c5ae95ac1b42bfc5",
@@ -6402,12 +6402,13 @@
       "3b5a8943dae3d475",
       "22484a6d9e7135f1"
     ],
-    "extractedChars": 5064,
+    "extractedChars": 5187,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-30T06:00:45.375Z",
+    "lastChangedISO": "2026-09-30T09:45:28.367Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "triaged_out"
   },
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/careers",
@@ -7689,15 +7690,15 @@
     "orgId": "mim",
     "contentHash": "9a7799cf113cfca1cbe934c5e91912b52703d9b8636282c41ccd1974d8fc2cbb",
     "blockHashes": [
-      "1cb91553dd3291a4",
-      "5300d4cdd32a8d33"
+      "5029cb74ee8473fc",
+      "2447dbebf42b7dc7"
     ],
     "extractedChars": 672,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T02:22:33.828Z",
     "lastChangedISO": "2026-09-30T08:46:49.760Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.mim.gov.sa/ar/media-center/news",
@@ -9321,13 +9322,13 @@
   {
     "sourceUrl": "https://www.rcrc.gov.sa/news-ar/",
     "orgId": "rcrc",
-    "contentHash": "729c0714ebe7293f99c851182bbc82c19b6bc269c677ab7c753bfcf5881b442a",
+    "contentHash": "19f1b2960be062e49c530ed38f8ab20e85bc22bc6973ce4f92345f2255ae8bcb",
     "blockHashes": [
       "dd62229c2f61fb42",
       "306db3646b8a6c73",
       "b28682d0a5fa37ed",
       "43fd7e2fbbd17df3",
-      "3c5df619d77bcee2",
+      "1357cdbe2b1ee981",
       "dd5bfb74e89dbbdd",
       "b32d68c4e5c2da0f",
       "b91cd7f4edfa88d2",
@@ -9337,10 +9338,10 @@
       "42d24dc3675b45a7",
       "2ebbd7048725e505"
     ],
-    "extractedChars": 3422,
+    "extractedChars": 3423,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-30T05:56:07.243Z",
+    "lastChangedISO": "2026-09-30T09:45:28.367Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
