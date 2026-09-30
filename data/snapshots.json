@@ -2265,16 +2265,16 @@
   {
     "sourceUrl": "https://gac.gov.sa/",
     "orgId": "gac",
-    "contentHash": "0c7f78a421f71c547efcc92c5cf78bdadf1885f7da61d9fd1c9e3edba92b4830",
+    "contentHash": "720e80da37ba3a7878cf2b4fc53d0ca3b68c20132a6052f2875bf8bf884d5acf",
     "blockHashes": [
-      "0cdd0c315bebc36a",
+      "171501c906c9e1c6",
       "4021095d86fd3a47",
       "aacaf49217281f68"
     ],
-    "extractedChars": 2779,
+    "extractedChars": 2776,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-09-17T12:53:53.341Z",
-    "lastChangedISO": "2026-09-30T16:00:11.937Z",
+    "lastChangedISO": "2026-09-30T22:06:07.073Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -2644,8 +2644,7 @@
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
     "lastChangedISO": "2026-09-30T16:00:11.937Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://jobs.misa.gov.sa/ar/?locale=ar_SA",
@@ -3170,9 +3169,9 @@
   {
     "sourceUrl": "https://modon.gov.sa/",
     "orgId": "modon",
-    "contentHash": "2031c82d243120e17bf572d5302eeb7993e408d944f00e3aad48b5ec28d50e0c",
+    "contentHash": "2d973ee583fc3dfd49b3985b49f8704169d095430e9c09f3ad7239930f74c153",
     "blockHashes": [
-      "22848a96aeaa7f64",
+      "0ffbcfc5863fdf94",
       "0edf2292f0637ccb",
       "c32ffa2c93fe0d09",
       "9066ce9805b0428c",
@@ -3194,7 +3193,7 @@
     "extractedChars": 5996,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-30T16:00:11.937Z",
+    "lastChangedISO": "2026-09-30T22:06:07.073Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -3686,17 +3685,17 @@
   {
     "sourceUrl": "https://ncar.gov.sa/",
     "orgId": "ncar",
-    "contentHash": "d5de5a93fe3c7ec52c470c9e78f5b5a5753f591b95c822ed54bdc1fed55389ef",
+    "contentHash": "ae487ee2dd89503c76c858477157c1f762e8260af586f0f318bb72da1aaf4c2c",
     "blockHashes": [
       "c911502a32b8a6f9",
-      "6379bf576abaf67d",
-      "979b7c43e5c1d16c",
+      "51298181046b2e48",
+      "26b7600a224c8c65",
       "75c514565d626437"
     ],
-    "extractedChars": 867,
+    "extractedChars": 1195,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-30T16:00:11.937Z",
+    "lastChangedISO": "2026-09-30T22:06:07.073Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -3960,18 +3959,19 @@
   {
     "sourceUrl": "https://redf.gov.sa/",
     "orgId": "redf",
-    "contentHash": "797ae583ddb2dd9f813c059485ea5b0286c877a9cd69e9b206fbc0074fab67fa",
+    "contentHash": "2662b7df6adcb24496e638f9ccde02aa69328478385c67f085380798ea7ccaa1",
     "blockHashes": [
       "765acfd523453a7f",
       "743b9c5832ecc399",
-      "b05142f0167ed0ad"
+      "d04e278e0deea7b5"
     ],
     "extractedChars": 576,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-30T09:53:53.738Z",
+    "lastChangedISO": "2026-09-30T22:06:07.073Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://redf.gov.sa/ar/careers",
@@ -4373,16 +4373,17 @@
   {
     "sourceUrl": "https://sta.gov.sa/",
     "orgId": "sta",
-    "contentHash": "e837e53880dd6d6accad57a83694e440c8d946d2a65c9b8cf1538079c8e22fb1",
+    "contentHash": "daed8f34cf40bb61ab33c3ec7eaa1a6ed4c9367bb06def382d031e96fa75990c",
     "blockHashes": [
-      "e837e53880dd6d6a"
+      "daed8f34cf40bb61"
     ],
-    "extractedChars": 177,
+    "extractedChars": 163,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-30T09:53:53.738Z",
-    "thinRuns": 1,
-    "pendingClassification": false
+    "lastChangedISO": "2026-09-30T22:06:07.073Z",
+    "thinRuns": 0,
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://takamolholding.com/ar/join-us",
@@ -6439,21 +6440,22 @@
   {
     "sourceUrl": "https://www.gaca.gov.sa/",
     "orgId": "gaca",
-    "contentHash": "eb64ad301acab9124502f06ac0e26d0bdd9b739936d9fa2e452f52e01687ba9e",
+    "contentHash": "37a935c27030c076c4aee26a2132ea9a24c570d48ac0006d089fcb26301c7532",
     "blockHashes": [
-      "8522b33709918755",
+      "c66b685bf3a042b9",
       "67ba147535885b5a",
       "90d5b20a2e1b1c87",
-      "66ab008cadadd83e",
+      "98b0f721363b8a74",
       "83a22e1f9fb245f8",
-      "b56e231e91931f13"
+      "ac473f85e97b4d85"
     ],
     "extractedChars": 1607,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-30T16:00:11.937Z",
+    "lastChangedISO": "2026-09-30T22:06:07.073Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "triaged_out"
   },
   {
     "sourceUrl": "https://www.gosi.gov.sa/",
@@ -6728,11 +6730,11 @@
   {
     "sourceUrl": "https://www.hrdf.org.sa/products-and-services/programs/individuals/training/cooperative-training/",
     "orgId": "hrdf_coop",
-    "contentHash": "c82b0ae3c6dce277c1651bff4be5b94a0505421a45f36b73623815fb9de67258",
+    "contentHash": "9dee16b600ccba216ae45cfb2667f7a11d57f0924475735f0968c8cf0bc10cce",
     "blockHashes": [
       "45526a3a724650be",
       "74e4c1d2a646a96e",
-      "db2b6dd4aded4b29",
+      "8bb0bd1b51861b29",
       "0bbb8684587712ce",
       "708fe6c77bb05acc",
       "8b7e6b90d8c89aa7",
@@ -6902,7 +6904,7 @@
     "extractedChars": 8563,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-03T01:25:25.661Z",
-    "lastChangedISO": "2026-09-29T21:23:46.923Z",
+    "lastChangedISO": "2026-09-30T22:06:07.073Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -7844,7 +7846,7 @@
   {
     "sourceUrl": "https://www.moc.gov.sa/ar",
     "orgId": "moc",
-    "contentHash": "fca6ed72fa2a941df442baf0aded783fad535d764c8d3512714f41b9628d7c6a",
+    "contentHash": null,
     "blockHashes": [
       "dd0c5c67bcb6e67a",
       "805c8f126b6de227",
@@ -10000,16 +10002,22 @@
   {
     "sourceUrl": "https://www.sanabil.com/",
     "orgId": "sanabil",
-    "contentHash": "69bdcb7ace057efe7211022190523e31173e5b9f46351c6758a0baa968b6d647",
+    "contentHash": "9aeab58b179b61e7e42eccfaf72228189db91dc9da28ddc4df1156560dc39a71",
     "blockHashes": [
-      "69bdcb7ace057efe"
+      "31cdfc6f8c640312",
+      "7c41f59750ecf85e",
+      "c85c8cd795b8ffd3",
+      "8e734943b7081e4f",
+      "a4b70189ffd2a7d4",
+      "1807b705ce9a72a7"
     ],
     "extractedChars": 666,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-30T09:53:53.738Z",
+    "lastChangedISO": "2026-09-30T22:06:07.073Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "triaged_out"
   },
   {
     "sourceUrl": "https://www.sar.com.sa/",
@@ -10996,18 +11004,18 @@
   {
     "sourceUrl": "https://www.tahakom.com/",
     "orgId": "tahakom",
-    "contentHash": "510ae8e41afa37e79cdd78d3a2d8b222819f957dc3688f62d288472c14f1b2f7",
+    "contentHash": "809b02d87d75c39f9056ddfd5e8ddff9f708fde920c51c4f54fd2f4898e0146f",
     "blockHashes": [
       "d44217251213a019",
       "611753a8aea1ade1",
       "0cea4d38306888dc",
       "1a5263a5a2541c46",
-      "a329fa08d32f11fc"
+      "e33ebf6f7a507f0c"
     ],
-    "extractedChars": 836,
+    "extractedChars": 838,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-03T05:13:40.059Z",
-    "lastChangedISO": "2026-09-30T16:03:58.966Z",
+    "lastChangedISO": "2026-09-30T22:06:07.073Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
