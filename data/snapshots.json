@@ -3800,7 +3800,7 @@
   {
     "sourceUrl": "https://nour.net.sa/ar/news/",
     "orgId": "nournet",
-    "contentHash": "af599ca3b9d6f2c19988d162540f1e48e4654bffd8c557593e9072950c311391",
+    "contentHash": "6f332e1d712b730afa41f1820e7f8b06be287775fca31da525d5745c128ffb82",
     "blockHashes": [
       "e387450693cee68e",
       "480336c0417bb253",
@@ -3809,9 +3809,9 @@
     "extractedChars": 383,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-24T17:59:37.920Z",
+    "lastChangedISO": "2026-09-30T08:46:49.760Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://nour.net.sa/ar/news/limitless-2026-event/",
@@ -6587,7 +6587,7 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/news?lang=ar",
     "orgId": "hrc",
-    "contentHash": "8e7445b40a95acf9ffb1585b4403b54afd7d901c4f4fd8bb3a4cf03ce4b3b8cb",
+    "contentHash": "976ede469bdea9506c54c50fe07d9c169f71d9a4103d1aa6f649f82784919904",
     "blockHashes": [
       "12e41a244a8a2984",
       "d2f90653238c02e9",
@@ -6618,10 +6618,9 @@
     "extractedChars": 5255,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-30T05:44:51.438Z",
+    "lastChangedISO": "2026-09-30T08:46:49.760Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "triaged_out"
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://www.hrdf.org.sa/products-and-services/programs/individuals/training/cooperative-training/",
@@ -7688,18 +7687,17 @@
   {
     "sourceUrl": "https://www.mim.gov.sa/ar/empower-training/cooperative-training",
     "orgId": "mim",
-    "contentHash": "d7adf8639e64ea9e3ccc3f69bb254f5c5a3fe1ebe6d971d3fb049304b3ca554b",
+    "contentHash": "9a7799cf113cfca1cbe934c5e91912b52703d9b8636282c41ccd1974d8fc2cbb",
     "blockHashes": [
       "1cb91553dd3291a4",
       "5300d4cdd32a8d33"
     ],
-    "extractedChars": 2178,
+    "extractedChars": 672,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T02:22:33.828Z",
-    "lastChangedISO": "2026-09-30T07:58:40.748Z",
+    "lastChangedISO": "2026-09-30T08:46:49.760Z",
     "thinRuns": 0,
-    "pendingClassification": true,
-    "classifyFailures": 1
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://www.mim.gov.sa/ar/media-center/news",
@@ -9284,17 +9282,16 @@
   {
     "sourceUrl": "https://www.rcrc.gov.sa/careers/?lang=ar",
     "orgId": "rcrc",
-    "contentHash": "9554bd8c59555de2394f8f672cc605675d68c7fe65207bdb43c16a3c8b15ac5a",
+    "contentHash": "1e3ec8a8f38aaaffabff8bc6c8a94084541e80747c84fdf26255e2b0d1e0b757",
     "blockHashes": [
       "9a677ae574d252f8"
     ],
     "extractedChars": 1167,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-30T07:52:14.767Z",
+    "lastChangedISO": "2026-09-30T08:44:55.290Z",
     "thinRuns": 0,
-    "pendingClassification": true,
-    "classifyFailures": 1
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://www.rcrc.gov.sa/media-center/",
@@ -9617,8 +9614,7 @@
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
     "lastChangedISO": "2026-09-30T05:44:51.438Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.sabic.com/ar/careers",
