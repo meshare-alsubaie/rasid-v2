@@ -765,7 +765,7 @@
   {
     "sourceUrl": "https://career.alinma.com/",
     "orgId": "alinma",
-    "contentHash": null,
+    "contentHash": "e245fd94c1ab59dcc6bad34af50ba34c224654b27d2f46834c18eef001143fa5",
     "blockHashes": [
       "d139e32e22028878",
       "24a16c9057a577bb",
@@ -774,7 +774,7 @@
     "extractedChars": 750,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-01T01:46:07.967Z",
-    "lastChangedISO": "2026-09-30T13:29:21.592Z",
+    "lastChangedISO": "2026-09-30T22:14:46.244Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -2937,7 +2937,7 @@
   {
     "sourceUrl": "https://mc.gov.sa/ar/pages/default.aspx",
     "orgId": "mc",
-    "contentHash": "4b33fc4aa6189539d50664d1755553920f1792b8212eb6497a399243969945c7",
+    "contentHash": "6dd9cd821262a8fe6227b8f77575a51873c09421c3d6d843a2cbaa964c320048",
     "blockHashes": [
       "88b5148b04637d49",
       "74e4c1d2a646a96e",
@@ -2949,9 +2949,9 @@
       "f26ba23694f872f4",
       "d30525e53ce353e7",
       "807e90f9fcf722ce",
-      "0bf63cf3f0a5110c",
+      "7238906944cd1776",
+      "254ebb34ab2398db",
       "d4d0ea959601c56a",
-      "0f37261fe4bbe02c",
       "7388bedb36b7cfb3",
       "21cf4a39855f6112",
       "d0f0d951b75dc3da",
@@ -2959,10 +2959,10 @@
       "c0be845c29d2cb4d",
       "512411bd0eda978e"
     ],
-    "extractedChars": 2623,
+    "extractedChars": 2607,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T23:21:37.487Z",
-    "lastChangedISO": "2026-09-30T16:05:45.811Z",
+    "lastChangedISO": "2026-09-30T22:09:49.091Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -8208,28 +8208,29 @@
   {
     "sourceUrl": "https://www.mofa.gov.sa/",
     "orgId": "mofa",
-    "contentHash": "cb0b719aa4ae00888340b525942b6126fe6d929fa035b0c5e965c948282f9464",
+    "contentHash": "b280e7f6e2e18b49a103c58844025298ba77ce12594d99cb56e79ab7130767cd",
     "blockHashes": [
       "88b5148b04637d49",
       "74e4c1d2a646a96e",
-      "49596b050c87a47d",
-      "405bd4182393bf17",
-      "15bb658b7a15fbfd",
-      "c4d6ce5ecae4d3f7",
-      "020d4911a0f5f5ac",
+      "1d522701754f935c",
+      "7c65c0068a66a92e",
+      "05e0b11c4af3a75e",
+      "ee0efd1919c0bbe1",
+      "1a8d19ffeefcd91a",
       "fa6fba72d1d25fea",
-      "1af7a25ed553ca99",
-      "8db557c1921e90e3",
+      "b464959f5a852b43",
+      "40864ea777f9c0bf",
       "06538d757b5fb483",
-      "7d218978455ac8b9",
+      "2769baa3adc186b8",
       "782261474561a27a"
     ],
-    "extractedChars": 1539,
+    "extractedChars": 1600,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
-    "lastChangedISO": "2026-09-30T10:08:24.851Z",
+    "lastChangedISO": "2026-09-30T22:14:46.244Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://www.mofa.gov.sa/ar/ministry/news/Pages/%D8%A7%D8%AA%D9%81%D8%A7%D9%82%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D8%A5%D8%B9%D9%81%D8%A7%D8%A1-%D8%A7%D9%84%D9%85%D8%AA%D8%A8%D8%A7%D8%AF%D9%84.aspx",
