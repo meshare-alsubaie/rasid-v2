@@ -763,7 +763,7 @@
   {
     "sourceUrl": "https://career.alinma.com/",
     "orgId": "alinma",
-    "contentHash": "e245fd94c1ab59dcc6bad34af50ba34c224654b27d2f46834c18eef001143fa5",
+    "contentHash": null,
     "blockHashes": [
       "d139e32e22028878",
       "24a16c9057a577bb",
@@ -2222,7 +2222,7 @@
   {
     "sourceUrl": "https://gaca.gov.sa/ar/News",
     "orgId": "gaca",
-    "contentHash": "5ab17c88f71027600aa1d2761c117e3243533f8fc8a0ee50192e77a90295ece0",
+    "contentHash": "77a1d6eaa8b10c546b0d609ed8a7b82979f94d9d03fd647560971b7165d13931",
     "blockHashes": [
       "cbb56f2ffa8307d9",
       "ef26de24708740d2",
@@ -2293,13 +2293,12 @@
       "83a22e1f9fb245f8",
       "2ccfa90c84c059a7"
     ],
-    "extractedChars": 20768,
+    "extractedChars": 21039,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-30T03:21:21.530Z",
+    "lastChangedISO": "2026-09-30T06:25:50.028Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://gaca.gov.sa/news",
@@ -6484,7 +6483,7 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/careers/graduate-development-program",
     "orgId": "hrc",
-    "contentHash": "a0cf63d02e4ba2099389e6cfd6676784e1c90aee411ceea09123a8c20887dbee",
+    "contentHash": "5d5feaada53ca83639276b0de3fa1f3d849d4624800c39126f222cf887d85f90",
     "blockHashes": [
       "12e41a244a8a2984",
       "2b7f7d1960fe1de3",
@@ -6553,9 +6552,9 @@
     "extractedChars": 10714,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-30T03:24:36.877Z",
+    "lastChangedISO": "2026-09-30T06:32:08.378Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/cooperations?lang=ar",
