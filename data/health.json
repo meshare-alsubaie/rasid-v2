@@ -182,11 +182,11 @@
   {
     "sourceUrl": "https://alinma.com/About-the-Bank/The-Bank/News/2011/12/alinmabankhoststrainingcourseoncorporatebusinessservicesandebanking",
     "orgId": "alinma",
-    "lastAttemptISO": "2026-10-01T06:46:02.027Z",
+    "lastAttemptISO": "2026-10-01T13:24:15.189Z",
     "lastSuccessISO": "2026-10-01T06:46:02.027Z",
-    "consecutiveFailures": 0,
-    "lastError": null,
-    "state": "healthy"
+    "consecutiveFailures": 1,
+    "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
+    "state": "degraded"
   },
   {
     "sourceUrl": "https://alinma.com/About-the-Bank/The-Bank/News/2013/05/alinmajobandcareerdayattractsgraduatesoftheinstituteofpublicadministration",
@@ -443,9 +443,9 @@
   {
     "sourceUrl": "https://careers.alrajhibank.com.sa/ar/page/coop-program/",
     "orgId": "alrajhi",
-    "lastAttemptISO": "2026-10-01T12:30:39.369Z",
+    "lastAttemptISO": "2026-10-01T13:24:15.189Z",
     "lastSuccessISO": "2026-10-01T11:32:39.893Z",
-    "consecutiveFailures": 1,
+    "consecutiveFailures": 2,
     "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
     "state": "degraded"
   },
@@ -524,9 +524,9 @@
   {
     "sourceUrl": "https://careers.cma.gov.sa/ar/saudi-arabia/jobs/%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D8%AC-%D8%A7%D9%84%D8%AA%D8%AF%D8%B1%D9%8A%D8%A8-%D8%A7%D9%84%D8%AA%D8%B9%D8%A7%D9%88%D9%86%D9%8A-%D9%84%D9%84%D9%81%D8%B5%D9%84-%D8%A7%D9%84%D8%AF%D8%B1%D8%A7%D8%B3%D9%8A-%D8%A7%D9%84%D8%B5%D9%8A%D9%81%D9%8A-2025%D9%85-1100087033/",
     "orgId": "cma",
-    "lastAttemptISO": "2026-10-01T12:30:39.369Z",
+    "lastAttemptISO": "2026-10-01T13:24:15.189Z",
     "lastSuccessISO": "2026-09-17T01:47:47.388Z",
-    "consecutiveFailures": 182,
+    "consecutiveFailures": 183,
     "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
     "state": "broken"
   },
@@ -713,18 +713,18 @@
   {
     "sourceUrl": "https://careers.saib.com.sa/en/page/coop-program/",
     "orgId": "saib",
-    "lastAttemptISO": "2026-10-01T12:30:39.369Z",
+    "lastAttemptISO": "2026-10-01T13:24:15.189Z",
     "lastSuccessISO": "2026-10-01T11:32:39.893Z",
-    "consecutiveFailures": 1,
+    "consecutiveFailures": 2,
     "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
     "state": "degraded"
   },
   {
     "sourceUrl": "https://careers.sama.gov.sa/",
     "orgId": "sama",
-    "lastAttemptISO": "2026-10-01T12:30:39.369Z",
+    "lastAttemptISO": "2026-10-01T13:24:15.189Z",
     "lastSuccessISO": "2026-10-01T11:32:39.893Z",
-    "consecutiveFailures": 1,
+    "consecutiveFailures": 2,
     "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
     "state": "degraded"
   },
@@ -839,9 +839,9 @@
   {
     "sourceUrl": "https://careers.stc.com.sa/content/COOP/?locale=en_US",
     "orgId": "stc",
-    "lastAttemptISO": "2026-10-01T12:16:11.757Z",
+    "lastAttemptISO": "2026-10-01T13:24:15.189Z",
     "lastSuccessISO": "2026-10-01T11:03:54.705Z",
-    "consecutiveFailures": 1,
+    "consecutiveFailures": 2,
     "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
     "state": "degraded"
   },
@@ -1406,11 +1406,11 @@
   {
     "sourceUrl": "https://nca.gov.sa/en/news/",
     "orgId": "nca",
-    "lastAttemptISO": "2026-10-01T10:19:44.042Z",
+    "lastAttemptISO": "2026-10-01T13:24:15.189Z",
     "lastSuccessISO": "2026-10-01T10:19:44.042Z",
-    "consecutiveFailures": 0,
-    "lastError": null,
-    "state": "healthy"
+    "consecutiveFailures": 1,
+    "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
+    "state": "degraded"
   },
   {
     "sourceUrl": "https://ncar.gov.sa/",
@@ -1694,9 +1694,9 @@
   {
     "sourceUrl": "https://slccareers.kpmg.com/job/Riyadh-Supervisor-External-Auditor/857251123/",
     "orgId": "kpmg_sa",
-    "lastAttemptISO": "2026-10-01T12:16:11.757Z",
+    "lastAttemptISO": "2026-10-01T13:24:15.189Z",
     "lastSuccessISO": "2026-10-01T11:03:54.705Z",
-    "consecutiveFailures": 1,
+    "consecutiveFailures": 2,
     "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
     "state": "degraded"
   },
@@ -2036,11 +2036,11 @@
   {
     "sourceUrl": "https://www.aramco.com/en/careers/for-saudi-applicants/student-opportunities/university-and-vocational-college-internship-programs",
     "orgId": "aramco",
-    "lastAttemptISO": "2026-10-01T11:47:11.278Z",
+    "lastAttemptISO": "2026-10-01T13:24:15.189Z",
     "lastSuccessISO": "2026-10-01T11:47:11.278Z",
-    "consecutiveFailures": 0,
-    "lastError": null,
-    "state": "healthy"
+    "consecutiveFailures": 1,
+    "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
+    "state": "degraded"
   },
   {
     "sourceUrl": "https://www.aramco.com/en/careers/for-saudi-applicants/student-opportunities/university-and-vocational-college-internship-programs/university-internship-program",
@@ -3179,10 +3179,10 @@
   {
     "sourceUrl": "https://www.pwc.com/m1/en/careers/graduates.html",
     "orgId": "pwc_sa",
-    "lastAttemptISO": "2026-10-01T11:47:11.278Z",
+    "lastAttemptISO": "2026-10-01T13:24:15.189Z",
     "lastSuccessISO": "2026-09-02T23:42:46.216Z",
-    "consecutiveFailures": 183,
-    "lastError": "HTTP 403",
+    "consecutiveFailures": 184,
+    "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
     "state": "broken"
   },
   {
@@ -3359,9 +3359,9 @@
   {
     "sourceUrl": "https://www.sabic.com/ar/careers/middle-east-africa/students-and-fresh-graduates",
     "orgId": "sabic",
-    "lastAttemptISO": "2026-10-01T12:30:39.369Z",
+    "lastAttemptISO": "2026-10-01T13:24:15.189Z",
     "lastSuccessISO": "2026-10-01T10:35:45.151Z",
-    "consecutiveFailures": 2,
+    "consecutiveFailures": 3,
     "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
     "state": "degraded"
   },
@@ -3836,9 +3836,9 @@
   {
     "sourceUrl": "https://www.thiqah.sa/careers/",
     "orgId": "thiqah",
-    "lastAttemptISO": "2026-10-01T12:23:29.507Z",
+    "lastAttemptISO": "2026-10-01T13:24:15.189Z",
     "lastSuccessISO": "2026-10-01T11:23:07.188Z",
-    "consecutiveFailures": 1,
+    "consecutiveFailures": 2,
     "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
     "state": "degraded"
   },
