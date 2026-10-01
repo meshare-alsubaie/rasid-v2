@@ -137,7 +137,7 @@
   {
     "sourceUrl": "https://adf.gov.sa/ar/Pages/default.aspx",
     "orgId": "adf",
-    "contentHash": "83f663b5f87284b0c78c8748c409d58ac712bdab4958920f7d85f97b9b1bb6cd",
+    "contentHash": "d68e06285a2d441426a6f1bb23d28290d791de3a311b0ee6b617910d2adee556",
     "blockHashes": [
       "1ce798e0ca5f6070",
       "9e8708f46644e878",
@@ -162,10 +162,10 @@
     "extractedChars": 1992,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
-    "lastChangedISO": "2026-09-30T21:34:22.107Z",
+    "lastChangedISO": "2026-10-01T03:41:48.022Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "triaged_out"
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://adf.gov.sa/ar/Pages/employment.aspx",
@@ -8145,8 +8145,7 @@
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
     "lastChangedISO": "2026-09-30T21:31:31.012Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.mofa.gov.sa/",
