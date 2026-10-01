@@ -335,11 +335,11 @@
   {
     "sourceUrl": "https://awqaf.gov.sa/ar/ar/hiring/",
     "orgId": "awqaf",
-    "lastAttemptISO": "2026-10-01T15:01:35.076Z",
-    "lastSuccessISO": "2026-10-01T11:59:33.635Z",
-    "consecutiveFailures": 1,
-    "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
-    "state": "degraded"
+    "lastAttemptISO": "2026-10-01T22:53:54.400Z",
+    "lastSuccessISO": "2026-10-01T22:53:54.400Z",
+    "consecutiveFailures": 0,
+    "lastError": null,
+    "state": "healthy"
   },
   {
     "sourceUrl": "https://awqaf.gov.sa/ar/hiring",
@@ -1244,8 +1244,8 @@
   {
     "sourceUrl": "https://modon.gov.sa/",
     "orgId": "modon",
-    "lastAttemptISO": "2026-10-01T10:23:29.844Z",
-    "lastSuccessISO": "2026-10-01T10:23:29.844Z",
+    "lastAttemptISO": "2026-10-01T22:53:54.400Z",
+    "lastSuccessISO": "2026-10-01T22:53:54.400Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -1307,11 +1307,11 @@
   {
     "sourceUrl": "https://momah.gov.sa/ar/news",
     "orgId": "housing",
-    "lastAttemptISO": "2026-10-01T14:31:37.799Z",
-    "lastSuccessISO": "2026-10-01T11:30:01.572Z",
-    "consecutiveFailures": 1,
-    "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
-    "state": "degraded"
+    "lastAttemptISO": "2026-10-01T22:53:54.400Z",
+    "lastSuccessISO": "2026-10-01T22:53:54.400Z",
+    "consecutiveFailures": 0,
+    "lastError": null,
+    "state": "healthy"
   },
   {
     "sourceUrl": "https://momah.gov.sa/ar/node/14717",
@@ -1784,11 +1784,11 @@
   {
     "sourceUrl": "https://tetco.sa/ar/latest-news",
     "orgId": "tetco",
-    "lastAttemptISO": "2026-10-01T12:41:25.766Z",
-    "lastSuccessISO": "2026-10-01T09:39:09.518Z",
-    "consecutiveFailures": 1,
-    "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
-    "state": "degraded"
+    "lastAttemptISO": "2026-10-01T22:53:54.400Z",
+    "lastSuccessISO": "2026-10-01T22:53:54.400Z",
+    "consecutiveFailures": 0,
+    "lastError": null,
+    "state": "healthy"
   },
   {
     "sourceUrl": "https://thiqah.sa/",
@@ -1919,11 +1919,11 @@
   {
     "sourceUrl": "https://www.aecl.com/en/news/",
     "orgId": "aec",
-    "lastAttemptISO": "2026-10-01T14:22:37.984Z",
-    "lastSuccessISO": "2026-10-01T11:21:45.506Z",
-    "consecutiveFailures": 1,
-    "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
-    "state": "degraded"
+    "lastAttemptISO": "2026-10-01T22:53:54.400Z",
+    "lastSuccessISO": "2026-10-01T22:53:54.400Z",
+    "consecutiveFailures": 0,
+    "lastError": null,
+    "state": "healthy"
   },
   {
     "sourceUrl": "https://www.alahli.com/ar/pages/about-us/careers",
@@ -2009,11 +2009,11 @@
   {
     "sourceUrl": "https://www.aramco.com/en/careers/for-saudi-applicants/student-opportunities/apprenticeship-program",
     "orgId": "aramco",
-    "lastAttemptISO": "2026-10-01T14:16:27.794Z",
-    "lastSuccessISO": "2026-10-01T11:03:54.705Z",
-    "consecutiveFailures": 2,
-    "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
-    "state": "degraded"
+    "lastAttemptISO": "2026-10-01T22:53:54.400Z",
+    "lastSuccessISO": "2026-10-01T22:53:54.400Z",
+    "consecutiveFailures": 0,
+    "lastError": null,
+    "state": "healthy"
   },
   {
     "sourceUrl": "https://www.aramco.com/en/careers/for-saudi-applicants/student-opportunities/college-continuation-program",
@@ -2189,10 +2189,10 @@
   {
     "sourceUrl": "https://www.ecza.gov.sa/ar/media-center/news-press/alhyyt-tnzm-dwrt-tdrybyt-bnwan-altwyt-bslamt-alghdha",
     "orgId": "ecza",
-    "lastAttemptISO": "2026-10-01T14:22:37.984Z",
+    "lastAttemptISO": "2026-10-01T22:53:54.400Z",
     "lastSuccessISO": "2026-09-21T10:17:11.553Z",
-    "consecutiveFailures": 47,
-    "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
+    "consecutiveFailures": 48,
+    "lastError": "HTTP 404",
     "state": "broken"
   },
   {
@@ -2261,11 +2261,11 @@
   {
     "sourceUrl": "https://www.ey.com/en_sa/careers",
     "orgId": "ey_sa",
-    "lastAttemptISO": "2026-10-01T13:55:04.526Z",
-    "lastSuccessISO": "2026-10-01T10:49:16.489Z",
-    "consecutiveFailures": 2,
-    "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
-    "state": "degraded"
+    "lastAttemptISO": "2026-10-01T22:53:54.400Z",
+    "lastSuccessISO": "2026-10-01T22:53:54.400Z",
+    "consecutiveFailures": 0,
+    "lastError": null,
+    "state": "healthy"
   },
   {
     "sourceUrl": "https://www.ey.com/en_sa/careers/assurance",
@@ -2324,11 +2324,11 @@
   {
     "sourceUrl": "https://www.fakeeh.care/news-and-media",
     "orgId": "fakeeh",
-    "lastAttemptISO": "2026-10-01T14:22:37.984Z",
-    "lastSuccessISO": "2026-10-01T11:21:45.506Z",
-    "consecutiveFailures": 1,
-    "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
-    "state": "degraded"
+    "lastAttemptISO": "2026-10-01T22:53:54.400Z",
+    "lastSuccessISO": "2026-10-01T22:53:54.400Z",
+    "consecutiveFailures": 0,
+    "lastError": null,
+    "state": "healthy"
   },
   {
     "sourceUrl": "https://www.fakeeh.care/news-and-update",
@@ -2405,11 +2405,11 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/cooperations?lang=ar",
     "orgId": "hrc",
-    "lastAttemptISO": "2026-10-01T15:01:35.076Z",
-    "lastSuccessISO": "2026-10-01T11:59:33.635Z",
-    "consecutiveFailures": 1,
-    "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
-    "state": "degraded"
+    "lastAttemptISO": "2026-10-01T22:53:54.400Z",
+    "lastSuccessISO": "2026-10-01T22:53:54.400Z",
+    "consecutiveFailures": 0,
+    "lastError": null,
+    "state": "healthy"
   },
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/news?lang=ar",
@@ -2531,11 +2531,11 @@
   {
     "sourceUrl": "https://www.jadwa.com/en/internship",
     "orgId": "jadwa",
-    "lastAttemptISO": "2026-10-01T12:42:37.368Z",
-    "lastSuccessISO": "2026-10-01T09:27:14.277Z",
-    "consecutiveFailures": 1,
-    "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
-    "state": "degraded"
+    "lastAttemptISO": "2026-10-01T22:53:54.400Z",
+    "lastSuccessISO": "2026-10-01T22:53:54.400Z",
+    "consecutiveFailures": 0,
+    "lastError": null,
+    "state": "healthy"
   },
   {
     "sourceUrl": "https://www.kapsarc.org/",
@@ -2558,11 +2558,11 @@
   {
     "sourceUrl": "https://www.kapsarc.org/newsroom/news/",
     "orgId": "kapsarc",
-    "lastAttemptISO": "2026-10-01T15:01:35.076Z",
-    "lastSuccessISO": "2026-10-01T11:59:33.635Z",
-    "consecutiveFailures": 1,
-    "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
-    "state": "degraded"
+    "lastAttemptISO": "2026-10-01T22:53:54.400Z",
+    "lastSuccessISO": "2026-10-01T22:53:54.400Z",
+    "consecutiveFailures": 0,
+    "lastError": null,
+    "state": "healthy"
   },
   {
     "sourceUrl": "https://www.kapsarc.org/newsroom/news/kapsarc-analyzes-impact-of-covid-19-on-the-saudi-market-in-24-job-sectors/",
@@ -2981,8 +2981,8 @@
   {
     "sourceUrl": "https://www.monshaat.gov.sa/",
     "orgId": "monshaat",
-    "lastAttemptISO": "2026-10-01T09:39:09.518Z",
-    "lastSuccessISO": "2026-10-01T09:39:09.518Z",
+    "lastAttemptISO": "2026-10-01T22:53:54.400Z",
+    "lastSuccessISO": "2026-10-01T22:53:54.400Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -3269,17 +3269,17 @@
   {
     "sourceUrl": "https://www.rcrc.gov.sa/news-ar/",
     "orgId": "rcrc",
-    "lastAttemptISO": "2026-10-01T15:15:40.662Z",
-    "lastSuccessISO": "2026-10-01T09:03:13.745Z",
-    "consecutiveFailures": 2,
-    "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
-    "state": "degraded"
+    "lastAttemptISO": "2026-10-01T22:53:54.400Z",
+    "lastSuccessISO": "2026-10-01T22:53:54.400Z",
+    "consecutiveFailures": 0,
+    "lastError": null,
+    "state": "healthy"
   },
   {
     "sourceUrl": "https://www.rcu.gov.sa/",
     "orgId": "rcu",
-    "lastAttemptISO": "2026-10-01T10:30:52.103Z",
-    "lastSuccessISO": "2026-10-01T10:30:52.103Z",
+    "lastAttemptISO": "2026-10-01T22:53:54.400Z",
+    "lastSuccessISO": "2026-10-01T22:53:54.400Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -3332,11 +3332,11 @@
   {
     "sourceUrl": "https://www.sabic.com/ar/careers",
     "orgId": "sabic",
-    "lastAttemptISO": "2026-10-01T14:29:03.652Z",
+    "lastAttemptISO": "2026-10-01T22:53:54.400Z",
     "lastSuccessISO": "2026-10-01T09:39:09.518Z",
-    "consecutiveFailures": 5,
-    "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
-    "state": "degraded"
+    "consecutiveFailures": 6,
+    "lastError": "fetch failed",
+    "state": "broken"
   },
   {
     "sourceUrl": "https://www.sabic.com/ar/careers/americas",
@@ -3467,8 +3467,8 @@
   {
     "sourceUrl": "https://www.saso.gov.sa/ar/pages/default.aspx",
     "orgId": "saso",
-    "lastAttemptISO": "2026-10-01T10:47:01.772Z",
-    "lastSuccessISO": "2026-10-01T10:47:01.772Z",
+    "lastAttemptISO": "2026-10-01T22:53:54.400Z",
+    "lastSuccessISO": "2026-10-01T22:53:54.400Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -3485,10 +3485,10 @@
   {
     "sourceUrl": "https://www.saudiexchange.sa/wps/portal/saudiexchange/about-saudi-exchange/aboutus/careers?locale=ar",
     "orgId": "tadawul",
-    "lastAttemptISO": "2026-10-01T14:11:13.443Z",
+    "lastAttemptISO": "2026-10-01T22:53:54.400Z",
     "lastSuccessISO": "2026-09-02T23:42:46.216Z",
-    "consecutiveFailures": 263,
-    "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
+    "consecutiveFailures": 264,
+    "lastError": "HTTP 403",
     "state": "broken"
   },
   {
@@ -3755,11 +3755,11 @@
   {
     "sourceUrl": "https://www.stats.gov.sa/en/cooperative-training",
     "orgId": "gastat",
-    "lastAttemptISO": "2026-10-01T14:43:22.746Z",
-    "lastSuccessISO": "2026-10-01T11:25:31.070Z",
-    "consecutiveFailures": 4,
-    "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
-    "state": "degraded"
+    "lastAttemptISO": "2026-10-01T22:53:54.400Z",
+    "lastSuccessISO": "2026-10-01T22:53:54.400Z",
+    "consecutiveFailures": 0,
+    "lastError": null,
+    "state": "healthy"
   },
   {
     "sourceUrl": "https://www.stats.gov.sa/en/news",
