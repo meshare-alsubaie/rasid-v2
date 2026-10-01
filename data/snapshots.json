@@ -2059,14 +2059,14 @@
     "contentHash": "fbd634c63319507785a10abaed69c49d7879b68c191ae62dd1916e33fa28ccac",
     "blockHashes": [
       "650a2ce183d63c69",
-      "f254f8958ece8b0e",
-      "36fe544e1baf0777",
+      "4dd6d081c29f300e",
+      "aa9d9e861e32a3bb",
       "78be07dcda742780",
+      "d7e68edbca4492d8",
       "16345d1561ab49e8",
       "5b4d4c2dd1beed81",
       "519fbc8f91dc5963",
       "7dc77c52e1ba4878",
-      "63b88ce02ef5f1ca",
       "a954080d2ed9ccb1",
       "84fe59d621b2eb75",
       "84fe59d621b2eb75",
@@ -2078,8 +2078,8 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-10-01T08:30:57.206Z",
     "thinRuns": 0,
-    "pendingClassification": true,
-    "classifyFailures": 2
+    "pendingClassification": false,
+    "classifyFailures": 3
   },
   {
     "sourceUrl": "https://cma.gov.sa/Pages/default.aspx",
@@ -2208,14 +2208,14 @@
   {
     "sourceUrl": "https://gac.gov.sa/",
     "orgId": "gac",
-    "contentHash": "c686a400f3a4a8d2ef3f1aebc9852cad6853b3d7ca319cd3a83cf02509e00a50",
+    "contentHash": "9ebb5b3f5df1a2ef7ef4f856a3fd97b951e5006dd154010205ab19a3dc340f2b",
     "blockHashes": [
-      "c686a400f3a4a8d2"
+      "9ebb5b3f5df1a2ef"
     ],
-    "extractedChars": 1446,
+    "extractedChars": 1326,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-09-17T12:53:53.341Z",
-    "lastChangedISO": "2026-10-01T04:12:19.315Z",
+    "lastChangedISO": "2026-10-01T10:23:29.844Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -3112,9 +3112,9 @@
   {
     "sourceUrl": "https://modon.gov.sa/",
     "orgId": "modon",
-    "contentHash": "3bfa3598829900e1fd0f04f7c3b5b890d9f94c7bf9590f39e1828833196746bf",
+    "contentHash": "31b531f01e87c5433a7ee353c2011890d38b59796ddc150fb4d7077173c0fa69",
     "blockHashes": [
-      "d8adb580a887060f",
+      "3078b85dee88b40b",
       "0edf2292f0637ccb",
       "c32ffa2c93fe0d09",
       "9066ce9805b0428c",
@@ -3136,7 +3136,7 @@
     "extractedChars": 5996,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-01T04:12:19.315Z",
+    "lastChangedISO": "2026-10-01T10:23:29.844Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -3635,20 +3635,20 @@
   {
     "sourceUrl": "https://ncar.gov.sa/",
     "orgId": "ncar",
-    "contentHash": "0dfce880037868041e5dface0df350da6843867cdd1758ea731d4ea849070988",
+    "contentHash": "ae487ee2dd89503c76c858477157c1f762e8260af586f0f318bb72da1aaf4c2c",
     "blockHashes": [
       "c911502a32b8a6f9",
       "51298181046b2e48",
       "26b7600a224c8c65",
       "75c514565d626437"
     ],
-    "extractedChars": 1993,
+    "extractedChars": 1130,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-01T04:12:19.315Z",
+    "lastChangedISO": "2026-10-01T10:23:29.844Z",
     "thinRuns": 0,
-    "pendingClassification": true,
-    "classifyFailures": 1
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://ncdc.gov.sa/",
@@ -6393,19 +6393,19 @@
   {
     "sourceUrl": "https://www.gaca.gov.sa/",
     "orgId": "gaca",
-    "contentHash": "8193bb15cfa810d1cf210e969b85212f8a5e43749d351090d76402c8a9145c5d",
+    "contentHash": "3146511d438e04c28b0c17ce6c4bbcd40b123362c29959cd5fe23ca32d2afcc0",
     "blockHashes": [
-      "b58d41c153571386",
+      "a1f136871dba3ca9",
       "67ba147535885b5a",
       "90d5b20a2e1b1c87",
       "98b0f721363b8a74",
       "83a22e1f9fb245f8",
-      "bc532942aaed49b7"
+      "b56e231e91931f13"
     ],
     "extractedChars": 1607,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-01T04:12:19.315Z",
+    "lastChangedISO": "2026-10-01T10:23:29.844Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -9578,11 +9578,11 @@
   {
     "sourceUrl": "https://www.rega.gov.sa/",
     "orgId": "rega",
-    "contentHash": "5f5c560ba41c18a6cd93ff542cac3b7ff9ecd476ea0865f03a76ce1f9ccb01b0",
+    "contentHash": "b668d93b1b325e5de7284166c804d14071dec4f4c5d3561ef5469bda7e39b88c",
     "blockHashes": [
       "2c2608753486ae3f",
       "74e4c1d2a646a96e",
-      "05058f5ce67c0a07",
+      "a8f434367073ad33",
       "af7dcb83a7b366aa",
       "cf89c37fcee7b1f0",
       "4c9409a4f8b0d892",
@@ -9602,9 +9602,9 @@
       "9fc5f94a6090f9bf",
       "febd43aea19450a8",
       "d6c3249045b18f7b",
-      "eb84f6a8f79b8393",
-      "fd6874750484a041",
-      "a31e9d99e64c1995",
+      "5da162408194f209",
+      "421526ba0ae33404",
+      "49506107fa7b92d4",
       "55d607f9f7a2de50",
       "a6df0425e44300f2",
       "0d46811fd4e7c99a",
@@ -9615,7 +9615,7 @@
     "extractedChars": 3233,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
-    "lastChangedISO": "2026-10-01T04:12:19.315Z",
+    "lastChangedISO": "2026-10-01T10:23:29.844Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
