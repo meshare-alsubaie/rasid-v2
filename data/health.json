@@ -1631,10 +1631,10 @@
   {
     "sourceUrl": "https://sdaia.gov.sa/ar/Sectors/Ncai/Pages/default.aspx",
     "orgId": "ncai",
-    "lastAttemptISO": "2026-10-01T10:01:39.470Z",
+    "lastAttemptISO": "2026-10-01T13:05:58.513Z",
     "lastSuccessISO": "2026-10-01T02:58:09.257Z",
-    "consecutiveFailures": 1,
-    "lastError": "HTTP 404",
+    "consecutiveFailures": 2,
+    "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
     "state": "degraded"
   },
   {
@@ -3458,11 +3458,11 @@
   {
     "sourceUrl": "https://www.saso.gov.sa/ar/mediacenter/news/Pages/default.aspx",
     "orgId": "saso",
-    "lastAttemptISO": "2026-10-01T10:01:39.470Z",
+    "lastAttemptISO": "2026-10-01T13:05:58.513Z",
     "lastSuccessISO": "2026-10-01T10:01:39.470Z",
-    "consecutiveFailures": 0,
-    "lastError": null,
-    "state": "healthy"
+    "consecutiveFailures": 1,
+    "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
+    "state": "degraded"
   },
   {
     "sourceUrl": "https://www.saso.gov.sa/ar/pages/default.aspx",
