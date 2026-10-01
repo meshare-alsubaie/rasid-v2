@@ -1274,7 +1274,7 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/search-results",
     "orgId": "maaden",
-    "contentHash": "6b36dc43a9400aa797b8ac6455c1bcae5337c0586a546b1bec9db4f9d502e550",
+    "contentHash": "c1865d9a7a2dc23c21e185dc1ebcccc46b9b3ecc7ba005c454e643d06e5e5cc2",
     "blockHashes": [
       "5569201553604d03",
       "6e3cceb54e777f64",
@@ -1283,12 +1283,13 @@
       "4b38b13a1a4ebcc4",
       "6a65307d2d5065d3"
     ],
-    "extractedChars": 162,
-    "extractionMethod": "body_fallback",
+    "extractedChars": 216,
+    "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-01T04:59:51.779Z",
+    "lastChangedISO": "2026-10-01T06:08:12.175Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://careers.mcit.gov.sa/",
@@ -9862,16 +9863,17 @@
   {
     "sourceUrl": "https://www.saip.gov.sa/ar/media-center/movables-platform",
     "orgId": "saip",
-    "contentHash": "b5d4b8a075b3f0614e54a17ded6bd73ea280072d5b550699cda023e9343450d4",
+    "contentHash": "680e646b2d05a17c00c8ab3cbaaf67fea9fa909e7e217c70a79e25e44227987c",
     "blockHashes": [
-      "b5d4b8a075b3f061"
+      "680e646b2d05a17c"
     ],
     "extractedChars": 242,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-30T23:46:52.016Z",
+    "lastChangedISO": "2026-10-01T06:08:12.175Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://www.sami.com.sa/",
@@ -10362,7 +10364,7 @@
   {
     "sourceUrl": "https://www.sfda.gov.sa/ar/career-vision-and-mission",
     "orgId": "sfda",
-    "contentHash": "9ddef8c457d2382e755d33c78db5647a3b3d6334c827adb1e3a76f63d132efd1",
+    "contentHash": "3072bad1b5158839e581ff29517f6137ff27e037b4bf317801c67065470941d3",
     "blockHashes": [
       "c70f9a5ffa80628b",
       "60b6afb763e71c83",
@@ -10374,9 +10376,10 @@
     "extractedChars": 806,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-30T21:14:17.182Z",
+    "lastChangedISO": "2026-10-01T06:08:12.175Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://www.sfda.gov.sa/ar/news",
