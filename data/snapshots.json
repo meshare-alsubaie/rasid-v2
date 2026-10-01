@@ -4014,8 +4014,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-10-01T10:05:02.430Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://rega.gov.sa/media-center/%D8%A7%D9%84%D8%AD%D9%82%D9%8A%D8%A8%D8%A9-%D8%A7%D9%84%D8%AA%D9%88%D8%B9%D9%88%D9%8A%D8%A9/",
@@ -8007,7 +8006,7 @@
   {
     "sourceUrl": "https://www.mof.gov.sa/eservices/Loans/Pages/Lending_Educational_Projects.aspx",
     "orgId": "mof",
-    "contentHash": "f0078925bb3415881f3e6a4fb06484aca53f0faf2fa01d6d65e82eac1a0aac56",
+    "contentHash": "8b4090193a49ea95f05072bb6789024cf3c90d4175547246ef481d0cc9e71eca",
     "blockHashes": [
       "7f625851cbbadbc6",
       "f7711325e2c4b301",
@@ -8068,9 +8067,10 @@
     "extractedChars": 8294,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-30T23:58:59.475Z",
+    "lastChangedISO": "2026-10-01T23:17:51.352Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://www.mof.gov.sa/GFS/TrainingProgram/Pages/TrainingManual.aspx",
@@ -11155,9 +11155,9 @@
   {
     "sourceUrl": "https://www.tadawulgroup.sa/wps/portal/tadawulgroup/joinus",
     "orgId": "tadawul",
-    "contentHash": "218af6789adae9d596633c79e9b359213a247d93501904bfc43eeae06fd8c680",
+    "contentHash": "8abb0ded6c05720a9cf2e772b1416233e133253afd71cafb40e1e2e812926686",
     "blockHashes": [
-      "dbfb7021493a5943",
+      "45265d7616aea342",
       "4acb10188c67e120",
       "9b405996eceb74cf",
       "5b4fe1a76867e3dc",
@@ -11167,10 +11167,10 @@
       "99045a67c833cd6b",
       "332ab17b1cccbd59"
     ],
-    "extractedChars": 1384,
+    "extractedChars": 1470,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-02T23:42:46.216Z",
-    "lastChangedISO": "2026-10-01T22:32:24.935Z",
+    "lastChangedISO": "2026-10-01T23:17:51.352Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
