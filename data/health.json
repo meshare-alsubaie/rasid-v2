@@ -56,11 +56,11 @@
   {
     "sourceUrl": "https://adf.gov.sa/ar/media-center/success-stories/Pages/default.aspx",
     "orgId": "adf",
-    "lastAttemptISO": "2026-10-01T10:19:44.042Z",
+    "lastAttemptISO": "2026-10-01T13:23:01.857Z",
     "lastSuccessISO": "2026-10-01T10:19:44.042Z",
-    "consecutiveFailures": 0,
-    "lastError": null,
-    "state": "healthy"
+    "consecutiveFailures": 1,
+    "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
+    "state": "degraded"
   },
   {
     "sourceUrl": "https://adf.gov.sa/ar/Pages/default.aspx",
@@ -2396,11 +2396,11 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/careers/graduate-development-program",
     "orgId": "hrc",
-    "lastAttemptISO": "2026-10-01T10:19:44.042Z",
+    "lastAttemptISO": "2026-10-01T13:23:01.857Z",
     "lastSuccessISO": "2026-10-01T10:19:44.042Z",
-    "consecutiveFailures": 0,
-    "lastError": null,
-    "state": "healthy"
+    "consecutiveFailures": 1,
+    "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
+    "state": "degraded"
   },
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/cooperations?lang=ar",
@@ -2927,11 +2927,11 @@
   {
     "sourceUrl": "https://www.moh.gov.sa/ministry/mediacenter/ministryactivities/pages/default.aspx",
     "orgId": "moh",
-    "lastAttemptISO": "2026-10-01T10:19:44.042Z",
+    "lastAttemptISO": "2026-10-01T13:23:01.857Z",
     "lastSuccessISO": "2026-10-01T10:19:44.042Z",
-    "consecutiveFailures": 0,
-    "lastError": null,
-    "state": "healthy"
+    "consecutiveFailures": 1,
+    "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
+    "state": "degraded"
   },
   {
     "sourceUrl": "https://www.moh.gov.sa/ministry/mediacenter/news/pages/default.aspx",
@@ -3089,10 +3089,10 @@
   {
     "sourceUrl": "https://www.nazaha.gov.sa/News/Details?q=o2ojUlDL5mGosOuEoGXXeg==",
     "orgId": "nazaha",
-    "lastAttemptISO": "2026-10-01T10:19:44.042Z",
+    "lastAttemptISO": "2026-10-01T13:23:01.857Z",
     "lastSuccessISO": "2026-10-01T06:57:19.032Z",
-    "consecutiveFailures": 1,
-    "lastError": "fetch failed",
+    "consecutiveFailures": 2,
+    "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
     "state": "degraded"
   },
   {
