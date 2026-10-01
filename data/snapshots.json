@@ -6526,7 +6526,7 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/careers/graduate-development-program",
     "orgId": "hrc",
-    "contentHash": "dbcc0f05c629a51ffe30cfdda001c16549394650521e6f78805191d1c8646331",
+    "contentHash": "f15de8f02b3a20ee87d1e2a02d1fe4aa1b1915c8404b75ad2cc0e32da50dbd2b",
     "blockHashes": [
       "12e41a244a8a2984",
       "102d8abc1a4219ae",
@@ -6595,9 +6595,10 @@
     "extractedChars": 10689,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-01T00:34:44.727Z",
+    "lastChangedISO": "2026-10-01T03:35:37.870Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/cooperations?lang=ar",
