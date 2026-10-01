@@ -3494,10 +3494,10 @@
   {
     "sourceUrl": "https://www.saudiexchange.sa/wps/portal/saudiexchange/newsandreports/issuer-financial-calendars?locale=ar",
     "orgId": "tadawul",
-    "lastAttemptISO": "2026-10-01T10:05:02.430Z",
+    "lastAttemptISO": "2026-10-01T13:12:38.776Z",
     "lastSuccessISO": "2026-09-02T23:42:46.216Z",
-    "consecutiveFailures": 106,
-    "lastError": "HTTP 403",
+    "consecutiveFailures": 107,
+    "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
     "state": "broken"
   },
   {
