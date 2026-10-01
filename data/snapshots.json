@@ -2189,7 +2189,7 @@
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T02:22:33.828Z",
     "lastChangedISO": "2026-08-29T02:36:21.032Z",
-    "thinRuns": 441,
+    "thinRuns": 442,
     "pendingClassification": false
   },
   {
@@ -2224,17 +2224,17 @@
   {
     "sourceUrl": "https://gaca.gov.sa/announcements",
     "orgId": "gaca",
-    "contentHash": "08e8d943b79ee8b035351babb212f0726633ef2dd07882d99f9bfeb71ed04326",
+    "contentHash": "f8a841f3d60c549dea99b106b9f56802985a7bd034ce3a6c3ac20574c281eb1b",
     "blockHashes": [
-      "67555b1fba70981c",
+      "205c93c6201cf92f",
       "9c2a3967149440a8",
       "83a22e1f9fb245f8",
       "bc532942aaed49b7"
     ],
-    "extractedChars": 1212,
+    "extractedChars": 1211,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-01T09:27:14.277Z",
+    "lastChangedISO": "2026-10-01T23:24:26.795Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -3779,16 +3779,17 @@
   {
     "sourceUrl": "https://ndf.gov.sa/media-center/newsletters",
     "orgId": "ndf",
-    "contentHash": "0591e0057723dd90c3aa94c611b8671f6eb166b52f03ac573397abc90ad635e5",
+    "contentHash": "83f18367438fda614b9c76f22cff1fa568f49ee55ae9f5699119004cb2bd320f",
     "blockHashes": [
-      "0591e0057723dd90"
+      "83f18367438fda61"
     ],
     "extractedChars": 1161,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-30T20:59:10.280Z",
+    "lastChangedISO": "2026-10-01T23:24:26.795Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://ndf.gov.sa/media-center/press-news",
@@ -4489,7 +4490,7 @@
   {
     "sourceUrl": "https://training.moj.gov.sa/",
     "orgId": "moj",
-    "contentHash": "f4c6ef6b783b69d09a8f681ad1d80f1df35ef8cb8864917255879208cc305886",
+    "contentHash": null,
     "blockHashes": [
       "84a570379809f573",
       "ab443a0bbfda7883"
@@ -8711,11 +8712,11 @@
   {
     "sourceUrl": "https://www.nazaha.gov.sa/News/Details?q=LDqaftYCK2agKydxrbY5fg==",
     "orgId": "nazaha",
-    "contentHash": "67bebeeecc1c827c41166eecbf1dad1ea34d34b933bd6e603d26c7dc02dea322",
+    "contentHash": "bb80b4bc1ec5541589d6fe06eaae5a1831ad814caa7fc1851c1e078badb05316",
     "blockHashes": [
       "a167b0dd9b0e3e1c",
       "74e4c1d2a646a96e",
-      "069633fb45c79be2",
+      "cb6c7f96b768f235",
       "6eca9a7e8f445a2e",
       "fcc9ab0ce14a3013",
       "b66c27af464bcada"
@@ -8723,9 +8724,10 @@
     "extractedChars": 1140,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-30T23:46:52.016Z",
+    "lastChangedISO": "2026-10-01T23:26:54.977Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://www.nazaha.gov.sa/News/Details?q=o2ojUlDL5mGosOuEoGXXeg==",
@@ -10530,7 +10532,7 @@
     "lastChangedISO": "2026-10-01T22:36:54.532Z",
     "thinRuns": 0,
     "pendingClassification": true,
-    "classifyFailures": 1
+    "classifyFailures": 2
   },
   {
     "sourceUrl": "https://www.sidf.gov.sa/News",
