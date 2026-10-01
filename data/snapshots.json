@@ -5873,7 +5873,7 @@
   {
     "sourceUrl": "https://www.ey.com/en_sa",
     "orgId": "ey_sa",
-    "contentHash": "3f8aa530d0aca66b5fa77afabe1b188d23894d2448001fa84228887317bcbde1",
+    "contentHash": "eaed60ac13208dd1c8e0630f678b4f201829bf8b181d31d1879d9d50288cf73d",
     "blockHashes": [
       "397ae21986ee07ef",
       "dcf0d51e092e7806",
@@ -5927,9 +5927,10 @@
     "extractedChars": 4999,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
-    "lastChangedISO": "2026-09-17T14:11:53.498Z",
+    "lastChangedISO": "2026-10-01T23:47:22.310Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://www.ey.com/en_sa/careers",
