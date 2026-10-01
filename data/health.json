@@ -1361,9 +1361,9 @@
   {
     "sourceUrl": "https://nca.gov.sa/ar/cyber-training-and-qualifications/cybersecurity-program-3/",
     "orgId": "nca",
-    "lastAttemptISO": "2026-10-01T13:10:55.709Z",
+    "lastAttemptISO": "2026-10-01T14:48:17.195Z",
     "lastSuccessISO": "2026-10-01T11:32:39.893Z",
-    "consecutiveFailures": 1,
+    "consecutiveFailures": 2,
     "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
     "state": "degraded"
   },
@@ -2171,11 +2171,11 @@
   {
     "sourceUrl": "https://www.ecza.gov.sa/ar",
     "orgId": "ecza",
-    "lastAttemptISO": "2026-10-01T08:42:46.984Z",
+    "lastAttemptISO": "2026-10-01T14:48:17.195Z",
     "lastSuccessISO": "2026-10-01T08:42:46.984Z",
-    "consecutiveFailures": 0,
-    "lastError": null,
-    "state": "healthy"
+    "consecutiveFailures": 1,
+    "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
+    "state": "degraded"
   },
   {
     "sourceUrl": "https://www.ecza.gov.sa/ar/media-center/news-press",
