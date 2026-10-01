@@ -2639,7 +2639,7 @@
   {
     "sourceUrl": "https://jobs.mofa.gov.sa/",
     "orgId": "mofa",
-    "contentHash": null,
+    "contentHash": "abd3cb62c8889e3928ed72ad226eeaa3d2edc4fc92850455ea85a29a1655d9ca",
     "blockHashes": [
       "fa56a6bf9373c14e",
       "87918f0ca02c1c83",
@@ -2669,9 +2669,10 @@
     "extractedChars": 2243,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-08-31T00:02:49.563Z",
+    "lastChangedISO": "2026-10-01T11:50:05.231Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://jobs.sabic.com/",
@@ -3163,9 +3164,9 @@
   {
     "sourceUrl": "https://modon.gov.sa/ar/MediaCenter/Pages/default.aspx",
     "orgId": "modon",
-    "contentHash": "2b528ecea1fd11d90579423651904435aa78fa30d46c10005f84cb996c1dce01",
+    "contentHash": "cf89f83da06ad61a82525f52f3e6a7509d913c87c229e69fb9367a21f9f62903",
     "blockHashes": [
-      "f5495accd5435bda",
+      "660749f44e2617c2",
       "317f2772b9ef6210",
       "8ae17958586c8a8c",
       "a052fcd3e0ca047c"
@@ -3173,7 +3174,7 @@
     "extractedChars": 306,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-01T08:42:46.984Z",
+    "lastChangedISO": "2026-10-01T11:50:05.231Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -3785,18 +3786,19 @@
   {
     "sourceUrl": "https://ndf.gov.sa/media-center/press-news",
     "orgId": "ndf",
-    "contentHash": "f43dcd3a71a45a9b9f54c0b68ab07e857578e06471e3f525b8614231347d117e",
+    "contentHash": "f5d468b9844b0b45786f4f917bf72afe287fb2d16f892995378895cfb64655fa",
     "blockHashes": [
       "cee74d52c87c1e0a",
       "298b2e63b8ef43cd",
       "bca88088323376a5"
     ],
-    "extractedChars": 3790,
+    "extractedChars": 3759,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-30T23:14:15.816Z",
+    "lastChangedISO": "2026-10-01T11:50:05.231Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://neti.etec.gov.sa/",
@@ -9673,8 +9675,7 @@
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
     "lastChangedISO": "2026-10-01T08:42:46.984Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.sabic.com/ar/careers",
