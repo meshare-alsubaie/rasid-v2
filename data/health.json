@@ -317,11 +317,11 @@
   {
     "sourceUrl": "https://anb.com.sa/web/anb",
     "orgId": "anb",
-    "lastAttemptISO": "2026-10-01T11:50:05.231Z",
+    "lastAttemptISO": "2026-10-01T14:51:37.201Z",
     "lastSuccessISO": "2026-10-01T11:50:05.231Z",
-    "consecutiveFailures": 0,
-    "lastError": null,
-    "state": "healthy"
+    "consecutiveFailures": 1,
+    "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
+    "state": "degraded"
   },
   {
     "sourceUrl": "https://athkax.sdaia.gov.sa/coop",
@@ -1073,11 +1073,11 @@
   {
     "sourceUrl": "https://jobs.mofa.gov.sa/",
     "orgId": "mofa",
-    "lastAttemptISO": "2026-10-01T11:50:05.231Z",
+    "lastAttemptISO": "2026-10-01T14:51:37.201Z",
     "lastSuccessISO": "2026-10-01T11:50:05.231Z",
-    "consecutiveFailures": 0,
-    "lastError": null,
-    "state": "healthy"
+    "consecutiveFailures": 1,
+    "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
+    "state": "degraded"
   },
   {
     "sourceUrl": "https://jobs.sabic.com/",
@@ -1262,11 +1262,11 @@
   {
     "sourceUrl": "https://modon.gov.sa/ar/MediaCenter/Pages/default.aspx",
     "orgId": "modon",
-    "lastAttemptISO": "2026-10-01T11:50:05.231Z",
+    "lastAttemptISO": "2026-10-01T14:51:37.201Z",
     "lastSuccessISO": "2026-10-01T11:50:05.231Z",
-    "consecutiveFailures": 0,
-    "lastError": null,
-    "state": "healthy"
+    "consecutiveFailures": 1,
+    "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
+    "state": "degraded"
   },
   {
     "sourceUrl": "https://momah.gov.sa/ar",
@@ -1334,11 +1334,11 @@
   {
     "sourceUrl": "https://mot.gov.sa/ar/news",
     "orgId": "mot",
-    "lastAttemptISO": "2026-10-01T11:50:05.231Z",
+    "lastAttemptISO": "2026-10-01T14:51:37.201Z",
     "lastSuccessISO": "2026-10-01T11:50:05.231Z",
-    "consecutiveFailures": 0,
-    "lastError": null,
-    "state": "healthy"
+    "consecutiveFailures": 1,
+    "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
+    "state": "degraded"
   },
   {
     "sourceUrl": "https://nca.gov.sa/ar/careers/",
@@ -1496,11 +1496,11 @@
   {
     "sourceUrl": "https://ndf.gov.sa/media-center/press-news",
     "orgId": "ndf",
-    "lastAttemptISO": "2026-10-01T11:50:05.231Z",
+    "lastAttemptISO": "2026-10-01T14:51:37.201Z",
     "lastSuccessISO": "2026-10-01T11:50:05.231Z",
-    "consecutiveFailures": 0,
-    "lastError": null,
-    "state": "healthy"
+    "consecutiveFailures": 1,
+    "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
+    "state": "degraded"
   },
   {
     "sourceUrl": "https://neti.etec.gov.sa/",
@@ -1559,11 +1559,11 @@
   {
     "sourceUrl": "https://redf.gov.sa/ar/careers",
     "orgId": "redf",
-    "lastAttemptISO": "2026-10-01T11:50:05.231Z",
+    "lastAttemptISO": "2026-10-01T14:51:37.201Z",
     "lastSuccessISO": "2026-10-01T11:50:05.231Z",
-    "consecutiveFailures": 0,
-    "lastError": null,
-    "state": "healthy"
+    "consecutiveFailures": 1,
+    "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
+    "state": "degraded"
   },
   {
     "sourceUrl": "https://rega.gov.sa/login/?redirectId=32017",
@@ -1595,11 +1595,11 @@
   {
     "sourceUrl": "https://rega.gov.sa/media-center/%D8%A7%D9%84%D8%AD%D9%82%D9%8A%D8%A8%D8%A9-%D8%A7%D9%84%D8%AA%D9%88%D8%B9%D9%88%D9%8A%D8%A9/",
     "orgId": "rega",
-    "lastAttemptISO": "2026-10-01T11:50:05.231Z",
+    "lastAttemptISO": "2026-10-01T14:51:37.201Z",
     "lastSuccessISO": "2026-10-01T11:50:05.231Z",
-    "consecutiveFailures": 0,
-    "lastError": null,
-    "state": "healthy"
+    "consecutiveFailures": 1,
+    "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
+    "state": "degraded"
   },
   {
     "sourceUrl": "https://rega.gov.sa/media-center/%D8%A7%D9%84%D9%87%D9%88%D9%8A%D8%A9-%D8%A7%D9%84%D8%A8%D8%B5%D8%B1%D9%8A%D8%A9/",
@@ -1721,11 +1721,11 @@
   {
     "sourceUrl": "https://ssa.gov.sa/ar/careersLandingPage/?path=/careers/",
     "orgId": "ssc",
-    "lastAttemptISO": "2026-10-01T11:50:05.231Z",
+    "lastAttemptISO": "2026-10-01T14:51:37.201Z",
     "lastSuccessISO": "2026-10-01T11:50:05.231Z",
-    "consecutiveFailures": 0,
-    "lastError": null,
-    "state": "healthy"
+    "consecutiveFailures": 1,
+    "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
+    "state": "degraded"
   },
   {
     "sourceUrl": "https://sta.gov.sa/",
@@ -2153,11 +2153,11 @@
   {
     "sourceUrl": "https://www.cst.gov.sa/media-center",
     "orgId": "citc",
-    "lastAttemptISO": "2026-10-01T11:50:05.231Z",
+    "lastAttemptISO": "2026-10-01T14:51:37.201Z",
     "lastSuccessISO": "2026-10-01T11:50:05.231Z",
-    "consecutiveFailures": 0,
-    "lastError": null,
-    "state": "healthy"
+    "consecutiveFailures": 1,
+    "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
+    "state": "degraded"
   },
   {
     "sourceUrl": "https://www.derayah.com/",
@@ -3233,11 +3233,11 @@
   {
     "sourceUrl": "https://www.rcjy.gov.sa/news",
     "orgId": "rcjy",
-    "lastAttemptISO": "2026-10-01T11:50:05.231Z",
+    "lastAttemptISO": "2026-10-01T14:51:37.201Z",
     "lastSuccessISO": "2026-10-01T11:50:05.231Z",
-    "consecutiveFailures": 0,
-    "lastError": null,
-    "state": "healthy"
+    "consecutiveFailures": 1,
+    "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
+    "state": "degraded"
   },
   {
     "sourceUrl": "https://www.rcrc.gov.sa/",
@@ -3287,11 +3287,11 @@
   {
     "sourceUrl": "https://www.rcu.gov.sa/contact/careers",
     "orgId": "rcu",
-    "lastAttemptISO": "2026-10-01T11:50:05.231Z",
+    "lastAttemptISO": "2026-10-01T14:51:37.201Z",
     "lastSuccessISO": "2026-10-01T11:50:05.231Z",
-    "consecutiveFailures": 0,
-    "lastError": null,
-    "state": "healthy"
+    "consecutiveFailures": 1,
+    "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
+    "state": "degraded"
   },
   {
     "sourceUrl": "https://www.rcu.gov.sa/en/contact/careers",
@@ -3323,11 +3323,11 @@
   {
     "sourceUrl": "https://www.riyadbank.com/ar/personal-banking",
     "orgId": "riyadbank",
-    "lastAttemptISO": "2026-10-01T11:50:05.231Z",
+    "lastAttemptISO": "2026-10-01T14:51:37.201Z",
     "lastSuccessISO": "2026-10-01T11:50:05.231Z",
-    "consecutiveFailures": 0,
-    "lastError": null,
-    "state": "healthy"
+    "consecutiveFailures": 1,
+    "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
+    "state": "degraded"
   },
   {
     "sourceUrl": "https://www.sabic.com/ar/careers",
@@ -3386,11 +3386,11 @@
   {
     "sourceUrl": "https://www.saip.gov.sa/ar/contact-us/careers",
     "orgId": "saip",
-    "lastAttemptISO": "2026-10-01T11:50:05.231Z",
+    "lastAttemptISO": "2026-10-01T14:51:37.201Z",
     "lastSuccessISO": "2026-10-01T11:50:05.231Z",
-    "consecutiveFailures": 0,
-    "lastError": null,
-    "state": "healthy"
+    "consecutiveFailures": 1,
+    "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
+    "state": "degraded"
   },
   {
     "sourceUrl": "https://www.saip.gov.sa/ar/media-center/branding",
@@ -3593,11 +3593,11 @@
   {
     "sourceUrl": "https://www.sfd.gov.sa/ar/news",
     "orgId": "sfd",
-    "lastAttemptISO": "2026-10-01T11:50:05.231Z",
+    "lastAttemptISO": "2026-10-01T14:51:37.201Z",
     "lastSuccessISO": "2026-10-01T11:50:05.231Z",
-    "consecutiveFailures": 0,
-    "lastError": null,
-    "state": "healthy"
+    "consecutiveFailures": 1,
+    "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
+    "state": "degraded"
   },
   {
     "sourceUrl": "https://www.sfda.gov.sa/ar",
@@ -3674,10 +3674,10 @@
   {
     "sourceUrl": "https://www.simah.com/en/personal/pages/default.aspx",
     "orgId": "simah",
-    "lastAttemptISO": "2026-10-01T11:50:05.231Z",
+    "lastAttemptISO": "2026-10-01T14:51:37.201Z",
     "lastSuccessISO": "2026-08-30T00:02:43.835Z",
-    "consecutiveFailures": 140,
-    "lastError": "HTTP 403",
+    "consecutiveFailures": 141,
+    "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
     "state": "broken"
   },
   {
@@ -3719,9 +3719,9 @@
   {
     "sourceUrl": "https://www.srca.org.sa/news/",
     "orgId": "srca",
-    "lastAttemptISO": "2026-10-01T11:50:05.231Z",
+    "lastAttemptISO": "2026-10-01T14:51:37.201Z",
     "lastSuccessISO": "2026-09-17T19:13:43.191Z",
-    "consecutiveFailures": 63,
+    "consecutiveFailures": 64,
     "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
     "state": "broken"
   },
@@ -3773,10 +3773,10 @@
   {
     "sourceUrl": "https://www.swcc.gov.sa/Arabic/Pages/Home.aspx",
     "orgId": "swcc",
-    "lastAttemptISO": "2026-10-01T11:50:05.231Z",
+    "lastAttemptISO": "2026-10-01T14:51:37.201Z",
     "lastSuccessISO": null,
-    "consecutiveFailures": 150,
-    "lastError": "HTTP 403",
+    "consecutiveFailures": 151,
+    "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
     "state": "broken"
   },
   {
@@ -3818,10 +3818,10 @@
   {
     "sourceUrl": "https://www.tawuniya.com/en/careers",
     "orgId": "tawuniya",
-    "lastAttemptISO": "2026-10-01T11:50:05.231Z",
+    "lastAttemptISO": "2026-10-01T14:51:37.201Z",
     "lastSuccessISO": null,
-    "consecutiveFailures": 142,
-    "lastError": "HTTP 403",
+    "consecutiveFailures": 143,
+    "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
     "state": "broken"
   },
   {
