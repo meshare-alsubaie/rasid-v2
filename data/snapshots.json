@@ -2236,17 +2236,17 @@
   {
     "sourceUrl": "https://gaca.gov.sa/ar/announcements",
     "orgId": "gaca",
-    "contentHash": "8b1354ae6467c0847d1d59bd45bd649f068e9cdbfa3090f4efc9cbc23d6df231",
+    "contentHash": "ca5b928187f42006e9f09899fdfb28592614f8854cfff04f9cb976b13c282393",
     "blockHashes": [
-      "b66113bccc339e4b",
+      "201b3c88391131bb",
       "9c2a3967149440a8",
       "83a22e1f9fb245f8",
-      "bc532942aaed49b7"
+      "742a17aa4393e6c2"
     ],
-    "extractedChars": 1211,
+    "extractedChars": 1472,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-01T02:29:28.202Z",
+    "lastChangedISO": "2026-10-01T05:37:48.810Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -6601,7 +6601,7 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/cooperations?lang=ar",
     "orgId": "hrc",
-    "contentHash": "68f32d0186c19ff16ec7de4151d0a8a7ac85e8799747ff6d5135ae632f8c99bc",
+    "contentHash": "202aa732c75e62772676e384a81f60a26c19818034787c2a346bdf1e75c10a68",
     "blockHashes": [
       "12e41a244a8a2984",
       "fb9ee367b1a13bbe",
@@ -6625,7 +6625,7 @@
     "extractedChars": 6137,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-01T02:29:28.202Z",
+    "lastChangedISO": "2026-10-01T05:37:48.810Z",
     "thinRuns": 0,
     "pendingClassification": true,
     "classifyFailures": 1
@@ -10208,15 +10208,15 @@
   {
     "sourceUrl": "https://www.se.com.sa/nh",
     "orgId": "sec",
-    "contentHash": "8ded396959e5ee36c601c335deb9f9ee779922f9bb74faf2daf3e45ba78991d0",
+    "contentHash": "d290ed5e964a6cd7a034c4ffa072a37897244459346603bcbcbce7f0cd6b78c8",
     "blockHashes": [
-      "29ebacf6d27888a5",
+      "fe4adb6fabceef02",
       "33ac0ac2b2a350b8"
     ],
-    "extractedChars": 1173,
+    "extractedChars": 625,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-03T05:13:40.059Z",
-    "lastChangedISO": "2026-09-28T20:32:10.794Z",
+    "lastChangedISO": "2026-10-01T05:37:48.810Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
