@@ -1078,7 +1078,7 @@
     "lastChangedISO": "2026-10-01T11:21:45.506Z",
     "thinRuns": 0,
     "pendingClassification": true,
-    "classifyFailures": 1
+    "classifyFailures": 2
   },
   {
     "sourceUrl": "https://careers.cma.gov.sa/",
@@ -2085,7 +2085,7 @@
   {
     "sourceUrl": "https://cma.gov.sa/Pages/default.aspx",
     "orgId": "cma",
-    "contentHash": "eaf917ee3daaa9f66bf5f2cae9707bc8fb00aeada11ce271499149d17cd9d52e",
+    "contentHash": "fce695e4d903be57223dfec003f23c6991c5590b60289ca0c5841d7ff9a4ce23",
     "blockHashes": [
       "1ce798e0ca5f6070",
       "74e4c1d2a646a96e",
@@ -2126,13 +2126,13 @@
       "3b5a8943dae3d475",
       "729394298e88bff3"
     ],
-    "extractedChars": 12343,
+    "extractedChars": 11894,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-01T10:05:02.430Z",
+    "lastChangedISO": "2026-10-01T22:50:16.573Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://e-services.hrc.gov.sa/ar/service/details/12",
@@ -2948,7 +2948,7 @@
     "lastChangedISO": "2026-10-01T10:05:02.430Z",
     "thinRuns": 0,
     "pendingClassification": true,
-    "classifyFailures": 1
+    "classifyFailures": 2
   },
   {
     "sourceUrl": "https://mep.gov.sa/ar",
@@ -4464,10 +4464,13 @@
   {
     "sourceUrl": "https://thiqah.sa/",
     "orgId": "thiqah",
-    "contentHash": "bba18d1332d9277cfb6fa175f6984c62b16db98c935a6738a2b6a55c5b1d20bc",
+    "contentHash": "41585f247e073f7dfa50339963ead8d8387c9a1b752741091b485d74143c63b9",
     "blockHashes": [
-      "2badba214de43400",
-      "cff1ddff4e992236",
+      "56d61a024ef0c23a",
+      "988b9a8bf2486a9d",
+      "a4ad1af066840cba",
+      "2a753899ff945f72",
+      "0254baf3c601928d",
       "e6bf180d162757ed",
       "ce6b1d76c3fa0a8f",
       "5702aa0bdde53d7c",
@@ -4480,7 +4483,7 @@
     "extractedChars": 2087,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T23:03:32.200Z",
-    "lastChangedISO": "2026-09-30T21:56:02.670Z",
+    "lastChangedISO": "2026-10-01T22:50:16.573Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -7923,7 +7926,7 @@
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-20T12:59:49.059Z",
-    "thinRuns": 53,
+    "thinRuns": 54,
     "pendingClassification": false
   },
   {
@@ -8132,11 +8135,11 @@
   {
     "sourceUrl": "https://www.mof.gov.sa/mediacenter/events/Pages/CalEvent.aspx",
     "orgId": "mof",
-    "contentHash": "2097cb095befcdcbaf86151e6a3736a59a342145f46f83d39be72c116f156c79",
+    "contentHash": "12cc36d0440bfdf8c2642e7a9e5ec55c89459b3accf266297013a5218035526b",
     "blockHashes": [
       "7f625851cbbadbc6",
       "f7711325e2c4b301",
-      "1d5e0f67c460575a",
+      "5070a08601ce972e",
       "b1bec34b5330c702",
       "f4809815161554d5",
       "16ff3360390869f3",
@@ -8150,9 +8153,10 @@
     "extractedChars": 10147,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-30T23:14:15.816Z",
+    "lastChangedISO": "2026-10-01T22:50:16.573Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://www.mof.gov.sa/Pages/default.aspx",
@@ -11206,7 +11210,7 @@
   {
     "sourceUrl": "https://www.taifcity.gov.sa/#/ar",
     "orgId": "taif_amanah",
-    "contentHash": "d62d6650959e17ef98eb921ab48fac39557e7931bdd0a204b8818e75bdfb8b1a",
+    "contentHash": "9047de99980fee8c416074edce1bff3b5ddf1f47da7e79a7f3ea3b5533fec7c3",
     "blockHashes": [
       "969f0f9d8129003d",
       "e4501e56580ffe94",
@@ -11214,10 +11218,10 @@
       "acda1eb1130c44f0",
       "8554e1d0ca772440"
     ],
-    "extractedChars": 6210,
+    "extractedChars": 693,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T23:54:26.779Z",
-    "lastChangedISO": "2026-10-01T10:05:02.430Z",
+    "lastChangedISO": "2026-10-01T22:50:16.573Z",
     "thinRuns": 0,
     "pendingClassification": true,
     "classifyFailures": 1
