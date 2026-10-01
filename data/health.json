@@ -767,11 +767,11 @@
   {
     "sourceUrl": "https://careers.scfhs.org.sa/ar/page/on-the-job-training/",
     "orgId": "scfhs",
-    "lastAttemptISO": "2026-10-01T11:47:11.278Z",
+    "lastAttemptISO": "2026-10-01T12:48:10.161Z",
     "lastSuccessISO": "2026-10-01T11:47:11.278Z",
-    "consecutiveFailures": 0,
-    "lastError": null,
-    "state": "healthy"
+    "consecutiveFailures": 1,
+    "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
+    "state": "degraded"
   },
   {
     "sourceUrl": "https://careers.scfhs.org.sa/ar/register-j/",
