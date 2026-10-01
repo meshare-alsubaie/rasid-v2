@@ -2189,7 +2189,7 @@
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T02:22:33.828Z",
     "lastChangedISO": "2026-08-29T02:36:21.032Z",
-    "thinRuns": 440,
+    "thinRuns": 441,
     "pendingClassification": false
   },
   {
@@ -5028,7 +5028,7 @@
     "lastChangedISO": "2026-10-01T10:05:02.430Z",
     "thinRuns": 0,
     "pendingClassification": true,
-    "classifyFailures": 1
+    "classifyFailures": 2
   },
   {
     "sourceUrl": "https://www.aramco.com/en/careers/for-saudi-applicants/student-opportunities",
@@ -8064,7 +8064,7 @@
   {
     "sourceUrl": "https://www.mof.gov.sa/GFS/TrainingProgram/Pages/TrainingManual.aspx",
     "orgId": "mof",
-    "contentHash": "ffe1c2dd368c314642dd90bbb5f4469a5b6c002282dc38932d34f230e01dcd9d",
+    "contentHash": "ff1cbd4a48093b3622c9c964b9aa37961bfa390fefadd0cb6fbafe8814ff59ed",
     "blockHashes": [
       "7f625851cbbadbc6",
       "f7711325e2c4b301",
@@ -8082,9 +8082,10 @@
     "extractedChars": 10413,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-30T21:46:34.615Z",
+    "lastChangedISO": "2026-10-01T22:36:54.532Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://www.mof.gov.sa/mediacenter/circulars/Pages/default.aspx",
@@ -10496,7 +10497,7 @@
   {
     "sourceUrl": "https://www.sidf.gov.sa/Coop",
     "orgId": "sidf",
-    "contentHash": "a8234725223a500f020652ede747b3eb449247d137c77dcde407c34352200852",
+    "contentHash": "36a784cf7ea3f5ac9351ae46d6e0ae7342ce6a46299112c388c074fadf34292e",
     "blockHashes": [
       "b2f8402cbf414c94",
       "19799f9a1ecc3c57",
@@ -10508,13 +10509,13 @@
       "e8bfdce55a367075",
       "25b3bc91b9810520"
     ],
-    "extractedChars": 1040,
+    "extractedChars": 314,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-02T23:42:46.216Z",
-    "lastChangedISO": "2026-09-28T20:26:12.857Z",
+    "lastChangedISO": "2026-10-01T22:36:54.532Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "classifyFailures": 3
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://www.sidf.gov.sa/News",
