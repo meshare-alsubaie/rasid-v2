@@ -2672,7 +2672,7 @@
     "lastChangedISO": "2026-10-01T11:50:05.231Z",
     "thinRuns": 0,
     "pendingClassification": true,
-    "classifyFailures": 1
+    "classifyFailures": 2
   },
   {
     "sourceUrl": "https://jobs.sabic.com/",
@@ -2708,15 +2708,15 @@
   {
     "sourceUrl": "https://lcgpa.gov.sa/ar/Pages/default.aspx",
     "orgId": "lcgpa",
-    "contentHash": "c2b8888bf6b0faec3d8b9689c9d84edaff7bf4c535af746b5376abbe491a3890",
+    "contentHash": "aeec913e17dbc7890e6813f25363a5d6531e6edec8d6eb7a3505c5b4ad4566a8",
     "blockHashes": [
-      "d2248bf5fbb9ad22",
+      "3d1174fa3c742ac8",
       "beda84e843f95551"
     ],
     "extractedChars": 218,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-01T10:09:52.447Z",
+    "lastChangedISO": "2026-10-01T22:22:53.232Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -3604,7 +3604,7 @@
     "lastChangedISO": "2026-10-01T10:49:16.489Z",
     "thinRuns": 0,
     "pendingClassification": true,
-    "classifyFailures": 1
+    "classifyFailures": 2
   },
   {
     "sourceUrl": "https://nca.gov.sa/en/careers/",
@@ -8085,11 +8085,11 @@
   {
     "sourceUrl": "https://www.mof.gov.sa/mediacenter/circulars/Pages/default.aspx",
     "orgId": "mof",
-    "contentHash": "5597f35f5e4ca9ceda323c31b16e29cf4f6d8a1504a89b1be5a5b90c624a9fab",
+    "contentHash": "0c81dbc4cec26f4f6a404731959d46be4db6359554b8b83cb763269102f98beb",
     "blockHashes": [
       "7f625851cbbadbc6",
       "f7711325e2c4b301",
-      "5ed11db86fa972a4",
+      "1e45db1bdd254936",
       "0a7729c3519a2869",
       "823083d8a41b1af9",
       "14b74bd8d07833ff",
@@ -8113,9 +8113,10 @@
     "extractedChars": 12243,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-30T23:42:36.914Z",
+    "lastChangedISO": "2026-10-01T22:22:53.232Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://www.mof.gov.sa/mediacenter/events/Pages/CalEvent.aspx",
