@@ -2260,9 +2260,9 @@
   {
     "sourceUrl": "https://gaca.gov.sa/ar/News",
     "orgId": "gaca",
-    "contentHash": "996499e78da14e3909313d676defa03ccbc50185164853f807a3ed91379bf2e0",
+    "contentHash": "4d86287055cdf9e3eaae7ce5d59c6eb4b23e79e01bb2313fefeda128f243b6a0",
     "blockHashes": [
-      "b835cf258b4af9ba",
+      "43749f9c1ea2e3ea",
       "7de8ea5de5c99977",
       "8587b2ba02f096c6",
       "6382e3437605c55d",
@@ -2329,12 +2329,12 @@
       "89325812f489a554",
       "57534ebd8ed8f48f",
       "83a22e1f9fb245f8",
-      "bc532942aaed49b7"
+      "2ccfa90c84c059a7"
     ],
-    "extractedChars": 21036,
+    "extractedChars": 21297,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-01T10:01:39.470Z",
+    "lastChangedISO": "2026-10-01T23:11:23.510Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -3757,7 +3757,7 @@
   {
     "sourceUrl": "https://ndf.gov.sa/media-center/articles/article-human-resource-development",
     "orgId": "ndf",
-    "contentHash": "9b4f2022d07cf56bae820b6bec7b5fc0d2632c4fd96d36d5900682bb33309c8a",
+    "contentHash": "96e7146ebe05d8b6a9768b9b19474f6607636b1f0c474bc1431224f32ad66bdb",
     "blockHashes": [
       "b8aa3a91f3e43d37",
       "2e431a1caf07dcca",
@@ -3771,10 +3771,10 @@
     "extractedChars": 4172,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-01T04:01:12.392Z",
+    "lastChangedISO": "2026-10-01T23:11:23.510Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "classifyFailures": 3
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://ndf.gov.sa/media-center/newsletters",
