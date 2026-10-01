@@ -7981,7 +7981,7 @@
   {
     "sourceUrl": "https://www.mof.gov.sa/docslibrary/TrainingManuals/Pages/default.aspx",
     "orgId": "mof",
-    "contentHash": "542996349cfebffa9737bc6de7c507c56152a79d3cd62a2c2ca201cc0f8a0e01",
+    "contentHash": "9f30618ff3c4a7b6143fd66dfece66dac391621079b75ee4a9efaa57a0535b36",
     "blockHashes": [
       "7f625851cbbadbc6",
       "f7711325e2c4b301",
@@ -7999,9 +7999,10 @@
     "extractedChars": 16452,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-30T21:14:17.182Z",
+    "lastChangedISO": "2026-10-01T23:03:56.918Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://www.mof.gov.sa/eservices/Loans/Pages/Lending_Educational_Projects.aspx",
@@ -8184,7 +8185,7 @@
   {
     "sourceUrl": "https://www.mofa.gov.sa/",
     "orgId": "mofa",
-    "contentHash": "b21631d3191fcdce3a81f72b1ec283e6c0a1c5551fc61e51dac9edd5cdfeeafd",
+    "contentHash": "591839711478a5e2f052de39827fd39716cfc217cb79f22a7c4382152b0867f8",
     "blockHashes": [
       "88b5148b04637d49",
       "74e4c1d2a646a96e",
@@ -8197,13 +8198,13 @@
       "b464959f5a852b43",
       "40864ea777f9c0bf",
       "06538d757b5fb483",
-      "217c83e7e7aaa896",
+      "6714a1549fe8444f",
       "782261474561a27a"
     ],
     "extractedChars": 1600,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
-    "lastChangedISO": "2026-10-01T10:30:52.103Z",
+    "lastChangedISO": "2026-10-01T23:01:42.341Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
