@@ -652,16 +652,16 @@
     "orgId": "sdaia",
     "contentHash": "f1c749f1b0084dc210dc0d9f1e447c42c8ea07e30a315579c292163ea7abbe55",
     "blockHashes": [
-      "04ba8a3fca46514f",
-      "4bd08244050e9682"
+      "6cb2e204bf43f326",
+      "7660ca09176ece0d"
     ],
     "extractedChars": 756,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-10-01T12:06:04.043Z",
     "thinRuns": 0,
-    "pendingClassification": true,
-    "classifyFailures": 2
+    "pendingClassification": false,
+    "classifyFailures": 3
   },
   {
     "sourceUrl": "https://awqaf.gov.sa/ar/ar/hiring/",
@@ -1262,14 +1262,14 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/cookiesettings",
     "orgId": "maaden",
-    "contentHash": "8718834b2f4dc0de47ecd7c001cb00c09ef7237a8ffdead09dc1e3340b43ca53",
+    "contentHash": "1f4b686df7cce18e2da4b4394aebac9ac583fa109c9a1d13fec6cba00c100a02",
     "blockHashes": [
       "dfd3c66b52c38ffe"
     ],
-    "extractedChars": 240,
+    "extractedChars": 8013,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-01T22:42:13.767Z",
+    "lastChangedISO": "2026-10-01T23:30:16.029Z",
     "thinRuns": 0,
     "pendingClassification": true,
     "classifyFailures": 1
@@ -11198,7 +11198,7 @@
   {
     "sourceUrl": "https://www.tahakom.com/careers",
     "orgId": "tahakom",
-    "contentHash": "b7b320ab3c337aeecb9e37464095a96d51bb5983c01dda8f6681582a73d6758d",
+    "contentHash": "855193303b2324024bccef01fb39a6cd0af6aa0a7562dccc8e836ce6179ea203",
     "blockHashes": [
       "31adad521756d062",
       "611753a8aea1ade1",
@@ -11206,12 +11206,13 @@
       "1a5263a5a2541c46",
       "66314e4675e8f143"
     ],
-    "extractedChars": 819,
+    "extractedChars": 836,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-03T05:13:40.059Z",
-    "lastChangedISO": "2026-10-01T22:42:13.767Z",
+    "lastChangedISO": "2026-10-01T23:30:16.029Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://www.taifcity.gov.sa/#/ar",
