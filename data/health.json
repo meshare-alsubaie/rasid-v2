@@ -326,11 +326,11 @@
   {
     "sourceUrl": "https://athkax.sdaia.gov.sa/coop",
     "orgId": "sdaia",
-    "lastAttemptISO": "2026-10-01T12:06:04.043Z",
+    "lastAttemptISO": "2026-10-01T12:52:10.809Z",
     "lastSuccessISO": "2026-10-01T12:06:04.043Z",
-    "consecutiveFailures": 0,
-    "lastError": null,
-    "state": "healthy"
+    "consecutiveFailures": 1,
+    "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
+    "state": "degraded"
   },
   {
     "sourceUrl": "https://awqaf.gov.sa/ar/ar/hiring/",
@@ -371,11 +371,11 @@
   {
     "sourceUrl": "https://bankalbilad.com/ar/about/Pages/Training.aspx",
     "orgId": "albilad",
-    "lastAttemptISO": "2026-10-01T12:06:04.043Z",
+    "lastAttemptISO": "2026-10-01T12:52:10.809Z",
     "lastSuccessISO": "2026-10-01T12:06:04.043Z",
-    "consecutiveFailures": 0,
-    "lastError": null,
-    "state": "healthy"
+    "consecutiveFailures": 1,
+    "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
+    "state": "degraded"
   },
   {
     "sourceUrl": "https://career.alinma.com/",
@@ -416,11 +416,11 @@
   {
     "sourceUrl": "https://career.elm.sa/elm/go/coop-trainee-and-training-program/8486100/",
     "orgId": "elm",
-    "lastAttemptISO": "2026-10-01T12:06:04.043Z",
+    "lastAttemptISO": "2026-10-01T12:52:10.809Z",
     "lastSuccessISO": "2026-10-01T12:06:04.043Z",
-    "consecutiveFailures": 0,
-    "lastError": null,
-    "state": "healthy"
+    "consecutiveFailures": 1,
+    "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
+    "state": "degraded"
   },
   {
     "sourceUrl": "https://career.elm.sa/elm/go/coop-trainee-and-training-program/8486100/elm.sa",
@@ -1037,11 +1037,11 @@
   {
     "sourceUrl": "https://haseen.gov.sa/academy/ar/",
     "orgId": "ncac",
-    "lastAttemptISO": "2026-10-01T12:06:04.043Z",
+    "lastAttemptISO": "2026-10-01T12:52:10.809Z",
     "lastSuccessISO": "2026-10-01T12:06:04.043Z",
-    "consecutiveFailures": 0,
-    "lastError": null,
-    "state": "healthy"
+    "consecutiveFailures": 1,
+    "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
+    "state": "degraded"
   },
   {
     "sourceUrl": "https://hrsd.gov.sa/",
@@ -1622,11 +1622,11 @@
   {
     "sourceUrl": "https://sdaia.gov.sa/ar/Sectors/BuildingCapacity/Pages/CooperativeTraining.aspx",
     "orgId": "sdaia",
-    "lastAttemptISO": "2026-10-01T12:06:04.043Z",
+    "lastAttemptISO": "2026-10-01T12:52:10.809Z",
     "lastSuccessISO": "2026-10-01T12:06:04.043Z",
-    "consecutiveFailures": 0,
-    "lastError": null,
-    "state": "healthy"
+    "consecutiveFailures": 1,
+    "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
+    "state": "degraded"
   },
   {
     "sourceUrl": "https://sdaia.gov.sa/ar/Sectors/Ncai/Pages/default.aspx",
@@ -2072,10 +2072,10 @@
   {
     "sourceUrl": "https://www.bankalbilad.com.sa/en/about/pages/training.aspx",
     "orgId": "albilad",
-    "lastAttemptISO": "2026-10-01T12:06:04.043Z",
+    "lastAttemptISO": "2026-10-01T12:52:10.809Z",
     "lastSuccessISO": "2026-08-31T00:02:49.563Z",
-    "consecutiveFailures": 448,
-    "lastError": "الصفحة تردّ 200 وعنوانها «Error»، أي أنها صفحة غير موجودة",
+    "consecutiveFailures": 449,
+    "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
     "state": "broken"
   },
   {
@@ -3431,11 +3431,11 @@
   {
     "sourceUrl": "https://www.sami.com.sa/careers/",
     "orgId": "sami",
-    "lastAttemptISO": "2026-10-01T12:06:04.043Z",
+    "lastAttemptISO": "2026-10-01T12:52:10.809Z",
     "lastSuccessISO": "2026-10-01T12:06:04.043Z",
-    "consecutiveFailures": 0,
-    "lastError": null,
-    "state": "healthy"
+    "consecutiveFailures": 1,
+    "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
+    "state": "degraded"
   },
   {
     "sourceUrl": "https://www.sanabil.com/",
@@ -3476,11 +3476,11 @@
   {
     "sourceUrl": "https://www.saso.gov.sa/ar/QualitySign/info/Pages/default.aspx",
     "orgId": "saso",
-    "lastAttemptISO": "2026-10-01T12:06:04.043Z",
+    "lastAttemptISO": "2026-10-01T12:52:10.809Z",
     "lastSuccessISO": "2026-10-01T12:06:04.043Z",
-    "consecutiveFailures": 0,
-    "lastError": null,
-    "state": "healthy"
+    "consecutiveFailures": 1,
+    "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
+    "state": "degraded"
   },
   {
     "sourceUrl": "https://www.saudiexchange.sa/wps/portal/saudiexchange/about-saudi-exchange/aboutus/careers?locale=ar",
@@ -3845,11 +3845,11 @@
   {
     "sourceUrl": "https://www.thiqah.sa/en/careers/",
     "orgId": "thiqah",
-    "lastAttemptISO": "2026-10-01T11:51:51.674Z",
+    "lastAttemptISO": "2026-10-01T12:52:10.809Z",
     "lastSuccessISO": "2026-10-01T11:51:51.674Z",
-    "consecutiveFailures": 0,
-    "lastError": null,
-    "state": "healthy"
+    "consecutiveFailures": 1,
+    "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
+    "state": "degraded"
   },
   {
     "sourceUrl": "https://www.thiqah.sa/en/news-events/",
