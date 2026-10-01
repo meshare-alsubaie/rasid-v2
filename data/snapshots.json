@@ -242,7 +242,7 @@
   {
     "sourceUrl": "https://alinma.com/",
     "orgId": "alinma",
-    "contentHash": "848b5941bd66ef6e33df90195128efb74a550f5f99e1a68ec6e765716c49278f",
+    "contentHash": "2d537ed771cd13f83733af739cc68a37fc7a55c33b06206bddd9b2ab45c88b51",
     "blockHashes": [
       "c07ea4f5d775385d",
       "bf13ad34b054342e",
@@ -256,9 +256,10 @@
     "extractedChars": 1504,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T22:03:35.383Z",
-    "lastChangedISO": "2026-09-30T08:10:27.602Z",
+    "lastChangedISO": "2026-10-01T02:25:45.544Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://alinma.com/About-the-Bank/The-Bank/News",
@@ -4135,7 +4136,7 @@
   {
     "sourceUrl": "https://slccareers.kpmg.com/go/All-Jobs/7738123/",
     "orgId": "kpmg_sa",
-    "contentHash": "75895ee4a72a426ceb04fdab9f9597c46443d1f0fb9f9c4d8c1e5b3fb908e97f",
+    "contentHash": "5a2dee65c2c53376c326035bfd9afb8de9c408e39e3e2e806acbfdf2903e3524",
     "blockHashes": [
       "77a5019ae7f77546",
       "5de5466553026f83",
@@ -4153,9 +4154,10 @@
     "extractedChars": 518,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-30T21:25:56.734Z",
+    "lastChangedISO": "2026-10-01T02:25:45.544Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://slccareers.kpmg.com/job/Beirut-Experienced-External-Auditor/857312523/",
@@ -7740,9 +7742,9 @@
   {
     "sourceUrl": "https://www.mim.gov.sa/ar/media-center/news",
     "orgId": "mim",
-    "contentHash": "1c94756e39f95dbc88f4b2aba3b22ed5375f96dcfef0f70e326f55d316484d3e",
+    "contentHash": "3d0f201d51a75c96d1627d1492265fdef904ce7703a575d993a50f913261983e",
     "blockHashes": [
-      "10c1a044038c89de",
+      "d95f86d190311420",
       "1f5dd0d29afd9b79",
       "634a5a8d064708ad",
       "1f5e279450d224dd",
@@ -7772,7 +7774,7 @@
     "extractedChars": 10087,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-30T23:18:01.481Z",
+    "lastChangedISO": "2026-10-01T02:25:45.544Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
