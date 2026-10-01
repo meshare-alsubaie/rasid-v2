@@ -767,7 +767,7 @@
   {
     "sourceUrl": "https://career.alinma.com/",
     "orgId": "alinma",
-    "contentHash": "e245fd94c1ab59dcc6bad34af50ba34c224654b27d2f46834c18eef001143fa5",
+    "contentHash": null,
     "blockHashes": [
       "d139e32e22028878",
       "24a16c9057a577bb",
@@ -1277,7 +1277,7 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/search-results",
     "orgId": "maaden",
-    "contentHash": "bd3023d1abc930717e70d7ec1b6b68b5df16b442dd0fbb53437e3a3f84ea476a",
+    "contentHash": "1c4e6762ef94ee64ff6ed5778117eeb301465cd562945a2d2afa2e4abc91b41d",
     "blockHashes": [
       "5569201553604d03",
       "6e3cceb54e777f64",
@@ -1289,7 +1289,7 @@
     "extractedChars": 240,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-01T22:25:45.078Z",
+    "lastChangedISO": "2026-10-01T23:13:27.965Z",
     "thinRuns": 0,
     "pendingClassification": true,
     "classifyFailures": 1
@@ -8678,11 +8678,11 @@
   {
     "sourceUrl": "https://www.nazaha.gov.sa/News/Details?q=HNQU9DHVnwVHan0Mf562ug==",
     "orgId": "nazaha",
-    "contentHash": "41405a46bcd081ae8cb9c315fbdf5ebeb7a27985e7163535dbc03ecc0dc6abae",
+    "contentHash": "5ddabfa01a18b68b8e62f03a3dc1cb2cb3e3e8bd08772c8534a57a8a505fa128",
     "blockHashes": [
       "a167b0dd9b0e3e1c",
       "74e4c1d2a646a96e",
-      "12b6c8e742cd9a11",
+      "7f4fab56481d666a",
       "366f824a751bf3bd",
       "a96b8a7b6f568013",
       "4d9af472ef4907d3",
@@ -8703,9 +8703,10 @@
     "extractedChars": 4010,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-30T21:46:34.615Z",
+    "lastChangedISO": "2026-10-01T23:13:27.965Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://www.nazaha.gov.sa/News/Details?q=LDqaftYCK2agKydxrbY5fg==",
