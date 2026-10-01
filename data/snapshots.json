@@ -2057,11 +2057,11 @@
   {
     "sourceUrl": "https://careers.zatca.gov.sa/search/?createNewAlert=false&q=&locationsearch=",
     "orgId": "zatca",
-    "contentHash": "fbd634c63319507785a10abaed69c49d7879b68c191ae62dd1916e33fa28ccac",
+    "contentHash": "296340eb8556ae662cf52bd5d521820e886ea3ab25257aec597489277256a2fc",
     "blockHashes": [
       "650a2ce183d63c69",
-      "4dd6d081c29f300e",
-      "aa9d9e861e32a3bb",
+      "f254f8958ece8b0e",
+      "36fe544e1baf0777",
       "78be07dcda742780",
       "d7e68edbca4492d8",
       "16345d1561ab49e8",
@@ -2077,10 +2077,9 @@
     "extractedChars": 571,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-01T08:30:57.206Z",
+    "lastChangedISO": "2026-10-01T22:45:14.780Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "classifyFailures": 3
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://cma.gov.sa/Pages/default.aspx",
@@ -5600,19 +5599,19 @@
   {
     "sourceUrl": "https://www.bog.gov.sa/en/EServices/Pages/khabeer.aspx",
     "orgId": "bog",
-    "contentHash": "4f0cf1883b6d6c01bcc6c608730563e747a79b14afeb32f4d38fbee15591a3f0",
+    "contentHash": "1c4bf3783d15ea3f6d9fcc3890cf3e41c97b68d3869ca04f0174764df4960936",
     "blockHashes": [
       "46d9575ec382a9d1",
       "96c63175498462d9",
       "f4b9821710ab784e",
-      "be5ee0faff2db00f",
+      "90a333d48dbc2607",
       "8b99d3a854f63801",
       "ec5d6ba37d25b982"
     ],
     "extractedChars": 1229,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T02:22:33.828Z",
-    "lastChangedISO": "2026-10-01T12:09:26.163Z",
+    "lastChangedISO": "2026-10-01T22:45:14.780Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -6405,9 +6404,9 @@
   {
     "sourceUrl": "https://www.gaca.gov.sa/",
     "orgId": "gaca",
-    "contentHash": "3146511d438e04c28b0c17ce6c4bbcd40b123362c29959cd5fe23ca32d2afcc0",
+    "contentHash": "2ab8c66e3fc36f11b8d9670a7ac3d753973a5e385f9bcc37ade6ec17ca540788",
     "blockHashes": [
-      "a1f136871dba3ca9",
+      "7eb5a841413b48ad",
       "67ba147535885b5a",
       "90d5b20a2e1b1c87",
       "98b0f721363b8a74",
@@ -6417,7 +6416,7 @@
     "extractedChars": 1607,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-01T10:23:29.844Z",
+    "lastChangedISO": "2026-10-01T22:45:14.780Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -8651,7 +8650,7 @@
   {
     "sourceUrl": "https://www.nazaha.gov.sa/News/Details?q=+ZUW2RPX/9RAyHyLvILpaw==",
     "orgId": "nazaha",
-    "contentHash": "75f7d9cc7cea3553d458dfc995231a6ac0dbab0f324debfdcf84606a3facd3db",
+    "contentHash": "a7f7b3e3872406f6936a1329b1b90c4055723c6935b86a4637e61a80c5d7fa37",
     "blockHashes": [
       "a167b0dd9b0e3e1c",
       "74e4c1d2a646a96e",
@@ -8663,9 +8662,10 @@
     "extractedChars": 757,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-30T23:11:13.940Z",
+    "lastChangedISO": "2026-10-01T22:45:14.780Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://www.nazaha.gov.sa/News/Details?q=HNQU9DHVnwVHan0Mf562ug==",
