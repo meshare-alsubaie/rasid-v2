@@ -912,15 +912,15 @@
     "blockHashes": [
       "481ecb5edc2c68e9",
       "99fd2574f2e9065b",
-      "9329bf26b41969b1"
+      "292f84b978aae52a"
     ],
     "extractedChars": 928,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-10-01T07:20:33.264Z",
     "thinRuns": 0,
-    "pendingClassification": true,
-    "classifyFailures": 2
+    "pendingClassification": false,
+    "classifyFailures": 3
   },
   {
     "sourceUrl": "https://careers.alrajhibank.com.sa/ar/page/coop-program/",
@@ -2258,9 +2258,9 @@
   {
     "sourceUrl": "https://gaca.gov.sa/ar/News",
     "orgId": "gaca",
-    "contentHash": "9be0150f1b6c1234a2db04b3e7d479d9cc2f1ffb2fe365adf32232465bd58beb",
+    "contentHash": "996499e78da14e3909313d676defa03ccbc50185164853f807a3ed91379bf2e0",
     "blockHashes": [
-      "806053eaeb9b965e",
+      "b835cf258b4af9ba",
       "7de8ea5de5c99977",
       "8587b2ba02f096c6",
       "6382e3437605c55d",
@@ -2327,12 +2327,12 @@
       "89325812f489a554",
       "57534ebd8ed8f48f",
       "83a22e1f9fb245f8",
-      "2ccfa90c84c059a7"
+      "bc532942aaed49b7"
     ],
-    "extractedChars": 21297,
+    "extractedChars": 21036,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-01T06:46:02.027Z",
+    "lastChangedISO": "2026-10-01T10:01:39.470Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -3376,7 +3376,7 @@
   {
     "sourceUrl": "https://momah.gov.sa/ar/node/14717",
     "orgId": "housing",
-    "contentHash": "87a794316efdf6509c8a3d2b054b061da91cd741fb40c50c15ac32df7647eede",
+    "contentHash": "5df36456c9db2bf259dff165ab0eeb16d88e95f882d8fe7c39482999d3c10730",
     "blockHashes": [
       "cb4161ba67cbcfe8",
       "075ae909c8ed1c08",
@@ -3407,9 +3407,10 @@
     "extractedChars": 152144,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-29T08:59:23.035Z",
+    "lastChangedISO": "2026-10-01T10:01:39.470Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://mot.gov.sa/ar/employment1",
@@ -5565,18 +5566,18 @@
   {
     "sourceUrl": "https://www.bog.gov.sa/en/EServices/judiciaryHiring/Pages/Hiring.aspx",
     "orgId": "bog",
-    "contentHash": "6635fa4c3d3bd50914f5da28c4c617ed4f7368cc92708f67e06332e4497360e5",
+    "contentHash": "991a6aba6915675d3432f1fa6317b1271691eedeb4f729a07b62fe0c0620b0a0",
     "blockHashes": [
       "46d9575ec382a9d1",
       "96c63175498462d9",
       "f4b9821710ab784e",
-      "14a91afead641f0d",
+      "c56b263d910d820d",
       "ec5d6ba37d25b982"
     ],
     "extractedChars": 609,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-01T06:57:19.032Z",
+    "lastChangedISO": "2026-10-01T10:01:39.470Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -6464,7 +6465,7 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/careers",
     "orgId": "hrc",
-    "contentHash": "61116e217fa9afbf40c26e65d98d42d6c8248a39f3651d9a475e18744b0b92c0",
+    "contentHash": "c23e0bb2f40c19e64f0f1f943f80173df5fe7359a663009fe070703229dbcc0c",
     "blockHashes": [
       "12e41a244a8a2984",
       "e478603439844686",
@@ -6491,7 +6492,7 @@
     "extractedChars": 3794,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-01T06:46:02.027Z",
+    "lastChangedISO": "2026-10-01T10:01:39.470Z",
     "thinRuns": 0,
     "pendingClassification": true,
     "classifyFailures": 1
@@ -9295,7 +9296,7 @@
   {
     "sourceUrl": "https://www.rcrc.gov.sa/",
     "orgId": "rcrc",
-    "contentHash": "f472953ebcace526a11e090009c40a37f3ef3a20d78036a7218db097814865b1",
+    "contentHash": "05cefcb62e1cec802277e7197248d978fd388328015cc41bfcfe5d75199124f5",
     "blockHashes": [
       "dd62229c2f61fb42",
       "306db3646b8a6c73",
@@ -9323,12 +9324,13 @@
       "42d24dc3675b45a7",
       "2ebbd7048725e505"
     ],
-    "extractedChars": 2274,
+    "extractedChars": 1920,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
-    "lastChangedISO": "2026-09-30T20:52:36.037Z",
+    "lastChangedISO": "2026-10-01T10:01:39.470Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://www.rcrc.gov.sa/careers/?lang=ar",
@@ -10331,11 +10333,11 @@
   {
     "sourceUrl": "https://www.sfda.gov.sa/ar",
     "orgId": "sfda",
-    "contentHash": "edcd1a61bb5313051aacb2198c73604eacacd4c76aa58a34d1d6eddb952a9854",
+    "contentHash": "6001474ea828c97c420a5ac01abbd704c9547c620bd1dd36780663d8b78410a8",
     "blockHashes": [
-      "afec95355af13854",
-      "6ecc1b58c61ff1cd",
-      "6ecc1b58c61ff1cd",
+      "8cf89a9410746b31",
+      "09acfe6c984b11b9",
+      "09acfe6c984b11b9",
       "3deb34c9b7765f1c",
       "9602e76373532436",
       "062cf6ccf792698c",
@@ -10361,17 +10363,18 @@
       "3b931cad7ef53a13",
       "658b43d0993d5397",
       "60b6afb763e71c83",
-      "9dd754fcf35355a9",
+      "d9133ed04e7c1ff0",
       "b69ab73ade473181",
       "fe04993c9918963a",
       "af16e375a9685bae"
     ],
-    "extractedChars": 6292,
+    "extractedChars": 6439,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-30T20:56:41.580Z",
+    "lastChangedISO": "2026-10-01T10:01:39.470Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://www.sfda.gov.sa/ar/career-vision-and-mission",
@@ -10723,7 +10726,7 @@
   {
     "sourceUrl": "https://www.stats.gov.sa/ar",
     "orgId": "gastat",
-    "contentHash": "0de296f70150a0d8aec07865f258eacae95e7fa7364ee831f149097144475a1e",
+    "contentHash": "e8b648df9fec3981bb01d67aa55f0f1deda53ee76818b90726b81551339eb7f0",
     "blockHashes": [
       "b618107f43bd2daf",
       "2fec6d796296a0f8",
@@ -10732,12 +10735,13 @@
       "dc84e74cdce35fa3",
       "9214de5f4ec23c78"
     ],
-    "extractedChars": 3242,
+    "extractedChars": 3206,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-30T20:28:44.836Z",
+    "lastChangedISO": "2026-10-01T10:01:39.470Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://www.stats.gov.sa/ar/cooperative-training",
@@ -11202,13 +11206,10 @@
   {
     "sourceUrl": "https://www.thiqah.sa/",
     "orgId": "thiqah",
-    "contentHash": "41585f247e073f7dfa50339963ead8d8387c9a1b752741091b485d74143c63b9",
+    "contentHash": "bba18d1332d9277cfb6fa175f6984c62b16db98c935a6738a2b6a55c5b1d20bc",
     "blockHashes": [
-      "56d61a024ef0c23a",
-      "988b9a8bf2486a9d",
-      "a4ad1af066840cba",
-      "2a753899ff945f72",
-      "0254baf3c601928d",
+      "2badba214de43400",
+      "cff1ddff4e992236",
       "e6bf180d162757ed",
       "ce6b1d76c3fa0a8f",
       "5702aa0bdde53d7c",
@@ -11221,7 +11222,7 @@
     "extractedChars": 2087,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-01T03:33:07.358Z",
+    "lastChangedISO": "2026-10-01T10:01:39.470Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
