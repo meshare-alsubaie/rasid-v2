@@ -3138,9 +3138,9 @@
   {
     "sourceUrl": "https://modon.gov.sa/ar/MediaCenter/modon-news/News/Pages/default.aspx",
     "orgId": "modon",
-    "contentHash": "65b94d03d0a7fc5712a0d6eaf8b21318f913f312757cb2348a5adb2323462a7d",
+    "contentHash": "9cbeaa80177cc7b96e390170eb6158bc29cd2d883d094e53ad61878d91672c8a",
     "blockHashes": [
-      "2a82be725b6b1907",
+      "5b8f98a216b44232",
       "8727cbb5dfea6170",
       "bdfe2a112c399ccd",
       "8ae17958586c8a8c",
@@ -3149,7 +3149,7 @@
     "extractedChars": 1591,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-30T23:29:40.099Z",
+    "lastChangedISO": "2026-10-01T02:31:54.407Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -3737,7 +3737,7 @@
   {
     "sourceUrl": "https://ndf.gov.sa/media-center/articles/article-human-resource-development",
     "orgId": "ndf",
-    "contentHash": "9b4f2022d07cf56bae820b6bec7b5fc0d2632c4fd96d36d5900682bb33309c8a",
+    "contentHash": "afa4627f6c37e960792b4d93c0371dada5c507ef4401f871fdf3748648dbaef5",
     "blockHashes": [
       "b8aa3a91f3e43d37",
       "2e431a1caf07dcca",
@@ -3748,12 +3748,13 @@
       "e13becff422fb79f",
       "2dce6a68bcf7278f"
     ],
-    "extractedChars": 4172,
+    "extractedChars": 122,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-30T22:02:56.829Z",
+    "lastChangedISO": "2026-10-01T02:31:54.407Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://ndf.gov.sa/media-center/newsletters",
@@ -10724,8 +10725,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-30T20:28:44.836Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "triaged_out"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.stats.gov.sa/ar/cooperative-training",
