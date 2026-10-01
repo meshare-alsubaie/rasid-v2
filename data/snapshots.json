@@ -1373,7 +1373,7 @@
   {
     "sourceUrl": "https://careers.rcjy.gov.sa/",
     "orgId": "rcjy",
-    "contentHash": "e60d99e52308f3555d2ffbf6e329e2af251f67e4faace858e576b0585c627aab",
+    "contentHash": "9dcf9dbe49a94c41e68fe349ac639f7b0e4579cd9863e3a685a7e0d99073308a",
     "blockHashes": [
       "c8e06909cc1f92ba",
       "4fac16259b7ef252",
@@ -1385,12 +1385,13 @@
       "69a0154f6c1379bc",
       "b53152be0d7edff4"
     ],
-    "extractedChars": 1527,
+    "extractedChars": 3028,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-29T21:26:10.763Z",
+    "lastChangedISO": "2026-10-01T22:47:48.062Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://careers.rcjy.gov.sa/ar/job-search-results/",
@@ -2208,14 +2209,14 @@
   {
     "sourceUrl": "https://gac.gov.sa/",
     "orgId": "gac",
-    "contentHash": "9ebb5b3f5df1a2ef7ef4f856a3fd97b951e5006dd154010205ab19a3dc340f2b",
+    "contentHash": "0215494760d6b871982a4e4cae381f027d80d07d980de609b46bcb59c4f18264",
     "blockHashes": [
-      "9ebb5b3f5df1a2ef"
+      "0215494760d6b871"
     ],
-    "extractedChars": 1326,
+    "extractedChars": 1446,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-09-17T12:53:53.341Z",
-    "lastChangedISO": "2026-10-01T10:23:29.844Z",
+    "lastChangedISO": "2026-10-01T22:47:48.062Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -9634,8 +9635,7 @@
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
     "lastChangedISO": "2026-10-01T10:23:29.844Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.riyadbank.com/ar/personal-banking",
