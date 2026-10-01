@@ -2967,7 +2967,7 @@
   {
     "sourceUrl": "https://misa.gov.sa/ar/",
     "orgId": "misa",
-    "contentHash": "25e9e6df42cbb73d1492a3efd22795ba9ad32f6ee4dcfcb8f169a30f5b925787",
+    "contentHash": "20e457894e6af4385f1a1016a49d63138e2af09f412e0202190f222584c0db1a",
     "blockHashes": [
       "d0ada1cfc277849f",
       "a281540e00ca3f91",
@@ -3014,12 +3014,13 @@
       "974c82cd938a6672",
       "44ce6d80cbcdaa0c"
     ],
-    "extractedChars": 2669,
+    "extractedChars": 2182,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
-    "lastChangedISO": "2026-09-20T12:08:41.836Z",
+    "lastChangedISO": "2026-10-01T22:21:27.091Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://misa.gov.sa/ar/media-center/",
@@ -3926,17 +3927,17 @@
   {
     "sourceUrl": "https://redf.gov.sa/ar/careers",
     "orgId": "redf",
-    "contentHash": "cd085a983d01b6b2505430adf1b50733180a47508ebe049aa1cbb3ec1fe04358",
+    "contentHash": "316e125f3adf58f9f889c0c405b6048a0d58ca96725ea66decdec63596d89c07",
     "blockHashes": [
       "cd085a983d01b6b2"
     ],
-    "extractedChars": 1545,
+    "extractedChars": 951,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-02T23:42:46.216Z",
-    "lastChangedISO": "2026-10-01T02:18:11.874Z",
+    "lastChangedISO": "2026-10-01T22:21:27.091Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "classifyFailures": 3
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://rega.gov.sa/login/?redirectId=32017",
@@ -4493,17 +4494,17 @@
   {
     "sourceUrl": "https://tvtc.gov.sa/",
     "orgId": "tvtc",
-    "contentHash": "b90713701e9247c8bda0ceca423825c2a7d0d96fdd1f940402dd48ff674bc95e",
+    "contentHash": "eed8a8614035114fe8e95d8e47b772e62203c765f0a9fe1d6f6937b1a51fedaf",
     "blockHashes": [
       "7ecbdac96ab8ea6e"
     ],
-    "extractedChars": 421,
+    "extractedChars": 451,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-01T03:23:53.266Z",
-    "lastChangedISO": "2026-10-01T02:42:17.915Z",
+    "lastChangedISO": "2026-10-01T22:21:27.091Z",
     "thinRuns": 0,
     "pendingClassification": true,
-    "classifyFailures": 2
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://wadimakkah.sa/",
