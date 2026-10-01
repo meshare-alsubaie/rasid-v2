@@ -3708,7 +3708,7 @@
   {
     "sourceUrl": "https://ndf.gov.sa/media-center",
     "orgId": "ndf",
-    "contentHash": "067c3e1ea8f4fab5fe1361f4e07b0e707495ff9f2a789b8cb25446dd7e314021",
+    "contentHash": "32c7cd00cb1e170d9b73c33877d73cd0d0640ab890b6394b54aed37a96f82255",
     "blockHashes": [
       "1b7917c3bebe7830",
       "3c7d3bdeb9a3e07b",
@@ -3716,12 +3716,13 @@
       "eeac3e91395fd6e9",
       "4e9c4cce16fbbdd4"
     ],
-    "extractedChars": 3939,
+    "extractedChars": 3950,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-30T21:14:17.182Z",
+    "lastChangedISO": "2026-10-01T23:37:01.370Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://ndf.gov.sa/media-center/annual-reports",
