@@ -7671,12 +7671,12 @@
   {
     "sourceUrl": "https://www.mewa.gov.sa/ar/MediaCenter/PressReleases/Pages/home.aspx",
     "orgId": "mewa",
-    "contentHash": "e94339e8bf273c346349d24795b714446f388328eeff662ad4cde85eb8c233a3",
+    "contentHash": "87b04a74a00e4bb2aaba22b0e211935a339cf5c9dd5f89d15ffeba997dc16b19",
     "blockHashes": [
       "12e41a244a8a2984",
       "c804732dd480d71a",
       "74e4c1d2a646a96e",
-      "1bef134595422e1e",
+      "e3fc0aac19bc50e9",
       "eaca30400015cdec",
       "b957f376a744a274",
       "0116fe72794c37b1",
@@ -7687,9 +7687,10 @@
     "extractedChars": 1396,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-01T03:04:21.078Z",
+    "lastChangedISO": "2026-10-01T23:40:17.845Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://www.mewa.gov.sa/ar/MediaCenter/VisualIdentityGuide/Pages/default.aspx",
@@ -8737,7 +8738,7 @@
   {
     "sourceUrl": "https://www.nazaha.gov.sa/News/Details?q=o2ojUlDL5mGosOuEoGXXeg==",
     "orgId": "nazaha",
-    "contentHash": "ed4171632eee15b817d428692ec46935c0a168cf9eca81d4eec80b22612e3494",
+    "contentHash": "05eda5c4681d76ea1fcc9f9a90d42378cb5fea2c0eb5172808e6c7e3c865aab4",
     "blockHashes": [
       "a167b0dd9b0e3e1c",
       "74e4c1d2a646a96e",
@@ -8749,9 +8750,10 @@
     "extractedChars": 783,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-30T20:59:10.280Z",
+    "lastChangedISO": "2026-10-01T23:40:17.845Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://www.ncc.gov.sa/ar/MediaCenter/Events/Pages/default.aspx",
