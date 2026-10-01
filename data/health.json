@@ -56,11 +56,11 @@
   {
     "sourceUrl": "https://adf.gov.sa/ar/media-center/success-stories/Pages/default.aspx",
     "orgId": "adf",
-    "lastAttemptISO": "2026-10-01T13:23:01.857Z",
-    "lastSuccessISO": "2026-10-01T10:19:44.042Z",
-    "consecutiveFailures": 1,
-    "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
-    "state": "degraded"
+    "lastAttemptISO": "2026-10-01T23:31:38.666Z",
+    "lastSuccessISO": "2026-10-01T23:31:38.666Z",
+    "consecutiveFailures": 0,
+    "lastError": null,
+    "state": "healthy"
   },
   {
     "sourceUrl": "https://adf.gov.sa/ar/Pages/default.aspx",
@@ -686,8 +686,8 @@
   {
     "sourceUrl": "https://careers.saib.com.sa/ar/page/bag-program/",
     "orgId": "saib",
-    "lastAttemptISO": "2026-10-01T22:36:54.532Z",
-    "lastSuccessISO": "2026-10-01T22:36:54.532Z",
+    "lastAttemptISO": "2026-10-01T23:31:38.666Z",
+    "lastSuccessISO": "2026-10-01T23:31:38.666Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -731,8 +731,8 @@
   {
     "sourceUrl": "https://careers.sama.gov.sa/content/Recruiting-process/?locale=en_GB",
     "orgId": "sama",
-    "lastAttemptISO": "2026-10-01T22:36:54.532Z",
-    "lastSuccessISO": "2026-10-01T22:36:54.532Z",
+    "lastAttemptISO": "2026-10-01T23:31:38.666Z",
+    "lastSuccessISO": "2026-10-01T23:31:38.666Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -821,8 +821,8 @@
   {
     "sourceUrl": "https://careers.stc.com.sa/",
     "orgId": "stc",
-    "lastAttemptISO": "2026-10-01T22:22:53.232Z",
-    "lastSuccessISO": "2026-10-01T22:22:53.232Z",
+    "lastAttemptISO": "2026-10-01T23:31:38.666Z",
+    "lastSuccessISO": "2026-10-01T23:31:38.666Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -1406,11 +1406,11 @@
   {
     "sourceUrl": "https://nca.gov.sa/en/news/",
     "orgId": "nca",
-    "lastAttemptISO": "2026-10-01T13:24:15.189Z",
-    "lastSuccessISO": "2026-10-01T10:19:44.042Z",
-    "consecutiveFailures": 1,
-    "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
-    "state": "degraded"
+    "lastAttemptISO": "2026-10-01T23:31:38.666Z",
+    "lastSuccessISO": "2026-10-01T23:31:38.666Z",
+    "consecutiveFailures": 0,
+    "lastError": null,
+    "state": "healthy"
   },
   {
     "sourceUrl": "https://ncar.gov.sa/",
@@ -2882,8 +2882,8 @@
   {
     "sourceUrl": "https://www.mof.gov.sa/Pages/default.aspx",
     "orgId": "mof",
-    "lastAttemptISO": "2026-10-01T10:05:02.430Z",
-    "lastSuccessISO": "2026-10-01T10:05:02.430Z",
+    "lastAttemptISO": "2026-10-01T23:31:38.666Z",
+    "lastSuccessISO": "2026-10-01T23:31:38.666Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -3926,9 +3926,9 @@
   {
     "sourceUrl": "https://www.unilever.com/",
     "orgId": "unilever_sa",
-    "lastAttemptISO": "2026-10-01T09:43:05.314Z",
+    "lastAttemptISO": "2026-10-01T23:31:38.666Z",
     "lastSuccessISO": "2026-09-02T23:42:46.216Z",
-    "consecutiveFailures": 63,
+    "consecutiveFailures": 64,
     "lastError": "HTTP 403",
     "state": "broken"
   },
