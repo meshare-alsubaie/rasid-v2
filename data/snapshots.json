@@ -5585,18 +5585,18 @@
   {
     "sourceUrl": "https://www.bog.gov.sa/en/EServices/judiciaryHiring/Pages/Hiring.aspx",
     "orgId": "bog",
-    "contentHash": "991a6aba6915675d3432f1fa6317b1271691eedeb4f729a07b62fe0c0620b0a0",
+    "contentHash": "6635fa4c3d3bd50914f5da28c4c617ed4f7368cc92708f67e06332e4497360e5",
     "blockHashes": [
       "46d9575ec382a9d1",
       "96c63175498462d9",
       "f4b9821710ab784e",
-      "c56b263d910d820d",
+      "14a91afead641f0d",
       "ec5d6ba37d25b982"
     ],
     "extractedChars": 609,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-01T10:01:39.470Z",
+    "lastChangedISO": "2026-10-01T22:59:14.041Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -7641,13 +7641,13 @@
   {
     "sourceUrl": "https://www.mewa.gov.sa/ar/MediaCenter/News/Pages/Home.aspx",
     "orgId": "mewa",
-    "contentHash": "4761d8ebf6b050bc4d71eeaadb0f3e2523271494966691970ea11fa1d81fcbcc",
+    "contentHash": "8f0c3981596446cf26077c2d6815b481999cd3352022c65a311dfb65d9298dd2",
     "blockHashes": [
       "12e41a244a8a2984",
       "c804732dd480d71a",
       "74e4c1d2a646a96e",
-      "428f336305e30488",
-      "fd303b5dbc88020c",
+      "2338712cc4b280c1",
+      "d9f86c79a1fb639e",
       "dd50e0584620f839",
       "ecad9c739213e7d0",
       "b957f376a744a274",
@@ -7659,9 +7659,10 @@
     "extractedChars": 2179,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-30T23:11:13.940Z",
+    "lastChangedISO": "2026-10-01T22:59:14.041Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://www.mewa.gov.sa/ar/MediaCenter/PressReleases/Pages/home.aspx",
@@ -7779,9 +7780,9 @@
   {
     "sourceUrl": "https://www.mim.gov.sa/ar/media-center/news",
     "orgId": "mim",
-    "contentHash": "bcbc7210cf9eebd162637dae05c8b04271df94cc00b8d831787afb1649e086c0",
+    "contentHash": "c9d469a2881617154cf4ede23bd639b7a6f1f856be841821146a2f441fbfeb19",
     "blockHashes": [
-      "d5eaa49e2b35f5c1",
+      "e5a02ff8f9116ea9",
       "1f5dd0d29afd9b79",
       "634a5a8d064708ad",
       "1f5e279450d224dd",
@@ -7811,7 +7812,7 @@
     "extractedChars": 10087,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-01T12:12:40.773Z",
+    "lastChangedISO": "2026-10-01T22:59:14.041Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -8416,7 +8417,7 @@
     "lastChangedISO": "2026-10-01T11:30:01.572Z",
     "thinRuns": 0,
     "pendingClassification": true,
-    "classifyFailures": 1
+    "classifyFailures": 2
   },
   {
     "sourceUrl": "https://www.moh.gov.sa/ministry/mediacenter/publications/pages/default.aspx",
@@ -8639,7 +8640,7 @@
   {
     "sourceUrl": "https://www.nazaha.gov.sa/News",
     "orgId": "nazaha",
-    "contentHash": "1eda5738dfd503cfd0a4895160aeaed168e9311509f9d6f61e79db6173588a0a",
+    "contentHash": "c89d4b3ac8b465353958e27d91676d46a87a93fb12358e49f79e976dc76aa298",
     "blockHashes": [
       "a167b0dd9b0e3e1c",
       "74e4c1d2a646a96e",
@@ -8648,9 +8649,10 @@
     "extractedChars": 358,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-30T23:26:12.628Z",
+    "lastChangedISO": "2026-10-01T22:59:14.041Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://www.nazaha.gov.sa/News/Details?q=+ZUW2RPX/9RAyHyLvILpaw==",
