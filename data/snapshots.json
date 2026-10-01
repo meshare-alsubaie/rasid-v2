@@ -2240,17 +2240,17 @@
   {
     "sourceUrl": "https://gaca.gov.sa/ar/announcements",
     "orgId": "gaca",
-    "contentHash": "ca5b928187f42006e9f09899fdfb28592614f8854cfff04f9cb976b13c282393",
+    "contentHash": "ae0476f757ae22ee6c5b34bd00967d147ad8c9ecc3f795e910e38434f6b88535",
     "blockHashes": [
-      "201b3c88391131bb",
+      "0d60701a49f564d8",
       "9c2a3967149440a8",
       "83a22e1f9fb245f8",
       "742a17aa4393e6c2"
     ],
-    "extractedChars": 1472,
+    "extractedChars": 1473,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-01T05:37:48.810Z",
+    "lastChangedISO": "2026-10-01T08:49:07.503Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -3294,39 +3294,40 @@
   {
     "sourceUrl": "https://momah.gov.sa/ar/menu/media-center",
     "orgId": "housing",
-    "contentHash": "b3d09ec07c2dd038fd8154de774251a6c9a24d0bff8c78c555cee34b403f782b",
+    "contentHash": "ffc33b039769cf44a8adbf31f0261e0a0f538cb6e9502c59683476d680014832",
     "blockHashes": [
       "4c63522200199108",
       "7bc8965d992df69b",
       "aa8e55eac5aea8cd",
       "09552ec2996654f9",
-      "9267cf1c746ea929",
-      "64d17f8e28b04cac",
+      "87a0849b7e4183ee",
+      "5d15152619ff887e",
+      "b3ba67d2b00865e7",
+      "f223d2228c23ba85",
+      "4381767663f780f9",
+      "71a5c7f3a8bbea88",
       "560edfe1df9d8921",
       "23b97a8a93aba477",
       "9cd3abf7fd1573ff",
-      "074d8727d8355fc6",
-      "df4e371bb57049f5",
-      "7395c2b3ec880c61",
-      "09b1bd561f62b68f",
-      "92473fdce38f35cf",
-      "ee6b6afbe8efd6ed",
+      "035d99f4d416b278",
+      "2fd46f9645e9c29b",
       "ac1405062719fb86",
-      "045b2d8515a3fd39",
-      "e4796ba9833dc8fb",
-      "43fbda7e7b2cc409",
+      "82a1f16647569fc7",
       "ff6f87e39638cb9b",
-      "67500ef2f6d0d97a",
-      "5d15152619ff887e",
-      "5ff23feaf1d7a753",
-      "d4c08bc225f5f19f"
+      "fb7213c80e6d0e47",
+      "6f84988b026db8b1",
+      "0104c2dbf70a9bd7",
+      "09b1bd561f62b68f",
+      "2f62417db80641be",
+      "f542a8af388e14a2"
     ],
     "extractedChars": 151282,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-30T17:20:17.651Z",
+    "lastChangedISO": "2026-10-01T08:49:07.503Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://momah.gov.sa/ar/news",
@@ -4493,7 +4494,7 @@
     "lastChangedISO": "2026-10-01T02:42:17.915Z",
     "thinRuns": 0,
     "pendingClassification": true,
-    "classifyFailures": 1
+    "classifyFailures": 2
   },
   {
     "sourceUrl": "https://wadimakkah.sa/",
@@ -6607,7 +6608,7 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/cooperations?lang=ar",
     "orgId": "hrc",
-    "contentHash": "202aa732c75e62772676e384a81f60a26c19818034787c2a346bdf1e75c10a68",
+    "contentHash": "4ce322699877d2f4a42b5d46423e33d2511cf8d1c81c0375c5b3aab28bb4c56f",
     "blockHashes": [
       "12e41a244a8a2984",
       "fb9ee367b1a13bbe",
@@ -6631,7 +6632,7 @@
     "extractedChars": 6137,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-01T05:37:48.810Z",
+    "lastChangedISO": "2026-10-01T08:49:07.503Z",
     "thinRuns": 0,
     "pendingClassification": true,
     "classifyFailures": 1
