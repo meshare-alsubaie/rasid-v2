@@ -3186,7 +3186,7 @@
   {
     "sourceUrl": "https://momah.gov.sa/ar",
     "orgId": "housing",
-    "contentHash": "cb81062dee06b9fadd52d8cd7aac6a7cb203e7f1721c3b6ca1d8d745defe8007",
+    "contentHash": "11291c49e99eae6302032828d06708f8b5158accf16c1a22fb936d913e30a153",
     "blockHashes": [
       "390ea394b03ad064",
       "0cae66fd6419120a",
@@ -3213,13 +3213,13 @@
       "09b1bd561f62b68f",
       "34ed5616718d4ca2"
     ],
-    "extractedChars": 153721,
+    "extractedChars": 153829,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-01T09:43:05.314Z",
+    "lastChangedISO": "2026-10-01T23:34:05.096Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://momah.gov.sa/ar/announcements",
@@ -6486,7 +6486,7 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/careers",
     "orgId": "hrc",
-    "contentHash": "c23e0bb2f40c19e64f0f1f943f80173df5fe7359a663009fe070703229dbcc0c",
+    "contentHash": "8b48618a238b6911e531a9848a628cec6a1db89fb2c035dd1237036d0727f586",
     "blockHashes": [
       "12e41a244a8a2984",
       "e478603439844686",
@@ -6513,7 +6513,7 @@
     "extractedChars": 3794,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-01T10:01:39.470Z",
+    "lastChangedISO": "2026-10-01T23:34:05.096Z",
     "thinRuns": 0,
     "pendingClassification": true,
     "classifyFailures": 1
@@ -7065,7 +7065,7 @@
   {
     "sourceUrl": "https://www.jadwa.com/en",
     "orgId": "jadwa",
-    "contentHash": "8f477d09bde74eef28c5c5853ff60d663a3efb53929d4185e4ea9cb282ee64bc",
+    "contentHash": "0ca426e7e4bee5904eb6c882721122565ab1db9cd4954687a05167748faa3708",
     "blockHashes": [
       "8e755ce1b7d492e5",
       "09ee36a93af365f4",
@@ -7081,12 +7081,13 @@
       "a010c17754802d58",
       "26f009989b7ced53"
     ],
-    "extractedChars": 2323,
+    "extractedChars": 2454,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-24T19:12:57.002Z",
+    "lastChangedISO": "2026-10-01T23:34:05.096Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://www.jadwa.com/en/announcements",
