@@ -1261,14 +1261,14 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/cookiesettings",
     "orgId": "maaden",
-    "contentHash": "6e61bbd7a8fb553e052a33bf3884f81662cd180fb5bbdfa60fda054997472c36",
+    "contentHash": "ba50ac7849b0c829cbd27e0f9101260297a2a5d1d3fc0fb9652dab96093a874d",
     "blockHashes": [
       "dfd3c66b52c38ffe"
     ],
     "extractedChars": 8013,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-01T08:30:57.206Z",
+    "lastChangedISO": "2026-10-01T09:39:09.518Z",
     "thinRuns": 0,
     "pendingClassification": true,
     "classifyFailures": 1
@@ -2187,7 +2187,7 @@
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T02:22:33.828Z",
     "lastChangedISO": "2026-08-29T02:36:21.032Z",
-    "thinRuns": 436,
+    "thinRuns": 437,
     "pendingClassification": false
   },
   {
@@ -7689,15 +7689,16 @@
   {
     "sourceUrl": "https://www.mewa.gov.sa/ar/Pages/default.aspx",
     "orgId": "mewa",
-    "contentHash": "d2cb79032623e7dc2aafcd8beb75bd3a7deb5078aa3303cd4ab027f9eca9155f",
+    "contentHash": "21bbe67192f343979e4deba07b4d48e8023773de10a54df6405d88ff7b6c1897",
     "blockHashes": [
       "df773046de6f0b5f",
       "c804732dd480d71a",
       "74e4c1d2a646a96e",
-      "61011bdaf8b9fb0c",
+      "0e4e440f3052516c",
       "d88510f2caacb2dc",
       "8dc2d50d3a76ea01",
-      "df1cb77a443dfd6f",
+      "3a8b686d277275a8",
+      "fe3f4e9008ec6963",
       "e338b35ee581a455",
       "b957f376a744a274",
       "68913592be8a54c7",
@@ -7705,12 +7706,13 @@
       "deec0c4811cef5b6",
       "c36ce57653eabf38"
     ],
-    "extractedChars": 1605,
+    "extractedChars": 1587,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
-    "lastChangedISO": "2026-09-20T14:05:25.974Z",
+    "lastChangedISO": "2026-10-01T09:36:04.309Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://www.mim.gov.sa/ar",
@@ -10412,8 +10414,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-10-01T05:49:53.392Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.sfda.gov.sa/en/career-vision-and-mission",
