@@ -1274,7 +1274,7 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/search-results",
     "orgId": "maaden",
-    "contentHash": "c1865d9a7a2dc23c21e185dc1ebcccc46b9b3ecc7ba005c454e643d06e5e5cc2",
+    "contentHash": "4a335db077c77827adaac3769bc3d8cada59026e45b94ef2b343c508f83a01b5",
     "blockHashes": [
       "5569201553604d03",
       "6e3cceb54e777f64",
@@ -1283,10 +1283,10 @@
       "4b38b13a1a4ebcc4",
       "6a65307d2d5065d3"
     ],
-    "extractedChars": 216,
-    "extractionMethod": "readability",
+    "extractedChars": 162,
+    "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-01T06:08:12.175Z",
+    "lastChangedISO": "2026-10-01T07:13:35.186Z",
     "thinRuns": 0,
     "pendingClassification": true,
     "classifyFailures": 1
@@ -3580,17 +3580,18 @@
   {
     "sourceUrl": "https://nca.gov.sa/ar/news/",
     "orgId": "nca",
-    "contentHash": "f5a2dea875d9fc1eeec4f12119cf9cdc168e34d4955295168116345994a8162a",
+    "contentHash": "578784a90fede6b43cfb33e467487272849bb2958b9e53dcd042c7fe0c2ce3f0",
     "blockHashes": [
       "6559d217768847c6",
       "af636a30b6856892"
     ],
-    "extractedChars": 834,
+    "extractedChars": 880,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-30T14:55:44.132Z",
+    "lastChangedISO": "2026-10-01T07:13:35.186Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://nca.gov.sa/en/careers/",
@@ -5537,19 +5538,19 @@
   {
     "sourceUrl": "https://www.bog.gov.sa/en/EServices/judiciaryHiring/Pages/default.aspx",
     "orgId": "bog",
-    "contentHash": "81f8d73206efba83e5dada32be755e3c79048f06382e97494defc16051c79dd9",
+    "contentHash": "153d2ebf4c752893fa58c0b53c075e12e71bb9ddc7503b77e9bfd42e68348877",
     "blockHashes": [
       "46d9575ec382a9d1",
       "96c63175498462d9",
       "f4b9821710ab784e",
-      "e24ca624e1e52d43",
+      "db96cc060fa0a333",
       "d9ac968863afb54d",
       "ec5d6ba37d25b982"
     ],
     "extractedChars": 756,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-01T03:19:11.174Z",
+    "lastChangedISO": "2026-10-01T07:13:35.186Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
