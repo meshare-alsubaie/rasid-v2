@@ -2204,16 +2204,14 @@
   {
     "sourceUrl": "https://gac.gov.sa/",
     "orgId": "gac",
-    "contentHash": "720e80da37ba3a7878cf2b4fc53d0ca3b68c20132a6052f2875bf8bf884d5acf",
+    "contentHash": "c686a400f3a4a8d2ef3f1aebc9852cad6853b3d7ca319cd3a83cf02509e00a50",
     "blockHashes": [
-      "171501c906c9e1c6",
-      "4021095d86fd3a47",
-      "aacaf49217281f68"
+      "c686a400f3a4a8d2"
     ],
-    "extractedChars": 2776,
+    "extractedChars": 1446,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-09-17T12:53:53.341Z",
-    "lastChangedISO": "2026-09-30T22:06:07.073Z",
+    "lastChangedISO": "2026-10-01T04:12:19.315Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -2879,7 +2877,7 @@
   {
     "sourceUrl": "https://mc.gov.sa/ar/pages/default.aspx",
     "orgId": "mc",
-    "contentHash": "6dd9cd821262a8fe6227b8f77575a51873c09421c3d6d843a2cbaa964c320048",
+    "contentHash": "95c92c268fb52bd89db3b667e7f82650a34eb64a6519076c2676a69ac363f50e",
     "blockHashes": [
       "88b5148b04637d49",
       "74e4c1d2a646a96e",
@@ -2901,12 +2899,13 @@
       "c0be845c29d2cb4d",
       "512411bd0eda978e"
     ],
-    "extractedChars": 2607,
+    "extractedChars": 2840,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T23:21:37.487Z",
-    "lastChangedISO": "2026-09-30T22:09:49.091Z",
+    "lastChangedISO": "2026-10-01T04:12:19.315Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://mcit.gov.sa/ar",
@@ -3107,9 +3106,9 @@
   {
     "sourceUrl": "https://modon.gov.sa/",
     "orgId": "modon",
-    "contentHash": "2d973ee583fc3dfd49b3985b49f8704169d095430e9c09f3ad7239930f74c153",
+    "contentHash": "3bfa3598829900e1fd0f04f7c3b5b890d9f94c7bf9590f39e1828833196746bf",
     "blockHashes": [
-      "0ffbcfc5863fdf94",
+      "d8adb580a887060f",
       "0edf2292f0637ccb",
       "c32ffa2c93fe0d09",
       "9066ce9805b0428c",
@@ -3131,7 +3130,7 @@
     "extractedChars": 5996,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-30T22:06:07.073Z",
+    "lastChangedISO": "2026-10-01T04:12:19.315Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -3624,20 +3623,20 @@
   {
     "sourceUrl": "https://ncar.gov.sa/",
     "orgId": "ncar",
-    "contentHash": "ae487ee2dd89503c76c858477157c1f762e8260af586f0f318bb72da1aaf4c2c",
+    "contentHash": "0dfce880037868041e5dface0df350da6843867cdd1758ea731d4ea849070988",
     "blockHashes": [
       "c911502a32b8a6f9",
       "51298181046b2e48",
       "26b7600a224c8c65",
       "75c514565d626437"
     ],
-    "extractedChars": 1195,
+    "extractedChars": 1993,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-30T22:06:07.073Z",
+    "lastChangedISO": "2026-10-01T04:12:19.315Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://ncdc.gov.sa/",
@@ -3908,8 +3907,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-30T22:06:07.073Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://redf.gov.sa/ar/careers",
@@ -4313,14 +4311,14 @@
   {
     "sourceUrl": "https://sta.gov.sa/",
     "orgId": "sta",
-    "contentHash": "daed8f34cf40bb61ab33c3ec7eaa1a6ed4c9367bb06def382d031e96fa75990c",
+    "contentHash": "e837e53880dd6d6accad57a83694e440c8d946d2a65c9b8cf1538079c8e22fb1",
     "blockHashes": [
-      "daed8f34cf40bb61"
+      "e837e53880dd6d6a"
     ],
-    "extractedChars": 163,
+    "extractedChars": 177,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-30T22:06:07.073Z",
+    "lastChangedISO": "2026-10-01T04:12:19.315Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -6381,22 +6379,22 @@
   {
     "sourceUrl": "https://www.gaca.gov.sa/",
     "orgId": "gaca",
-    "contentHash": "37a935c27030c076c4aee26a2132ea9a24c570d48ac0006d089fcb26301c7532",
+    "contentHash": "8193bb15cfa810d1cf210e969b85212f8a5e43749d351090d76402c8a9145c5d",
     "blockHashes": [
-      "c66b685bf3a042b9",
+      "b58d41c153571386",
       "67ba147535885b5a",
       "90d5b20a2e1b1c87",
       "98b0f721363b8a74",
       "83a22e1f9fb245f8",
-      "ac473f85e97b4d85"
+      "bc532942aaed49b7"
     ],
     "extractedChars": 1607,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-30T22:06:07.073Z",
+    "lastChangedISO": "2026-10-01T04:12:19.315Z",
     "thinRuns": 0,
     "pendingClassification": false,
-    "settledWithoutVerdict": "triaged_out"
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://www.gosi.gov.sa/",
@@ -9563,7 +9561,7 @@
   {
     "sourceUrl": "https://www.rega.gov.sa/",
     "orgId": "rega",
-    "contentHash": "eca3c5ca95a19abe59389c04fbf113a028a31aff58c869b8fdc37f324d0760ed",
+    "contentHash": "5f5c560ba41c18a6cd93ff542cac3b7ff9ecd476ea0865f03a76ce1f9ccb01b0",
     "blockHashes": [
       "2c2608753486ae3f",
       "74e4c1d2a646a96e",
@@ -9587,12 +9585,12 @@
       "9fc5f94a6090f9bf",
       "febd43aea19450a8",
       "d6c3249045b18f7b",
-      "d47909ff319d7da0",
+      "eb84f6a8f79b8393",
       "fd6874750484a041",
       "a31e9d99e64c1995",
       "55d607f9f7a2de50",
       "a6df0425e44300f2",
-      "1938cdf984d88fc6",
+      "0d46811fd4e7c99a",
       "f9699094dd194117",
       "782261474561a27a",
       "f583729048a57f1a"
@@ -9600,9 +9598,10 @@
     "extractedChars": 3233,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
-    "lastChangedISO": "2026-09-30T03:38:03.550Z",
+    "lastChangedISO": "2026-10-01T04:12:19.315Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://www.riyadbank.com/ar/personal-banking",
@@ -9956,8 +9955,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-30T22:06:07.073Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "triaged_out"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.sar.com.sa/",
@@ -10227,7 +10225,7 @@
   {
     "sourceUrl": "https://www.seec.gov.sa/",
     "orgId": "seec",
-    "contentHash": "760d9fd901f1a9cd5cdd3e408dae3fe6c8b831684f593b48f0372ee89c64adea",
+    "contentHash": null,
     "blockHashes": [
       "760d9fd901f1a9cd"
     ],
