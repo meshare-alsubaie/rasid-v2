@@ -1259,14 +1259,14 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/cookiesettings",
     "orgId": "maaden",
-    "contentHash": "e6cf088a2d3d3638494842beb871e1078acc04b2caf97b3e22be940e0d18c805",
+    "contentHash": "77acae365c1d9da718219dc93d32ba5c50632de538a288f3c3ad3d9651eb4abc",
     "blockHashes": [
       "dfd3c66b52c38ffe"
     ],
     "extractedChars": 8013,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-01T04:21:45.139Z",
+    "lastChangedISO": "2026-10-01T05:27:51.840Z",
     "thinRuns": 0,
     "pendingClassification": true,
     "classifyFailures": 1
@@ -1792,7 +1792,7 @@
   {
     "sourceUrl": "https://careers.sdaia.gov.sa/training",
     "orgId": "sdaia",
-    "contentHash": "c85f5e138b5c65644cc36a9b0c5e9718da8d17a96fc8f6de56c2a65e79a3e09a",
+    "contentHash": "6d46074f1938763f0a9245a2aa1b013633c7a37add8a82be35a0ab6acd37be64",
     "blockHashes": [
       "a3638bfcc93928a2",
       "5a2ea8a7bc8ff607",
@@ -1803,12 +1803,12 @@
       "9c07884d4ed44032",
       "c4aabeebd58258d2",
       "6dc60fec12c030a8",
-      "7d2db2ddafbe589d"
+      "8f0732c7043be9ff"
     ],
     "extractedChars": 1605,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-29T01:45:51.828Z",
+    "lastChangedISO": "2026-10-01T05:27:51.840Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -2633,7 +2633,7 @@
   {
     "sourceUrl": "https://jobs.mofa.gov.sa/",
     "orgId": "mofa",
-    "contentHash": "abd3cb62c8889e3928ed72ad226eeaa3d2edc4fc92850455ea85a29a1655d9ca",
+    "contentHash": null,
     "blockHashes": [
       "fa56a6bf9373c14e",
       "87918f0ca02c1c83",
@@ -3156,9 +3156,9 @@
   {
     "sourceUrl": "https://modon.gov.sa/ar/MediaCenter/Pages/default.aspx",
     "orgId": "modon",
-    "contentHash": "43c1317e7812a3c5d085cb3485a8f30d4e8fe7c8df49402525e70f5559139698",
+    "contentHash": "ef2168b141b6a287da8f7472659db888165dbbbe4f68460312b5c50d9c9668ce",
     "blockHashes": [
-      "ea22bab83c274c71",
+      "0340b4a1b64aa9fa",
       "317f2772b9ef6210",
       "8ae17958586c8a8c",
       "a052fcd3e0ca047c"
@@ -3166,7 +3166,7 @@
     "extractedChars": 306,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-01T02:18:11.874Z",
+    "lastChangedISO": "2026-10-01T05:27:51.840Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -3921,7 +3921,7 @@
     "lastChangedISO": "2026-10-01T02:18:11.874Z",
     "thinRuns": 0,
     "pendingClassification": true,
-    "classifyFailures": 1
+    "classifyFailures": 2
   },
   {
     "sourceUrl": "https://rega.gov.sa/login/?redirectId=32017",
@@ -6417,10 +6417,10 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/all_branches_news?lang=ar",
     "orgId": "hrc",
-    "contentHash": "8e1552369d08c83622bc232dc4a94a603463ff0dfb5caeb83089c9c142e034df",
+    "contentHash": "5f68639ae77fbaa9907e239dbdf5af6938526967db369d778c287a9c9c6736eb",
     "blockHashes": [
       "12e41a244a8a2984",
-      "10f8208eaeee653a",
+      "19b6a34a53dc0283",
       "f1bdac7ad7f0ff22",
       "eada9065fc805384",
       "affd75c0a04d2d7f",
@@ -6446,7 +6446,7 @@
     "extractedChars": 5187,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-01T02:13:47.730Z",
+    "lastChangedISO": "2026-10-01T05:18:54.807Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -7894,7 +7894,7 @@
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-20T12:59:49.059Z",
-    "thinRuns": 50,
+    "thinRuns": 51,
     "pendingClassification": false
   },
   {
@@ -9604,7 +9604,7 @@
   {
     "sourceUrl": "https://www.riyadbank.com/ar/personal-banking",
     "orgId": "riyadbank",
-    "contentHash": "4606fa03716a19aaa27d5d0ddb3cba7ee512ac78db6915d884666f72930fa45e",
+    "contentHash": "effec4c425908de37d790787396dc7e4ba098e403aad5a5f46972233139bd369",
     "blockHashes": [
       "c5fa97b84e96f11e",
       "3badfc77a66091a4",
@@ -9628,15 +9628,15 @@
       "9f29620fa9319a80",
       "dd09a93c19a5b408",
       "fc0a22cc81c08834",
-      "97b7afff054f9f37",
-      "2274a27142a58d23",
+      "5ca46b716e2fe884",
+      "1d775fb08011859c",
       "303fe28588764a9b",
       "7a8a143470365dc2",
-      "68804184ee7f89f3",
+      "960919b7fb63409c",
       "c845d371bfc055e6",
       "e91a2dc79c3ef7ff",
-      "e10872055bbde21f",
-      "68f92b28ff614b42",
+      "75701b4b0c077673",
+      "0b4f6c1a982c9472",
       "cb4329c80213103c",
       "853e155161611ffc",
       "0f21ae2f5a35f90c",
@@ -9648,10 +9648,10 @@
       "27ab07a2e57dda34",
       "f2f0e16c376080f6"
     ],
-    "extractedChars": 10238,
+    "extractedChars": 10379,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
-    "lastChangedISO": "2026-10-01T02:18:11.874Z",
+    "lastChangedISO": "2026-10-01T05:27:51.840Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
