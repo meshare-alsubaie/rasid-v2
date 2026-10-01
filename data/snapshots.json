@@ -1058,7 +1058,7 @@
   {
     "sourceUrl": "https://careers.bahri.sa/",
     "orgId": "bahri",
-    "contentHash": "f19b4ec698a5f7eb0c41168c3d5868c47809735fe40f3b20780b0334e6afd068",
+    "contentHash": "477194ea12f0a6584575c5014a3e4c41fcf007fd1498d1e38f071377fdd9d3b9",
     "blockHashes": [
       "d9e9ab9aa0195837",
       "55600852a2512b33",
@@ -1071,12 +1071,13 @@
       "dec2e295eecfc799",
       "3fd99d4979cf510e"
     ],
-    "extractedChars": 601,
-    "extractionMethod": "readability",
+    "extractedChars": 538,
+    "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-16T12:23:47.583Z",
+    "lastChangedISO": "2026-10-01T08:18:41.055Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://careers.cma.gov.sa/",
