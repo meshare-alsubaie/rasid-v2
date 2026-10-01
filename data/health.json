@@ -1928,9 +1928,9 @@
   {
     "sourceUrl": "https://www.alahli.com/ar/pages/about-us/careers",
     "orgId": "snb",
-    "lastAttemptISO": "2026-10-01T13:36:55.102Z",
+    "lastAttemptISO": "2026-10-01T14:43:22.746Z",
     "lastSuccessISO": "2026-09-16T20:57:34.696Z",
-    "consecutiveFailures": 169,
+    "consecutiveFailures": 170,
     "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
     "state": "broken"
   },
@@ -3062,11 +3062,11 @@
   {
     "sourceUrl": "https://www.nazaha.gov.sa/News/Details?q=+ZUW2RPX/9RAyHyLvILpaw==",
     "orgId": "nazaha",
-    "lastAttemptISO": "2026-10-01T11:41:54.103Z",
+    "lastAttemptISO": "2026-10-01T14:43:22.746Z",
     "lastSuccessISO": "2026-10-01T11:41:54.103Z",
-    "consecutiveFailures": 0,
-    "lastError": null,
-    "state": "healthy"
+    "consecutiveFailures": 1,
+    "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
+    "state": "degraded"
   },
   {
     "sourceUrl": "https://www.nazaha.gov.sa/News/Details?q=HNQU9DHVnwVHan0Mf562ug==",
@@ -3755,9 +3755,9 @@
   {
     "sourceUrl": "https://www.stats.gov.sa/en/cooperative-training",
     "orgId": "gastat",
-    "lastAttemptISO": "2026-10-01T13:53:53.861Z",
+    "lastAttemptISO": "2026-10-01T14:43:22.746Z",
     "lastSuccessISO": "2026-10-01T11:25:31.070Z",
-    "consecutiveFailures": 3,
+    "consecutiveFailures": 4,
     "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
     "state": "degraded"
   },
