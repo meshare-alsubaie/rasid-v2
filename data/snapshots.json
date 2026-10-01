@@ -2239,9 +2239,9 @@
   {
     "sourceUrl": "https://gaca.gov.sa/ar/announcements",
     "orgId": "gaca",
-    "contentHash": "c0246ef3df42fc6985599e2354cd281467589c1151af2c7d161453598003852b",
+    "contentHash": "8b1354ae6467c0847d1d59bd45bd649f068e9cdbfa3090f4efc9cbc23d6df231",
     "blockHashes": [
-      "9374578392292742",
+      "b66113bccc339e4b",
       "9c2a3967149440a8",
       "83a22e1f9fb245f8",
       "bc532942aaed49b7"
@@ -2249,7 +2249,7 @@
     "extractedChars": 1211,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-30T23:26:12.628Z",
+    "lastChangedISO": "2026-10-01T02:29:28.202Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -6598,7 +6598,7 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/cooperations?lang=ar",
     "orgId": "hrc",
-    "contentHash": "f3b7580ed17be8640734946a8399195a324137ff1d59567eb3baa06deaecc970",
+    "contentHash": "68f32d0186c19ff16ec7de4151d0a8a7ac85e8799747ff6d5135ae632f8c99bc",
     "blockHashes": [
       "12e41a244a8a2984",
       "fb9ee367b1a13bbe",
@@ -6622,9 +6622,10 @@
     "extractedChars": 6137,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-30T23:26:12.628Z",
+    "lastChangedISO": "2026-10-01T02:29:28.202Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/news?lang=ar",
@@ -8610,8 +8611,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-30T23:26:12.628Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "triaged_out"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.nazaha.gov.sa/News/Details?q=+ZUW2RPX/9RAyHyLvILpaw==",
@@ -9361,13 +9361,13 @@
   {
     "sourceUrl": "https://www.rcrc.gov.sa/news-ar/",
     "orgId": "rcrc",
-    "contentHash": "7578bb3d37570c641d34cb2d0e7ee8346644a6935d9fa0d4e2040c3a82a07873",
+    "contentHash": "6a4f8d3febfb2e247a88c2a9eea26fc92170fbcca00d1106ad3d313e080168ce",
     "blockHashes": [
       "dd62229c2f61fb42",
       "306db3646b8a6c73",
       "b28682d0a5fa37ed",
       "10fdae8445ed9000",
-      "6d06587574b0c611",
+      "92e13d0f5fa0b7b5",
       "dd5bfb74e89dbbdd",
       "b32d68c4e5c2da0f",
       "b91cd7f4edfa88d2",
@@ -9380,7 +9380,7 @@
     "extractedChars": 3409,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-30T23:26:12.628Z",
+    "lastChangedISO": "2026-10-01T02:29:28.202Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
