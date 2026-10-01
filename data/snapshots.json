@@ -2719,7 +2719,7 @@
   {
     "sourceUrl": "https://makkah-careers.health.sa/",
     "orgId": "mecca_health",
-    "contentHash": "99c987bdde03dcae21259aa8bb0ebff9d7d2f7680ec1fdd719427023870c1433",
+    "contentHash": null,
     "blockHashes": [
       "99c987bdde03dcae"
     ],
@@ -2808,7 +2808,7 @@
   {
     "sourceUrl": "https://mawhiba.org/",
     "orgId": "mawhiba",
-    "contentHash": "fb24b8dc0610a20c8bd1fd68adcea2ccb01195286c2d4a95998bb7b74ca7e22d",
+    "contentHash": "151b595aa1f58088fa367cd954499df9c05e551788ee1a65247093e05d2fe5c9",
     "blockHashes": [
       "4ca583695fc9ed7a",
       "23d7d78632f44f90",
@@ -2834,12 +2834,13 @@
       "79ea6b9a5afba371",
       "a7510ae3f3e13fc4"
     ],
-    "extractedChars": 8301,
+    "extractedChars": 8368,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-30T15:53:07.733Z",
+    "lastChangedISO": "2026-10-01T03:59:06.784Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://mc.gov.sa/ar/mediacenter/News/pages/default.aspx",
@@ -4976,7 +4977,7 @@
   {
     "sourceUrl": "https://www.alinma.com/",
     "orgId": "alinma",
-    "contentHash": "2d537ed771cd13f83733af739cc68a37fc7a55c33b06206bddd9b2ab45c88b51",
+    "contentHash": "848b5941bd66ef6e33df90195128efb74a550f5f99e1a68ec6e765716c49278f",
     "blockHashes": [
       "c07ea4f5d775385d",
       "bf13ad34b054342e",
@@ -4990,10 +4991,10 @@
     "extractedChars": 1504,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-30T21:56:02.670Z",
+    "lastChangedISO": "2026-10-01T03:59:06.784Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "triaged_out"
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://www.alrajhibank.com.sa/",
@@ -10973,7 +10974,7 @@
   {
     "sourceUrl": "https://www.taifcity.gov.sa/#/ar",
     "orgId": "taif_amanah",
-    "contentHash": "9996c91389e8f2eb467ff5276986b2d2d713c187b4a21cf4fd2cd6da11125202",
+    "contentHash": "8410dc8f0e2c373e52ca237254b053cce7ce5763dab51489a7fc82f32a841e7a",
     "blockHashes": [
       "969f0f9d8129003d",
       "e4501e56580ffe94",
@@ -10981,13 +10982,13 @@
       "acda1eb1130c44f0",
       "8554e1d0ca772440"
     ],
-    "extractedChars": 240,
+    "extractedChars": 6210,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T23:54:26.779Z",
-    "lastChangedISO": "2026-09-30T21:56:02.670Z",
+    "lastChangedISO": "2026-10-01T03:59:06.784Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://www.thiqah.sa/",
