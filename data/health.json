@@ -632,8 +632,8 @@
   {
     "sourceUrl": "https://careers.modon.gov.sa/ar/job-search-results/",
     "orgId": "modon",
-    "lastAttemptISO": "2026-10-01T08:25:17.092Z",
-    "lastSuccessISO": "2026-10-01T08:25:17.092Z",
+    "lastAttemptISO": "2026-10-01T11:30:01.572Z",
+    "lastSuccessISO": "2026-10-01T11:30:01.572Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -641,8 +641,8 @@
   {
     "sourceUrl": "https://careers.rcjy.gov.sa/",
     "orgId": "rcjy",
-    "lastAttemptISO": "2026-10-01T08:25:17.092Z",
-    "lastSuccessISO": "2026-10-01T08:25:17.092Z",
+    "lastAttemptISO": "2026-10-01T11:30:01.572Z",
+    "lastSuccessISO": "2026-10-01T11:30:01.572Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -893,8 +893,8 @@
   {
     "sourceUrl": "https://e-services.hrc.gov.sa/ar/service/details/12",
     "orgId": "hrc",
-    "lastAttemptISO": "2026-10-01T08:25:17.092Z",
-    "lastSuccessISO": "2026-10-01T08:25:17.092Z",
+    "lastAttemptISO": "2026-10-01T11:30:01.572Z",
+    "lastSuccessISO": "2026-10-01T11:30:01.572Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -974,8 +974,8 @@
   {
     "sourceUrl": "https://gaca.gov.sa/web/ar-sa/page/home",
     "orgId": "gaca",
-    "lastAttemptISO": "2026-10-01T08:25:17.092Z",
-    "lastSuccessISO": "2026-10-01T08:25:17.092Z",
+    "lastAttemptISO": "2026-10-01T11:30:01.572Z",
+    "lastSuccessISO": "2026-10-01T11:30:01.572Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -1010,8 +1010,8 @@
   {
     "sourceUrl": "https://gmedia.gov.sa/ar/news/news-0020",
     "orgId": "gcam",
-    "lastAttemptISO": "2026-10-01T08:25:17.092Z",
-    "lastSuccessISO": "2026-10-01T08:25:17.092Z",
+    "lastAttemptISO": "2026-10-01T11:30:01.572Z",
+    "lastSuccessISO": "2026-10-01T11:30:01.572Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -1055,8 +1055,8 @@
   {
     "sourceUrl": "https://jobs.misa.gov.sa/ar/?locale=ar_SA",
     "orgId": "misa",
-    "lastAttemptISO": "2026-10-01T08:25:17.092Z",
-    "lastSuccessISO": "2026-10-01T08:25:17.092Z",
+    "lastAttemptISO": "2026-10-01T11:30:01.572Z",
+    "lastSuccessISO": "2026-10-01T11:30:01.572Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -1163,11 +1163,11 @@
   {
     "sourceUrl": "https://mc.gov.sa/ar/mediacenter/News/pages/default.aspx",
     "orgId": "mc",
-    "lastAttemptISO": "2026-10-01T08:25:17.092Z",
-    "lastSuccessISO": "2026-10-01T02:13:47.730Z",
-    "consecutiveFailures": 2,
-    "lastError": "page.goto: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://mc.gov.sa/ar/mediacenter/News/pages/default.aspx\", waiting until \"domcontentloaded\"\u001b[22m\n",
-    "state": "degraded"
+    "lastAttemptISO": "2026-10-01T11:30:01.572Z",
+    "lastSuccessISO": "2026-10-01T11:30:01.572Z",
+    "consecutiveFailures": 0,
+    "lastError": null,
+    "state": "healthy"
   },
   {
     "sourceUrl": "https://mc.gov.sa/ar/pages/default.aspx",
@@ -1235,8 +1235,8 @@
   {
     "sourceUrl": "https://misa.gov.sa/ar/news/latest-news/",
     "orgId": "misa",
-    "lastAttemptISO": "2026-10-01T08:25:17.092Z",
-    "lastSuccessISO": "2026-10-01T08:25:17.092Z",
+    "lastAttemptISO": "2026-10-01T11:30:01.572Z",
+    "lastSuccessISO": "2026-10-01T11:30:01.572Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -1307,8 +1307,8 @@
   {
     "sourceUrl": "https://momah.gov.sa/ar/news",
     "orgId": "housing",
-    "lastAttemptISO": "2026-10-01T08:25:17.092Z",
-    "lastSuccessISO": "2026-10-01T08:25:17.092Z",
+    "lastAttemptISO": "2026-10-01T11:30:01.572Z",
+    "lastSuccessISO": "2026-10-01T11:30:01.572Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -2198,9 +2198,9 @@
   {
     "sourceUrl": "https://www.etec.gov.sa/ar/centers/nctea",
     "orgId": "etec",
-    "lastAttemptISO": "2026-10-01T08:25:17.092Z",
+    "lastAttemptISO": "2026-10-01T11:30:01.572Z",
     "lastSuccessISO": "2026-09-21T22:40:54.254Z",
-    "consecutiveFailures": 40,
+    "consecutiveFailures": 41,
     "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
     "state": "broken"
   },
@@ -2369,8 +2369,8 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/all_branches_news?lang=ar",
     "orgId": "hrc",
-    "lastAttemptISO": "2026-10-01T08:25:17.092Z",
-    "lastSuccessISO": "2026-10-01T08:25:17.092Z",
+    "lastAttemptISO": "2026-10-01T11:30:01.572Z",
+    "lastSuccessISO": "2026-10-01T11:30:01.572Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -2441,8 +2441,8 @@
   {
     "sourceUrl": "https://www.hrsd.gov.sa/contact-us/inquiries-about-employment-offices",
     "orgId": "hrsd",
-    "lastAttemptISO": "2026-10-01T08:25:17.092Z",
-    "lastSuccessISO": "2026-10-01T08:25:17.092Z",
+    "lastAttemptISO": "2026-10-01T11:30:01.572Z",
+    "lastSuccessISO": "2026-10-01T11:30:01.572Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -2576,8 +2576,8 @@
   {
     "sourceUrl": "https://www.kapsarc.org/newsroom/news/saudi-arabia-aims-for-150k-new-jobs-in-chemical-plants-and-renewable-energy-says-minister/",
     "orgId": "kapsarc",
-    "lastAttemptISO": "2026-10-01T08:25:17.092Z",
-    "lastSuccessISO": "2026-10-01T08:25:17.092Z",
+    "lastAttemptISO": "2026-10-01T11:30:01.572Z",
+    "lastSuccessISO": "2026-10-01T11:30:01.572Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -2612,9 +2612,9 @@
   {
     "sourceUrl": "https://www.mckinsey.com/careers/assessment-integrity-expectations",
     "orgId": "mckinsey_sa",
-    "lastAttemptISO": "2026-10-01T08:25:17.092Z",
+    "lastAttemptISO": "2026-10-01T11:30:01.572Z",
     "lastSuccessISO": "2026-09-02T23:42:46.216Z",
-    "consecutiveFailures": 121,
+    "consecutiveFailures": 122,
     "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (The operation was aborted due to timeout); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
     "state": "broken"
   },
@@ -2684,8 +2684,8 @@
   {
     "sourceUrl": "https://www.mewa.gov.sa/ar/MediaCenter/News/Pages/Home.aspx",
     "orgId": "mewa",
-    "lastAttemptISO": "2026-10-01T08:25:17.092Z",
-    "lastSuccessISO": "2026-10-01T08:25:17.092Z",
+    "lastAttemptISO": "2026-10-01T11:30:01.572Z",
+    "lastSuccessISO": "2026-10-01T11:30:01.572Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -2765,8 +2765,8 @@
   {
     "sourceUrl": "https://www.moe.gov.sa/ar/mediacenter/events/Pages/default.aspx",
     "orgId": "moe",
-    "lastAttemptISO": "2026-10-01T08:25:17.092Z",
-    "lastSuccessISO": "2026-10-01T08:25:17.092Z",
+    "lastAttemptISO": "2026-10-01T11:30:01.572Z",
+    "lastSuccessISO": "2026-10-01T11:30:01.572Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -2801,8 +2801,8 @@
   {
     "sourceUrl": "https://www.moenergy.gov.sa/ar/media-center",
     "orgId": "moenergy",
-    "lastAttemptISO": "2026-10-01T08:25:17.092Z",
-    "lastSuccessISO": "2026-10-01T08:25:17.092Z",
+    "lastAttemptISO": "2026-10-01T11:30:01.572Z",
+    "lastSuccessISO": "2026-10-01T11:30:01.572Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -2909,8 +2909,8 @@
   {
     "sourceUrl": "https://www.mofa.gov.sa/ar/ministry/news/Pages/default.aspx",
     "orgId": "mofa",
-    "lastAttemptISO": "2026-10-01T08:25:17.092Z",
-    "lastSuccessISO": "2026-10-01T08:25:17.092Z",
+    "lastAttemptISO": "2026-10-01T11:30:01.572Z",
+    "lastSuccessISO": "2026-10-01T11:30:01.572Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -2936,8 +2936,8 @@
   {
     "sourceUrl": "https://www.moh.gov.sa/ministry/mediacenter/news/pages/default.aspx",
     "orgId": "moh",
-    "lastAttemptISO": "2026-10-01T08:25:17.092Z",
-    "lastSuccessISO": "2026-10-01T08:25:17.092Z",
+    "lastAttemptISO": "2026-10-01T11:30:01.572Z",
+    "lastSuccessISO": "2026-10-01T11:30:01.572Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -3008,8 +3008,8 @@
   {
     "sourceUrl": "https://www.monshaat.gov.sa/ar/newsletter",
     "orgId": "monshaat",
-    "lastAttemptISO": "2026-10-01T08:25:17.092Z",
-    "lastSuccessISO": "2026-10-01T08:25:17.092Z",
+    "lastAttemptISO": "2026-10-01T11:30:01.572Z",
+    "lastSuccessISO": "2026-10-01T11:30:01.572Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -3044,11 +3044,11 @@
   {
     "sourceUrl": "https://www.nazaha.gov.sa/Jobs",
     "orgId": "nazaha",
-    "lastAttemptISO": "2026-10-01T10:01:39.470Z",
-    "lastSuccessISO": "2026-10-01T08:09:41.797Z",
-    "consecutiveFailures": 1,
-    "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
-    "state": "degraded"
+    "lastAttemptISO": "2026-10-01T11:28:39.927Z",
+    "lastSuccessISO": "2026-10-01T11:28:39.927Z",
+    "consecutiveFailures": 0,
+    "lastError": null,
+    "state": "healthy"
   },
   {
     "sourceUrl": "https://www.nazaha.gov.sa/News",
@@ -3098,9 +3098,9 @@
   {
     "sourceUrl": "https://www.ncc.gov.sa/ar/MediaCenter/Events/Pages/default.aspx",
     "orgId": "ncc",
-    "lastAttemptISO": "2026-10-01T08:25:17.092Z",
+    "lastAttemptISO": "2026-10-01T11:30:01.572Z",
     "lastSuccessISO": "2026-09-17T13:02:34.427Z",
-    "consecutiveFailures": 64,
+    "consecutiveFailures": 65,
     "lastError": "HTTP 404",
     "state": "broken"
   },

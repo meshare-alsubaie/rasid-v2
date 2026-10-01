@@ -2423,19 +2423,19 @@
   {
     "sourceUrl": "https://gaca.gov.sa/web/ar-sa/page/home",
     "orgId": "gaca",
-    "contentHash": "1aa7a063da56c469ad6a0cb442d9606ef1b8aa7c309c9190870663afde497caa",
+    "contentHash": "dcdacb2979ff38304f49fc754b74eb09d708990ea5b7e9f2321c881d4acbfbd0",
     "blockHashes": [
-      "24a9cb88b01e2b2a",
+      "81e6d2be3827587a",
       "67ba147535885b5a",
       "90d5b20a2e1b1c87",
       "98b0f721363b8a74",
       "83a22e1f9fb245f8",
-      "b56e231e91931f13"
+      "ac473f85e97b4d85"
     ],
     "extractedChars": 1607,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-01T08:25:17.092Z",
+    "lastChangedISO": "2026-10-01T11:30:01.572Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -2848,7 +2848,7 @@
   {
     "sourceUrl": "https://mc.gov.sa/ar/mediacenter/News/pages/default.aspx",
     "orgId": "mc",
-    "contentHash": "96494db40ff10178eccb80c01f0c2517777f0bc12014d9ab4f8756519a1bccff",
+    "contentHash": "08abf7be79be3bf3bc4cc65c42761b06e6602ced4a0eb3f8562d938872a3236e",
     "blockHashes": [
       "c29bd702be8f85d8",
       "88b5148b04637d49",
@@ -2871,10 +2871,10 @@
       "c0be845c29d2cb4d",
       "512411bd0eda978e"
     ],
-    "extractedChars": 3611,
+    "extractedChars": 3595,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-01T02:13:47.730Z",
+    "lastChangedISO": "2026-10-01T11:30:01.572Z",
     "thinRuns": 0,
     "pendingClassification": true,
     "classifyFailures": 1
@@ -3337,40 +3337,40 @@
   {
     "sourceUrl": "https://momah.gov.sa/ar/news",
     "orgId": "housing",
-    "contentHash": "d15942e4e3730ae76f1d3856e3431defcf6e629f40ab1f3d4eaa0646ee4e0001",
+    "contentHash": "debe573312950fbc6c161e6f7be9d3f5bbba2c4dc55ec27b613c88d1a416c6a4",
     "blockHashes": [
       "c39d79399ac7deac",
       "ca95da3da3d7f452",
       "1bc0b8dd58767a67",
       "646a722315cf0fac",
-      "9247f1d81866e33a",
+      "b59812f1e37701ae",
       "aa8e55eac5aea8cd",
       "09552ec2996654f9",
-      "1c3cb28e02562373",
+      "6a8ba715318936fb",
+      "712b61a03763eb32",
+      "be919b3917b6a527",
+      "ac1405062719fb86",
+      "589a2a7c3de0fa01",
+      "9a4e95f2d4b31c13",
+      "ff6f87e39638cb9b",
+      "8568c6402d2639f0",
+      "52eea1677f45724b",
+      "a9e3212be383d689",
+      "786d847711bfdb25",
       "560edfe1df9d8921",
       "23b97a8a93aba477",
       "9cd3abf7fd1573ff",
-      "9628451a76480554",
+      "ca0477da0706c1fd",
       "09b1bd561f62b68f",
-      "017037f1316911ec",
-      "df4e371bb57049f5",
-      "943156f63df5432e",
+      "e85d4b4069a9164d",
+      "09d4fa01209c7f7e",
       "5d15152619ff887e",
-      "152ab25aafa31815",
-      "72eeb92071ae278e",
-      "1604adf365dc5925",
-      "ac1405062719fb86",
-      "c7e3cbf4a56b3e35",
-      "ff6f87e39638cb9b",
-      "30e72b162be19254",
-      "5a9af12f2444203a",
-      "aaf838a52b87a54f",
-      "7015d5726d709a32"
+      "08f0a9d53e41c2ba"
     ],
-    "extractedChars": 151354,
+    "extractedChars": 151399,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-01T08:25:17.092Z",
+    "lastChangedISO": "2026-10-01T11:30:01.572Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -6432,10 +6432,10 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/all_branches_news?lang=ar",
     "orgId": "hrc",
-    "contentHash": "f49ef652260d9d13661dfa6f68c696ccbd831e3dbe65183fa557fd3bc161b8d6",
+    "contentHash": "834a5ba94a15917b4a497e465397821ad2db6e4a74682420790810dcbc27fb2f",
     "blockHashes": [
       "12e41a244a8a2984",
-      "883067c1290cb2fc",
+      "b373396c987f0de6",
       "f1bdac7ad7f0ff22",
       "eada9065fc805384",
       "affd75c0a04d2d7f",
@@ -6461,7 +6461,7 @@
     "extractedChars": 5187,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-01T08:25:17.092Z",
+    "lastChangedISO": "2026-10-01T11:30:01.572Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -7910,7 +7910,7 @@
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-20T12:59:49.059Z",
-    "thinRuns": 52,
+    "thinRuns": 53,
     "pendingClassification": false
   },
   {
@@ -8385,19 +8385,19 @@
   {
     "sourceUrl": "https://www.moh.gov.sa/ministry/mediacenter/news/pages/default.aspx",
     "orgId": "moh",
-    "contentHash": "2a28c286fd1e4e97695e67776d317c5c4651453d51a8bddcb1e8ed1f509331f5",
+    "contentHash": "a71725e085974d9091aec689c655461fd49ba6f05ca2c68eded0361647ab5e30",
     "blockHashes": [
       "a0484299462300b1",
       "af119dc07f40e010",
       "c1929897d07024c1"
     ],
-    "extractedChars": 212,
-    "extractionMethod": "body_fallback",
+    "extractedChars": 514,
+    "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-01T08:25:17.092Z",
+    "lastChangedISO": "2026-10-01T11:30:01.572Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://www.moh.gov.sa/ministry/mediacenter/publications/pages/default.aspx",
