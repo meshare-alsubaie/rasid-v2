@@ -2336,9 +2336,9 @@
   {
     "sourceUrl": "https://gaca.gov.sa/news",
     "orgId": "gaca",
-    "contentHash": "ef36328c31716e2fb2f612675fba7594808bd090d9e7e2ddd6af4d96f6d11bf5",
+    "contentHash": "3d8389b967cedbe5e163db5320e2d99e6b52efece14e479668392a8d1d650a9c",
     "blockHashes": [
-      "4a4226894f107279",
+      "fb5a82b210035a25",
       "7de8ea5de5c99977",
       "8587b2ba02f096c6",
       "6382e3437605c55d",
@@ -2405,12 +2405,12 @@
       "89325812f489a554",
       "57534ebd8ed8f48f",
       "83a22e1f9fb245f8",
-      "bc532942aaed49b7"
+      "ac473f85e97b4d85"
     ],
-    "extractedChars": 21036,
+    "extractedChars": 21292,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-01T02:50:24.192Z",
+    "lastChangedISO": "2026-10-01T05:58:18.959Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -3249,7 +3249,7 @@
   {
     "sourceUrl": "https://momah.gov.sa/ar/form/partnerships-and-cooperation",
     "orgId": "housing",
-    "contentHash": "c85e2a58d1ef8c0bbb878bafecaadfad8d23f8ba5c912e63ebbfbfb0ae3e409e",
+    "contentHash": "aaf7f8320747317d88fda2e1b899775eb02ed4f22584a2b239676a7484214816",
     "blockHashes": [
       "bc22896c0dc046da",
       "d2009185b8a1a230",
@@ -3282,7 +3282,7 @@
     "extractedChars": 151356,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-01T02:50:24.192Z",
+    "lastChangedISO": "2026-10-01T05:58:18.959Z",
     "thinRuns": 0,
     "pendingClassification": true,
     "classifyFailures": 1
@@ -4462,7 +4462,7 @@
   {
     "sourceUrl": "https://training.moj.gov.sa/",
     "orgId": "moj",
-    "contentHash": null,
+    "contentHash": "f4c6ef6b783b69d09a8f681ad1d80f1df35ef8cb8864917255879208cc305886",
     "blockHashes": [
       "84a570379809f573",
       "ab443a0bbfda7883"
@@ -4470,7 +4470,7 @@
     "extractedChars": 481,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T02:31:49.455Z",
-    "lastChangedISO": "2026-10-01T00:58:34.981Z",
+    "lastChangedISO": "2026-10-01T05:58:18.959Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -6633,7 +6633,7 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/news?lang=ar",
     "orgId": "hrc",
-    "contentHash": "c8432d230f386fdc9a7e605956d9fb274a894e1b22a4cda392ed0e942f4e3245",
+    "contentHash": "680eac653c04489aedeaedb53d15a8a044c450126abfc37286a16dd56e7003de",
     "blockHashes": [
       "12e41a244a8a2984",
       "0345d20b7ab98d94",
@@ -6664,7 +6664,7 @@
     "extractedChars": 5230,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-01T02:50:24.192Z",
+    "lastChangedISO": "2026-10-01T05:58:18.959Z",
     "thinRuns": 0,
     "pendingClassification": true,
     "classifyFailures": 1
@@ -11145,20 +11145,20 @@
   {
     "sourceUrl": "https://www.tahakom.com/careers",
     "orgId": "tahakom",
-    "contentHash": "c6cc57c0f16594942f48318c12f633c350c76a44473935a33fe25d3b4b404684",
+    "contentHash": "1f8f7b13a791edfa1d51781bab3c72b63ca8fa3422efc682882c8ff5c2cefb1f",
     "blockHashes": [
       "d44217251213a019",
       "611753a8aea1ade1",
       "0cea4d38306888dc",
       "1a5263a5a2541c46",
-      "7ff616a2455f75c9"
+      "d9f3dd8dc23c0c5c"
     ],
-    "extractedChars": 833,
+    "extractedChars": 836,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-03T05:13:40.059Z",
-    "lastChangedISO": "2026-10-01T04:59:51.779Z",
+    "lastChangedISO": "2026-10-01T05:58:18.959Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.taifcity.gov.sa/#/ar",
