@@ -1460,11 +1460,11 @@
   {
     "sourceUrl": "https://ndf.gov.sa/media-center/annual-reports",
     "orgId": "ndf",
-    "lastAttemptISO": "2026-10-01T09:24:10.880Z",
+    "lastAttemptISO": "2026-10-01T12:34:00.871Z",
     "lastSuccessISO": "2026-10-01T09:24:10.880Z",
-    "consecutiveFailures": 0,
-    "lastError": null,
-    "state": "healthy"
+    "consecutiveFailures": 1,
+    "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
+    "state": "degraded"
   },
   {
     "sourceUrl": "https://ndf.gov.sa/media-center/articles",
