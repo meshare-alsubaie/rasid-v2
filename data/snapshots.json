@@ -1271,7 +1271,7 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/search-results",
     "orgId": "maaden",
-    "contentHash": "ac5a9c6ca89280e84f319f9f8ac2b0e1ada1e99df52622066f9e83d769208995",
+    "contentHash": "4dff378ae4031bc9656f75403d40f17b629bec26f399c49bd33fad092025c166",
     "blockHashes": [
       "5569201553604d03",
       "6e3cceb54e777f64",
@@ -1280,12 +1280,13 @@
       "4b38b13a1a4ebcc4",
       "6a65307d2d5065d3"
     ],
-    "extractedChars": 1455,
-    "extractionMethod": "body_fallback",
+    "extractedChars": 201,
+    "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-01T00:05:04.527Z",
+    "lastChangedISO": "2026-10-01T00:58:34.981Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://careers.mcit.gov.sa/",
@@ -4457,7 +4458,7 @@
   {
     "sourceUrl": "https://training.moj.gov.sa/",
     "orgId": "moj",
-    "contentHash": null,
+    "contentHash": "f4c6ef6b783b69d09a8f681ad1d80f1df35ef8cb8864917255879208cc305886",
     "blockHashes": [
       "84a570379809f573",
       "ab443a0bbfda7883"
@@ -4465,7 +4466,7 @@
     "extractedChars": 481,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T02:31:49.455Z",
-    "lastChangedISO": "2026-09-30T21:44:25.645Z",
+    "lastChangedISO": "2026-10-01T00:58:34.981Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -5530,19 +5531,19 @@
   {
     "sourceUrl": "https://www.bog.gov.sa/en/EServices/judiciaryHiring/Pages/default.aspx",
     "orgId": "bog",
-    "contentHash": "81f8d73206efba83e5dada32be755e3c79048f06382e97494defc16051c79dd9",
+    "contentHash": "153d2ebf4c752893fa58c0b53c075e12e71bb9ddc7503b77e9bfd42e68348877",
     "blockHashes": [
       "46d9575ec382a9d1",
       "96c63175498462d9",
       "f4b9821710ab784e",
-      "e24ca624e1e52d43",
+      "db96cc060fa0a333",
       "d9ac968863afb54d",
       "ec5d6ba37d25b982"
     ],
     "extractedChars": 756,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-01T00:05:04.527Z",
+    "lastChangedISO": "2026-10-01T00:58:34.981Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -8659,8 +8660,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-30T21:46:34.615Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.nazaha.gov.sa/News/Details?q=LDqaftYCK2agKydxrbY5fg==",
@@ -9319,14 +9319,14 @@
   {
     "sourceUrl": "https://www.rcrc.gov.sa/careers/?lang=ar",
     "orgId": "rcrc",
-    "contentHash": "c72159d43837ef98ce7cfec3455cca60ef91d8e5ea1d28b25da43dd9a43b3d53",
+    "contentHash": "9c63e25b7b1b28265d238d3952a1ba261790f378cc8ed902708817fc81bc6a3f",
     "blockHashes": [
       "e00f06d0fdb401d5"
     ],
     "extractedChars": 1166,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-30T23:55:14.034Z",
+    "lastChangedISO": "2026-10-01T00:58:34.981Z",
     "thinRuns": 0,
     "pendingClassification": true,
     "classifyFailures": 1
