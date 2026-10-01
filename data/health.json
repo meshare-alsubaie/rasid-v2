@@ -1208,11 +1208,11 @@
   {
     "sourceUrl": "https://misa.gov.sa/ar/media-center/",
     "orgId": "misa",
-    "lastAttemptISO": "2026-10-01T09:44:54.766Z",
+    "lastAttemptISO": "2026-10-01T12:45:48.855Z",
     "lastSuccessISO": "2026-10-01T09:44:54.766Z",
-    "consecutiveFailures": 0,
-    "lastError": null,
-    "state": "healthy"
+    "consecutiveFailures": 1,
+    "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
+    "state": "degraded"
   },
   {
     "sourceUrl": "https://misa.gov.sa/ar/media-center/announcements/",
@@ -1604,11 +1604,11 @@
   {
     "sourceUrl": "https://rega.gov.sa/media-center/%D8%A7%D9%84%D9%87%D9%88%D9%8A%D8%A9-%D8%A7%D9%84%D8%A8%D8%B5%D8%B1%D9%8A%D8%A9/",
     "orgId": "rega",
-    "lastAttemptISO": "2026-10-01T09:44:54.766Z",
+    "lastAttemptISO": "2026-10-01T12:45:48.855Z",
     "lastSuccessISO": "2026-10-01T09:44:54.766Z",
-    "consecutiveFailures": 0,
-    "lastError": null,
-    "state": "healthy"
+    "consecutiveFailures": 1,
+    "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
+    "state": "degraded"
   },
   {
     "sourceUrl": "https://sa.zain.com/ar/careers/join-zain",
@@ -3530,10 +3530,10 @@
   {
     "sourceUrl": "https://www.saudiexchange.sa/wps/portal/saudiexchange/newsandreports/issuer-news/issuer-announcements?locale=ar",
     "orgId": "tadawul",
-    "lastAttemptISO": "2026-10-01T09:44:54.766Z",
+    "lastAttemptISO": "2026-10-01T12:45:48.855Z",
     "lastSuccessISO": "2026-09-02T23:42:46.216Z",
-    "consecutiveFailures": 107,
-    "lastError": "HTTP 403",
+    "consecutiveFailures": 108,
+    "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
     "state": "broken"
   },
   {
