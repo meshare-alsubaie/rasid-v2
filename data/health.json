@@ -1883,11 +1883,11 @@
   {
     "sourceUrl": "https://wasatah.com.sa/careers/",
     "orgId": "wasatah",
-    "lastAttemptISO": "2026-10-01T09:43:05.314Z",
+    "lastAttemptISO": "2026-10-01T12:53:33.569Z",
     "lastSuccessISO": "2026-10-01T09:43:05.314Z",
-    "consecutiveFailures": 0,
-    "lastError": null,
-    "state": "healthy"
+    "consecutiveFailures": 1,
+    "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
+    "state": "degraded"
   },
   {
     "sourceUrl": "https://wasatah.com.sa/media-center/",
@@ -3044,11 +3044,11 @@
   {
     "sourceUrl": "https://www.nazaha.gov.sa/Jobs",
     "orgId": "nazaha",
-    "lastAttemptISO": "2026-10-01T11:28:39.927Z",
+    "lastAttemptISO": "2026-10-01T12:53:33.569Z",
     "lastSuccessISO": "2026-10-01T11:28:39.927Z",
-    "consecutiveFailures": 0,
-    "lastError": null,
-    "state": "healthy"
+    "consecutiveFailures": 1,
+    "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
+    "state": "degraded"
   },
   {
     "sourceUrl": "https://www.nazaha.gov.sa/News",
