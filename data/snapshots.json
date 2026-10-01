@@ -1274,7 +1274,7 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/search-results",
     "orgId": "maaden",
-    "contentHash": "069e938e8ae8739fe9e0ec7977eacce2a929b146a9a0e04760fd822371b32330",
+    "contentHash": "6b36dc43a9400aa797b8ac6455c1bcae5337c0586a546b1bec9db4f9d502e550",
     "blockHashes": [
       "5569201553604d03",
       "6e3cceb54e777f64",
@@ -1283,13 +1283,12 @@
       "4b38b13a1a4ebcc4",
       "6a65307d2d5065d3"
     ],
-    "extractedChars": 240,
-    "extractionMethod": "readability",
+    "extractedChars": 162,
+    "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-01T04:05:21.070Z",
+    "lastChangedISO": "2026-10-01T04:59:51.779Z",
     "thinRuns": 0,
-    "pendingClassification": true,
-    "classifyFailures": 1
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://careers.mcit.gov.sa/",
@@ -4463,7 +4462,7 @@
   {
     "sourceUrl": "https://training.moj.gov.sa/",
     "orgId": "moj",
-    "contentHash": "f4c6ef6b783b69d09a8f681ad1d80f1df35ef8cb8864917255879208cc305886",
+    "contentHash": null,
     "blockHashes": [
       "84a570379809f573",
       "ab443a0bbfda7883"
@@ -10953,7 +10952,7 @@
   {
     "sourceUrl": "https://www.tahakom.com/careers",
     "orgId": "tahakom",
-    "contentHash": "a9b0253c483902a00645b630b2cbbfa1a6bf43b8378a82c3ac4c901491886ea6",
+    "contentHash": "c6cc57c0f16594942f48318c12f633c350c76a44473935a33fe25d3b4b404684",
     "blockHashes": [
       "d44217251213a019",
       "611753a8aea1ade1",
@@ -10961,12 +10960,12 @@
       "1a5263a5a2541c46",
       "7ff616a2455f75c9"
     ],
-    "extractedChars": 838,
+    "extractedChars": 833,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-03T05:13:40.059Z",
-    "lastChangedISO": "2026-10-01T04:05:21.070Z",
+    "lastChangedISO": "2026-10-01T04:59:51.779Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://www.taifcity.gov.sa/#/ar",
