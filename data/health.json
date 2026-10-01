@@ -299,11 +299,11 @@
   {
     "sourceUrl": "https://alinma.com/en/About-the-Bank/The-Bank/News/2013/05/alinmajobandcareerdayattractsgraduatesoftheinstituteofpublicadministration",
     "orgId": "alinma",
-    "lastAttemptISO": "2026-10-01T07:52:04.370Z",
+    "lastAttemptISO": "2026-10-01T14:16:27.794Z",
     "lastSuccessISO": "2026-10-01T07:52:04.370Z",
-    "consecutiveFailures": 0,
-    "lastError": null,
-    "state": "healthy"
+    "consecutiveFailures": 1,
+    "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
+    "state": "degraded"
   },
   {
     "sourceUrl": "https://alinma.com/en/About-the-Bank/The-Bank/News/2014/04/alinma-bank-participates-in-career-day-at-al-imam-university",
@@ -443,9 +443,9 @@
   {
     "sourceUrl": "https://careers.alrajhibank.com.sa/ar/page/coop-program/",
     "orgId": "alrajhi",
-    "lastAttemptISO": "2026-10-01T13:24:15.189Z",
+    "lastAttemptISO": "2026-10-01T14:16:27.794Z",
     "lastSuccessISO": "2026-10-01T11:32:39.893Z",
-    "consecutiveFailures": 2,
+    "consecutiveFailures": 3,
     "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
     "state": "degraded"
   },
@@ -524,9 +524,9 @@
   {
     "sourceUrl": "https://careers.cma.gov.sa/ar/saudi-arabia/jobs/%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D8%AC-%D8%A7%D9%84%D8%AA%D8%AF%D8%B1%D9%8A%D8%A8-%D8%A7%D9%84%D8%AA%D8%B9%D8%A7%D9%88%D9%86%D9%8A-%D9%84%D9%84%D9%81%D8%B5%D9%84-%D8%A7%D9%84%D8%AF%D8%B1%D8%A7%D8%B3%D9%8A-%D8%A7%D9%84%D8%B5%D9%8A%D9%81%D9%8A-2025%D9%85-1100087033/",
     "orgId": "cma",
-    "lastAttemptISO": "2026-10-01T13:24:15.189Z",
+    "lastAttemptISO": "2026-10-01T14:16:27.794Z",
     "lastSuccessISO": "2026-09-17T01:47:47.388Z",
-    "consecutiveFailures": 183,
+    "consecutiveFailures": 184,
     "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
     "state": "broken"
   },
@@ -713,18 +713,18 @@
   {
     "sourceUrl": "https://careers.saib.com.sa/en/page/coop-program/",
     "orgId": "saib",
-    "lastAttemptISO": "2026-10-01T13:24:15.189Z",
+    "lastAttemptISO": "2026-10-01T14:16:27.794Z",
     "lastSuccessISO": "2026-10-01T11:32:39.893Z",
-    "consecutiveFailures": 2,
+    "consecutiveFailures": 3,
     "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
     "state": "degraded"
   },
   {
     "sourceUrl": "https://careers.sama.gov.sa/",
     "orgId": "sama",
-    "lastAttemptISO": "2026-10-01T13:24:15.189Z",
+    "lastAttemptISO": "2026-10-01T14:16:27.794Z",
     "lastSuccessISO": "2026-10-01T11:32:39.893Z",
-    "consecutiveFailures": 2,
+    "consecutiveFailures": 3,
     "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
     "state": "degraded"
   },
@@ -848,9 +848,9 @@
   {
     "sourceUrl": "https://careers.stc.com.sa/go/%D8%A7%D9%84%D8%AA%D8%AF%D8%B1%D9%8A%D8%A8-%D8%A7%D9%84%D8%AA%D8%B9%D8%A7%D9%88%D9%86%D9%8A/7736823/",
     "orgId": "stc",
-    "lastAttemptISO": "2026-10-01T13:10:55.709Z",
+    "lastAttemptISO": "2026-10-01T14:16:27.794Z",
     "lastSuccessISO": "2026-10-01T12:02:16.769Z",
-    "consecutiveFailures": 1,
+    "consecutiveFailures": 2,
     "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
     "state": "degraded"
   },
@@ -1676,9 +1676,9 @@
   {
     "sourceUrl": "https://slccareers.kpmg.com/job/Medina-KPMG-Audit-Internship-Program-Accounting-Graduates/1368374723/",
     "orgId": "kpmg_sa",
-    "lastAttemptISO": "2026-10-01T13:10:55.709Z",
+    "lastAttemptISO": "2026-10-01T14:16:27.794Z",
     "lastSuccessISO": "2026-10-01T12:02:16.769Z",
-    "consecutiveFailures": 1,
+    "consecutiveFailures": 2,
     "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
     "state": "degraded"
   },
@@ -2009,9 +2009,9 @@
   {
     "sourceUrl": "https://www.aramco.com/en/careers/for-saudi-applicants/student-opportunities/apprenticeship-program",
     "orgId": "aramco",
-    "lastAttemptISO": "2026-10-01T12:44:17.713Z",
+    "lastAttemptISO": "2026-10-01T14:16:27.794Z",
     "lastSuccessISO": "2026-10-01T11:03:54.705Z",
-    "consecutiveFailures": 1,
+    "consecutiveFailures": 2,
     "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
     "state": "degraded"
   },
@@ -3152,9 +3152,9 @@
   {
     "sourceUrl": "https://www.pwc.com/m1/en/careers.html",
     "orgId": "pwc_sa",
-    "lastAttemptISO": "2026-10-01T12:44:17.713Z",
+    "lastAttemptISO": "2026-10-01T14:16:27.794Z",
     "lastSuccessISO": "2026-09-02T23:42:46.216Z",
-    "consecutiveFailures": 191,
+    "consecutiveFailures": 192,
     "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
     "state": "broken"
   },
@@ -3359,9 +3359,9 @@
   {
     "sourceUrl": "https://www.sabic.com/ar/careers/middle-east-africa/students-and-fresh-graduates",
     "orgId": "sabic",
-    "lastAttemptISO": "2026-10-01T13:24:15.189Z",
+    "lastAttemptISO": "2026-10-01T14:16:27.794Z",
     "lastSuccessISO": "2026-10-01T10:35:45.151Z",
-    "consecutiveFailures": 3,
+    "consecutiveFailures": 4,
     "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
     "state": "degraded"
   },
