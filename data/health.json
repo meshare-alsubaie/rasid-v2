@@ -65,8 +65,8 @@
   {
     "sourceUrl": "https://adf.gov.sa/ar/Pages/default.aspx",
     "orgId": "adf",
-    "lastAttemptISO": "2026-10-01T09:44:54.766Z",
-    "lastSuccessISO": "2026-10-01T09:44:54.766Z",
+    "lastAttemptISO": "2026-10-01T23:43:57.387Z",
+    "lastSuccessISO": "2026-10-01T23:43:57.387Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -200,11 +200,11 @@
   {
     "sourceUrl": "https://alinma.com/About-the-Bank/The-Bank/News/2014/04/alinma-bank-participates-in-career-day-at-al-imam-university",
     "orgId": "alinma",
-    "lastAttemptISO": "2026-10-01T15:07:51.793Z",
-    "lastSuccessISO": "2026-10-01T09:24:10.880Z",
-    "consecutiveFailures": 1,
-    "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
-    "state": "degraded"
+    "lastAttemptISO": "2026-10-01T23:42:40.914Z",
+    "lastSuccessISO": "2026-10-01T23:42:40.914Z",
+    "consecutiveFailures": 0,
+    "lastError": null,
+    "state": "healthy"
   },
   {
     "sourceUrl": "https://alinma.com/About-the-Bank/The-Bank/News/2026/8/amwal-tech",
@@ -578,8 +578,8 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en",
     "orgId": "maaden",
-    "lastAttemptISO": "2026-10-01T22:57:08.860Z",
-    "lastSuccessISO": "2026-10-01T22:57:08.860Z",
+    "lastAttemptISO": "2026-10-01T23:43:57.387Z",
+    "lastSuccessISO": "2026-10-01T23:43:57.387Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -695,8 +695,8 @@
   {
     "sourceUrl": "https://careers.saib.com.sa/ar/page/coop-program/",
     "orgId": "saib",
-    "lastAttemptISO": "2026-10-01T22:50:16.573Z",
-    "lastSuccessISO": "2026-10-01T22:50:16.573Z",
+    "lastAttemptISO": "2026-10-01T23:43:57.387Z",
+    "lastSuccessISO": "2026-10-01T23:43:57.387Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -749,8 +749,8 @@
   {
     "sourceUrl": "https://careers.sama.gov.sa/search/",
     "orgId": "sama",
-    "lastAttemptISO": "2026-10-01T22:50:16.573Z",
-    "lastSuccessISO": "2026-10-01T22:50:16.573Z",
+    "lastAttemptISO": "2026-10-01T23:43:57.387Z",
+    "lastSuccessISO": "2026-10-01T23:43:57.387Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -857,8 +857,8 @@
   {
     "sourceUrl": "https://careers.stc.com.sa/go/Cooperative-Training/7736023/",
     "orgId": "stc",
-    "lastAttemptISO": "2026-10-01T22:36:54.532Z",
-    "lastSuccessISO": "2026-10-01T22:36:54.532Z",
+    "lastAttemptISO": "2026-10-01T23:43:57.387Z",
+    "lastSuccessISO": "2026-10-01T23:43:57.387Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -983,8 +983,8 @@
   {
     "sourceUrl": "https://gmedia.gov.sa/",
     "orgId": "gcam",
-    "lastAttemptISO": "2026-10-01T09:43:05.314Z",
-    "lastSuccessISO": "2026-10-01T09:43:05.314Z",
+    "lastAttemptISO": "2026-10-01T23:42:40.914Z",
+    "lastSuccessISO": "2026-10-01T23:42:40.914Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -1379,11 +1379,11 @@
   {
     "sourceUrl": "https://nca.gov.sa/ar/nca-academy/",
     "orgId": "ncac",
-    "lastAttemptISO": "2026-10-01T14:33:26.777Z",
-    "lastSuccessISO": "2026-10-01T11:17:36.478Z",
-    "consecutiveFailures": 1,
-    "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
-    "state": "degraded"
+    "lastAttemptISO": "2026-10-01T23:43:57.387Z",
+    "lastSuccessISO": "2026-10-01T23:43:57.387Z",
+    "consecutiveFailures": 0,
+    "lastError": null,
+    "state": "healthy"
   },
   {
     "sourceUrl": "https://nca.gov.sa/ar/news/",
@@ -3755,11 +3755,11 @@
   {
     "sourceUrl": "https://www.stats.gov.sa/en/cooperative-training",
     "orgId": "gastat",
-    "lastAttemptISO": "2026-10-01T22:53:54.400Z",
+    "lastAttemptISO": "2026-10-01T23:43:57.387Z",
     "lastSuccessISO": "2026-10-01T22:53:54.400Z",
-    "consecutiveFailures": 0,
-    "lastError": null,
-    "state": "healthy"
+    "consecutiveFailures": 1,
+    "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
+    "state": "degraded"
   },
   {
     "sourceUrl": "https://www.stats.gov.sa/en/news",
