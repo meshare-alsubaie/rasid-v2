@@ -4141,16 +4141,17 @@
   {
     "sourceUrl": "https://site.sa/",
     "orgId": "site",
-    "contentHash": "a200c2d13ea06f1e2c64a3ada66c5ee448697431b52b9efb0743dc286fa3e30d",
+    "contentHash": "27965cf5b26f81b327b8a4c8372673429d42f065176025b49712d823c1506e52",
     "blockHashes": [
-      "a200c2d13ea06f1e"
+      "27965cf5b26f81b3"
     ],
-    "extractedChars": 598,
+    "extractedChars": 574,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-30T03:28:29.520Z",
+    "lastChangedISO": "2026-10-01T22:32:24.935Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://slccareers.kpmg.com/go/All-Jobs/7738123/",
@@ -5557,19 +5558,19 @@
   {
     "sourceUrl": "https://www.bog.gov.sa/en/EServices/judiciaryHiring/Pages/default.aspx",
     "orgId": "bog",
-    "contentHash": "81f8d73206efba83e5dada32be755e3c79048f06382e97494defc16051c79dd9",
+    "contentHash": "153d2ebf4c752893fa58c0b53c075e12e71bb9ddc7503b77e9bfd42e68348877",
     "blockHashes": [
       "46d9575ec382a9d1",
       "96c63175498462d9",
       "f4b9821710ab784e",
-      "e24ca624e1e52d43",
+      "db96cc060fa0a333",
       "d9ac968863afb54d",
       "ec5d6ba37d25b982"
     ],
     "extractedChars": 756,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-01T11:53:06.618Z",
+    "lastChangedISO": "2026-10-01T22:30:14.139Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -7724,8 +7725,7 @@
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
     "lastChangedISO": "2026-10-01T09:36:04.309Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.mim.gov.sa/ar",
@@ -8609,7 +8609,7 @@
   {
     "sourceUrl": "https://www.nazaha.gov.sa/Jobs",
     "orgId": "nazaha",
-    "contentHash": "61a28ed285bf38311734d70eb2c7be5b16be4ab2025baad824b722e418e19862",
+    "contentHash": "86fc4b2b7697cbf358825bb25a3316e7e44ba2946afeb6f574ff5194209541ff",
     "blockHashes": [
       "a167b0dd9b0e3e1c",
       "74e4c1d2a646a96e",
@@ -8620,9 +8620,10 @@
     "extractedChars": 225,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-30T21:14:17.182Z",
+    "lastChangedISO": "2026-10-01T22:32:24.935Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://www.nazaha.gov.sa/News",
@@ -11138,21 +11139,24 @@
   {
     "sourceUrl": "https://www.tadawulgroup.sa/wps/portal/tadawulgroup/joinus",
     "orgId": "tadawul",
-    "contentHash": "d0d3b5ac169f1b73ab7aa83d70c779f4ee298b89ccc3b8284f83c6034148bac3",
+    "contentHash": "218af6789adae9d596633c79e9b359213a247d93501904bfc43eeae06fd8c680",
     "blockHashes": [
-      "0cfcdfa727221d00",
-      "689f707057688943",
-      "50a3cca530113406",
-      "a3435878c6033280",
-      "b2cab4da26050ee9"
+      "dbfb7021493a5943",
+      "4acb10188c67e120",
+      "9b405996eceb74cf",
+      "5b4fe1a76867e3dc",
+      "4cacbd860b3b4c52",
+      "a888c2eda107d142",
+      "a8f106c1cf7430a5",
+      "99045a67c833cd6b",
+      "332ab17b1cccbd59"
     ],
-    "extractedChars": 1186,
+    "extractedChars": 1384,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-02T23:42:46.216Z",
-    "lastChangedISO": "2026-10-01T08:30:57.206Z",
+    "lastChangedISO": "2026-10-01T22:32:24.935Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "classifyFailures": 3
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.tahakom.com/",
