@@ -3141,9 +3141,9 @@
   {
     "sourceUrl": "https://modon.gov.sa/ar/MediaCenter/modon-news/News/Pages/default.aspx",
     "orgId": "modon",
-    "contentHash": "9cbeaa80177cc7b96e390170eb6158bc29cd2d883d094e53ad61878d91672c8a",
+    "contentHash": "87bef34c928d4ace7d79a087a250f9c70620a4eeb0f47046cad1dcae2a279f10",
     "blockHashes": [
-      "5b8f98a216b44232",
+      "8f098c319f3920e0",
       "8727cbb5dfea6170",
       "bdfe2a112c399ccd",
       "8ae17958586c8a8c",
@@ -3152,7 +3152,7 @@
     "extractedChars": 1591,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-01T02:31:54.407Z",
+    "lastChangedISO": "2026-10-01T09:03:13.745Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -7754,9 +7754,9 @@
   {
     "sourceUrl": "https://www.mim.gov.sa/ar/media-center/news",
     "orgId": "mim",
-    "contentHash": "76d4a51a6fd7084ccb384feffb19722fded38f0d416a9ab2a19886c78451873c",
+    "contentHash": "77ac597c4de0ca0620f604669b5584cab61d3a8e2c147d975f885351428ba0f5",
     "blockHashes": [
-      "19827db0339c0011",
+      "6b0ede5938db4ab8",
       "1f5dd0d29afd9b79",
       "634a5a8d064708ad",
       "1f5e279450d224dd",
@@ -7786,7 +7786,7 @@
     "extractedChars": 10087,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-01T05:49:53.392Z",
+    "lastChangedISO": "2026-10-01T09:03:13.745Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -8486,7 +8486,7 @@
   {
     "sourceUrl": "https://www.monshaat.gov.sa/ar/media-center",
     "orgId": "monshaat",
-    "contentHash": "a6caad4e44f10b4ffb158dbd5f5e7a92032c4a3a643d767728511fc4bb27360f",
+    "contentHash": "3915b501ea53498c7d7cc47447916fc60b35947629f9802c444d600cc3b044e5",
     "blockHashes": [
       "62ec4fbdbec6a74f",
       "7e8e5737d902ff38"
@@ -8494,9 +8494,10 @@
     "extractedChars": 1108,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-30T10:01:31.211Z",
+    "lastChangedISO": "2026-10-01T09:03:13.745Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://www.monshaat.gov.sa/ar/news-posts-list",
@@ -9368,13 +9369,13 @@
   {
     "sourceUrl": "https://www.rcrc.gov.sa/news-ar/",
     "orgId": "rcrc",
-    "contentHash": "2a916469e848be4735fe22d63cc59f9a7059eabda0f88e6a485796798981570a",
+    "contentHash": "677418c6e7b76a112c4de30dfe6df9bdea01f867caea69f7b4b83561b031257b",
     "blockHashes": [
       "dd62229c2f61fb42",
       "306db3646b8a6c73",
       "b28682d0a5fa37ed",
-      "10fdae8445ed9000",
-      "da064cfc533d27f6",
+      "bbea888315325898",
+      "be9e9f48e848347a",
       "dd5bfb74e89dbbdd",
       "b32d68c4e5c2da0f",
       "b91cd7f4edfa88d2",
@@ -9387,7 +9388,7 @@
     "extractedChars": 3409,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-01T05:46:34.454Z",
+    "lastChangedISO": "2026-10-01T09:03:13.745Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -11114,7 +11115,7 @@
     "lastChangedISO": "2026-10-01T07:50:08.854Z",
     "thinRuns": 0,
     "pendingClassification": true,
-    "classifyFailures": 1
+    "classifyFailures": 2
   },
   {
     "sourceUrl": "https://www.tadawulgroup.sa/wps/portal/tadawulgroup/joinus",
