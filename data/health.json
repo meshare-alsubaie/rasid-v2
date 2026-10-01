@@ -1739,11 +1739,11 @@
   {
     "sourceUrl": "https://takamolholding.com/ar/join-us",
     "orgId": "takamol",
-    "lastAttemptISO": "2026-10-01T10:48:10.573Z",
+    "lastAttemptISO": "2026-10-01T13:48:45.348Z",
     "lastSuccessISO": "2026-10-01T10:48:10.573Z",
-    "consecutiveFailures": 0,
-    "lastError": null,
-    "state": "healthy"
+    "consecutiveFailures": 1,
+    "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
+    "state": "degraded"
   },
   {
     "sourceUrl": "https://talent.mc.gov.sa/",
@@ -2144,11 +2144,11 @@
   {
     "sourceUrl": "https://www.cst.gov.sa/en/media-center",
     "orgId": "citc",
-    "lastAttemptISO": "2026-10-01T10:48:10.573Z",
+    "lastAttemptISO": "2026-10-01T13:48:45.348Z",
     "lastSuccessISO": "2026-10-01T10:48:10.573Z",
-    "consecutiveFailures": 0,
-    "lastError": null,
-    "state": "healthy"
+    "consecutiveFailures": 1,
+    "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
+    "state": "degraded"
   },
   {
     "sourceUrl": "https://www.cst.gov.sa/media-center",
