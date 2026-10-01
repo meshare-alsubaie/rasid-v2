@@ -227,11 +227,11 @@
   {
     "sourceUrl": "https://alinma.com/en/About-the-Bank/The-Bank/News/2009/02/alinma-bank-selects-and-prepares-its-phone-banking-and-training-center-location",
     "orgId": "alinma",
-    "lastAttemptISO": "2026-10-01T06:17:49.885Z",
+    "lastAttemptISO": "2026-10-01T13:10:55.709Z",
     "lastSuccessISO": "2026-10-01T06:17:49.885Z",
-    "consecutiveFailures": 0,
-    "lastError": null,
-    "state": "healthy"
+    "consecutiveFailures": 1,
+    "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
+    "state": "degraded"
   },
   {
     "sourceUrl": "https://alinma.com/en/About-the-Bank/The-Bank/News/2010/01/alinma-bank-signs-agreement-with-specialized-academy-for-medical-training-for-financing-tuition-fees",
@@ -452,9 +452,9 @@
   {
     "sourceUrl": "https://careers.alrajhibank.com.sa/ar/saudi-arabia/jobs/coop-training-%D8%A7%D9%84%D8%AA%D8%AF%D8%B1%D9%8A%D8%A8-%D8%A7%D9%84%D8%AA%D8%B9%D8%A7%D9%88%D9%86%D9%8A-1100037814/",
     "orgId": "alrajhi",
-    "lastAttemptISO": "2026-10-01T12:16:11.757Z",
+    "lastAttemptISO": "2026-10-01T13:10:55.709Z",
     "lastSuccessISO": "2026-10-01T11:17:36.478Z",
-    "consecutiveFailures": 1,
+    "consecutiveFailures": 2,
     "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
     "state": "degraded"
   },
@@ -506,9 +506,9 @@
   {
     "sourceUrl": "https://careers.cma.gov.sa/",
     "orgId": "cma",
-    "lastAttemptISO": "2026-10-01T12:16:11.757Z",
+    "lastAttemptISO": "2026-10-01T13:10:55.709Z",
     "lastSuccessISO": "2026-09-17T01:05:14.969Z",
-    "consecutiveFailures": 180,
+    "consecutiveFailures": 181,
     "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
     "state": "broken"
   },
@@ -686,9 +686,9 @@
   {
     "sourceUrl": "https://careers.saib.com.sa/ar/page/bag-program/",
     "orgId": "saib",
-    "lastAttemptISO": "2026-10-01T12:16:11.757Z",
+    "lastAttemptISO": "2026-10-01T13:10:55.709Z",
     "lastSuccessISO": "2026-10-01T11:17:36.478Z",
-    "consecutiveFailures": 1,
+    "consecutiveFailures": 2,
     "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
     "state": "degraded"
   },
@@ -731,9 +731,9 @@
   {
     "sourceUrl": "https://careers.sama.gov.sa/content/Recruiting-process/?locale=en_GB",
     "orgId": "sama",
-    "lastAttemptISO": "2026-10-01T12:16:11.757Z",
+    "lastAttemptISO": "2026-10-01T13:10:55.709Z",
     "lastSuccessISO": "2026-10-01T11:17:36.478Z",
-    "consecutiveFailures": 1,
+    "consecutiveFailures": 2,
     "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
     "state": "degraded"
   },
@@ -758,9 +758,9 @@
   {
     "sourceUrl": "https://careers.scfhs.org.sa/ar/page/build-you-future/",
     "orgId": "scfhs",
-    "lastAttemptISO": "2026-10-01T12:22:20.401Z",
+    "lastAttemptISO": "2026-10-01T13:10:55.709Z",
     "lastSuccessISO": "2026-10-01T11:32:39.893Z",
-    "consecutiveFailures": 1,
+    "consecutiveFailures": 2,
     "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
     "state": "degraded"
   },
@@ -848,11 +848,11 @@
   {
     "sourceUrl": "https://careers.stc.com.sa/go/%D8%A7%D9%84%D8%AA%D8%AF%D8%B1%D9%8A%D8%A8-%D8%A7%D9%84%D8%AA%D8%B9%D8%A7%D9%88%D9%86%D9%8A/7736823/",
     "orgId": "stc",
-    "lastAttemptISO": "2026-10-01T12:02:16.769Z",
+    "lastAttemptISO": "2026-10-01T13:10:55.709Z",
     "lastSuccessISO": "2026-10-01T12:02:16.769Z",
-    "consecutiveFailures": 0,
-    "lastError": null,
-    "state": "healthy"
+    "consecutiveFailures": 1,
+    "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
+    "state": "degraded"
   },
   {
     "sourceUrl": "https://careers.stc.com.sa/go/Cooperative-Training/7736023/",
@@ -1361,11 +1361,11 @@
   {
     "sourceUrl": "https://nca.gov.sa/ar/cyber-training-and-qualifications/cybersecurity-program-3/",
     "orgId": "nca",
-    "lastAttemptISO": "2026-10-01T11:32:39.893Z",
+    "lastAttemptISO": "2026-10-01T13:10:55.709Z",
     "lastSuccessISO": "2026-10-01T11:32:39.893Z",
-    "consecutiveFailures": 0,
-    "lastError": null,
-    "state": "healthy"
+    "consecutiveFailures": 1,
+    "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
+    "state": "degraded"
   },
   {
     "sourceUrl": "https://nca.gov.sa/ar/education-program/",
@@ -1676,11 +1676,11 @@
   {
     "sourceUrl": "https://slccareers.kpmg.com/job/Medina-KPMG-Audit-Internship-Program-Accounting-Graduates/1368374723/",
     "orgId": "kpmg_sa",
-    "lastAttemptISO": "2026-10-01T12:02:16.769Z",
+    "lastAttemptISO": "2026-10-01T13:10:55.709Z",
     "lastSuccessISO": "2026-10-01T12:02:16.769Z",
-    "consecutiveFailures": 0,
-    "lastError": null,
-    "state": "healthy"
+    "consecutiveFailures": 1,
+    "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
+    "state": "degraded"
   },
   {
     "sourceUrl": "https://slccareers.kpmg.com/job/Riyadh-KPMG-Audit-COOP-Program-(Riyadh,-Jeddah,-and-Khobar)/857222523/",
@@ -2018,11 +2018,11 @@
   {
     "sourceUrl": "https://www.aramco.com/en/careers/for-saudi-applicants/student-opportunities/college-continuation-program",
     "orgId": "aramco",
-    "lastAttemptISO": "2026-10-01T11:32:39.893Z",
+    "lastAttemptISO": "2026-10-01T13:10:55.709Z",
     "lastSuccessISO": "2026-10-01T11:32:39.893Z",
-    "consecutiveFailures": 0,
-    "lastError": null,
-    "state": "healthy"
+    "consecutiveFailures": 1,
+    "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
+    "state": "degraded"
   },
   {
     "sourceUrl": "https://www.aramco.com/en/careers/for-saudi-applicants/student-opportunities/college-degree-program",
@@ -3170,10 +3170,10 @@
   {
     "sourceUrl": "https://www.pwc.com/m1/en/careers/graduates-and-undergraduates-careers.html",
     "orgId": "pwc_sa",
-    "lastAttemptISO": "2026-10-01T11:32:39.893Z",
+    "lastAttemptISO": "2026-10-01T13:10:55.709Z",
     "lastSuccessISO": "2026-09-02T23:42:46.216Z",
-    "consecutiveFailures": 185,
-    "lastError": "HTTP 403",
+    "consecutiveFailures": 186,
+    "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
     "state": "broken"
   },
   {
@@ -3350,9 +3350,9 @@
   {
     "sourceUrl": "https://www.sabic.com/ar/careers/asia",
     "orgId": "sabic",
-    "lastAttemptISO": "2026-10-01T12:16:11.757Z",
+    "lastAttemptISO": "2026-10-01T13:10:55.709Z",
     "lastSuccessISO": "2026-09-15T14:38:42.937Z",
-    "consecutiveFailures": 204,
+    "consecutiveFailures": 205,
     "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
     "state": "broken"
   },
