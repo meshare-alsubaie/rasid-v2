@@ -615,7 +615,7 @@
   {
     "sourceUrl": "https://anb.com.sa/web/anb",
     "orgId": "anb",
-    "contentHash": "5fc2963d020f09f54bef44cb11a54ad635f0adc45249a1d15dbb354a00b076ce",
+    "contentHash": "29e389761974274eb73297ad2ad6a54c904ec7ec5c5ea2ac0d77c0b50fa7b082",
     "blockHashes": [
       "8f6a153911b94998",
       "793a466ff765af0e",
@@ -641,10 +641,10 @@
       "aa35354cb63f5aba",
       "9424e025a796a02e"
     ],
-    "extractedChars": 7898,
+    "extractedChars": 7874,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-02T17:57:29.395Z",
+    "lastChangedISO": "2026-10-02T20:59:57.088Z",
     "thinRuns": 0,
     "pendingClassification": true,
     "classifyFailures": 1
@@ -2435,19 +2435,19 @@
   {
     "sourceUrl": "https://gaca.gov.sa/web/ar-sa/page/home",
     "orgId": "gaca",
-    "contentHash": "deed7e7f805ee604629263b894cdc0932987738d8fc6783ff98666007e7cf636",
+    "contentHash": "fed5027fe75f49d39589bfbcb7d57fd484f33106116079ac6e32ab9ad3d9954e",
     "blockHashes": [
-      "824d946e4a78ef3a",
+      "46001c1a04254a82",
       "67ba147535885b5a",
       "90d5b20a2e1b1c87",
       "98b0f721363b8a74",
       "83a22e1f9fb245f8",
-      "bc532942aaed49b7"
+      "b56e231e91931f13"
     ],
     "extractedChars": 1607,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-02T17:57:29.395Z",
+    "lastChangedISO": "2026-10-02T20:59:57.088Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -3215,38 +3215,38 @@
   {
     "sourceUrl": "https://momah.gov.sa/ar/announcements",
     "orgId": "housing",
-    "contentHash": "d939fecb116772adab8314b84743e9dc8ecaeb99d2c4d7baad2af3a1508081b5",
+    "contentHash": "97b42a0329efe45110cb7feead69288dceace4ecf44e8ed526f6b87395c46dae",
     "blockHashes": [
       "b5d072cff912d21d",
       "83198c6586cd15b8",
       "f230e64116e33a59",
       "aa8e55eac5aea8cd",
       "09552ec2996654f9",
-      "0dbf8a61e8edb0bf",
-      "e4260f99c63701ec",
-      "09b1bd561f62b68f",
-      "ababd41f55786975",
-      "40b99a543407d011",
+      "258c398da156fabe",
+      "f1534b8cd68cfd95",
+      "5d15152619ff887e",
+      "5f9c12aad05ede7b",
+      "ac1405062719fb86",
+      "97c6795346db59d0",
       "560edfe1df9d8921",
       "23b97a8a93aba477",
       "9cd3abf7fd1573ff",
-      "77c3e3fc59bc72e2",
+      "18ff2692cb4ae0cb",
       "ff6f87e39638cb9b",
-      "f403596483e78733",
-      "f19a25d340496d61",
-      "ac1405062719fb86",
-      "e14d0dcece69b5db",
-      "f76b5438089a82ce",
-      "5d15152619ff887e",
-      "4ff40cccbd771d0b",
-      "67f8749b17e5e600",
-      "e8071c823284a0fc",
-      "a783f3c54a8a917f"
+      "c1e52d73a82cd023",
+      "fae3a0fda3dc3a01",
+      "ce309fac13956123",
+      "839312af6a121227",
+      "45cad1d044e88162",
+      "b34d0c7b8455dda6",
+      "09b1bd561f62b68f",
+      "a16ff0d6353fdda0",
+      "2556f598f24323c8"
     ],
     "extractedChars": 152454,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-02T17:57:29.395Z",
+    "lastChangedISO": "2026-10-02T20:59:57.088Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -6431,10 +6431,10 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/all_branches_news?lang=ar",
     "orgId": "hrc",
-    "contentHash": "b9e6a4f205cf76abe645d8116e38487c98a88b460979a324ee41912bbbc7c4c0",
+    "contentHash": "7e7e6c339bc65a50bb813f85b964a4959d1ce4f3f88e86d2e532bab9f672606a",
     "blockHashes": [
       "12e41a244a8a2984",
-      "85816838e4569940",
+      "f12d967765e6f2a2",
       "f1bdac7ad7f0ff22",
       "eada9065fc805384",
       "affd75c0a04d2d7f",
@@ -6460,7 +6460,7 @@
     "extractedChars": 5187,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-02T17:57:29.395Z",
+    "lastChangedISO": "2026-10-02T20:59:57.088Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -9653,8 +9653,7 @@
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
     "lastChangedISO": "2026-10-02T17:57:29.395Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.sabic.com/ar/careers",
