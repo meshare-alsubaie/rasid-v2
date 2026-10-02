@@ -3051,7 +3051,7 @@
   {
     "sourceUrl": "https://misa.gov.sa/ar/media-center/announcements/",
     "orgId": "misa",
-    "contentHash": "d907b877e96d2344f36a01c2e3e74dc1945483a77f4dc34a6a044d4651743999",
+    "contentHash": "cf76176ac7ee1764532e1e0a8e04e38cf0dd2388a8db14256ff041b00201473a",
     "blockHashes": [
       "d0ada1cfc277849f",
       "a281540e00ca3f91",
@@ -3060,16 +3060,17 @@
       "230cfdba4f2f3da3",
       "35b3a327fb9977e6",
       "d7f5b0da295cf61a",
-      "a3fcc915d4591b88",
+      "186146cb8778a234",
       "24138831fdb4c564",
       "f43b8bd75a8e0f61"
     ],
     "extractedChars": 724,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-30T20:23:51.613Z",
+    "lastChangedISO": "2026-10-02T02:03:37.866Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://misa.gov.sa/ar/media-center/latest-news/",
@@ -10522,7 +10523,7 @@
   {
     "sourceUrl": "https://www.sidf.gov.sa/Coop",
     "orgId": "sidf",
-    "contentHash": "36a784cf7ea3f5ac9351ae46d6e0ae7342ce6a46299112c388c074fadf34292e",
+    "contentHash": "d8067ff67283e305c466fb54bfae3356de4acc893379173f03e1d49c5ea01ca7",
     "blockHashes": [
       "fdd937f135c65722",
       "25b3bc91b9810520"
@@ -10530,10 +10531,10 @@
     "extractedChars": 314,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-02T23:42:46.216Z",
-    "lastChangedISO": "2026-10-01T22:36:54.532Z",
+    "lastChangedISO": "2026-10-02T02:04:57.964Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "classifyFailures": 3
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://www.sidf.gov.sa/News",
