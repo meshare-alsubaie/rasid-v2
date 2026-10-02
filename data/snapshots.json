@@ -1280,7 +1280,7 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/search-results",
     "orgId": "maaden",
-    "contentHash": "4997feffe164d1cf05619b516c5666f15aabaf273227d3a912c2be8f2b94cca4",
+    "contentHash": "f3a9c6ca4a1e2adbb0ede980b44ffc82c7d6866722ff0a5b2cc8fc27a2b855f9",
     "blockHashes": [
       "5569201553604d03",
       "6e3cceb54e777f64",
@@ -1292,7 +1292,7 @@
     "extractedChars": 240,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-02T12:38:09.878Z",
+    "lastChangedISO": "2026-10-02T14:52:00.190Z",
     "thinRuns": 0,
     "pendingClassification": true,
     "classifyFailures": 1
@@ -2199,7 +2199,7 @@
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T02:22:33.828Z",
     "lastChangedISO": "2026-08-29T02:36:21.032Z",
-    "thinRuns": 454,
+    "thinRuns": 455,
     "pendingClassification": false
   },
   {
@@ -3486,16 +3486,17 @@
   {
     "sourceUrl": "https://nca.gov.sa/ar/careers/",
     "orgId": "nca",
-    "contentHash": "15d93a4b84b356b5eaaecaa76d0068d94d4c086351094852e793386c46e6f772",
+    "contentHash": "940629cc046fc50c143a5e91561094ea8685ddf9daed17295f0adc88a6f90869",
     "blockHashes": [
       "15d93a4b84b356b5"
     ],
-    "extractedChars": 610,
+    "extractedChars": 607,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-29T06:10:33.241Z",
+    "lastChangedISO": "2026-10-02T14:52:00.190Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://nca.gov.sa/ar/cyber-training-and-qualifications/",
