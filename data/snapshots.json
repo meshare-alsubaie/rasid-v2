@@ -3054,8 +3054,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-10-02T02:17:29.183Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://misa.gov.sa/ar/media-center/announcements/",
@@ -3424,7 +3423,7 @@
     "lastChangedISO": "2026-10-02T02:25:20.691Z",
     "thinRuns": 0,
     "pendingClassification": true,
-    "classifyFailures": 1
+    "classifyFailures": 2
   },
   {
     "sourceUrl": "https://mot.gov.sa/ar/employment1",
@@ -6524,7 +6523,7 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/careers?lang=ar",
     "orgId": "hrc",
-    "contentHash": "50dd18590437fedfda6398a47f1570a2432cb9dc0f94676c21a7a737eeade24b",
+    "contentHash": "ccb6d181b74ab39ff4c7f7ba43ed7bc007c6e61a462c7f5bdda9f076ac3f0bab",
     "blockHashes": [
       "12e41a244a8a2984",
       "014beb3476d1001d",
@@ -6551,7 +6550,7 @@
     "extractedChars": 3794,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-02T02:25:20.691Z",
+    "lastChangedISO": "2026-10-02T05:27:13.713Z",
     "thinRuns": 0,
     "pendingClassification": true,
     "classifyFailures": 1
@@ -7785,9 +7784,9 @@
   {
     "sourceUrl": "https://www.mim.gov.sa/ar/media-center/news",
     "orgId": "mim",
-    "contentHash": "bfe0a57173a44a79f10536884cc93fbc9aedd9f5084ea099c6516b140ee0402b",
+    "contentHash": "0cd2bd1a3416eaddbdc0eb63c9481024dfcb7e595929a90e961c1a1835479feb",
     "blockHashes": [
-      "3fca2b7f9e33d1fd",
+      "f8fdb2acd101b484",
       "1f5dd0d29afd9b79",
       "634a5a8d064708ad",
       "1f5e279450d224dd",
@@ -7817,7 +7816,7 @@
     "extractedChars": 10087,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-02T02:09:32.489Z",
+    "lastChangedISO": "2026-10-02T05:18:32.675Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
