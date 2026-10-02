@@ -1280,7 +1280,7 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/search-results",
     "orgId": "maaden",
-    "contentHash": "f3a9c6ca4a1e2adbb0ede980b44ffc82c7d6866722ff0a5b2cc8fc27a2b855f9",
+    "contentHash": "13785b00a2d0832c87ed84c26736e3d4b62ccc9f3d67c475cc57bf7316d5d2e5",
     "blockHashes": [
       "5569201553604d03",
       "6e3cceb54e777f64",
@@ -1289,10 +1289,10 @@
       "4b38b13a1a4ebcc4",
       "6a65307d2d5065d3"
     ],
-    "extractedChars": 240,
+    "extractedChars": 201,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-02T14:52:00.190Z",
+    "lastChangedISO": "2026-10-02T15:41:22.161Z",
     "thinRuns": 0,
     "pendingClassification": true,
     "classifyFailures": 1
@@ -2199,7 +2199,7 @@
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T02:22:33.828Z",
     "lastChangedISO": "2026-08-29T02:36:21.032Z",
-    "thinRuns": 455,
+    "thinRuns": 456,
     "pendingClassification": false
   },
   {
@@ -10400,8 +10400,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-10-02T12:38:09.878Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.sfda.gov.sa/en/career-vision-and-mission",
