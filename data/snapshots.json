@@ -2236,17 +2236,17 @@
   {
     "sourceUrl": "https://gaca.gov.sa/announcements",
     "orgId": "gaca",
-    "contentHash": "db834cf256eba995457f8f13a36ac71afa79555baa8ab2b71e757deca0feff17",
+    "contentHash": "0bb0965764d6b19beaa81d5a959593d9afbd034e7c1d48ca01b42a29b5f84f4f",
     "blockHashes": [
-      "b84c8f2f0c756372",
+      "3473b4266965b4a3",
       "9c2a3967149440a8",
       "83a22e1f9fb245f8",
-      "742a17aa4393e6c2"
+      "bc532942aaed49b7"
     ],
-    "extractedChars": 1472,
+    "extractedChars": 1211,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-02T02:27:22.120Z",
+    "lastChangedISO": "2026-10-02T05:30:39.471Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -8183,8 +8183,7 @@
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
     "lastChangedISO": "2026-10-01T23:31:38.666Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.mofa.gov.sa/",
@@ -10793,7 +10792,7 @@
   {
     "sourceUrl": "https://www.stats.gov.sa/en/news",
     "orgId": "gastat",
-    "contentHash": "2e1ff80679124e81506d8beb177f8648e576d41013c9a7b1913fc0a9f8d4c185",
+    "contentHash": "7be45902128e6a05692e56c3a12e777a03248617908a3e8630650e092355a1f2",
     "blockHashes": [
       "b7ce6498ecbc7c40",
       "c76bf99f8551a732",
@@ -11114,7 +11113,7 @@
     "extractedChars": 97494,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-02T04:41:16.599Z",
+    "lastChangedISO": "2026-10-02T05:31:56.508Z",
     "thinRuns": 0,
     "pendingClassification": true,
     "classifyFailures": 1
