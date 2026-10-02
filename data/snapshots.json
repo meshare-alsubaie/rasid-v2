@@ -3644,20 +3644,20 @@
   {
     "sourceUrl": "https://ncar.gov.sa/",
     "orgId": "ncar",
-    "contentHash": "211937410c6647339509cdb428f5245f49aab83c16a6b914ca433215af6573ab",
+    "contentHash": "fe9060a63afbe2e95f17a004301a7896d07a4b5ba98806708dd8f8047e4789ee",
     "blockHashes": [
       "c911502a32b8a6f9",
       "6379bf576abaf67d",
       "412f9e6bca75d294",
       "75c514565d626437"
     ],
-    "extractedChars": 867,
+    "extractedChars": 1993,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-01T22:39:20.321Z",
+    "lastChangedISO": "2026-10-02T04:41:16.599Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://ncdc.gov.sa/",
@@ -3931,8 +3931,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-10-01T22:39:20.321Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://redf.gov.sa/ar/careers",
@@ -4344,9 +4343,8 @@
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-10-01T22:39:20.321Z",
-    "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "thinRuns": 1,
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://takamolholding.com/ar/join-us",
@@ -9363,7 +9361,7 @@
     "lastChangedISO": "2026-10-01T22:39:20.321Z",
     "thinRuns": 0,
     "pendingClassification": true,
-    "classifyFailures": 1
+    "classifyFailures": 2
   },
   {
     "sourceUrl": "https://www.rcrc.gov.sa/careers/?lang=ar",
@@ -10823,7 +10821,7 @@
   {
     "sourceUrl": "https://www.stats.gov.sa/en/news",
     "orgId": "gastat",
-    "contentHash": "9062c6c2cae19028f0a8011f9caf0b590249d3e91b80924b4027e2a47a82493f",
+    "contentHash": "2e1ff80679124e81506d8beb177f8648e576d41013c9a7b1913fc0a9f8d4c185",
     "blockHashes": [
       "b7ce6498ecbc7c40",
       "c76bf99f8551a732",
@@ -11141,10 +11139,10 @@
       "00f2cdb2123b002f",
       "130941fb4f3fdf0d"
     ],
-    "extractedChars": 38856,
+    "extractedChars": 97494,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-02T03:40:13.347Z",
+    "lastChangedISO": "2026-10-02T04:41:16.599Z",
     "thinRuns": 0,
     "pendingClassification": true,
     "classifyFailures": 1
