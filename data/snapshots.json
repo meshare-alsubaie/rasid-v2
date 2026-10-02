@@ -3091,8 +3091,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-10-02T01:35:15.696Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://misa.gov.sa/ar/news/latest-news/",
@@ -4148,17 +4147,16 @@
   {
     "sourceUrl": "https://site.sa/",
     "orgId": "site",
-    "contentHash": "27965cf5b26f81b327b8a4c8372673429d42f065176025b49712d823c1506e52",
+    "contentHash": "a200c2d13ea06f1e2c64a3ada66c5ee448697431b52b9efb0743dc286fa3e30d",
     "blockHashes": [
-      "27965cf5b26f81b3"
+      "a200c2d13ea06f1e"
     ],
-    "extractedChars": 574,
+    "extractedChars": 598,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-01T22:32:24.935Z",
+    "lastChangedISO": "2026-10-02T04:35:07.534Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://slccareers.kpmg.com/go/All-Jobs/7738123/",
@@ -5029,7 +5027,7 @@
     "orgId": "alrajhi",
     "contentHash": "e2035b945d34679d907854ab35230ff9f3754351f0461864f2a8b443e08c5d7a",
     "blockHashes": [
-      "87762256c17c28de",
+      "c7d4699017241abc",
       "2ab401b59b5c0d9a"
     ],
     "extractedChars": 3440,
@@ -5037,8 +5035,8 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-10-01T10:05:02.430Z",
     "thinRuns": 0,
-    "pendingClassification": true,
-    "classifyFailures": 2
+    "pendingClassification": false,
+    "classifyFailures": 3
   },
   {
     "sourceUrl": "https://www.aramco.com/en/careers/for-saudi-applicants/student-opportunities",
