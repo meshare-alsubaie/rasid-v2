@@ -1265,14 +1265,14 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/cookiesettings",
     "orgId": "maaden",
-    "contentHash": "91ca100fcf2aa57a0e1d902fd839f8ab71d219260da3164644a46674f352e6f5",
+    "contentHash": "656e021d66057b6965e159fe54c7447f06f81907a599f9c4e45d46af13644f9d",
     "blockHashes": [
       "dfd3c66b52c38ffe"
     ],
-    "extractedChars": 8013,
+    "extractedChars": 240,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-02T10:36:34.178Z",
+    "lastChangedISO": "2026-10-02T11:58:11.398Z",
     "thinRuns": 0,
     "pendingClassification": true,
     "classifyFailures": 1
@@ -9353,13 +9353,13 @@
   {
     "sourceUrl": "https://www.rcrc.gov.sa/news-ar/",
     "orgId": "rcrc",
-    "contentHash": "3e90aef46bd887d29f6f5abbc3525e1ae2af60c97cbf11e4944b9d15e201bea2",
+    "contentHash": "653d37f2d03d127684f60ae10f527938911a24a73181e60d45be3c5b4447e098",
     "blockHashes": [
       "dd62229c2f61fb42",
       "306db3646b8a6c73",
       "b28682d0a5fa37ed",
       "41119cfb2e484e34",
-      "9cfd99a0b2623799",
+      "f478531beedcf9f9",
       "dd5bfb74e89dbbdd",
       "b32d68c4e5c2da0f",
       "b91cd7f4edfa88d2",
@@ -9369,10 +9369,10 @@
       "42d24dc3675b45a7",
       "2ebbd7048725e505"
     ],
-    "extractedChars": 3418,
+    "extractedChars": 3417,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-02T08:15:42.999Z",
+    "lastChangedISO": "2026-10-02T11:58:11.398Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -10308,9 +10308,9 @@
   {
     "sourceUrl": "https://www.sfda.gov.sa/ar",
     "orgId": "sfda",
-    "contentHash": "6001474ea828c97c420a5ac01abbd704c9547c620bd1dd36780663d8b78410a8",
+    "contentHash": "f6a367f1e3504e386fad04d5e39f12a51d6f37598cbca6128b9eba2d13bd3fcd",
     "blockHashes": [
-      "8cf89a9410746b31",
+      "c97b3569f35c43d1",
       "09acfe6c984b11b9",
       "09acfe6c984b11b9",
       "3deb34c9b7765f1c",
@@ -10346,9 +10346,10 @@
     "extractedChars": 6439,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-01T10:01:39.470Z",
+    "lastChangedISO": "2026-10-02T11:58:11.398Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://www.sfda.gov.sa/ar/career-vision-and-mission",
