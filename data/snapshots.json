@@ -2254,17 +2254,17 @@
   {
     "sourceUrl": "https://gaca.gov.sa/ar/announcements",
     "orgId": "gaca",
-    "contentHash": "b349c7376c919d7e24b69b98a9892daa2d531de9444b012826bae7546632c188",
+    "contentHash": "bf11fbde15ab1380fc2ca8a35e3b9a087acface45be3ab8bcb6bfc1c543694dd",
     "blockHashes": [
-      "c571e212ee2914a3",
+      "43a78aeacdd1afae",
       "9c2a3967149440a8",
       "83a22e1f9fb245f8",
-      "bc532942aaed49b7"
+      "742a17aa4393e6c2"
     ],
-    "extractedChars": 1211,
+    "extractedChars": 1472,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-02T01:59:59.914Z",
+    "lastChangedISO": "2026-10-02T05:03:03.916Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -3805,17 +3805,17 @@
     "orgId": "ndf",
     "contentHash": "dba3f1885b1603715d09d052ffed04d3df713c973100ac98a973786acdae63e2",
     "blockHashes": [
-      "cee74d52c87c1e0a",
+      "15ece6d14bbdd755",
       "298b2e63b8ef43cd",
-      "bca88088323376a5"
+      "dddf6be11f871fd8"
     ],
     "extractedChars": 3759,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-10-01T22:57:08.860Z",
     "thinRuns": 0,
-    "pendingClassification": true,
-    "classifyFailures": 2
+    "pendingClassification": false,
+    "classifyFailures": 3
   },
   {
     "sourceUrl": "https://neti.etec.gov.sa/",
@@ -9383,13 +9383,13 @@
   {
     "sourceUrl": "https://www.rcrc.gov.sa/news-ar/",
     "orgId": "rcrc",
-    "contentHash": "559b32f2394c46da2c36993c7ab54b4c1254f5a053670e7cb7813a5b9fc70a4b",
+    "contentHash": "12a7aff28c5040d9f83ad613964a6a9abf7f309bcbd283bd3960e7e7b5182d86",
     "blockHashes": [
       "dd62229c2f61fb42",
       "306db3646b8a6c73",
       "b28682d0a5fa37ed",
       "41119cfb2e484e34",
-      "23ccb9679a0ae480",
+      "ef1df785e3ea84cc",
       "dd5bfb74e89dbbdd",
       "b32d68c4e5c2da0f",
       "b91cd7f4edfa88d2",
@@ -9402,7 +9402,7 @@
     "extractedChars": 3417,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-02T02:02:05.238Z",
+    "lastChangedISO": "2026-10-02T05:03:03.916Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
