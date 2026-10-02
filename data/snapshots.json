@@ -1265,16 +1265,17 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/cookiesettings",
     "orgId": "maaden",
-    "contentHash": "2d0ac71dc60b788cdad18d33a0cf93dce5e5a3256d95787af603d17347c3fd2f",
+    "contentHash": "1754021406316507da79b7f5c7b17a815d87dcbd3b4f49abaa743def26df94be",
     "blockHashes": [
       "dfd3c66b52c38ffe"
     ],
-    "extractedChars": 240,
+    "extractedChars": 221,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-02T07:41:32.525Z",
+    "lastChangedISO": "2026-10-02T08:38:17.341Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/search-results",
@@ -7775,9 +7776,9 @@
   {
     "sourceUrl": "https://www.mim.gov.sa/ar/media-center/news",
     "orgId": "mim",
-    "contentHash": "0cd2bd1a3416eaddbdc0eb63c9481024dfcb7e595929a90e961c1a1835479feb",
+    "contentHash": "0f1bfa55f0365355c06e58b26c38e803d69f2e7f5a73e5f21e5e0cb820007c68",
     "blockHashes": [
-      "f8fdb2acd101b484",
+      "7376c28caa04ae64",
       "1f5dd0d29afd9b79",
       "634a5a8d064708ad",
       "1f5e279450d224dd",
@@ -7807,7 +7808,7 @@
     "extractedChars": 10087,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-02T05:18:32.675Z",
+    "lastChangedISO": "2026-10-02T08:38:17.341Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
