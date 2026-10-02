@@ -7667,8 +7667,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-10-01T22:59:14.041Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.mewa.gov.sa/ar/MediaCenter/PressReleases/Pages/home.aspx",
@@ -8415,17 +8414,17 @@
     "orgId": "moh",
     "contentHash": "a71725e085974d9091aec689c655461fd49ba6f05ca2c68eded0361647ab5e30",
     "blockHashes": [
-      "a0484299462300b1",
-      "af119dc07f40e010",
-      "c1929897d07024c1"
+      "286664c20fb52fb8",
+      "ff831854ee6ddfe9",
+      "591da301d64cc098"
     ],
     "extractedChars": 514,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-10-01T11:30:01.572Z",
     "thinRuns": 0,
-    "pendingClassification": true,
-    "classifyFailures": 2
+    "pendingClassification": false,
+    "classifyFailures": 3
   },
   {
     "sourceUrl": "https://www.moh.gov.sa/ministry/mediacenter/publications/pages/default.aspx",
@@ -8661,7 +8660,7 @@
     "lastChangedISO": "2026-10-01T22:59:14.041Z",
     "thinRuns": 0,
     "pendingClassification": true,
-    "classifyFailures": 1
+    "classifyFailures": 2
   },
   {
     "sourceUrl": "https://www.nazaha.gov.sa/News/Details?q=+ZUW2RPX/9RAyHyLvILpaw==",
@@ -9415,13 +9414,13 @@
   {
     "sourceUrl": "https://www.rcrc.gov.sa/news-ar/",
     "orgId": "rcrc",
-    "contentHash": "f8af5eee88622b50a259b94572be418df01810b06072287380b86c7945f04b14",
+    "contentHash": "559b32f2394c46da2c36993c7ab54b4c1254f5a053670e7cb7813a5b9fc70a4b",
     "blockHashes": [
       "dd62229c2f61fb42",
       "306db3646b8a6c73",
       "b28682d0a5fa37ed",
       "41119cfb2e484e34",
-      "7f9701843d4693c3",
+      "23ccb9679a0ae480",
       "dd5bfb74e89dbbdd",
       "b32d68c4e5c2da0f",
       "b91cd7f4edfa88d2",
@@ -9434,7 +9433,7 @@
     "extractedChars": 3417,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-01T22:53:54.400Z",
+    "lastChangedISO": "2026-10-02T02:02:05.238Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -10830,7 +10829,7 @@
   {
     "sourceUrl": "https://www.stats.gov.sa/en/news",
     "orgId": "gastat",
-    "contentHash": "2e1ff80679124e81506d8beb177f8648e576d41013c9a7b1913fc0a9f8d4c185",
+    "contentHash": "9062c6c2cae19028f0a8011f9caf0b590249d3e91b80924b4027e2a47a82493f",
     "blockHashes": [
       "b7ce6498ecbc7c40",
       "c76bf99f8551a732",
@@ -11148,12 +11147,13 @@
       "00f2cdb2123b002f",
       "130941fb4f3fdf0d"
     ],
-    "extractedChars": 97494,
+    "extractedChars": 38856,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-02T01:12:21.728Z",
+    "lastChangedISO": "2026-10-02T02:02:05.238Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://www.tadawulgroup.sa/wps/portal/tadawulgroup/joinus",
