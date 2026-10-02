@@ -3717,16 +3717,17 @@
   {
     "sourceUrl": "https://ndf.gov.sa/media-center/annual-reports",
     "orgId": "ndf",
-    "contentHash": "497c79d47984315bf1d17b669714991b13305acc943b01ebbe5c86bfbd7ad233",
+    "contentHash": "f6ae6a59079bb54c081b2953f605c3a834085e466624abbd8ac3998d14f9a8d7",
     "blockHashes": [
-      "497c79d47984315b"
+      "f6ae6a59079bb54c"
     ],
-    "extractedChars": 1233,
+    "extractedChars": 1232,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-01T22:42:13.767Z",
+    "lastChangedISO": "2026-10-02T21:09:53.305Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://ndf.gov.sa/media-center/articles",
@@ -8123,11 +8124,11 @@
   {
     "sourceUrl": "https://www.mof.gov.sa/mediacenter/events/Pages/CalEvent.aspx",
     "orgId": "mof",
-    "contentHash": "12cc36d0440bfdf8c2642e7a9e5ec55c89459b3accf266297013a5218035526b",
+    "contentHash": "856a45106ba5fed407f898d3816ce04e7d007f9202268b31b2b119c4c699aea8",
     "blockHashes": [
       "7f625851cbbadbc6",
       "f7711325e2c4b301",
-      "5070a08601ce972e",
+      "e66f3de4c45696c6",
       "b1bec34b5330c702",
       "f4809815161554d5",
       "16ff3360390869f3",
@@ -8138,12 +8139,13 @@
       "e449b5a351b550c3",
       "4c2f7108a1879030"
     ],
-    "extractedChars": 10147,
+    "extractedChars": 10146,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-01T22:50:16.573Z",
+    "lastChangedISO": "2026-10-02T21:09:53.305Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://www.mof.gov.sa/Pages/default.aspx",
@@ -8606,7 +8608,7 @@
   {
     "sourceUrl": "https://www.nazaha.gov.sa/Jobs",
     "orgId": "nazaha",
-    "contentHash": "86fc4b2b7697cbf358825bb25a3316e7e44ba2946afeb6f574ff5194209541ff",
+    "contentHash": "3379a8d27fb939970d798838039ddbd2f3b94d3fb2934fe7054ee620c9b18c7c",
     "blockHashes": [
       "a167b0dd9b0e3e1c",
       "74e4c1d2a646a96e",
@@ -8617,10 +8619,10 @@
     "extractedChars": 225,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-01T22:32:24.935Z",
+    "lastChangedISO": "2026-10-02T21:09:53.305Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "classifyFailures": 3
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://www.nazaha.gov.sa/News",
