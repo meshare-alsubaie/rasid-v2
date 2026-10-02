@@ -137,7 +137,7 @@
   {
     "sourceUrl": "https://adf.gov.sa/ar/Pages/default.aspx",
     "orgId": "adf",
-    "contentHash": "2953f88b0eee510866807389850cae2621b46eacc190e584efe64b351e792c49",
+    "contentHash": "91002f195b2571269fdd28fd2ced065980e5ff05fed962e295892f4ebd6fc054",
     "blockHashes": [
       "1ce798e0ca5f6070",
       "9e8708f46644e878",
@@ -159,10 +159,10 @@
       "782261474561a27a",
       "74b06ac36e5c75b0"
     ],
-    "extractedChars": 1793,
+    "extractedChars": 1791,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
-    "lastChangedISO": "2026-10-02T05:49:59.941Z",
+    "lastChangedISO": "2026-10-02T12:38:09.878Z",
     "thinRuns": 0,
     "pendingClassification": true,
     "classifyFailures": 1
@@ -1280,7 +1280,7 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/search-results",
     "orgId": "maaden",
-    "contentHash": "2402d72caadeede6042b131c11614ad73bb1336920683e392c647a8890ef2993",
+    "contentHash": "4997feffe164d1cf05619b516c5666f15aabaf273227d3a912c2be8f2b94cca4",
     "blockHashes": [
       "5569201553604d03",
       "6e3cceb54e777f64",
@@ -1289,10 +1289,10 @@
       "4b38b13a1a4ebcc4",
       "6a65307d2d5065d3"
     ],
-    "extractedChars": 162,
-    "extractionMethod": "body_fallback",
+    "extractedChars": 240,
+    "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-02T11:37:57.421Z",
+    "lastChangedISO": "2026-10-02T12:38:09.878Z",
     "thinRuns": 0,
     "pendingClassification": true,
     "classifyFailures": 1
@@ -2199,7 +2199,7 @@
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T02:22:33.828Z",
     "lastChangedISO": "2026-08-29T02:36:21.032Z",
-    "thinRuns": 453,
+    "thinRuns": 454,
     "pendingClassification": false
   },
   {
@@ -3176,7 +3176,7 @@
   {
     "sourceUrl": "https://momah.gov.sa/ar",
     "orgId": "housing",
-    "contentHash": "236f641f13e2dae2e5b51a50bc3b7a08c3d1d6d67655704760a7a7e84e1c3ec2",
+    "contentHash": "f5ed9e216f6498803bb97ee32a67d71d5f55abbd55c7774eba79d5f33c7a8d5a",
     "blockHashes": [
       "390ea394b03ad064",
       "0cae66fd6419120a",
@@ -3206,7 +3206,7 @@
     "extractedChars": 153829,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-02T05:40:52.853Z",
+    "lastChangedISO": "2026-10-02T12:38:09.878Z",
     "thinRuns": 0,
     "pendingClassification": true,
     "classifyFailures": 1
@@ -10379,9 +10379,9 @@
   {
     "sourceUrl": "https://www.sfda.gov.sa/ar/news",
     "orgId": "sfda",
-    "contentHash": "bed5545a23a2e0ffb91ebcd6c06ea5b10e4cda6c7d6d966244f87de26c77e699",
+    "contentHash": "2ff42a8cb453066a3ac6ea13be9f39c935ab60a4b7224db9c8942d671e7f0278",
     "blockHashes": [
-      "b7d9e6e8ef67f2db",
+      "e8b4c478f413c467",
       "2dbcaf63acbd3bf6",
       "69e6584ca99ae3ed",
       "292129a904509147",
@@ -10396,9 +10396,10 @@
     "extractedChars": 1515,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-01T05:49:53.392Z",
+    "lastChangedISO": "2026-10-02T12:38:09.878Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://www.sfda.gov.sa/en/career-vision-and-mission",
@@ -10699,7 +10700,7 @@
   {
     "sourceUrl": "https://www.stats.gov.sa/ar",
     "orgId": "gastat",
-    "contentHash": "e8b648df9fec3981bb01d67aa55f0f1deda53ee76818b90726b81551339eb7f0",
+    "contentHash": "d1ed12a445e1ddb2c3190c7267ca1d1aa270f7dbb63afdf1a65a33d2ba65c984",
     "blockHashes": [
       "b618107f43bd2daf",
       "2fec6d796296a0f8",
@@ -10708,10 +10709,10 @@
       "dc84e74cdce35fa3",
       "9214de5f4ec23c78"
     ],
-    "extractedChars": 3206,
+    "extractedChars": 3234,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-02T04:27:03.183Z",
+    "lastChangedISO": "2026-10-02T12:38:09.878Z",
     "thinRuns": 0,
     "pendingClassification": true,
     "classifyFailures": 1
@@ -11100,21 +11101,24 @@
   {
     "sourceUrl": "https://www.tadawulgroup.sa/wps/portal/tadawulgroup/joinus",
     "orgId": "tadawul",
-    "contentHash": "d0d3b5ac169f1b73ab7aa83d70c779f4ee298b89ccc3b8284f83c6034148bac3",
+    "contentHash": "218af6789adae9d596633c79e9b359213a247d93501904bfc43eeae06fd8c680",
     "blockHashes": [
-      "0cfcdfa727221d00",
-      "689f707057688943",
-      "50a3cca530113406",
-      "a3435878c6033280",
-      "b2cab4da26050ee9"
+      "dbfb7021493a5943",
+      "4acb10188c67e120",
+      "9b405996eceb74cf",
+      "5b4fe1a76867e3dc",
+      "4cacbd860b3b4c52",
+      "a888c2eda107d142",
+      "a8f106c1cf7430a5",
+      "99045a67c833cd6b",
+      "332ab17b1cccbd59"
     ],
-    "extractedChars": 1186,
+    "extractedChars": 1384,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-02T23:42:46.216Z",
-    "lastChangedISO": "2026-10-02T08:02:04.025Z",
+    "lastChangedISO": "2026-10-02T12:38:09.878Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "classifyFailures": 3
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.tahakom.com/",
@@ -11137,18 +11141,18 @@
   {
     "sourceUrl": "https://www.tahakom.com/careers",
     "orgId": "tahakom",
-    "contentHash": "1f8f7b13a791edfa1d51781bab3c72b63ca8fa3422efc682882c8ff5c2cefb1f",
+    "contentHash": "510ae8e41afa37e79cdd78d3a2d8b222819f957dc3688f62d288472c14f1b2f7",
     "blockHashes": [
       "d44217251213a019",
       "611753a8aea1ade1",
       "0cea4d38306888dc",
       "1a5263a5a2541c46",
-      "d9f3dd8dc23c0c5c"
+      "a329fa08d32f11fc"
     ],
     "extractedChars": 836,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-03T05:13:40.059Z",
-    "lastChangedISO": "2026-10-02T11:37:57.421Z",
+    "lastChangedISO": "2026-10-02T12:30:58.621Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -11173,13 +11177,10 @@
   {
     "sourceUrl": "https://www.thiqah.sa/",
     "orgId": "thiqah",
-    "contentHash": "41585f247e073f7dfa50339963ead8d8387c9a1b752741091b485d74143c63b9",
+    "contentHash": "bba18d1332d9277cfb6fa175f6984c62b16db98c935a6738a2b6a55c5b1d20bc",
     "blockHashes": [
-      "56d61a024ef0c23a",
-      "988b9a8bf2486a9d",
-      "a4ad1af066840cba",
-      "2a753899ff945f72",
-      "0254baf3c601928d",
+      "2badba214de43400",
+      "cff1ddff4e992236",
       "e6bf180d162757ed",
       "ce6b1d76c3fa0a8f",
       "5702aa0bdde53d7c",
@@ -11192,7 +11193,7 @@
     "extractedChars": 2087,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-02T05:34:46.750Z",
+    "lastChangedISO": "2026-10-02T12:38:09.878Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
