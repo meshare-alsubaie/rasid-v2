@@ -770,7 +770,7 @@
   {
     "sourceUrl": "https://career.alinma.com/",
     "orgId": "alinma",
-    "contentHash": null,
+    "contentHash": "e245fd94c1ab59dcc6bad34af50ba34c224654b27d2f46834c18eef001143fa5",
     "blockHashes": [
       "d139e32e22028878",
       "24a16c9057a577bb",
@@ -779,7 +779,7 @@
     "extractedChars": 750,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-01T01:46:07.967Z",
-    "lastChangedISO": "2026-10-02T07:59:03.237Z",
+    "lastChangedISO": "2026-10-02T13:28:29.062Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -3587,18 +3587,18 @@
   {
     "sourceUrl": "https://nca.gov.sa/ar/news/",
     "orgId": "nca",
-    "contentHash": "22e8bce5aeca6cd8972595294c86abe1c188c35876435c2ba7cbb4b89e65bd6a",
+    "contentHash": "be3d622d2a5ee7134529ea92dd8405f73eb128eda9d78ace06ecb3361fd91014",
     "blockHashes": [
       "6aa8bef34721bf47",
       "6060ab31cc95d891"
     ],
-    "extractedChars": 880,
+    "extractedChars": 759,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-01T10:49:16.489Z",
+    "lastChangedISO": "2026-10-02T13:28:29.062Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "classifyFailures": 3
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://nca.gov.sa/en/careers/",
@@ -5467,17 +5467,18 @@
   {
     "sourceUrl": "https://www.bankalbilad.com.sa/en/about/pages/training.aspx",
     "orgId": "albilad",
-    "contentHash": "bb47135f0fab74186f77619296ae433875bc3e6722239dd82f47313e344f04b9",
+    "contentHash": "96ea7193561593911cd4d51b024a6b905714148073fb336851ab3cc4fb07d74d",
     "blockHashes": [
       "bf0b3be47c51c898",
       "526086a48d139ec2"
     ],
-    "extractedChars": 107,
-    "extractionMethod": "body_fallback",
+    "extractedChars": 1052,
+    "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T02:22:33.828Z",
-    "lastChangedISO": "2026-08-31T00:02:49.563Z",
+    "lastChangedISO": "2026-10-02T13:57:15.649Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://www.bankaljazira.com/ar-sa/",
@@ -7669,8 +7670,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-10-02T09:57:20.462Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.mewa.gov.sa/ar/MediaCenter/VisualIdentityGuide/Pages/default.aspx",
@@ -10418,15 +10418,15 @@
       "a0466ff116c86d28",
       "4b81d1c31f1f9c59",
       "02085740ec4421fd",
-      "1c13df5397ba179d"
+      "ff1609b38b8ab8dd"
     ],
     "extractedChars": 997,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-10-02T11:08:08.440Z",
     "thinRuns": 0,
-    "pendingClassification": true,
-    "classifyFailures": 2
+    "pendingClassification": false,
+    "classifyFailures": 3
   },
   {
     "sourceUrl": "https://www.sidf.gov.sa/ar/News",
@@ -11141,18 +11141,18 @@
   {
     "sourceUrl": "https://www.tahakom.com/careers",
     "orgId": "tahakom",
-    "contentHash": "510ae8e41afa37e79cdd78d3a2d8b222819f957dc3688f62d288472c14f1b2f7",
+    "contentHash": "457f65df725621cf1ff8df157d2d7ad5927ef366ef94aa5e45fdfae4dd6d3b3f",
     "blockHashes": [
       "d44217251213a019",
       "611753a8aea1ade1",
       "0cea4d38306888dc",
       "1a5263a5a2541c46",
-      "a329fa08d32f11fc"
+      "a937a81f39e1b5a8"
     ],
-    "extractedChars": 836,
+    "extractedChars": 838,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-03T05:13:40.059Z",
-    "lastChangedISO": "2026-10-02T12:30:58.621Z",
+    "lastChangedISO": "2026-10-02T13:57:15.649Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
