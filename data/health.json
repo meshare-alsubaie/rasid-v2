@@ -326,8 +326,8 @@
   {
     "sourceUrl": "https://athkax.sdaia.gov.sa/coop",
     "orgId": "sdaia",
-    "lastAttemptISO": "2026-10-02T18:04:52.023Z",
-    "lastSuccessISO": "2026-10-02T18:04:52.023Z",
+    "lastAttemptISO": "2026-10-02T18:50:21.940Z",
+    "lastSuccessISO": "2026-10-02T18:50:21.940Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -371,8 +371,8 @@
   {
     "sourceUrl": "https://bankalbilad.com/ar/about/Pages/Training.aspx",
     "orgId": "albilad",
-    "lastAttemptISO": "2026-10-02T18:04:52.023Z",
-    "lastSuccessISO": "2026-10-02T18:04:52.023Z",
+    "lastAttemptISO": "2026-10-02T18:50:21.940Z",
+    "lastSuccessISO": "2026-10-02T18:50:21.940Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -380,11 +380,11 @@
   {
     "sourceUrl": "https://career.alinma.com/",
     "orgId": "alinma",
-    "lastAttemptISO": "2026-10-02T18:04:52.023Z",
-    "lastSuccessISO": "2026-10-02T16:31:09.763Z",
-    "consecutiveFailures": 2,
-    "lastError": "fetched 6384 bytes but extracted only 0 chars of text; the page is probably rendered by javascript and cannot be watched this way",
-    "state": "degraded"
+    "lastAttemptISO": "2026-10-02T18:50:21.940Z",
+    "lastSuccessISO": "2026-10-02T18:50:21.940Z",
+    "consecutiveFailures": 0,
+    "lastError": null,
+    "state": "healthy"
   },
   {
     "sourceUrl": "https://career.dga.gov.sa/",
@@ -605,9 +605,9 @@
   {
     "sourceUrl": "https://careers.mcit.gov.sa/",
     "orgId": "mcit",
-    "lastAttemptISO": "2026-10-02T18:04:52.023Z",
+    "lastAttemptISO": "2026-10-02T18:50:21.940Z",
     "lastSuccessISO": "2026-09-29T09:05:53.568Z",
-    "consecutiveFailures": 70,
+    "consecutiveFailures": 71,
     "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
     "state": "broken"
   },
@@ -812,8 +812,8 @@
   {
     "sourceUrl": "https://careers.stats.gov.sa/",
     "orgId": "gastat",
-    "lastAttemptISO": "2026-10-02T18:04:52.023Z",
-    "lastSuccessISO": "2026-10-02T18:04:52.023Z",
+    "lastAttemptISO": "2026-10-02T18:50:21.940Z",
+    "lastSuccessISO": "2026-10-02T18:50:21.940Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -1037,8 +1037,8 @@
   {
     "sourceUrl": "https://haseen.gov.sa/academy/ar/",
     "orgId": "ncac",
-    "lastAttemptISO": "2026-10-02T18:04:52.023Z",
-    "lastSuccessISO": "2026-10-02T18:04:52.023Z",
+    "lastAttemptISO": "2026-10-02T18:50:21.940Z",
+    "lastSuccessISO": "2026-10-02T18:50:21.940Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -1082,8 +1082,8 @@
   {
     "sourceUrl": "https://jobs.sabic.com/",
     "orgId": "sabic",
-    "lastAttemptISO": "2026-10-02T18:04:52.023Z",
-    "lastSuccessISO": "2026-10-02T18:04:52.023Z",
+    "lastAttemptISO": "2026-10-02T18:50:21.940Z",
+    "lastSuccessISO": "2026-10-02T18:50:21.940Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -1091,8 +1091,8 @@
   {
     "sourceUrl": "https://khabeer.bog.gov.sa/cotraining/index",
     "orgId": "bog",
-    "lastAttemptISO": "2026-10-02T18:04:52.023Z",
-    "lastSuccessISO": "2026-10-02T18:04:52.023Z",
+    "lastAttemptISO": "2026-10-02T18:50:21.940Z",
+    "lastSuccessISO": "2026-10-02T18:50:21.940Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -1955,9 +1955,9 @@
   {
     "sourceUrl": "https://www.alahli.com/en/pages/about-us/careers/snb-cooperative-training-program",
     "orgId": "snb",
-    "lastAttemptISO": "2026-10-02T17:50:03.745Z",
+    "lastAttemptISO": "2026-10-02T18:50:21.940Z",
     "lastSuccessISO": "2026-09-16T21:13:50.104Z",
-    "consecutiveFailures": 181,
+    "consecutiveFailures": 182,
     "lastError": "fetch failed",
     "state": "broken"
   },
@@ -2072,11 +2072,11 @@
   {
     "sourceUrl": "https://www.bankalbilad.com.sa/en/about/pages/training.aspx",
     "orgId": "albilad",
-    "lastAttemptISO": "2026-10-02T18:04:52.023Z",
+    "lastAttemptISO": "2026-10-02T18:50:21.940Z",
     "lastSuccessISO": "2026-10-02T13:57:15.649Z",
-    "consecutiveFailures": 5,
+    "consecutiveFailures": 6,
     "lastError": "الصفحة تردّ 200 وعنوانها «Error»، أي أنها صفحة غير موجودة",
-    "state": "degraded"
+    "state": "broken"
   },
   {
     "sourceUrl": "https://www.bankaljazira.com/ar-sa/",
@@ -3107,9 +3107,9 @@
   {
     "sourceUrl": "https://www.ncc.gov.sa/ar/MediaCenter/News/Pages/default.aspx",
     "orgId": "ncc",
-    "lastAttemptISO": "2026-10-02T15:36:20.996Z",
+    "lastAttemptISO": "2026-10-02T18:50:21.940Z",
     "lastSuccessISO": "2026-09-17T01:25:26.414Z",
-    "consecutiveFailures": 69,
+    "consecutiveFailures": 70,
     "lastError": "HTTP 404",
     "state": "broken"
   },
@@ -3431,8 +3431,8 @@
   {
     "sourceUrl": "https://www.sami.com.sa/careers/",
     "orgId": "sami",
-    "lastAttemptISO": "2026-10-02T18:04:52.023Z",
-    "lastSuccessISO": "2026-10-02T18:04:52.023Z",
+    "lastAttemptISO": "2026-10-02T18:50:21.940Z",
+    "lastSuccessISO": "2026-10-02T18:50:21.940Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -3620,8 +3620,8 @@
   {
     "sourceUrl": "https://www.sfda.gov.sa/ar/news",
     "orgId": "sfda",
-    "lastAttemptISO": "2026-10-02T15:41:22.161Z",
-    "lastSuccessISO": "2026-10-02T15:41:22.161Z",
+    "lastAttemptISO": "2026-10-02T18:50:21.940Z",
+    "lastSuccessISO": "2026-10-02T18:50:21.940Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
