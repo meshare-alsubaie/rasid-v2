@@ -1278,7 +1278,7 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/search-results",
     "orgId": "maaden",
-    "contentHash": "1c4e6762ef94ee64ff6ed5778117eeb301465cd562945a2d2afa2e4abc91b41d",
+    "contentHash": "3466063989daa29791db400a151914c57be218f7db385c58e7078a9a319ce692",
     "blockHashes": [
       "5569201553604d03",
       "6e3cceb54e777f64",
@@ -1290,7 +1290,7 @@
     "extractedChars": 240,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-01T23:13:27.965Z",
+    "lastChangedISO": "2026-10-02T00:00:33.795Z",
     "thinRuns": 0,
     "pendingClassification": true,
     "classifyFailures": 1
@@ -3742,9 +3742,9 @@
   {
     "sourceUrl": "https://ndf.gov.sa/media-center/articles",
     "orgId": "ndf",
-    "contentHash": "d533086d341023773bf572ffc82db0d26bcf1ec637b1b89860afa6dae2bbdef8",
+    "contentHash": "fdefbf3c4b3e41a9484d0ab012c35c5b4a6f3cbeefc7a405e0e1ffaa383fee71",
     "blockHashes": [
-      "b01a9d86ecee7e94",
+      "6852cfea67e64a27",
       "b4a5c7cd60560196",
       "4c268b289192e891",
       "d91f8453abc8bd97",
@@ -3753,9 +3753,10 @@
     "extractedChars": 4076,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-30T21:31:31.012Z",
+    "lastChangedISO": "2026-10-01T23:49:55.212Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://ndf.gov.sa/media-center/articles/article-human-resource-development",
@@ -8103,7 +8104,7 @@
     "lastChangedISO": "2026-10-01T22:36:54.532Z",
     "thinRuns": 0,
     "pendingClassification": true,
-    "classifyFailures": 1
+    "classifyFailures": 2
   },
   {
     "sourceUrl": "https://www.mof.gov.sa/mediacenter/circulars/Pages/default.aspx",
@@ -8612,20 +8613,21 @@
   {
     "sourceUrl": "https://www.nazaha.gov.sa/",
     "orgId": "nazaha",
-    "contentHash": "1937bb15bd2beb6fe9d5a2a6d7df9ce5cd2349becb0781a6c1bb091974b209da",
+    "contentHash": "8b5a5ab1110d2840cc5736509bc9eaf1fc7fb466fca5b54380c445390a35abc2",
     "blockHashes": [
       "a167b0dd9b0e3e1c",
       "74e4c1d2a646a96e",
-      "b851378526dcfe79",
+      "23d45db3a3accc14",
       "c3fc1cda7b3b3192",
       "8cf9316b144acc06"
     ],
     "extractedChars": 506,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T22:03:35.383Z",
-    "lastChangedISO": "2026-09-30T21:31:31.012Z",
+    "lastChangedISO": "2026-10-01T23:54:18.326Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://www.nazaha.gov.sa/Jobs",
