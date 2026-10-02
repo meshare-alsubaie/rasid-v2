@@ -112,8 +112,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-10-02T07:52:11.990Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://adf.gov.sa/ar/media-center/success-stories/Pages/default.aspx",
@@ -616,7 +615,7 @@
   {
     "sourceUrl": "https://anb.com.sa/web/anb",
     "orgId": "anb",
-    "contentHash": "5fc2963d020f09f54bef44cb11a54ad635f0adc45249a1d15dbb354a00b076ce",
+    "contentHash": "29e389761974274eb73297ad2ad6a54c904ec7ec5c5ea2ac0d77c0b50fa7b082",
     "blockHashes": [
       "8f6a153911b94998",
       "793a466ff765af0e",
@@ -642,13 +641,13 @@
       "aa35354cb63f5aba",
       "9424e025a796a02e"
     ],
-    "extractedChars": 7898,
+    "extractedChars": 7874,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-02T04:44:03.577Z",
+    "lastChangedISO": "2026-10-02T11:13:06.718Z",
     "thinRuns": 0,
     "pendingClassification": true,
-    "classifyFailures": 2
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://athkax.sdaia.gov.sa/coop",
@@ -2436,9 +2435,9 @@
   {
     "sourceUrl": "https://gaca.gov.sa/web/ar-sa/page/home",
     "orgId": "gaca",
-    "contentHash": "929e9dbcb2061e4ef0c5809446556e433527f9eac58ed50e219b036a3c047d41",
+    "contentHash": "dcb84a6284410603dd0dae14f3a757d3526d3839fa7a84a5c38bde1a89b0514a",
     "blockHashes": [
-      "47de9b42c955bb6d",
+      "cf2490afcc2517f6",
       "67ba147535885b5a",
       "90d5b20a2e1b1c87",
       "98b0f721363b8a74",
@@ -2448,7 +2447,7 @@
     "extractedChars": 1607,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-02T07:52:11.990Z",
+    "lastChangedISO": "2026-10-02T11:13:06.718Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -3216,40 +3215,41 @@
   {
     "sourceUrl": "https://momah.gov.sa/ar/announcements",
     "orgId": "housing",
-    "contentHash": "5935bcdc5afd00ac0b1e0f6041d9d1b03674bc006e63723d397fdc9e8fa1d145",
+    "contentHash": "d1b8becb0fd469e05020f178c88c9af28ab3fd5d0d2b8a4a88917f774d9f0c90",
     "blockHashes": [
       "b5d072cff912d21d",
       "83198c6586cd15b8",
       "f230e64116e33a59",
       "aa8e55eac5aea8cd",
       "09552ec2996654f9",
-      "3e607f302352db9b",
-      "9a59ad9c045721b1",
-      "5d15152619ff887e",
-      "97211325607d0024",
-      "db5ff5787dc11d13",
-      "df2568e4a024bbe6",
-      "ac1405062719fb86",
-      "1239e9439109e5eb",
-      "ff6f87e39638cb9b",
-      "60288dbe69b5a513",
-      "bc6ca0066a357ef8",
-      "4b8f29ea2d96076a",
-      "7d3b5deb76a43ddb",
-      "d509589130d3041d",
+      "5a1e6a9822761fcc",
+      "27a16835af051200",
+      "cd97e5d7faa79a91",
+      "b190d10bc10ee519",
       "09b1bd561f62b68f",
-      "07bc3d90ffbf235f",
+      "2a573d4875e27ac0",
       "560edfe1df9d8921",
       "23b97a8a93aba477",
       "9cd3abf7fd1573ff",
-      "45f4e92bcc10aec3"
+      "5bb7c572157a687b",
+      "b1d48f81bbf797b8",
+      "b4816edd9f4466e0",
+      "ac1405062719fb86",
+      "c067c7df4deedaee",
+      "dc419e7f37a2046a",
+      "f0234a30b016ef7b",
+      "5d15152619ff887e",
+      "96a63024c47f9dd5",
+      "ff6f87e39638cb9b",
+      "da31282f1bcb6721"
     ],
-    "extractedChars": 152495,
+    "extractedChars": 152454,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-02T01:43:53.812Z",
+    "lastChangedISO": "2026-10-02T11:13:06.718Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://momah.gov.sa/ar/form/partnerships-and-cooperation",
@@ -5461,7 +5461,7 @@
     "lastChangedISO": "2026-10-02T04:46:40.726Z",
     "thinRuns": 0,
     "pendingClassification": true,
-    "classifyFailures": 1
+    "classifyFailures": 2
   },
   {
     "sourceUrl": "https://www.bankalbilad.com.sa/en/about/pages/training.aspx",
@@ -6429,10 +6429,10 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/all_branches_news?lang=ar",
     "orgId": "hrc",
-    "contentHash": "8c022b6f80b52913858fa1a5106638374e601f9dff2a857b120d04ef1ae33a7b",
+    "contentHash": "8b608b03e96f5d448aa3cafe6fad3feb8ae8a97e354e4539bc0e720b50ccde65",
     "blockHashes": [
       "12e41a244a8a2984",
-      "3e311aba1d060017",
+      "019420726823122c",
       "f1bdac7ad7f0ff22",
       "eada9065fc805384",
       "affd75c0a04d2d7f",
@@ -6458,7 +6458,7 @@
     "extractedChars": 5187,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-02T07:52:11.990Z",
+    "lastChangedISO": "2026-10-02T11:13:06.718Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -9277,7 +9277,7 @@
   {
     "sourceUrl": "https://www.rcrc.gov.sa/",
     "orgId": "rcrc",
-    "contentHash": "a710ea9fabb63a548a0c6bb0b9057eec47a2f411792aa002b00d5fa5ea116952",
+    "contentHash": "2da89a3b36a13448ac9e39bfe86ee9dbb875fa50df62ad62d35a30b977e78c23",
     "blockHashes": [
       "dd62229c2f61fb42",
       "306db3646b8a6c73",
@@ -9308,10 +9308,10 @@
     "extractedChars": 1920,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
-    "lastChangedISO": "2026-10-01T22:39:20.321Z",
+    "lastChangedISO": "2026-10-02T11:13:06.718Z",
     "thinRuns": 0,
     "pendingClassification": true,
-    "classifyFailures": 2
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://www.rcrc.gov.sa/careers/?lang=ar",
