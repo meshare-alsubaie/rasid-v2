@@ -662,7 +662,7 @@
     "lastChangedISO": "2026-10-02T00:22:16.602Z",
     "thinRuns": 0,
     "pendingClassification": true,
-    "classifyFailures": 1
+    "classifyFailures": 2
   },
   {
     "sourceUrl": "https://awqaf.gov.sa/ar/ar/hiring/",
@@ -763,8 +763,8 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-10-02T00:22:16.602Z",
     "thinRuns": 0,
-    "pendingClassification": true,
-    "classifyFailures": 2
+    "pendingClassification": false,
+    "classifyFailures": 3
   },
   {
     "sourceUrl": "https://career.alinma.com/",
@@ -1264,14 +1264,14 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/cookiesettings",
     "orgId": "maaden",
-    "contentHash": "4991bdb0bbe406d41d59c6add5c13ed62456436be75ec7ab230d97b09611906e",
+    "contentHash": "168c8728543113e21d058a843419aeb8be0d67752e0ecd3c875e0ba6c90794de",
     "blockHashes": [
       "dfd3c66b52c38ffe"
     ],
-    "extractedChars": 8013,
+    "extractedChars": 240,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-02T01:09:25.690Z",
+    "lastChangedISO": "2026-10-02T01:55:38.033Z",
     "thinRuns": 0,
     "pendingClassification": true,
     "classifyFailures": 1
@@ -7934,7 +7934,7 @@
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-20T12:59:49.059Z",
-    "thinRuns": 54,
+    "thinRuns": 55,
     "pendingClassification": false
   },
   {
@@ -11196,18 +11196,18 @@
   {
     "sourceUrl": "https://www.tahakom.com/careers",
     "orgId": "tahakom",
-    "contentHash": "457f65df725621cf1ff8df157d2d7ad5927ef366ef94aa5e45fdfae4dd6d3b3f",
+    "contentHash": "6f0814743b3acd5842bd115ebcd1b4a551c9ba782c981772e1bda4b32cc033a1",
     "blockHashes": [
       "d44217251213a019",
       "611753a8aea1ade1",
       "0cea4d38306888dc",
       "1a5263a5a2541c46",
-      "a937a81f39e1b5a8"
+      "32cfee144edd7217"
     ],
-    "extractedChars": 838,
+    "extractedChars": 835,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-03T05:13:40.059Z",
-    "lastChangedISO": "2026-10-02T01:09:25.690Z",
+    "lastChangedISO": "2026-10-02T01:55:38.033Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
