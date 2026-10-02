@@ -1279,7 +1279,7 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/search-results",
     "orgId": "maaden",
-    "contentHash": "05d392e53cf029f4fa890cab1997dda48222b020b17d038397c6e2fa2f58ae4d",
+    "contentHash": "716ca3ba70363eb4deda0f84d40522e157ba20b25327b550daeefceac920e094",
     "blockHashes": [
       "5569201553604d03",
       "6e3cceb54e777f64",
@@ -1291,7 +1291,7 @@
     "extractedChars": 240,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-02T00:49:27.770Z",
+    "lastChangedISO": "2026-10-02T01:36:36.215Z",
     "thinRuns": 0,
     "pendingClassification": true,
     "classifyFailures": 1
@@ -3075,23 +3075,24 @@
   {
     "sourceUrl": "https://misa.gov.sa/ar/media-center/latest-news/",
     "orgId": "misa",
-    "contentHash": "c63de63bd2ffc1a215e1bbf38e461c112e77af1de4c6da5096941c1588c8ef44",
+    "contentHash": "6f809a8a9976a692fc196efbd6d276d527104bef33ee6b992a28f140837b2311",
     "blockHashes": [
       "d0ada1cfc277849f",
       "a281540e00ca3f91",
       "a0dd1feef0108fff",
       "7bd8922510a6c6cb",
       "d7f5b0da295cf61a",
-      "a3fcc915d4591b88",
+      "186146cb8778a234",
       "24138831fdb4c564",
       "f43b8bd75a8e0f61"
     ],
     "extractedChars": 347,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-30T20:42:38.660Z",
+    "lastChangedISO": "2026-10-02T01:35:15.696Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://misa.gov.sa/ar/news/latest-news/",
