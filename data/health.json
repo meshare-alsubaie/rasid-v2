@@ -3035,11 +3035,11 @@
   {
     "sourceUrl": "https://www.nazaha.gov.sa/",
     "orgId": "nazaha",
-    "lastAttemptISO": "2026-10-02T06:21:31.493Z",
+    "lastAttemptISO": "2026-10-02T12:41:41.483Z",
     "lastSuccessISO": "2026-10-02T06:21:31.493Z",
-    "consecutiveFailures": 0,
-    "lastError": null,
-    "state": "healthy"
+    "consecutiveFailures": 1,
+    "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
+    "state": "degraded"
   },
   {
     "sourceUrl": "https://www.nazaha.gov.sa/Jobs",
@@ -3251,8 +3251,8 @@
   {
     "sourceUrl": "https://www.rcrc.gov.sa/careers/?lang=ar",
     "orgId": "rcrc",
-    "lastAttemptISO": "2026-10-02T11:42:41.165Z",
-    "lastSuccessISO": "2026-10-02T11:42:41.165Z",
+    "lastAttemptISO": "2026-10-02T12:41:41.483Z",
+    "lastSuccessISO": "2026-10-02T12:41:41.483Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
