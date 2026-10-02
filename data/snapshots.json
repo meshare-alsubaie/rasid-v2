@@ -1280,7 +1280,7 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/search-results",
     "orgId": "maaden",
-    "contentHash": "967edf7e866e22e545e523a0c72b0a483a9b2b2c78d15fe1a5b31fff7f9083cb",
+    "contentHash": "ae5f93c51b887fa46d6f2f120d997d2e135871f2ee1d04657760957cde909dce",
     "blockHashes": [
       "5569201553604d03",
       "6e3cceb54e777f64",
@@ -1289,10 +1289,10 @@
       "4b38b13a1a4ebcc4",
       "6a65307d2d5065d3"
     ],
-    "extractedChars": 240,
+    "extractedChars": 362,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-02T03:56:14.922Z",
+    "lastChangedISO": "2026-10-02T04:46:40.726Z",
     "thinRuns": 0,
     "pendingClassification": true,
     "classifyFailures": 1
@@ -2590,8 +2590,7 @@
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
     "lastChangedISO": "2026-10-01T22:42:13.767Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://jobs.misa.gov.sa/ar/?locale=ar_SA",
@@ -3152,9 +3151,9 @@
   {
     "sourceUrl": "https://modon.gov.sa/ar/MediaCenter/modon-news/News/Pages/default.aspx",
     "orgId": "modon",
-    "contentHash": "fcc537579628cb62c8d83385934ab32bbdd50d4861ddf0d3515e52123441332e",
+    "contentHash": "667754716b53e4b342d4c232890b3f26914507473f45efd1df6731750e0290bd",
     "blockHashes": [
-      "878ae14ef70a5405",
+      "4d4dcc6f3c13b141",
       "8727cbb5dfea6170",
       "bdfe2a112c399ccd",
       "8ae17958586c8a8c",
@@ -3163,7 +3162,7 @@
     "extractedChars": 1591,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-02T01:43:53.812Z",
+    "lastChangedISO": "2026-10-02T04:46:40.726Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -3260,8 +3259,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-10-02T01:43:53.812Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://momah.gov.sa/ar/form/partnerships-and-cooperation",
@@ -3432,7 +3430,7 @@
       "f4b9821710ab784e",
       "4deed9de9ddace40",
       "74e4c1d2a646a96e",
-      "61965e8aeda4d88e",
+      "ffbb6655389e93b6",
       "fd7ec4fca7e62dc2",
       "c7609127d5edfa92",
       "fd7ec4fca7e62dc2",
@@ -3463,8 +3461,8 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-10-01T22:39:20.321Z",
     "thinRuns": 0,
-    "pendingClassification": true,
-    "classifyFailures": 2
+    "pendingClassification": false,
+    "classifyFailures": 3
   },
   {
     "sourceUrl": "https://mot.gov.sa/ar/news",
@@ -5453,7 +5451,7 @@
   {
     "sourceUrl": "https://www.awqaf.gov.sa/ar",
     "orgId": "awqaf",
-    "contentHash": "3eb922f0f2a7887d409955ecf96d3253cca6445b9df05ba043615ed1e18cbe01",
+    "contentHash": "f77f33229f1f1402c8e551aa4fb02745a5a20c6c0dbc942ac86fb09e55cd8322",
     "blockHashes": [
       "7364f70c455dc78c",
       "c804732dd480d71a",
@@ -5470,10 +5468,10 @@
       "82135fcbb4f61098",
       "73a2a83e72610309"
     ],
-    "extractedChars": 1478,
+    "extractedChars": 3750,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
-    "lastChangedISO": "2026-10-01T22:42:13.767Z",
+    "lastChangedISO": "2026-10-02T04:46:40.726Z",
     "thinRuns": 0,
     "pendingClassification": true,
     "classifyFailures": 1
@@ -6448,10 +6446,10 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/all_branches_news?lang=ar",
     "orgId": "hrc",
-    "contentHash": "e4c001d17e510a1f70aab400f76c8568db58f5a5c0cdef7a4a729c5d0c1ddda4",
+    "contentHash": "6de6a07740eedde566a2527c245450868b80cc2e262af51605e0ae56cc23fe92",
     "blockHashes": [
       "12e41a244a8a2984",
-      "c3b812d43b4b5a90",
+      "dcf9e06c939d2ec3",
       "f1bdac7ad7f0ff22",
       "eada9065fc805384",
       "affd75c0a04d2d7f",
@@ -6477,7 +6475,7 @@
     "extractedChars": 5187,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-02T01:43:53.812Z",
+    "lastChangedISO": "2026-10-02T04:46:40.726Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
