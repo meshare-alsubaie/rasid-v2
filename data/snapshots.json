@@ -3631,20 +3631,20 @@
   {
     "sourceUrl": "https://ncar.gov.sa/",
     "orgId": "ncar",
-    "contentHash": "fe9060a63afbe2e95f17a004301a7896d07a4b5ba98806708dd8f8047e4789ee",
+    "contentHash": "ae487ee2dd89503c76c858477157c1f762e8260af586f0f318bb72da1aaf4c2c",
     "blockHashes": [
       "c911502a32b8a6f9",
-      "6379bf576abaf67d",
-      "412f9e6bca75d294",
+      "51298181046b2e48",
+      "26b7600a224c8c65",
       "75c514565d626437"
     ],
-    "extractedChars": 1993,
+    "extractedChars": 1130,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-02T04:41:16.599Z",
+    "lastChangedISO": "2026-10-02T10:46:08.792Z",
     "thinRuns": 0,
-    "pendingClassification": true,
-    "classifyFailures": 1
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://ncdc.gov.sa/",
@@ -4329,7 +4329,7 @@
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-10-01T22:39:20.321Z",
-    "thinRuns": 1,
+    "thinRuns": 2,
     "pendingClassification": false
   },
   {
