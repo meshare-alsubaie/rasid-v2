@@ -2456,14 +2456,14 @@
   {
     "sourceUrl": "https://gmedia.gov.sa/",
     "orgId": "gcam",
-    "contentHash": "c1215a8082d6208adefd5f502c517203afd2daacfc4bf03b80e4a83fcc2f4e24",
+    "contentHash": "3893ef11c3042e6ec23b260991a75214687b0b7fa0ccb1859ca4a1df867bebaa",
     "blockHashes": [
-      "c1215a8082d6208a"
+      "3893ef11c3042e6e"
     ],
     "extractedChars": 1118,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-01T23:42:40.914Z",
+    "lastChangedISO": "2026-10-02T05:44:37.660Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -8014,7 +8014,7 @@
     "blockHashes": [
       "7f625851cbbadbc6",
       "f7711325e2c4b301",
-      "383d5801527632c7",
+      "77f8ded157803127",
       "8e28a73c96909ff5",
       "9f6687b23d59fac0",
       "f48c3103130eeb1d",
@@ -8073,8 +8073,8 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-10-01T23:17:51.352Z",
     "thinRuns": 0,
-    "pendingClassification": true,
-    "classifyFailures": 2
+    "pendingClassification": false,
+    "classifyFailures": 3
   },
   {
     "sourceUrl": "https://www.mof.gov.sa/GFS/TrainingProgram/Pages/TrainingManual.aspx",
@@ -8735,7 +8735,7 @@
     "blockHashes": [
       "a167b0dd9b0e3e1c",
       "74e4c1d2a646a96e",
-      "3bf86ca22e8e4743",
+      "52a13c456fcd9a8f",
       "8d35c6dbfb6149bf",
       "934470dd7b84953f",
       "b97ad38f7d56bff9"
@@ -8745,8 +8745,8 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-10-01T23:40:17.845Z",
     "thinRuns": 0,
-    "pendingClassification": true,
-    "classifyFailures": 2
+    "pendingClassification": false,
+    "classifyFailures": 3
   },
   {
     "sourceUrl": "https://www.ncc.gov.sa/ar/MediaCenter/Events/Pages/default.aspx",
