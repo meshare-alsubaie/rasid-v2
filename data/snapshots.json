@@ -769,7 +769,7 @@
   {
     "sourceUrl": "https://career.alinma.com/",
     "orgId": "alinma",
-    "contentHash": "e245fd94c1ab59dcc6bad34af50ba34c224654b27d2f46834c18eef001143fa5",
+    "contentHash": null,
     "blockHashes": [
       "d139e32e22028878",
       "24a16c9057a577bb",
@@ -2344,9 +2344,9 @@
   {
     "sourceUrl": "https://gaca.gov.sa/news",
     "orgId": "gaca",
-    "contentHash": "289f0d486ebbf24b7a6eedf3dad7b55373febd7f293e86768d4678928ebac915",
+    "contentHash": "126d3f50d53385102a37f0683b57f7c9afcc62485c7c99e8e1215b58365b7c8d",
     "blockHashes": [
-      "bdefdc001e8b9103",
+      "be38e58f24ec05b4",
       "7de8ea5de5c99977",
       "8587b2ba02f096c6",
       "6382e3437605c55d",
@@ -2418,7 +2418,7 @@
     "extractedChars": 21036,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-01T22:28:04.787Z",
+    "lastChangedISO": "2026-10-02T01:30:40.130Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -8635,7 +8635,7 @@
     "blockHashes": [
       "a167b0dd9b0e3e1c",
       "74e4c1d2a646a96e",
-      "ef9e3e6d5a50299b",
+      "a1ddeaf300458a73",
       "3ba73a370eb8ee9c",
       "5dda25defa0c4cdd"
     ],
@@ -8644,8 +8644,8 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-10-01T22:32:24.935Z",
     "thinRuns": 0,
-    "pendingClassification": true,
-    "classifyFailures": 2
+    "pendingClassification": false,
+    "classifyFailures": 3
   },
   {
     "sourceUrl": "https://www.nazaha.gov.sa/News",
@@ -9926,8 +9926,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-10-01T22:28:04.787Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.sami.com.sa/",
