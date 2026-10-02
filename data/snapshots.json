@@ -3127,9 +3127,9 @@
   {
     "sourceUrl": "https://modon.gov.sa/",
     "orgId": "modon",
-    "contentHash": "974a6e4bb71395eaf226657b8b2377db198f5fa5cd96308ef07c4b4d5f473458",
+    "contentHash": "5385ef4c618d23635ae2c6ad3b13ced9ce0afa91ce116bd2fa97ca32768b4be5",
     "blockHashes": [
-      "713f632b93cf0a82",
+      "fcd0de186ef32321",
       "0edf2292f0637ccb",
       "c32ffa2c93fe0d09",
       "9066ce9805b0428c",
@@ -3151,7 +3151,7 @@
     "extractedChars": 5996,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-01T22:53:54.400Z",
+    "lastChangedISO": "2026-10-02T04:59:36.803Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -3387,7 +3387,7 @@
     "lastChangedISO": "2026-10-02T01:57:55.715Z",
     "thinRuns": 0,
     "pendingClassification": true,
-    "classifyFailures": 1
+    "classifyFailures": 2
   },
   {
     "sourceUrl": "https://momah.gov.sa/ar/node/14717",
@@ -6638,7 +6638,7 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/cooperations?lang=ar",
     "orgId": "hrc",
-    "contentHash": "315bbcacb7376a2fbf09f98409718fdc691ee2b0cc037b83ec964ef4345b709b",
+    "contentHash": "d82490e5d67d92311eb974b89612870168eab332f7f0f3ed57cda2e5e74e36b3",
     "blockHashes": [
       "12e41a244a8a2984",
       "fb9ee367b1a13bbe",
@@ -6662,7 +6662,7 @@
     "extractedChars": 6137,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-02T01:57:55.715Z",
+    "lastChangedISO": "2026-10-02T04:59:36.803Z",
     "thinRuns": 0,
     "pendingClassification": true,
     "classifyFailures": 1
@@ -7934,7 +7934,7 @@
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-20T12:59:49.059Z",
-    "thinRuns": 55,
+    "thinRuns": 56,
     "pendingClassification": false
   },
   {
