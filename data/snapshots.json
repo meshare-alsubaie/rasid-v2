@@ -2426,19 +2426,19 @@
   {
     "sourceUrl": "https://gaca.gov.sa/web/ar-sa/page/home",
     "orgId": "gaca",
-    "contentHash": "01cb70d25d7ddbbcf9a3327f7b39dcd9dbace861d547ecb2d19a35ceb773b991",
+    "contentHash": "8853e05e161cefd1a4a9c78bbc228490e5d7b0b9508c5f0502fd3ec25c2462e4",
     "blockHashes": [
-      "d671aeb3dda52cb0",
+      "8a6e4ace6b7a508c",
       "67ba147535885b5a",
       "90d5b20a2e1b1c87",
       "98b0f721363b8a74",
       "83a22e1f9fb245f8",
-      "b56e231e91931f13"
+      "ac473f85e97b4d85"
     ],
     "extractedChars": 1607,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-01T22:42:13.767Z",
+    "lastChangedISO": "2026-10-02T01:46:05.123Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -2855,10 +2855,10 @@
     "orgId": "mc",
     "contentHash": "08abf7be79be3bf3bc4cc65c42761b06e6602ced4a0eb3f8562d938872a3236e",
     "blockHashes": [
-      "c29bd702be8f85d8",
       "88b5148b04637d49",
       "74e4c1d2a646a96e",
-      "289f9be6c0442fd5",
+      "4b3d01ae639d1374",
+      "bfb064315c347e78",
       "10195063e01ed19e",
       "f03afad737bbe40e",
       "d4d0ea959601c56a",
@@ -2870,7 +2870,6 @@
       "e5ee260b9a7cccb7",
       "2ae2cf25307a6c8d",
       "6bec88b0686029e4",
-      "18250e653be6a698",
       "2a99c76048fcfe52",
       "0cdfcb5b1fafc787",
       "c0be845c29d2cb4d",
@@ -2881,8 +2880,8 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-10-01T11:30:01.572Z",
     "thinRuns": 0,
-    "pendingClassification": true,
-    "classifyFailures": 2
+    "pendingClassification": false,
+    "classifyFailures": 3
   },
   {
     "sourceUrl": "https://mc.gov.sa/ar/pages/default.aspx",
@@ -3737,8 +3736,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-10-01T22:42:13.767Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://ndf.gov.sa/media-center/articles",
@@ -6948,7 +6946,7 @@
     "lastChangedISO": "2026-10-01T22:42:13.767Z",
     "thinRuns": 0,
     "pendingClassification": true,
-    "classifyFailures": 1
+    "classifyFailures": 2
   },
   {
     "sourceUrl": "https://www.hrsd.gov.sa/media-center",
