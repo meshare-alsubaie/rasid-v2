@@ -614,9 +614,9 @@
   {
     "sourceUrl": "https://careers.mobily.com.sa/ar/sites/opportunities/pages/Coop",
     "orgId": "mobily",
-    "lastAttemptISO": "2026-10-02T19:44:09.550Z",
+    "lastAttemptISO": "2026-10-02T20:29:49.219Z",
     "lastSuccessISO": "2026-08-30T00:02:43.835Z",
-    "consecutiveFailures": 496,
+    "consecutiveFailures": 497,
     "lastError": "page.evaluate: Target crashed ",
     "state": "broken"
   },
@@ -1433,8 +1433,8 @@
   {
     "sourceUrl": "https://ncvc.gov.sa/en/Pages/COOP-Training.aspx",
     "orgId": "ncvc",
-    "lastAttemptISO": "2026-10-02T19:44:09.550Z",
-    "lastSuccessISO": "2026-10-02T19:44:09.550Z",
+    "lastAttemptISO": "2026-10-02T20:29:49.219Z",
+    "lastSuccessISO": "2026-10-02T20:29:49.219Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -1469,8 +1469,8 @@
   {
     "sourceUrl": "https://ndf.gov.sa/media-center/articles",
     "orgId": "ndf",
-    "lastAttemptISO": "2026-10-02T17:26:16.190Z",
-    "lastSuccessISO": "2026-10-02T17:26:16.190Z",
+    "lastAttemptISO": "2026-10-02T20:27:45.506Z",
+    "lastSuccessISO": "2026-10-02T20:27:45.506Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -1559,8 +1559,8 @@
   {
     "sourceUrl": "https://redf.gov.sa/ar/careers",
     "orgId": "redf",
-    "lastAttemptISO": "2026-10-02T17:28:47.816Z",
-    "lastSuccessISO": "2026-10-02T17:28:47.816Z",
+    "lastAttemptISO": "2026-10-02T20:29:49.219Z",
+    "lastSuccessISO": "2026-10-02T20:29:49.219Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -1802,11 +1802,11 @@
   {
     "sourceUrl": "https://training.moj.gov.sa/",
     "orgId": "moj",
-    "lastAttemptISO": "2026-10-02T19:44:09.550Z",
+    "lastAttemptISO": "2026-10-02T20:29:49.219Z",
     "lastSuccessISO": "2026-10-02T19:44:09.550Z",
-    "consecutiveFailures": 0,
-    "lastError": null,
-    "state": "healthy"
+    "consecutiveFailures": 1,
+    "lastError": "fetched 11101 bytes but extracted only 0 chars of text; the page is probably rendered by javascript and cannot be watched this way",
+    "state": "degraded"
   },
   {
     "sourceUrl": "https://tvtc.gov.sa/",
@@ -1910,8 +1910,8 @@
   {
     "sourceUrl": "https://www.aecl.com/ar/news/",
     "orgId": "aec",
-    "lastAttemptISO": "2026-10-02T17:28:47.816Z",
-    "lastSuccessISO": "2026-10-02T17:28:47.816Z",
+    "lastAttemptISO": "2026-10-02T20:29:49.219Z",
+    "lastSuccessISO": "2026-10-02T20:29:49.219Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -1937,9 +1937,9 @@
   {
     "sourceUrl": "https://www.alahli.com/ar/pages/about-us/careers/culture",
     "orgId": "snb",
-    "lastAttemptISO": "2026-10-02T19:29:06.710Z",
+    "lastAttemptISO": "2026-10-02T20:29:49.219Z",
     "lastSuccessISO": "2026-09-16T20:45:00.772Z",
-    "consecutiveFailures": 177,
+    "consecutiveFailures": 178,
     "lastError": "fetch failed",
     "state": "broken"
   },
@@ -2666,8 +2666,8 @@
   {
     "sourceUrl": "https://www.mewa.gov.sa/ar/MediaCenter/Events/Pages/MonthEvents.aspx",
     "orgId": "mewa",
-    "lastAttemptISO": "2026-10-02T17:26:16.190Z",
-    "lastSuccessISO": "2026-10-02T17:26:16.190Z",
+    "lastAttemptISO": "2026-10-02T20:27:45.506Z",
+    "lastSuccessISO": "2026-10-02T20:27:45.506Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -3746,11 +3746,11 @@
   {
     "sourceUrl": "https://www.stats.gov.sa/ar/cooperative-training",
     "orgId": "gastat",
-    "lastAttemptISO": "2026-10-02T19:37:55.262Z",
-    "lastSuccessISO": "2026-10-02T13:28:29.062Z",
-    "consecutiveFailures": 7,
-    "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (The operation was aborted due to timeout); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
-    "state": "broken"
+    "lastAttemptISO": "2026-10-02T20:27:45.506Z",
+    "lastSuccessISO": "2026-10-02T20:27:45.506Z",
+    "consecutiveFailures": 0,
+    "lastError": null,
+    "state": "healthy"
   },
   {
     "sourceUrl": "https://www.stats.gov.sa/en/cooperative-training",
@@ -3782,8 +3782,8 @@
   {
     "sourceUrl": "https://www.tadawulgroup.sa/wps/portal/tadawulgroup/joinus",
     "orgId": "tadawul",
-    "lastAttemptISO": "2026-10-02T19:44:09.550Z",
-    "lastSuccessISO": "2026-10-02T19:44:09.550Z",
+    "lastAttemptISO": "2026-10-02T20:29:49.219Z",
+    "lastSuccessISO": "2026-10-02T20:29:49.219Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
