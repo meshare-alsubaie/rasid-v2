@@ -96,23 +96,24 @@
   {
     "sourceUrl": "https://adf.gov.sa/ar/media-center/news/Pages/default.aspx",
     "orgId": "adf",
-    "contentHash": "118c2a6d873e63a1c813a4206bd0e04dee976da022b72bb66d311a5df8327254",
+    "contentHash": "e1e34c18aecc34bcdc84e90f26639629b93d4c1578cdd83f73d00751314b5de3",
     "blockHashes": [
       "1ce798e0ca5f6070",
       "9e8708f46644e878",
       "39c2a501d63f4d01",
       "e548c9d4dc387f84",
-      "307881a626bbd4a4",
-      "886c2e110d5a7120",
+      "d69aaa7b1ef7bb76",
+      "fd40c5327e503291",
       "782261474561a27a",
       "74b06ac36e5c75b0"
     ],
     "extractedChars": 2784,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-22T17:17:02.352Z",
+    "lastChangedISO": "2026-10-02T07:52:11.990Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://adf.gov.sa/ar/media-center/success-stories/Pages/default.aspx",
@@ -647,7 +648,7 @@
     "lastChangedISO": "2026-10-02T04:44:03.577Z",
     "thinRuns": 0,
     "pendingClassification": true,
-    "classifyFailures": 1
+    "classifyFailures": 2
   },
   {
     "sourceUrl": "https://athkax.sdaia.gov.sa/coop",
@@ -1264,17 +1265,16 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/cookiesettings",
     "orgId": "maaden",
-    "contentHash": "51b735a77210c73100a1f03deae36c365a4c8b8167bcc9c0d77b41a6be1e5f98",
+    "contentHash": "2d0ac71dc60b788cdad18d33a0cf93dce5e5a3256d95787af603d17347c3fd2f",
     "blockHashes": [
       "dfd3c66b52c38ffe"
     ],
-    "extractedChars": 8013,
+    "extractedChars": 240,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-02T06:49:44.577Z",
+    "lastChangedISO": "2026-10-02T07:41:32.525Z",
     "thinRuns": 0,
-    "pendingClassification": true,
-    "classifyFailures": 1
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/search-results",
@@ -2433,9 +2433,9 @@
   {
     "sourceUrl": "https://gaca.gov.sa/web/ar-sa/page/home",
     "orgId": "gaca",
-    "contentHash": "2b8b28d5bc1aa399a53a1194b092f715b53a81e1fb96db5f7a05dcd85fb3dd3e",
+    "contentHash": "929e9dbcb2061e4ef0c5809446556e433527f9eac58ed50e219b036a3c047d41",
     "blockHashes": [
-      "1bc884db418b13d9",
+      "47de9b42c955bb6d",
       "67ba147535885b5a",
       "90d5b20a2e1b1c87",
       "98b0f721363b8a74",
@@ -2445,7 +2445,7 @@
     "extractedChars": 1607,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-02T04:48:35.524Z",
+    "lastChangedISO": "2026-10-02T07:52:11.990Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -6442,10 +6442,10 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/all_branches_news?lang=ar",
     "orgId": "hrc",
-    "contentHash": "6de6a07740eedde566a2527c245450868b80cc2e262af51605e0ae56cc23fe92",
+    "contentHash": "8c022b6f80b52913858fa1a5106638374e601f9dff2a857b120d04ef1ae33a7b",
     "blockHashes": [
       "12e41a244a8a2984",
-      "dcf9e06c939d2ec3",
+      "3e311aba1d060017",
       "f1bdac7ad7f0ff22",
       "eada9065fc805384",
       "affd75c0a04d2d7f",
@@ -6471,7 +6471,7 @@
     "extractedChars": 5187,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-02T04:46:40.726Z",
+    "lastChangedISO": "2026-10-02T07:52:11.990Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -9659,8 +9659,7 @@
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
     "lastChangedISO": "2026-10-02T04:44:03.577Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.sabic.com/ar/careers",
