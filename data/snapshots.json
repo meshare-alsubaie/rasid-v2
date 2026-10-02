@@ -2675,8 +2675,8 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-10-01T11:50:05.231Z",
     "thinRuns": 0,
-    "pendingClassification": true,
-    "classifyFailures": 2
+    "pendingClassification": false,
+    "classifyFailures": 3
   },
   {
     "sourceUrl": "https://jobs.sabic.com/",
@@ -2712,15 +2712,15 @@
   {
     "sourceUrl": "https://lcgpa.gov.sa/ar/Pages/default.aspx",
     "orgId": "lcgpa",
-    "contentHash": "aeec913e17dbc7890e6813f25363a5d6531e6edec8d6eb7a3505c5b4ad4566a8",
+    "contentHash": "5cceb9f1b4a3034903b666b50a99798baef05f27758d32a9c75030a218c64353",
     "blockHashes": [
-      "3d1174fa3c742ac8",
+      "40b599aec9e90dd2",
       "beda84e843f95551"
     ],
     "extractedChars": 218,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-01T22:22:53.232Z",
+    "lastChangedISO": "2026-10-02T04:24:56.145Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -3603,16 +3603,16 @@
     "orgId": "nca",
     "contentHash": "22e8bce5aeca6cd8972595294c86abe1c188c35876435c2ba7cbb4b89e65bd6a",
     "blockHashes": [
-      "6559d217768847c6",
-      "af636a30b6856892"
+      "6aa8bef34721bf47",
+      "6060ab31cc95d891"
     ],
     "extractedChars": 880,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-10-01T10:49:16.489Z",
     "thinRuns": 0,
-    "pendingClassification": true,
-    "classifyFailures": 2
+    "pendingClassification": false,
+    "classifyFailures": 3
   },
   {
     "sourceUrl": "https://nca.gov.sa/en/careers/",
@@ -10754,7 +10754,7 @@
   {
     "sourceUrl": "https://www.stats.gov.sa/ar",
     "orgId": "gastat",
-    "contentHash": "1f9fd9945bd5928947bf79612902d3a032753292d6dc369a3face59f986efd1a",
+    "contentHash": "e8b648df9fec3981bb01d67aa55f0f1deda53ee76818b90726b81551339eb7f0",
     "blockHashes": [
       "b618107f43bd2daf",
       "2fec6d796296a0f8",
@@ -10763,10 +10763,10 @@
       "dc84e74cdce35fa3",
       "9214de5f4ec23c78"
     ],
-    "extractedChars": 3138,
+    "extractedChars": 3206,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-01T22:25:45.078Z",
+    "lastChangedISO": "2026-10-02T04:27:03.183Z",
     "thinRuns": 0,
     "pendingClassification": true,
     "classifyFailures": 1
