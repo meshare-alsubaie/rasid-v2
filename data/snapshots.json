@@ -2235,9 +2235,9 @@
   {
     "sourceUrl": "https://gaca.gov.sa/announcements",
     "orgId": "gaca",
-    "contentHash": "61c80fc534d92f29977e272caebfeb94a1e50a744c66790efaa00d70484de24f",
+    "contentHash": "c41166fa6d672efc9aaeb9c2c5232cd1c5930f0d70e9eba480290f10ceddeedc",
     "blockHashes": [
-      "e5c5f874c3127a58",
+      "75e76d7cd9240f5a",
       "9c2a3967149440a8",
       "83a22e1f9fb245f8",
       "bc532942aaed49b7"
@@ -2245,7 +2245,7 @@
     "extractedChars": 1211,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-02T18:40:24.056Z",
+    "lastChangedISO": "2026-10-02T21:42:42.106Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -3408,7 +3408,7 @@
     "lastChangedISO": "2026-10-02T18:40:24.056Z",
     "thinRuns": 0,
     "pendingClassification": true,
-    "classifyFailures": 1
+    "classifyFailures": 2
   },
   {
     "sourceUrl": "https://mot.gov.sa/ar/employment1",
@@ -6504,7 +6504,7 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/careers?lang=ar",
     "orgId": "hrc",
-    "contentHash": "7b1645c30a70c50d6eebd85f812591d6bd17987dc2475c4bc22bbe16e497763b",
+    "contentHash": "424d4f0ff997d287062dbaa06501ad103bad2d52708d8425edcf6345edcbe059",
     "blockHashes": [
       "12e41a244a8a2984",
       "014beb3476d1001d",
@@ -6531,7 +6531,7 @@
     "extractedChars": 3794,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-02T18:40:24.056Z",
+    "lastChangedISO": "2026-10-02T21:42:42.106Z",
     "thinRuns": 0,
     "pendingClassification": true,
     "classifyFailures": 1
