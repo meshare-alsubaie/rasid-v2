@@ -2262,9 +2262,9 @@
   {
     "sourceUrl": "https://gaca.gov.sa/ar/News",
     "orgId": "gaca",
-    "contentHash": "4d86287055cdf9e3eaae7ce5d59c6eb4b23e79e01bb2313fefeda128f243b6a0",
+    "contentHash": "3d7c504862cbc8c67e1f0304ffffbb3ceb755292f3d8a986e1fde50a198506a3",
     "blockHashes": [
-      "43749f9c1ea2e3ea",
+      "d124212db7e12726",
       "7de8ea5de5c99977",
       "8587b2ba02f096c6",
       "6382e3437605c55d",
@@ -2331,12 +2331,12 @@
       "89325812f489a554",
       "57534ebd8ed8f48f",
       "83a22e1f9fb245f8",
-      "2ccfa90c84c059a7"
+      "bc532942aaed49b7"
     ],
-    "extractedChars": 21297,
+    "extractedChars": 21036,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-01T23:11:23.510Z",
+    "lastChangedISO": "2026-10-02T02:13:16.972Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -3307,37 +3307,37 @@
   {
     "sourceUrl": "https://momah.gov.sa/ar/menu/media-center",
     "orgId": "housing",
-    "contentHash": "ac9eb3fcf09ef951599c5817296476d2140a7a89353242bc928be686874cafcb",
+    "contentHash": "1d8a0b9446c7012411004278221e2116992f24256fab7eb96f10929846d9da81",
     "blockHashes": [
       "4c63522200199108",
       "7bc8965d992df69b",
       "aa8e55eac5aea8cd",
       "09552ec2996654f9",
-      "aca353f662844fbe",
-      "f23f41f81c0c83b8",
-      "50aa40fa358b6da1",
-      "5d15152619ff887e",
-      "c5b465240bfe148c",
-      "1fbacd0d69101df7",
-      "41a46a8e7fa67b5d",
-      "ac1405062719fb86",
-      "01e06c1246a833e3",
+      "14a99d2f797ebc0b",
+      "53e5b44cdaa3b1d9",
+      "ff6f87e39638cb9b",
+      "e03e0300536ada34",
+      "09b1bd561f62b68f",
+      "cd8ffc9284bf4916",
+      "ec3c04642b15d48b",
+      "6527d6d0641af2ad",
       "560edfe1df9d8921",
       "23b97a8a93aba477",
       "9cd3abf7fd1573ff",
-      "581aedba2acb5e1b",
-      "3fcfebe7db9c1d04",
-      "24f88c467a1eedc9",
-      "cfaee9aeb5f7383d",
-      "09b1bd561f62b68f",
-      "73cde603b87bee83",
-      "ff6f87e39638cb9b",
-      "039e81168c554b8c"
+      "037759ee35eea391",
+      "749abe847acefec2",
+      "3118ca9ae4b1036f",
+      "0abdda2b59ef6bc4",
+      "c08853991e427250",
+      "5d15152619ff887e",
+      "5b5279489aaaf724",
+      "ac1405062719fb86",
+      "54c242802b91f278"
     ],
     "extractedChars": 151323,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-01T23:07:11.539Z",
+    "lastChangedISO": "2026-10-02T02:11:17.829Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -3764,7 +3764,7 @@
     "orgId": "ndf",
     "contentHash": "96e7146ebe05d8b6a9768b9b19474f6607636b1f0c474bc1431224f32ad66bdb",
     "blockHashes": [
-      "b8aa3a91f3e43d37",
+      "4d57314bebff8c78",
       "2e431a1caf07dcca",
       "7a4afe45d7b2cb37",
       "a16ea57600a8a4dd",
@@ -3778,8 +3778,8 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-10-01T23:11:23.510Z",
     "thinRuns": 0,
-    "pendingClassification": true,
-    "classifyFailures": 2
+    "pendingClassification": false,
+    "classifyFailures": 3
   },
   {
     "sourceUrl": "https://ndf.gov.sa/media-center/newsletters",
@@ -6560,7 +6560,7 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/careers/graduate-development-program",
     "orgId": "hrc",
-    "contentHash": "b945982c8978910ae10478421db05ffacefe1cc8b9dc5cd68c3c2b119d7b898f",
+    "contentHash": "d17705f00cab20ddd64af4ea03cc7aee98b8743e96c037788e7e4957907a9611",
     "blockHashes": [
       "12e41a244a8a2984",
       "102d8abc1a4219ae",
@@ -6629,7 +6629,7 @@
     "extractedChars": 10689,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-01T23:07:11.539Z",
+    "lastChangedISO": "2026-10-02T02:11:17.829Z",
     "thinRuns": 0,
     "pendingClassification": true,
     "classifyFailures": 1
@@ -7787,9 +7787,9 @@
   {
     "sourceUrl": "https://www.mim.gov.sa/ar/media-center/news",
     "orgId": "mim",
-    "contentHash": "c9d469a2881617154cf4ede23bd639b7a6f1f856be841821146a2f441fbfeb19",
+    "contentHash": "bfe0a57173a44a79f10536884cc93fbc9aedd9f5084ea099c6516b140ee0402b",
     "blockHashes": [
-      "e5a02ff8f9116ea9",
+      "3fca2b7f9e33d1fd",
       "1f5dd0d29afd9b79",
       "634a5a8d064708ad",
       "1f5e279450d224dd",
@@ -7819,7 +7819,7 @@
     "extractedChars": 10087,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-01T22:59:14.041Z",
+    "lastChangedISO": "2026-10-02T02:09:32.489Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
