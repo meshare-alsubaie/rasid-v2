@@ -3632,20 +3632,20 @@
   {
     "sourceUrl": "https://ncar.gov.sa/",
     "orgId": "ncar",
-    "contentHash": "ae487ee2dd89503c76c858477157c1f762e8260af586f0f318bb72da1aaf4c2c",
+    "contentHash": "5992c37d87c2e451512ae88c18a0f2747e3391c9a101b75fd8e4233c53f22b80",
     "blockHashes": [
       "c911502a32b8a6f9",
       "51298181046b2e48",
       "26b7600a224c8c65",
       "75c514565d626437"
     ],
-    "extractedChars": 1130,
+    "extractedChars": 1993,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-02T10:46:08.792Z",
+    "lastChangedISO": "2026-10-02T16:46:53.425Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://ncdc.gov.sa/",
@@ -4133,16 +4133,17 @@
   {
     "sourceUrl": "https://site.sa/",
     "orgId": "site",
-    "contentHash": "a200c2d13ea06f1e2c64a3ada66c5ee448697431b52b9efb0743dc286fa3e30d",
+    "contentHash": "83cf2b18ec99a0c9fe3d3a6fe207be05d3c7920b0e5ea15ca2f35464f4ce2886",
     "blockHashes": [
-      "a200c2d13ea06f1e"
+      "83cf2b18ec99a0c9"
     ],
-    "extractedChars": 598,
+    "extractedChars": 800,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-02T04:35:07.534Z",
+    "lastChangedISO": "2026-10-02T16:45:29.703Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://slccareers.kpmg.com/go/All-Jobs/7738123/",
@@ -4330,7 +4331,7 @@
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-10-01T22:39:20.321Z",
-    "thinRuns": 2,
+    "thinRuns": 3,
     "pendingClassification": false
   },
   {
