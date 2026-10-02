@@ -1386,15 +1386,22 @@
       "c35e73c3861f0200",
       "d002d8b11262f490",
       "69a0154f6c1379bc",
-      "b53152be0d7edff4"
+      "bbc6ed0e9eceee16",
+      "6ede9152fe96507b",
+      "439d376888da77eb",
+      "dfefac4ed1c1a1ea",
+      "a15469967b52792b",
+      "4625b89026b1f4e2",
+      "a1edd36f4b4816fc",
+      "2a08063dab4edabd"
     ],
     "extractedChars": 3028,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-10-01T22:47:48.062Z",
     "thinRuns": 0,
-    "pendingClassification": true,
-    "classifyFailures": 2
+    "pendingClassification": false,
+    "classifyFailures": 3
   },
   {
     "sourceUrl": "https://careers.rcjy.gov.sa/ar/job-search-results/",
@@ -2212,14 +2219,16 @@
   {
     "sourceUrl": "https://gac.gov.sa/",
     "orgId": "gac",
-    "contentHash": "0215494760d6b871982a4e4cae381f027d80d07d980de609b46bcb59c4f18264",
+    "contentHash": "3754680725b510e9091934ca2f66cf56ab8becb23792c931eaa10678de9d7382",
     "blockHashes": [
-      "0215494760d6b871"
+      "59f0b0488d69ab57",
+      "f5bef455d4d4feb4",
+      "aacaf49217281f68"
     ],
-    "extractedChars": 1446,
+    "extractedChars": 2462,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-09-17T12:53:53.341Z",
-    "lastChangedISO": "2026-10-01T22:47:48.062Z",
+    "lastChangedISO": "2026-10-02T04:51:10.146Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -3113,8 +3122,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-10-02T01:49:50.675Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://modon.gov.sa/",
@@ -8662,7 +8670,7 @@
     "blockHashes": [
       "a167b0dd9b0e3e1c",
       "74e4c1d2a646a96e",
-      "c660958fc554d59b",
+      "3df8108073b87bd5",
       "8d35c6dbfb6149bf",
       "934470dd7b84953f",
       "b97ad38f7d56bff9"
@@ -8672,8 +8680,8 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-10-01T22:45:14.780Z",
     "thinRuns": 0,
-    "pendingClassification": true,
-    "classifyFailures": 2
+    "pendingClassification": false,
+    "classifyFailures": 3
   },
   {
     "sourceUrl": "https://www.nazaha.gov.sa/News/Details?q=HNQU9DHVnwVHan0Mf562ug==",
@@ -9574,7 +9582,7 @@
   {
     "sourceUrl": "https://www.rega.gov.sa/",
     "orgId": "rega",
-    "contentHash": "b668d93b1b325e5de7284166c804d14071dec4f4c5d3561ef5469bda7e39b88c",
+    "contentHash": "355641ee3bbc29fdfea948e10d9a5a01c0d53b9c87c7e9a3675f25f13806a9a8",
     "blockHashes": [
       "2c2608753486ae3f",
       "74e4c1d2a646a96e",
@@ -9598,7 +9606,7 @@
       "9fc5f94a6090f9bf",
       "febd43aea19450a8",
       "d6c3249045b18f7b",
-      "5da162408194f209",
+      "754efd7b9a8d0acb",
       "421526ba0ae33404",
       "49506107fa7b92d4",
       "55d607f9f7a2de50",
@@ -9611,9 +9619,10 @@
     "extractedChars": 3233,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
-    "lastChangedISO": "2026-10-01T10:23:29.844Z",
+    "lastChangedISO": "2026-10-02T04:51:10.146Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://www.riyadbank.com/ar/personal-banking",
