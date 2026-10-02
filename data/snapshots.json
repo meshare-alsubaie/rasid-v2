@@ -1280,7 +1280,7 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/search-results",
     "orgId": "maaden",
-    "contentHash": "3476b558eb3cea7483c14d1925f137863bed12bbc3a118082d84ce3f6bba72c7",
+    "contentHash": "5110ac3f4d0f8c9e21ad451a5ba76cc1ff5983e6dd2b1230a3f366d836c619ab",
     "blockHashes": [
       "5569201553604d03",
       "6e3cceb54e777f64",
@@ -1292,7 +1292,7 @@
     "extractedChars": 240,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-02T21:08:26.943Z",
+    "lastChangedISO": "2026-10-02T21:54:18.867Z",
     "thinRuns": 0,
     "pendingClassification": true,
     "classifyFailures": 1
@@ -2198,7 +2198,7 @@
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T02:22:33.828Z",
     "lastChangedISO": "2026-08-29T02:36:21.032Z",
-    "thinRuns": 463,
+    "thinRuns": 464,
     "pendingClassification": false
   },
   {
@@ -3772,16 +3772,17 @@
   {
     "sourceUrl": "https://ndf.gov.sa/media-center/newsletters",
     "orgId": "ndf",
-    "contentHash": "83f18367438fda614b9c76f22cff1fa568f49ee55ae9f5699119004cb2bd320f",
+    "contentHash": "ce54b08640ac97999c2f1c7d681be42592af1b3fb3303655bae2033a64577668",
     "blockHashes": [
-      "83f18367438fda61"
+      "ce54b08640ac9799"
     ],
-    "extractedChars": 1161,
+    "extractedChars": 1160,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-01T23:24:26.795Z",
+    "lastChangedISO": "2026-10-02T21:44:58.554Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://ndf.gov.sa/media-center/press-news",
