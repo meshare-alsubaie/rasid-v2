@@ -3106,7 +3106,7 @@
   {
     "sourceUrl": "https://modon.gov.sa/",
     "orgId": "modon",
-    "contentHash": "5385ef4c618d23635ae2c6ad3b13ced9ce0afa91ce116bd2fa97ca32768b4be5",
+    "contentHash": "fd5499acc3cb23a94a1407d07ae238b41b0be8a6df0807ffb13aa7f943c245af",
     "blockHashes": [
       "fcd0de186ef32321",
       "0edf2292f0637ccb",
@@ -3127,13 +3127,13 @@
       "8ae17958586c8a8c",
       "a052fcd3e0ca047c"
     ],
-    "extractedChars": 5996,
-    "extractionMethod": "readability",
+    "extractedChars": 11874,
+    "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-02T04:59:36.803Z",
+    "lastChangedISO": "2026-10-02T11:46:40.051Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://modon.gov.sa/ar/MediaCenter/modon-news/News/Pages/default.aspx",
@@ -8164,7 +8164,7 @@
   {
     "sourceUrl": "https://www.mofa.gov.sa/",
     "orgId": "mofa",
-    "contentHash": "591839711478a5e2f052de39827fd39716cfc217cb79f22a7c4382152b0867f8",
+    "contentHash": "0c79494bff6a52d87d74303a33ff89891159d5cf02105623e75c031ba2402562",
     "blockHashes": [
       "88b5148b04637d49",
       "74e4c1d2a646a96e",
@@ -8177,15 +8177,16 @@
       "b464959f5a852b43",
       "40864ea777f9c0bf",
       "06538d757b5fb483",
-      "6714a1549fe8444f",
+      "8984d49374745179",
       "782261474561a27a"
     ],
     "extractedChars": 1600,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
-    "lastChangedISO": "2026-10-01T23:01:42.341Z",
+    "lastChangedISO": "2026-10-02T11:46:40.051Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://www.mofa.gov.sa/ar/ministry/news/Pages/%D8%A7%D8%AA%D9%81%D8%A7%D9%82%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D8%A5%D8%B9%D9%81%D8%A7%D8%A1-%D8%A7%D9%84%D9%85%D8%AA%D8%A8%D8%A7%D8%AF%D9%84.aspx",
