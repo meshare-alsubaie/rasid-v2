@@ -1343,8 +1343,8 @@
   {
     "sourceUrl": "https://nca.gov.sa/ar/careers/",
     "orgId": "nca",
-    "lastAttemptISO": "2026-10-02T19:47:43.059Z",
-    "lastSuccessISO": "2026-10-02T19:47:43.059Z",
+    "lastAttemptISO": "2026-10-02T21:24:38.351Z",
+    "lastSuccessISO": "2026-10-02T21:24:38.351Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -1496,8 +1496,8 @@
   {
     "sourceUrl": "https://ndf.gov.sa/media-center/press-news",
     "orgId": "ndf",
-    "lastAttemptISO": "2026-10-02T18:24:10.608Z",
-    "lastSuccessISO": "2026-10-02T18:24:10.608Z",
+    "lastAttemptISO": "2026-10-02T21:25:44.257Z",
+    "lastSuccessISO": "2026-10-02T21:25:44.257Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -3062,11 +3062,11 @@
   {
     "sourceUrl": "https://www.nazaha.gov.sa/News/Details?q=+ZUW2RPX/9RAyHyLvILpaw==",
     "orgId": "nazaha",
-    "lastAttemptISO": "2026-10-02T18:24:10.608Z",
-    "lastSuccessISO": "2026-10-02T15:21:39.863Z",
-    "consecutiveFailures": 1,
-    "lastError": "robots.txt: could not reach robots.txt after 3 attempt(s) (fetch failed); this is our connection, not the site, and we do not crawl without reading it; a browser could not reach it either",
-    "state": "degraded"
+    "lastAttemptISO": "2026-10-02T21:25:44.257Z",
+    "lastSuccessISO": "2026-10-02T21:25:44.257Z",
+    "consecutiveFailures": 0,
+    "lastError": null,
+    "state": "healthy"
   },
   {
     "sourceUrl": "https://www.nazaha.gov.sa/News/Details?q=HNQU9DHVnwVHan0Mf562ug==",
@@ -3125,9 +3125,9 @@
   {
     "sourceUrl": "https://www.ncc.gov.sa/ar/MediaCenter/Pages/default.aspx",
     "orgId": "ncc",
-    "lastAttemptISO": "2026-10-02T18:24:10.608Z",
+    "lastAttemptISO": "2026-10-02T21:25:44.257Z",
     "lastSuccessISO": "2026-09-17T01:11:28.616Z",
-    "consecutiveFailures": 73,
+    "consecutiveFailures": 74,
     "lastError": "HTTP 404",
     "state": "broken"
   },
