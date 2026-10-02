@@ -2244,9 +2244,9 @@
   {
     "sourceUrl": "https://gaca.gov.sa/ar/announcements",
     "orgId": "gaca",
-    "contentHash": "423e5990eb11fbc54582eb25fbf9f6ad5a03c44e4f6d846d90d7cf09f2e5f889",
+    "contentHash": "b349c7376c919d7e24b69b98a9892daa2d531de9444b012826bae7546632c188",
     "blockHashes": [
-      "14cc4faa9c39e088",
+      "c571e212ee2914a3",
       "9c2a3967149440a8",
       "83a22e1f9fb245f8",
       "bc532942aaed49b7"
@@ -2254,7 +2254,7 @@
     "extractedChars": 1211,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-01T22:57:08.860Z",
+    "lastChangedISO": "2026-10-02T01:59:59.914Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -3810,7 +3810,7 @@
     "lastChangedISO": "2026-10-01T22:57:08.860Z",
     "thinRuns": 0,
     "pendingClassification": true,
-    "classifyFailures": 1
+    "classifyFailures": 2
   },
   {
     "sourceUrl": "https://neti.etec.gov.sa/",
