@@ -7767,9 +7767,9 @@
   {
     "sourceUrl": "https://www.mim.gov.sa/ar/media-center/news",
     "orgId": "mim",
-    "contentHash": "e5c34c2bb520771185333c82129e76d0c6912e0a5214beb6e0cb7ab48034fc66",
+    "contentHash": "2b26cc8ebe22b53d6020a22f5860ce69cd01cbbc9d1688d6f4d1fbc6a46647c4",
     "blockHashes": [
-      "8d0b8a543e72de09",
+      "e3e79dcd5ebade4e",
       "1f5dd0d29afd9b79",
       "634a5a8d064708ad",
       "1f5e279450d224dd",
@@ -7799,7 +7799,7 @@
     "extractedChars": 10087,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-02T18:28:36.429Z",
+    "lastChangedISO": "2026-10-02T21:33:34.968Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -7968,7 +7968,7 @@
   {
     "sourceUrl": "https://www.mof.gov.sa/docslibrary/TrainingManuals/Pages/default.aspx",
     "orgId": "mof",
-    "contentHash": "9f30618ff3c4a7b6143fd66dfece66dac391621079b75ee4a9efaa57a0535b36",
+    "contentHash": "4b963b77f1501318db9e19074d360c6327355e0573e82c97e65ceb8e5a30d4b0",
     "blockHashes": [
       "7f625851cbbadbc6",
       "f7711325e2c4b301",
@@ -7983,13 +7983,13 @@
       "e449b5a351b550c3",
       "826105e2f57616e5"
     ],
-    "extractedChars": 16452,
+    "extractedChars": 16451,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-01T23:03:56.918Z",
+    "lastChangedISO": "2026-10-02T21:36:03.177Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "classifyFailures": 3
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://www.mof.gov.sa/eservices/Loans/Pages/Lending_Educational_Projects.aspx",
