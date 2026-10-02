@@ -664,7 +664,7 @@
     "lastChangedISO": "2026-10-02T08:15:42.999Z",
     "thinRuns": 0,
     "pendingClassification": true,
-    "classifyFailures": 1
+    "classifyFailures": 2
   },
   {
     "sourceUrl": "https://awqaf.gov.sa/ar/ar/hiring/",
@@ -6974,7 +6974,7 @@
   {
     "sourceUrl": "https://www.hrsd.gov.sa/media-center/news",
     "orgId": "hrsd",
-    "contentHash": "7cc10c43359a4ed1958b4a8e63cc7d066eb7a8a8e0f26f379a2f0a252ef65b3d",
+    "contentHash": "38dfaea3a4e813e2a6acbe9a546b3289ac832a867a827f14a166636329fc52d4",
     "blockHashes": [
       "92ab7c84ae7e0913",
       "0ecee2ee17763d54",
@@ -6982,12 +6982,13 @@
       "f240ebfacade946d",
       "6a154be974818ca1"
     ],
-    "extractedChars": 4238,
+    "extractedChars": 4154,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-29T22:07:11.208Z",
+    "lastChangedISO": "2026-10-02T09:40:24.998Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://www.hrsd.gov.sa/ministry/about-ministry/jobs",
@@ -9326,14 +9327,14 @@
   {
     "sourceUrl": "https://www.rcrc.gov.sa/careers/?lang=ar",
     "orgId": "rcrc",
-    "contentHash": "82d87104604198efdbe99fc232a00eec2ebc11679d4bde000e7aa9ad059c7749",
+    "contentHash": "01415c57ca7ffb79cd6ed3603baddbee9c1d27e523d84a8bf77a797df327d4df",
     "blockHashes": [
       "e00f06d0fdb401d5"
     ],
     "extractedChars": 785,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-02T08:03:22.630Z",
+    "lastChangedISO": "2026-10-02T09:40:24.998Z",
     "thinRuns": 0,
     "pendingClassification": true,
     "classifyFailures": 1
@@ -10472,18 +10473,18 @@
   {
     "sourceUrl": "https://www.sidf.gov.sa/Coop",
     "orgId": "sidf",
-    "contentHash": "f74b924db7446f6f183d3873e46820d0c5e51d30a421c3bf02270fe17daa6022",
+    "contentHash": "56770f1e848d3f2f75673c2882d2bc31325e1bf3c54111b6a926c33dba4733d4",
     "blockHashes": [
       "84a521c16356c5e5",
       "25b3bc91b9810520"
     ],
-    "extractedChars": 315,
+    "extractedChars": 318,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-02T23:42:46.216Z",
-    "lastChangedISO": "2026-10-02T04:44:03.577Z",
+    "lastChangedISO": "2026-10-02T09:40:24.998Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "classifyFailures": 3
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://www.sidf.gov.sa/News",
@@ -10779,7 +10780,7 @@
   {
     "sourceUrl": "https://www.stats.gov.sa/en/news",
     "orgId": "gastat",
-    "contentHash": "bc1bab36b3f6f0259b129009b1d772c492472dd28740b84de3614750e96040e3",
+    "contentHash": "4b6fae5944eb643fbb36fd33ceb73c6340cdf119831160df3ae6006e9e411b5b",
     "blockHashes": [
       "b7ce6498ecbc7c40",
       "c76bf99f8551a732",
@@ -11097,10 +11098,10 @@
       "00f2cdb2123b002f",
       "130941fb4f3fdf0d"
     ],
-    "extractedChars": 38856,
+    "extractedChars": 97494,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-02T07:14:14.510Z",
+    "lastChangedISO": "2026-10-02T09:40:24.998Z",
     "thinRuns": 0,
     "pendingClassification": true,
     "classifyFailures": 1
@@ -11146,18 +11147,18 @@
   {
     "sourceUrl": "https://www.tahakom.com/careers",
     "orgId": "tahakom",
-    "contentHash": "ec376a0ec88b16e1e5802e09f80a1d602063d98fe1c608510b83a61665f31e8a",
+    "contentHash": "809b02d87d75c39f9056ddfd5e8ddff9f708fde920c51c4f54fd2f4898e0146f",
     "blockHashes": [
       "d44217251213a019",
       "611753a8aea1ade1",
       "0cea4d38306888dc",
       "1a5263a5a2541c46",
-      "b9cab8becf83d9c5"
+      "e33ebf6f7a507f0c"
     ],
-    "extractedChars": 834,
+    "extractedChars": 838,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-03T05:13:40.059Z",
-    "lastChangedISO": "2026-10-02T08:15:42.999Z",
+    "lastChangedISO": "2026-10-02T09:40:24.998Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
