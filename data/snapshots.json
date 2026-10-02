@@ -2192,7 +2192,7 @@
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T02:22:33.828Z",
     "lastChangedISO": "2026-08-29T02:36:21.032Z",
-    "thinRuns": 446,
+    "thinRuns": 447,
     "pendingClassification": false
   },
   {
@@ -2427,19 +2427,19 @@
   {
     "sourceUrl": "https://gaca.gov.sa/web/ar-sa/page/home",
     "orgId": "gaca",
-    "contentHash": "8853e05e161cefd1a4a9c78bbc228490e5d7b0b9508c5f0502fd3ec25c2462e4",
+    "contentHash": "2b8b28d5bc1aa399a53a1194b092f715b53a81e1fb96db5f7a05dcd85fb3dd3e",
     "blockHashes": [
-      "8a6e4ace6b7a508c",
+      "1bc884db418b13d9",
       "67ba147535885b5a",
       "90d5b20a2e1b1c87",
       "98b0f721363b8a74",
       "83a22e1f9fb245f8",
-      "ac473f85e97b4d85"
+      "b56e231e91931f13"
     ],
     "extractedChars": 1607,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-02T01:46:05.123Z",
+    "lastChangedISO": "2026-10-02T04:48:35.524Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -4488,7 +4488,7 @@
   {
     "sourceUrl": "https://training.moj.gov.sa/",
     "orgId": "moj",
-    "contentHash": "f4c6ef6b783b69d09a8f681ad1d80f1df35ef8cb8864917255879208cc305886",
+    "contentHash": null,
     "blockHashes": [
       "84a570379809f573",
       "ab443a0bbfda7883"
@@ -6407,9 +6407,9 @@
   {
     "sourceUrl": "https://www.gaca.gov.sa/",
     "orgId": "gaca",
-    "contentHash": "2ab8c66e3fc36f11b8d9670a7ac3d753973a5e385f9bcc37ade6ec17ca540788",
+    "contentHash": "2b8b28d5bc1aa399a53a1194b092f715b53a81e1fb96db5f7a05dcd85fb3dd3e",
     "blockHashes": [
-      "7eb5a841413b48ad",
+      "1bc884db418b13d9",
       "67ba147535885b5a",
       "90d5b20a2e1b1c87",
       "98b0f721363b8a74",
@@ -6419,7 +6419,7 @@
     "extractedChars": 1607,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-01T22:45:14.780Z",
+    "lastChangedISO": "2026-10-02T04:48:35.524Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -6933,15 +6933,15 @@
       "6f2560b47c07aaba",
       "5f36e870a7ea7b71",
       "f240ebfacade946d",
-      "3504dd75fcdee500"
+      "bb4cbbaf58f9a19b"
     ],
     "extractedChars": 989,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-10-01T22:42:13.767Z",
     "thinRuns": 0,
-    "pendingClassification": true,
-    "classifyFailures": 2
+    "pendingClassification": false,
+    "classifyFailures": 3
   },
   {
     "sourceUrl": "https://www.hrsd.gov.sa/media-center",
@@ -9184,54 +9184,24 @@
   {
     "sourceUrl": "https://www.rcjy.gov.sa/",
     "orgId": "rcjy",
-    "contentHash": "31e2bbefc0169ed3aea11b8d1296a7591a86612860a7e5b1196513b266bde736",
+    "contentHash": "1dbe1adc388a55853f7afda22d907b926ce88c0c68abf2173deaa6257466138d",
     "blockHashes": [
-      "d804c198c79c74e3",
+      "644613a40a964afb",
       "89dd2b4932eb1b3f",
       "13cbcebbcc81e093",
       "3b7b1d015137ba46",
       "9b79443ab3af5eaf",
       "acf3b6ad0bba48d6",
       "e00d796560e000e5",
-      "e7a30602d22cb514",
-      "ed0fb8a31021b860",
-      "1abad7de7bfd77cf",
-      "d6c51200354556d2",
-      "8b1753f3cd99a452",
-      "9e7c24fcce79b62a",
-      "13d534e6dc988df3",
-      "d4878d7817e91d95",
-      "9a2f4e72bd17d8a8",
-      "14aca02818e5b75c",
-      "3d0739fc0a53d794",
-      "dcb1604c9438f042",
-      "9c2bba8223c027cf",
-      "941f0d2f6015d285",
-      "cdf111b6d7fb2443",
-      "f3f5ef84a0a05587",
-      "47a9497510b98b8e",
-      "f05a7161ce8a96f0",
-      "96439bbb9b46a3eb",
-      "1abad7de7bfd77cf",
-      "d6c51200354556d2",
-      "142045fed3ef308c",
-      "ab04b77840ea8728",
-      "60ae0d506caed37c",
-      "8cc8124b196528ab",
-      "3a6601eab298e12c",
-      "eb4c0d1f94799635",
-      "6e370fb845eb1d6c",
-      "44af8a08bef05b05",
-      "b06e12ef2ffec908",
-      "3b8b592a47f82b33",
-      "2515e6c8efbbad67"
+      "997e05b61c23861c"
     ],
-    "extractedChars": 15545,
+    "extractedChars": 2021,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T22:03:35.383Z",
-    "lastChangedISO": "2026-09-29T21:49:43.247Z",
+    "lastChangedISO": "2026-10-02T04:48:35.524Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://www.rcjy.gov.sa/media-center",
