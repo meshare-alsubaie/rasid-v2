@@ -1265,14 +1265,14 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/cookiesettings",
     "orgId": "maaden",
-    "contentHash": "8d8b4ff58edd482959b0f2d9cd06cdd5d3f23bbc2680ca378067ccde373109cd",
+    "contentHash": "d16ed0692bc001921f1190ac2d5f610b9e7b8c53e21d00d83f69e18e5021008b",
     "blockHashes": [
       "dfd3c66b52c38ffe"
     ],
     "extractedChars": 8013,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-02T20:36:56.032Z",
+    "lastChangedISO": "2026-10-02T21:23:09.307Z",
     "thinRuns": 0,
     "pendingClassification": true,
     "classifyFailures": 1
@@ -2068,11 +2068,11 @@
   {
     "sourceUrl": "https://careers.zatca.gov.sa/search/?createNewAlert=false&q=&locationsearch=",
     "orgId": "zatca",
-    "contentHash": "296340eb8556ae662cf52bd5d521820e886ea3ab25257aec597489277256a2fc",
+    "contentHash": "4531aaa4b53d0ae0bac7d390e11326c0cb9910239c8fc2203c2baa2f00c3d58d",
     "blockHashes": [
       "650a2ce183d63c69",
-      "f254f8958ece8b0e",
-      "36fe544e1baf0777",
+      "71c8e0d124592c26",
+      "93fbb87ac5dfb7be",
       "78be07dcda742780",
       "d7e68edbca4492d8",
       "16345d1561ab49e8",
@@ -2088,7 +2088,7 @@
     "extractedChars": 571,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-01T22:45:14.780Z",
+    "lastChangedISO": "2026-10-02T21:23:09.307Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -8063,7 +8063,7 @@
   {
     "sourceUrl": "https://www.mof.gov.sa/GFS/TrainingProgram/Pages/TrainingManual.aspx",
     "orgId": "mof",
-    "contentHash": "ff1cbd4a48093b3622c9c964b9aa37961bfa390fefadd0cb6fbafe8814ff59ed",
+    "contentHash": "8ecb4c6a6ff2bfd4a53b79058425fb5534e47c7cb0f33eee329467d19fc28c24",
     "blockHashes": [
       "7f625851cbbadbc6",
       "f7711325e2c4b301",
@@ -8078,13 +8078,13 @@
       "e449b5a351b550c3",
       "cbefc4238a0555f8"
     ],
-    "extractedChars": 10413,
+    "extractedChars": 10412,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-01T22:36:54.532Z",
+    "lastChangedISO": "2026-10-02T21:23:09.307Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "classifyFailures": 3
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://www.mof.gov.sa/mediacenter/circulars/Pages/default.aspx",
