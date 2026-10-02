@@ -615,7 +615,7 @@
   {
     "sourceUrl": "https://anb.com.sa/web/anb",
     "orgId": "anb",
-    "contentHash": "29e389761974274eb73297ad2ad6a54c904ec7ec5c5ea2ac0d77c0b50fa7b082",
+    "contentHash": "5fc2963d020f09f54bef44cb11a54ad635f0adc45249a1d15dbb354a00b076ce",
     "blockHashes": [
       "8f6a153911b94998",
       "793a466ff765af0e",
@@ -641,12 +641,13 @@
       "aa35354cb63f5aba",
       "9424e025a796a02e"
     ],
-    "extractedChars": 7874,
+    "extractedChars": 7898,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-20T12:34:41.681Z",
+    "lastChangedISO": "2026-10-02T04:44:03.577Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://athkax.sdaia.gov.sa/coop",
@@ -9649,7 +9650,7 @@
   {
     "sourceUrl": "https://www.riyadbank.com/ar/personal-banking",
     "orgId": "riyadbank",
-    "contentHash": "a158d91b4d3bce47c8773bf501327288e006d5c8bce9bc84751a907f61795f8a",
+    "contentHash": "effec4c425908de37d790787396dc7e4ba098e403aad5a5f46972233139bd369",
     "blockHashes": [
       "c5fa97b84e96f11e",
       "3badfc77a66091a4",
@@ -9674,15 +9675,13 @@
       "dd09a93c19a5b408",
       "fc0a22cc81c08834",
       "5ca46b716e2fe884",
-      "5b89998625f6c35a",
-      "4f9d3db32b80f12b",
+      "1d775fb08011859c",
       "303fe28588764a9b",
       "7a8a143470365dc2",
-      "3da50cd1c3c80f72",
-      "75ad41c21fa9b0e1",
+      "960919b7fb63409c",
       "c845d371bfc055e6",
       "e91a2dc79c3ef7ff",
-      "d22dd1cc9b5516ee",
+      "75701b4b0c077673",
       "0b4f6c1a982c9472",
       "cb4329c80213103c",
       "853e155161611ffc",
@@ -9695,10 +9694,10 @@
       "27ab07a2e57dda34",
       "f2f0e16c376080f6"
     ],
-    "extractedChars": 10042,
+    "extractedChars": 10379,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
-    "lastChangedISO": "2026-10-02T01:41:48.495Z",
+    "lastChangedISO": "2026-10-02T04:44:03.577Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -10514,18 +10513,18 @@
   {
     "sourceUrl": "https://www.sidf.gov.sa/Coop",
     "orgId": "sidf",
-    "contentHash": "d8067ff67283e305c466fb54bfae3356de4acc893379173f03e1d49c5ea01ca7",
+    "contentHash": "f74b924db7446f6f183d3873e46820d0c5e51d30a421c3bf02270fe17daa6022",
     "blockHashes": [
       "83c95ea022561b4b",
       "25b3bc91b9810520"
     ],
-    "extractedChars": 314,
+    "extractedChars": 315,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-02T23:42:46.216Z",
-    "lastChangedISO": "2026-10-02T02:04:57.964Z",
+    "lastChangedISO": "2026-10-02T04:44:03.577Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "classifyFailures": 3
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://www.sidf.gov.sa/News",
