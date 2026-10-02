@@ -1279,7 +1279,7 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/search-results",
     "orgId": "maaden",
-    "contentHash": "716ca3ba70363eb4deda0f84d40522e157ba20b25327b550daeefceac920e094",
+    "contentHash": "b08cedcc31b149cf8a36d5201ec5b340c48395555463a0d2a1a792465cdcfec1",
     "blockHashes": [
       "5569201553604d03",
       "6e3cceb54e777f64",
@@ -1291,7 +1291,7 @@
     "extractedChars": 240,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-02T01:36:36.215Z",
+    "lastChangedISO": "2026-10-02T02:23:11.725Z",
     "thinRuns": 0,
     "pendingClassification": true,
     "classifyFailures": 1
@@ -3028,7 +3028,7 @@
   {
     "sourceUrl": "https://misa.gov.sa/ar/media-center/",
     "orgId": "misa",
-    "contentHash": "fdaf35779e1380e5f4b9e714ea4e2f4b1d99f3ee29eafa778abf5f4b6616e30a",
+    "contentHash": "a4e6c7f2266933904ff1df63f24b0bb54144ab1274c89ad5b764d7e581dab31d",
     "blockHashes": [
       "d0ada1cfc277849f",
       "a281540e00ca3f91",
@@ -3037,16 +3037,17 @@
       "fbf14001d6955cac",
       "2ad8d6e6e7d32cb1",
       "d7f5b0da295cf61a",
-      "a3fcc915d4591b88",
+      "186146cb8778a234",
       "24138831fdb4c564",
       "f43b8bd75a8e0f61"
     ],
     "extractedChars": 347,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-30T20:59:10.280Z",
+    "lastChangedISO": "2026-10-02T02:17:29.183Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://misa.gov.sa/ar/media-center/announcements/",
@@ -8713,8 +8714,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-10-01T23:13:27.965Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.nazaha.gov.sa/News/Details?q=LDqaftYCK2agKydxrbY5fg==",
