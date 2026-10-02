@@ -902,11 +902,11 @@
   {
     "sourceUrl": "https://futureskills.mcit.gov.sa/ar/catalogue/all",
     "orgId": "mcit",
-    "lastAttemptISO": "2026-10-02T03:30:38.679Z",
-    "lastSuccessISO": "2026-10-02T02:44:32.097Z",
-    "consecutiveFailures": 1,
-    "lastError": "The operation was aborted due to timeout",
-    "state": "degraded"
+    "lastAttemptISO": "2026-10-02T04:19:16.461Z",
+    "lastSuccessISO": "2026-10-02T04:19:16.461Z",
+    "consecutiveFailures": 0,
+    "lastError": null,
+    "state": "healthy"
   },
   {
     "sourceUrl": "https://futureskills.mcit.gov.sa/ar/coop-training",
@@ -1199,8 +1199,8 @@
   {
     "sourceUrl": "https://misa.gov.sa/ar/",
     "orgId": "misa",
-    "lastAttemptISO": "2026-10-01T22:21:27.091Z",
-    "lastSuccessISO": "2026-10-01T22:21:27.091Z",
+    "lastAttemptISO": "2026-10-02T04:22:24.697Z",
+    "lastSuccessISO": "2026-10-02T04:22:24.697Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -1811,8 +1811,8 @@
   {
     "sourceUrl": "https://tvtc.gov.sa/",
     "orgId": "tvtc",
-    "lastAttemptISO": "2026-10-01T22:21:27.091Z",
-    "lastSuccessISO": "2026-10-01T22:21:27.091Z",
+    "lastAttemptISO": "2026-10-02T04:22:24.697Z",
+    "lastSuccessISO": "2026-10-02T04:22:24.697Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -1892,8 +1892,8 @@
   {
     "sourceUrl": "https://wasatah.com.sa/media-center/",
     "orgId": "wasatah",
-    "lastAttemptISO": "2026-10-02T03:35:47.278Z",
-    "lastSuccessISO": "2026-10-02T03:35:47.278Z",
+    "lastAttemptISO": "2026-10-02T04:21:20.981Z",
+    "lastSuccessISO": "2026-10-02T04:21:20.981Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -1946,9 +1946,9 @@
   {
     "sourceUrl": "https://www.alahli.com/ar/pages/about-us/careers/snb-cooperative-training-program",
     "orgId": "snb",
-    "lastAttemptISO": "2026-10-02T03:21:47.448Z",
+    "lastAttemptISO": "2026-10-02T04:22:24.697Z",
     "lastSuccessISO": "2026-09-16T20:27:46.519Z",
-    "consecutiveFailures": 167,
+    "consecutiveFailures": 168,
     "lastError": "fetch failed",
     "state": "broken"
   },
@@ -3683,8 +3683,8 @@
   {
     "sourceUrl": "https://www.sirar.com.sa/",
     "orgId": "sirar",
-    "lastAttemptISO": "2026-10-01T22:21:27.091Z",
-    "lastSuccessISO": "2026-10-01T22:21:27.091Z",
+    "lastAttemptISO": "2026-10-02T04:22:24.697Z",
+    "lastSuccessISO": "2026-10-02T04:22:24.697Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
