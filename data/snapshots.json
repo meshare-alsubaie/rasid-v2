@@ -3699,20 +3699,20 @@
   {
     "sourceUrl": "https://ndf.gov.sa/media-center",
     "orgId": "ndf",
-    "contentHash": "32c7cd00cb1e170d9b73c33877d73cd0d0640ab890b6394b54aed37a96f82255",
+    "contentHash": "2663cf70fe0e32c11465086b51d73a29cf2e78553a522be7bf915f9fbe2c21aa",
     "blockHashes": [
       "c481fb92bd40beb7",
       "fb0d9256a76422f3",
       "eeac3e91395fd6e9",
       "4e9c4cce16fbbdd4"
     ],
-    "extractedChars": 3950,
+    "extractedChars": 3949,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-01T23:37:01.370Z",
+    "lastChangedISO": "2026-10-02T22:03:59.724Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "classifyFailures": 3
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://ndf.gov.sa/media-center/annual-reports",
@@ -4478,7 +4478,7 @@
   {
     "sourceUrl": "https://training.moj.gov.sa/",
     "orgId": "moj",
-    "contentHash": null,
+    "contentHash": "f4c6ef6b783b69d09a8f681ad1d80f1df35ef8cb8864917255879208cc305886",
     "blockHashes": [
       "84a570379809f573",
       "ab443a0bbfda7883"
@@ -4486,7 +4486,7 @@
     "extractedChars": 481,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T02:31:49.455Z",
-    "lastChangedISO": "2026-10-02T18:10:52.329Z",
+    "lastChangedISO": "2026-10-02T22:03:59.724Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -7995,7 +7995,7 @@
   {
     "sourceUrl": "https://www.mof.gov.sa/eservices/Loans/Pages/Lending_Educational_Projects.aspx",
     "orgId": "mof",
-    "contentHash": "8b4090193a49ea95f05072bb6789024cf3c90d4175547246ef481d0cc9e71eca",
+    "contentHash": "907117f8bdd8021b7feba333a98c9da401780ab75d526ac9361ed1fc696fd4a1",
     "blockHashes": [
       "7f625851cbbadbc6",
       "f7711325e2c4b301",
@@ -8056,10 +8056,10 @@
     "extractedChars": 8294,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-01T23:17:51.352Z",
+    "lastChangedISO": "2026-10-02T22:03:59.724Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "classifyFailures": 3
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://www.mof.gov.sa/GFS/TrainingProgram/Pages/TrainingManual.aspx",
@@ -11142,18 +11142,18 @@
   {
     "sourceUrl": "https://www.tahakom.com/careers",
     "orgId": "tahakom",
-    "contentHash": "66a1b215d71b598e5c8f4def386779d5d875b8060e2f1e761d7fed159451f4b0",
+    "contentHash": "cdc6e715febd70ac89e4ace8f3b65185ba7bfab54fda1908fc17c2332d9ecb2f",
     "blockHashes": [
       "d44217251213a019",
       "611753a8aea1ade1",
       "0cea4d38306888dc",
       "1a5263a5a2541c46",
-      "264d6b3abc2256d1"
+      "da33eb4a1bacafc3"
     ],
-    "extractedChars": 838,
+    "extractedChars": 836,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-03T05:13:40.059Z",
-    "lastChangedISO": "2026-10-02T21:18:41.022Z",
+    "lastChangedISO": "2026-10-02T22:03:59.724Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
