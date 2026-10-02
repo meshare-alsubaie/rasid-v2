@@ -687,7 +687,7 @@
   {
     "sourceUrl": "https://awqaf.gov.sa/ar/hiring",
     "orgId": "awqaf",
-    "contentHash": "f81cb521c7b2498aa44e3842d6f1a438b5bb911c54e39626b520da173047ad9e",
+    "contentHash": "726571d7bd80fabaff64094dde9caae16fbfb15ce850b0da94679f2441998b85",
     "blockHashes": [
       "7364f70c455dc78c",
       "c804732dd480d71a",
@@ -709,9 +709,10 @@
     "extractedChars": 1972,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-02T07:34:50.824Z",
+    "lastChangedISO": "2026-10-02T10:43:44.362Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://awqaf.gov.sa/ar/media-center/achievements-awards",
@@ -2353,9 +2354,9 @@
   {
     "sourceUrl": "https://gaca.gov.sa/news",
     "orgId": "gaca",
-    "contentHash": "c78bbffd0ed2d480d51bfc8bbc874266858488dede3b6a68c86d6d0b4f212918",
+    "contentHash": "b47ee0fb457191c6ea64d82a6663c423382ba78fa7deceb5648de42fe291a0e7",
     "blockHashes": [
-      "9548a34770969119",
+      "860e2d5a1567a25f",
       "7de8ea5de5c99977",
       "8587b2ba02f096c6",
       "6382e3437605c55d",
@@ -2424,12 +2425,13 @@
       "83a22e1f9fb245f8",
       "bc532942aaed49b7"
     ],
-    "extractedChars": 21037,
+    "extractedChars": 21036,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-02T07:34:50.824Z",
+    "lastChangedISO": "2026-10-02T10:43:44.362Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://gaca.gov.sa/web/ar-sa/page/home",
@@ -3252,7 +3254,7 @@
   {
     "sourceUrl": "https://momah.gov.sa/ar/form/partnerships-and-cooperation",
     "orgId": "housing",
-    "contentHash": "683af412dd89717fedb6c50e629e1b35c2f6230eac09fa83a70f4d033a5b2f66",
+    "contentHash": "760502b15d519b12008fdf891a8f253c307bb436a665863d1d1da02da4a51a00",
     "blockHashes": [
       "bc22896c0dc046da",
       "d2009185b8a1a230",
@@ -3285,9 +3287,10 @@
     "extractedChars": 151367,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-02T07:34:50.824Z",
+    "lastChangedISO": "2026-10-02T10:43:44.362Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://momah.gov.sa/ar/menu/media-center",
@@ -6641,7 +6644,7 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/news?lang=ar",
     "orgId": "hrc",
-    "contentHash": "461efc9543f0b254856690ae8787e5004f0ad92c46e8ff29c2ad93871acc42d9",
+    "contentHash": "385af32b08a3766623b6a8c30138a6d3d71eba7341cb9b7d2421d935d22265b3",
     "blockHashes": [
       "12e41a244a8a2984",
       "0345d20b7ab98d94",
@@ -6672,9 +6675,10 @@
     "extractedChars": 5230,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-02T07:34:50.824Z",
+    "lastChangedISO": "2026-10-02T10:43:44.362Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://www.hrdf.org.sa/products-and-services/programs/individuals/training/cooperative-training/",
@@ -10199,17 +10203,17 @@
   {
     "sourceUrl": "https://www.se.com.sa/nh",
     "orgId": "sec",
-    "contentHash": "d290ed5e964a6cd7a034c4ffa072a37897244459346603bcbcbce7f0cd6b78c8",
+    "contentHash": "8ded396959e5ee36c601c335deb9f9ee779922f9bb74faf2daf3e45ba78991d0",
     "blockHashes": [
       "29ebacf6d27888a5",
       "33ac0ac2b2a350b8"
     ],
-    "extractedChars": 625,
+    "extractedChars": 1173,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-03T05:13:40.059Z",
-    "lastChangedISO": "2026-10-02T07:34:50.824Z",
+    "lastChangedISO": "2026-10-02T10:43:44.362Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.seec.gov.sa/",
