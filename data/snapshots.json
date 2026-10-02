@@ -1280,7 +1280,7 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/search-results",
     "orgId": "maaden",
-    "contentHash": "765bcd72897c9ecb024eb6ee8131def169b6744e0b1222a6a7906bdfd7966a4b",
+    "contentHash": "d0ef648d9270a6bcfcd8b7b1052c8c66b23aa186cd72ea5d6be3b3bf154642b9",
     "blockHashes": [
       "5569201553604d03",
       "6e3cceb54e777f64",
@@ -1289,10 +1289,10 @@
       "4b38b13a1a4ebcc4",
       "6a65307d2d5065d3"
     ],
-    "extractedChars": 494,
+    "extractedChars": 240,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-02T08:15:42.999Z",
+    "lastChangedISO": "2026-10-02T09:57:20.462Z",
     "thinRuns": 0,
     "pendingClassification": true,
     "classifyFailures": 1
@@ -2199,7 +2199,7 @@
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T02:22:33.828Z",
     "lastChangedISO": "2026-08-29T02:36:21.032Z",
-    "thinRuns": 451,
+    "thinRuns": 452,
     "pendingClassification": false
   },
   {
@@ -7661,12 +7661,12 @@
   {
     "sourceUrl": "https://www.mewa.gov.sa/ar/MediaCenter/PressReleases/Pages/home.aspx",
     "orgId": "mewa",
-    "contentHash": "87b04a74a00e4bb2aaba22b0e211935a339cf5c9dd5f89d15ffeba997dc16b19",
+    "contentHash": "ebe501a83b7f0453710b83ddc5a3846c49d5a7362f714c9843a440170cab8679",
     "blockHashes": [
       "12e41a244a8a2984",
       "c804732dd480d71a",
       "74e4c1d2a646a96e",
-      "e3fc0aac19bc50e9",
+      "d8532a66a770c2db",
       "eaca30400015cdec",
       "b957f376a744a274",
       "0116fe72794c37b1",
@@ -7674,12 +7674,13 @@
       "e61f71e158b8fcbd",
       "c36ce57653eabf38"
     ],
-    "extractedChars": 1396,
+    "extractedChars": 1394,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-01T23:40:17.845Z",
+    "lastChangedISO": "2026-10-02T09:57:20.462Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://www.mewa.gov.sa/ar/MediaCenter/VisualIdentityGuide/Pages/default.aspx",
