@@ -3488,15 +3488,15 @@
     "orgId": "nca",
     "contentHash": "940629cc046fc50c143a5e91561094ea8685ddf9daed17295f0adc88a6f90869",
     "blockHashes": [
-      "15d93a4b84b356b5"
+      "940629cc046fc50c"
     ],
     "extractedChars": 607,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-10-02T14:52:00.190Z",
     "thinRuns": 0,
-    "pendingClassification": true,
-    "classifyFailures": 2
+    "pendingClassification": false,
+    "classifyFailures": 3
   },
   {
     "sourceUrl": "https://nca.gov.sa/ar/cyber-training-and-qualifications/",
@@ -4475,7 +4475,7 @@
   {
     "sourceUrl": "https://training.moj.gov.sa/",
     "orgId": "moj",
-    "contentHash": null,
+    "contentHash": "f4c6ef6b783b69d09a8f681ad1d80f1df35ef8cb8864917255879208cc305886",
     "blockHashes": [
       "84a570379809f573",
       "ab443a0bbfda7883"
@@ -4483,7 +4483,7 @@
     "extractedChars": 481,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T02:31:49.455Z",
-    "lastChangedISO": "2026-10-02T15:02:22.723Z",
+    "lastChangedISO": "2026-10-02T18:10:52.329Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -9358,13 +9358,13 @@
   {
     "sourceUrl": "https://www.rcrc.gov.sa/news-ar/",
     "orgId": "rcrc",
-    "contentHash": "727f7e6594c5f668e72228af8d527c2cb155a82df03382d7360a2b69a7562a43",
+    "contentHash": "ba15008a65ba726efd0bbfce09f30b778ac8b4b84e79b8feb7694e772cf86a86",
     "blockHashes": [
       "dd62229c2f61fb42",
       "306db3646b8a6c73",
       "b28682d0a5fa37ed",
       "41119cfb2e484e34",
-      "63537867ef081f66",
+      "0eca7553af9aaf61",
       "dd5bfb74e89dbbdd",
       "b32d68c4e5c2da0f",
       "b91cd7f4edfa88d2",
@@ -9377,7 +9377,7 @@
     "extractedChars": 3417,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-02T15:04:43.624Z",
+    "lastChangedISO": "2026-10-02T18:06:24.477Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
