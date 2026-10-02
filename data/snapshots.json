@@ -1393,7 +1393,7 @@
     "lastChangedISO": "2026-10-01T22:47:48.062Z",
     "thinRuns": 0,
     "pendingClassification": true,
-    "classifyFailures": 1
+    "classifyFailures": 2
   },
   {
     "sourceUrl": "https://careers.rcjy.gov.sa/ar/job-search-results/",
@@ -3096,7 +3096,7 @@
   {
     "sourceUrl": "https://misa.gov.sa/ar/news/latest-news/",
     "orgId": "misa",
-    "contentHash": "cb388b1c9d70a2c335ba442da15a367395ffcf6079b34f7d8700c20f33d87355",
+    "contentHash": "d861e653d1fefabb218aee813e661c02f3f08f56e1472e24744cd44f65571407",
     "blockHashes": [
       "d0ada1cfc277849f",
       "a281540e00ca3f91",
@@ -3104,16 +3104,17 @@
       "2238ea752f3b01ed",
       "2168d21a20a103b4",
       "d7f5b0da295cf61a",
-      "a3fcc915d4591b88",
+      "186146cb8778a234",
       "24138831fdb4c564",
       "f43b8bd75a8e0f61"
     ],
     "extractedChars": 1648,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-30T20:07:21.460Z",
+    "lastChangedISO": "2026-10-02T01:49:50.675Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://modon.gov.sa/",
