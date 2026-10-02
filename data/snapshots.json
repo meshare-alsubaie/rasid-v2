@@ -3683,15 +3683,15 @@
     "orgId": "ndf",
     "contentHash": "133e1379b4c1d2dada372fb28c0f251f4b046fd2e1d7c1e8f16f375940957fe5",
     "blockHashes": [
-      "a2f1bfb5a84875ef"
+      "133e1379b4c1d2da"
     ],
     "extractedChars": 3077,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-10-01T22:28:04.787Z",
     "thinRuns": 0,
-    "pendingClassification": true,
-    "classifyFailures": 2
+    "pendingClassification": false,
+    "classifyFailures": 3
   },
   {
     "sourceUrl": "https://ndf.gov.sa/media-center",
@@ -10401,7 +10401,7 @@
   {
     "sourceUrl": "https://www.sfda.gov.sa/en/career-vision-and-mission",
     "orgId": "sfda",
-    "contentHash": "6c8291de52343a0b5a4f15c2810992d14cd3c8fe51e1059b9e94e3ce06fb4c89",
+    "contentHash": "518f6c4d204741871c43bda89940543274c265b197f0c11e48e165e160502c9e",
     "blockHashes": [
       "4e3b1c94f76f8148",
       "81b0c5aab557016e",
@@ -10420,10 +10420,10 @@
     "extractedChars": 997,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-01T11:25:31.070Z",
+    "lastChangedISO": "2026-10-02T11:08:08.440Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "classifyFailures": 3
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://www.sidf.gov.sa/ar/News",
@@ -10769,7 +10769,7 @@
   {
     "sourceUrl": "https://www.stats.gov.sa/en/news",
     "orgId": "gastat",
-    "contentHash": "4b6fae5944eb643fbb36fd33ceb73c6340cdf119831160df3ae6006e9e411b5b",
+    "contentHash": "bc1bab36b3f6f0259b129009b1d772c492472dd28740b84de3614750e96040e3",
     "blockHashes": [
       "b7ce6498ecbc7c40",
       "c76bf99f8551a732",
@@ -11087,10 +11087,10 @@
       "00f2cdb2123b002f",
       "130941fb4f3fdf0d"
     ],
-    "extractedChars": 97494,
+    "extractedChars": 38856,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-02T09:40:24.998Z",
+    "lastChangedISO": "2026-10-02T11:08:08.440Z",
     "thinRuns": 0,
     "pendingClassification": true,
     "classifyFailures": 1
@@ -11130,8 +11130,7 @@
     "firstSeenISO": "2026-09-03T05:13:40.059Z",
     "lastChangedISO": "2026-10-02T04:32:38.126Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.tahakom.com/careers",
