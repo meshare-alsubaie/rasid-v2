@@ -2271,9 +2271,9 @@
   {
     "sourceUrl": "https://gaca.gov.sa/ar/News",
     "orgId": "gaca",
-    "contentHash": "edb9db1d810c62be04ccaa6a94099a0994fb5a753ff24749c883160b382e68c0",
+    "contentHash": "6ee5394d6ce768c33a6caf93d53d821996aa84787a09b828fe1f47ec927a90e6",
     "blockHashes": [
-      "6a8e02871fa7c9d7",
+      "7bab9b98ed9fb4ee",
       "7de8ea5de5c99977",
       "8587b2ba02f096c6",
       "6382e3437605c55d",
@@ -2345,7 +2345,7 @@
     "extractedChars": 21036,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-02T18:26:14.583Z",
+    "lastChangedISO": "2026-10-02T21:29:00.791Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -2787,7 +2787,7 @@
   {
     "sourceUrl": "https://master-works.sa/en/Careers",
     "orgId": "masterworks",
-    "contentHash": "6bcb8cea3d0c5d7627e58e548fc05dbbbe6756cf9eea530f575fff3189b36e09",
+    "contentHash": "c5252cd6d8c8ff8213a0200cac02d72e594b7da4b41c7c57bd7923c4504f5575",
     "blockHashes": [
       "c19fdf7e3667103a",
       "2f85ed2f4f25eb16",
@@ -2804,9 +2804,10 @@
     "extractedChars": 1493,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T22:03:35.383Z",
-    "lastChangedISO": "2026-08-31T00:02:49.563Z",
+    "lastChangedISO": "2026-10-02T21:29:00.791Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://master-works.sa/en/Insights",
@@ -3327,8 +3328,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-10-02T18:26:14.583Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://momah.gov.sa/ar/news",
@@ -6539,7 +6539,7 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/careers/graduate-development-program",
     "orgId": "hrc",
-    "contentHash": "35b8ebd3cda490fc62b2eb7d5248cbe3c8a027cbb1ede6879a205ed6ad4c71c2",
+    "contentHash": "dec41b66ff2e7a8d4b73c85ff3e71d41508df1dd808e4a19d12ad51fd595c527",
     "blockHashes": [
       "12e41a244a8a2984",
       "102d8abc1a4219ae",
@@ -6608,7 +6608,7 @@
     "extractedChars": 10689,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-02T18:26:14.583Z",
+    "lastChangedISO": "2026-10-02T21:29:00.791Z",
     "thinRuns": 0,
     "pendingClassification": true,
     "classifyFailures": 1
