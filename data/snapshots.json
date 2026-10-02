@@ -2142,7 +2142,7 @@
     "lastChangedISO": "2026-10-01T22:50:16.573Z",
     "thinRuns": 0,
     "pendingClassification": true,
-    "classifyFailures": 1
+    "classifyFailures": 2
   },
   {
     "sourceUrl": "https://e-services.hrc.gov.sa/ar/service/details/12",
@@ -2927,7 +2927,7 @@
   {
     "sourceUrl": "https://mcit.gov.sa/ar",
     "orgId": "mcit",
-    "contentHash": "27e27fbafbdf24faf1dd52ea485ffe268a6758c00e35d645803f420c901ab1db",
+    "contentHash": "3043b75e21f78cc6c801e3d57f9998b14b97059ea707eeedb8ca5f4c42eec28f",
     "blockHashes": [
       "6617bc374892d803",
       "03e38c61487b2895",
@@ -2951,13 +2951,13 @@
       "17ce54dfea894c34",
       "782261474561a27a"
     ],
-    "extractedChars": 6938,
+    "extractedChars": 6937,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-01T10:05:02.430Z",
+    "lastChangedISO": "2026-10-02T04:53:09.476Z",
     "thinRuns": 0,
     "pendingClassification": true,
-    "classifyFailures": 2
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://mep.gov.sa/ar",
@@ -11182,21 +11182,21 @@
   {
     "sourceUrl": "https://www.taifcity.gov.sa/#/ar",
     "orgId": "taif_amanah",
-    "contentHash": "9047de99980fee8c416074edce1bff3b5ddf1f47da7e79a7f3ea3b5533fec7c3",
+    "contentHash": "87ef79fc299e061372185df0c4b0e4eb85d0476d780c982bb72145f41bab41a5",
     "blockHashes": [
       "969f0f9d8129003d",
-      "e4501e56580ffe94",
+      "4185b698a686ddc8",
       "cfc879cec72d1d12",
       "acda1eb1130c44f0",
       "8554e1d0ca772440"
     ],
-    "extractedChars": 693,
+    "extractedChars": 242,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T23:54:26.779Z",
-    "lastChangedISO": "2026-10-01T22:50:16.573Z",
+    "lastChangedISO": "2026-10-02T04:53:09.476Z",
     "thinRuns": 0,
-    "pendingClassification": true,
-    "classifyFailures": 1
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://www.thiqah.sa/",
