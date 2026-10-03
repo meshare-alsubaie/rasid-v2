@@ -2313,17 +2313,17 @@
   {
     "sourceUrl": "https://gaca.gov.sa/ar/announcements",
     "orgId": "gaca",
-    "contentHash": "6ac620caa4c19301a1f30c51350ff70cde30188f29f2fbf718a54146f350b555",
+    "contentHash": "04ad527b855b0a08996d9124d66c74ff02d42ced249f71a0c4c5f9e26b980492",
     "blockHashes": [
-      "909dbebf6ad64aa5",
+      "741edbcd815eaad6",
       "9c2a3967149440a8",
       "83a22e1f9fb245f8",
       "bc532942aaed49b7"
     ],
-    "extractedChars": 242,
-    "extractionMethod": "readability",
+    "extractedChars": 1211,
+    "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-03T04:20:51.563Z",
+    "lastChangedISO": "2026-10-03T07:33:18.805Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -6669,10 +6669,10 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/cooperations?lang=ar",
     "orgId": "hrc",
-    "contentHash": "930a9e04cf03075951c6a30765a53637bff15cf0765274eaca37530727d6c360",
+    "contentHash": "c72fe8fc401c49fb461c2d5b909b935ad754fb0e788b7550effc3902f6a2e8ab",
     "blockHashes": [
       "12e41a244a8a2984",
-      "fb9ee367b1a13bbe",
+      "3a104490395a79f7",
       "15c715928fc246c0",
       "9a4a215f8452ca45",
       "961639689d2c8819",
@@ -6693,10 +6693,9 @@
     "extractedChars": 6137,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-03T04:20:51.563Z",
+    "lastChangedISO": "2026-10-03T07:33:18.805Z",
     "thinRuns": 0,
-    "pendingClassification": true,
-    "classifyFailures": 1
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/news?lang=ar",
@@ -7965,7 +7964,7 @@
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-20T12:59:49.059Z",
-    "thinRuns": 63,
+    "thinRuns": 64,
     "pendingClassification": false
   },
   {
