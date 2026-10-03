@@ -3732,20 +3732,21 @@
   {
     "sourceUrl": "https://ndf.gov.sa/media-center/articles",
     "orgId": "ndf",
-    "contentHash": "fdefbf3c4b3e41a9484d0ab012c35c5b4a6f3cbeefc7a405e0e1ffaa383fee71",
+    "contentHash": "5e05dfe0737ffd1b4b32a074e8557499982622fc7435e170f3cabe6da962f665",
     "blockHashes": [
-      "6852cfea67e64a27",
+      "a77f7eee57a614d7",
       "b4a5c7cd60560196",
       "4c268b289192e891",
       "d91f8453abc8bd97",
       "0e33f45837a3e364"
     ],
-    "extractedChars": 4076,
+    "extractedChars": 4075,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-01T23:49:55.212Z",
+    "lastChangedISO": "2026-10-03T00:59:27.953Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://ndf.gov.sa/media-center/articles/article-human-resource-development",
@@ -8095,11 +8096,11 @@
   {
     "sourceUrl": "https://www.mof.gov.sa/mediacenter/circulars/Pages/default.aspx",
     "orgId": "mof",
-    "contentHash": "0c81dbc4cec26f4f6a404731959d46be4db6359554b8b83cb763269102f98beb",
+    "contentHash": "5514e111c9d894ea46cba0e00f605d10ed1e0718d2ccec2697f354a8ee6ee0b2",
     "blockHashes": [
       "7f625851cbbadbc6",
       "f7711325e2c4b301",
-      "1e45db1bdd254936",
+      "3fe0d97398aaf7f5",
       "0a7729c3519a2869",
       "823083d8a41b1af9",
       "14b74bd8d07833ff",
@@ -8120,12 +8121,13 @@
       "e449b5a351b550c3",
       "3942beff5570c1da"
     ],
-    "extractedChars": 12243,
+    "extractedChars": 12242,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-01T22:22:53.232Z",
+    "lastChangedISO": "2026-10-03T00:59:27.953Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://www.mof.gov.sa/mediacenter/events/Pages/CalEvent.aspx",
@@ -8702,11 +8704,11 @@
   {
     "sourceUrl": "https://www.nazaha.gov.sa/News/Details?q=LDqaftYCK2agKydxrbY5fg==",
     "orgId": "nazaha",
-    "contentHash": "bb80b4bc1ec5541589d6fe06eaae5a1831ad814caa7fc1851c1e078badb05316",
+    "contentHash": "4d845e21a5046cbd667f1d7ac7ad069b33ee7d8679e0c0fa9af794dd2327c323",
     "blockHashes": [
       "a167b0dd9b0e3e1c",
       "74e4c1d2a646a96e",
-      "cb6c7f96b768f235",
+      "e3cbc9265f347886",
       "6eca9a7e8f445a2e",
       "fcc9ab0ce14a3013",
       "b66c27af464bcada"
@@ -8714,9 +8716,10 @@
     "extractedChars": 1140,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-01T23:26:54.977Z",
+    "lastChangedISO": "2026-10-03T00:59:27.953Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://www.nazaha.gov.sa/News/Details?q=o2ojUlDL5mGosOuEoGXXeg==",
@@ -10783,7 +10786,7 @@
   {
     "sourceUrl": "https://www.stats.gov.sa/en/news",
     "orgId": "gastat",
-    "contentHash": "7be45902128e6a05692e56c3a12e777a03248617908a3e8630650e092355a1f2",
+    "contentHash": "9062c6c2cae19028f0a8011f9caf0b590249d3e91b80924b4027e2a47a82493f",
     "blockHashes": [
       "b7ce6498ecbc7c40",
       "c76bf99f8551a732",
@@ -11101,10 +11104,10 @@
       "00f2cdb2123b002f",
       "130941fb4f3fdf0d"
     ],
-    "extractedChars": 97494,
+    "extractedChars": 38856,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-02T22:25:59.903Z",
+    "lastChangedISO": "2026-10-03T00:59:27.953Z",
     "thinRuns": 0,
     "pendingClassification": true,
     "classifyFailures": 1
