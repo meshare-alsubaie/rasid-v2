@@ -2434,9 +2434,9 @@
   {
     "sourceUrl": "https://gaca.gov.sa/web/ar-sa/page/home",
     "orgId": "gaca",
-    "contentHash": "b36311d98822ada8a65749ab589eb82cba2ea1e250c5d0f5d592480ac556b1d5",
+    "contentHash": "a2f4de97d1ed3b17719803e02d3010944d374099d2bebd1fbfce3572f0862f0b",
     "blockHashes": [
-      "b63661cf2d4de714",
+      "2c856d1c0060b980",
       "67ba147535885b5a",
       "90d5b20a2e1b1c87",
       "98b0f721363b8a74",
@@ -2446,7 +2446,7 @@
     "extractedChars": 1607,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-03T01:03:06.247Z",
+    "lastChangedISO": "2026-10-03T04:05:22.484Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -3741,8 +3741,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-10-03T00:59:27.953Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://ndf.gov.sa/media-center/articles/article-human-resource-development",
@@ -4169,7 +4168,7 @@
     "lastChangedISO": "2026-10-03T02:55:54.214Z",
     "thinRuns": 0,
     "pendingClassification": true,
-    "classifyFailures": 1
+    "classifyFailures": 2
   },
   {
     "sourceUrl": "https://slccareers.kpmg.com/job/Beirut-Experienced-External-Auditor/857312523/",
@@ -6433,10 +6432,10 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/all_branches_news?lang=ar",
     "orgId": "hrc",
-    "contentHash": "7b0d107adb5b6a8cbf24529be3b1ab023497f88668f25b2a436dfb5c16c34b7b",
+    "contentHash": "a4ab0daa60e64160a1556f83d9acaf5d9e40a1354fac1b8d441739c3229e57f4",
     "blockHashes": [
       "12e41a244a8a2984",
-      "f2281fd132974baa",
+      "677a1e2be8391df3",
       "f1bdac7ad7f0ff22",
       "eada9065fc805384",
       "affd75c0a04d2d7f",
@@ -6462,7 +6461,7 @@
     "extractedChars": 5187,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-03T01:03:06.247Z",
+    "lastChangedISO": "2026-10-03T04:05:22.484Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -8713,8 +8712,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-10-03T00:59:27.953Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.nazaha.gov.sa/News/Details?q=o2ojUlDL5mGosOuEoGXXeg==",
@@ -9354,13 +9352,13 @@
   {
     "sourceUrl": "https://www.rcrc.gov.sa/news-ar/",
     "orgId": "rcrc",
-    "contentHash": "568fc6a5de07fa6200a51d4be62cf0c1a9769646a6bbf7b407b739cec5d206f3",
+    "contentHash": "2d6f4eac348eb091b92ffddbdfd804bde7b2986e0410bd6e9f7e1c337e3b1054",
     "blockHashes": [
       "dd62229c2f61fb42",
       "306db3646b8a6c73",
       "b28682d0a5fa37ed",
       "41119cfb2e484e34",
-      "1c20ee73a1c69e72",
+      "f8a28fd3f81cdf72",
       "dd5bfb74e89dbbdd",
       "b32d68c4e5c2da0f",
       "b91cd7f4edfa88d2",
@@ -9373,7 +9371,7 @@
     "extractedChars": 3417,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-03T01:03:06.247Z",
+    "lastChangedISO": "2026-10-03T04:05:22.484Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
