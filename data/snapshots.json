@@ -662,8 +662,8 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-10-02T21:11:14.121Z",
     "thinRuns": 0,
-    "pendingClassification": true,
-    "classifyFailures": 2
+    "pendingClassification": false,
+    "classifyFailures": 3
   },
   {
     "sourceUrl": "https://awqaf.gov.sa/ar/ar/hiring/",
@@ -1265,14 +1265,14 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/cookiesettings",
     "orgId": "maaden",
-    "contentHash": "08c0765913f8813a19f11ac3ae6891efc525c9e9b397444222cd1b6cdb5e6822",
+    "contentHash": "770b9880fca9ae2c2fa366ade5fd37b27e0a633faf7212cc4d7e9524709ffef4",
     "blockHashes": [
       "dfd3c66b52c38ffe"
     ],
-    "extractedChars": 8013,
+    "extractedChars": 221,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-02T22:08:39.635Z",
+    "lastChangedISO": "2026-10-03T00:37:12.764Z",
     "thinRuns": 0,
     "pendingClassification": true,
     "classifyFailures": 1
@@ -4478,7 +4478,7 @@
   {
     "sourceUrl": "https://training.moj.gov.sa/",
     "orgId": "moj",
-    "contentHash": "f4c6ef6b783b69d09a8f681ad1d80f1df35ef8cb8864917255879208cc305886",
+    "contentHash": null,
     "blockHashes": [
       "84a570379809f573",
       "ab443a0bbfda7883"
@@ -9323,14 +9323,14 @@
   {
     "sourceUrl": "https://www.rcrc.gov.sa/careers/?lang=ar",
     "orgId": "rcrc",
-    "contentHash": "b74deed059456c05bea0badba22606c8ced96f2af4d6a3c8a0a6a5092b7354fa",
+    "contentHash": "c601a1edade6d053d443481b3580ff9b12919f79cc28f3efe82bb7a4724a6fc3",
     "blockHashes": [
       "e00f06d0fdb401d5"
     ],
-    "extractedChars": 784,
+    "extractedChars": 1166,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-02T22:11:00.963Z",
+    "lastChangedISO": "2026-10-03T00:37:12.764Z",
     "thinRuns": 0,
     "pendingClassification": true,
     "classifyFailures": 1
@@ -11143,18 +11143,18 @@
   {
     "sourceUrl": "https://www.tahakom.com/careers",
     "orgId": "tahakom",
-    "contentHash": "cdc6e715febd70ac89e4ace8f3b65185ba7bfab54fda1908fc17c2332d9ecb2f",
+    "contentHash": "a9b0253c483902a00645b630b2cbbfa1a6bf43b8378a82c3ac4c901491886ea6",
     "blockHashes": [
       "d44217251213a019",
       "611753a8aea1ade1",
       "0cea4d38306888dc",
       "1a5263a5a2541c46",
-      "da33eb4a1bacafc3"
+      "7ff616a2455f75c9"
     ],
-    "extractedChars": 836,
+    "extractedChars": 838,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-03T05:13:40.059Z",
-    "lastChangedISO": "2026-10-02T22:03:59.724Z",
+    "lastChangedISO": "2026-10-03T00:37:12.764Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
