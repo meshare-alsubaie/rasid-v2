@@ -2271,9 +2271,9 @@
   {
     "sourceUrl": "https://gaca.gov.sa/ar/News",
     "orgId": "gaca",
-    "contentHash": "6ee5394d6ce768c33a6caf93d53d821996aa84787a09b828fe1f47ec927a90e6",
+    "contentHash": "7c1536b532aedf447f37f819c6b1764f4cb5028fe676db4d3d92314cae8b79e9",
     "blockHashes": [
-      "7bab9b98ed9fb4ee",
+      "f4f9e10432e1df2f",
       "7de8ea5de5c99977",
       "8587b2ba02f096c6",
       "6382e3437605c55d",
@@ -2340,12 +2340,12 @@
       "89325812f489a554",
       "57534ebd8ed8f48f",
       "83a22e1f9fb245f8",
-      "bc532942aaed49b7"
+      "5b948c64294d8817"
     ],
-    "extractedChars": 21036,
+    "extractedChars": 21040,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-02T21:29:00.791Z",
+    "lastChangedISO": "2026-10-03T01:33:13.049Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -3797,7 +3797,7 @@
     "lastChangedISO": "2026-10-02T21:25:44.257Z",
     "thinRuns": 0,
     "pendingClassification": true,
-    "classifyFailures": 1
+    "classifyFailures": 2
   },
   {
     "sourceUrl": "https://neti.etec.gov.sa/",
@@ -6542,7 +6542,7 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/careers/graduate-development-program",
     "orgId": "hrc",
-    "contentHash": "dec41b66ff2e7a8d4b73c85ff3e71d41508df1dd808e4a19d12ad51fd595c527",
+    "contentHash": "5696295dd2f54cc02518f6731b25e2bbfc7315bf442463eba95863599adda31c",
     "blockHashes": [
       "12e41a244a8a2984",
       "102d8abc1a4219ae",
@@ -6611,7 +6611,7 @@
     "extractedChars": 10689,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-02T21:29:00.791Z",
+    "lastChangedISO": "2026-10-03T01:33:13.049Z",
     "thinRuns": 0,
     "pendingClassification": true,
     "classifyFailures": 1
@@ -8154,11 +8154,11 @@
   {
     "sourceUrl": "https://www.mof.gov.sa/Pages/default.aspx",
     "orgId": "mof",
-    "contentHash": "92c20ebf57fa6e5edff010ea59b443ed7d60d3930ae03dd12ffbd561d70ba4b0",
+    "contentHash": "78274c2f459e625f9fec5a877fe63c58589485a013b968fe554bf9f78fa97144",
     "blockHashes": [
       "7f625851cbbadbc6",
       "f7711325e2c4b301",
-      "74358f0a3fe1c96f",
+      "9738304f0135687e",
       "a4421c0a80a8433c",
       "589c637db8545e12",
       "d6925423217a99ca",
@@ -8169,9 +8169,10 @@
     "extractedChars": 467,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
-    "lastChangedISO": "2026-10-01T23:31:38.666Z",
+    "lastChangedISO": "2026-10-03T01:44:44.377Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://www.mofa.gov.sa/",
@@ -8643,7 +8644,7 @@
     "lastChangedISO": "2026-10-02T21:39:30.392Z",
     "thinRuns": 0,
     "pendingClassification": true,
-    "classifyFailures": 1
+    "classifyFailures": 2
   },
   {
     "sourceUrl": "https://www.nazaha.gov.sa/News/Details?q=+ZUW2RPX/9RAyHyLvILpaw==",
@@ -11176,10 +11177,13 @@
   {
     "sourceUrl": "https://www.thiqah.sa/",
     "orgId": "thiqah",
-    "contentHash": "bba18d1332d9277cfb6fa175f6984c62b16db98c935a6738a2b6a55c5b1d20bc",
+    "contentHash": "41585f247e073f7dfa50339963ead8d8387c9a1b752741091b485d74143c63b9",
     "blockHashes": [
-      "2badba214de43400",
-      "cff1ddff4e992236",
+      "56d61a024ef0c23a",
+      "988b9a8bf2486a9d",
+      "a4ad1af066840cba",
+      "2a753899ff945f72",
+      "0254baf3c601928d",
       "e6bf180d162757ed",
       "ce6b1d76c3fa0a8f",
       "5702aa0bdde53d7c",
@@ -11192,7 +11196,7 @@
     "extractedChars": 2087,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-02T12:38:09.878Z",
+    "lastChangedISO": "2026-10-03T01:44:44.377Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
