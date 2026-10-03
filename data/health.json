@@ -389,8 +389,8 @@
   {
     "sourceUrl": "https://career.dga.gov.sa/",
     "orgId": "dga",
-    "lastAttemptISO": "2026-10-03T03:43:05.437Z",
-    "lastSuccessISO": "2026-10-03T03:43:05.437Z",
+    "lastAttemptISO": "2026-10-03T04:30:12.592Z",
+    "lastSuccessISO": "2026-10-03T04:30:12.592Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -596,8 +596,8 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/search-results",
     "orgId": "maaden",
-    "lastAttemptISO": "2026-10-03T03:43:05.437Z",
-    "lastSuccessISO": "2026-10-03T03:43:05.437Z",
+    "lastAttemptISO": "2026-10-03T04:30:12.592Z",
+    "lastSuccessISO": "2026-10-03T04:30:12.592Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -911,11 +911,11 @@
   {
     "sourceUrl": "https://futureskills.mcit.gov.sa/ar/coop-training",
     "orgId": "mcit",
-    "lastAttemptISO": "2026-10-03T03:43:05.437Z",
+    "lastAttemptISO": "2026-10-03T04:30:12.592Z",
     "lastSuccessISO": "2026-10-03T03:43:05.437Z",
-    "consecutiveFailures": 0,
-    "lastError": null,
-    "state": "healthy"
+    "consecutiveFailures": 1,
+    "lastError": "The operation was aborted due to timeout",
+    "state": "degraded"
   },
   {
     "sourceUrl": "https://futureskills.mcit.gov.sa/en/coop-training",
@@ -1640,8 +1640,8 @@
   {
     "sourceUrl": "https://sdaia.gov.sa/ncai/",
     "orgId": "ncai",
-    "lastAttemptISO": "2026-10-03T01:14:50.252Z",
-    "lastSuccessISO": "2026-10-03T01:14:50.252Z",
+    "lastAttemptISO": "2026-10-03T04:30:12.592Z",
+    "lastSuccessISO": "2026-10-03T04:30:12.592Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -1874,8 +1874,8 @@
   {
     "sourceUrl": "https://wasatah.com.sa/ar/%d9%81%d8%b1%d8%b5-%d8%a7%d9%84%d8%b9%d9%85%d9%84/",
     "orgId": "wasatah",
-    "lastAttemptISO": "2026-10-03T01:18:19.949Z",
-    "lastSuccessISO": "2026-10-03T01:18:19.949Z",
+    "lastAttemptISO": "2026-10-03T04:30:12.592Z",
+    "lastSuccessISO": "2026-10-03T04:30:12.592Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
@@ -2090,8 +2090,8 @@
   {
     "sourceUrl": "https://www.bog.gov.sa/en/EServices/judiciaryHiring/Pages/default.aspx",
     "orgId": "bog",
-    "lastAttemptISO": "2026-10-03T03:43:05.437Z",
-    "lastSuccessISO": "2026-10-03T03:43:05.437Z",
+    "lastAttemptISO": "2026-10-03T04:30:12.592Z",
+    "lastSuccessISO": "2026-10-03T04:30:12.592Z",
     "consecutiveFailures": 0,
     "lastError": null,
     "state": "healthy"
