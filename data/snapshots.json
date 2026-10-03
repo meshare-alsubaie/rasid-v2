@@ -770,7 +770,7 @@
   {
     "sourceUrl": "https://career.alinma.com/",
     "orgId": "alinma",
-    "contentHash": null,
+    "contentHash": "e245fd94c1ab59dcc6bad34af50ba34c224654b27d2f46834c18eef001143fa5",
     "blockHashes": [
       "d139e32e22028878",
       "24a16c9057a577bb",
@@ -779,7 +779,7 @@
     "extractedChars": 750,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-01T01:46:07.967Z",
-    "lastChangedISO": "2026-10-02T20:23:30.931Z",
+    "lastChangedISO": "2026-10-03T01:24:59.248Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -11138,7 +11138,7 @@
   {
     "sourceUrl": "https://www.tahakom.com/careers",
     "orgId": "tahakom",
-    "contentHash": "a9b0253c483902a00645b630b2cbbfa1a6bf43b8378a82c3ac4c901491886ea6",
+    "contentHash": "940cd80e998c7f1f7ff5d108a5b10afe3f8ceb45da9a00bc2ed457a502797f2f",
     "blockHashes": [
       "d44217251213a019",
       "611753a8aea1ade1",
@@ -11146,12 +11146,13 @@
       "1a5263a5a2541c46",
       "7ff616a2455f75c9"
     ],
-    "extractedChars": 838,
+    "extractedChars": 825,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-03T05:13:40.059Z",
-    "lastChangedISO": "2026-10-03T00:37:12.764Z",
+    "lastChangedISO": "2026-10-03T01:24:59.248Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://www.taifcity.gov.sa/#/ar",
