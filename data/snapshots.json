@@ -652,18 +652,20 @@
   {
     "sourceUrl": "https://athkax.sdaia.gov.sa/coop",
     "orgId": "sdaia",
-    "contentHash": "a58f144950bb22de0c4667555dc3401317db3a7e9e0679e6a27c03768b15a660",
+    "contentHash": "95fa3cd63c96b05913563781d1d27b4de5500ee8e9d6738e117190bc17d44e2c",
     "blockHashes": [
-      "04ba8a3fca46514f",
-      "4bd08244050e9682"
+      "6cb2e204bf43f326",
+      "2b1dd48ae6354db8",
+      "52d4c1d9758f1c82",
+      "5231f218b717a773",
+      "16afbe2123813e3e"
     ],
-    "extractedChars": 756,
+    "extractedChars": 2900,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-02T21:11:14.121Z",
+    "lastChangedISO": "2026-10-03T02:58:40.364Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "classifyFailures": 3
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://awqaf.gov.sa/ar/ar/hiring/",
@@ -1280,7 +1282,7 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/search-results",
     "orgId": "maaden",
-    "contentHash": "2b486a598dd00c6f32c499b77413231fbdc130ad4a4abad6508976ce30866ead",
+    "contentHash": "1f0462145d4a5854569e95b1e25dbcb2d001d625926c5cf02b37033f363207c8",
     "blockHashes": [
       "5569201553604d03",
       "6e3cceb54e777f64",
@@ -1289,10 +1291,10 @@
       "4b38b13a1a4ebcc4",
       "6a65307d2d5065d3"
     ],
-    "extractedChars": 240,
+    "extractedChars": 494,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-03T02:03:04.419Z",
+    "lastChangedISO": "2026-10-03T02:55:54.214Z",
     "thinRuns": 0,
     "pendingClassification": true,
     "classifyFailures": 1
@@ -2198,7 +2200,7 @@
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T02:22:33.828Z",
     "lastChangedISO": "2026-08-29T02:36:21.032Z",
-    "thinRuns": 466,
+    "thinRuns": 467,
     "pendingClassification": false
   },
   {
@@ -4149,7 +4151,7 @@
   {
     "sourceUrl": "https://slccareers.kpmg.com/go/All-Jobs/7738123/",
     "orgId": "kpmg_sa",
-    "contentHash": "5a2dee65c2c53376c326035bfd9afb8de9c408e39e3e2e806acbfdf2903e3524",
+    "contentHash": "f4d62ef9c2a0f6d1ffb44f01c135ec2ed721dff3e528138548283516b862351d",
     "blockHashes": [
       "77a5019ae7f77546",
       "5de5466553026f83",
@@ -4167,10 +4169,10 @@
     "extractedChars": 518,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-01T02:25:45.544Z",
+    "lastChangedISO": "2026-10-03T02:55:54.214Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "classifyFailures": 3
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://slccareers.kpmg.com/job/Beirut-Experienced-External-Auditor/857312523/",
@@ -11139,18 +11141,18 @@
   {
     "sourceUrl": "https://www.tahakom.com/careers",
     "orgId": "tahakom",
-    "contentHash": "8d1d8b4a6a7bde78572d8fa562ea399be56c71b4f40b53a0139f8955994ae509",
+    "contentHash": "809b02d87d75c39f9056ddfd5e8ddff9f708fde920c51c4f54fd2f4898e0146f",
     "blockHashes": [
       "d44217251213a019",
       "611753a8aea1ade1",
       "0cea4d38306888dc",
       "1a5263a5a2541c46",
-      "f3829db208838eb8"
+      "e33ebf6f7a507f0c"
     ],
     "extractedChars": 838,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-03T05:13:40.059Z",
-    "lastChangedISO": "2026-10-03T02:11:18.400Z",
+    "lastChangedISO": "2026-10-03T02:58:40.364Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
