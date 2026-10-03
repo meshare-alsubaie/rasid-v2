@@ -652,7 +652,7 @@
   {
     "sourceUrl": "https://athkax.sdaia.gov.sa/coop",
     "orgId": "sdaia",
-    "contentHash": "a58f144950bb22de0c4667555dc3401317db3a7e9e0679e6a27c03768b15a660",
+    "contentHash": "f1c749f1b0084dc210dc0d9f1e447c42c8ea07e30a315579c292163ea7abbe55",
     "blockHashes": [
       "04ba8a3fca46514f",
       "4bd08244050e9682"
@@ -660,9 +660,10 @@
     "extractedChars": 756,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-03T03:45:48.489Z",
+    "lastChangedISO": "2026-10-03T04:32:30.102Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://awqaf.gov.sa/ar/ar/hiring/",
@@ -769,7 +770,7 @@
   {
     "sourceUrl": "https://career.alinma.com/",
     "orgId": "alinma",
-    "contentHash": null,
+    "contentHash": "e245fd94c1ab59dcc6bad34af50ba34c224654b27d2f46834c18eef001143fa5",
     "blockHashes": [
       "d139e32e22028878",
       "24a16c9057a577bb",
@@ -778,7 +779,7 @@
     "extractedChars": 750,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-01T01:46:07.967Z",
-    "lastChangedISO": "2026-10-03T01:24:59.248Z",
+    "lastChangedISO": "2026-10-03T04:32:30.102Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -2797,7 +2798,7 @@
       "a66afef4a62641f5",
       "6a95039c6dfd0185",
       "00063d0b2c05aa54",
-      "656ebc8c3105d909",
+      "d61a3dd9d14a0c20",
       "a729e7c26362b716"
     ],
     "extractedChars": 1493,
@@ -2805,8 +2806,8 @@
     "firstSeenISO": "2026-08-29T22:03:35.383Z",
     "lastChangedISO": "2026-10-02T21:29:00.791Z",
     "thinRuns": 0,
-    "pendingClassification": true,
-    "classifyFailures": 2
+    "pendingClassification": false,
+    "classifyFailures": 3
   },
   {
     "sourceUrl": "https://master-works.sa/en/Insights",
@@ -4477,7 +4478,7 @@
   {
     "sourceUrl": "https://training.moj.gov.sa/",
     "orgId": "moj",
-    "contentHash": "f4c6ef6b783b69d09a8f681ad1d80f1df35ef8cb8864917255879208cc305886",
+    "contentHash": null,
     "blockHashes": [
       "84a570379809f573",
       "ab443a0bbfda7883"
@@ -7972,7 +7973,7 @@
     "blockHashes": [
       "7f625851cbbadbc6",
       "f7711325e2c4b301",
-      "4aff943981765a59",
+      "aa9dd4053fad0f7e",
       "e84d677a03549107",
       "f4809815161554d5",
       "0129ceb5c2a3779e",
@@ -7988,8 +7989,8 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-10-02T21:36:03.177Z",
     "thinRuns": 0,
-    "pendingClassification": true,
-    "classifyFailures": 2
+    "pendingClassification": false,
+    "classifyFailures": 3
   },
   {
     "sourceUrl": "https://www.mof.gov.sa/eservices/Loans/Pages/Lending_Educational_Projects.aspx",
@@ -11135,18 +11136,18 @@
   {
     "sourceUrl": "https://www.tahakom.com/careers",
     "orgId": "tahakom",
-    "contentHash": "cdc6e715febd70ac89e4ace8f3b65185ba7bfab54fda1908fc17c2332d9ecb2f",
+    "contentHash": "b7b320ab3c337aeecb9e37464095a96d51bb5983c01dda8f6681582a73d6758d",
     "blockHashes": [
-      "d44217251213a019",
+      "31adad521756d062",
       "611753a8aea1ade1",
       "0cea4d38306888dc",
       "1a5263a5a2541c46",
-      "da33eb4a1bacafc3"
+      "66314e4675e8f143"
     ],
-    "extractedChars": 836,
+    "extractedChars": 819,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-03T05:13:40.059Z",
-    "lastChangedISO": "2026-10-03T03:45:48.489Z",
+    "lastChangedISO": "2026-10-03T04:32:30.102Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
