@@ -3779,8 +3779,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-10-02T21:44:58.554Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://ndf.gov.sa/media-center/press-news",
@@ -8062,7 +8061,7 @@
     "lastChangedISO": "2026-10-02T22:03:59.724Z",
     "thinRuns": 0,
     "pendingClassification": true,
-    "classifyFailures": 1
+    "classifyFailures": 2
   },
   {
     "sourceUrl": "https://www.mof.gov.sa/GFS/TrainingProgram/Pages/TrainingManual.aspx",
@@ -8669,11 +8668,11 @@
   {
     "sourceUrl": "https://www.nazaha.gov.sa/News/Details?q=HNQU9DHVnwVHan0Mf562ug==",
     "orgId": "nazaha",
-    "contentHash": "5ddabfa01a18b68b8e62f03a3dc1cb2cb3e3e8bd08772c8534a57a8a505fa128",
+    "contentHash": "a05187e5f5dcf0cb0b1f67c43eee7215d87136cceb90dbbf17badbbd13da74c8",
     "blockHashes": [
       "a167b0dd9b0e3e1c",
       "74e4c1d2a646a96e",
-      "7f4fab56481d666a",
+      "b4e7f47b9369917a",
       "366f824a751bf3bd",
       "a96b8a7b6f568013",
       "4d9af472ef4907d3",
@@ -8694,9 +8693,10 @@
     "extractedChars": 4010,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-01T23:13:27.965Z",
+    "lastChangedISO": "2026-10-03T01:59:08.361Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://www.nazaha.gov.sa/News/Details?q=LDqaftYCK2agKydxrbY5fg==",
@@ -10772,7 +10772,7 @@
   {
     "sourceUrl": "https://www.stats.gov.sa/en/news",
     "orgId": "gastat",
-    "contentHash": "9062c6c2cae19028f0a8011f9caf0b590249d3e91b80924b4027e2a47a82493f",
+    "contentHash": "bc1bab36b3f6f0259b129009b1d772c492472dd28740b84de3614750e96040e3",
     "blockHashes": [
       "b7ce6498ecbc7c40",
       "c76bf99f8551a732",
@@ -11093,7 +11093,7 @@
     "extractedChars": 38856,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-03T00:59:27.953Z",
+    "lastChangedISO": "2026-10-03T01:59:08.361Z",
     "thinRuns": 0,
     "pendingClassification": true,
     "classifyFailures": 1
