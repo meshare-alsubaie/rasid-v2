@@ -617,7 +617,7 @@
     "orgId": "anb",
     "contentHash": "5fc2963d020f09f54bef44cb11a54ad635f0adc45249a1d15dbb354a00b076ce",
     "blockHashes": [
-      "8f6a153911b94998",
+      "de5dd63d27d18307",
       "793a466ff765af0e",
       "a3813bf637b4d939",
       "0aa4b9541202c0c9",
@@ -646,8 +646,9 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-10-03T00:46:07.172Z",
     "thinRuns": 0,
-    "pendingClassification": true,
-    "classifyFailures": 2
+    "pendingClassification": false,
+    "classifyFailures": 2,
+    "settledWithoutVerdict": "triaged_out"
   },
   {
     "sourceUrl": "https://athkax.sdaia.gov.sa/coop",
@@ -2795,14 +2796,14 @@
   {
     "sourceUrl": "https://makkah-careers.health.sa/",
     "orgId": "mecca_health",
-    "contentHash": null,
+    "contentHash": "99c987bdde03dcae21259aa8bb0ebff9d7d2f7680ec1fdd719427023870c1433",
     "blockHashes": [
       "99c987bdde03dcae"
     ],
     "extractedChars": 352,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-30T15:53:07.733Z",
+    "lastChangedISO": "2026-10-03T06:50:42.460Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -2888,14 +2889,15 @@
     "orgId": "mawhiba",
     "contentHash": "101dbaca248f4d1f29ebb1747172db58bfb6abfc9af50b666b7f24220a392e3c",
     "blockHashes": [
-      "4ca583695fc9ed7a",
+      "0f8eb3ff3fc9c805",
+      "e2f558fa2c5aadbf",
       "23d7d78632f44f90",
       "78c47d5a2f55397a",
       "0c29b7e598a428c8",
       "690994aac8cdc87d",
       "222b97e5d083913a",
       "db2f6d845153ed4d",
-      "c4d71029edd52e25",
+      "d7d077fbe11995aa",
       "7ccdf5917bb02e54",
       "6798296563833ca5",
       "99af692c93aa7a89",
@@ -2907,18 +2909,17 @@
       "c4583f676c27517a",
       "4ea242e080578a16",
       "a4e4e1fbeaab5463",
-      "83acb4f25dc48741",
+      "81d04d436dfba081",
       "b518044d0e3ef109",
-      "79ea6b9a5afba371",
-      "a7510ae3f3e13fc4"
+      "818bd373eae202c8",
+      "5d71e183bddbef26"
     ],
     "extractedChars": 8544,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-10-03T00:43:38.453Z",
     "thinRuns": 0,
-    "pendingClassification": true,
-    "classifyFailures": 1
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://mc.gov.sa/ar/mediacenter/News/pages/default.aspx",
@@ -3691,17 +3692,17 @@
   {
     "sourceUrl": "https://ncar.gov.sa/",
     "orgId": "ncar",
-    "contentHash": "975d43298a1de4c84550ace26bc1341274b2f817b303da1f451ea4f81415fb52",
+    "contentHash": "dc4b3699bf2307c50d16b82facbd5e44ee8b99dce32d4ea0fbbfa81a7c6147c0",
     "blockHashes": [
       "c911502a32b8a6f9",
-      "6c47fe785591b85c",
-      "26b7600a224c8c65",
+      "cc407f7af30d697c",
+      "6f553fddd555a5c8",
       "75c514565d626437"
     ],
-    "extractedChars": 536,
+    "extractedChars": 623,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-03T00:43:38.453Z",
+    "lastChangedISO": "2026-10-03T06:50:42.460Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -4388,9 +4389,8 @@
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-10-03T00:43:38.453Z",
-    "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "thinRuns": 1,
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://takamolholding.com/ar/join-us",
@@ -6750,7 +6750,7 @@
     "blockHashes": [
       "45526a3a724650be",
       "74e4c1d2a646a96e",
-      "6f8bd4311e7af73d",
+      "8cd8abc16aeb7157",
       "0bbb8684587712ce",
       "708fe6c77bb05acc",
       "8b7e6b90d8c89aa7",
@@ -6922,8 +6922,7 @@
     "firstSeenISO": "2026-09-03T01:25:25.661Z",
     "lastChangedISO": "2026-10-03T00:43:38.453Z",
     "thinRuns": 0,
-    "pendingClassification": true,
-    "classifyFailures": 1
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.hrsd.gov.sa/care-about-you/skillsandtrain",
@@ -7866,19 +7865,18 @@
   {
     "sourceUrl": "https://www.moc.gov.sa/ar",
     "orgId": "moc",
-    "contentHash": null,
+    "contentHash": "740826329b43f5c9806f57198972a051f1131de8216e82da27082b7b004eaf44",
     "blockHashes": [
-      "dd0c5c67bcb6e67a",
-      "805c8f126b6de227",
-      "761db64493fb42cc"
+      "88c122fdb76fc42f",
+      "412cb8525aa02a7c",
+      "8a23d2bc357687e6"
     ],
-    "extractedChars": 506,
+    "extractedChars": 5125,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-30T16:00:11.937Z",
+    "lastChangedISO": "2026-10-03T06:50:42.460Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.moe.gov.sa/ar/aboutus/nationaltransformation/Pages/employmentstrategy.aspx",
@@ -9370,14 +9368,16 @@
   {
     "sourceUrl": "https://www.rcrc.gov.sa/careers/?lang=ar",
     "orgId": "rcrc",
-    "contentHash": "8a42863914d3c87807839d94bc0c157ee66229cf7123403a77d10c18fa3c60e1",
+    "contentHash": "f2a73bc38687983563b39edc6155146c2d0f92b3d966f1a61e456832679214e3",
     "blockHashes": [
-      "8a42863914d3c878"
+      "839dfd49aa08502a",
+      "bcc34576de15f3e7",
+      "5150c476501397b7"
     ],
-    "extractedChars": 784,
+    "extractedChars": 1166,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-03T05:59:32.161Z",
+    "lastChangedISO": "2026-10-03T06:50:42.460Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -9921,8 +9921,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-10-03T03:45:48.489Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.sami.com.sa/",

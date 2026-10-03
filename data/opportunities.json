@@ -92,7 +92,7 @@
     "titleAr": "التدريب التعاوني | صندوق تنمية الموارد البشرية - هدف",
     "detectedISO": "2026-09-07T05:27:54.589Z",
     "firstSeenISO": "2026-09-07T05:27:54.589Z",
-    "lastConfirmedISO": "2026-09-30T22:06:07.073Z",
+    "lastConfirmedISO": "2026-10-03T06:50:42.460Z",
     "status": "unknown",
     "opensISO": null,
     "closesISO": null,
@@ -106,17 +106,16 @@
     "durationWeeks": null,
     "cities": [],
     "relevanceScore": 10,
-    "relevanceReason": "ذكر الإعلان تخصّصات ليس فيها ما يقارب تخصّصك. (لم يُتحقّق في آخر جولة: المصنّف المحلّي لم يكن يعمل وقت القراءة. الصفحة محفوظة وستُقرأ في جولة قادمة.)",
+    "relevanceReason": "ذكر الإعلان تخصّصات ليس فيها ما يقارب تخصّصك.",
     "statesZeroCoursesRule": false,
     "zeroCoursesQuote": null,
     "flags": [
       "no_course_condition",
-      "first_time_seen",
-      "needs_manual_review"
+      "first_time_seen"
     ],
     "sourceUrl": "https://www.hrdf.org.sa/products-and-services/programs/individuals/training/cooperative-training/",
     "applyUrl": null,
-    "rawExcerpt": "التدريب التعاوني | صندوق تنمية الموارد البشرية - هدف\n\nموقع حكومي مسجل لدى هيئة الحكومة الرقمية كيف تتحقق روابط المواقع الالكترونية الرسمية السعودية تنتهي ب org.sa جميع روابط المواقع الرسمية للمؤسسات الغير ربحية في المملكة العربية السعودية تنتهي ب org.sa المواقع الالكترونية الحكومية تستخدم بروتوكول HTTPS للتشفير و الأمان.\n\nمسجل لدى هيئة الحكومة الرقمية برقم: 20260606461 الخميس 01 أكتوبر 2026 بحث En"
+    "rawExcerpt": "التدريب التعاوني | صندوق تنمية الموارد البشرية - هدف\n\nموقع حكومي مسجل لدى هيئة الحكومة الرقمية كيف تتحقق روابط المواقع الالكترونية الرسمية السعودية تنتهي ب org.sa جميع روابط المواقع الرسمية للمؤسسات الغير ربحية في المملكة العربية السعودية تنتهي ب org.sa المواقع الالكترونية الحكومية تستخدم بروتوكول HTTPS للتشفير و الأمان.\n\nمسجل لدى هيئة الحكومة الرقمية برقم: 20260606461 السبت 03 أكتوبر 2026 بحث Eng"
   },
   {
     "id": "235dcd1c2e95bcb0",
@@ -281,29 +280,36 @@
   {
     "id": "35e28bbed0b22621",
     "orgId": "mawhiba",
-    "titleAr": "لم يُصنَّف بعد",
+    "titleAr": "البرنامج الوطني للكشف عن الموهوبين",
     "detectedISO": "2026-10-01T03:59:06.784Z",
     "firstSeenISO": "2026-10-01T03:59:06.784Z",
-    "lastConfirmedISO": "2026-10-03T00:43:38.453Z",
+    "lastConfirmedISO": "2026-10-03T06:50:42.460Z",
     "status": "unknown",
-    "opensISO": null,
-    "closesISO": null,
-    "closesHijri": null,
-    "product": "unknown",
-    "majors": [],
+    "opensISO": "2026-10-04",
+    "closesISO": "2026-12-28",
+    "closesHijri": "١٩ رجب ١٤٤٨ هـ",
+    "product": "graduate_dev",
+    "majors": [
+      "علوم الحاسب والرياضيات التطبيقية والاقتصاد",
+      "علوم الهندسة والعمارة",
+      "علوم الفيزياء والأرض والفضاء",
+      "العلوم الطبية والحيوية والكيميائية"
+    ],
     "seats": null,
     "stipendSAR": null,
     "durationWeeks": null,
     "cities": [],
-    "relevanceScore": null,
-    "relevanceReason": "تعذّر التصنيف: المصنّف المحلّي لم يكن يعمل وقت القراءة. الصفحة محفوظة وستُقرأ في جولة قادمة.",
+    "relevanceScore": 0,
+    "relevanceReason": "برنامج تطوير خريجين، ويشترط وثيقة التخرّج، فلا ينطبق عليك بعد.",
     "statesZeroCoursesRule": false,
     "zeroCoursesQuote": null,
     "flags": [
-      "needs_manual_review"
+      "wrong_product",
+      "no_course_condition",
+      "more_on_page"
     ],
     "sourceUrl": "https://mawhiba.org/",
-    "applyUrl": null,
+    "applyUrl": "https://mo7aba.gov.sa/",
     "rawExcerpt": "موهبة - اكتشاف وتنمية الموهوبين والإبداع في السعودية\n\nمــوهـبـة ” موهبة… حيث تنتمي “ الأكثر بحثًا برامج موهبة مسابقات موهبة دليل الخدمات بوابة موهبة مساعدك الذكي… هنا لخدمتك احصل الآن على كل ما تريد معرفته عن موهبة واكتشف برامج ومسابقات موهبة ابدأ الآن عن موهبة عن موهبة الرؤية و الرسالة الاستراتيجية استدامة موهبة موهبة 2030 البرامج والمسابقات برامج موهبة برامج خلال العام البرنامج الوطني للكشف عن ا"
   },
   {
@@ -551,6 +557,49 @@
     "rawExcerpt": "الهيئة العامة للإحصاء\n\nموقع حكومي مسجل لدى هيئة الحكومة الرقمية كيف تتحقق البث المباشر روابط المواقع الالكترونية الرسمية الحكومية تنتهي بـgov.sa.\n\nقم بالتسجيل الآن منتدى الأمم المتحدة العالمي السادس للبيانات 2026 أهم المؤشرات الإحصائية 35,300,280 التقديرات السكانية لعام 2024 - 4.7% معدل نمو الناتج المحلي الإجمالي الحقيقي - الربع الثاني 2026 6.5% البطالة بين السعوديين للربع الثاني 2026 1.8% معدل ال"
   },
   {
+    "id": "4dcbf02e6ed95e07",
+    "orgId": "rcrc",
+    "titleAr": "تدريب تعاوني",
+    "detectedISO": "2026-10-03T06:50:42.460Z",
+    "firstSeenISO": "2026-10-03T06:50:42.460Z",
+    "lastConfirmedISO": "2026-10-03T06:50:42.460Z",
+    "status": "closing_soon",
+    "opensISO": null,
+    "closesISO": "2026-10-03",
+    "closesHijri": "٢٢ ربيع الآخر ١٤٤٨ هـ",
+    "product": "coop",
+    "majors": [
+      "التمكين والقيادة",
+      "الشفافية والنزاهة",
+      "التميز والإبداع",
+      "التعاون والشراكة",
+      "المرونة والفعالية",
+      "الالتزام والمسؤولية",
+      "التنوع والشمولية",
+      "الشغف والطموح"
+    ],
+    "seats": null,
+    "stipendSAR": null,
+    "durationWeeks": null,
+    "cities": [
+      "الرياض"
+    ],
+    "relevanceScore": 10,
+    "relevanceReason": "ذكر الإعلان تخصّصات ليس فيها ما يقارب تخصّصك.",
+    "statesZeroCoursesRule": false,
+    "zeroCoursesQuote": null,
+    "flags": [
+      "closing_in_48h",
+      "no_course_condition",
+      "first_time_seen",
+      "more_on_page",
+      "date_order_ambiguous"
+    ],
+    "sourceUrl": "https://www.rcrc.gov.sa/careers/?lang=ar",
+    "applyUrl": null,
+    "rawExcerpt": "بوابة التوظيف - الهيئة الملكية لمدينة الرياض\n\nموقع حكومي مسجل لدى هيئة الحكومة الرقميةكيف تتحققروابط المواقع الالكترونية الرسمية السعودية تنتهي بـ gov.saجميع روابط المواقع الرسمية التابعة للجهات الحكومية في المملكة العربية السعودية تنتهي بـ gov.sa المواقع الالكترونية الحكومية تستخدم بروتوكول HTTPSتحقق من أن الموقع يستخدم بروتوكول HTTPSمسجل لدى هيئة الحكومة الرقمية برقم:20250827430English بحث اقترا"
+  },
+  {
     "id": "53d4b2a69c623d59",
     "orgId": "tetco",
     "titleAr": "التدريب التعاوني",
@@ -666,34 +715,6 @@
     "sourceUrl": "https://www.pwc.com/m1/en/careers/oman-nationals-careers.html",
     "applyUrl": null,
     "rawExcerpt": "Opportunities for Omani Nationals Your career is just that; yours. You choose it. You live it. You make it happen. To get the best from it, you need the best opportunities. That’s why opportunities are at the heart of a career with us. Opportunities to grow as an individual, to make an impact in a place where people, quality and value mean everything and to build lasting relationships that will st"
-  },
-  {
-    "id": "6cf948757c3f6823",
-    "orgId": "anb",
-    "titleAr": "لم يُصنَّف بعد",
-    "detectedISO": "2026-10-02T04:44:03.577Z",
-    "firstSeenISO": "2026-10-02T04:44:03.577Z",
-    "lastConfirmedISO": "2026-10-03T03:48:14.590Z",
-    "status": "unknown",
-    "opensISO": null,
-    "closesISO": null,
-    "closesHijri": null,
-    "product": "unknown",
-    "majors": [],
-    "seats": null,
-    "stipendSAR": null,
-    "durationWeeks": null,
-    "cities": [],
-    "relevanceScore": null,
-    "relevanceReason": "تعذّر التصنيف: المصنّف المحلّي لم يكن يعمل وقت القراءة. الصفحة محفوظة وستُقرأ في جولة قادمة.",
-    "statesZeroCoursesRule": false,
-    "zeroCoursesQuote": null,
-    "flags": [
-      "needs_manual_review"
-    ],
-    "sourceUrl": "https://anb.com.sa/web/anb",
-    "applyUrl": null,
-    "rawExcerpt": "Home - Personal Banking - anb\n\nPersonal Explore Personal Banking Accounts All Accounts Savings Murabaha Time Deposit TeleMoney Programs Private Elite Platinum Gold Silver Youth Cards Credit Cards Almatar Infinite Card Mada Cards Mada Classic Business Card Mada Platinum Business Card Corporate Credit Card Braille Cards Credit Cards features and offers booklet Loans Real Estate Personal Loan Auto Le"
   },
   {
     "id": "752093efff2fe3f5",
