@@ -1345,16 +1345,16 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/search-results",
     "orgId": "maaden",
-    "contentHash": "8fff514eaf95b45271cbe24d5640a77364bf2719e47b87693c08be4de331d35a",
+    "contentHash": "12c5a995fd66f1d0c5c3a66bcd117ac780a37ce970864498e4ce438d44d53543",
     "blockHashes": [
       "dab5a7f3801bc914",
-      "8582ac106df451bb",
-      "6b871ce7f27402f0"
+      "220df908898490ab",
+      "84b164fc2afe8b53"
     ],
     "extractedChars": 240,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-03T06:03:45.872Z",
+    "lastChangedISO": "2026-10-03T06:58:08.081Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -2259,7 +2259,7 @@
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T02:22:33.828Z",
     "lastChangedISO": "2026-08-29T02:36:21.032Z",
-    "thinRuns": 469,
+    "thinRuns": 470,
     "pendingClassification": false
   },
   {
@@ -2279,16 +2279,16 @@
   {
     "sourceUrl": "https://gac.gov.sa/",
     "orgId": "gac",
-    "contentHash": "96695a5a7dff8f0b965e8d197b81274e75878885d3fef2cf35af2f7414e7d832",
+    "contentHash": "437d7830b04ff2acb8102744c3e6db882530feadf2be90055f2e1012e7b6ec6d",
     "blockHashes": [
-      "c564dac722025b57",
+      "af10ddeeb968c94d",
       "f5bef455d4d4feb4",
-      "aacaf49217281f68"
+      "cdcbb51ef6e3c705"
     ],
-    "extractedChars": 2460,
+    "extractedChars": 2341,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-09-17T12:53:53.341Z",
-    "lastChangedISO": "2026-10-03T00:46:07.172Z",
+    "lastChangedISO": "2026-10-03T06:58:08.081Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -2990,9 +2990,14 @@
   {
     "sourceUrl": "https://mcit.gov.sa/ar",
     "orgId": "mcit",
-    "contentHash": "3043b75e21f78cc6c801e3d57f9998b14b97059ea707eeedb8ca5f4c42eec28f",
+    "contentHash": "27e27fbafbdf24faf1dd52ea485ffe268a6758c00e35d645803f420c901ab1db",
     "blockHashes": [
-      "6617bc374892d803",
+      "11c05f7d7949ba54",
+      "90db6780816e3d3c",
+      "d6fabdccfa0a0d42",
+      "cdef697051a5d030",
+      "04bd61119724aee2",
+      "184b33c1ca7a4a33",
       "03e38c61487b2895",
       "7d67287638d1a921",
       "19753507bc40cc1b",
@@ -3004,23 +3009,16 @@
       "ddbf8be0ebfa0806",
       "47367db5f343921a",
       "dbcc7bc8662f7369",
-      "872b5b58ff0aedaa",
-      "a8c64c685bda6928",
-      "15ef66c14869688d",
-      "608ba274bcfcebd1",
-      "4eb73fe75cec4fce",
-      "c9c1587bc4f2b234",
       "e62e9724c6d150b5",
       "17ce54dfea894c34",
       "782261474561a27a"
     ],
-    "extractedChars": 6937,
+    "extractedChars": 6938,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-02T17:20:38.430Z",
+    "lastChangedISO": "2026-10-03T06:58:08.081Z",
     "thinRuns": 0,
-    "pendingClassification": true,
-    "classifyFailures": 2
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://mep.gov.sa/ar",
@@ -4509,13 +4507,10 @@
   {
     "sourceUrl": "https://thiqah.sa/",
     "orgId": "thiqah",
-    "contentHash": "41585f247e073f7dfa50339963ead8d8387c9a1b752741091b485d74143c63b9",
+    "contentHash": "bba18d1332d9277cfb6fa175f6984c62b16db98c935a6738a2b6a55c5b1d20bc",
     "blockHashes": [
-      "56d61a024ef0c23a",
-      "988b9a8bf2486a9d",
-      "a4ad1af066840cba",
-      "2a753899ff945f72",
-      "0254baf3c601928d",
+      "2badba214de43400",
+      "cff1ddff4e992236",
       "e6bf180d162757ed",
       "ce6b1d76c3fa0a8f",
       "5702aa0bdde53d7c",
@@ -4528,7 +4523,7 @@
     "extractedChars": 2087,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T23:03:32.200Z",
-    "lastChangedISO": "2026-10-03T00:46:07.172Z",
+    "lastChangedISO": "2026-10-03T06:58:08.081Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -6452,9 +6447,9 @@
   {
     "sourceUrl": "https://www.gaca.gov.sa/",
     "orgId": "gaca",
-    "contentHash": "961a92b49167a8a0945224636ba91d207325792f7ecd90af38c3f1203a3a0001",
+    "contentHash": "c3271ddf56da1da10bd03afff22daa339d0217e1b6c9c4cc305b451cbf9c78d6",
     "blockHashes": [
-      "cdd07175879b7480",
+      "9260b6b7b25a8e37",
       "67ba147535885b5a",
       "90d5b20a2e1b1c87",
       "98b0f721363b8a74",
@@ -6464,7 +6459,7 @@
     "extractedChars": 1607,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-03T00:46:07.172Z",
+    "lastChangedISO": "2026-10-03T06:58:08.081Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -10957,21 +10952,21 @@
   {
     "sourceUrl": "https://www.taifcity.gov.sa/#/ar",
     "orgId": "taif_amanah",
-    "contentHash": "31df0ef11f617c5490c702255f17002e80ab872df8c50af354d68e10ac84a7e0",
+    "contentHash": "517f9168c9b1fd45c005b4d35e5e23a03769641e277ad4fee7afd622f0dd428f",
     "blockHashes": [
       "969f0f9d8129003d",
-      "4185b698a686ddc8",
+      "41a69cb508e84694",
       "cfc879cec72d1d12",
       "acda1eb1130c44f0",
       "8554e1d0ca772440"
     ],
-    "extractedChars": 6210,
+    "extractedChars": 242,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T23:54:26.779Z",
-    "lastChangedISO": "2026-10-03T00:46:07.172Z",
+    "lastChangedISO": "2026-10-03T06:58:08.081Z",
     "thinRuns": 0,
-    "pendingClassification": true,
-    "classifyFailures": 1
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://www.thiqah.sa/",
