@@ -2516,17 +2516,16 @@
   {
     "sourceUrl": "https://gmedia.gov.sa/",
     "orgId": "gcam",
-    "contentHash": "a6de6ab5e3bc46e8db93fdfce33d13de22665913b25da8231601c6d5553e0cc4",
+    "contentHash": "52d79ca395f39de4c74414043e2b8eec4420e62998c28182d5d66ade396a6937",
     "blockHashes": [
       "a6de6ab5e3bc46e8"
     ],
     "extractedChars": 1118,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-03T02:01:47.753Z",
+    "lastChangedISO": "2026-10-03T08:22:55.026Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://gmedia.gov.sa/ar/hiring",
@@ -3243,7 +3242,7 @@
   {
     "sourceUrl": "https://momah.gov.sa/ar",
     "orgId": "housing",
-    "contentHash": "0bb6b01fa560fe5d41063e35ef1c4855359893cd9430191a3c975829baa0f82c",
+    "contentHash": "43da434bd478cd7529d29eb437c83d578f5f96d4893f4cfd2692f9bccdb0e9bd",
     "blockHashes": [
       "390ea394b03ad064",
       "0cae66fd6419120a",
@@ -3273,10 +3272,9 @@
     "extractedChars": 153829,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-03T02:01:47.753Z",
+    "lastChangedISO": "2026-10-03T08:22:55.026Z",
     "thinRuns": 0,
-    "pendingClassification": true,
-    "classifyFailures": 1
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://momah.gov.sa/ar/announcements",
@@ -6528,7 +6526,7 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/careers",
     "orgId": "hrc",
-    "contentHash": "fc05a9bd8e4b4cff874b690cde50a05cad6d196237ac64ad72da9a8c7a9eefeb",
+    "contentHash": "d121bf683cba0b3cff6197950de6eb3307caca0a23a128ae701a48c9349a624e",
     "blockHashes": [
       "12e41a244a8a2984",
       "e478603439844686",
@@ -6555,10 +6553,9 @@
     "extractedChars": 3794,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-03T05:03:00.283Z",
+    "lastChangedISO": "2026-10-03T08:22:55.026Z",
     "thinRuns": 0,
-    "pendingClassification": true,
-    "classifyFailures": 1
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/careers?lang=ar",
@@ -8220,8 +8217,7 @@
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
     "lastChangedISO": "2026-10-03T01:44:44.377Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.mofa.gov.sa/",
@@ -10743,7 +10739,7 @@
   {
     "sourceUrl": "https://www.stats.gov.sa/ar",
     "orgId": "gastat",
-    "contentHash": "d1ed12a445e1ddb2c3190c7267ca1d1aa270f7dbb63afdf1a65a33d2ba65c984",
+    "contentHash": "e8b648df9fec3981bb01d67aa55f0f1deda53ee76818b90726b81551339eb7f0",
     "blockHashes": [
       "b618107f43bd2daf",
       "2fec6d796296a0f8",
@@ -10752,13 +10748,12 @@
       "dc84e74cdce35fa3",
       "9214de5f4ec23c78"
     ],
-    "extractedChars": 3234,
+    "extractedChars": 3206,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-02T12:38:09.878Z",
+    "lastChangedISO": "2026-10-03T08:25:36.207Z",
     "thinRuns": 0,
-    "pendingClassification": true,
-    "classifyFailures": 1
+    "pendingClassification": true
   },
   {
     "sourceUrl": "https://www.stats.gov.sa/ar/cooperative-training",
