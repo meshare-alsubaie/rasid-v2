@@ -1344,22 +1344,18 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/search-results",
     "orgId": "maaden",
-    "contentHash": "cda5bbe6e80be20b015518e8e4fa2fe13c25a4cc02b96eba13fb261a826d2f27",
+    "contentHash": "8fff514eaf95b45271cbe24d5640a77364bf2719e47b87693c08be4de331d35a",
     "blockHashes": [
-      "5569201553604d03",
-      "6e3cceb54e777f64",
-      "d6c0adacb353836a",
-      "851eda0d9a57595c",
-      "4b38b13a1a4ebcc4",
-      "6a65307d2d5065d3"
+      "dab5a7f3801bc914",
+      "8582ac106df451bb",
+      "6b871ce7f27402f0"
     ],
     "extractedChars": 240,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-03T05:16:59.648Z",
+    "lastChangedISO": "2026-10-03T06:03:45.872Z",
     "thinRuns": 0,
-    "pendingClassification": true,
-    "classifyFailures": 1
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://careers.mcit.gov.sa/",
@@ -2262,7 +2258,7 @@
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T02:22:33.828Z",
     "lastChangedISO": "2026-08-29T02:36:21.032Z",
-    "thinRuns": 468,
+    "thinRuns": 469,
     "pendingClassification": false
   },
   {
