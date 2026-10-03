@@ -736,18 +736,17 @@
   {
     "sourceUrl": "https://awqaf.gov.sa/ar/media-center/ar/hiring/",
     "orgId": "awqaf",
-    "contentHash": "0897b0f4f54111e724a4f607d60be9b79e12468c91d59e1818da7cfa30957d4c",
+    "contentHash": "89f66a4fb9227834d0d7072a5b7ca52a01a6ff7357847a34a52610891510bb4c",
     "blockHashes": [
       "7364f70c455dc78c",
       "c804732dd480d71a",
       "74e4c1d2a646a96e",
-      "45b24d5ca2905171",
-      "ec27270c1f727fec"
+      "45b24d5ca2905171"
     ],
     "extractedChars": 410,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-09-06T05:00:30.918Z",
+    "lastChangedISO": "2026-10-03T04:35:22.540Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -2271,9 +2270,9 @@
   {
     "sourceUrl": "https://gaca.gov.sa/ar/News",
     "orgId": "gaca",
-    "contentHash": "7c1536b532aedf447f37f819c6b1764f4cb5028fe676db4d3d92314cae8b79e9",
+    "contentHash": "264e23fe1a5bfd2cbdff8ac3bb3ed682807347a210dd5d9911144b2527720bf5",
     "blockHashes": [
-      "f4f9e10432e1df2f",
+      "67e3575c192b7e0e",
       "7de8ea5de5c99977",
       "8587b2ba02f096c6",
       "6382e3437605c55d",
@@ -2340,12 +2339,12 @@
       "89325812f489a554",
       "57534ebd8ed8f48f",
       "83a22e1f9fb245f8",
-      "5b948c64294d8817"
+      "bc532942aaed49b7"
     ],
-    "extractedChars": 21040,
+    "extractedChars": 21035,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-03T01:33:13.049Z",
+    "lastChangedISO": "2026-10-03T04:35:22.540Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -6540,7 +6539,7 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/careers/graduate-development-program",
     "orgId": "hrc",
-    "contentHash": "5696295dd2f54cc02518f6731b25e2bbfc7315bf442463eba95863599adda31c",
+    "contentHash": "8673d460688aa9ca5867ea22885026bfec164631d43e97c4edb73a8a594c8861",
     "blockHashes": [
       "12e41a244a8a2984",
       "102d8abc1a4219ae",
@@ -6609,7 +6608,7 @@
     "extractedChars": 10689,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-03T01:33:13.049Z",
+    "lastChangedISO": "2026-10-03T04:35:22.540Z",
     "thinRuns": 0,
     "pendingClassification": true,
     "classifyFailures": 1
@@ -8650,7 +8649,7 @@
     "blockHashes": [
       "a167b0dd9b0e3e1c",
       "74e4c1d2a646a96e",
-      "3df8108073b87bd5",
+      "4debd46f4fea448d",
       "8d35c6dbfb6149bf",
       "934470dd7b84953f",
       "b97ad38f7d56bff9"
@@ -8660,8 +8659,8 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-10-02T21:25:44.257Z",
     "thinRuns": 0,
-    "pendingClassification": true,
-    "classifyFailures": 2
+    "pendingClassification": false,
+    "classifyFailures": 3
   },
   {
     "sourceUrl": "https://www.nazaha.gov.sa/News/Details?q=HNQU9DHVnwVHan0Mf562ug==",
