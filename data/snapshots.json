@@ -2253,17 +2253,17 @@
   {
     "sourceUrl": "https://gaca.gov.sa/ar/announcements",
     "orgId": "gaca",
-    "contentHash": "509c980df93f88bfe3be56de758634ebeb4cfa7ef622bc57c2a90d595ad4d029",
+    "contentHash": "1d02194bbe86df68d76dd4795e5b93cdf8a31d37f59b2cc3a180ca024dea6a88",
     "blockHashes": [
-      "849b234ad1e861d6",
+      "e32164187d3f04c8",
       "9c2a3967149440a8",
       "83a22e1f9fb245f8",
       "bc532942aaed49b7"
     ],
-    "extractedChars": 1211,
-    "extractionMethod": "body_fallback",
+    "extractedChars": 242,
+    "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-02T21:14:43.395Z",
+    "lastChangedISO": "2026-10-03T01:18:19.949Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -3136,7 +3136,7 @@
     "lastChangedISO": "2026-10-02T17:47:43.773Z",
     "thinRuns": 0,
     "pendingClassification": true,
-    "classifyFailures": 1
+    "classifyFailures": 2
   },
   {
     "sourceUrl": "https://modon.gov.sa/ar/MediaCenter/modon-news/News/Pages/default.aspx",
@@ -3367,8 +3367,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-10-02T21:14:43.395Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://momah.gov.sa/ar/node/14717",
@@ -6620,7 +6619,7 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/cooperations?lang=ar",
     "orgId": "hrc",
-    "contentHash": "beb48800a4e780117c76f8ef7fd7b58f55ea72c93f2686348b5f14b0a5882ce9",
+    "contentHash": "4c10507e269c0f1661b4b82beb452db79236e5515ce6977bb6f3d758e94a27d8",
     "blockHashes": [
       "12e41a244a8a2984",
       "fb9ee367b1a13bbe",
@@ -6644,7 +6643,7 @@
     "extractedChars": 6137,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-02T21:14:43.395Z",
+    "lastChangedISO": "2026-10-03T01:18:19.949Z",
     "thinRuns": 0,
     "pendingClassification": true,
     "classifyFailures": 1
@@ -7772,9 +7771,9 @@
   {
     "sourceUrl": "https://www.mim.gov.sa/ar/media-center/news",
     "orgId": "mim",
-    "contentHash": "2b26cc8ebe22b53d6020a22f5860ce69cd01cbbc9d1688d6f4d1fbc6a46647c4",
+    "contentHash": "6dfa8fe155bca36fe55686f87bde21e5f704333f4189e1546dcf4da87cb14a1b",
     "blockHashes": [
-      "e3e79dcd5ebade4e",
+      "13f224e41bb5b38b",
       "1f5dd0d29afd9b79",
       "634a5a8d064708ad",
       "1f5e279450d224dd",
@@ -7804,7 +7803,7 @@
     "extractedChars": 10087,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-02T21:33:34.968Z",
+    "lastChangedISO": "2026-10-03T01:18:19.949Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -7919,7 +7918,7 @@
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-09-20T12:59:49.059Z",
-    "thinRuns": 61,
+    "thinRuns": 62,
     "pendingClassification": false
   },
   {
@@ -9176,7 +9175,7 @@
   {
     "sourceUrl": "https://www.rcjy.gov.sa/",
     "orgId": "rcjy",
-    "contentHash": "31e2bbefc0169ed3aea11b8d1296a7591a86612860a7e5b1196513b266bde736",
+    "contentHash": "1dbe1adc388a55853f7afda22d907b926ce88c0c68abf2173deaa6257466138d",
     "blockHashes": [
       "644613a40a964afb",
       "89dd2b4932eb1b3f",
@@ -9187,13 +9186,13 @@
       "e00d796560e000e5",
       "997e05b61c23861c"
     ],
-    "extractedChars": 15545,
+    "extractedChars": 2021,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T22:03:35.383Z",
-    "lastChangedISO": "2026-10-02T11:16:15.260Z",
+    "lastChangedISO": "2026-10-03T01:18:19.949Z",
     "thinRuns": 0,
-    "pendingClassification": true,
-    "classifyFailures": 1
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://www.rcjy.gov.sa/media-center",
@@ -9293,20 +9292,9 @@
       "dd62229c2f61fb42",
       "306db3646b8a6c73",
       "b28682d0a5fa37ed",
-      "b8ccfa9fa1f3ede0",
-      "0cae66fd6419120a",
-      "e8216aae91b1f5cb",
-      "27b77b90132cbcac",
-      "1bf6fe5241f98639",
-      "b695068edf6db9d0",
-      "c6ad9b232caf3243",
-      "d144725aec94caf4",
-      "f6ed6ed09f1fcbe3",
-      "12f1f6332d8a8779",
-      "6e5f989a3fce248d",
-      "631fa3742418d437",
-      "6eb7e915919ac199",
-      "995cb411b7707da8",
+      "e0d522e7e792ad46",
+      "7297b5aa88e44ab6",
+      "f62e6459139ffb3a",
       "aa0b7302330697e3",
       "b32d68c4e5c2da0f",
       "b91cd7f4edfa88d2",
@@ -9321,8 +9309,8 @@
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
     "lastChangedISO": "2026-10-02T11:13:06.718Z",
     "thinRuns": 0,
-    "pendingClassification": true,
-    "classifyFailures": 2
+    "pendingClassification": false,
+    "classifyFailures": 3
   },
   {
     "sourceUrl": "https://www.rcrc.gov.sa/careers/?lang=ar",
