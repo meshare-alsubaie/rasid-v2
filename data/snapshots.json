@@ -646,8 +646,7 @@
     "lastChangedISO": "2026-10-03T00:46:07.172Z",
     "thinRuns": 0,
     "pendingClassification": false,
-    "classifyFailures": 2,
-    "settledWithoutVerdict": "triaged_out"
+    "classifyFailures": 2
   },
   {
     "sourceUrl": "https://athkax.sdaia.gov.sa/coop",
@@ -2349,9 +2348,9 @@
   {
     "sourceUrl": "https://gaca.gov.sa/news",
     "orgId": "gaca",
-    "contentHash": "ff40377c8ea4c9fcf31338b88711644c61592be0a23eeb406723ee3af089bcaa",
+    "contentHash": "0ff2ccdfedcf0df01970590911d1328d4d723740795921a611b0579905f5881c",
     "blockHashes": [
-      "905dba4e433fa8aa",
+      "0990b7b18520d9d5",
       "7de8ea5de5c99977",
       "8587b2ba02f096c6",
       "6382e3437605c55d",
@@ -2418,12 +2417,12 @@
       "89325812f489a554",
       "57534ebd8ed8f48f",
       "83a22e1f9fb245f8",
-      "bc532942aaed49b7"
+      "2ccfa90c84c059a7"
     ],
-    "extractedChars": 21035,
+    "extractedChars": 21297,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-03T06:45:38.639Z",
+    "lastChangedISO": "2026-10-03T09:50:00.005Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -3252,7 +3251,7 @@
   {
     "sourceUrl": "https://momah.gov.sa/ar/form/partnerships-and-cooperation",
     "orgId": "housing",
-    "contentHash": "d8dbb4c9a405597f923197b74ce80eb4de4642d9874815ed96b263f14dd98738",
+    "contentHash": "941a71af05a13548e77a0ef86cee05c6249496a695714d95ff152c7058ccac60",
     "blockHashes": [
       "bc22896c0dc046da",
       "d2009185b8a1a230",
@@ -3261,31 +3260,31 @@
       "f230e64116e33a59",
       "aa8e55eac5aea8cd",
       "09552ec2996654f9",
-      "f4a3199fd49a892d",
-      "4bf831e1cd88bde4",
-      "5d15152619ff887e",
-      "642f88f093391f6d",
+      "cfa7032c41491bef",
       "ff6f87e39638cb9b",
-      "a76a59bd47d60948",
-      "cd63ceb60b415e55",
+      "9208306fa333f29b",
       "560edfe1df9d8921",
       "23b97a8a93aba477",
       "9cd3abf7fd1573ff",
-      "a07c32ec86b54d8a",
-      "7df2c1d5e5c81111",
-      "09b1bd561f62b68f",
-      "570469f9f5b33c1e",
-      "e2212613f2c17a7e",
+      "7b183e375de498d2",
+      "ce4c86e255989e67",
       "ac1405062719fb86",
-      "dc0e031e6cbe92ba",
-      "12e969adbe373c1a",
-      "42838034ab5dc470",
-      "efb6686bfeaf1622"
+      "9c807fb27a85335e",
+      "45e7220954f687b6",
+      "5a33b28b34488444",
+      "597176a320d6c620",
+      "09b1bd561f62b68f",
+      "01a0865949bc811e",
+      "61cf24d3c6b45a5c",
+      "5d15152619ff887e",
+      "5a01e9b72fab4b0d",
+      "91c27b66ad6d0785",
+      "146e8b51fe2384ee"
     ],
     "extractedChars": 151367,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-03T06:45:38.639Z",
+    "lastChangedISO": "2026-10-03T09:50:00.005Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -4331,15 +4330,16 @@
   {
     "sourceUrl": "https://takamolholding.com/ar/join-us",
     "orgId": "takamol",
-    "contentHash": "1c01152219e081fd2e5cf9889b6fc4f06f224546f858c042d3327db61d61bbc2",
+    "contentHash": "1af16738ac357d14a80b6a71be4e79653c1f126a9d3830a14911c95a67271b9c",
     "blockHashes": [
-      "7fe60a979f147da5",
-      "451e371814b7cbdb"
+      "a269bc0fd2159f46",
+      "0aff54aeec4c61dd",
+      "4c9002591ab2f873"
     ],
-    "extractedChars": 306,
-    "extractionMethod": "readability",
+    "extractedChars": 757,
+    "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
-    "lastChangedISO": "2026-09-30T09:45:28.367Z",
+    "lastChangedISO": "2026-10-03T09:57:18.571Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -6636,10 +6636,10 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/news?lang=ar",
     "orgId": "hrc",
-    "contentHash": "d068ac3c014d5eb039df436963addfa5b1e36602656706be848041b9cb174af5",
+    "contentHash": "16d41129d113d12a48a0d7a73d39513a9b5bf56cea463fa07fc5186c3e14c772",
     "blockHashes": [
       "12e41a244a8a2984",
-      "051df6875a051731",
+      "9cffbd268fdd7cee",
       "4be1bef04e057a74",
       "730dee1abdba4881",
       "5a844d931886a314",
@@ -6667,7 +6667,7 @@
     "extractedChars": 5230,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-03T06:45:38.639Z",
+    "lastChangedISO": "2026-10-03T09:50:00.005Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "triaged_out"
@@ -9580,7 +9580,7 @@
   {
     "sourceUrl": "https://www.riyadbank.com/ar/personal-banking",
     "orgId": "riyadbank",
-    "contentHash": "a158d91b4d3bce47c8773bf501327288e006d5c8bce9bc84751a907f61795f8a",
+    "contentHash": "4606fa03716a19aaa27d5d0ddb3cba7ee512ac78db6915d884666f72930fa45e",
     "blockHashes": [
       "c5fa97b84e96f11e",
       "3badfc77a66091a4",
@@ -9604,17 +9604,15 @@
       "9f29620fa9319a80",
       "dd09a93c19a5b408",
       "fc0a22cc81c08834",
-      "5ca46b716e2fe884",
-      "5b89998625f6c35a",
-      "4f9d3db32b80f12b",
+      "97b7afff054f9f37",
+      "2274a27142a58d23",
       "303fe28588764a9b",
       "7a8a143470365dc2",
-      "3da50cd1c3c80f72",
-      "75ad41c21fa9b0e1",
+      "68804184ee7f89f3",
       "c845d371bfc055e6",
       "e91a2dc79c3ef7ff",
-      "d22dd1cc9b5516ee",
-      "0b4f6c1a982c9472",
+      "e10872055bbde21f",
+      "68f92b28ff614b42",
       "cb4329c80213103c",
       "853e155161611ffc",
       "0f21ae2f5a35f90c",
@@ -9626,12 +9624,13 @@
       "27ab07a2e57dda34",
       "f2f0e16c376080f6"
     ],
-    "extractedChars": 10042,
+    "extractedChars": 10238,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
-    "lastChangedISO": "2026-10-02T17:57:29.395Z",
+    "lastChangedISO": "2026-10-03T09:57:18.571Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://www.sabic.com/ar/careers",
@@ -9839,16 +9838,17 @@
   {
     "sourceUrl": "https://www.saip.gov.sa/ar/media-center/movables-platform",
     "orgId": "saip",
-    "contentHash": "680e646b2d05a17c00c8ab3cbaaf67fea9fa909e7e217c70a79e25e44227987c",
+    "contentHash": "b5d4b8a075b3f0614e54a17ded6bd73ea280072d5b550699cda023e9343450d4",
     "blockHashes": [
-      "680e646b2d05a17c"
+      "b5d4b8a075b3f061"
     ],
     "extractedChars": 242,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-03T03:45:48.489Z",
+    "lastChangedISO": "2026-10-03T09:57:18.571Z",
     "thinRuns": 0,
-    "pendingClassification": false
+    "pendingClassification": false,
+    "settledWithoutVerdict": "no_training_word"
   },
   {
     "sourceUrl": "https://www.sami.com.sa/",
