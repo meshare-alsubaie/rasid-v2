@@ -1265,14 +1265,14 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/cookiesettings",
     "orgId": "maaden",
-    "contentHash": "770b9880fca9ae2c2fa366ade5fd37b27e0a633faf7212cc4d7e9524709ffef4",
+    "contentHash": "966e1fa7b961c774cfe5ea5c5c97eba382983351081a8843a29e673667a828ca",
     "blockHashes": [
       "dfd3c66b52c38ffe"
     ],
-    "extractedChars": 221,
+    "extractedChars": 240,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-03T00:37:12.764Z",
+    "lastChangedISO": "2026-10-03T01:29:43.760Z",
     "thinRuns": 0,
     "pendingClassification": true,
     "classifyFailures": 1
@@ -2807,7 +2807,7 @@
     "lastChangedISO": "2026-10-02T21:29:00.791Z",
     "thinRuns": 0,
     "pendingClassification": true,
-    "classifyFailures": 1
+    "classifyFailures": 2
   },
   {
     "sourceUrl": "https://master-works.sa/en/Insights",
@@ -3682,17 +3682,17 @@
   {
     "sourceUrl": "https://ndf.gov.sa/",
     "orgId": "ndf",
-    "contentHash": "133e1379b4c1d2dada372fb28c0f251f4b046fd2e1d7c1e8f16f375940957fe5",
+    "contentHash": "18d5b958921f628ff850878622ead52cebe1631e7a5295a5bf4c4942533f79c0",
     "blockHashes": [
       "133e1379b4c1d2da"
     ],
-    "extractedChars": 3077,
+    "extractedChars": 3076,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-01T22:28:04.787Z",
+    "lastChangedISO": "2026-10-03T01:29:43.760Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "classifyFailures": 3
+    "pendingClassification": true,
+    "classifyFailures": 1
   },
   {
     "sourceUrl": "https://ndf.gov.sa/media-center",
@@ -7993,7 +7993,7 @@
     "lastChangedISO": "2026-10-02T21:36:03.177Z",
     "thinRuns": 0,
     "pendingClassification": true,
-    "classifyFailures": 1
+    "classifyFailures": 2
   },
   {
     "sourceUrl": "https://www.mof.gov.sa/eservices/Loans/Pages/Lending_Educational_Projects.aspx",
@@ -8663,7 +8663,7 @@
     "lastChangedISO": "2026-10-02T21:25:44.257Z",
     "thinRuns": 0,
     "pendingClassification": true,
-    "classifyFailures": 1
+    "classifyFailures": 2
   },
   {
     "sourceUrl": "https://www.nazaha.gov.sa/News/Details?q=HNQU9DHVnwVHan0Mf562ug==",
@@ -11631,11 +11631,11 @@
   {
     "sourceUrl": "https://zatca.gov.sa/ar",
     "orgId": "zatca",
-    "contentHash": "362a670b1627c8da35ee58bf6ca04a91bc0c0baef31288d8550b4317ebfcecb2",
+    "contentHash": "b23af237551ced62191c798a25f74b9958c76b798f405a936647a3dd69cf8622",
     "blockHashes": [
       "9002014afa7b66cb",
       "dd3372afafcdfd61",
-      "1caeb7e5d2361227",
+      "32a83792841a5e22",
       "e5df56b0a0fe5091",
       "782261474561a27a",
       "701306ea50407e12",
@@ -11650,7 +11650,7 @@
     "extractedChars": 696,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-02T18:26:14.583Z",
+    "lastChangedISO": "2026-10-03T01:29:43.760Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
