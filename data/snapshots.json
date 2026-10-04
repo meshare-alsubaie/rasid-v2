@@ -1262,15 +1262,15 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/cookiesettings",
     "orgId": "maaden",
-    "contentHash": "6d9a01adde746db1d39643ea8919f083f3e7be07d819c1267cfb6993a4261a58",
+    "contentHash": "aeb7969e27130c66d33284a3c25a620b56f4b6636c1d2001f9917a4b6801b5fb",
     "blockHashes": [
-      "5569201553604d03",
-      "55c57d416259f1b3"
+      "44f1c1d9a0511fa8",
+      "20a8ba1b8341b98b"
     ],
-    "extractedChars": 201,
+    "extractedChars": 240,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-04T02:46:27.996Z",
+    "lastChangedISO": "2026-10-04T03:36:10.243Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -2191,7 +2191,7 @@
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-29T02:22:33.828Z",
     "lastChangedISO": "2026-08-29T02:36:21.032Z",
-    "thinRuns": 479,
+    "thinRuns": 480,
     "pendingClassification": false
   },
   {
@@ -2244,17 +2244,17 @@
   {
     "sourceUrl": "https://gaca.gov.sa/ar/announcements",
     "orgId": "gaca",
-    "contentHash": "b8d60bfd1469f9a321b7660a5e0eccce259b352748bb70297a8f3c3b874ca449",
+    "contentHash": "59ba5859e0bdf0080c7cee4f22f996f5f14774a045e303fc2028948d13f8112b",
     "blockHashes": [
-      "6c29bea2e2df9925",
+      "ecf512b46463cfbe",
       "9c2a3967149440a8",
       "83a22e1f9fb245f8",
-      "bc532942aaed49b7"
+      "742a17aa4393e6c2"
     ],
-    "extractedChars": 242,
-    "extractionMethod": "readability",
+    "extractedChars": 1471,
+    "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-04T00:34:38.682Z",
+    "lastChangedISO": "2026-10-04T03:38:04.133Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -3363,8 +3363,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-10-04T00:34:38.682Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://momah.gov.sa/ar/node/14717",
@@ -6600,10 +6599,10 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/cooperations?lang=ar",
     "orgId": "hrc",
-    "contentHash": "3dc05c4c2ccc8b480805aebaf3604228670f58b11f64e8fcc17ee719f0f897b4",
+    "contentHash": "9f7c3d194406518b6636d9ac8e6c4a12e0c5e4efaf0661951e8614b1ae9f325e",
     "blockHashes": [
       "12e41a244a8a2984",
-      "e5a07875c82c2c8c",
+      "ec1e9ba948314e15",
       "15c715928fc246c0",
       "9a4a215f8452ca45",
       "961639689d2c8819",
@@ -6624,7 +6623,7 @@
     "extractedChars": 6137,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-04T00:34:38.682Z",
+    "lastChangedISO": "2026-10-04T03:38:04.133Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -7750,9 +7749,9 @@
   {
     "sourceUrl": "https://www.mim.gov.sa/ar/media-center/news",
     "orgId": "mim",
-    "contentHash": "f7110b1c06841fddf3cf0a5fbc15e2ef72506805c100d3596186394a50d1f19e",
+    "contentHash": "28d851f5c2bc3439594d4ed0bcf1d5e475576bef121dafa63a2af01651f40076",
     "blockHashes": [
-      "eff4f36c8aebab5d",
+      "39a89d395380ab55",
       "1f5dd0d29afd9b79",
       "634a5a8d064708ad",
       "1f5e279450d224dd",
@@ -7782,7 +7781,7 @@
     "extractedChars": 10087,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-04T00:37:29.181Z",
+    "lastChangedISO": "2026-10-04T03:39:49.057Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -8493,8 +8492,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-10-04T00:34:38.682Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "triaged_out"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.monshaat.gov.sa/ar/news-posts-list",
@@ -8618,8 +8616,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-10-04T00:34:38.682Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "triaged_out"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.nazaha.gov.sa/News/Details?q=+ZUW2RPX/9RAyHyLvILpaw==",
