@@ -767,7 +767,7 @@
   {
     "sourceUrl": "https://career.alinma.com/",
     "orgId": "alinma",
-    "contentHash": null,
+    "contentHash": "e245fd94c1ab59dcc6bad34af50ba34c224654b27d2f46834c18eef001143fa5",
     "blockHashes": [
       "d139e32e22028878",
       "24a16c9057a577bb",
@@ -776,7 +776,7 @@
     "extractedChars": 750,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-01T01:46:07.967Z",
-    "lastChangedISO": "2026-10-04T01:36:11.785Z",
+    "lastChangedISO": "2026-10-04T03:54:52.756Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -1277,16 +1277,18 @@
   {
     "sourceUrl": "https://careers.maaden.com/gb/en/search-results",
     "orgId": "maaden",
-    "contentHash": "a821998751a132520e576e90e0023b3b95accbd2028b483c963a21c9a5a796e3",
+    "contentHash": "bcd80ad52720985480d4b3ff9f463917f81c8fcf6f17bfb235e31982c6fe0580",
     "blockHashes": [
-      "dab5a7f3801bc914",
-      "3c95827e44e6abce",
-      "31f9eda44a1c13d4"
+      "5569201553604d03",
+      "6e3cceb54e777f64",
+      "851eda0d9a57595c",
+      "59747a5145c727a5",
+      "69853978e9fd4341"
     ],
-    "extractedChars": 240,
-    "extractionMethod": "readability",
+    "extractedChars": 1264,
+    "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-04T03:15:43.177Z",
+    "lastChangedISO": "2026-10-04T04:03:42.582Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -2262,9 +2264,9 @@
   {
     "sourceUrl": "https://gaca.gov.sa/ar/News",
     "orgId": "gaca",
-    "contentHash": "a3ce37c5fe24e255a30b7b46cd54ead30e8b808012aee3a999f623b19b1b57ce",
+    "contentHash": "a3208a7e575183ae0b4905d4271d9ef95a1eff2847a6c31dacbf3db0966b25aa",
     "blockHashes": [
-      "d16333f882659c8d",
+      "0cf22a86492f6572",
       "7de8ea5de5c99977",
       "8587b2ba02f096c6",
       "6382e3437605c55d",
@@ -2336,7 +2338,7 @@
     "extractedChars": 21035,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-04T00:50:51.538Z",
+    "lastChangedISO": "2026-10-04T03:52:43.611Z",
     "thinRuns": 0,
     "pendingClassification": false,
     "settledWithoutVerdict": "no_training_word"
@@ -3322,8 +3324,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-10-04T00:50:51.538Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://momah.gov.sa/ar/news",
@@ -3770,8 +3771,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-10-04T00:50:51.538Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://ndf.gov.sa/media-center/press-news",
@@ -6523,10 +6523,10 @@
   {
     "sourceUrl": "https://www.hrc.gov.sa/website/careers/graduate-development-program",
     "orgId": "hrc",
-    "contentHash": "458ec539b8012705cbd0b1bb88d1cf44ccfda23790ffc9a2e1344d4f68f9de44",
+    "contentHash": "5f73aafa7bda38dfb5944438bbc5a9616272445dda867f269624bce5531fc3d8",
     "blockHashes": [
       "12e41a244a8a2984",
-      "30e3f9571cc33e17",
+      "5d3123f38a0b16e9",
       "741386d322f274be",
       "40d7009856bbc81d",
       "2dd486d3d3cacb8b",
@@ -6592,7 +6592,7 @@
     "extractedChars": 10689,
     "extractionMethod": "body_fallback",
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
-    "lastChangedISO": "2026-10-04T00:50:51.538Z",
+    "lastChangedISO": "2026-10-04T03:52:43.611Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
@@ -8667,8 +8667,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-10-04T00:50:51.538Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.nazaha.gov.sa/News/Details?q=LDqaftYCK2agKydxrbY5fg==",
@@ -10401,8 +10400,7 @@
     "firstSeenISO": "2026-08-31T00:02:49.563Z",
     "lastChangedISO": "2026-10-04T00:37:29.181Z",
     "thinRuns": 0,
-    "pendingClassification": false,
-    "settledWithoutVerdict": "no_training_word"
+    "pendingClassification": false
   },
   {
     "sourceUrl": "https://www.sfda.gov.sa/en/career-vision-and-mission",
@@ -11064,18 +11062,18 @@
   {
     "sourceUrl": "https://www.tahakom.com/careers",
     "orgId": "tahakom",
-    "contentHash": "809b02d87d75c39f9056ddfd5e8ddff9f708fde920c51c4f54fd2f4898e0146f",
+    "contentHash": "66a1b215d71b598e5c8f4def386779d5d875b8060e2f1e761d7fed159451f4b0",
     "blockHashes": [
       "d44217251213a019",
       "611753a8aea1ade1",
       "0cea4d38306888dc",
       "1a5263a5a2541c46",
-      "e33ebf6f7a507f0c"
+      "264d6b3abc2256d1"
     ],
     "extractedChars": 838,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-09-03T05:13:40.059Z",
-    "lastChangedISO": "2026-10-04T03:14:18.154Z",
+    "lastChangedISO": "2026-10-04T04:02:02.647Z",
     "thinRuns": 0,
     "pendingClassification": false
   },
