@@ -137,7 +137,7 @@
   {
     "sourceUrl": "https://adf.gov.sa/ar/Pages/default.aspx",
     "orgId": "adf",
-    "contentHash": "4f42ff7c8711b167a885cee97d94c81ead3db8a338ca3a8a1dd74e5ef1eb045f",
+    "contentHash": "d044cadd9b59492f5e77a47a0f61dadee6e042b2b4d1554f0d588cf5ccd7dc65",
     "blockHashes": [
       "1ce798e0ca5f6070",
       "9e8708f46644e878",
@@ -145,10 +145,9 @@
       "d9fa33934fb9c265",
       "b7a4f19178b3b8a1",
       "0514128baf9c79f1",
-      "9185920f2483a42d",
-      "3ee0886e15f648b1",
-      "a8c299e3fe231123",
-      "3212e404de468c8a",
+      "f2e378c92b7af1d0",
+      "fc0e93e7476f8a7e",
+      "63153b6bc2f785d0",
       "8d0d93944a16dca7",
       "13285e8c3eb4c8ac",
       "4838bf63eca38706",
@@ -159,12 +158,13 @@
       "782261474561a27a",
       "74b06ac36e5c75b0"
     ],
-    "extractedChars": 1793,
+    "extractedChars": 1695,
     "extractionMethod": "readability",
     "firstSeenISO": "2026-08-29T19:43:17.547Z",
-    "lastChangedISO": "2026-10-03T08:37:07.900Z",
+    "lastChangedISO": "2026-10-04T01:33:14.181Z",
     "thinRuns": 0,
-    "pendingClassification": true
+    "pendingClassification": false,
+    "settledWithoutVerdict": "triaged_out"
   },
   {
     "sourceUrl": "https://adf.gov.sa/ar/Pages/employment.aspx",
